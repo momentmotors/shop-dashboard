@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T20:50:21.933031Z",
+  "updated_at": "2026-09-08T21:11:50.339975Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -263,11 +263,6 @@
               "comments": [
                 {
                   "author": "Devin DuMont",
-                  "date": "2025-10-15 21:35",
-                  "text": "Followed along with new checkout system for various PMU channels. Also reviewed inverter EEPROM and corrected where necessary. Still need to calibrate the resolver. Troubleshot major CAN1 error and opened up a ticket with Ampere. Tuned parking brakes down to shorter times. Continued improving Raptor-Service tabs. Moved checkout status from 22% to 66%"
-                },
-                {
-                  "author": "Devin DuMont",
                   "date": "2025-10-16 22:45",
                   "text": "Attempted to calibrate resolver but the inverter kept dropping the RS-232 connection when going into PWM mode. Had a spare inverter installed and flashed to the latest firmware. Combed over all EEPROM settings and now getting a CAN command message timeout error. Error message can be disabled in the inverter but the inverter is still not sending messages back out or they are getting lost before making it to the VCU and Kvaser. Started troubleshooting CAN basics again."
                 },
@@ -385,6 +380,11 @@
                   "author": "Brandon Beaman",
                   "date": "2026-09-08 20:31",
                   "text": "Adjustments based off differences pointed out by Claude.\nimage.png\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-08 21:00",
+                  "text": "Corrected all mismatch settings. Car should be good to drive now for a final test."
                 }
               ],
               "checklist_items": [
@@ -409,7 +409,7 @@
                   "resolved": true
                 }
               ],
-              "content_hash": "9e1dc3745acff98d33236308a6af14fe121e23452e6f9760975d21ad2368d02a"
+              "content_hash": "e1b510eacd70c8945728c6f3dac4e58c18e37bc207ff0ec3efb158182198b1a7"
             }
           ]
         },
@@ -2345,5 +2345,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-08T20:48:33Z"
+  "generated_at": "2026-09-08T21:10:00Z"
 }
