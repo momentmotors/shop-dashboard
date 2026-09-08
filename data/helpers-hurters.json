@@ -3,7 +3,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 37.0,
-      "pct_of_total": 12.2,
+      "pct_of_total": 11.9,
       "tasks": [
         {
           "task": "Exterior",
@@ -42,7 +42,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 35.8,
-      "pct_of_total": 11.8,
+      "pct_of_total": 11.5,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -69,7 +69,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 28.2,
-      "pct_of_total": 9.3,
+      "pct_of_total": 9.1,
       "tasks": [
         {
           "task": "Battery Pack",
@@ -96,7 +96,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 28.0,
-      "pct_of_total": 9.2,
+      "pct_of_total": 9.0,
       "tasks": [
         {
           "task": "Scanning",
@@ -127,7 +127,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 22.2,
-      "pct_of_total": 7.3,
+      "pct_of_total": 7.2,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -158,7 +158,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 18.5,
-      "pct_of_total": 6.1,
+      "pct_of_total": 5.9,
       "tasks": [
         {
           "task": "HVAC",
@@ -173,7 +173,7 @@
     {
       "project": "Krafcik 02 Caterham",
       "total_hours": 14.2,
-      "pct_of_total": 4.7,
+      "pct_of_total": 4.6,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -200,7 +200,7 @@
     {
       "project": "Richardson 72 240Z",
       "total_hours": 13.2,
-      "pct_of_total": 4.4,
+      "pct_of_total": 4.3,
       "tasks": [
         {
           "task": "Interior",
@@ -227,7 +227,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 10.2,
-      "pct_of_total": 3.4,
+      "pct_of_total": 3.3,
       "tasks": [
         {
           "task": "Exterior",
@@ -245,8 +245,8 @@
     },
     {
       "project": "Thacker 46 Woody",
-      "total_hours": 9.2,
-      "pct_of_total": 3.1,
+      "total_hours": 10.0,
+      "pct_of_total": 3.2,
       "tasks": [
         {
           "task": "Audio",
@@ -258,30 +258,30 @@
         },
         {
           "task": "Manufacturing - Product",
-          "hours": 0.2
+          "hours": 1.0
         }
       ]
     }
   ],
   "shop_work": {
-    "total_hours": 50.0,
+    "total_hours": 51.2,
     "pct_of_total": 16.5,
-    "avg_per_person_per_day": 1.04,
+    "avg_per_person_per_day": 1.07,
     "flagged": true,
     "tech_count": 8,
     "working_days": 6,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 21.2
+        "hours": 21.8
       },
       {
         "label": "Shop Meetings",
-        "hours": 17.5
+        "hours": 18.0
       },
       {
         "label": "Personal Meetings",
-        "hours": 5.8
+        "hours": 6.0
       },
       {
         "label": "Organization",
@@ -299,6 +299,17 @@
   },
   "project_hurters": [
     {
+      "project": "Ferdman 66 Bus",
+      "total_hours": 8.0,
+      "pct_of_total": 2.6,
+      "tasks": [
+        {
+          "task": "Troubleshooting",
+          "hours": 8.0
+        }
+      ]
+    },
+    {
       "project": "ICON Bronco Prototype",
       "total_hours": 3.0,
       "pct_of_total": 1.0,
@@ -306,17 +317,6 @@
         {
           "task": "Installation - Extra",
           "hours": 3.0
-        }
-      ]
-    },
-    {
-      "project": "Ferdman 66 Bus",
-      "total_hours": 2.0,
-      "pct_of_total": 0.7,
-      "tasks": [
-        {
-          "task": "Troubleshooting",
-          "hours": 2.0
         }
       ]
     },
@@ -333,10 +333,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 247.5,
-    "non_billable_hours": 55.5,
-    "pto_hours": 0.0,
-    "total_hours": 303.0
+    "billable_hours": 248.2,
+    "non_billable_hours": 62.8,
+    "pto_hours": 8.0,
+    "total_hours": 311.0
   },
-  "generated_at": "2026-09-08T22:48:41Z"
+  "generated_at": "2026-09-08T23:11:08Z"
 }

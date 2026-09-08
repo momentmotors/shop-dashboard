@@ -2,31 +2,31 @@
   "target_pct": 75,
   "current_month": {
     "month": "2026-09",
-    "productivity_pct": 81.7,
-    "billable_hours": 247.5,
-    "total_hours": 303.0,
-    "pto_hours": 0.0
+    "productivity_pct": 79.8,
+    "billable_hours": 248.2,
+    "total_hours": 319.0,
+    "pto_hours": 8.0
   },
   "comparisons": {
     "vs_last_month": {
       "label": "vs Last Month",
       "value": 70.3,
-      "delta": 11.4
+      "delta": 9.5
     },
     "vs_last_quarter": {
       "label": "vs Last Quarter Avg",
       "value": 69.7,
-      "delta": 12.0
+      "delta": 10.1
     },
     "vs_last_week": {
       "label": "vs Last Week",
       "value": 80.9,
-      "delta": 0.8
+      "delta": -1.1
     },
     "vs_target": {
       "label": "vs Target",
       "value": 75,
-      "delta": 6.7
+      "delta": 4.8
     }
   },
   "monthly": [
@@ -109,10 +109,10 @@
     },
     {
       "month": "2026-09",
-      "productivity_pct": 81.7,
-      "billable_hours": 247.5,
-      "total_hours": 303.0,
-      "pto_hours": 0.0
+      "productivity_pct": 79.8,
+      "billable_hours": 248.2,
+      "total_hours": 319.0,
+      "pto_hours": 8.0
     }
   ],
   "current_month_weeks": [
@@ -120,13 +120,13 @@
       "week": "2026-W36",
       "productivity_pct": 82.6,
       "billable_hours": 216.2,
-      "total_hours": 261.8
+      "total_hours": 269.8
     },
     {
       "week": "2026-W37",
-      "productivity_pct": 75.8,
-      "billable_hours": 31.2,
-      "total_hours": 41.2
+      "productivity_pct": 65.0,
+      "billable_hours": 32.0,
+      "total_hours": 49.2
     }
   ],
   "current_month_days": [
@@ -152,14 +152,14 @@
       "date": "2026-09-04",
       "productivity_pct": 78.9,
       "billable_hours": 45.8,
-      "total_hours": 58.0
+      "total_hours": 66.0
     },
     {
       "date": "2026-09-08",
-      "productivity_pct": 75.8,
-      "billable_hours": 31.2,
-      "total_hours": 41.2
+      "productivity_pct": 65.0,
+      "billable_hours": 32.0,
+      "total_hours": 49.2
     }
   ],
-  "generated_at": "2026-09-08T22:48:41Z"
+  "generated_at": "2026-09-08T23:11:08Z"
 }
