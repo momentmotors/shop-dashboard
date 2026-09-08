@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T22:25:01.925204Z",
+  "updated_at": "2026-09-08T22:36:35.629406Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1568,7 +1568,7 @@
         "matched_lists": [
           "Preheim 72 Blazer"
         ],
-        "open_tasks": 10
+        "open_tasks": 9
       },
       "assignees": [
         {
@@ -1724,27 +1724,6 @@
               ],
               "checklist_items": [],
               "content_hash": "1b60fa277ed74bf7dcd0e940769cc7dfc80cbf62eff3d6d6dd0b87741f254339"
-            },
-            {
-              "id": "868kzam8k",
-              "name": "Address rear hatch issues",
-              "status": "Open",
-              "list": "Preheim 72 Blazer",
-              "url": "https://app.clickup.com/t/868kzam8k",
-              "comments": [
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-03 21:58",
-                  "text": "paste_974c81e0-ff91-4758-bb8e-10d253ac00a5.jpgpaste_bbdfce5e-2ccf-4dc2-a04b-d839e8802a80.jpgpaste_763da3d3-9291-47d1-9507-d3fa43d489d5.jpgpaste_25dfa998-b3c5-496f-8b9e-3c81d51a63c6.jpgpaste_8a672560-9e37-4845-ac86-98dd9c971c3e.jpgpaste_96272a5b-7f32-4449-95c4-9504b6e3eb05.jpgpaste_c56484bf-9b6b-4453-b01b-1b8a49f2b253.jpgpaste_7f80c285-4055-4017-a9cc-64883c96f4c4.jpgpaste_2220e04f-e616-48bb-a34f-45477992f161.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-03 21:58",
-                  "text": "Rear hatch hinges arrived\nHinges inpected\nHatch struts removed\nRear hatch removed (1 bolt seized)\nOld hinges removed from hatch\nRemoved broken hardware from inside hatch frame\nDocument cracking and damage to rear hatch structure\nInstall hinges in frame\nMockup hatch back on truck\nMake adjustments to fitment and torque hardware\nReinstall hatch struts\nCheck fitment and func check"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "b1a11a37dd71d60065d68979645aca95c1b1743159bece9bb70d08ab98dc3c38"
             },
             {
               "id": "868kzahbv",
@@ -1935,9 +1914,65 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868k6ttbf",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Alex Noonan",
+                  "date": "2026-07-27 21:11",
+                  "text": "In conversations with customer on this topic. Setup needs to be confirmed before we are able to proceed."
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-03 22:06",
+                  "text": "Audio system has been spec'd and ordered.\nJL C2 components for front and rear 6\" & 6.5\"\nJL W3 slim for lows\nJL RD900-5 as amplifier"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-06 20:19",
+                  "text": "Audio arrived minus fwd speaker spacers\nTook measurements and sketched box layout for subwoofer mounting under rear bench seat\nMocked up front speakers\nMeasured for amplifier mount location"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 00:18",
+                  "text": "Headunit installed for mockup and wiring"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 00:19",
+                  "text": "1000014708.jpg1000014709.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-19 21:31",
+                  "text": "Ordered RCAs for Ritchie\nBuilt audio subharness\nChose amplifier position"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-20 19:27",
+                  "text": "Picked up RCAs for Ritchie Audio"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-25 00:53",
+                  "text": "paste_04dbeca5-398e-4049-aa83-1a092e02b518.jpgpaste_362d3eb0-7a0c-4c7e-ab58-032a685ebabf.jpgpaste_632576d7-0d34-46a1-8038-c5e8451d3f68.jpgpaste_6dbf9016-5284-452c-aad0-21bbe5c2bb39.jpgpaste_5b91a4b5-f1f6-4d25-9ce2-61b71425cb93.jpgpaste_956fe9de-345a-4a94-9d44-e604e46cbf5a.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-25 00:53",
+                  "text": "FWD speaker spacers received\nSpeakers and spacers installed in kick panels\nAmp mounting hardware position marked and nutserts installed\nAmp mocked up\nSpeaker wiring ran and secured\nRCAs ran and secured\nRemote wire ran and secured\nWiring to amplifier cut to length\nCarpet reinstalled\nHoles and slots in carpet made for wiring and bolt pass throughs\nAmplifier installed\nAmplifier wiring installed minus power and ground\nKick panels installed and wiring to fwd speakers finished\nKick panels tapped for retainment hardware and installed"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-02 18:01",
+                  "text": "Order replacement radio mounting bezel\nMake support bar for back of radio"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-02 19:26",
+                  "text": "Power and ground amplifier wiring ran"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "d7872d4902746774cea8e7a57c66ebc49fcc4ad91f595624ef93e2354cd44fdc"
+              "content_hash": "1403f5c826a32016981f3a3ec821c97557cb26d9bace8f8ddea48bf15309099e"
             },
             {
               "id": "868kpg6th",
@@ -2345,5 +2380,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-08T22:23:26Z"
+  "generated_at": "2026-09-08T22:35:00Z"
 }
