@@ -38,21 +38,25 @@
             "done": false
           },
           {
+            "text": "2026-09-07: Parking brake current feedback should be enabled and tuned.",
+            "done": false
+          },
+          {
             "text": "2026-08-07: Temperature Gauge Might Not Be Working.\n2026-08-10: Resolved. Noah fixed the temperature gauge back in January.",
             "done": true
           },
           {
-            "text": "2026-07-xx: Flash Connolly with 1.7.9\n2026-08-07: Flashed 1.8.14 with AWD mods.",
-            "done": true
+            "text": "2026-07-xx: Flash Connolly with 1.7.9\n2026-08-07: Flashed VCU firmware version 1.8.14.\n2026-09-07: The VCU should be brought up to the latest firmware version.",
+            "done": false
           },
           {
             "text": "2026-07-xx: DisplayDashGUI_SettingsMsgTimeout seems to appear often.",
             "done": false
           }
         ],
-        "total": 4,
-        "done": 2,
-        "open": 2
+        "total": 5,
+        "done": 1,
+        "open": 4
       }
     },
     {
@@ -354,13 +358,17 @@
             "done": false
           },
           {
+            "text": "The parking brake settings can reset under certain firmware flash settings, this one may have changed and needs the tune reviewed.\r\nFrom the PMU software I saw PMU CAN2 (VCU CAN1) flash red, this means there are error frames while simply sitting at idle.\r\nNot on the latest VCU firmware, did notice some options wrong. (cooling plate, not sure what that actually changes. Perhaps others are wrong though)",
+            "done": false
+          },
+          {
             "text": "590 12s PCB+ivt",
             "done": false
           }
         ],
-        "total": 3,
+        "total": 4,
         "done": 0,
-        "open": 3
+        "open": 4
       }
     },
     {
@@ -1735,6 +1743,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-09-07T23:13:39.520030+00:00",
+  "updated": "2026-09-08T23:13:26.384358+00:00",
   "source": "Google Sheets API"
 }
