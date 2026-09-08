@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T20:27:57.047955Z",
+  "updated_at": "2026-09-08T20:38:42.334659Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -263,11 +263,6 @@
               "comments": [
                 {
                   "author": "Devin DuMont",
-                  "date": "2025-10-13 22:27",
-                  "text": "Fully ran through the new PDM checkout process as best possible, will need to rework. Diag for the speedo and CAN1 errors. Will need to investigate further."
-                },
-                {
-                  "author": "Devin DuMont",
                   "date": "2025-10-15 21:35",
                   "text": "Followed along with new checkout system for various PMU channels. Also reviewed inverter EEPROM and corrected where necessary. Still need to calibrate the resolver. Troubleshot major CAN1 error and opened up a ticket with Ampere. Tuned parking brakes down to shorter times. Continued improving Raptor-Service tabs. Moved checkout status from 22% to 66%"
                 },
@@ -385,6 +380,11 @@
                   "author": "Brandon Beaman",
                   "date": "2026-09-08 19:23",
                   "text": "Ajusted Launch Gain to 50 before taking a SS. Knew this setting was going to need to be updated after VCU upgrade"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-08 20:31",
+                  "text": "Adjustments based off differences pointed out by Claude.\nimage.png\nimage.png"
                 }
               ],
               "checklist_items": [
@@ -409,7 +409,7 @@
                   "resolved": true
                 }
               ],
-              "content_hash": "7aac14f4eb3557fcfa14ca78dbed7962f4b91f237cd841d7ffe6d82faf2b877c"
+              "content_hash": "9e1dc3745acff98d33236308a6af14fe121e23452e6f9760975d21ad2368d02a"
             }
           ]
         },
@@ -2345,5 +2345,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-08T20:26:02Z"
+  "generated_at": "2026-09-08T20:37:12Z"
 }
