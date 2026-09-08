@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T19:23:37.200464Z",
+  "updated_at": "2026-09-08T19:36:49.975936Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -262,11 +262,6 @@
               "url": "https://app.clickup.com/t/868exjqjc",
               "comments": [
                 {
-                  "author": "Jordan Jones",
-                  "date": "2025-09-12 23:30",
-                  "text": "Tested different resistances on PRD buttons. Currently 2K installed.\nWith 2K - LEDs completely off\nWith 0K (disconnected) - All LEDs completely on\n5K - dim, very slight difference between 'selected' and non-selected.\n10K - mostly bright, slight difference between selected and non-selected."
-                },
-                {
                   "author": "Devin DuMont",
                   "date": "2025-10-13 22:27",
                   "text": "Fully ran through the new PDM checkout process as best possible, will need to rework. Diag for the speedo and CAN1 errors. Will need to investigate further."
@@ -385,6 +380,11 @@
                   "author": "Brandon Beaman",
                   "date": "2026-09-08 19:22",
                   "text": "Post Flash\nimage.png\nimage.png\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-08 19:23",
+                  "text": "Ajusted Launch Gain to 50 before taking a SS. Knew this setting was going to need to be updated after VCU upgrade"
                 }
               ],
               "checklist_items": [
@@ -409,7 +409,7 @@
                   "resolved": true
                 }
               ],
-              "content_hash": "f6442526ee64501990513011464c3a1751a153409de6916f664d66b0978305da"
+              "content_hash": "7aac14f4eb3557fcfa14ca78dbed7962f4b91f237cd841d7ffe6d82faf2b877c"
             }
           ]
         },
@@ -2345,5 +2345,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-08T19:22:00Z"
+  "generated_at": "2026-09-08T19:35:13Z"
 }
