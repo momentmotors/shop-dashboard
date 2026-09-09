@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T05:49:50.120106Z",
+  "updated_at": "2026-09-09T06:23:55.295276Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1852,20 +1852,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868hbnnhz",
-              "comments": [
-                {
-                  "author": "Alex Noonan",
-                  "date": "2026-07-27 21:10",
-                  "text": "Need to start up vehicle first"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-09 03:15",
-                  "text": "test drove checking the DS bolts\nhave some vibration but it goes away after 65\nwill need the balance the tires"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "4f32e84d8c80a853072406569487503d2c855dd35d922af72596410e6885338e"
+              "content_hash": "3171a318632a0fe1c991f4e58f9902e494db2e3c43a879ff3508158c6dc77e07"
             },
             {
               "id": "868hbnfk6",
@@ -1873,25 +1862,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868hbnfk6",
-              "comments": [
-                {
-                  "author": "Alex Noonan",
-                  "date": "2026-07-27 21:07",
-                  "text": "Waiting on Marshall to design GUI mount. He is currently address more pressing matters to prevent stalled progress on other projects. This part is not needed to get vehicle driving."
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-11 02:07",
-                  "text": "talkIng with Alex and Marshal"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-04 21:53",
-                  "text": "Mounts came in test fit them\ncovered the back plate\n220F0C9E-9B5A-4BBF-A818-01247900880C_1_105_c.jpeg"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "f3ff5589ea57ccad2fd1b8fedd0e05ca1389b75f0f67cf0a23091e24f118afb1"
+              "content_hash": "cd0bc0ea600491b4fbceb878cf61aef187e2e4fddcd0748dca6bd53811d1287d"
             },
             {
               "id": "868kmp9tm",
@@ -2422,5 +2395,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-09T05:48:21Z"
+  "generated_at": "2026-09-09T06:22:18Z"
 }
