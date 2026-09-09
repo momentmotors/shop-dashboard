@@ -3,7 +3,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 38.5,
-      "pct_of_total": 11.3,
+      "pct_of_total": 11.2,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -42,7 +42,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 35.8,
-      "pct_of_total": 10.5,
+      "pct_of_total": 10.4,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -69,7 +69,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 33.0,
-      "pct_of_total": 9.7,
+      "pct_of_total": 9.6,
       "tasks": [
         {
           "task": "Scanning",
@@ -104,7 +104,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 28.2,
-      "pct_of_total": 8.3,
+      "pct_of_total": 8.2,
       "tasks": [
         {
           "task": "Battery Pack",
@@ -131,7 +131,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 22.2,
-      "pct_of_total": 6.6,
+      "pct_of_total": 6.5,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -162,7 +162,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 18.5,
-      "pct_of_total": 5.5,
+      "pct_of_total": 5.4,
       "tasks": [
         {
           "task": "HVAC",
@@ -177,7 +177,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 18.0,
-      "pct_of_total": 5.3,
+      "pct_of_total": 5.2,
       "tasks": [
         {
           "task": "Audio",
@@ -230,7 +230,7 @@
     },
     {
       "project": "Krafcik 02 Caterham",
-      "total_hours": 14.2,
+      "total_hours": 14.5,
       "pct_of_total": 4.2,
       "tasks": [
         {
@@ -252,6 +252,10 @@
         {
           "task": "Cooling",
           "hours": 0.5
+        },
+        {
+          "task": "Battery Pack",
+          "hours": 0.2
         }
       ]
     },
@@ -276,20 +280,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 57.0,
+    "total_hours": 57.5,
     "pct_of_total": 16.8,
-    "avg_per_person_per_day": 1.02,
+    "avg_per_person_per_day": 1.03,
     "flagged": true,
     "tech_count": 8,
     "working_days": 7,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 23.5
+        "hours": 23.8
       },
       {
         "label": "Shop Meetings",
-        "hours": 19.8
+        "hours": 20.0
       },
       {
         "label": "Personal Meetings",
@@ -312,12 +316,12 @@
   "project_hurters": [
     {
       "project": "Ferdman 66 Bus",
-      "total_hours": 8.0,
-      "pct_of_total": 2.4,
+      "total_hours": 11.2,
+      "pct_of_total": 3.3,
       "tasks": [
         {
           "task": "Troubleshooting",
-          "hours": 8.0
+          "hours": 11.2
         }
       ]
     },
@@ -356,10 +360,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 268.8,
-    "non_billable_hours": 70.5,
+    "billable_hours": 269.0,
+    "non_billable_hours": 74.2,
     "pto_hours": 8.0,
-    "total_hours": 339.2
+    "total_hours": 343.2
   },
-  "generated_at": "2026-09-09T17:23:27Z"
+  "generated_at": "2026-09-09T17:35:18Z"
 }
