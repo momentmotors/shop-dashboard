@@ -42,7 +42,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 35.8,
-      "pct_of_total": 10.9,
+      "pct_of_total": 10.8,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -171,6 +171,33 @@
       ]
     },
     {
+      "project": "Thacker 46 Woody",
+      "total_hours": 18.0,
+      "pct_of_total": 5.5,
+      "tasks": [
+        {
+          "task": "Audio",
+          "hours": 6.0
+        },
+        {
+          "task": "Exterior",
+          "hours": 5.0
+        },
+        {
+          "task": "Wiring - OEM",
+          "hours": 4.0
+        },
+        {
+          "task": "Brakes",
+          "hours": 2.0
+        },
+        {
+          "task": "Manufacturing - Product",
+          "hours": 1.0
+        }
+      ]
+    },
+    {
       "project": "Richardson 72 240Z",
       "total_hours": 17.8,
       "pct_of_total": 5.4,
@@ -194,33 +221,6 @@
         {
           "task": "Audio",
           "hours": 0.5
-        }
-      ]
-    },
-    {
-      "project": "Thacker 46 Woody",
-      "total_hours": 17.2,
-      "pct_of_total": 5.2,
-      "tasks": [
-        {
-          "task": "Audio",
-          "hours": 5.2
-        },
-        {
-          "task": "Exterior",
-          "hours": 5.0
-        },
-        {
-          "task": "Wiring - OEM",
-          "hours": 4.0
-        },
-        {
-          "task": "Brakes",
-          "hours": 2.0
-        },
-        {
-          "task": "Manufacturing - Product",
-          "hours": 1.0
         }
       ]
     },
@@ -341,10 +341,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 261.5,
+    "billable_hours": 262.2,
     "non_billable_hours": 67.2,
     "pto_hours": 8.0,
-    "total_hours": 328.8
+    "total_hours": 329.5
   },
-  "generated_at": "2026-09-09T13:48:15Z"
+  "generated_at": "2026-09-09T14:12:41Z"
 }
