@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T22:36:52.495556Z",
+  "updated_at": "2026-09-09T22:50:23.888182Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -563,10 +563,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-09-02 22:59",
                   "text": "Rear door latches: Took off the door panels and removed the latch mechanisms. Noticed the lower latches were not functioning properly. 3 hours @Alex Noonan\nFront door has a broken internal mechanism, the lower door barely moves. Not worth repairing, have ordered a new mechanism.\nRear door had two issues that have been resolved.\nInterior self-tapper was interfering with the latching arm mechanism.\nOne of the retaining screws on the arm was loose and catching."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-09-09 22:42",
+                  "text": "Received door parts.\nInstalled front rear door latch: Latch functioning, however the 'tab' of the locking arm not engaging with the bottom lock. Attempted to adjust bottom lock divot, no luck.\nRemoved and re-shaped to allow for proper engagement.\nNote: Door has been re-welded and worked on at some point, requiring the arm to be bent. Found the sweet spot after lots of trial and error.\nRe-shaped striker to better engage with rear fore/aft new door latch mechanism.\nReinstalled door panels and tested. Functioning as intended.\nNote: Due to previous bodywork, light pressure is required on the middle of door when closing to allow all three points to engage (top middle center). Prior to work performed, only top and center were engaging.\nFurther note: Rear door lock mechanism was broken prior. Now functional, new keys on keyring."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "49934429b70a4de10cc6afaeeed3595b76e4dfec931d6c1a1726abc5b8a1089f"
+              "content_hash": "729d60f8cb7476372128f44f582d9788e5bd8f8d5babe6ec2506ff613a3adca7"
             },
             {
               "id": "868k7em0v",
@@ -725,10 +730,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-09-08 23:08",
                   "text": "Measured and cutout hole for fender radiator.\nNutserted fender for cover installation.\nMock-installed radiator and made multiple measurements for contoured cuts.\nMoved vehicle in and out a few times."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-09-09 22:44",
+                  "text": "Made final adjustments to all pieces after test fitting.\nNutserted top-bottom mount holes for ease of installation.\nMarked and drilled mounting holes.\nRan and marked radiator inlet hose.\nPunched hole in tray for inlet.\nRan and marked radiator outlet hose.\nApplied 3 coats of rollbar paint to all parts. Will install in AM."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "bdff067cdef5c542d73dee7d62ecb5101142060c0da613cf7fd3c9710af3ef34"
+              "content_hash": "c9eb56b24301cf043af93da9e6809637019e580c9338a520eed7227a9b68b63c"
             },
             {
               "id": "868kyqvgr",
@@ -2320,5 +2330,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-09T22:35:17Z"
+  "generated_at": "2026-09-09T22:48:39Z"
 }
