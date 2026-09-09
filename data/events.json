@@ -21,7 +21,7 @@
         {
           "date": "2026-09-08",
           "day_name": "Tuesday",
-          "is_today": true,
+          "is_today": false,
           "is_weekend": false,
           "events": [
             {
@@ -34,7 +34,7 @@
         {
           "date": "2026-09-09",
           "day_name": "Wednesday",
-          "is_today": false,
+          "is_today": true,
           "is_weekend": false,
           "events": [
             {
@@ -291,5 +291,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-08T23:48:51Z"
+  "generated_at": "2026-09-09T00:35:00Z"
 }
