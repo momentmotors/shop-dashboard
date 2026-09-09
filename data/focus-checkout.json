@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T13:42:01.939210Z",
+  "updated_at": "2026-09-09T13:49:58.452590Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1351,6 +1351,16 @@
                   "author": "Brandon Beaman",
                   "date": "2026-09-03 23:08",
                   "text": "Messaged Ryan to acquire the Wifi Credentials.\nWifi creds gathered. Notified Devin to upload creds to the logger.\nUploaded the vehicle weight and gear ratio into the VCU. Left the parameters on Display since the vehicle has been working well and as intended at this time.\nAddressed CAN 3 termination issue. Missing term resistor. Added a removable term resistor at the OBD port.\nSpoke to Marc about updating the GUI. We decided that we should leave it as is to prevent any possible failures on a complete car."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-09 13:44",
+                  "text": "Pre Flash\nimage.png\nimage.png\nimage.png\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-09 13:48",
+                  "text": "image.png"
                 }
               ],
               "checklist_items": [
@@ -1395,7 +1405,7 @@
                   "resolved": false
                 }
               ],
-              "content_hash": "cc4be81c95eaf1a58e4d25f567bb40abb78da5e62f6b69d3c1005d9a49765e33"
+              "content_hash": "d96220247873608f0d555a52ed4f10fc645fe87774b7b18c7a212f0220619079"
             }
           ]
         },
@@ -2395,5 +2405,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-09T13:40:15Z"
+  "generated_at": "2026-09-09T13:48:15Z"
 }
