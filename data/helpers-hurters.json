@@ -3,7 +3,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 40.5,
-      "pct_of_total": 11.4,
+      "pct_of_total": 11.3,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -40,9 +40,44 @@
       ]
     },
     {
+      "project": "Hopkins 65 Silver Cloud",
+      "total_hours": 36.0,
+      "pct_of_total": 10.0,
+      "tasks": [
+        {
+          "task": "Scanning",
+          "hours": 12.0
+        },
+        {
+          "task": "Wiring - OEM",
+          "hours": 6.0
+        },
+        {
+          "task": "Instrumentation",
+          "hours": 5.0
+        },
+        {
+          "task": "Inspection",
+          "hours": 5.0
+        },
+        {
+          "task": "Steering",
+          "hours": 4.0
+        },
+        {
+          "task": "Interior",
+          "hours": 2.0
+        },
+        {
+          "task": "Combustion Drivetrain",
+          "hours": 2.0
+        }
+      ]
+    },
+    {
       "project": "LB 82 911",
       "total_hours": 35.8,
-      "pct_of_total": 10.1,
+      "pct_of_total": 10.0,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -67,44 +102,9 @@
       ]
     },
     {
-      "project": "Hopkins 65 Silver Cloud",
-      "total_hours": 33.0,
-      "pct_of_total": 9.3,
-      "tasks": [
-        {
-          "task": "Scanning",
-          "hours": 12.0
-        },
-        {
-          "task": "Instrumentation",
-          "hours": 5.0
-        },
-        {
-          "task": "Inspection",
-          "hours": 5.0
-        },
-        {
-          "task": "Steering",
-          "hours": 4.0
-        },
-        {
-          "task": "Wiring - OEM",
-          "hours": 3.0
-        },
-        {
-          "task": "Interior",
-          "hours": 2.0
-        },
-        {
-          "task": "Combustion Drivetrain",
-          "hours": 2.0
-        }
-      ]
-    },
-    {
       "project": "Lee 68 Mustang",
       "total_hours": 28.2,
-      "pct_of_total": 8.0,
+      "pct_of_total": 7.9,
       "tasks": [
         {
           "task": "Battery Pack",
@@ -131,7 +131,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 23.8,
-      "pct_of_total": 6.7,
+      "pct_of_total": 6.6,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -235,7 +235,7 @@
     {
       "project": "Krafcik 02 Caterham",
       "total_hours": 14.5,
-      "pct_of_total": 4.1,
+      "pct_of_total": 4.0,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -284,20 +284,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 60.5,
-    "pct_of_total": 17.1,
-    "avg_per_person_per_day": 1.08,
+    "total_hours": 61.5,
+    "pct_of_total": 17.2,
+    "avg_per_person_per_day": 1.1,
     "flagged": true,
     "tech_count": 8,
     "working_days": 7,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 25.0
+        "hours": 25.5
       },
       {
         "label": "Shop Meetings",
-        "hours": 20.5
+        "hours": 21.0
       },
       {
         "label": "Personal Meetings",
@@ -321,7 +321,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 11.2,
-      "pct_of_total": 3.2,
+      "pct_of_total": 3.1,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -364,10 +364,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 277.0,
-    "non_billable_hours": 77.2,
+    "billable_hours": 280.0,
+    "non_billable_hours": 78.2,
     "pto_hours": 8.0,
-    "total_hours": 354.2
+    "total_hours": 358.2
   },
-  "generated_at": "2026-09-09T19:09:48Z"
+  "generated_at": "2026-09-09T19:21:21Z"
 }
