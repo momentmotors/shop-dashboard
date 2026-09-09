@@ -3,7 +3,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 40.5,
-      "pct_of_total": 11.5,
+      "pct_of_total": 11.4,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -69,7 +69,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 33.0,
-      "pct_of_total": 9.4,
+      "pct_of_total": 9.3,
       "tasks": [
         {
           "task": "Scanning",
@@ -130,12 +130,16 @@
     },
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 22.2,
-      "pct_of_total": 6.3,
+      "total_hours": 23.8,
+      "pct_of_total": 6.7,
       "tasks": [
         {
           "task": "Manufacturing - Product",
           "hours": 8.2
+        },
+        {
+          "task": "HVAC",
+          "hours": 4.5
         },
         {
           "task": "Charging",
@@ -143,10 +147,6 @@
         },
         {
           "task": "Cooling",
-          "hours": 3.0
-        },
-        {
-          "task": "HVAC",
           "hours": 3.0
         },
         {
@@ -285,7 +285,7 @@
   ],
   "shop_work": {
     "total_hours": 60.5,
-    "pct_of_total": 17.2,
+    "pct_of_total": 17.1,
     "avg_per_person_per_day": 1.08,
     "flagged": true,
     "tech_count": 8,
@@ -364,10 +364,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 275.5,
+    "billable_hours": 277.0,
     "non_billable_hours": 77.2,
     "pto_hours": 8.0,
-    "total_hours": 352.8
+    "total_hours": 354.2
   },
-  "generated_at": "2026-09-09T18:48:17Z"
+  "generated_at": "2026-09-09T19:09:48Z"
 }
