@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T19:50:13.266343Z",
+  "updated_at": "2026-09-09T20:14:04.235743Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -263,11 +263,6 @@
               "comments": [
                 {
                   "author": "Devin DuMont",
-                  "date": "2025-10-20 21:28",
-                  "text": "Re-tested for the inverter CAN issue. All fixed. Calibrated resolver and updated sheet."
-                },
-                {
-                  "author": "Devin DuMont",
                   "date": "2025-10-21 23:23",
                   "text": "Verified old inverter serial no. 59 had all the correct EEPROM setting and that the noise problem still exists. It does, that inverter needs to be returned."
                 },
@@ -385,6 +380,11 @@
                   "author": "Brandon Beaman",
                   "date": "2026-09-09 17:21",
                   "text": "Progress Report \u2014 Parking Brake EStopp Actuator Current Analysis\nDate: 9/9/2026 System: VCM_517 \u2014 Parking Brake / EStopp Pawl Actuator Logged by: Brandon Beaman\nSummary\nReviewed five Raptor-Cal test logs of the parking brake pawl actuator (PrkPwlO15) to characterize peak current draw against actuator timing calibration and identify any correlation worth flagging for calibration tuning.\nWork Performed\nPulled and parsed five sequential VCM_517 Parking Brake logs (11:47:16, 11:51:09, 11:54:52, 12:00:45, 12:08:36) for the measured actuator current channel (PrkPwlO15_P27_Measured_Current) and the EStopp actuator timing calibration fields (PrkActMnTime_EStopp, PrkActMxTime_EStopp, PrkActReleaseTime_EStopp).\nExtracted peak current draw and its timestamp from each log.\nCross-referenced peak draw against each log's actuation timing setpoints to check for a relationship between calibration and real-world current pull.\nCompiled a comparison table and written analysis of findings (delivered as a standalone report, both Markdown and PDF).\nFindings\n\nundefined\nAcross Logs 1\u20134, shortening either the min or max actuation time window was associated with a higher peak current pull \u2014 a preliminary pattern worth further testing.\nLog 5 breaks that pattern: it shares identical timing calibration with Log 4 (Min 4.250 s / Max 6.000 s / Release 3.500 s) but produced the highest peak draw of the whole set (12.25 A vs. Log 4's 10.25 A) \u2014 a 2 A swing with no calibration change. This points to run-to-run mechanical/electrical variability rather than a purely timing-driven effect, and suggests more repeat runs at fixed timing are needed before drawing conclusions.\nRelease Time was held constant (3.500 s) across all five tests and was not a variable in this data set.\nNext Steps / Open Items\nRun repeat tests at fixed timing calibration (e.g., hold Log 4/5's settings) to quantify normal run-to-run variance in peak draw before attributing changes to calibration.\nOnce variance is characterized, revisit the min/max actuation time trend with a larger sample to confirm or rule it out.\n\nSide Note:\nIt looks / feels like its more dependent on how much pedal pressure is being applied when the vehicle is commanded to go into park. If you have just enough pedal in it to prevent the vehicle from rolling the Amp draw is higher. If you're heavy in the pedal then the amp draw is lower.\nThis might make the current based engagement unreliable. Set it low enough to not throw a flag based on pedal pressure then you may end up with a light engagement.\nPlace it high enough to reach the max amp draw you may get a GML because the end user was holding the brake pedal harder when going into park."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-09 20:02",
+                  "text": "image.png\nimage.png\nimage.png\nE-Stopp Amperage Findings. Everything seems to be operating as normal if not a bit above normal / expected."
                 }
               ],
               "checklist_items": [
@@ -409,7 +409,7 @@
                   "resolved": true
                 }
               ],
-              "content_hash": "3b440aa0dea1ec1639f7e618117e4cf281f011f915f20083a46143ccb231831e"
+              "content_hash": "43546c2ea23685659a5be822aa65600add4afebe3f206179885522bc8393eb26"
             }
           ]
         },
@@ -2436,5 +2436,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-09T19:48:17Z"
+  "generated_at": "2026-09-09T20:12:24Z"
 }
