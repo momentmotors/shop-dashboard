@@ -3,7 +3,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 38.5,
-      "pct_of_total": 11.4,
+      "pct_of_total": 11.3,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -42,7 +42,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 35.8,
-      "pct_of_total": 10.6,
+      "pct_of_total": 10.5,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -69,7 +69,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 33.0,
-      "pct_of_total": 9.8,
+      "pct_of_total": 9.7,
       "tasks": [
         {
           "task": "Scanning",
@@ -104,7 +104,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 28.2,
-      "pct_of_total": 8.4,
+      "pct_of_total": 8.3,
       "tasks": [
         {
           "task": "Battery Pack",
@@ -204,7 +204,7 @@
     {
       "project": "Richardson 72 240Z",
       "total_hours": 17.8,
-      "pct_of_total": 5.3,
+      "pct_of_total": 5.2,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -276,10 +276,10 @@
     }
   ],
   "shop_work": {
-    "total_hours": 55.8,
-    "pct_of_total": 16.6,
-    "avg_per_person_per_day": 1.0,
-    "flagged": false,
+    "total_hours": 57.0,
+    "pct_of_total": 16.8,
+    "avg_per_person_per_day": 1.02,
+    "flagged": true,
     "tech_count": 8,
     "working_days": 7,
     "breakdown": [
@@ -289,11 +289,11 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 19.2
+        "hours": 19.8
       },
       {
         "label": "Personal Meetings",
-        "hours": 7.5
+        "hours": 8.2
       },
       {
         "label": "Organization",
@@ -356,10 +356,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 267.2,
-    "non_billable_hours": 69.2,
+    "billable_hours": 268.8,
+    "non_billable_hours": 70.5,
     "pto_hours": 8.0,
-    "total_hours": 336.5
+    "total_hours": 339.2
   },
-  "generated_at": "2026-09-09T15:40:13Z"
+  "generated_at": "2026-09-09T15:48:34Z"
 }
