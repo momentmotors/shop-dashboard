@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T11:50:02.521468Z",
+  "updated_at": "2026-09-09T12:20:22.011130Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1418,20 +1418,10 @@
     },
     {
       "owner": "Miner",
-      "vehicle": {
-        "owner": "Miner",
-        "year": 1995,
-        "color": "Green",
-        "make": "Porsche",
-        "model": "993",
-        "status": "Testing",
-        "checkout": 90.1,
-        "sub_metrics": [],
-        "system": "AEM"
-      },
+      "vehicle": null,
       "clickup_match": {
         "found": false,
-        "error": "no_match"
+        "error": "no_vehicle"
       },
       "assignees": []
     },
@@ -2395,5 +2385,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-09T11:48:34Z"
+  "generated_at": "2026-09-09T12:18:51Z"
 }
