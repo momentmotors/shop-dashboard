@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T14:42:33.474332Z",
+  "updated_at": "2026-09-09T14:50:35.225530Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -939,9 +939,106 @@
         "matched_lists": [
           "Kelly 63 Corvette"
         ],
-        "open_tasks": 8
+        "open_tasks": 9
       },
       "assignees": [
+        {
+          "name": "Noah Sharif",
+          "tasks": [
+            {
+              "id": "868k2w2gy",
+              "name": "Install front battery lid",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868k2w2gy",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "25977cfdfe0fd6dc5303338eb465f4ded373d84fa04ebe79c10f1e716c4899e4"
+            },
+            {
+              "id": "868ku38p2",
+              "name": "Troubleshoot parking brake issue",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868ku38p2",
+              "comments": [
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-08-19 18:51",
+                  "text": "I checked the issue, and could only get the parking brake to not engage, when turning the car off when in neutral, which is not what was described in slack. We are now waiting for a can logger upload to get Claude on it."
+                },
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-08-19 18:52",
+                  "text": "https://t9011243300.p.clickup-attachments.com/t9011243300/f5109632-86cd-4272-be54-2165e6045e64/1000027692.mp4?view=open"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "21712878cf48fa925b4e96bb0c05494b43314d03f01be7b4f9d79f1525a7e72e"
+            },
+            {
+              "id": "868kwnwyc",
+              "name": "Troubleshoot steering column issue",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868kwnwyc",
+              "comments": [
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-08-25 19:33",
+                  "text": "3.5 hours testing to find the issue, removal of the steering column, then separating them and checking, I've ordered m8 set screws to install in the motor to ididit part. Waiting until parts arrive to continue."
+                },
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-08-26 11:31",
+                  "text": "https://t9011243300.p.clickup-attachments.com/t9011243300/677ea097-d7a5-4cf0-9f25-a0160f4162ad/paste_58310b22-00ef-49ae-8e0f-8d40ec44c88f.mp4?view=openpaste_69faf861-5dfd-48dd-8f68-cbe6a67db40b.jpg"
+                },
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-08-27 12:26",
+                  "text": "Drilled the IDIDIT housing to allow set screw install. Reassembled the powered steering column, and tested it, the wobble that could be felt is gone, but the whole assembly wiggles on the outside, I'm going to show Alex before proceeding."
+                },
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-08-27 19:30",
+                  "text": "paste_6227316a-2918-455f-a657-79b182023360.jpg"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-28 04:35",
+                  "text": "made a bushing for the column\npressed it into place\nclearance the adapter and pressed it on\nready for assembly\ni will hand off tomorrow to Noah\nit should make a big difference on the column retention\nIMG_1988.jpeg\nIMG_1987.jpeg"
+                },
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-08-28 18:36",
+                  "text": "Assembled the steering column back together, i had to turn down the 6mm m8 set screws to about 3mm long. Got everything assembled and we are set for reinstall. I had both Billy and Alex check the operation by hand on the bench, and all 3 of us are happy with the improvement. So on Monday I will Install the part and see what it feels like in the car!."
+                },
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-08-28 18:37",
+                  "text": "It should be about 2-3 hours on Monday to get the car reassembled. So keep that in mind, But we should be done once those hours are added to what i have in today, and the past."
+                },
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-08-28 20:33",
+                  "text": "paste_4545af43-412d-48ef-98e8-711128eca13d.jpgpaste_e4915fb6-68ba-451f-85b1-d7602bb53f52.jpgpaste_6a94db28-b295-4d4f-a0e7-a70c1e26cedc.jpgpaste_55e4bdbf-304a-4c44-a338-221292cf4f23.jpgpaste_e878ac98-1b7c-4875-a3cc-67f41b0a490d.jpgpaste_37cb4507-e89e-4d08-988d-2d1cba8b8139.jpgpaste_389d0a1b-18a2-4dde-8189-33e1b8a760b5.jpgpaste_51997b53-d9c6-4b41-aa8a-012d789579b3.jpg"
+                },
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-09-01 16:25",
+                  "text": "Reinstalled the steering column, Tighten all hardware on the shaft itself. It feels better then before, but still clicks a little from telescoping D-shafts. I have gotten this et of hardware the best i can, if we want it feeling better, then we will need to replace basically the enter system to a power rack from flaming river, and then give it an epas power steering pump."
+                },
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-09-01 16:28",
+                  "text": "paste_a7166cd7-5ac8-404c-b241-697c1dec45e4.jpg"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "25bbbf7c1a92bd65c47d6faf2cae88952288fc456f33995c210216049a2a4630"
+            }
+          ]
+        },
         {
           "name": "Devin DuMont",
           "tasks": [
@@ -986,42 +1083,6 @@
               ],
               "checklist_items": [],
               "content_hash": "fb74196e160f40fe24914798e18bf8833684528582cce3cb1827fb5bdd8ab7e9"
-            }
-          ]
-        },
-        {
-          "name": "Noah Sharif",
-          "tasks": [
-            {
-              "id": "868k2w2gy",
-              "name": "Install front battery lid",
-              "status": "Open",
-              "list": "Kelly 63 Corvette",
-              "url": "https://app.clickup.com/t/868k2w2gy",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "25977cfdfe0fd6dc5303338eb465f4ded373d84fa04ebe79c10f1e716c4899e4"
-            },
-            {
-              "id": "868ku38p2",
-              "name": "Troubleshoot parking brake issue",
-              "status": "Open",
-              "list": "Kelly 63 Corvette",
-              "url": "https://app.clickup.com/t/868ku38p2",
-              "comments": [
-                {
-                  "author": "Noah Sharif",
-                  "date": "2026-08-19 18:51",
-                  "text": "I checked the issue, and could only get the parking brake to not engage, when turning the car off when in neutral, which is not what was described in slack. We are now waiting for a can logger upload to get Claude on it."
-                },
-                {
-                  "author": "Noah Sharif",
-                  "date": "2026-08-19 18:52",
-                  "text": "https://t9011243300.p.clickup-attachments.com/t9011243300/f5109632-86cd-4272-be54-2165e6045e64/1000027692.mp4?view=open"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "21712878cf48fa925b4e96bb0c05494b43314d03f01be7b4f9d79f1525a7e72e"
             }
           ]
         },
@@ -1944,65 +2005,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868k6ttbf",
-              "comments": [
-                {
-                  "author": "Alex Noonan",
-                  "date": "2026-07-27 21:11",
-                  "text": "In conversations with customer on this topic. Setup needs to be confirmed before we are able to proceed."
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-03 22:06",
-                  "text": "Audio system has been spec'd and ordered.\nJL C2 components for front and rear 6\" & 6.5\"\nJL W3 slim for lows\nJL RD900-5 as amplifier"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-06 20:19",
-                  "text": "Audio arrived minus fwd speaker spacers\nTook measurements and sketched box layout for subwoofer mounting under rear bench seat\nMocked up front speakers\nMeasured for amplifier mount location"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-18 00:18",
-                  "text": "Headunit installed for mockup and wiring"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-18 00:19",
-                  "text": "1000014708.jpg1000014709.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-19 21:31",
-                  "text": "Ordered RCAs for Ritchie\nBuilt audio subharness\nChose amplifier position"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-20 19:27",
-                  "text": "Picked up RCAs for Ritchie Audio"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-25 00:53",
-                  "text": "paste_04dbeca5-398e-4049-aa83-1a092e02b518.jpgpaste_362d3eb0-7a0c-4c7e-ab58-032a685ebabf.jpgpaste_632576d7-0d34-46a1-8038-c5e8451d3f68.jpgpaste_6dbf9016-5284-452c-aad0-21bbe5c2bb39.jpgpaste_5b91a4b5-f1f6-4d25-9ce2-61b71425cb93.jpgpaste_956fe9de-345a-4a94-9d44-e604e46cbf5a.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-25 00:53",
-                  "text": "FWD speaker spacers received\nSpeakers and spacers installed in kick panels\nAmp mounting hardware position marked and nutserts installed\nAmp mocked up\nSpeaker wiring ran and secured\nRCAs ran and secured\nRemote wire ran and secured\nWiring to amplifier cut to length\nCarpet reinstalled\nHoles and slots in carpet made for wiring and bolt pass throughs\nAmplifier installed\nAmplifier wiring installed minus power and ground\nKick panels installed and wiring to fwd speakers finished\nKick panels tapped for retainment hardware and installed"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-02 18:01",
-                  "text": "Order replacement radio mounting bezel\nMake support bar for back of radio"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-02 19:26",
-                  "text": "Power and ground amplifier wiring ran"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "1403f5c826a32016981f3a3ec821c97557cb26d9bace8f8ddea48bf15309099e"
+              "content_hash": "d7872d4902746774cea8e7a57c66ebc49fcc4ad91f595624ef93e2354cd44fdc"
             },
             {
               "id": "868kpg6th",
@@ -2410,5 +2415,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-09T14:40:52Z"
+  "generated_at": "2026-09-09T14:48:55Z"
 }
