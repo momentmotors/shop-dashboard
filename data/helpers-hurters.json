@@ -42,7 +42,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 37.2,
-      "pct_of_total": 10.0,
+      "pct_of_total": 9.9,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -284,8 +284,8 @@
     }
   ],
   "shop_work": {
-    "total_hours": 62.5,
-    "pct_of_total": 16.7,
+    "total_hours": 62.8,
+    "pct_of_total": 16.8,
     "avg_per_person_per_day": 1.12,
     "flagged": true,
     "tech_count": 8,
@@ -293,7 +293,7 @@
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 26.0
+        "hours": 26.3
       },
       {
         "label": "Shop Meetings",
@@ -365,9 +365,9 @@
   ],
   "totals": {
     "billable_hours": 295.0,
-    "non_billable_hours": 79.3,
+    "non_billable_hours": 79.5,
     "pto_hours": 8.0,
-    "total_hours": 374.3
+    "total_hours": 374.5
   },
-  "generated_at": "2026-09-09T21:35:12Z"
+  "generated_at": "2026-09-09T21:48:59Z"
 }
