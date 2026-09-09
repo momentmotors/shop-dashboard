@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T20:50:14.325528Z",
+  "updated_at": "2026-09-09T21:11:33.910868Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -263,11 +263,6 @@
               "comments": [
                 {
                   "author": "Devin DuMont",
-                  "date": "2025-10-21 23:23",
-                  "text": "Verified old inverter serial no. 59 had all the correct EEPROM setting and that the noise problem still exists. It does, that inverter needs to be returned."
-                },
-                {
-                  "author": "Devin DuMont",
                   "date": "2025-10-22 22:38",
                   "text": "Checked all EEPROM settings of the new inverter to verify correct. Didn't initially have the CAN1 errors but started getting them again later in the day. Had Ampere turn on error frame logging to get more information on the issue."
                 },
@@ -385,6 +380,11 @@
                   "author": "Brandon Beaman",
                   "date": "2026-09-09 20:02",
                   "text": "image.png\nimage.png\nimage.png\nE-Stopp Amperage Findings. Everything seems to be operating as normal if not a bit above normal / expected."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-09 20:49",
+                  "text": "Further testing shows that the slight rolling on an extreme road grade.\nThe road that I was testing on is Foremost here near the shop. The Approx grade of this road is 11\u00b0.\nThe vehicle makes a good effort to hold itself after the parking brake is engaged however without fail every time it does slowly roll away regardless if the car is facing up the hill or down the hill.\nMultiple tests and test runs were performed to verify this data.\nA couple key take aways here are that the E-Stopp is functioning exactly as it should and or at least within manufacturers specifications. Regardless of parking brake adjustments we add it will still only pull 10A reliably. There is nothing in our system that is preventing the E-Stopp from using up to 25A its just not requesting anything more.\nMarc opted to return all the settings back to where they were previously set. He had Claude go through all of the old logs and look for a difference in settings changes and there were no major setting changes from today.\nSo we left the settings where they were except release timing. we add 0.8seconds to the release timing to hopefully help with the brake dragging when coming out of park."
                 }
               ],
               "checklist_items": [
@@ -409,7 +409,7 @@
                   "resolved": true
                 }
               ],
-              "content_hash": "43546c2ea23685659a5be822aa65600add4afebe3f206179885522bc8393eb26"
+              "content_hash": "243077b82751df28ac103a99fbe43ccaccffc1a4f5710258d30c99bb9beece08"
             }
           ]
         },
@@ -1509,20 +1509,10 @@
     },
     {
       "owner": "Miner",
-      "vehicle": {
-        "owner": "Miner",
-        "year": 1995,
-        "color": "Green",
-        "make": "Porsche",
-        "model": "993",
-        "status": "Testing",
-        "checkout": 90.1,
-        "sub_metrics": [],
-        "system": "AEM"
-      },
+      "vehicle": null,
       "clickup_match": {
         "found": false,
-        "error": "no_match"
+        "error": "no_vehicle"
       },
       "assignees": []
     },
@@ -2320,5 +2310,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-09T20:48:37Z"
+  "generated_at": "2026-09-09T21:09:55Z"
 }
