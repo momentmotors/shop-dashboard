@@ -3,7 +3,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 40.5,
-      "pct_of_total": 11.3,
+      "pct_of_total": 11.1,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -40,9 +40,36 @@
       ]
     },
     {
+      "project": "LB 82 911",
+      "total_hours": 37.2,
+      "pct_of_total": 10.2,
+      "tasks": [
+        {
+          "task": "Manufacturing - Product",
+          "hours": 19.8
+        },
+        {
+          "task": "Manufacturing - Core",
+          "hours": 5.5
+        },
+        {
+          "task": "Motor & Transmission",
+          "hours": 4.5
+        },
+        {
+          "task": "Exterior",
+          "hours": 4.5
+        },
+        {
+          "task": "HVAC",
+          "hours": 3.0
+        }
+      ]
+    },
+    {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 36.0,
-      "pct_of_total": 10.0,
+      "pct_of_total": 9.9,
       "tasks": [
         {
           "task": "Scanning",
@@ -75,36 +102,9 @@
       ]
     },
     {
-      "project": "LB 82 911",
-      "total_hours": 35.8,
-      "pct_of_total": 10.0,
-      "tasks": [
-        {
-          "task": "Manufacturing - Product",
-          "hours": 18.2
-        },
-        {
-          "task": "Manufacturing - Core",
-          "hours": 5.5
-        },
-        {
-          "task": "Motor & Transmission",
-          "hours": 4.5
-        },
-        {
-          "task": "Exterior",
-          "hours": 4.5
-        },
-        {
-          "task": "HVAC",
-          "hours": 3.0
-        }
-      ]
-    },
-    {
       "project": "Lee 68 Mustang",
       "total_hours": 28.2,
-      "pct_of_total": 7.9,
+      "pct_of_total": 7.8,
       "tasks": [
         {
           "task": "Battery Pack",
@@ -130,12 +130,12 @@
     },
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 23.8,
-      "pct_of_total": 6.6,
+      "total_hours": 25.2,
+      "pct_of_total": 6.9,
       "tasks": [
         {
           "task": "Manufacturing - Product",
-          "hours": 8.2
+          "hours": 9.8
         },
         {
           "task": "HVAC",
@@ -162,7 +162,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 20.2,
-      "pct_of_total": 5.7,
+      "pct_of_total": 5.6,
       "tasks": [
         {
           "task": "Audio",
@@ -193,7 +193,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 18.5,
-      "pct_of_total": 5.2,
+      "pct_of_total": 5.1,
       "tasks": [
         {
           "task": "HVAC",
@@ -208,7 +208,7 @@
     {
       "project": "Richardson 72 240Z",
       "total_hours": 17.8,
-      "pct_of_total": 5.0,
+      "pct_of_total": 4.9,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -234,12 +234,12 @@
     },
     {
       "project": "Krafcik 02 Caterham",
-      "total_hours": 14.5,
-      "pct_of_total": 4.0,
+      "total_hours": 16.0,
+      "pct_of_total": 4.4,
       "tasks": [
         {
           "task": "Manufacturing - Product",
-          "hours": 7.5
+          "hours": 9.0
         },
         {
           "task": "Manufacturing - Core",
@@ -266,7 +266,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 10.2,
-      "pct_of_total": 2.9,
+      "pct_of_total": 2.8,
       "tasks": [
         {
           "task": "Exterior",
@@ -284,20 +284,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 61.5,
+    "total_hours": 62.5,
     "pct_of_total": 17.2,
-    "avg_per_person_per_day": 1.1,
+    "avg_per_person_per_day": 1.12,
     "flagged": true,
     "tech_count": 8,
     "working_days": 7,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 25.5
+        "hours": 26.0
       },
       {
         "label": "Shop Meetings",
-        "hours": 21.0
+        "hours": 21.5
       },
       {
         "label": "Personal Meetings",
@@ -332,7 +332,7 @@
     {
       "project": "ICON Bronco Prototype",
       "total_hours": 4.5,
-      "pct_of_total": 1.3,
+      "pct_of_total": 1.2,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -364,10 +364,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 280.0,
-    "non_billable_hours": 78.2,
+    "billable_hours": 284.5,
+    "non_billable_hours": 79.2,
     "pto_hours": 8.0,
-    "total_hours": 358.2
+    "total_hours": 363.8
   },
-  "generated_at": "2026-09-09T19:21:21Z"
+  "generated_at": "2026-09-09T19:34:43Z"
 }
