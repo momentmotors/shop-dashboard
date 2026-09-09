@@ -439,28 +439,6 @@
       }
     },
     {
-      "owner": "Berke",
-      "year": 1969,
-      "color": "Blue",
-      "make": "Alfa",
-      "model": "Spyder",
-      "status": "Shipped",
-      "checkout": 100,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
-      "owner": "Hastert",
-      "year": 1960,
-      "color": "Green",
-      "make": "Ford",
-      "model": "F-250",
-      "status": "Shipped",
-      "checkout": 97.8,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
       "owner": "Vargas",
       "year": 1966,
       "color": "Red",
@@ -805,28 +783,6 @@
       }
     },
     {
-      "owner": "Miner",
-      "year": 1995,
-      "color": "Green",
-      "make": "Porsche",
-      "model": "993",
-      "status": "Testing",
-      "checkout": 90.1,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
-      "owner": "Witter",
-      "year": 1970,
-      "color": "Dark Blue",
-      "make": "Mercedes",
-      "model": "280SL",
-      "status": "Shipped",
-      "checkout": 90.1,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
       "owner": "Feldman",
       "year": 1969,
       "color": "Silver",
@@ -997,17 +953,6 @@
       }
     },
     {
-      "owner": "GMC",
-      "year": 1963,
-      "color": "Blue",
-      "make": "GMC",
-      "model": "Truck",
-      "status": "Shipped",
-      "checkout": 81.2,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
       "owner": "Preheim",
       "year": 1972,
       "color": "Blue",
@@ -1139,72 +1084,6 @@
       }
     },
     {
-      "owner": "Hopkins",
-      "year": 1966,
-      "color": "Silver",
-      "make": "Jaguar",
-      "model": "E-Type",
-      "status": "Shipped",
-      "checkout": 71.4,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
-      "owner": "Jaffe",
-      "year": 1966,
-      "color": "Black",
-      "make": "Porsche",
-      "model": "912",
-      "status": "Shipped",
-      "checkout": 70.3,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
-      "owner": "Fischer",
-      "year": 1966,
-      "color": "Silver",
-      "make": "Mercedes",
-      "model": "230SL",
-      "status": "Shipped",
-      "checkout": 69.3,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
-      "owner": "Strother",
-      "year": 1988,
-      "color": "Red",
-      "make": "Porsche",
-      "model": "911",
-      "status": "Shipped",
-      "checkout": 68.8,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
-      "owner": "Coogan",
-      "year": 1969,
-      "color": "Green",
-      "make": "Mercedes",
-      "model": "280SL",
-      "status": "Shipped",
-      "checkout": 66.1,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
-      "owner": "Wilson",
-      "year": 1969,
-      "color": "Dark Blue",
-      "make": "Mercedes",
-      "model": "280SL",
-      "status": "Shipped",
-      "checkout": 56.2,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
       "owner": "Dan Henry",
       "year": 1961,
       "color": "Green",
@@ -1278,17 +1157,6 @@
         "done": 4,
         "open": 5
       }
-    },
-    {
-      "owner": "Ivanhoe",
-      "year": 1965,
-      "color": "Green",
-      "make": "Alfa Romero",
-      "model": "GTV",
-      "status": "Checkout",
-      "checkout": 47.4,
-      "sub_metrics": [],
-      "system": "AEM"
     },
     {
       "owner": "Alvarez",
@@ -1529,28 +1397,6 @@
       "system": "Ampere"
     },
     {
-      "owner": "Simpson",
-      "year": null,
-      "color": "",
-      "make": "",
-      "model": "190B",
-      "status": "Shipped",
-      "checkout": 1.6,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
-      "owner": "Avalos",
-      "year": 1972,
-      "color": "Orange",
-      "make": "Chevrolet",
-      "model": "Blazer",
-      "status": "Shipped",
-      "checkout": 1.1,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
       "owner": "Richardson",
       "year": 1972,
       "color": "",
@@ -1743,7 +1589,7 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-09-09T04:16:02.415939+00:00",
+  "updated": "2026-09-09T04:34:24.673176+00:00",
   "source": "Google Sheets API",
-  "generated_at": "2026-09-09T04:14:56Z"
+  "generated_at": "2026-09-09T04:32:33Z"
 }
