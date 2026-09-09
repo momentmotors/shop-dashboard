@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T14:50:35.225530Z",
+  "updated_at": "2026-09-09T15:14:06.609630Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1100,10 +1100,20 @@
                   "author": "Aharon Adams",
                   "date": "2026-08-14 22:02",
                   "text": "test driving after new settings"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-09-09 14:50",
+                  "text": "test drive after new steering set up. my notes from slack:\n\nOk just got done driving the car. The steering is completely transformed and the car feels great and much more confidence inspiring.\nThere are two small issues:\nAlthough the steering is centered in the rack appropriately. (1.5 turns to lock each way). The steering wheel is perfectly upside down lol 180\u00b0 out.\nThere is a very obvious and annoying creak coming from the column maybe rubbing against the dash, you can replicate it by wiggling the steering wheel a bit and moving the column. It's not too bad standing still but when driving i think the dash moves over small bumps and it is really annoying."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-09-09 14:51",
+                  "text": "I believe this task needs to stay open due to the \"misfire\" inverter settings thing going on."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "bd5103ecfa70e764a325a349c5617f7206e1966d2271b57d42ce93f29a00f865"
+              "content_hash": "a97990ee9188b84d07c36bec1b53beae86041bab85d85e3307ce8c57b7d5c03d"
             }
           ]
         },
@@ -1494,20 +1504,10 @@
     },
     {
       "owner": "Miner",
-      "vehicle": {
-        "owner": "Miner",
-        "year": 1995,
-        "color": "Green",
-        "make": "Porsche",
-        "model": "993",
-        "status": "Testing",
-        "checkout": 90.1,
-        "sub_metrics": [],
-        "system": "AEM"
-      },
+      "vehicle": null,
       "clickup_match": {
         "found": false,
-        "error": "no_match"
+        "error": "no_vehicle"
       },
       "assignees": []
     },
@@ -2415,5 +2415,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-09T14:48:55Z"
+  "generated_at": "2026-09-09T15:12:03Z"
 }

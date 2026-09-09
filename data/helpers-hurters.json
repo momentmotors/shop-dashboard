@@ -3,7 +3,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 38.5,
-      "pct_of_total": 11.7,
+      "pct_of_total": 11.6,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -69,7 +69,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 28.2,
-      "pct_of_total": 8.6,
+      "pct_of_total": 8.5,
       "tasks": [
         {
           "task": "Battery Pack",
@@ -96,7 +96,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 28.0,
-      "pct_of_total": 8.5,
+      "pct_of_total": 8.4,
       "tasks": [
         {
           "task": "Scanning",
@@ -127,7 +127,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 22.2,
-      "pct_of_total": 6.8,
+      "pct_of_total": 6.7,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -173,7 +173,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 18.0,
-      "pct_of_total": 5.5,
+      "pct_of_total": 5.4,
       "tasks": [
         {
           "task": "Audio",
@@ -272,9 +272,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 54.2,
-    "pct_of_total": 16.5,
-    "avg_per_person_per_day": 0.97,
+    "total_hours": 55.8,
+    "pct_of_total": 16.8,
+    "avg_per_person_per_day": 1.0,
     "flagged": false,
     "tech_count": 8,
     "working_days": 7,
@@ -285,11 +285,11 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 18.5
+        "hours": 19.2
       },
       {
         "label": "Personal Meetings",
-        "hours": 6.8
+        "hours": 7.5
       },
       {
         "label": "Organization",
@@ -329,6 +329,17 @@
       ]
     },
     {
+      "project": "Kelly 63 Corvette",
+      "total_hours": 0.5,
+      "pct_of_total": 0.2,
+      "tasks": [
+        {
+          "task": "Installation - Extra",
+          "hours": 0.5
+        }
+      ]
+    },
+    {
       "project": "Buck 70 280SL",
       "total_hours": 0.5,
       "pct_of_total": 0.2,
@@ -342,9 +353,9 @@
   ],
   "totals": {
     "billable_hours": 262.2,
-    "non_billable_hours": 67.2,
+    "non_billable_hours": 69.2,
     "pto_hours": 8.0,
-    "total_hours": 329.5
+    "total_hours": 331.5
   },
-  "generated_at": "2026-09-09T14:48:55Z"
+  "generated_at": "2026-09-09T15:12:03Z"
 }
