@@ -3,7 +3,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 40.5,
-      "pct_of_total": 11.1,
+      "pct_of_total": 10.9,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -42,7 +42,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 37.2,
-      "pct_of_total": 10.2,
+      "pct_of_total": 10.0,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -69,7 +69,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 36.0,
-      "pct_of_total": 9.9,
+      "pct_of_total": 9.7,
       "tasks": [
         {
           "task": "Scanning",
@@ -104,7 +104,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 28.2,
-      "pct_of_total": 7.8,
+      "pct_of_total": 7.6,
       "tasks": [
         {
           "task": "Battery Pack",
@@ -130,12 +130,12 @@
     },
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 25.2,
-      "pct_of_total": 6.9,
+      "total_hours": 27.8,
+      "pct_of_total": 7.5,
       "tasks": [
         {
           "task": "Manufacturing - Product",
-          "hours": 9.8
+          "hours": 12.2
         },
         {
           "task": "HVAC",
@@ -162,7 +162,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 20.2,
-      "pct_of_total": 5.6,
+      "pct_of_total": 5.5,
       "tasks": [
         {
           "task": "Audio",
@@ -193,7 +193,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 18.5,
-      "pct_of_total": 5.1,
+      "pct_of_total": 5.0,
       "tasks": [
         {
           "task": "HVAC",
@@ -208,7 +208,7 @@
     {
       "project": "Richardson 72 240Z",
       "total_hours": 17.8,
-      "pct_of_total": 4.9,
+      "pct_of_total": 4.8,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -235,7 +235,7 @@
     {
       "project": "Krafcik 02 Caterham",
       "total_hours": 16.0,
-      "pct_of_total": 4.4,
+      "pct_of_total": 4.3,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -264,28 +264,24 @@
       ]
     },
     {
-      "project": "Nolan 70 Challenger",
-      "total_hours": 10.2,
-      "pct_of_total": 2.8,
+      "project": "Barton 59 Impala",
+      "total_hours": 12.0,
+      "pct_of_total": 3.2,
       "tasks": [
         {
-          "task": "Exterior",
+          "task": "Interior",
           "hours": 7.0
         },
         {
-          "task": "Vehicle Control",
-          "hours": 2.8
-        },
-        {
-          "task": "Brakes",
-          "hours": 0.5
+          "task": "Exterior",
+          "hours": 5.0
         }
       ]
     }
   ],
   "shop_work": {
     "total_hours": 62.5,
-    "pct_of_total": 17.2,
+    "pct_of_total": 16.8,
     "avg_per_person_per_day": 1.12,
     "flagged": true,
     "tech_count": 8,
@@ -321,7 +317,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 11.2,
-      "pct_of_total": 3.1,
+      "pct_of_total": 3.0,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -364,10 +360,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 284.5,
+    "billable_hours": 292.0,
     "non_billable_hours": 79.2,
     "pto_hours": 8.0,
-    "total_hours": 363.8
+    "total_hours": 371.2
   },
-  "generated_at": "2026-09-09T19:34:43Z"
+  "generated_at": "2026-09-09T19:48:17Z"
 }
