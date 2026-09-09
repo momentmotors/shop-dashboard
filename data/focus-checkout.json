@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T15:14:06.609630Z",
+  "updated_at": "2026-09-09T15:28:59.798358Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1437,6 +1437,11 @@
                   "author": "Brandon Beaman",
                   "date": "2026-09-09 13:59",
                   "text": "Post Flash\nimage.png\nimage.png\nimage.png\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-09 15:18",
+                  "text": "Flashed the VCU firmware to the latest firmware.\nSpent sometime setting up the RDIS file to have our HVAC diag and settings in the HVAC tab.\nSubmitted before and after screenshots to Claude to determine what settings changed pre and post flash.\nthe only setting that \"changed\" was the LaunchGain. In the old settings we had it set to 50 at drive factor 8. The thing is this car has a drive factor of 11.2 so that setting was never actually being used. So we updated that setting to 50 on this new firmware. Will need to test drive the vehicle to verify.\nMade necessary adjustments to the VCU settings to match pre flash.\nVCU updated and good at this time. Continue with Test drive of the vehicle to verify operations are all good still at this time."
                 }
               ],
               "checklist_items": [
@@ -1481,7 +1486,7 @@
                   "resolved": false
                 }
               ],
-              "content_hash": "f61483a453566faaefb43c363bd315f42b3ceca45f19bb239fb98a4cb6521eb4"
+              "content_hash": "89e61d41f71875550e76a4f918deb8d1e2bda62cc67cad9bdc038220d7044e9f"
             }
           ]
         },
@@ -1504,10 +1509,20 @@
     },
     {
       "owner": "Miner",
-      "vehicle": null,
+      "vehicle": {
+        "owner": "Miner",
+        "year": 1995,
+        "color": "Green",
+        "make": "Porsche",
+        "model": "993",
+        "status": "Testing",
+        "checkout": 90.1,
+        "sub_metrics": [],
+        "system": "AEM"
+      },
       "clickup_match": {
         "found": false,
-        "error": "no_vehicle"
+        "error": "no_match"
       },
       "assignees": []
     },
@@ -2415,5 +2430,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-09T15:12:03Z"
+  "generated_at": "2026-09-09T15:26:53Z"
 }
