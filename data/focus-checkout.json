@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T02:19:42.015512Z",
+  "updated_at": "2026-09-10T02:43:05.070590Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1738,10 +1738,15 @@
                   "author": "Billy Arrasmith",
                   "date": "2026-09-02 03:31",
                   "text": "Screenshot 2026-09-01 at 10.30.51\u202fPM.png"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-10 02:37",
+                  "text": "power windows came in\nlooked at them and inventoried all the parts\nwe are good to go"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "12cc9a1a3335ffc7382c73652c0c6344702e019cfd36f65d7617615fcf0a745a"
+              "content_hash": "bc3ad532d5e91da2546844245c452550916da551ebb6059ba944d7b9a55b634b"
             },
             {
               "id": "868kx4870",
@@ -1994,10 +1999,15 @@
                   "author": "Billy Arrasmith",
                   "date": "2026-08-19 02:34",
                   "text": "seat belts ordered"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-10 02:33",
+                  "text": "covered the glove box and ashtray with vinyl"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "7aed0b0a90ab005c3b545e413e983f7b65e9fa957144cf8e360e612e407caf0f"
+              "content_hash": "32684eed741507b25e13c243375bae6fdee88fa9335abed6222ea2d2d854c9cc"
             },
             {
               "id": "868gaza16",
@@ -2031,9 +2041,15 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868m3h8yd",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-10 02:30",
+                  "text": "blazer didn't charge\nit was turning off every 45 min\nplugged in the shop charger\nwas able to charge the truck up\nmy personal charged was the issue\ni checked wiring and pins to rule it out"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "d08d320acdac30f176513d4c02dbaf7925aab5b125e8e9b4787cc03f81645882"
+              "content_hash": "789c4723267bcecaf9212351dfa330cb22ab6acbd8be376bbce57827a83aebe1"
             }
           ]
         },
@@ -2330,5 +2346,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-10T02:18:03Z"
+  "generated_at": "2026-09-10T02:41:41Z"
 }
