@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T05:13:58.632295Z",
+  "updated_at": "2026-09-10T05:28:19.676617Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1324,15 +1324,9 @@
               "status": "Open",
               "list": "McDonough 77 Esprit",
               "url": "https://app.clickup.com/t/868m08dah",
-              "comments": [
-                {
-                  "author": "David Webber",
-                  "date": "2026-09-02 18:29",
-                  "text": "Sent front wheel assemblies out for road force balancing & road tested vehicle to confirm improvement"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "b64d8ee078ada36ade69604c45b9dd6da1f2cd8567ded73f66ec081ddbc54111"
+              "content_hash": "7b76087f6762da31cb93b02a7728d67e4092010f75634423c0fa8231adb3d99e"
             },
             {
               "id": "868m2ww4n",
@@ -1350,15 +1344,9 @@
               "status": "Open",
               "list": "McDonough 77 Esprit",
               "url": "https://app.clickup.com/t/868m08btv",
-              "comments": [
-                {
-                  "author": "David Webber",
-                  "date": "2026-09-03 15:28",
-                  "text": "Secured rear 1/4 window trim panels"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "caf34d9e61e7dd56e7200ce9707477bce4358174d0692d51a0fa356720d792da"
+              "content_hash": "b65c9d0c6a0f57943894a561627a24647964a0d50c99789bf7d0c583b772b898"
             },
             {
               "id": "868km7t9d",
@@ -1366,15 +1354,9 @@
               "status": "Open",
               "list": "McDonough 77 Esprit",
               "url": "https://app.clickup.com/t/868km7t9d",
-              "comments": [
-                {
-                  "author": "David Webber",
-                  "date": "2026-08-06 13:12",
-                  "text": "31 mile road test. Motor & Battery circuits running cool. No DTCs. GUI ok... not dropping out as previously noted. Rear suspension is still quiet."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "ce28c1c89c82278d2e0c2f6e5373fc224928fb0295bf6f4bb40b99828181ecde"
+              "content_hash": "16b663d18fbf511d04fc5891bd8783a045dcf757ee0ccc8a4b8950f005f0e1b3"
             }
           ]
         },
@@ -1387,116 +1369,9 @@
               "status": "Open",
               "list": "McDonough 77 Esprit",
               "url": "https://app.clickup.com/t/868jkmucy",
-              "comments": [
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-05-13 04:47",
-                  "text": "Walked Andrew through the vehicle requirements sheet and filled in all the information possible. Went to flash inverter firmware, cable wouldn't connect physically, looks like the wrong gender. Made quick cable changer. Connected to inverter, pulled EEPROM backups for the main settings, RTD calibrations, and control loop settings. Flashed firmware 6533 and started on the EEPROM combing. Had Claude look at the EEPROM compare tool since it wasn't working for some reason. Compared the Ampere, Moment, and Stock W EEPROM files and decided on an updated blend with weight towards the Ampere settings, made a Master EEPROM column in the startup sheet to permanently capture these. Flashed and backed up everything. Moved on to the VCU, flashed the latest firmware, transfered settinngs from the vehicle requirements sheet and noted with comments where it was lackinng / not super clear. Transfered clear settings to the VCU and marked ones that needed to be reviewed at a later date. Upgraded the PMU's to the latest firmware and flashed the Preheim calibration, which matches closest. Later this week when Preheim HVAC is finished it should be considered to re-flash that program over to here if zero changes have been made to McDonough. Moved over to OBD port which is not reading the PMU CAN but was able to use the PMU checkout box to monitor current while Andrew forced on all channels controlled by the VCU. Started to hookup HV and ran into an HVIL issue, narrowed it down to an IMD box which checked good earlier. Either it's a different IMD box that was actually installed in the vehicle or the vehicle harness has an issue."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-05-14 02:57",
-                  "text": "Measured CAN network resistances and found CAN3 at 105 Ohms. Temporarily added a resistor to CAN3 to correct the termination. Found PMU CAN1 was flipped high and low causing the laptop to not connect, had brandon fix that. Verified HVIL now satisfied with Daves fix, plugged in the rest of the HV acessories. Enabled HV from the VCU and watched precharge. Verified L2 charging and DCDC output and marked off in the sheet. Discovered bug where PMU was sending output status 1 for all channels, corrected. Will need to fix on three other vehicles. Monitored VCU while testing brake switch. Ended up overriding from the VCU to move on. Calibrated the resolver and continued testing brakes with Dave. Took the vehicle for a test drive and updated the punch card."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-05-19 23:27",
-                  "text": "Drew up HVAC summary diagram for understanding of which control needs to be configured where. Corrected incorrect VCU options marked off as done during rush last week. Verified all input switches making it to the right controller and all outputs switching on the correct device. Watched AC cycles with Dave & adjusted setpoints per his suggestion. Tested cabin heat, drawing 2kW and internally shutting off at 70C, might be a blend door problem that is not removing the heat from the heater core."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-07-24 22:19",
-                  "text": "Removed the temp temperature logger from Preheim and wired up some thermistors to take the place of the permanent ones in the battery box. Adjusted the logger setup slightly and setup to log temps on Hastert out in the sun. Temperature results at 5pm:\n\nTop of Dash: 32.9 C\nTop of Battery Box: 36.9 C\nSide of Battery Box: 34.6 C\nSide of Battery Box (In the air): 41.8 C\n\nLooks like the air around the box is significantly hotter, test might not have ran long enough. Should re-try on the Lotus."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-08-06 21:15",
-                  "text": "Picked up on startup. Scanned the sheet to get an overview of what's left. Changed the inverter setting for breakspeed to match the W type motor. Setup second GitHub account with the email Andrew used. Pulled the latest VCU firmware and release notes. Hooked up to vehicle to flash and the passenger window seemed to be stalling. Shut off vehicle and discussed with Dave."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-08-07 22:31",
-                  "text": "Ran through the checkout sheet filling in the items remaining section. Flashed the latest AWD firmware and verified options. Left on charge the rest of the day and monitored."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-20 22:41",
-                  "text": "Pedal Launch Gain adjusted from 70 -> 50"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-03 15:37",
-                  "text": "image.png\nEntered Vehicle weight and Gear Ratio into the VCU"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-03 23:08",
-                  "text": "Messaged Ryan to acquire the Wifi Credentials.\nWifi creds gathered. Notified Devin to upload creds to the logger.\nUploaded the vehicle weight and gear ratio into the VCU. Left the parameters on Display since the vehicle has been working well and as intended at this time.\nAddressed CAN 3 termination issue. Missing term resistor. Added a removable term resistor at the OBD port.\nSpoke to Marc about updating the GUI. We decided that we should leave it as is to prevent any possible failures on a complete car."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-09 13:44",
-                  "text": "Pre Flash\nimage.png\nimage.png\nimage.png\nimage.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-09 13:48",
-                  "text": "image.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-09 13:59",
-                  "text": "Post Flash\nimage.png\nimage.png\nimage.png\nimage.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-09 15:18",
-                  "text": "Flashed the VCU firmware to the latest firmware.\nSpent sometime setting up the RDIS file to have our HVAC diag and settings in the HVAC tab.\nSubmitted before and after screenshots to Claude to determine what settings changed pre and post flash.\nthe only setting that \"changed\" was the LaunchGain. In the old settings we had it set to 50 at drive factor 8. The thing is this car has a drive factor of 11.2 so that setting was never actually being used. So we updated that setting to 50 on this new firmware. Will need to test drive the vehicle to verify.\nMade necessary adjustments to the VCU settings to match pre flash.\nVCU updated and good at this time. Continue with Test drive of the vehicle to verify operations are all good still at this time."
-                }
-              ],
-              "checklist_items": [
-                {
-                  "checklist": "Checklist",
-                  "name": "Address CAN3 Termination issue (currently 110 ohms)",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Add wifi credentials",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Enter vehicle weight",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Update GUI to lastest version",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Verify gauges after reinstallation",
-                  "resolved": false
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Test fast charging",
-                  "resolved": false
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Perform overnight charge",
-                  "resolved": false
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Verify inverter break speed",
-                  "resolved": false
-                }
-              ],
-              "content_hash": "89e61d41f71875550e76a4f918deb8d1e2bda62cc67cad9bdc038220d7044e9f"
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
             }
           ]
         },
@@ -1686,15 +1561,9 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868kzamnu",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-01 18:01",
-                  "text": "removed the bolts in the top front\nremoved visors\nlifted the top up\ninserted sealant\nlet it set up\nreinstalled the top bolts\nsealed it back up\ntested in the rain leak is much better\nwindows need to be adjusted"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "192445e261c9057599e975c37fa8b797c4c9d65666df973166836ebc8989febc"
+              "content_hash": "e3b9720501fed8b59c1666984eb5cf4999b31bf2bfc0e6fb23d2cf837b73817a"
             },
             {
               "id": "868kzapnn",
@@ -1712,15 +1581,9 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868kzaq6r",
-              "comments": [
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-03 20:58",
-                  "text": "Greased front and rear leaf spring pivot points"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "99f8eeeaf4739735b3db8035734bd1c654ad4e0034f2d6a4ef70d831b32fe6df"
+              "content_hash": "dfcfa914428437333c0ae6fcb4dab8f221c044a55e935e2319ae1c20a72046fb"
             },
             {
               "id": "868kzhwzn",
@@ -1728,25 +1591,9 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868kzhwzn",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-02 03:30",
-                  "text": "ordered power windows"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-02 03:31",
-                  "text": "Screenshot 2026-09-01 at 10.30.51\u202fPM.png"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-10 02:37",
-                  "text": "power windows came in\nlooked at them and inventoried all the parts\nwe are good to go"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "bc3ad532d5e91da2546844245c452550916da551ebb6059ba944d7b9a55b634b"
+              "content_hash": "d8f3f1e1ac991812aac5b970555ceb2a379ecbc4d424c96505d165c3ac4b4a9d"
             },
             {
               "id": "868kx4870",
@@ -1775,15 +1622,9 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868kx4f7u",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-31 20:37",
-                  "text": "test drove truck\nmade my list and sent to Alex\nfound several issues we need to take care of"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "8e9970e45befd77f7e4452bc9ec7de43adca84059bb82f6740b695415662d058"
+              "content_hash": "16b663d18fbf511d04fc5891bd8783a045dcf757ee0ccc8a4b8950f005f0e1b3"
             }
           ]
         },
@@ -1852,35 +1693,9 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868kzahbv",
-              "comments": [
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-02 17:34",
-                  "text": "Rear sway bar install details:\nKit verified to fit with additional work on brake mounts and replacing hardware and bushing risers\nRear brake bracket had to be removed and the welded bracket cut out and raw steel was painted\nBrackets installed and centered\nI ordered appropriate hardware and bushing riser material because the hardware is spec'd for stock height\nCrescent mounts for rear brake line mounts need to be welded to the rear end"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-02 17:36",
-                  "text": "paste_b3f4d546-77bf-4339-99ef-c97611aea723.jpgpaste_1c656eed-a6ef-4758-baf2-f53182e04961.jpgpaste_6d5de5f3-405c-4881-ab3e-e4510b42c21c.jpgpaste_99a03231-6ac6-48bc-b625-3faa1a964421.jpgpaste_2dcb7a9e-f9e1-40ba-8c33-cbed9f98943f.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-03 19:30",
-                  "text": "Install Process:\nVerify kit will clear components\nMockup sway bar and mounting brackets\nPass. bracket fouls on brake fork mount\nCut brake mount off rear end and paint raw metal\nMove brake lines\nSetup welder to weld in new brake mounts\nBevel welds  and paint raw metal\nRemount sway bar after greasing bushings\nMeasure height at sway bar parallel to ground\nSupplied hardware is 3 inches short\nOrder new hardware and thick wall tubing for bushing spacers\nHardware and tubing arrived\nCut tubing to spec, clean and bevel\nPaint bushing spacers\nMark lower frame rail for upper sway bar end link mount\nDrill 4 holes for mounts avoiding HV and brake lines\nDeburr holes and paint raw metal\nInstall u-bolt in chassis and mount upper sway bar mount\nGrease all end link bushings\nInstall end links into new sway bar\nTighten all hardware\nVerify install"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-03 19:39",
-                  "text": "paste_b532cb55-b2ad-4676-ad4d-b3aaff165db6.jpgpaste_04c378bd-903b-4897-8eb5-70ab5616ea88.jpgpaste_b92a5bb9-fd81-488b-81cc-6e6d1ed42a72.jpgpaste_5ba0d857-10fa-4596-b7fd-41050252a894.jpgpaste_f9d4f1e8-3f5f-4aa8-9fbd-76d001c8a300.jpgpaste_3f548953-32e2-4c31-968c-4e9629ac735a.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-05 01:16",
-                  "text": "Front sway bar attempted install but fouls on crossover steering assembly\nNo way to modify to fit\nSourced a possible replacement that should work with crossover steering"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "a4061684cf2f82939ef2cab20fc4b4b29cb3927c5fcfb49c6119b1bb67007fc0"
+              "content_hash": "75d544ac467d0fabdd6cb8d7350351be4980d135c383c9391def44d832521bc2"
             }
           ]
         },
@@ -2805,5 +2620,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-10T05:12:35Z"
+  "generated_at": "2026-09-10T05:26:50Z"
 }
