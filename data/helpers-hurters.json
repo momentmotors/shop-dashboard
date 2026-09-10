@@ -139,7 +139,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 27.8,
-      "pct_of_total": 7.2,
+      "pct_of_total": 7.1,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -292,16 +292,16 @@
     }
   ],
   "shop_work": {
-    "total_hours": 65.8,
-    "pct_of_total": 17.0,
-    "avg_per_person_per_day": 1.17,
+    "total_hours": 66.5,
+    "pct_of_total": 17.1,
+    "avg_per_person_per_day": 1.04,
     "flagged": true,
     "tech_count": 8,
-    "working_days": 7,
+    "working_days": 8,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 29.3
+        "hours": 30.0
       },
       {
         "label": "Shop Meetings",
@@ -373,9 +373,9 @@
   ],
   "totals": {
     "billable_hours": 304.5,
-    "non_billable_hours": 83.3,
+    "non_billable_hours": 84.0,
     "pto_hours": 8.0,
-    "total_hours": 387.8
+    "total_hours": 388.5
   },
-  "generated_at": "2026-09-09T23:48:33Z"
+  "generated_at": "2026-09-10T00:33:18Z"
 }
