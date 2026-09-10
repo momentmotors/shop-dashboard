@@ -3,7 +3,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 44.0,
-      "pct_of_total": 10.5,
+      "pct_of_total": 10.4,
       "tasks": [
         {
           "task": "Scanning",
@@ -81,7 +81,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 43.5,
-      "pct_of_total": 10.4,
+      "pct_of_total": 10.3,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -304,24 +304,24 @@
     }
   ],
   "shop_work": {
-    "total_hours": 64.0,
-    "pct_of_total": 15.3,
-    "avg_per_person_per_day": 1.0,
-    "flagged": false,
+    "total_hours": 66.0,
+    "pct_of_total": 15.7,
+    "avg_per_person_per_day": 1.03,
+    "flagged": true,
     "tech_count": 8,
     "working_days": 8,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 29.0
+        "hours": 29.5
       },
       {
         "label": "Shop Meetings",
-        "hours": 22.5
+        "hours": 23.0
       },
       {
         "label": "Personal Meetings",
-        "hours": 9.5
+        "hours": 10.5
       },
       {
         "label": "Organization",
@@ -337,7 +337,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 12.0,
-      "pct_of_total": 2.9,
+      "pct_of_total": 2.8,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -396,9 +396,9 @@
   ],
   "totals": {
     "billable_hours": 330.5,
-    "non_billable_hours": 89.0,
+    "non_billable_hours": 91.0,
     "pto_hours": 8.0,
-    "total_hours": 419.5
+    "total_hours": 421.5
   },
-  "generated_at": "2026-09-10T19:35:45Z"
+  "generated_at": "2026-09-10T19:48:31Z"
 }
