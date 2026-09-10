@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T04:16:31.615837Z",
+  "updated_at": "2026-09-10T04:34:27.417606Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1978,15 +1978,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kmp9tm",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-07 13:24",
-                  "text": "test fit the battery lid\nit is ready for LOGO and PC\nIMG_1830.jpeg\nIMG_1829.jpeg\nIMG_1827.jpeg\nIMG_1826.jpeg\nIMG_1828.jpeg"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "2aa8a1589ae675ef2968cbacc6f98d00daf87b8afd119e17e8350d38e262df2c"
+              "content_hash": "25977cfdfe0fd6dc5303338eb465f4ded373d84fa04ebe79c10f1e716c4899e4"
             },
             {
               "id": "868ktqjxq",
@@ -1994,20 +1988,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ktqjxq",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-19 02:34",
-                  "text": "seat belts ordered"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-10 02:33",
-                  "text": "covered the glove box and ashtray with vinyl"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "32684eed741507b25e13c243375bae6fdee88fa9335abed6222ea2d2d854c9cc"
+              "content_hash": "371237ba86e4892bc87fcc0dd72a17784c4ecac889b399914e56e0f1cafd7fb9"
             },
             {
               "id": "868gaza16",
@@ -2025,15 +2008,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868m2ye0h",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-09 18:32",
-                  "text": "removed the master\nmeasured the plunger\nmachined down the plunger\nreinstalled\ntested on the drive in\nall is working"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "deb74eff0c2c63a13d793663a334bda7efe46bc6d73cb15b24743f1e4932dbd9"
+              "content_hash": "b11b069e1e4390eb9f9c6bbf1f319f698539627e8e4c2e975c8c84eaf3256e62"
             },
             {
               "id": "868m3h8yd",
@@ -2041,15 +2018,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868m3h8yd",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-10 02:30",
-                  "text": "blazer didn't charge\nit was turning off every 45 min\nplugged in the shop charger\nwas able to charge the truck up\nmy personal charged was the issue\ni checked wiring and pins to rule it out"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "789c4723267bcecaf9212351dfa330cb22ab6acbd8be376bbce57827a83aebe1"
+              "content_hash": "d08d320acdac30f176513d4c02dbaf7925aab5b125e8e9b4787cc03f81645882"
             }
           ]
         },
@@ -2072,40 +2043,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kpg6th",
-              "comments": [
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-11 00:43",
-                  "text": "Bed cap cover options sourced and relayed to Blazer group. Decision to be made"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-11 16:29",
-                  "text": "Game plan made for Blazer bed caps.\nCovers ordered"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-18 00:13",
-                  "text": "Blazer caps arrived\nCaps mocked up\nTrimming in process\nPassenger side trimming roughed in"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-18 00:18",
-                  "text": "1000014711.jpg1000014710.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-18 22:24",
-                  "text": "Driver and Passenger side caps have been trimmed and modifications have been finalized.\nCovers will be attached after interior side panels have been installed as the caps overlap the interior panels"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-18 22:26",
-                  "text": "1000014734.jpg1000014735.jpg1000014736.jpg1000014737.jpg"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "458375deb00d16a348b5c32e215bb16c62c24944619474990fed27dc8e45c604"
+              "content_hash": "5f784fc4355ea24b3d7ab5fac0fd2f9fdb3c6da70b26b29130030605b994b98a"
             },
             {
               "id": "868ka4d5e",
@@ -2138,15 +2078,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kv07mr",
-              "comments": [
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-08-24 13:15",
-                  "text": "Colvin's picked up the center console Friday, 8/21"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "ea55d8dc41e520a032549b095ae1d521530f36e7313df2e087e349bcd8fe2461"
+              "content_hash": "37096c993a29d491a8c621440518a2b31e58cef53e742fd27b64634297be8390"
             }
           ]
         }
@@ -2346,5 +2280,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-10T04:15:03Z"
+  "generated_at": "2026-09-10T04:32:48Z"
 }
