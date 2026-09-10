@@ -38,7 +38,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 43.5,
-      "pct_of_total": 10.8,
+      "pct_of_total": 10.7,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -81,7 +81,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 42.0,
-      "pct_of_total": 10.4,
+      "pct_of_total": 10.3,
       "tasks": [
         {
           "task": "Scanning",
@@ -120,7 +120,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 28.2,
-      "pct_of_total": 7.0,
+      "pct_of_total": 6.9,
       "tasks": [
         {
           "task": "Battery Pack",
@@ -147,7 +147,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 27.8,
-      "pct_of_total": 6.9,
+      "pct_of_total": 6.8,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -255,7 +255,7 @@
     {
       "project": "Krafcik 02 Caterham",
       "total_hours": 16.0,
-      "pct_of_total": 4.0,
+      "pct_of_total": 3.9,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -301,7 +301,7 @@
   ],
   "shop_work": {
     "total_hours": 62.5,
-    "pct_of_total": 15.5,
+    "pct_of_total": 15.4,
     "avg_per_person_per_day": 0.98,
     "flagged": false,
     "tech_count": 8,
@@ -391,10 +391,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 317.0,
+    "billable_hours": 319.0,
     "non_billable_hours": 87.5,
     "pto_hours": 8.0,
-    "total_hours": 404.5
+    "total_hours": 406.5
   },
-  "generated_at": "2026-09-10T17:48:48Z"
+  "generated_at": "2026-09-10T18:14:59Z"
 }
