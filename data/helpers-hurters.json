@@ -296,10 +296,10 @@
     }
   ],
   "shop_work": {
-    "total_hours": 65.0,
-    "pct_of_total": 16.1,
-    "avg_per_person_per_day": 1.02,
-    "flagged": true,
+    "total_hours": 62.5,
+    "pct_of_total": 15.5,
+    "avg_per_person_per_day": 0.98,
+    "flagged": false,
     "tech_count": 8,
     "working_days": 8,
     "breakdown": [
@@ -320,10 +320,6 @@
         "hours": 2.5
       },
       {
-        "label": "Other",
-        "hours": 2.5
-      },
-      {
         "label": "Errands",
         "hours": 0.5
       }
@@ -338,6 +334,21 @@
         {
           "task": "Troubleshooting",
           "hours": 12.0
+        }
+      ]
+    },
+    {
+      "project": "Connolly 58 220S",
+      "total_hours": 6.0,
+      "pct_of_total": 1.5,
+      "tasks": [
+        {
+          "task": "Troubleshooting",
+          "hours": 4.8
+        },
+        {
+          "task": "Engineering - Extra",
+          "hours": 1.2
         }
       ]
     },
@@ -376,10 +387,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 318.5,
-    "non_billable_hours": 84.0,
+    "billable_hours": 315.0,
+    "non_billable_hours": 87.5,
     "pto_hours": 8.0,
     "total_hours": 402.5
   },
-  "generated_at": "2026-09-10T16:13:00Z"
+  "generated_at": "2026-09-10T16:27:11Z"
 }
