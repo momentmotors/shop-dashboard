@@ -185,12 +185,12 @@
     },
     {
       "project": "Thacker 46 Woody",
-      "total_hours": 23.8,
-      "pct_of_total": 5.4,
+      "total_hours": 24.2,
+      "pct_of_total": 5.5,
       "tasks": [
         {
           "task": "Audio",
-          "hours": 6.0
+          "hours": 6.5
         },
         {
           "task": "Exterior",
@@ -221,7 +221,7 @@
     {
       "project": "Richardson 72 240Z",
       "total_hours": 19.8,
-      "pct_of_total": 4.5,
+      "pct_of_total": 4.4,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -403,10 +403,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 349.8,
+    "billable_hours": 350.2,
     "non_billable_hours": 94.0,
     "pto_hours": 8.0,
-    "total_hours": 443.8
+    "total_hours": 444.2
   },
-  "generated_at": "2026-09-10T23:09:50Z"
+  "generated_at": "2026-09-10T23:21:07Z"
 }
