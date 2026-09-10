@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T21:50:15.162932Z",
+  "updated_at": "2026-09-10T22:11:37.582046Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -263,11 +263,6 @@
               "comments": [
                 {
                   "author": "Devin DuMont",
-                  "date": "2025-10-22 22:38",
-                  "text": "Checked all EEPROM settings of the new inverter to verify correct. Didn't initially have the CAN1 errors but started getting them again later in the day. Had Ampere turn on error frame logging to get more information on the issue."
-                },
-                {
-                  "author": "Devin DuMont",
                   "date": "2025-10-23 22:07",
                   "text": "Test drove with laptop looking for CAN1 errors. Catching about 870 per second all in one large group. Turned off OBDII from the inverter which didn't help. Also tried turning off diag data. Turned them back on and unplugged the logger which is set to auto-baud. Still no change. Used Kvaser set at 1000mbps and I get a message to decode with data 2044, 2046, and 2048. Test driving is getting difficult since CAN errors occasionally cause the VCU to drop PreCharge."
                 },
@@ -385,6 +380,11 @@
                   "author": "Brandon Beaman",
                   "date": "2026-09-09 20:49",
                   "text": "Further testing shows that the slight rolling on an extreme road grade.\nThe road that I was testing on is Foremost here near the shop. The Approx grade of this road is 11\u00b0.\nThe vehicle makes a good effort to hold itself after the parking brake is engaged however without fail every time it does slowly roll away regardless if the car is facing up the hill or down the hill.\nMultiple tests and test runs were performed to verify this data.\nA couple key take aways here are that the E-Stopp is functioning exactly as it should and or at least within manufacturers specifications. Regardless of parking brake adjustments we add it will still only pull 10A reliably. There is nothing in our system that is preventing the E-Stopp from using up to 25A its just not requesting anything more.\nMarc opted to return all the settings back to where they were previously set. He had Claude go through all of the old logs and look for a difference in settings changes and there were no major setting changes from today.\nSo we left the settings where they were except release timing. we add 0.8seconds to the release timing to hopefully help with the brake dragging when coming out of park."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-10 22:00",
+                  "text": "Verified Wifi credentials uploaded to logger and let all appropriate parties know."
                 }
               ],
               "checklist_items": [
@@ -409,7 +409,7 @@
                   "resolved": true
                 }
               ],
-              "content_hash": "243077b82751df28ac103a99fbe43ccaccffc1a4f5710258d30c99bb9beece08"
+              "content_hash": "06a837148fd509d9612e5b0911f7f3d5ee5d2e494006b4212b6eddc0a3190e7b"
             }
           ]
         },
@@ -787,9 +787,15 @@
               "status": "Open",
               "list": "Ferdman 66 Bus",
               "url": "https://app.clickup.com/t/868krf5mg",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-10 21:59",
+                  "text": "Verified wifi credentials still missing. Reached out to Ryan to gather that info. Once we have it I will upload that to the logger."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
+              "content_hash": "f9f32b861cf95bb22a954185f01e68a774fa8e9c4584cd5cc9314f6ec20a9ac2"
             }
           ]
         },
@@ -1451,6 +1457,11 @@
                   "author": "Brandon Beaman",
                   "date": "2026-09-09 15:18",
                   "text": "Flashed the VCU firmware to the latest firmware.\nSpent sometime setting up the RDIS file to have our HVAC diag and settings in the HVAC tab.\nSubmitted before and after screenshots to Claude to determine what settings changed pre and post flash.\nthe only setting that \"changed\" was the LaunchGain. In the old settings we had it set to 50 at drive factor 8. The thing is this car has a drive factor of 11.2 so that setting was never actually being used. So we updated that setting to 50 on this new firmware. Will need to test drive the vehicle to verify.\nMade necessary adjustments to the VCU settings to match pre flash.\nVCU updated and good at this time. Continue with Test drive of the vehicle to verify operations are all good still at this time."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-10 22:02",
+                  "text": "Uploaded wifi credentials to CAN logger."
                 }
               ],
               "checklist_items": [
@@ -1495,7 +1506,7 @@
                   "resolved": false
                 }
               ],
-              "content_hash": "89e61d41f71875550e76a4f918deb8d1e2bda62cc67cad9bdc038220d7044e9f"
+              "content_hash": "0a957a78c171d7235c406260926716b9f8364e083c6ddb57d57498fed4dadca2"
             }
           ]
         },
@@ -2461,5 +2472,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-10T21:48:38Z"
+  "generated_at": "2026-09-10T22:10:06Z"
 }
