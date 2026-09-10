@@ -1,6 +1,444 @@
 {
   "vehicles": [
     {
+      "owner": "Connolly",
+      "year": 1958,
+      "color": "Black",
+      "make": "Mercedes",
+      "model": "220S",
+      "status": "Acceptance",
+      "checkout": 100,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 95.4
+        },
+        {
+          "label": "Inverter",
+          "value": 98.1
+        },
+        {
+          "label": "PMU",
+          "value": 40.6
+        },
+        {
+          "label": "Raptor",
+          "value": 92.7
+        },
+        {
+          "label": "Functional",
+          "value": 33.3
+        }
+      ],
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "2026-08-07: The customer credentials need to be put into the wifi logger.",
+            "done": false
+          },
+          {
+            "text": "2026-09-07: Parking brake current feedback should be enabled and tuned.",
+            "done": false
+          },
+          {
+            "text": "2026-08-07: Temperature Gauge Might Not Be Working.\n2026-08-10: Resolved. Noah fixed the temperature gauge back in January.",
+            "done": true
+          },
+          {
+            "text": "2026-07-xx: Flash Connolly with 1.7.9\n2026-08-07: Flashed VCU firmware version 1.8.14.\n2026-09-07: The VCU should be brought up to the latest firmware version.",
+            "done": false
+          },
+          {
+            "text": "2026-07-xx: DisplayDashGUI_SettingsMsgTimeout seems to appear often.",
+            "done": false
+          }
+        ],
+        "total": 5,
+        "done": 1,
+        "open": 4
+      }
+    },
+    {
+      "owner": "McDonough",
+      "year": 1977,
+      "color": "Red",
+      "make": "Lotus",
+      "model": "Esprit",
+      "status": "Testing",
+      "checkout": 100,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 97.2
+        },
+        {
+          "label": "Inverter",
+          "value": 99.1
+        },
+        {
+          "label": "PMU",
+          "value": 50.0
+        },
+        {
+          "label": "Raptor",
+          "value": 89.1
+        },
+        {
+          "label": "Functional",
+          "value": 25.0
+        }
+      ],
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "2026-05-13: Trying 3380 for the BMS beta thermistor calibration, need to further review the data collected during freezer testing.",
+            "done": true
+          },
+          {
+            "text": "2026-05-13: Brake switch wiring / physical switch adjustment is off. Dave to look at in the morning.\n2026-08-07: This seems to be fixed.",
+            "done": true
+          },
+          {
+            "text": "2026-05-13: HVIL missing from IMD box. Measured from BMS Host 2 CAN - HVIL2\nResolved: HVIL wire backed out of HV connector on IMD Box",
+            "done": true
+          },
+          {
+            "text": "2026-05-13: CAN3 Termination is 110 and missing a termination resistor, temporary one added when OBD cord is plugged in.",
+            "done": false
+          },
+          {
+            "text": "2026-05-12: PMU CAN1 high and low suspeccted swapped at both PMU's.\n2026-05-13: Brandon swapped them again and now the programming laptop can connect to the PMU's.",
+            "done": true
+          },
+          {
+            "text": "2026-06-xx: DCDC seems to be dead.\n2026-08-xx: The was resolved by replacing the unit.",
+            "done": true
+          },
+          {
+            "text": "2026-08-07: The customer credentials need to be put into the wifi logger.",
+            "done": false
+          },
+          {
+            "text": "2026-08-07: The vehicle needs to be weighed and then entered into the GUI.",
+            "done": false
+          },
+          {
+            "text": "2026-08-07: The GUI needs to be updated to the latest.",
+            "done": false
+          },
+          {
+            "text": "2026-08-07: The gauges need to return from Peterson, get installed, and verified.",
+            "done": false
+          },
+          {
+            "text": "2026-08-07: Fast charging needs to be tested.",
+            "done": false
+          },
+          {
+            "text": "2026-08-07: A full 'overnight' charge needs to be completed and then the Ampere BMS diagnostic report ran + analyzed.",
+            "done": false
+          },
+          {
+            "text": "2026-08-07: The passenger window was going up automatically when it shouldn't. Opened the concern that the motor is constantly stalled when on. This turned into some OEM wiring diag which then turned into headlights dimming. I believe it still needs work.",
+            "done": false
+          },
+          {
+            "text": "2026-08-07: Need to verify break speed in the inverter.",
+            "done": false
+          }
+        ],
+        "total": 14,
+        "done": 5,
+        "open": 9
+      }
+    },
+    {
+      "owner": "Teague",
+      "year": 1962,
+      "color": "Black",
+      "make": "Jaguar",
+      "model": "",
+      "status": "Testing",
+      "checkout": 100,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 97.2
+        },
+        {
+          "label": "Inverter",
+          "value": 93.5
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 83.6
+        },
+        {
+          "label": "Functional",
+          "value": 25.0
+        }
+      ],
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "Missing Build Photos",
+            "done": false
+          },
+          {
+            "text": "Missing Polarity Label",
+            "done": true
+          },
+          {
+            "text": "Test Box Fail - There's something making the test box \"PWR/CAN\" fail, moved on but will circle back to troubleshoot.",
+            "done": true
+          },
+          {
+            "text": "Missing Build Photos",
+            "done": false
+          },
+          {
+            "text": "Missing Polarity Label",
+            "done": true
+          },
+          {
+            "text": "Incorrect Contactor Orientation",
+            "done": true
+          },
+          {
+            "text": "2026-08-07: The customer credentials need to be put into the wifi logger.",
+            "done": false
+          },
+          {
+            "text": "2026-08-07: Fast charging needs to be tested.",
+            "done": false
+          },
+          {
+            "text": "2026-08-07: A full 'overnight' charge needs to be completed and then the Ampere BMS diagnostic report ran + analyzed.\n2026-08-13: There was a long charge earlier today, should be safe to pull the logs.",
+            "done": false
+          },
+          {
+            "text": "2026-07-29: Figure out the correct VCU settings for a 450V vehicle. OBC, DCDC, precharge resistor, etc.",
+            "done": false
+          },
+          {
+            "text": "2026-08-11: There's a flashing \"CHARGE\" light on the analog gauges wihile nothing shows on the digital dash.\n2026-08-13: Dave says SOC was ~9% so the pack was low. Indication between Ampere and Peterson simply do not match. This is resolved.",
+            "done": true
+          },
+          {
+            "text": "2026-08-xx: The compressor makes a clicking sound every ~30 seconds when HV is powered up but the LV is turnes off.\n2026-08-13: Resolved. The problem just went away. Probably something about a refrigerant bubble.",
+            "done": true
+          },
+          {
+            "text": "2026-08-10: The battery type is set incorrectly in the vehicle.\n2026-08-11: Resolved. Corrected to ID4 to match the vehicle.",
+            "done": true
+          }
+        ],
+        "total": 13,
+        "done": 7,
+        "open": 6
+      }
+    },
+    {
+      "owner": "Chuter",
+      "year": 1962,
+      "color": "Red + White",
+      "make": "Austin",
+      "model": "Healey",
+      "status": "Testing",
+      "checkout": 100,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 97.2
+        },
+        {
+          "label": "Inverter",
+          "value": 99.1
+        },
+        {
+          "label": "PMU",
+          "value": 100
+        },
+        {
+          "label": "Raptor",
+          "value": 100
+        },
+        {
+          "label": "Functional",
+          "value": 41.7
+        }
+      ],
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "2026-05-14: CAN3 termination is incorrect.\n2026-08-10: Resolved. Measured 60.8 Ohms today.",
+            "done": true
+          },
+          {
+            "text": "2026-08-xx: The GUI is commanded on and drawing 30mA but the screen is still dark. Check wiring at the GUI connector and ribbon cable.\n2026-08-10: Resolved. Noah found and fixed the issue.",
+            "done": true
+          },
+          {
+            "text": "2026-07-xx: Need to charge pack up to 390 volts with a charge lasting 6-7 hours to test if the DCDC fails.",
+            "done": false
+          },
+          {
+            "text": "2026-07-xx: Vehicle has charge errors.\n2026-08-10: Resolved. Noah found and fixed the issue.",
+            "done": true
+          },
+          {
+            "text": "2026-08-10: Vehicle weight may be incorrect in the GUI. Gear ratio is incorrect.",
+            "done": false
+          },
+          {
+            "text": "2026-08-10: The customer credentials need to be put into the wifi logger.\n2026-08-24: Entered into the CANCloud, just waiitng for the config to sync.",
+            "done": false
+          },
+          {
+            "text": "2026-08-10: A full 'overnight' charge needs to be completed and then the Ampere BMS diagnostic report ran + analyzed.",
+            "done": false
+          },
+          {
+            "text": "no heater hv lockout on blower speed",
+            "done": false
+          }
+        ],
+        "total": 8,
+        "done": 3,
+        "open": 5
+      }
+    },
+    {
+      "owner": "Kelly",
+      "year": 1963,
+      "color": "Blue",
+      "make": "Chevrolet",
+      "model": "Corvette",
+      "status": "Startup",
+      "checkout": 100.0,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 66.7
+        },
+        {
+          "label": "Inverter",
+          "value": 97.2
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 7.3
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "cutback under high acceleration, probably in inverter, review settings.",
+            "done": false
+          },
+          {
+            "text": "look at torque request vs feedback in CM350. send to cascadia a log to show it's nots following right.",
+            "done": false
+          },
+          {
+            "text": "The parking brake settings can reset under certain firmware flash settings, this one may have changed and needs the tune reviewed.\r\nFrom the PMU software I saw PMU CAN2 (VCU CAN1) flash red, this means there are error frames while simply sitting at idle.\r\nNot on the latest VCU firmware, did notice some options wrong. (cooling plate, not sure what that actually changes. Perhaps others are wrong though)",
+            "done": false
+          },
+          {
+            "text": "590 12s PCB+ivt",
+            "done": false
+          }
+        ],
+        "total": 4,
+        "done": 0,
+        "open": 4
+      }
+    },
+    {
+      "owner": "Ferdman",
+      "year": 1966,
+      "color": "White",
+      "make": "Volkswagen",
+      "model": "Micro Bus",
+      "status": "Testing",
+      "checkout": 100,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 88.9
+        },
+        {
+          "label": "Inverter",
+          "value": 73.1
+        },
+        {
+          "label": "PMU",
+          "value": 90.6
+        },
+        {
+          "label": "Raptor",
+          "value": 1.1
+        },
+        {
+          "label": "Functional",
+          "value": 33.3
+        }
+      ],
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "2026-03-xx: Motor cable hangs close to axle.",
+            "done": false
+          },
+          {
+            "text": "2026-05-11: Fan 2 - Motor not working - May be a ECU Master firmware issue.\n2026-05-11: Resolved, flashed latest PMU version.",
+            "done": true
+          },
+          {
+            "text": "2026-xx-xx: Need to find correct firmware for the SDU.\n2026-xx-xx: Resolved.",
+            "done": true
+          },
+          {
+            "text": "2026-05-11: Find proper plugs for Tesla SDU LV connector and plug unused pins.",
+            "done": false
+          },
+          {
+            "text": "2026-05-12: Motor seems to clack the gears back and forth at 0 Nm request.\n2025-05-13: Lowered shudder Kp from 20 to 10 which significantly helped but did not eliminate the issue.",
+            "done": false
+          },
+          {
+            "text": "2026-08-07: The customer credentials need to be put into the wifi logger.",
+            "done": false
+          },
+          {
+            "text": "2026-08-07: A full 'overnight' charge needs to be completed and then the Ampere BMS diagnostic report ran + analyzed.",
+            "done": false
+          }
+        ],
+        "total": 7,
+        "done": 2,
+        "open": 5
+      }
+    },
+    {
       "owner": "Berke",
       "year": 1969,
       "color": "Blue",
@@ -21,6 +459,350 @@
       "checkout": 97.8,
       "sub_metrics": [],
       "system": "AEM"
+    },
+    {
+      "owner": "Vargas",
+      "year": 1966,
+      "color": "Red",
+      "make": "Ford",
+      "model": "Mustang",
+      "status": "Shipped",
+      "checkout": 93.5,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 97.2
+        },
+        {
+          "label": "Inverter",
+          "value": 99.1
+        },
+        {
+          "label": "PMU",
+          "value": 100
+        },
+        {
+          "label": "Raptor",
+          "value": 98.2
+        },
+        {
+          "label": "Functional",
+          "value": 66.7
+        }
+      ],
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "Add Large PE To CCS Port, Make Drawing If Needed, Try Lee ChargeByte",
+            "done": true
+          },
+          {
+            "text": "Verify Pack Burn Data",
+            "done": true
+          },
+          {
+            "text": "Re-Adjust Gear Ratio + Weight or hardcode in VCU.",
+            "done": true
+          },
+          {
+            "text": "Verify Fast Charging",
+            "done": true
+          },
+          {
+            "text": "Verify Pack Burn Data",
+            "done": true
+          },
+          {
+            "text": "Verify Wi-Fi logger connectivity.",
+            "done": true
+          },
+          {
+            "text": "Get GUI To Boot Properly.",
+            "done": false
+          },
+          {
+            "text": "Verify no CCS errors with Raptor.",
+            "done": true
+          },
+          {
+            "text": "Update firmware and adjust vehicle weight in VCU.",
+            "done": true
+          }
+        ],
+        "total": 9,
+        "done": 8,
+        "open": 1
+      }
+    },
+    {
+      "owner": "Buck",
+      "year": 1971,
+      "color": "Red",
+      "make": "Mercedes",
+      "model": "280SL",
+      "status": "Shipped",
+      "checkout": 92.5,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 97.2
+        },
+        {
+          "label": "Inverter",
+          "value": 98.1
+        },
+        {
+          "label": "PMU",
+          "value": 100
+        },
+        {
+          "label": "Raptor",
+          "value": 92.7
+        },
+        {
+          "label": "Functional",
+          "value": 66.7
+        }
+      ],
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "2025-xx-xx: Verify I have the correct status / overrides for battery pump and heater.\n2026-04-22: I now know how to properly check that IO point next time there's access to the vehicle.",
+            "done": false
+          },
+          {
+            "text": "2025-xx-xx: Ask which settings turn off brake faults since it's working but sends an alarm to the gauges.\n2026-04-22: Should verify this is not one of the reasons the gauge cluster has alarm lights.",
+            "done": false
+          },
+          {
+            "text": "2025-xx-xx: Ask why weight calibration in the VCU only goes to 100kg.\n2026-04-22: Resolved in firmware 1.7.9.493.",
+            "done": true
+          },
+          {
+            "text": "2025-xx-xx: Verify logs are uploading with customer's wifi.\n2026-04-22: Resolved, Remote session with Ampere and customer corrected an incorrect password.",
+            "done": true
+          },
+          {
+            "text": "2026-04-22: Customer complains about a lack of off the line power and motor vibrate-y sound.\n2026-04-22: Can look into inverter EEPROM settings for the shudder and develop a firmware branch with a more agressive torque map.",
+            "done": false
+          },
+          {
+            "text": "2026-04-22: Analog gauges are showing a number of warning lights along with DTC codes when the GUI is plugged in.\n2026-04-22: Updated ticket with Ampere asking for Andrew to look into that.",
+            "done": false
+          }
+        ],
+        "total": 6,
+        "done": 2,
+        "open": 4
+      }
+    },
+    {
+      "owner": "Shah",
+      "year": 1965,
+      "color": "Silver",
+      "make": "Ford",
+      "model": "Mustang",
+      "status": "Testing",
+      "checkout": 92.4,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 97.2
+        },
+        {
+          "label": "Inverter",
+          "value": 99.1
+        },
+        {
+          "label": "PMU",
+          "value": 100
+        },
+        {
+          "label": "Raptor",
+          "value": 100
+        },
+        {
+          "label": "Functional",
+          "value": 58.3
+        }
+      ],
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "2026-xx-xx: Heat can come on during charge and the contactors clack. PMU needs to be hooked up to CAN3.\n2026-05-13: Verified as resolved.",
+            "done": true
+          },
+          {
+            "text": "2026-xx-xx: The hood is really squeaky.",
+            "done": true
+          },
+          {
+            "text": "2026-xx-xx: RND locks into drive not park. You can accidentally bump it and leave park. Accurate 2026-01-28.",
+            "done": true
+          },
+          {
+            "text": "2026-xx-xx: Speedo is mounted crooked.",
+            "done": true
+          },
+          {
+            "text": "2026-xx-xx: None of the gauges work.",
+            "done": true
+          },
+          {
+            "text": "2026-xx-xx: Diag Oil Presure Warning, Justin changed sensor. Need to check for alarm in VCU.\n2026-05-13: Resolved, No alarms since 2026-01-28.",
+            "done": true
+          },
+          {
+            "text": "2026-xx-xx: Change Shah logger to CAN3 to diag SOC gauge if it's still acting up.",
+            "done": true
+          },
+          {
+            "text": "2026-xx-xx: Needs PMU & inverter programming port labels.\n2026-05-13: Skipped.",
+            "done": true
+          },
+          {
+            "text": "2026-xx-xx: Verify Wi-Fi logger connectivity.\n2026-05-13: Resolved, connects to Moment and has the customer credentials uploaded.",
+            "done": true
+          },
+          {
+            "text": "2026-xx-xx: Has a battery low range low warning in Raptor at 87% SOC. This means it has not been charged / discharged fully / properly for that to reset.\n2026-05-13: Leaving on charge overnight, will need a 15+ mile drive after that to reset some things internal to the VCU.",
+            "done": false
+          }
+        ],
+        "total": 10,
+        "done": 9,
+        "open": 1
+      }
+    },
+    {
+      "owner": "Barton",
+      "year": 1959,
+      "color": "White",
+      "make": "Chevrolet",
+      "model": "Impala",
+      "status": "Testing & Tuning",
+      "checkout": 91.4,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 97.2
+        },
+        {
+          "label": "Inverter",
+          "value": 94.4
+        },
+        {
+          "label": "PMU",
+          "value": 100
+        },
+        {
+          "label": "Raptor",
+          "value": 98.2
+        },
+        {
+          "label": "Functional",
+          "value": 58.3
+        }
+      ],
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "Label plug above brights kick switch. Label inverter connection plug.",
+            "done": true
+          },
+          {
+            "text": "Verify HV acessories after polarity swap.",
+            "done": true
+          },
+          {
+            "text": "Verify inverter after HV polarity swap.",
+            "done": true
+          },
+          {
+            "text": "Charge AC system & verify.",
+            "done": true
+          },
+          {
+            "text": "Install Heater Contactor Controller & commission.",
+            "done": true
+          },
+          {
+            "text": "Tune Wilwood brakes.",
+            "done": true
+          },
+          {
+            "text": "Weigh vehicle.",
+            "done": true
+          },
+          {
+            "text": "2026-03-xx: Pack burn. Evaluate Cell Delta.\n2026-03-20: Put in request to get BMS report ran after full charge 7PM to 7AM 2026-03-18.",
+            "done": false
+          },
+          {
+            "text": "Re-test BMS boxes / verify contactor orientation.",
+            "done": false
+          },
+          {
+            "text": "Add BMS images to drive.",
+            "done": false
+          },
+          {
+            "text": "Transfer fuse notes to power distribution sheet. Finish power distribution checkout.",
+            "done": true
+          },
+          {
+            "text": "Configure logger with Wi-Fi credentials and verify connectivity.",
+            "done": false
+          },
+          {
+            "text": "Update GUI and input gear ratio.",
+            "done": true
+          },
+          {
+            "text": "Update VCU Firmware. Verify with Ampere _BR is an okay FW to use.",
+            "done": true
+          },
+          {
+            "text": "CAN1 measures the wrong termination",
+            "done": true
+          },
+          {
+            "text": "GUI crashes when adjusting vehicle weight.",
+            "done": true
+          },
+          {
+            "text": "Suspension is very squeaky.",
+            "done": false
+          },
+          {
+            "text": "Small jingle when driving slow.",
+            "done": false
+          },
+          {
+            "text": "Motor temp gauge doesn't respond to gauges program.\n2026-03-18: Resolved, step and direction leads to the motor had backed out and needed to be pushed back in.",
+            "done": true
+          },
+          {
+            "text": "BRAKE indicator on the gauges never illuminates.",
+            "done": false
+          },
+          {
+            "text": "2026-03-18: New Issue, Vehicle weight not getting pulled from the GUI.",
+            "done": false
+          },
+          {
+            "text": "2026-03-31: Blower speed drops when power steering is used. Check DCDC settings.\n2026-06-04: fixed with larger wire and that solvved most of the problem.",
+            "done": false
+          }
+        ],
+        "total": 22,
+        "done": 13,
+        "open": 9
+      }
     },
     {
       "owner": "Miner",
@@ -45,6 +827,176 @@
       "system": "AEM"
     },
     {
+      "owner": "Feldman",
+      "year": 1969,
+      "color": "Silver",
+      "make": "Mercedes",
+      "model": "280SE",
+      "status": "Shipped",
+      "checkout": 86.3,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 92.6
+        },
+        {
+          "label": "Inverter",
+          "value": 94.4
+        },
+        {
+          "label": "PMU",
+          "value": 100
+        },
+        {
+          "label": "Raptor",
+          "value": 92.7
+        },
+        {
+          "label": "Functional",
+          "value": 50.0
+        }
+      ],
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "Charge Lock Issue",
+            "done": false
+          },
+          {
+            "text": "Heat might come on during charge.",
+            "done": false
+          }
+        ],
+        "total": 2,
+        "done": 0,
+        "open": 2
+      }
+    },
+    {
+      "owner": "Witham",
+      "year": 1951,
+      "color": "Green",
+      "make": "Chevrolet",
+      "model": "3100",
+      "status": "Testing",
+      "checkout": 86.1,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 97.2
+        },
+        {
+          "label": "Inverter",
+          "value": 94.4
+        },
+        {
+          "label": "PMU",
+          "value": 100
+        },
+        {
+          "label": "Raptor",
+          "value": 100
+        },
+        {
+          "label": "Functional",
+          "value": 25.0
+        }
+      ],
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "2026-03-xx: Mount small fuseblock that is labeled \"Mount Me\".\n2026-04-06: Resolved.",
+            "done": true
+          },
+          {
+            "text": "2026-03-xx: Connect open black wire by 12V battery.\n2026-04-06: Resolved.",
+            "done": true
+          },
+          {
+            "text": "2026-03-xx: CAN3 termination is wrong. CAN3 passive fault.\n2026-03-xx: Need to remove 150 Ohm resistor in the BIM module.\n2026-04-06: Resolved, the resistor was removed and gauges installed.",
+            "done": true
+          },
+          {
+            "text": "2026-03-xx: No brakes, need a bias block or plug.\n2026-04-06: Brake solution on going, correct booster has been ordered and is expected in 10 days.\n2026-04-13: Resolved, Billy installed the new setup & took for a test drive.",
+            "done": true
+          },
+          {
+            "text": "2026-03-xx: PRND not showing up in VCU.\n2026-03-02: Resolved.",
+            "done": true
+          },
+          {
+            "text": "2026-02-27: PMU2 doesn't show up at the diagnostic port.\n\n2026-03-02: Resolved, CAN_H and CAN_L were swapped.",
+            "done": true
+          },
+          {
+            "text": "2026-03-02: There is no ignition switch.\n2026-03-06: Key switch now seems to operate backwards.\n2026-04-06: Resolved, The ignition switch is mounted and working as expected.",
+            "done": true
+          },
+          {
+            "text": "2026-03-02: The GUI is not booting. Full black screen. Used a new style ribbon cable, might need to change it out for the flat style.\n2026-04-06: The GUI is not mounted, may need a new cable solution still.\n2026-05-05: Waiting on mount to get back from paint.\n2026-05-22: Installed and working!",
+            "done": true
+          },
+          {
+            "text": "2026-03-02: Cabin blower just turns on, switch doesn't exist. Correct switch is on the way.\n2026-03-06: Cabin blower motor is temporarily disabled in the PMU.\n2026-04-14: Wrote logic for Blower and Contactor control. Still need to test with live HV.\n2026-04-15: Bloweer and heat now work and are tuned for best sound. Physical switch sometimes doesn't fully make the off position and needs some adjustment.\n2026-05-05: Resolved. Ben added a spacer.",
+            "done": true
+          },
+          {
+            "text": "2026-03-06: DB9 connectors in the engine bay are not weather sealed.\n2026-04-15: Resolved, Noah shrunk them over and installed DT connectors.",
+            "done": true
+          },
+          {
+            "text": "2026-03-06: The option motorType is set incorrectly in the VCU.\n2026-04-13: Resolved during Ampere session.",
+            "done": true
+          },
+          {
+            "text": "2026-03-06: mHeaterType might be set incorrectly in the VCU.\n2026-04-13: Resolved during Ampere session.",
+            "done": true
+          },
+          {
+            "text": "2026-03-06: Power steering is temporarily disabled in the PMU.\n2026-04-06: Resolved, PMU was upgraded to CAN Interface with that bit working.",
+            "done": true
+          },
+          {
+            "text": "2026-03-10: Started getting a BattWakeFault again.\n2026-03-xx: Resolved, pulled batter box and replaced bad satellite module.",
+            "done": true
+          },
+          {
+            "text": "2026-04-07: Cooling fan 1 for the battery circuit is spinning backwards.\n2026-04-15: Resolved, Ben reversed the fan and wire polarity.",
+            "done": true
+          },
+          {
+            "text": "2026-04-07: Need new firmware with the fault BattWakeOpnShrt turned off.\n2026-04-16: Resolved in firmware R010807.",
+            "done": true
+          },
+          {
+            "text": "2026-04-07: Plugging in the charger does not boot the vehicle.\n2026-04-13: The ChargeByte connector wasn't fully seated. The vehicle now boots but get's both a PreChargeFault and BattWakeFault.\n2026-04-14: Andrew found some changes that need to be made in logic. New firmware expected tomorrow.\n2026-04-16: Vehicle boots and locks the charge plug with the inverter online correctly but now get's a ChgPortContFlt which is likely a false positive due to ChargeByte firmware.\n2026-04-17: Verified wiring continuity and prox resistances at the ChargeByte, no issues. Upgraded ChargeByte firmware, still getting the same fault. Prox signal noise now suspected.\n2026-04-17: Resolved, a missing ground was found and added.",
+            "done": true
+          },
+          {
+            "text": "2026-05-05: Vehicle makes a buzzy sound during key on.\n2026-05-05: Resolved, small delay added to the PMU output for the blower motor.",
+            "done": true
+          },
+          {
+            "text": "2026-05-05: May have CAN3 passive errors, need to re-check once the GUI is mounted and a few key cycles are done.\n2026-05-06: Fault observed to pop up under heavy acceleration.\n2026-05-07: Resolved, changed the CAN3BusPassiveTimeThr from 1 to 2.5 seconds and haven't seen the fault since. Will re-open if it comes back.",
+            "done": true
+          },
+          {
+            "text": "2026-05-05: Need to enable shudder compensations with Ampere reccommended values.\n2026-05-06: Turned on shudder comp with Ampere reccommended settings. Asked Ampere to check a log to see if there was any effect.\n2026-05-12: Marc say's it feels fine.",
+            "done": true
+          },
+          {
+            "text": "2026-05-07: Fast charging has not yet been tested.\n2026-05-11: Tested working.",
+            "done": true
+          }
+        ],
+        "total": 21,
+        "done": 21,
+        "open": 0
+      }
+    },
+    {
       "owner": "GMC",
       "year": 1963,
       "color": "Blue",
@@ -54,6 +1006,137 @@
       "checkout": 81.2,
       "sub_metrics": [],
       "system": "AEM"
+    },
+    {
+      "owner": "Preheim",
+      "year": 1972,
+      "color": "Blue",
+      "make": "Chevrolet",
+      "model": "Blazer",
+      "status": "Checkout",
+      "checkout": 75.9,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 97.2
+        },
+        {
+          "label": "Inverter",
+          "value": 77.8
+        },
+        {
+          "label": "PMU",
+          "value": 87.5
+        },
+        {
+          "label": "Raptor",
+          "value": 96.4
+        },
+        {
+          "label": "Functional",
+          "value": 8.3
+        }
+      ],
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "2026-02-xx: Need to check ampacity of PMU feed wire, it looks undersized.\n2026-02-12: Resolved, The main feed cable to the PMU was missing. The small wire I was looking at is a feed from the PMU to the whole harness.",
+            "done": true
+          },
+          {
+            "text": "2026-03-xx: Brakes don't fully return to off position.\n2026-04-01: Resolved after much work from Billy.",
+            "done": true
+          },
+          {
+            "text": "2026-03-xx: The GUI doesn't fully boot, the screen flickers on and off continuously.\n2026-02-20: Resolved, the ribbon cable to the screen wasn't fully seated.",
+            "done": true
+          },
+          {
+            "text": "2026-03-xx: HVIL is missing on the IMD box HV input / output.\n2026-02-20: Resolved, Billy added in the right jumper.",
+            "done": true
+          },
+          {
+            "text": "2026-03-xx: The power steering is very noisy and doesn't idle when not in use.\n2026-03-23: Update, The power from the PMU to the steering sensor is wired wrong.\n2026-03-23: The steering angle sensor is not wired to PMU2 Output 11. Both \"ON\" and \"OFF\" have no effect on the pump noise.\n2026-04-02: Resolved, Billy fixed wiring.",
+            "done": true
+          },
+          {
+            "text": "The APP only reaches 30%. Check wiring.\n2026-03-xx: Resolved, Channel A and Channel B were swapped.",
+            "done": true
+          },
+          {
+            "text": "Almost none of the outputs seem to turn on. Pumps not running.\n2026-02-17: Resolved, PMU1 and PMU2 calibrations were switched.",
+            "done": true
+          },
+          {
+            "text": "Vehicle gets CAN errors and the battery system doesn't wake.\n2026-02-16: Resolved, The rear harness extension was pinned with the wrong gender connector but still plugged in. Brandon re-pinned one side to the correct connector.",
+            "done": true
+          },
+          {
+            "text": "Vehicle doesn't PreCharge and get's negative contactor cross-check faults.\n2026-02-17: Resolved, The HVJB and CCS LV Connectors were swapped.",
+            "done": true
+          },
+          {
+            "text": "12V was browing out. May have just been a super low 12V battery.\n2026-03-23: Resolved, Verified DCDC and hasn't happened since.",
+            "done": true
+          },
+          {
+            "text": "At normal ignition standby you get a DCDCVoltXChk fault.\n2026-03-23: Resolved, Fault no longer showing up.",
+            "done": true
+          },
+          {
+            "text": "2026-03-xx: When trying to charge you get a ChgPortContFlt.\n2026-04-15: Possibly fixed in new frimware expected by tomorrow.\n2026-04-17: Upgraded ChargeByte firmware and re-tested. Problem persists. The OBC isn't detecting pack voltage, need to check wiring and fuses to the OBC.\n2026-04-20: Resolved, Billy replaced the OBC fuse and charging now works as expected.",
+            "done": true
+          },
+          {
+            "text": "2026-03-xx: Gear changes take pretty long.",
+            "done": false
+          },
+          {
+            "text": "Ambient air temp sensor not reading correctly.\n2026-02-25: Resolved, Brandon found a pin with a bad crimp at the temp sensor.",
+            "done": true
+          },
+          {
+            "text": "2026-03-xx: Vehicle makes a shooshooshoo sound while driving. Doesn't seem to be related to brakes.\n2026-04-15: Might need a parking brake tune again, waiting on answer from Ampere about settings not allowed by VCU.",
+            "done": false
+          },
+          {
+            "text": "2026-03-23: Cabin heat system needs commissioning.\n2026-04-01: Need to commission the heat system and remove the temp PMU logic.\n2026-04-15: Have new PMU program with logic ready, will need a few hours to install then verify.\n2026-04-20: The CAN based heater need's to be enabled in the VCU. Need to schedule a meeting to unlock this option which is currently behind a paywall structure.\n2026-04-21: Corrected VCU option to enable the heater. Need to make full climate controls schematic to answer questions needed to move on.",
+            "done": false
+          },
+          {
+            "text": "2026-03-23: AC system needs commissioning.\n2026-03-31: AC works but condensate leaks onto the passenger's feet.\n2026-04-15: Resolved, Billy fixed the hose which had fallen off.",
+            "done": true
+          },
+          {
+            "text": "2026-04-01: Reverse lights don't seem to be working, it's likely wiring.\n2026-04-02: Resolved, Billy fixed wiring.\n2026-04-15: Driver side light burned out.",
+            "done": false
+          },
+          {
+            "text": "2026-04-01: Getting a negative contactor welded fault in the VCU.\n2026-04-02: Resolved, negative contactor was welded and Billy replaced it.",
+            "done": true
+          },
+          {
+            "text": "Fix the gear ratio",
+            "done": false
+          },
+          {
+            "text": "Battery type in preheim",
+            "done": false
+          },
+          {
+            "text": "2026-07-28: Dakota Digital gauges need the limits modified / disabled to hide some nuisance alarms.",
+            "done": false
+          },
+          {
+            "text": "2026-07-28: The LDU has a cap on regen that needs to be removed.",
+            "done": false
+          }
+        ],
+        "total": 23,
+        "done": 15,
+        "open": 8
+      }
     },
     {
       "owner": "Hopkins",
@@ -122,6 +1205,81 @@
       "system": "AEM"
     },
     {
+      "owner": "Dan Henry",
+      "year": 1961,
+      "color": "Green",
+      "make": "Austin",
+      "model": "Healey",
+      "status": "Checkout",
+      "checkout": 48.9,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 79.6
+        },
+        {
+          "label": "Inverter",
+          "value": 96.3
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 100
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "THERMISTORFILTERTYPE=2\r\nTHERMISTORFILTER_TC_MINMAX=10\r\nTHERMISTORFILTER_TC_AVG=10\r\nTHERMISTORFILTER_TC_COOLANT=10",
+            "done": false
+          },
+          {
+            "text": "2026-04-23: Verify inverter EEPROM is consistent with improvements over the past year.",
+            "done": false
+          },
+          {
+            "text": "2026-04-23: Verify analog PDU channels as best as possible.",
+            "done": false
+          },
+          {
+            "text": "2026-04-23: Upgrade VCU firmware to the latest. Review all VCU settings.\n\n2026-04-28: Resolved, VCU has been upgraded to the latest firmware.",
+            "done": true
+          },
+          {
+            "text": "2026-04-23: Determine analog gauge progress, location of firmware development files. Finish development and validate.\n\n2026-04-28: The DashBox code base will need to be modified to use the ampere can definitions. Since there's no AEM dash checking set points that code will have to be worked back into the. The speed Gage does not work but is currently completely outside of the DashBox code.\n\n2026-05-03: Resolved. Compleated and verified.",
+            "done": true
+          },
+          {
+            "text": "2026-04-23: Perform Ampere BMS road testing per guide instructions.\n\n2026-04-28: Part one has been completed and the logs have been submitted to Ampere. Waiting on response from Ampere about what to adjust for trial two.\n\n2026-06-03: Resolved. BMS firmware flashed to all three boxes and thermistor filters setup.",
+            "done": true
+          },
+          {
+            "text": "2026-04-28: The driver side mirror is loose and jiggles around.\n\n2026-06-03: Resolved.",
+            "done": true
+          },
+          {
+            "text": "Has an older GUI",
+            "done": false
+          },
+          {
+            "text": "weigh vehicle",
+            "done": false
+          }
+        ],
+        "total": 9,
+        "done": 4,
+        "open": 5
+      }
+    },
+    {
       "owner": "Ivanhoe",
       "year": 1965,
       "color": "Green",
@@ -131,6 +1289,244 @@
       "checkout": 47.4,
       "sub_metrics": [],
       "system": "AEM"
+    },
+    {
+      "owner": "Alvarez",
+      "year": 1966,
+      "color": "Green",
+      "make": "Austin",
+      "model": "Healey",
+      "status": "Shipped",
+      "checkout": 19.0,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 71.3
+        },
+        {
+          "label": "Inverter",
+          "value": 1.9
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 29.1
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere"
+    },
+    {
+      "owner": "Jaffe",
+      "year": 1985,
+      "color": "",
+      "make": "Mercedes",
+      "model": "190E",
+      "status": "Fabrication",
+      "checkout": 18.2,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 97.2
+        },
+        {
+          "label": "Inverter",
+          "value": 0
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 0
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "Missing Build Photos",
+            "done": true
+          },
+          {
+            "text": "Missing Polarity Label",
+            "done": true
+          },
+          {
+            "text": "Cell ID 4 110mV Below All Other Cells - Bummer, What do we want to do?",
+            "done": true
+          },
+          {
+            "text": "Satellite Module 5 Thermistors Offset - They are on slots 2 and 3 instead of 1 and 2",
+            "done": true
+          },
+          {
+            "text": "Missing Build Photos",
+            "done": false
+          },
+          {
+            "text": "Missing Polarity Label",
+            "done": true
+          },
+          {
+            "text": "Rear box MSD physically contacts the Amphenol plug and cannot be seated.",
+            "done": true
+          }
+        ],
+        "total": 7,
+        "done": 6,
+        "open": 1
+      }
+    },
+    {
+      "owner": "Ritchie",
+      "year": 1972,
+      "color": "",
+      "make": "Chevrolet",
+      "model": "Blazer",
+      "status": "Fabrication",
+      "checkout": 17.6,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 100
+        },
+        {
+          "label": "Inverter",
+          "value": 0
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 0
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere"
+    },
+    {
+      "owner": "Nolan",
+      "year": 1970,
+      "color": "",
+      "make": "",
+      "model": "Challenger",
+      "status": "Fabrication",
+      "checkout": 16.2,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 97.2
+        },
+        {
+          "label": "Inverter",
+          "value": 0
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 0
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere"
+    },
+    {
+      "owner": "Icon",
+      "year": 1967,
+      "color": "Black",
+      "make": "Ford",
+      "model": "Bronco",
+      "status": "Shipped",
+      "checkout": 13.8,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 22.2
+        },
+        {
+          "label": "Inverter",
+          "value": 0
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 25.5
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "After Icon HVJB\r\nRe-Check Heat + AC\r\nRe-Check Fast Charging",
+            "done": false
+          }
+        ],
+        "total": 1,
+        "done": 0,
+        "open": 1
+      }
+    },
+    {
+      "owner": "Ampere Default",
+      "year": null,
+      "color": "",
+      "make": "",
+      "model": "",
+      "status": "Shipped",
+      "checkout": 4.5,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 3.7
+        },
+        {
+          "label": "Inverter",
+          "value": 23.1
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 0
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere"
     },
     {
       "owner": "Simpson",
@@ -153,9 +1549,201 @@
       "checkout": 1.1,
       "sub_metrics": [],
       "system": "AEM"
+    },
+    {
+      "owner": "Richardson",
+      "year": 1972,
+      "color": "",
+      "make": "Datsun",
+      "model": "240Z",
+      "status": "Fabrication",
+      "checkout": 0,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 0
+        },
+        {
+          "label": "Inverter",
+          "value": 0
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 0
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere"
+    },
+    {
+      "owner": "Cohn",
+      "year": 1964,
+      "color": "",
+      "make": "",
+      "model": "Corvette",
+      "status": "Fabrication",
+      "checkout": 0,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 0
+        },
+        {
+          "label": "Inverter",
+          "value": 0
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 0
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere"
+    },
+    {
+      "owner": "#REF! (Reference does not exist.)",
+      "year": null,
+      "color": "#REF! (Reference does not exist.)",
+      "make": "#REF! (Reference does not exist.)",
+      "model": "#REF! (Reference does not exist.)",
+      "status": "#REF! (Reference does not exist.)",
+      "checkout": 0.0,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 0.0
+        },
+        {
+          "label": "Inverter",
+          "value": 0.0
+        },
+        {
+          "label": "PMU",
+          "value": 0.0
+        },
+        {
+          "label": "Raptor",
+          "value": 0.0
+        },
+        {
+          "label": "Functional",
+          "value": 0.0
+        }
+      ],
+      "system": "Ampere"
+    },
+    {
+      "owner": "Icon Re-Do",
+      "year": null,
+      "color": "Black",
+      "make": "Ford",
+      "model": "Bronco",
+      "status": "Shipped",
+      "checkout": 0,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 0
+        },
+        {
+          "label": "Inverter",
+          "value": 0
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 0
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere"
+    },
+    {
+      "owner": "#REF! (Reference does not exist.)",
+      "year": null,
+      "color": "#REF! (Reference does not exist.)",
+      "make": "#REF! (Reference does not exist.)",
+      "model": "#REF! (Reference does not exist.)",
+      "status": "#REF! (Reference does not exist.)",
+      "checkout": 0.0,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 0.0
+        },
+        {
+          "label": "Inverter",
+          "value": 0.0
+        },
+        {
+          "label": "PMU",
+          "value": 0.0
+        },
+        {
+          "label": "Raptor",
+          "value": 0.0
+        },
+        {
+          "label": "Functional",
+          "value": 0.0
+        }
+      ],
+      "system": "Ampere"
+    },
+    {
+      "owner": "#REF! (Reference does not exist.)",
+      "year": null,
+      "color": "#REF! (Reference does not exist.)",
+      "make": "#REF! (Reference does not exist.)",
+      "model": "#REF! (Reference does not exist.)",
+      "status": "#REF! (Reference does not exist.)",
+      "checkout": 0.0,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 0.0
+        },
+        {
+          "label": "Inverter",
+          "value": 0.0
+        },
+        {
+          "label": "PMU",
+          "value": 0.0
+        },
+        {
+          "label": "Raptor",
+          "value": 0.0
+        },
+        {
+          "label": "Functional",
+          "value": 0.0
+        }
+      ],
+      "system": "Ampere"
     }
   ],
-  "updated": "2026-09-10T09:14:50.826499+00:00",
+  "updated": "2026-09-10T09:31:40.976144+00:00",
   "source": "Google Sheets API",
-  "generated_at": "2026-09-10T09:14:00Z"
+  "generated_at": "2026-09-10T09:30:48Z"
 }
