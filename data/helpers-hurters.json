@@ -46,7 +46,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 43.8,
-      "pct_of_total": 10.4,
+      "pct_of_total": 10.3,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -81,7 +81,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 43.5,
-      "pct_of_total": 10.3,
+      "pct_of_total": 10.2,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -124,7 +124,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 32.8,
-      "pct_of_total": 7.8,
+      "pct_of_total": 7.7,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -181,8 +181,8 @@
     },
     {
       "project": "Thacker 46 Woody",
-      "total_hours": 20.2,
-      "pct_of_total": 4.8,
+      "total_hours": 23.2,
+      "pct_of_total": 5.5,
       "tasks": [
         {
           "task": "Audio",
@@ -197,16 +197,16 @@
           "hours": 4.0
         },
         {
+          "task": "HVAC",
+          "hours": 3.5
+        },
+        {
           "task": "Brakes",
           "hours": 3.2
         },
         {
           "task": "Manufacturing - Product",
           "hours": 1.0
-        },
-        {
-          "task": "HVAC",
-          "hours": 0.5
         }
       ]
     },
@@ -259,7 +259,7 @@
     {
       "project": "Krafcik 02 Caterham",
       "total_hours": 18.0,
-      "pct_of_total": 4.3,
+      "pct_of_total": 4.2,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -290,7 +290,7 @@
     {
       "project": "Barton 59 Impala",
       "total_hours": 17.5,
-      "pct_of_total": 4.2,
+      "pct_of_total": 4.1,
       "tasks": [
         {
           "task": "Interior",
@@ -305,7 +305,7 @@
   ],
   "shop_work": {
     "total_hours": 66.0,
-    "pct_of_total": 15.7,
+    "pct_of_total": 15.5,
     "avg_per_person_per_day": 1.03,
     "flagged": true,
     "tech_count": 8,
@@ -395,10 +395,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 330.5,
+    "billable_hours": 333.5,
     "non_billable_hours": 91.0,
     "pto_hours": 8.0,
-    "total_hours": 421.5
+    "total_hours": 424.5
   },
-  "generated_at": "2026-09-10T20:24:41Z"
+  "generated_at": "2026-09-10T20:35:20Z"
 }
