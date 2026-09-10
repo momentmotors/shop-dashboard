@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T19:50:10.657208Z",
+  "updated_at": "2026-09-10T20:13:27.871836Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -248,7 +248,7 @@
         "matched_lists": [
           "Connolly 58 220S"
         ],
-        "open_tasks": 2
+        "open_tasks": 3
       },
       "assignees": [
         {
@@ -441,6 +441,21 @@
               ],
               "checklist_items": [],
               "content_hash": "354025a2a60cfa184ef31497628cf8ce7e6d36bc04426563bcea9d2a2b22ce04"
+            }
+          ]
+        },
+        {
+          "name": "Jordan Jones",
+          "tasks": [
+            {
+              "id": "868m3yrye",
+              "name": "Adjust parking brake",
+              "status": "Open",
+              "list": "Connolly 58 220S",
+              "url": "https://app.clickup.com/t/868m3yrye",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "61d6ce9ce1bc4bd5810e01878d41de792a23a85c5a305cce8e4a94c2c18f2103"
             }
           ]
         }
@@ -2056,65 +2071,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868k6ttbf",
-              "comments": [
-                {
-                  "author": "Alex Noonan",
-                  "date": "2026-07-27 21:11",
-                  "text": "In conversations with customer on this topic. Setup needs to be confirmed before we are able to proceed."
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-03 22:06",
-                  "text": "Audio system has been spec'd and ordered.\nJL C2 components for front and rear 6\" & 6.5\"\nJL W3 slim for lows\nJL RD900-5 as amplifier"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-06 20:19",
-                  "text": "Audio arrived minus fwd speaker spacers\nTook measurements and sketched box layout for subwoofer mounting under rear bench seat\nMocked up front speakers\nMeasured for amplifier mount location"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-18 00:18",
-                  "text": "Headunit installed for mockup and wiring"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-18 00:19",
-                  "text": "1000014708.jpg1000014709.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-19 21:31",
-                  "text": "Ordered RCAs for Ritchie\nBuilt audio subharness\nChose amplifier position"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-20 19:27",
-                  "text": "Picked up RCAs for Ritchie Audio"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-25 00:53",
-                  "text": "paste_04dbeca5-398e-4049-aa83-1a092e02b518.jpgpaste_362d3eb0-7a0c-4c7e-ab58-032a685ebabf.jpgpaste_632576d7-0d34-46a1-8038-c5e8451d3f68.jpgpaste_6dbf9016-5284-452c-aad0-21bbe5c2bb39.jpgpaste_5b91a4b5-f1f6-4d25-9ce2-61b71425cb93.jpgpaste_956fe9de-345a-4a94-9d44-e604e46cbf5a.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-25 00:53",
-                  "text": "FWD speaker spacers received\nSpeakers and spacers installed in kick panels\nAmp mounting hardware position marked and nutserts installed\nAmp mocked up\nSpeaker wiring ran and secured\nRCAs ran and secured\nRemote wire ran and secured\nWiring to amplifier cut to length\nCarpet reinstalled\nHoles and slots in carpet made for wiring and bolt pass throughs\nAmplifier installed\nAmplifier wiring installed minus power and ground\nKick panels installed and wiring to fwd speakers finished\nKick panels tapped for retainment hardware and installed"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-02 18:01",
-                  "text": "Order replacement radio mounting bezel\nMake support bar for back of radio"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-02 19:26",
-                  "text": "Power and ground amplifier wiring ran"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "1403f5c826a32016981f3a3ec821c97557cb26d9bace8f8ddea48bf15309099e"
+              "content_hash": "d7872d4902746774cea8e7a57c66ebc49fcc4ad91f595624ef93e2354cd44fdc"
             },
             {
               "id": "868kpg6th",
@@ -2426,22 +2385,12 @@
         "matched_lists": [
           "Teague 62 Jaguar"
         ],
-        "open_tasks": 18
+        "open_tasks": 17
       },
       "assignees": [
         {
           "name": "David Webber",
           "tasks": [
-            {
-              "id": "868kxn5te",
-              "name": "Address airflow issue",
-              "status": "Open",
-              "list": "Teague 62 Jaguar",
-              "url": "https://app.clickup.com/t/868kxn5te",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "bd306a2dad7a88fd296502e1c8d89c2f1da3faacdad3b20ee4cc242b8ba92877"
-            },
             {
               "id": "868jj1ac8",
               "name": "Install font battery lid",
@@ -2512,5 +2461,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-10T19:48:31Z"
+  "generated_at": "2026-09-10T20:11:45Z"
 }
