@@ -81,7 +81,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 40.0,
-      "pct_of_total": 9.7,
+      "pct_of_total": 9.6,
       "tasks": [
         {
           "task": "Scanning",
@@ -296,20 +296,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 80.9,
-    "pct_of_total": 19.5,
-    "avg_per_person_per_day": 1.26,
+    "total_hours": 81.6,
+    "pct_of_total": 19.7,
+    "avg_per_person_per_day": 1.28,
     "flagged": true,
     "tech_count": 8,
     "working_days": 8,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 44.4
+        "hours": 44.6
       },
       {
         "label": "Shop Meetings",
-        "hours": 21.5
+        "hours": 22.0
       },
       {
         "label": "Personal Meetings",
@@ -377,9 +377,9 @@
   ],
   "totals": {
     "billable_hours": 314.0,
-    "non_billable_hours": 99.9,
+    "non_billable_hours": 100.6,
     "pto_hours": 8.0,
-    "total_hours": 413.9
+    "total_hours": 414.6
   },
-  "generated_at": "2026-09-10T14:26:41Z"
+  "generated_at": "2026-09-10T14:39:46Z"
 }
