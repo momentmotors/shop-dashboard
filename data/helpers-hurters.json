@@ -3,7 +3,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 43.8,
-      "pct_of_total": 10.9,
+      "pct_of_total": 10.8,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -80,8 +80,8 @@
     },
     {
       "project": "Hopkins 65 Silver Cloud",
-      "total_hours": 40.0,
-      "pct_of_total": 9.9,
+      "total_hours": 42.0,
+      "pct_of_total": 10.4,
       "tasks": [
         {
           "task": "Scanning",
@@ -102,6 +102,10 @@
         {
           "task": "Steering",
           "hours": 4.0
+        },
+        {
+          "task": "Brakes",
+          "hours": 2.0
         },
         {
           "task": "Interior",
@@ -387,10 +391,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 315.0,
+    "billable_hours": 317.0,
     "non_billable_hours": 87.5,
     "pto_hours": 8.0,
-    "total_hours": 402.5
+    "total_hours": 404.5
   },
-  "generated_at": "2026-09-10T16:48:18Z"
+  "generated_at": "2026-09-10T17:10:47Z"
 }
