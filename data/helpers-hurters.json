@@ -40,9 +40,52 @@
       ]
     },
     {
+      "project": "Ritchie 71 Blazer",
+      "total_hours": 44.8,
+      "pct_of_total": 10.3,
+      "tasks": [
+        {
+          "task": "Motor & Transmission",
+          "hours": 8.5
+        },
+        {
+          "task": "Exterior",
+          "hours": 8.5
+        },
+        {
+          "task": "Audio",
+          "hours": 7.8
+        },
+        {
+          "task": "Interior",
+          "hours": 4.2
+        },
+        {
+          "task": "HVAC",
+          "hours": 4.2
+        },
+        {
+          "task": "Brakes",
+          "hours": 4.0
+        },
+        {
+          "task": "Suspension",
+          "hours": 4.0
+        },
+        {
+          "task": "Charging",
+          "hours": 2.0
+        },
+        {
+          "task": "Instrumentation",
+          "hours": 1.5
+        }
+      ]
+    },
+    {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 44.0,
-      "pct_of_total": 10.2,
+      "pct_of_total": 10.1,
       "tasks": [
         {
           "task": "Scanning",
@@ -83,52 +126,9 @@
       ]
     },
     {
-      "project": "Ritchie 71 Blazer",
-      "total_hours": 43.5,
-      "pct_of_total": 10.1,
-      "tasks": [
-        {
-          "task": "Motor & Transmission",
-          "hours": 8.5
-        },
-        {
-          "task": "Exterior",
-          "hours": 8.5
-        },
-        {
-          "task": "Audio",
-          "hours": 6.5
-        },
-        {
-          "task": "Interior",
-          "hours": 4.2
-        },
-        {
-          "task": "HVAC",
-          "hours": 4.2
-        },
-        {
-          "task": "Brakes",
-          "hours": 4.0
-        },
-        {
-          "task": "Suspension",
-          "hours": 4.0
-        },
-        {
-          "task": "Charging",
-          "hours": 2.0
-        },
-        {
-          "task": "Instrumentation",
-          "hours": 1.5
-        }
-      ]
-    },
-    {
       "project": "Warke 61 Eldorado",
       "total_hours": 32.8,
-      "pct_of_total": 7.6,
+      "pct_of_total": 7.5,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -217,7 +217,7 @@
     {
       "project": "Richardson 72 240Z",
       "total_hours": 19.8,
-      "pct_of_total": 4.6,
+      "pct_of_total": 4.5,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -263,7 +263,7 @@
     {
       "project": "Krafcik 02 Caterham",
       "total_hours": 18.0,
-      "pct_of_total": 4.2,
+      "pct_of_total": 4.1,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -308,9 +308,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 67.5,
-    "pct_of_total": 15.6,
-    "avg_per_person_per_day": 1.05,
+    "total_hours": 68.0,
+    "pct_of_total": 15.7,
+    "avg_per_person_per_day": 1.06,
     "flagged": true,
     "tech_count": 8,
     "working_days": 8,
@@ -321,7 +321,7 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 23.5
+        "hours": 24.0
       },
       {
         "label": "Personal Meetings",
@@ -399,10 +399,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 340.0,
-    "non_billable_hours": 92.5,
+    "billable_hours": 341.2,
+    "non_billable_hours": 93.0,
     "pto_hours": 8.0,
-    "total_hours": 432.5
+    "total_hours": 434.2
   },
-  "generated_at": "2026-09-10T21:35:43Z"
+  "generated_at": "2026-09-10T21:48:38Z"
 }
