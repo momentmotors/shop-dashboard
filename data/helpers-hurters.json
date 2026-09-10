@@ -1,9 +1,52 @@
 {
   "helpers": [
     {
+      "project": "Hopkins 65 Silver Cloud",
+      "total_hours": 44.0,
+      "pct_of_total": 10.5,
+      "tasks": [
+        {
+          "task": "Scanning",
+          "hours": 12.0
+        },
+        {
+          "task": "Wiring - OEM",
+          "hours": 10.0
+        },
+        {
+          "task": "Instrumentation",
+          "hours": 5.0
+        },
+        {
+          "task": "Inspection",
+          "hours": 5.0
+        },
+        {
+          "task": "Steering",
+          "hours": 4.0
+        },
+        {
+          "task": "HVAC",
+          "hours": 2.0
+        },
+        {
+          "task": "Brakes",
+          "hours": 2.0
+        },
+        {
+          "task": "Interior",
+          "hours": 2.0
+        },
+        {
+          "task": "Combustion Drivetrain",
+          "hours": 2.0
+        }
+      ]
+    },
+    {
       "project": "LB 82 911",
       "total_hours": 43.8,
-      "pct_of_total": 10.7,
+      "pct_of_total": 10.4,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -38,7 +81,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 43.5,
-      "pct_of_total": 10.7,
+      "pct_of_total": 10.4,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -79,79 +122,13 @@
       ]
     },
     {
-      "project": "Hopkins 65 Silver Cloud",
-      "total_hours": 42.0,
-      "pct_of_total": 10.3,
-      "tasks": [
-        {
-          "task": "Scanning",
-          "hours": 12.0
-        },
-        {
-          "task": "Wiring - OEM",
-          "hours": 10.0
-        },
-        {
-          "task": "Instrumentation",
-          "hours": 5.0
-        },
-        {
-          "task": "Inspection",
-          "hours": 5.0
-        },
-        {
-          "task": "Steering",
-          "hours": 4.0
-        },
-        {
-          "task": "Brakes",
-          "hours": 2.0
-        },
-        {
-          "task": "Interior",
-          "hours": 2.0
-        },
-        {
-          "task": "Combustion Drivetrain",
-          "hours": 2.0
-        }
-      ]
-    },
-    {
-      "project": "Lee 68 Mustang",
-      "total_hours": 28.2,
-      "pct_of_total": 6.9,
-      "tasks": [
-        {
-          "task": "Battery Pack",
-          "hours": 9.5
-        },
-        {
-          "task": "Manufacturing - Core",
-          "hours": 7.0
-        },
-        {
-          "task": "Motor & Transmission",
-          "hours": 6.2
-        },
-        {
-          "task": "Vehicle Control",
-          "hours": 5.0
-        },
-        {
-          "task": "Charging",
-          "hours": 0.5
-        }
-      ]
-    },
-    {
       "project": "Warke 61 Eldorado",
-      "total_hours": 27.8,
-      "pct_of_total": 6.8,
+      "total_hours": 32.8,
+      "pct_of_total": 7.8,
       "tasks": [
         {
           "task": "Manufacturing - Product",
-          "hours": 12.2
+          "hours": 17.2
         },
         {
           "task": "HVAC",
@@ -176,9 +153,36 @@
       ]
     },
     {
+      "project": "Lee 68 Mustang",
+      "total_hours": 28.2,
+      "pct_of_total": 6.7,
+      "tasks": [
+        {
+          "task": "Battery Pack",
+          "hours": 9.5
+        },
+        {
+          "task": "Manufacturing - Core",
+          "hours": 7.0
+        },
+        {
+          "task": "Motor & Transmission",
+          "hours": 6.2
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 5.0
+        },
+        {
+          "task": "Charging",
+          "hours": 0.5
+        }
+      ]
+    },
+    {
       "project": "Thacker 46 Woody",
       "total_hours": 20.2,
-      "pct_of_total": 5.0,
+      "pct_of_total": 4.8,
       "tasks": [
         {
           "task": "Audio",
@@ -209,7 +213,7 @@
     {
       "project": "Richardson 72 240Z",
       "total_hours": 19.8,
-      "pct_of_total": 4.9,
+      "pct_of_total": 4.7,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -236,7 +240,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 19.0,
-      "pct_of_total": 4.7,
+      "pct_of_total": 4.5,
       "tasks": [
         {
           "task": "HVAC",
@@ -254,8 +258,8 @@
     },
     {
       "project": "Krafcik 02 Caterham",
-      "total_hours": 16.0,
-      "pct_of_total": 3.9,
+      "total_hours": 18.0,
+      "pct_of_total": 4.3,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -263,7 +267,7 @@
         },
         {
           "task": "Manufacturing - Core",
-          "hours": 4.2
+          "hours": 6.2
         },
         {
           "task": "Engineering - Core",
@@ -285,12 +289,12 @@
     },
     {
       "project": "Barton 59 Impala",
-      "total_hours": 15.5,
-      "pct_of_total": 3.8,
+      "total_hours": 17.5,
+      "pct_of_total": 4.2,
       "tasks": [
         {
           "task": "Interior",
-          "hours": 10.0
+          "hours": 12.0
         },
         {
           "task": "Exterior",
@@ -300,20 +304,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 62.5,
-    "pct_of_total": 15.4,
-    "avg_per_person_per_day": 0.98,
+    "total_hours": 64.0,
+    "pct_of_total": 15.3,
+    "avg_per_person_per_day": 1.0,
     "flagged": false,
     "tech_count": 8,
     "working_days": 8,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 28.0
+        "hours": 29.0
       },
       {
         "label": "Shop Meetings",
-        "hours": 22.0
+        "hours": 22.5
       },
       {
         "label": "Personal Meetings",
@@ -344,7 +348,7 @@
     {
       "project": "Connolly 58 220S",
       "total_hours": 6.0,
-      "pct_of_total": 1.5,
+      "pct_of_total": 1.4,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -391,10 +395,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 319.5,
-    "non_billable_hours": 87.5,
+    "billable_hours": 330.5,
+    "non_billable_hours": 89.0,
     "pto_hours": 8.0,
-    "total_hours": 407.0
+    "total_hours": 419.5
   },
-  "generated_at": "2026-09-10T19:19:40Z"
+  "generated_at": "2026-09-10T19:35:45Z"
 }
