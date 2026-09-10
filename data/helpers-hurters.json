@@ -81,7 +81,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 40.0,
-      "pct_of_total": 10.0,
+      "pct_of_total": 9.9,
       "tasks": [
         {
           "task": "Scanning",
@@ -297,7 +297,7 @@
   ],
   "shop_work": {
     "total_hours": 65.0,
-    "pct_of_total": 16.2,
+    "pct_of_total": 16.1,
     "avg_per_person_per_day": 1.02,
     "flagged": true,
     "tech_count": 8,
@@ -376,10 +376,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 317.0,
+    "billable_hours": 318.5,
     "non_billable_hours": 84.0,
     "pto_hours": 8.0,
-    "total_hours": 401.0
+    "total_hours": 402.5
   },
-  "generated_at": "2026-09-10T15:48:29Z"
+  "generated_at": "2026-09-10T16:13:00Z"
 }
