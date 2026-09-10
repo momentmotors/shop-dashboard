@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T23:37:19.257718Z",
+  "updated_at": "2026-09-10T23:50:30.638948Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -2154,13 +2154,19 @@
           "tasks": [
             {
               "id": "868m40fu8",
-              "name": "Checkout vehilce",
+              "name": "Checkout Vehicle",
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868m40fu8",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-10 23:46",
+                  "text": "Found that the logger in this vehicle was not configured for our bucket nor were the wifi credentials setup to start logging as we test drove the truck.\nWent through and configured the Logger to our bucket and Added Billy's wifi credentials to the logger.\nTest and Verified with Marc that the truck was now uploading logs.\nTruck Now uploading logs and should be good to for Logging.\nOnce we have the Clients wifi credentials I can upload these ASAP."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "94bbdb832c427cda6a357edaae359db2b0c9038011c2dd1c687be1ccb04f7256"
+              "content_hash": "c47ef4822e8ac5e3b8b419c43872fafe170db41dca6c37ada67638056798375e"
             }
           ]
         },
@@ -2361,5 +2367,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-10T23:35:34Z"
+  "generated_at": "2026-09-10T23:48:53Z"
 }

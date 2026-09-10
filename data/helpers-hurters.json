@@ -41,7 +41,7 @@
     },
     {
       "project": "Ritchie 71 Blazer",
-      "total_hours": 44.8,
+      "total_hours": 45.0,
       "pct_of_total": 10.1,
       "tasks": [
         {
@@ -79,6 +79,10 @@
         {
           "task": "Instrumentation",
           "hours": 1.5
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 0.2
         }
       ]
     },
@@ -403,10 +407,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 350.2,
+    "billable_hours": 350.5,
     "non_billable_hours": 94.8,
     "pto_hours": 8.0,
-    "total_hours": 445.0
+    "total_hours": 445.2
   },
-  "generated_at": "2026-09-10T23:35:34Z"
+  "generated_at": "2026-09-10T23:48:53Z"
 }
