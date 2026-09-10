@@ -3,7 +3,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 43.8,
-      "pct_of_total": 10.8,
+      "pct_of_total": 10.7,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -285,8 +285,8 @@
     },
     {
       "project": "Barton 59 Impala",
-      "total_hours": 15.0,
-      "pct_of_total": 3.7,
+      "total_hours": 15.5,
+      "pct_of_total": 3.8,
       "tasks": [
         {
           "task": "Interior",
@@ -294,7 +294,7 @@
         },
         {
           "task": "Exterior",
-          "hours": 5.0
+          "hours": 5.5
         }
       ]
     }
@@ -333,7 +333,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 12.0,
-      "pct_of_total": 3.0,
+      "pct_of_total": 2.9,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -391,10 +391,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 319.0,
+    "billable_hours": 319.5,
     "non_billable_hours": 87.5,
     "pto_hours": 8.0,
-    "total_hours": 406.5
+    "total_hours": 407.0
   },
-  "generated_at": "2026-09-10T19:09:03Z"
+  "generated_at": "2026-09-10T19:19:40Z"
 }
