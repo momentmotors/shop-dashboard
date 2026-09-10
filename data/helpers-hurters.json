@@ -3,7 +3,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 43.8,
-      "pct_of_total": 10.8,
+      "pct_of_total": 10.7,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -38,7 +38,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 43.5,
-      "pct_of_total": 10.7,
+      "pct_of_total": 10.6,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -81,7 +81,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 36.0,
-      "pct_of_total": 8.9,
+      "pct_of_total": 8.8,
       "tasks": [
         {
           "task": "Scanning",
@@ -203,32 +203,13 @@
       ]
     },
     {
-      "project": "Teague 62 Jaguar",
-      "total_hours": 19.0,
-      "pct_of_total": 4.7,
-      "tasks": [
-        {
-          "task": "HVAC",
-          "hours": 15.5
-        },
-        {
-          "task": "Steering",
-          "hours": 3.0
-        },
-        {
-          "task": "Vehicle Control",
-          "hours": 0.5
-        }
-      ]
-    },
-    {
       "project": "Richardson 72 240Z",
-      "total_hours": 17.8,
-      "pct_of_total": 4.4,
+      "total_hours": 19.8,
+      "pct_of_total": 4.8,
       "tasks": [
         {
           "task": "Motor & Transmission",
-          "hours": 6.2
+          "hours": 8.2
         },
         {
           "task": "Interior",
@@ -244,6 +225,25 @@
         },
         {
           "task": "Audio",
+          "hours": 0.5
+        }
+      ]
+    },
+    {
+      "project": "Teague 62 Jaguar",
+      "total_hours": 19.0,
+      "pct_of_total": 4.6,
+      "tasks": [
+        {
+          "task": "HVAC",
+          "hours": 15.5
+        },
+        {
+          "task": "Steering",
+          "hours": 3.0
+        },
+        {
+          "task": "Vehicle Control",
           "hours": 0.5
         }
       ]
@@ -282,7 +282,7 @@
     {
       "project": "Barton 59 Impala",
       "total_hours": 12.0,
-      "pct_of_total": 3.0,
+      "pct_of_total": 2.9,
       "tasks": [
         {
           "task": "Interior",
@@ -296,16 +296,16 @@
     }
   ],
   "shop_work": {
-    "total_hours": 79.7,
-    "pct_of_total": 19.6,
-    "avg_per_person_per_day": 1.24,
+    "total_hours": 79.9,
+    "pct_of_total": 19.5,
+    "avg_per_person_per_day": 1.25,
     "flagged": true,
     "tech_count": 8,
     "working_days": 8,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 43.2
+        "hours": 43.4
       },
       {
         "label": "Shop Meetings",
@@ -333,7 +333,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 12.0,
-      "pct_of_total": 3.0,
+      "pct_of_total": 2.9,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -376,10 +376,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 308.0,
-    "non_billable_hours": 98.7,
+    "billable_hours": 310.0,
+    "non_billable_hours": 98.9,
     "pto_hours": 8.0,
-    "total_hours": 406.7
+    "total_hours": 408.9
   },
-  "generated_at": "2026-09-10T13:12:24Z"
+  "generated_at": "2026-09-10T13:25:14Z"
 }
