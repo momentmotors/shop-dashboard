@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T15:14:15.456765Z",
+  "updated_at": "2026-09-10T15:30:20.712275Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1340,9 +1340,15 @@
               "status": "Open",
               "list": "McDonough 77 Esprit",
               "url": "https://app.clickup.com/t/868m2ww4n",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "David Webber",
+                  "date": "2026-09-10 15:14",
+                  "text": "parts ETA = 9/11"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "ea84c49ccd3b3360d6899e32fb75aeff13ce679073d58134105a709e40b40cda"
+              "content_hash": "35c000a02ce266d3f89ad9bc5ecac2d6ef623568f9fd0258412cedca6e2dd25e"
             },
             {
               "id": "868m08btv",
@@ -2250,7 +2256,7 @@
         "matched_lists": [
           "Teague 62 Jaguar"
         ],
-        "open_tasks": 19
+        "open_tasks": 20
       },
       "assignees": [
         {
@@ -2285,6 +2291,16 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "0a5118c30cdc8addbdc5fd31becaac885d66fcff8d3f565955746e0c38095252"
+            },
+            {
+              "id": "868m3t9eq",
+              "name": "Remove OEM shifter assembly",
+              "status": "Open",
+              "list": "Teague 62 Jaguar",
+              "url": "https://app.clickup.com/t/868m3t9eq",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "05e4c0ef8406d9e45cab9d7165504704916b5f431ed2d5f22cc1ca60293d2451"
             },
             {
               "id": "868j84xbd",
@@ -2346,5 +2362,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-10T15:12:41Z"
+  "generated_at": "2026-09-10T15:27:15Z"
 }
