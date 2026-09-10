@@ -38,7 +38,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 43.5,
-      "pct_of_total": 11.0,
+      "pct_of_total": 10.9,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -296,7 +296,7 @@
     }
   ],
   "shop_work": {
-    "total_hours": 70.1,
+    "total_hours": 70.3,
     "pct_of_total": 17.7,
     "avg_per_person_per_day": 1.1,
     "flagged": true,
@@ -305,7 +305,7 @@
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 33.6
+        "hours": 33.8
       },
       {
         "label": "Shop Meetings",
@@ -377,9 +377,9 @@
   ],
   "totals": {
     "billable_hours": 308.0,
-    "non_billable_hours": 89.1,
+    "non_billable_hours": 89.3,
     "pto_hours": 8.0,
-    "total_hours": 397.1
+    "total_hours": 397.3
   },
-  "generated_at": "2026-09-10T03:39:55Z"
+  "generated_at": "2026-09-10T03:49:24Z"
 }
