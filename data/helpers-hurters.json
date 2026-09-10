@@ -296,8 +296,8 @@
     }
   ],
   "shop_work": {
-    "total_hours": 75.3,
-    "pct_of_total": 18.7,
+    "total_hours": 75.7,
+    "pct_of_total": 18.8,
     "avg_per_person_per_day": 1.18,
     "flagged": true,
     "tech_count": 8,
@@ -305,7 +305,7 @@
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 38.8
+        "hours": 39.2
       },
       {
         "label": "Shop Meetings",
@@ -377,9 +377,9 @@
   ],
   "totals": {
     "billable_hours": 308.0,
-    "non_billable_hours": 94.3,
+    "non_billable_hours": 94.7,
     "pto_hours": 8.0,
-    "total_hours": 402.3
+    "total_hours": 402.7
   },
-  "generated_at": "2026-09-10T08:51:12Z"
+  "generated_at": "2026-09-10T09:14:00Z"
 }
