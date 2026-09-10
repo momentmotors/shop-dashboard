@@ -1,9 +1,48 @@
 {
   "helpers": [
     {
+      "project": "LB 82 911",
+      "total_hours": 46.8,
+      "pct_of_total": 10.9,
+      "tasks": [
+        {
+          "task": "Manufacturing - Product",
+          "hours": 19.8
+        },
+        {
+          "task": "Motor & Transmission",
+          "hours": 8.5
+        },
+        {
+          "task": "Manufacturing - Core",
+          "hours": 5.5
+        },
+        {
+          "task": "Exterior",
+          "hours": 4.5
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 3.0
+        },
+        {
+          "task": "HVAC",
+          "hours": 3.0
+        },
+        {
+          "task": "Cooling",
+          "hours": 2.0
+        },
+        {
+          "task": "Interior",
+          "hours": 0.5
+        }
+      ]
+    },
+    {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 44.0,
-      "pct_of_total": 10.4,
+      "pct_of_total": 10.3,
       "tasks": [
         {
           "task": "Scanning",
@@ -40,41 +79,6 @@
         {
           "task": "Combustion Drivetrain",
           "hours": 2.0
-        }
-      ]
-    },
-    {
-      "project": "LB 82 911",
-      "total_hours": 43.8,
-      "pct_of_total": 10.3,
-      "tasks": [
-        {
-          "task": "Manufacturing - Product",
-          "hours": 19.8
-        },
-        {
-          "task": "Motor & Transmission",
-          "hours": 8.5
-        },
-        {
-          "task": "Manufacturing - Core",
-          "hours": 5.5
-        },
-        {
-          "task": "Exterior",
-          "hours": 4.5
-        },
-        {
-          "task": "HVAC",
-          "hours": 3.0
-        },
-        {
-          "task": "Cooling",
-          "hours": 2.0
-        },
-        {
-          "task": "Interior",
-          "hours": 0.5
         }
       ]
     },
@@ -155,7 +159,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 28.2,
-      "pct_of_total": 6.7,
+      "pct_of_total": 6.6,
       "tasks": [
         {
           "task": "Battery Pack",
@@ -182,7 +186,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 23.2,
-      "pct_of_total": 5.5,
+      "pct_of_total": 5.4,
       "tasks": [
         {
           "task": "Audio",
@@ -213,7 +217,7 @@
     {
       "project": "Richardson 72 240Z",
       "total_hours": 19.8,
-      "pct_of_total": 4.7,
+      "pct_of_total": 4.6,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -240,7 +244,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 19.0,
-      "pct_of_total": 4.5,
+      "pct_of_total": 4.4,
       "tasks": [
         {
           "task": "HVAC",
@@ -305,7 +309,7 @@
   ],
   "shop_work": {
     "total_hours": 66.0,
-    "pct_of_total": 15.5,
+    "pct_of_total": 15.4,
     "avg_per_person_per_day": 1.03,
     "flagged": true,
     "tech_count": 8,
@@ -395,10 +399,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 333.5,
+    "billable_hours": 336.5,
     "non_billable_hours": 91.0,
     "pto_hours": 8.0,
-    "total_hours": 424.5
+    "total_hours": 427.5
   },
-  "generated_at": "2026-09-10T21:09:55Z"
+  "generated_at": "2026-09-10T21:21:04Z"
 }
