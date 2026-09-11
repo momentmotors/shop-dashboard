@@ -10,13 +10,7 @@
           "day_name": "Monday",
           "is_today": false,
           "is_weekend": false,
-          "events": [
-            {
-              "summary": "Moment Holiday (Labor Day)",
-              "type": "shop",
-              "all_day": true
-            }
-          ]
+          "events": []
         },
         {
           "date": "2026-09-08",
@@ -291,5 +285,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-11T12:54:32Z"
+  "generated_at": "2026-09-11T13:12:15Z"
 }
