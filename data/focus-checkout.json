@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T01:10:30.707899Z",
+  "updated_at": "2026-09-11T01:34:22.058396Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -453,9 +453,15 @@
               "status": "Open",
               "list": "Connolly 58 220S",
               "url": "https://app.clickup.com/t/868m3yrye",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-09-11 01:25",
+                  "text": "Adjusted parking brake after PMU reset.\nVerified vehicle still rolling freely on the flat,but holds on Foremost (western side)"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "61d6ce9ce1bc4bd5810e01878d41de792a23a85c5a305cce8e4a94c2c18f2103"
+              "content_hash": "207bf9b970c3e621f5915d3c1386de8cd489a344af5e3374540d3d8a0885ceed"
             }
           ]
         }
@@ -615,9 +621,15 @@
               "status": "Open",
               "list": "Ferdman 66 Bus",
               "url": "https://app.clickup.com/t/868m2xz08",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-09-11 01:18",
+                  "text": "Installed turn signal stalk with new hardware, blue loctite.\nInstalled thin metallic shimming tape underneath to take up play in assembly, prevent rotation.\nTested after reinstall. No longer loose."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "63b5acd29954f18e71976c2bf2591fd6171d3a2634ea4dcd8b47a03969af35ca"
+              "content_hash": "cae2f4b2c57935885a7e113c551b40d97f59177d5303ee1d1d26a25c59e57f4b"
             },
             {
               "id": "868m2y1ap",
@@ -750,10 +762,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-09-09 22:44",
                   "text": "Made final adjustments to all pieces after test fitting.\nNutserted top-bottom mount holes for ease of installation.\nMarked and drilled mounting holes.\nRan and marked radiator inlet hose.\nPunched hole in tray for inlet.\nRan and marked radiator outlet hose.\nApplied 3 coats of rollbar paint to all parts. Will install in AM."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-09-11 01:23",
+                  "text": "Assembled radiator assembly, including mesh guard.\nAnother incorrect nutsert discovered upon installation.\nAdded rubber surround to improve aesthetics, prevent chatter or metallic noise.\nInstalled into vehicle\nAdded hoses, installed hose clamps to secure.\nPer @Alex Noonan, will add another piece of metal to reduce hole size to match radiator inlet."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "c9eb56b24301cf043af93da9e6809637019e580c9338a520eed7227a9b68b63c"
+              "content_hash": "4c5bb35cf4fdac9d56b863e918403016269dfc286cf3386a22fec6a1270b5edd"
             },
             {
               "id": "868kyqvgr",
@@ -771,10 +788,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-08-31 22:49",
                   "text": "Investigated tail light issue.\nWorking, for now, but this is the second time it's failed. Issue with socket grounding, weak, old. Replacement required. ORdered replacement - rush"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-09-11 01:16",
+                  "text": "Received new tail lights to repair mismatched / bad socket tail lamp, removed old taillights.\nInstalled new DT connectors.\nInstalled RH side - LH side waiting for cooling to finish up"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "9949b3b632a9299162bdb62d178f7b6e9d8a24e2eecab7a53a4d5ff79dc638ee"
+              "content_hash": "1eaa5facb1ad50bfb617b44ba2bda2d1ed90f74a38821a2c24fffa53d20c4534"
             }
           ]
         },
@@ -2367,5 +2389,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-11T01:08:53Z"
+  "generated_at": "2026-09-11T01:32:48Z"
 }
