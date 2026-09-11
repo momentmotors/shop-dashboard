@@ -42,7 +42,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 45.0,
-      "pct_of_total": 9.8,
+      "pct_of_total": 9.7,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -190,7 +190,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 24.2,
-      "pct_of_total": 5.3,
+      "pct_of_total": 5.2,
       "tasks": [
         {
           "task": "Audio",
@@ -316,9 +316,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 72.5,
-    "pct_of_total": 15.7,
-    "avg_per_person_per_day": 1.01,
+    "total_hours": 74.0,
+    "pct_of_total": 16.0,
+    "avg_per_person_per_day": 1.03,
     "flagged": true,
     "tech_count": 8,
     "working_days": 9,
@@ -337,7 +337,7 @@
       },
       {
         "label": "Organization",
-        "hours": 2.5
+        "hours": 4.0
       },
       {
         "label": "Errands",
@@ -408,9 +408,9 @@
   ],
   "totals": {
     "billable_hours": 356.5,
-    "non_billable_hours": 104.2,
+    "non_billable_hours": 105.8,
     "pto_hours": 8.0,
-    "total_hours": 460.8
+    "total_hours": 462.2
   },
-  "generated_at": "2026-09-11T17:10:19Z"
+  "generated_at": "2026-09-11T17:22:56Z"
 }
