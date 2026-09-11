@@ -2,8 +2,8 @@
   "helpers": [
     {
       "project": "LB 82 911",
-      "total_hours": 50.2,
-      "pct_of_total": 10.1,
+      "total_hours": 50.8,
+      "pct_of_total": 10.2,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -27,7 +27,7 @@
         },
         {
           "task": "HVAC",
-          "hours": 3.0
+          "hours": 3.5
         },
         {
           "task": "Cooling",
@@ -415,10 +415,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 387.5,
+    "billable_hours": 388.0,
     "non_billable_hours": 111.8,
     "pto_hours": 8.0,
-    "total_hours": 499.2
+    "total_hours": 499.8
   },
-  "generated_at": "2026-09-11T20:49:06Z"
+  "generated_at": "2026-09-11T21:10:42Z"
 }
