@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T18:49:54.261870Z",
+  "updated_at": "2026-09-11T19:11:34.622226Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -248,9 +248,50 @@
         "matched_lists": [
           "Connolly 58 220S"
         ],
-        "open_tasks": 3
+        "open_tasks": 4
       },
       "assignees": [
+        {
+          "name": "Jordan Jones",
+          "tasks": [
+            {
+              "id": "868m3yrye",
+              "name": "Adjust parking brake",
+              "status": "Open",
+              "list": "Connolly 58 220S",
+              "url": "https://app.clickup.com/t/868m3yrye",
+              "comments": [
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-09-11 01:25",
+                  "text": "Adjusted parking brake after PMU reset.\nVerified vehicle still rolling freely on the flat,but holds on Foremost (western side)"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-09-11 16:59",
+                  "text": "Also performed some minor tweaks prior to shippoing"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-09-11 16:59",
+                  "text": "Further test driving.\nAfter test drive (20 minutes) : 103 and 104F respectively on the rear. No drag.\nTested on another steep hill. No issues."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "ad88726cb9362802d21e040bc7f8cbeaa177424ff38a244acc064b987848b18c"
+            },
+            {
+              "id": "868m4b7jz",
+              "name": "Clean and prep vehicle for shipping",
+              "status": "Open",
+              "list": "Connolly 58 220S",
+              "url": "https://app.clickup.com/t/868m4b7jz",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "bb2758be245d0d3ba65873737280d0b017b24b2091269889f0d39f4630567829"
+            }
+          ]
+        },
         {
           "name": "Brandon Beaman",
           "tasks": [
@@ -441,37 +482,6 @@
               ],
               "checklist_items": [],
               "content_hash": "354025a2a60cfa184ef31497628cf8ce7e6d36bc04426563bcea9d2a2b22ce04"
-            }
-          ]
-        },
-        {
-          "name": "Jordan Jones",
-          "tasks": [
-            {
-              "id": "868m3yrye",
-              "name": "Adjust parking brake",
-              "status": "Open",
-              "list": "Connolly 58 220S",
-              "url": "https://app.clickup.com/t/868m3yrye",
-              "comments": [
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-09-11 01:25",
-                  "text": "Adjusted parking brake after PMU reset.\nVerified vehicle still rolling freely on the flat,but holds on Foremost (western side)"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-09-11 16:59",
-                  "text": "Also performed some minor tweaks prior to shippoing"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-09-11 16:59",
-                  "text": "Further test driving.\nAfter test drive (20 minutes) : 103 and 104F respectively on the rear. No drag.\nTested on another steep hill. No issues."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "ad88726cb9362802d21e040bc7f8cbeaa177424ff38a244acc064b987848b18c"
             }
           ]
         }
@@ -2143,40 +2153,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kpg6th",
-              "comments": [
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-11 00:43",
-                  "text": "Bed cap cover options sourced and relayed to Blazer group. Decision to be made"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-11 16:29",
-                  "text": "Game plan made for Blazer bed caps.\nCovers ordered"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-18 00:13",
-                  "text": "Blazer caps arrived\nCaps mocked up\nTrimming in process\nPassenger side trimming roughed in"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-18 00:18",
-                  "text": "1000014711.jpg1000014710.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-18 22:24",
-                  "text": "Driver and Passenger side caps have been trimmed and modifications have been finalized.\nCovers will be attached after interior side panels have been installed as the caps overlap the interior panels"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-18 22:26",
-                  "text": "1000014734.jpg1000014735.jpg1000014736.jpg1000014737.jpg"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "458375deb00d16a348b5c32e215bb16c62c24944619474990fed27dc8e45c604"
+              "content_hash": "5f784fc4355ea24b3d7ab5fac0fd2f9fdb3c6da70b26b29130030605b994b98a"
             },
             {
               "id": "868ka4d5e",
@@ -2423,5 +2402,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-11T18:48:08Z"
+  "generated_at": "2026-09-11T19:09:59Z"
 }
