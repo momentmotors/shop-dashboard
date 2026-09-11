@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T04:49:47.374926Z",
+  "updated_at": "2026-09-11T05:13:29.473968Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -77,7 +77,7 @@
       },
       "clickup_match": {
         "found": false,
-        "error": "fetch_failed: 429 Client Error: Too Many Requests for url: https://api.clickup.com/api/v2/team/9011243300/task?custom_items%5B%5D=1003&include_closed=false&subtasks=true&page=0"
+        "error": "fetch_failed: 429 Client Error: Too Many Requests for url: https://api.clickup.com/api/v2/team/9011243300/task?custom_items%5B%5D=1003&include_closed=false&subtasks=true&page=8"
       },
       "assignees": []
     },
@@ -144,7 +144,7 @@
       },
       "clickup_match": {
         "found": false,
-        "error": "fetch_failed: 429 Client Error: Too Many Requests for url: https://api.clickup.com/api/v2/team/9011243300/task?custom_items%5B%5D=1003&include_closed=false&subtasks=true&page=0"
+        "error": "fetch_failed: 429 Client Error: Too Many Requests for url: https://api.clickup.com/api/v2/team/9011243300/task?custom_items%5B%5D=1003&include_closed=false&subtasks=true&page=8"
       },
       "assignees": []
     },
@@ -219,7 +219,7 @@
       },
       "clickup_match": {
         "found": false,
-        "error": "fetch_failed: 429 Client Error: Too Many Requests for url: https://api.clickup.com/api/v2/team/9011243300/task?custom_items%5B%5D=1003&include_closed=false&subtasks=true&page=0"
+        "error": "fetch_failed: 429 Client Error: Too Many Requests for url: https://api.clickup.com/api/v2/team/9011243300/task?custom_items%5B%5D=1003&include_closed=false&subtasks=true&page=8"
       },
       "assignees": []
     },
@@ -282,7 +282,7 @@
       },
       "clickup_match": {
         "found": false,
-        "error": "fetch_failed: 429 Client Error: Too Many Requests for url: https://api.clickup.com/api/v2/team/9011243300/task?custom_items%5B%5D=1003&include_closed=false&subtasks=true&page=0"
+        "error": "fetch_failed: 429 Client Error: Too Many Requests for url: https://api.clickup.com/api/v2/team/9011243300/task?custom_items%5B%5D=1003&include_closed=false&subtasks=true&page=8"
       },
       "assignees": []
     },
@@ -291,7 +291,7 @@
       "vehicle": null,
       "clickup_match": {
         "found": false,
-        "error": "fetch_failed: 429 Client Error: Too Many Requests for url: https://api.clickup.com/api/v2/team/9011243300/task?custom_items%5B%5D=1003&include_closed=false&subtasks=true&page=0"
+        "error": "fetch_failed: 429 Client Error: Too Many Requests for url: https://api.clickup.com/api/v2/team/9011243300/task?custom_items%5B%5D=1003&include_closed=false&subtasks=true&page=8"
       },
       "assignees": []
     },
@@ -394,7 +394,7 @@
       },
       "clickup_match": {
         "found": false,
-        "error": "fetch_failed: 429 Client Error: Too Many Requests for url: https://api.clickup.com/api/v2/team/9011243300/task?custom_items%5B%5D=1003&include_closed=false&subtasks=true&page=0"
+        "error": "fetch_failed: 429 Client Error: Too Many Requests for url: https://api.clickup.com/api/v2/team/9011243300/task?custom_items%5B%5D=1003&include_closed=false&subtasks=true&page=8"
       },
       "assignees": []
     },
@@ -413,7 +413,7 @@
       },
       "clickup_match": {
         "found": false,
-        "error": "fetch_failed: 429 Client Error: Too Many Requests for url: https://api.clickup.com/api/v2/team/9011243300/task?custom_items%5B%5D=1003&include_closed=false&subtasks=true&page=0"
+        "error": "fetch_failed: 429 Client Error: Too Many Requests for url: https://api.clickup.com/api/v2/team/9011243300/task?custom_items%5B%5D=1003&include_closed=false&subtasks=true&page=8"
       },
       "assignees": []
     },
@@ -552,7 +552,7 @@
       },
       "clickup_match": {
         "found": false,
-        "error": "fetch_failed: 429 Client Error: Too Many Requests for url: https://api.clickup.com/api/v2/team/9011243300/task?custom_items%5B%5D=1003&include_closed=false&subtasks=true&page=0"
+        "error": "fetch_failed: 429 Client Error: Too Many Requests for url: https://api.clickup.com/api/v2/team/9011243300/task?custom_items%5B%5D=1003&include_closed=false&subtasks=true&page=8"
       },
       "assignees": []
     },
@@ -592,7 +592,7 @@
       },
       "clickup_match": {
         "found": false,
-        "error": "fetch_failed: 429 Client Error: Too Many Requests for url: https://api.clickup.com/api/v2/team/9011243300/task?custom_items%5B%5D=1003&include_closed=false&subtasks=true&page=0"
+        "error": "fetch_failed: 429 Client Error: Too Many Requests for url: https://api.clickup.com/api/v2/team/9011243300/task?custom_items%5B%5D=1003&include_closed=false&subtasks=true&page=8"
       },
       "assignees": []
     },
@@ -691,10 +691,10 @@
       },
       "clickup_match": {
         "found": false,
-        "error": "fetch_failed: 429 Client Error: Too Many Requests for url: https://api.clickup.com/api/v2/team/9011243300/task?custom_items%5B%5D=1003&include_closed=false&subtasks=true&page=0"
+        "error": "fetch_failed: 429 Client Error: Too Many Requests for url: https://api.clickup.com/api/v2/team/9011243300/task?custom_items%5B%5D=1003&include_closed=false&subtasks=true&page=8"
       },
       "assignees": []
     }
   ],
-  "generated_at": "2026-09-11T04:48:53Z"
+  "generated_at": "2026-09-11T05:12:32Z"
 }
