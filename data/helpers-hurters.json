@@ -3,7 +3,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 50.2,
-      "pct_of_total": 10.2,
+      "pct_of_total": 10.1,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -42,7 +42,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 50.0,
-      "pct_of_total": 10.2,
+      "pct_of_total": 10.0,
       "tasks": [
         {
           "task": "Scanning",
@@ -84,8 +84,8 @@
     },
     {
       "project": "Ritchie 71 Blazer",
-      "total_hours": 45.0,
-      "pct_of_total": 9.2,
+      "total_hours": 45.2,
+      "pct_of_total": 9.1,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -125,14 +125,14 @@
         },
         {
           "task": "Vehicle Control",
-          "hours": 0.2
+          "hours": 0.5
         }
       ]
     },
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 39.8,
-      "pct_of_total": 8.1,
+      "pct_of_total": 8.0,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -166,16 +166,16 @@
     },
     {
       "project": "Lee 68 Mustang",
-      "total_hours": 30.8,
-      "pct_of_total": 6.3,
+      "total_hours": 33.2,
+      "pct_of_total": 6.7,
       "tasks": [
+        {
+          "task": "Motor & Transmission",
+          "hours": 11.2
+        },
         {
           "task": "Battery Pack",
           "hours": 9.5
-        },
-        {
-          "task": "Motor & Transmission",
-          "hours": 8.8
         },
         {
           "task": "Manufacturing - Core",
@@ -275,7 +275,7 @@
     {
       "project": "Krafcik 02 Caterham",
       "total_hours": 18.0,
-      "pct_of_total": 3.7,
+      "pct_of_total": 3.6,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -306,7 +306,7 @@
     {
       "project": "Barton 59 Impala",
       "total_hours": 17.5,
-      "pct_of_total": 3.6,
+      "pct_of_total": 3.5,
       "tasks": [
         {
           "task": "Interior",
@@ -320,8 +320,8 @@
     }
   ],
   "shop_work": {
-    "total_hours": 79.0,
-    "pct_of_total": 16.1,
+    "total_hours": 79.5,
+    "pct_of_total": 15.9,
     "avg_per_person_per_day": 1.1,
     "flagged": true,
     "tech_count": 8,
@@ -333,7 +333,7 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 28.0
+        "hours": 28.5
       },
       {
         "label": "Personal Meetings",
@@ -415,10 +415,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 381.0,
-    "non_billable_hours": 110.8,
+    "billable_hours": 388.2,
+    "non_billable_hours": 111.2,
     "pto_hours": 8.0,
-    "total_hours": 491.8
+    "total_hours": 499.5
   },
-  "generated_at": "2026-09-11T20:12:08Z"
+  "generated_at": "2026-09-11T20:26:20Z"
 }
