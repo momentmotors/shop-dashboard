@@ -3,7 +3,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 50.2,
-      "pct_of_total": 10.3,
+      "pct_of_total": 10.2,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -42,7 +42,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 50.0,
-      "pct_of_total": 10.3,
+      "pct_of_total": 10.2,
       "tasks": [
         {
           "task": "Scanning",
@@ -132,7 +132,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 39.8,
-      "pct_of_total": 8.2,
+      "pct_of_total": 8.1,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -194,7 +194,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 24.2,
-      "pct_of_total": 5.0,
+      "pct_of_total": 4.9,
       "tasks": [
         {
           "task": "Audio",
@@ -229,7 +229,7 @@
     {
       "project": "Richardson 72 240Z",
       "total_hours": 19.8,
-      "pct_of_total": 4.1,
+      "pct_of_total": 4.0,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -256,7 +256,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 19.2,
-      "pct_of_total": 4.0,
+      "pct_of_total": 3.9,
       "tasks": [
         {
           "task": "HVAC",
@@ -320,9 +320,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 77.5,
-    "pct_of_total": 15.9,
-    "avg_per_person_per_day": 1.08,
+    "total_hours": 79.0,
+    "pct_of_total": 16.1,
+    "avg_per_person_per_day": 1.1,
     "flagged": true,
     "tech_count": 8,
     "working_days": 9,
@@ -342,6 +342,10 @@
       {
         "label": "Organization",
         "hours": 4.0
+      },
+      {
+        "label": "Other",
+        "hours": 1.5
       },
       {
         "label": "Errands",
@@ -411,10 +415,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 378.0,
-    "non_billable_hours": 109.2,
+    "billable_hours": 381.0,
+    "non_billable_hours": 110.8,
     "pto_hours": 8.0,
-    "total_hours": 487.2
+    "total_hours": 491.8
   },
-  "generated_at": "2026-09-11T19:48:31Z"
+  "generated_at": "2026-09-11T20:12:08Z"
 }
