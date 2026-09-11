@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T17:50:17.648591Z",
+  "updated_at": "2026-09-11T18:16:29.994663Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -2008,7 +2008,7 @@
         "matched_lists": [
           "Ritchie 71 Blazer"
         ],
-        "open_tasks": 30
+        "open_tasks": 31
       },
       "assignees": [
         {
@@ -2040,15 +2040,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kmp9tm",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-07 13:24",
-                  "text": "test fit the battery lid\nit is ready for LOGO and PC\nIMG_1830.jpeg\nIMG_1829.jpeg\nIMG_1827.jpeg\nIMG_1826.jpeg\nIMG_1828.jpeg"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "2aa8a1589ae675ef2968cbacc6f98d00daf87b8afd119e17e8350d38e262df2c"
+              "content_hash": "25977cfdfe0fd6dc5303338eb465f4ded373d84fa04ebe79c10f1e716c4899e4"
             },
             {
               "id": "868ktqjxq",
@@ -2192,27 +2186,6 @@
           ]
         },
         {
-          "name": "Brandon Beaman",
-          "tasks": [
-            {
-              "id": "868m40fu8",
-              "name": "Checkout Vehicle",
-              "status": "Open",
-              "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868m40fu8",
-              "comments": [
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-10 23:46",
-                  "text": "Found that the logger in this vehicle was not configured for our bucket nor were the wifi credentials setup to start logging as we test drove the truck.\nWent through and configured the Logger to our bucket and Added Billy's wifi credentials to the logger.\nTest and Verified with Marc that the truck was now uploading logs.\nTruck Now uploading logs and should be good to for Logging.\nOnce we have the Clients wifi credentials I can upload these ASAP."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "c47ef4822e8ac5e3b8b419c43872fafe170db41dca6c37ada67638056798375e"
-            }
-          ]
-        },
-        {
           "name": "Ryan Laurel",
           "tasks": [
             {
@@ -2230,6 +2203,37 @@
               ],
               "checklist_items": [],
               "content_hash": "ea55d8dc41e520a032549b095ae1d521530f36e7313df2e087e349bcd8fe2461"
+            },
+            {
+              "id": "868m4ae1z",
+              "name": "Coordinate paint correction with Colvin",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868m4ae1z",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "848f0acfca65c3314cd9c56898674883c14ccfa8f53680e99ac6ec5bfc77e82b"
+            }
+          ]
+        },
+        {
+          "name": "Brandon Beaman",
+          "tasks": [
+            {
+              "id": "868m40fu8",
+              "name": "Checkout Vehicle",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868m40fu8",
+              "comments": [
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-10 23:46",
+                  "text": "Found that the logger in this vehicle was not configured for our bucket nor were the wifi credentials setup to start logging as we test drove the truck.\nWent through and configured the Logger to our bucket and Added Billy's wifi credentials to the logger.\nTest and Verified with Marc that the truck was now uploading logs.\nTruck Now uploading logs and should be good to for Logging.\nOnce we have the Clients wifi credentials I can upload these ASAP."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "c47ef4822e8ac5e3b8b419c43872fafe170db41dca6c37ada67638056798375e"
             }
           ]
         }
@@ -2333,7 +2337,7 @@
         "matched_lists": [
           "Teague 62 Jaguar"
         ],
-        "open_tasks": 17
+        "open_tasks": 16
       },
       "assignees": [
         {
@@ -2390,24 +2394,9 @@
               "content_hash": "d5a1aa55c34751a42ba48c7a10699affc93e322a0843ec4b3d0f7dd98b960ffd"
             }
           ]
-        },
-        {
-          "name": "Marshall Carter",
-          "tasks": [
-            {
-              "id": "868kyw24j",
-              "name": "Address airflow issue",
-              "status": "Open",
-              "list": "Teague 62 Jaguar",
-              "url": "https://app.clickup.com/t/868kyw24j",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "bd306a2dad7a88fd296502e1c8d89c2f1da3faacdad3b20ee4cc242b8ba92877"
-            }
-          ]
         }
       ]
     }
   ],
-  "generated_at": "2026-09-11T17:48:40Z"
+  "generated_at": "2026-09-11T18:14:50Z"
 }
