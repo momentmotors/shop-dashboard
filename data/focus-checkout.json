@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T20:39:27.111127Z",
+  "updated_at": "2026-09-11T20:50:48.650556Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1962,20 +1962,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868hbnnhz",
-              "comments": [
-                {
-                  "author": "Alex Noonan",
-                  "date": "2026-07-27 21:10",
-                  "text": "Need to start up vehicle first"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-09 03:15",
-                  "text": "test drove checking the DS bolts\nhave some vibration but it goes away after 65\nwill need the balance the tires"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "4f32e84d8c80a853072406569487503d2c855dd35d922af72596410e6885338e"
+              "content_hash": "3171a318632a0fe1c991f4e58f9902e494db2e3c43a879ff3508158c6dc77e07"
             },
             {
               "id": "868hbnfk6",
@@ -2564,5 +2553,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-11T20:37:52Z"
+  "generated_at": "2026-09-11T20:49:06Z"
 }
