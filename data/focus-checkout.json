@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T05:37:06.441441Z",
+  "updated_at": "2026-09-12T05:50:01.700290Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1987,9 +1987,15 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kmp9tm",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-07 13:24",
+                  "text": "test fit the battery lid\nit is ready for LOGO and PC\nIMG_1830.jpeg\nIMG_1829.jpeg\nIMG_1827.jpeg\nIMG_1826.jpeg\nIMG_1828.jpeg"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "25977cfdfe0fd6dc5303338eb465f4ded373d84fa04ebe79c10f1e716c4899e4"
+              "content_hash": "2aa8a1589ae675ef2968cbacc6f98d00daf87b8afd119e17e8350d38e262df2c"
             },
             {
               "id": "868ktqjxq",
@@ -1997,9 +2003,20 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ktqjxq",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-19 02:34",
+                  "text": "seat belts ordered"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-10 02:33",
+                  "text": "covered the glove box and ashtray with vinyl"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "371237ba86e4892bc87fcc0dd72a17784c4ecac889b399914e56e0f1cafd7fb9"
+              "content_hash": "32684eed741507b25e13c243375bae6fdee88fa9335abed6222ea2d2d854c9cc"
             },
             {
               "id": "868gaza16",
@@ -2054,9 +2071,75 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868k6ttbf",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Alex Noonan",
+                  "date": "2026-07-27 21:11",
+                  "text": "In conversations with customer on this topic. Setup needs to be confirmed before we are able to proceed."
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-03 22:06",
+                  "text": "Audio system has been spec'd and ordered.\nJL C2 components for front and rear 6\" & 6.5\"\nJL W3 slim for lows\nJL RD900-5 as amplifier"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-06 20:19",
+                  "text": "Audio arrived minus fwd speaker spacers\nTook measurements and sketched box layout for subwoofer mounting under rear bench seat\nMocked up front speakers\nMeasured for amplifier mount location"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 00:18",
+                  "text": "Headunit installed for mockup and wiring"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 00:19",
+                  "text": "1000014708.jpg1000014709.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-19 21:31",
+                  "text": "Ordered RCAs for Ritchie\nBuilt audio subharness\nChose amplifier position"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-20 19:27",
+                  "text": "Picked up RCAs for Ritchie Audio"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-25 00:53",
+                  "text": "paste_04dbeca5-398e-4049-aa83-1a092e02b518.jpgpaste_362d3eb0-7a0c-4c7e-ab58-032a685ebabf.jpgpaste_632576d7-0d34-46a1-8038-c5e8451d3f68.jpgpaste_6dbf9016-5284-452c-aad0-21bbe5c2bb39.jpgpaste_5b91a4b5-f1f6-4d25-9ce2-61b71425cb93.jpgpaste_956fe9de-345a-4a94-9d44-e604e46cbf5a.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-25 00:53",
+                  "text": "FWD speaker spacers received\nSpeakers and spacers installed in kick panels\nAmp mounting hardware position marked and nutserts installed\nAmp mocked up\nSpeaker wiring ran and secured\nRCAs ran and secured\nRemote wire ran and secured\nWiring to amplifier cut to length\nCarpet reinstalled\nHoles and slots in carpet made for wiring and bolt pass throughs\nAmplifier installed\nAmplifier wiring installed minus power and ground\nKick panels installed and wiring to fwd speakers finished\nKick panels tapped for retainment hardware and installed"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-02 18:01",
+                  "text": "Order replacement radio mounting bezel\nMake support bar for back of radio"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-02 19:26",
+                  "text": "Power and ground amplifier wiring ran"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-10 21:33",
+                  "text": "Headunit removed\nBezel replaced\nKnob height adjusted\nHeadunit reinstalled\nSupport bar installed"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-10 21:34",
+                  "text": "paste_43912374-26fa-48e6-b697-975a749723f8.jpgpaste_2fdf9460-5209-471e-bc91-51aa867589ac.jpg"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "d7872d4902746774cea8e7a57c66ebc49fcc4ad91f595624ef93e2354cd44fdc"
+              "content_hash": "2df9598d54dd5e83f5a722774485e4cde54d65dc64ebdca86c4602464dbd1126"
             },
             {
               "id": "868kpg6th",
@@ -2064,9 +2147,40 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kpg6th",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-11 00:43",
+                  "text": "Bed cap cover options sourced and relayed to Blazer group. Decision to be made"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-11 16:29",
+                  "text": "Game plan made for Blazer bed caps.\nCovers ordered"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 00:13",
+                  "text": "Blazer caps arrived\nCaps mocked up\nTrimming in process\nPassenger side trimming roughed in"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 00:18",
+                  "text": "1000014711.jpg1000014710.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 22:24",
+                  "text": "Driver and Passenger side caps have been trimmed and modifications have been finalized.\nCovers will be attached after interior side panels have been installed as the caps overlap the interior panels"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 22:26",
+                  "text": "1000014734.jpg1000014735.jpg1000014736.jpg1000014737.jpg"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "5f784fc4355ea24b3d7ab5fac0fd2f9fdb3c6da70b26b29130030605b994b98a"
+              "content_hash": "458375deb00d16a348b5c32e215bb16c62c24944619474990fed27dc8e45c604"
             },
             {
               "id": "868ka4d5e",
@@ -2074,9 +2188,135 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ka4d5e",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-10 20:45",
+                  "text": "Kick panels sanded, cleaned, sprayed with adhesion promoter and painted"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-10 20:53",
+                  "text": "1000014562.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-10 20:55",
+                  "text": "Door panel armrests installed"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-11 19:13",
+                  "text": "Remove passenger door panel to send with Ryan so Colvins can match the seat backs"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-25 00:54",
+                  "text": "Driver side visor install in progress and fwd carpet installed"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-25 00:55",
+                  "text": "paste_50cd478d-4416-4387-9ad4-ebe505f53939.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-25 00:57",
+                  "text": "paste_c724e9ae-7641-4d6e-838e-d055eb383c7f.jpgpaste_cbb6cdb0-741c-4585-8e83-b27f129a4873.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-26 19:19",
+                  "text": "Driver side carpet punctured for seat bolts"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-26 19:20",
+                  "text": "paste_34ee242e-ccfa-42ed-b5d0-559a8bf2b4e0.jpgpaste_33285637-22dc-4310-a785-2ab3bd7fa3a4.jpgpaste_c7dde881-95ce-41b1-88e9-fb9f31ae8fed.jpgpaste_76dc5ec5-0c49-41ba-aab3-f2cad6540d22.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-27 23:11",
+                  "text": "Passenger side carpet punctured\nPassenger seat installed\nSeat pivots cleaned and greased\nPassenger side seat rear cap installed\nDriver side seat cap requires additional mounting work"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-27 23:14",
+                  "text": "paste_4373b090-edc8-40ca-a6bf-0e934225c3a4.jpgpaste_b6d5a38c-7847-4470-a792-0d007fc0dc76.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-28 19:34",
+                  "text": "paste_7324b092-cbd3-45c7-a8b8-1944e491372f.jpgpaste_61533955-1463-4db8-b2f5-7202c022b3a1.jpgpaste_a4f0733e-6279-485f-ba05-b872a304cce2.jpgpaste_ba92f3c5-2407-4e72-8b3a-ced8b928d3b6.jpgpaste_1812a0bb-87c7-4392-8c22-2b0ffa515a7c.jpgpaste_8179339e-b53b-4d91-a60a-56be2ce91efa.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-28 19:35",
+                  "text": "Visor mount remedied and bracket installed\nRear carpet installed\nCarpet formed to wheel tubs\nHeat applied and reliefs made to allow wheel cover carpet to contour correctly"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-28 22:08",
+                  "text": "paste_0b4588db-48ed-456d-9d00-c8d717369c3e.jpgpaste_c7304e87-6000-4cc8-aaf8-acf1ad2417fe.jpgpaste_23877a8a-e2db-4b5e-8772-3c1307fc32c1.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-28 22:09",
+                  "text": "Seat back covers installed minus 2 screws"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-31 21:06",
+                  "text": "paste_08f12c38-c910-492b-8ef2-3f8d8cea693a.jpgpaste_fcb5eb37-1c4e-4e5b-8a1b-1e210c83bde3.jpgpaste_6c127a07-1df7-4ba8-867a-a5db75e2d26f.jpgpaste_494323a3-d630-47c2-964d-5d61254ba5ef.jpgpaste_50273c51-8aa8-4383-bea0-5858745d44f4.jpgpaste_3436e4c7-b846-4da8-b10e-85391b8afbb7.jpgpaste_d52a80df-80c0-4901-b369-907a71481184.jpgpaste_cffdc6c3-1246-4bc1-8943-0f9f40dc6a25.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-31 21:06",
+                  "text": "Rear bench seat armrest fab work finished\nArm bars mocked up\nLocation marked\nBrackets and arm bar prepped & welded out\nBrackets w/ Billy for PC run"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-01 22:30",
+                  "text": "Carpet adhesive did not hold on passenger side\nRelief cuts made and adhesive reapplied"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-01 22:32",
+                  "text": "paste_738d5392-f48d-4fb1-b071-70b3457ec8f5.jpg"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-04 03:28",
+                  "text": "IMG_2044.jpeg"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-04 03:28",
+                  "text": "went o er the rear side panels with David G\nwe got the parts laid out and sketched the design\nhe will have them next week to install"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-05 01:53",
+                  "text": "Installed arm rest bars on rear bench seat"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-05 01:54",
+                  "text": "paste_e4f125f9-376e-41fe-8903-2c4b1b0adad2.jpgpaste_10fd6033-ef28-4e7e-9b88-bbe9231af189.jpgpaste_e685bdf4-8c4f-4480-86cc-5de609bd3b6c.jpgpaste_31f95860-7007-499f-ac32-74aca9491e2a.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-08 15:41",
+                  "text": "paste_3b85bef1-7639-4989-92c7-88809ca58d90.jpgpaste_265428fa-f8a5-4131-a39e-54ccb758972b.jpgpaste_8b1c5aca-2839-4a39-9132-09021ba76b2c.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-08 15:41",
+                  "text": "Measure, mark and lance the carpets for rear seat brackets\nOrder new rear mid brackets and bar clamps for the rear seat"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "8fd66da719ff705d1cfee40e5a59ea597a5a80d93c1c6678c2c1fb1afd503ed5"
+              "content_hash": "476c527e15c88f383a2bf4bbd00a1196dc88595fb62321f0ed29367935ae8e08"
             },
             {
               "id": "868gaza9t",
@@ -2318,5 +2558,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-12T05:35:42Z"
+  "generated_at": "2026-09-12T05:48:33Z"
 }
