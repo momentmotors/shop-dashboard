@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T04:15:16.007094Z",
+  "updated_at": "2026-09-12T04:31:40.589618Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -260,9 +260,156 @@
               "status": "Open",
               "list": "Connolly 58 220S",
               "url": "https://app.clickup.com/t/868exjqjc",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
+              "comments": [
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-10-23 22:07",
+                  "text": "Test drove with laptop looking for CAN1 errors. Catching about 870 per second all in one large group. Turned off OBDII from the inverter which didn't help. Also tried turning off diag data. Turned them back on and unplugged the logger which is set to auto-baud. Still no change. Used Kvaser set at 1000mbps and I get a message to decode with data 2044, 2046, and 2048. Test driving is getting difficult since CAN errors occasionally cause the VCU to drop PreCharge."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-10-25 00:21",
+                  "text": "Removed all CAN messages from both PMU's re-tested for CAN errors, still there. Removed CAN1 wiring to PMU's and re-tested. No luck."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-10-28 22:16",
+                  "text": "Tested out external CAN connection to the inverter. Problem went away momentarily. Tested alternate VCU. Problem still exists. Decided to buy PicoScope to help analyze."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-10-31 16:27",
+                  "text": "Reviewed PEAK codebase for good starting point. Setup project for basic router. Modified, commented, & compiled."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-11-06 01:06",
+                  "text": "Worked with Jordan and Dusty to use the PicoScope on CAN1 crashing issue. Hooked up to CAN1 at various spots. Tried grounding shields. Verified waveforms against Buck."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-11-07 00:48",
+                  "text": "Re-checked vehicle faults after Jordan replaced the ground to the inverter. Noise problem stopped with a larger ground but also didn't come back with the old #22 wire back installed. Was able to drive the vehicle shortly till the problem resurfaced causing the positive contactor to weld. Verified this with Ampere and used the BMS test box to break the weld since the vehicle logic does not allow. Checked the whole vehicle again and the noise problem still exists. Tried unplugging all HV accessories, no luck. Installed a minimal external CAN1 network with all new wiring and found the CAN1L wire pulled out of the terminal at the inverter while removing that wire. Tested with new CAN network and PicoScope looks noisy like before. Tried grounding shield, still no luck."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-11-07 23:43",
+                  "text": "Re-verified noise exists on external CAN harness. Setup provisions to pull in the positive contactor with the BMS disconnected. Had a remote session with Andrew to force the VCU into enabling the inverter with the BMS missing. Noise still present on external CAN1 network. Repeated various trials. Discovered HVIL in the JB wasn't working correctly, replaced. Noise still present. Decided to isolate inverter as much as possible from vehicle. Modified Python gauges test script to enable inverter for 500ms. Setup completely isolated inverter harness & provisions to pre-charge. Tested both VCU CAN and INV CAN but both still had noise. Added motor case and inverter case into the PicoScope, and re-tested. Found ~10V between chassis ground and motor case. Installed #4 AWG wire between motor case, inverter case and battery negative stud. Re-tested and still found noise. Moved #4 AWG to ground distribution blocks, re-tested, and still have noise."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-11-11 14:08",
+                  "text": "Met with team over strategy. Followed along with diag over the day."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-11-13 23:59",
+                  "text": "Verified major errors gone away. Did notice some inverter errors but they may just be old. Cleared diagnostic buffer. Verified all VCU settings. Weighed vehicle. Input correct weight, tire size, gear ratio, etc. Checked PRND, needed adjustment to wiring. Verified DCDC output and charging rate. Checked off last BMS checklist items. Test drove for completeness. Troubleshot gauges with Jordan."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-11-13 23:59",
+                  "text": "Tested new motor and phase leads under various configurations with Jordan. Captured documentation to send to Cascadia. Set gamma adjust in new motor."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-12-05 21:30",
+                  "text": "Replaced fuse, located & improved associated documentation. Gave repaired box to Jordan."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-07 22:31",
+                  "text": "Ran through the checkout sheet filling in the items remaining section. Flashed the latest AWD firmware and verified options."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-20 22:38",
+                  "text": "Pedal Launch Gain adjusted from 70 -> 50"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-25 17:17",
+                  "text": "image.png\nimage.png\nUploaded PMU and EEPROM files to the Vehicle folder in google drive for future reference."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-08 19:20",
+                  "text": "flash successful\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-08 19:20",
+                  "text": "Before VCU Update\nimage.png\nimage.png\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-08 19:22",
+                  "text": "Post Flash\nimage.png\nimage.png\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-08 19:23",
+                  "text": "Ajusted Launch Gain to 50 before taking a SS. Knew this setting was going to need to be updated after VCU upgrade"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-08 20:31",
+                  "text": "Adjustments based off differences pointed out by Claude.\nimage.png\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-08 21:00",
+                  "text": "Corrected all mismatch settings. Car should be good to drive now for a final test."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-09 17:20",
+                  "text": "Current E-Stopp Settings. Vehicle currently set to None for ParkPawl control. Need to verify if we want to use current control or not based on the findings.\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-09 17:21",
+                  "text": "Progress Report \u2014 Parking Brake EStopp Actuator Current Analysis\nDate: 9/9/2026 System: VCM_517 \u2014 Parking Brake / EStopp Pawl Actuator Logged by: Brandon Beaman\nSummary\nReviewed five Raptor-Cal test logs of the parking brake pawl actuator (PrkPwlO15) to characterize peak current draw against actuator timing calibration and identify any correlation worth flagging for calibration tuning.\nWork Performed\nPulled and parsed five sequential VCM_517 Parking Brake logs (11:47:16, 11:51:09, 11:54:52, 12:00:45, 12:08:36) for the measured actuator current channel (PrkPwlO15_P27_Measured_Current) and the EStopp actuator timing calibration fields (PrkActMnTime_EStopp, PrkActMxTime_EStopp, PrkActReleaseTime_EStopp).\nExtracted peak current draw and its timestamp from each log.\nCross-referenced peak draw against each log's actuation timing setpoints to check for a relationship between calibration and real-world current pull.\nCompiled a comparison table and written analysis of findings (delivered as a standalone report, both Markdown and PDF).\nFindings\n\nundefined\nAcross Logs 1\u20134, shortening either the min or max actuation time window was associated with a higher peak current pull \u2014 a preliminary pattern worth further testing.\nLog 5 breaks that pattern: it shares identical timing calibration with Log 4 (Min 4.250 s / Max 6.000 s / Release 3.500 s) but produced the highest peak draw of the whole set (12.25 A vs. Log 4's 10.25 A) \u2014 a 2 A swing with no calibration change. This points to run-to-run mechanical/electrical variability rather than a purely timing-driven effect, and suggests more repeat runs at fixed timing are needed before drawing conclusions.\nRelease Time was held constant (3.500 s) across all five tests and was not a variable in this data set.\nNext Steps / Open Items\nRun repeat tests at fixed timing calibration (e.g., hold Log 4/5's settings) to quantify normal run-to-run variance in peak draw before attributing changes to calibration.\nOnce variance is characterized, revisit the min/max actuation time trend with a larger sample to confirm or rule it out.\n\nSide Note:\nIt looks / feels like its more dependent on how much pedal pressure is being applied when the vehicle is commanded to go into park. If you have just enough pedal in it to prevent the vehicle from rolling the Amp draw is higher. If you're heavy in the pedal then the amp draw is lower.\nThis might make the current based engagement unreliable. Set it low enough to not throw a flag based on pedal pressure then you may end up with a light engagement.\nPlace it high enough to reach the max amp draw you may get a GML because the end user was holding the brake pedal harder when going into park."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-09 20:02",
+                  "text": "image.png\nimage.png\nimage.png\nE-Stopp Amperage Findings. Everything seems to be operating as normal if not a bit above normal / expected."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-09 20:49",
+                  "text": "Further testing shows that the slight rolling on an extreme road grade.\nThe road that I was testing on is Foremost here near the shop. The Approx grade of this road is 11\u00b0.\nThe vehicle makes a good effort to hold itself after the parking brake is engaged however without fail every time it does slowly roll away regardless if the car is facing up the hill or down the hill.\nMultiple tests and test runs were performed to verify this data.\nA couple key take aways here are that the E-Stopp is functioning exactly as it should and or at least within manufacturers specifications. Regardless of parking brake adjustments we add it will still only pull 10A reliably. There is nothing in our system that is preventing the E-Stopp from using up to 25A its just not requesting anything more.\nMarc opted to return all the settings back to where they were previously set. He had Claude go through all of the old logs and look for a difference in settings changes and there were no major setting changes from today.\nSo we left the settings where they were except release timing. we add 0.8seconds to the release timing to hopefully help with the brake dragging when coming out of park."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-10 22:00",
+                  "text": "Verified Wifi credentials uploaded to logger and let all appropriate parties know."
+                }
+              ],
+              "checklist_items": [
+                {
+                  "checklist": "Checklist",
+                  "name": "Add wifi credentials",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Test temp gauge functionality",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Troubleshoot \"DisplayDashGUI_SettingsMsgTimeout\" message",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Tune throttle",
+                  "resolved": true
+                }
+              ],
+              "content_hash": "06a837148fd509d9612e5b0911f7f3d5ee5d2e494006b4212b6eddc0a3190e7b"
             }
           ]
         },
@@ -275,9 +422,25 @@
               "status": "Open",
               "list": "Connolly 58 220S",
               "url": "https://app.clickup.com/t/868kzdxnk",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-09-03 22:05",
+                  "text": "Organized every vehicle specific PMU backup into their respective vehicles folder. Exported and imported several messages into a sample program to give Claude to find the import pattern and produce a script to repeat. Tested the script on several programs re-iterating on small gotchas like a name changed variable or something out of order. The PMU program and script seems solid but I'm waiting till tomorrow to mull over the possible problems of using Claude generated PMU programs. Verified customer wifi credentials have been uploaded and sync'd."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-09-08 03:46",
+                  "text": "First took backups, then ran the Claude generated script that injects CAN messages and re-organizes a PMU configuration. Ran a Claude generated compare tool as well as some manual methods to verify file integrity."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-09-08 03:47",
+                  "text": "Loaded the Claude generated PMU configurations. Used the Ampere IO Checkout layout to test various channels and monitor via CAN bus. Trouble shot parking brakes not disengaging fully. Took notes on remaining items."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "3b9a3a8ec6175ea649fba96181ff3fb5f0a7d1579e6fab69ce6e3991a0f8251f"
+              "content_hash": "354025a2a60cfa184ef31497628cf8ce7e6d36bc04426563bcea9d2a2b22ce04"
             }
           ]
         }
@@ -379,9 +542,25 @@
               "status": "Open",
               "list": "Ferdman 66 Bus",
               "url": "https://app.clickup.com/t/868kzmqbg",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-09-02 22:59",
+                  "text": "(Moved from earlier task, work performed on Monday)"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-09-02 22:59",
+                  "text": "Rear door latches: Took off the door panels and removed the latch mechanisms. Noticed the lower latches were not functioning properly. 3 hours @Alex Noonan\nFront door has a broken internal mechanism, the lower door barely moves. Not worth repairing, have ordered a new mechanism.\nRear door had two issues that have been resolved.\nInterior self-tapper was interfering with the latching arm mechanism.\nOne of the retaining screws on the arm was loose and catching."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-09-09 22:42",
+                  "text": "Received door parts.\nInstalled front rear door latch: Latch functioning, however the 'tab' of the locking arm not engaging with the bottom lock. Attempted to adjust bottom lock divot, no luck.\nRemoved and re-shaped to allow for proper engagement.\nNote: Door has been re-welded and worked on at some point, requiring the arm to be bent. Found the sweet spot after lots of trial and error.\nRe-shaped striker to better engage with rear fore/aft new door latch mechanism.\nReinstalled door panels and tested. Functioning as intended.\nNote: Due to previous bodywork, light pressure is required on the middle of door when closing to allow all three points to engage (top middle center). Prior to work performed, only top and center were engaging.\nFurther note: Rear door lock mechanism was broken prior. Now functional, new keys on keyring."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "b5b28a427020bf29e722fa3d73c91b738a463a6a0c3a4d9de35bfe3038206331"
+              "content_hash": "729d60f8cb7476372128f44f582d9788e5bd8f8d5babe6ec2506ff613a3adca7"
             },
             {
               "id": "868k7em0v",
@@ -424,9 +603,15 @@
               "status": "Open",
               "list": "Ferdman 66 Bus",
               "url": "https://app.clickup.com/t/868krf5mg",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-10 21:59",
+                  "text": "Verified wifi credentials still missing. Reached out to Ryan to gather that info. Once we have it I will upload that to the logger."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
+              "content_hash": "f9f32b861cf95bb22a954185f01e68a774fa8e9c4584cd5cc9314f6ec20a9ac2"
             }
           ]
         },
@@ -439,9 +624,70 @@
               "status": "Open",
               "list": "Ferdman 66 Bus",
               "url": "https://app.clickup.com/t/868krf5h0",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-14 21:44",
+                  "text": "Reviewed torque doc and amps doc. Ran trials requested by Andrew. Developed tune and re-tested. Wrote up time and observations and posted to Slack."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-17 22:55",
+                  "text": "Used Claude to plot the trials from Friday. Determined peak amps wise my tune looks good, just needs to have a better \"feel\" in one area. Developed a plan for a new torque limit tune based from amperage feedback instead of torque. Still need to generate number to input to Raptor-Service and actually test."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-18 23:37",
+                  "text": "Reviewed my new torque based tune and tested in the vehicle. The boost is still quite noticeable even with a perfectly flat torque feedback. Will need to switch to heavy current limiting, if that doesn't solve it the SDU is operating outside of it's reported feedback and needs to be reviewed by AEM."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-20 22:49",
+                  "text": "Reviewed new Claude posts since yesterday. Reviewed trial notes. Repeated baseline current derate test and then tried a medium and max derate tune. In eco mode things are feeling way better but for some reason that changes switching back over to sport. Log analysis backs that up with current figures, derate sounding like more of a band aid solution now. Browsed all the various inverter feedback signals for any that seem to get rough at the same time. Noticed phase B current is always 0, turned out to be the DBC or something not important."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-20 22:49",
+                  "text": "Ran the several trials Claude requested and organized notes about what was changed and how the vehicle felt in response."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-21 21:53",
+                  "text": "Worked with Claude to review EEPROM settings for the SDU. Determined several to investigate testing with. Also figured actual base torque from logs to that my conservative tune can be relaxed."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-26 19:50",
+                  "text": "Researched Kp and Wp via Claude for typical values and expected changes. Couldn't really get a dependable answer, relied on my tuning experience of never more than double or half. Set the VCU back toa default tune and drove for a baseline. Changed the inverter settings Kp from 5 to 10 and W1 from 3600 to 1800 in live memory. Re-tested and pulled the logs for Claude. Couldn't really see any effect from my plot."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-27 23:33",
+                  "text": "Repeated Claudes temperature consistant trial, posted for analysis. Reviewed logs in the AEM format and trimmed down two that best highlighted the issue, took screen shots and drafted a analysis request email to AEM. Included vehicle specs and attached the current EEPROM settings for the motor. Sent email off to AEM."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-30 20:38",
+                  "text": "Reviewed Slack and Claude's recommendation. Tested the \"Aggressive\" tune in sport mode first. It's some what flat in the highway entering speed but completely eliminates the surprising boost. Posted to Slack, left tune in. Went for a final test drive with Jordan in eco mode to verify the bus wasn't too slow now. Organized all my trial notes more clearly for future pickup."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-09-01 21:36",
+                  "text": "Grabbed the EEPROM backups just to be sure my offline copies matched, they do. Compared to the new files provided by AEM, a very close match except for motor type seems wrong in one AEM file. Posted compare report and results to Slack."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-09-02 18:51",
+                  "text": "Reviewed all the manuals and change logs I could find for which firmware I should flash into the SDU to test the rollback theory. Flashed that firmware. Can't test since the bus has no door latch."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-09-03 22:04",
+                  "text": "Reviewed Scott's email and converted the AEM data logs to CSV for Claude. Posted all to Slack. Re-flashed the inverter with 6B33 and verified EEPROM settings. Flashed VCU firmware VCM_517_R010902_Persist.rpg and reviewed all the calibration settings. Set the gear ratio and tire size to calibration to be consistent with our new way. Re-correlated the checkout sheet. Went to enable torque tables but it's locked out in the new firmware."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "3ef609addaf0057936618acba3af357d19280540b63ae1e7d0f068966b6b0807"
+              "content_hash": "75d8e0a4c0aca135f3ac0934d29dd5fe55dad869de1b37bba694b16d094121f6"
             }
           ]
         },
@@ -454,9 +700,25 @@
               "status": "Open",
               "list": "Ferdman 66 Bus",
               "url": "https://app.clickup.com/t/868kv2u3g",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Marshall Carter",
+                  "date": "2026-08-21 21:50",
+                  "text": "image.png\nimage.png\nimage.png\nimage.png\nimage.png\n\n\nimage.png\n\nimage.png"
+                },
+                {
+                  "author": "Marshall Carter",
+                  "date": "2026-08-21 21:54",
+                  "text": "-Did a preliminary design\n-Met with Jordan and Alex 8/20 and as a team decided to try to make a design for the radiator mount that contoured to the wheel well. Screen shots are of the final design that got ordered from OSH.\nSheet metal will come too long, extruded through the wheel well. After Jordan makes a rectangular cut and installs the sheetmetal assembly, he will mark the radius he needs to cut.\n-It was acknowledged that the contoured design would be more complicated to fit test/install, but it was agreed as a team that this was the right direction to go."
+                },
+                {
+                  "author": "Marshall Carter",
+                  "date": "2026-08-21 21:58",
+                  "text": "As a backup, I designed upper and lower \"U\" mount brackets that would allow us to mount the existing shroud. I also designed a thin piece of aluminum to mount the mesh screen that we could bend along the contour of the wheel well as a backup.\nimage.png\nimage.png"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "ff3ffba31f5496f0ab2753927800f90477ae0c1c05546867686b810f3e660c66"
+              "content_hash": "5b03cfa33a0a08ff8bf41dd6ff2935f07fa1768adaeed9d2300d8edc37fe9fc2"
             }
           ]
         }
@@ -1178,20 +1440,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868gaza16",
-              "comments": [
-                {
-                  "author": "Alex Noonan",
-                  "date": "2026-07-27 21:10",
-                  "text": "Waiting on Marshall to design GUI mount. He is currently address more pressing matters to prevent stalled progress on other projects. This part is not needed to get vehicle driving."
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-14 02:45",
-                  "text": "checked tracking on console\ngot with marshal"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "b3731e461d83d2977142509020cbbe84178710fdcc1ded68605b1875d4b6b242"
+              "content_hash": "343e363118156f75652f0a31310daa43313af26b3097b7471d0d9cd78416f3b3"
             },
             {
               "id": "868m2ye0h",
@@ -1422,136 +1673,9 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868khu6f8",
-              "comments": [
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-07-30 02:34",
-                  "text": "Worked with Brandon to develop a better PMU revision system. Cleaned up the master branch and backed up on google drive. Had Brandon pull this down and showed him how to flash to the PMU's along with a number of other vehicle startup details to follow along first. Moved on to the VCU, showed Brandon about the firmware builds and Raptor structures. Converted vehicle requirements into a VCU config. Moved on to the inverter while Brandon loaded that. Upgraded the inverter firmware and flashed EEPROM in line with a W motor while following along in thee sheet."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-07-30 21:43",
-                  "text": "Continued startup with Brandon and Dave. Hooked up HV and key'd on. Tried charging and got the ChgPortContFlt, verified all the associated wiring that has caused that fault previously, no problems found. Tried charging again and it just worked this time. Verified battery heater. Calibrated the resolver. Troubleshot cabin heater wiring. Searched and searched for documentation but couldn't find complete references. Experementially found the VCU was telling the PMU to tell the VCU to turn on the heat. Took thorough notes on actual wiring."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-07-31 21:33",
-                  "text": "Verified K33 \"Heat Request\" functionality on Prehiem to make sure I had the correct tags in Raptor-Service. Tried various combinations of PMU outputs and VCU configs to determine if there was a way to get powering up the heater logic unit as the mechanism to enable heat. Ends up with a fault in the VCU which makes adding a relay the easier option. Drew a diagram for and wired up a relay to a spare output on the PMU. Wrote logic to check the temp knob below 15%, the fan knob above 30%, as well as negative contactor and ignition on. Tested all knob positions and GUI inputs while watching in Raptor and the PMU software. The GUI indicates correctly and warm air blows. I never let it heat up enough to judge effectiveness. Only thing left for HVAC now is to charge the AC and tune that in."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-08-03 23:47",
-                  "text": "Verified heater circuit actually working by monitoring CAN data from the heater itself for output power. Double checked with a second data source Pack_Current from the BMS. Modified the PMU logic to also include fan and temp knobs as a criteria for turning on the cabin heat pump. Tested all scenarious with the user inputs from the GUI and knobs. Noticed the battery pump was running when it usually isn't, started to investigate, met for various discussions with the team before I could finish. Plugged into Preheim to investigate source of the difference in control."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-08-06 21:15",
-                  "text": "Tuned in the AC compressor with Dave, it's working as expected plus a little 'bonus'. The AC compressor 'hiccups' with HV connected but the logic unit powered off. Powering up the compressor logic controller without Ampere commanding it to actually compress causes a VCU level fault. Shared to Slack."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-08-11 22:31",
-                  "text": "Catching up on Slack before the meeting. Looked into Claudes diagnosis of the AC issue. Looks like the PMU program has never changed for that channel and Claude picked up on the troubleshooting I did as the actual problem, not knowing that at time the system was supposed to be operating different than the rest of the fleet. This was required to verify the 450V compressor functions differently than the 400V one and would work better under a different control sequence. Verified VCU settings for the battery were wrong and corrected."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-08-13 22:16",
-                  "text": "Forced the car to suck out the BMS config again and the fully charged range estimate dropped from 306.04 to 149.58 miles. The new battery health calculations result in 146.4 Ah for the pack, a very reasonable estimate. Also verified Dave's findings on the AC compressor from the computer side. The hiccup issue has been magically fixed."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-17 17:08",
-                  "text": "image.png\nsettings found in raptor when checking initially"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-17 17:13",
-                  "text": "image.png\nadjusted settings"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-17 17:34",
-                  "text": "test drove vehicle.\nfound that at gui 60 the speedo was off by 2mph.\ngoing to reduce overall tire diameter by a small amount to try and get the delta as low as possible"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-17 17:36",
-                  "text": "image.png\nadjusted settings"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-17 17:44",
-                  "text": "Will need to test drive the vehicle to determine if the speedometer is more accurate."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-17 23:10",
-                  "text": "image.png\nHad to update the vehicle weight to kg."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-17 23:25",
-                  "text": "Went through the VCU and verified all of the Vehicle Parameters were set into the VCU appropriately.\nThe tire size on this vehicle is 185vR15... there isnt any aspect ratio listed. According to the googles though total diameter is approx 675mm to 677mm.\nAdjusted settings appropriately in the VCU and\u00a0 switched all of the parameters from Display to Calibration.\nTest drove the vehicle with Dave. Found that the GUI displayed the same speed as my Phone did. Speedo gauge was approx 1-2mph high.\nAdjusted tire size down from 0.675 to 0.665.\nVehicle can be test driven again to verify that we are closer to a 0 delta. Not 100% sure if there is a filter that Peterson is adding to the speed or not but that would explain the slight difference. Or the fact that the GUI and My phone were both using GPS data while the speedo gauge was using calculations. Either way we are much much closer than the 20% that was noticed\nFinal vehicle weight wasn't recorded explicitly so the weight that is in there is close but not exact.\nMessaged Ryan to gather the wifi credentials for this car."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-18 19:54",
-                  "text": "Noticed the GUI in this vehicle is operating a tad bit different than other GUIs we have had in the past.\nWent through the Update process for the GUI.\nUpdated and or Installed all necessary .apk files.\nUpdated .xml file and realdash dashboard.\nOperations found to boot at different speeds.\nThe boot time on this GUI is much much faster than all of our other units. Unsure why this is at this time.\nAmpere Software will finish booting before CAN 3 messages are ready.\nSo there is a slight \" loading time \" feel present for this vehicle. This however seems to be normal operation on all our vehicles except boot times are a bit longer so by the time everything loads the Messages are already there and present so there isnt that \"loading\" feeling.\nPossible we take a trace of CAN3 and have claude see if there are any noticeable issues with it."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-08-20 22:51",
-                  "text": "Sat down with Brandon and talked through how the VCU and GUI work together to get gear ratio and vehicle weight input. Fixed the incorrect numbers, correlated startup sheet."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-25 20:22",
-                  "text": "Got the Wifi Credentials for this vehicle and updated documentation.\n\nTuxedo2 - username\nsweettea - password"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-09 20:59",
-                  "text": "Confirmed vehicle still on the VCU firmware to test AC hiccup issue.\nimage.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-09 21:23",
-                  "text": "image.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-09 21:32",
-                  "text": "Went to verify status of the AC system on Teague.\nFound the Drive Button LED to not be lighting Up. Tested Drive button. Found no response.\nPossible disconnected on the back side? Or death of a button.\nThis will need to be looked at.\nVerified Teague was on the VCU firmware that we talked about this morning. Sat in the car with the vehicle on.\nFound that the AC was acting as intended. No noticeable hiccups or blips from the AC compressor.\nSo as of right now Yes the fix in the VCU_516_Beta10813_SDU_Persist should be moved over to the newest firmware to allow us to update this vehicle and keep the Hiccup fix.\nHowever this car is still experiencing the AC low voltage errors.\nAs the car is turning off you can observe the HV Fault lamp pop up on the right before the GUI screen turns off. So this seems like its happening during Key Off. Maybe we have Andrew look into the thresholds that may be causing this as well. Has the contactors open but the CAN messages are still sending Valid checks?"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-10 21:58",
-                  "text": "Added wifi credentials to Logger."
-                }
-              ],
-              "checklist_items": [
-                {
-                  "checklist": "Checklist",
-                  "name": "Add wifi credentials",
-                  "resolved": false
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Test fast charging",
-                  "resolved": false
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Perform full overnight charge",
-                  "resolved": false
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Determine the correct settings for 450V components (AC comp, OBC, DCDC, precharge resistor, etc)",
-                  "resolved": false
-                }
-              ],
-              "content_hash": "98a547f220489dcbff48addfeb1c6e3997f02c2b8b8a7462881e16db339f4fdb"
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
             }
           ]
         },
@@ -1564,20 +1688,9 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868jj1ac8",
-              "comments": [
-                {
-                  "author": "David Webber",
-                  "date": "2026-07-02 11:10",
-                  "text": "I don't believe we have a design for this yet"
-                },
-                {
-                  "author": "David Webber",
-                  "date": "2026-09-10 15:14",
-                  "text": "Parts ETA = 9/11"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "c804e9f818e6635e546e13cb0c189169ec55fff45bdb08ee7ab54685be19e957"
+              "content_hash": "660d5d6ca681f665bcf4d9c15314bf8bfa08105e09f99c9809d6d4ba2fad2219"
             },
             {
               "id": "868m3t9eq",
@@ -1600,20 +1713,14 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868kzdw3t",
-              "comments": [
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-09-08 03:47",
-                  "text": "Verified the AC compressor hiccup was not solveable in the latest firmware release. Rolled back the firmware so the AC would be working, posted findings to Slack."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "b0992c84c0bdcc16e98d9fa05aa8c4143618104bec4c979eb0af0c9662e6a7c3"
+              "content_hash": "d5a1aa55c34751a42ba48c7a10699affc93e322a0843ec4b3d0f7dd98b960ffd"
             }
           ]
         }
       ]
     }
   ],
-  "generated_at": "2026-09-12T04:13:52Z"
+  "generated_at": "2026-09-12T04:30:04Z"
 }
