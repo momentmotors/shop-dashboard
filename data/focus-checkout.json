@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T04:42:58.466695Z",
+  "updated_at": "2026-09-12T04:51:23.581800Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1324,20 +1324,9 @@
               "status": "Open",
               "list": "McDonough 77 Esprit",
               "url": "https://app.clickup.com/t/868m2ww4n",
-              "comments": [
-                {
-                  "author": "David Webber",
-                  "date": "2026-09-10 15:14",
-                  "text": "parts ETA = 9/11"
-                },
-                {
-                  "author": "David Webber",
-                  "date": "2026-09-11 18:19",
-                  "text": "Received replacement switch & noted that it uss spade terminals instead of pin/socket type. Also notes that it is missing a circuit. Fashioned a new switch using the circuit base of the original switch and combining it with the sliding contact and rocker portion of the new switch. Installed new assembly. Lamp functions restored."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "e11e9ce5113d57d559c971e7fdbe68bd3523c99cd25f5d287bc8524adf1d6c0d"
+              "content_hash": "ea84c49ccd3b3360d6899e32fb75aeff13ce679073d58134105a709e40b40cda"
             },
             {
               "id": "868km7t9d",
@@ -1345,15 +1334,9 @@
               "status": "Open",
               "list": "McDonough 77 Esprit",
               "url": "https://app.clickup.com/t/868km7t9d",
-              "comments": [
-                {
-                  "author": "David Webber",
-                  "date": "2026-08-06 13:12",
-                  "text": "31 mile road test. Motor & Battery circuits running cool. No DTCs. GUI ok... not dropping out as previously noted. Rear suspension is still quiet."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "ce28c1c89c82278d2e0c2f6e5373fc224928fb0295bf6f4bb40b99828181ecde"
+              "content_hash": "16b663d18fbf511d04fc5891bd8783a045dcf757ee0ccc8a4b8950f005f0e1b3"
             }
           ]
         },
@@ -1366,121 +1349,9 @@
               "status": "Open",
               "list": "McDonough 77 Esprit",
               "url": "https://app.clickup.com/t/868jkmucy",
-              "comments": [
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-05-13 04:47",
-                  "text": "Walked Andrew through the vehicle requirements sheet and filled in all the information possible. Went to flash inverter firmware, cable wouldn't connect physically, looks like the wrong gender. Made quick cable changer. Connected to inverter, pulled EEPROM backups for the main settings, RTD calibrations, and control loop settings. Flashed firmware 6533 and started on the EEPROM combing. Had Claude look at the EEPROM compare tool since it wasn't working for some reason. Compared the Ampere, Moment, and Stock W EEPROM files and decided on an updated blend with weight towards the Ampere settings, made a Master EEPROM column in the startup sheet to permanently capture these. Flashed and backed up everything. Moved on to the VCU, flashed the latest firmware, transfered settinngs from the vehicle requirements sheet and noted with comments where it was lackinng / not super clear. Transfered clear settings to the VCU and marked ones that needed to be reviewed at a later date. Upgraded the PMU's to the latest firmware and flashed the Preheim calibration, which matches closest. Later this week when Preheim HVAC is finished it should be considered to re-flash that program over to here if zero changes have been made to McDonough. Moved over to OBD port which is not reading the PMU CAN but was able to use the PMU checkout box to monitor current while Andrew forced on all channels controlled by the VCU. Started to hookup HV and ran into an HVIL issue, narrowed it down to an IMD box which checked good earlier. Either it's a different IMD box that was actually installed in the vehicle or the vehicle harness has an issue."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-05-14 02:57",
-                  "text": "Measured CAN network resistances and found CAN3 at 105 Ohms. Temporarily added a resistor to CAN3 to correct the termination. Found PMU CAN1 was flipped high and low causing the laptop to not connect, had brandon fix that. Verified HVIL now satisfied with Daves fix, plugged in the rest of the HV acessories. Enabled HV from the VCU and watched precharge. Verified L2 charging and DCDC output and marked off in the sheet. Discovered bug where PMU was sending output status 1 for all channels, corrected. Will need to fix on three other vehicles. Monitored VCU while testing brake switch. Ended up overriding from the VCU to move on. Calibrated the resolver and continued testing brakes with Dave. Took the vehicle for a test drive and updated the punch card."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-05-19 23:27",
-                  "text": "Drew up HVAC summary diagram for understanding of which control needs to be configured where. Corrected incorrect VCU options marked off as done during rush last week. Verified all input switches making it to the right controller and all outputs switching on the correct device. Watched AC cycles with Dave & adjusted setpoints per his suggestion. Tested cabin heat, drawing 2kW and internally shutting off at 70C, might be a blend door problem that is not removing the heat from the heater core."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-07-24 22:19",
-                  "text": "Removed the temp temperature logger from Preheim and wired up some thermistors to take the place of the permanent ones in the battery box. Adjusted the logger setup slightly and setup to log temps on Hastert out in the sun. Temperature results at 5pm:\n\nTop of Dash: 32.9 C\nTop of Battery Box: 36.9 C\nSide of Battery Box: 34.6 C\nSide of Battery Box (In the air): 41.8 C\n\nLooks like the air around the box is significantly hotter, test might not have ran long enough. Should re-try on the Lotus."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-08-06 21:15",
-                  "text": "Picked up on startup. Scanned the sheet to get an overview of what's left. Changed the inverter setting for breakspeed to match the W type motor. Setup second GitHub account with the email Andrew used. Pulled the latest VCU firmware and release notes. Hooked up to vehicle to flash and the passenger window seemed to be stalling. Shut off vehicle and discussed with Dave."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-08-07 22:31",
-                  "text": "Ran through the checkout sheet filling in the items remaining section. Flashed the latest AWD firmware and verified options. Left on charge the rest of the day and monitored."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-20 22:41",
-                  "text": "Pedal Launch Gain adjusted from 70 -> 50"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-03 15:37",
-                  "text": "image.png\nEntered Vehicle weight and Gear Ratio into the VCU"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-03 23:08",
-                  "text": "Messaged Ryan to acquire the Wifi Credentials.\nWifi creds gathered. Notified Devin to upload creds to the logger.\nUploaded the vehicle weight and gear ratio into the VCU. Left the parameters on Display since the vehicle has been working well and as intended at this time.\nAddressed CAN 3 termination issue. Missing term resistor. Added a removable term resistor at the OBD port.\nSpoke to Marc about updating the GUI. We decided that we should leave it as is to prevent any possible failures on a complete car."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-09 13:44",
-                  "text": "Pre Flash\nimage.png\nimage.png\nimage.png\nimage.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-09 13:48",
-                  "text": "image.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-09 13:59",
-                  "text": "Post Flash\nimage.png\nimage.png\nimage.png\nimage.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-09 15:18",
-                  "text": "Flashed the VCU firmware to the latest firmware.\nSpent sometime setting up the RDIS file to have our HVAC diag and settings in the HVAC tab.\nSubmitted before and after screenshots to Claude to determine what settings changed pre and post flash.\nthe only setting that \"changed\" was the LaunchGain. In the old settings we had it set to 50 at drive factor 8. The thing is this car has a drive factor of 11.2 so that setting was never actually being used. So we updated that setting to 50 on this new firmware. Will need to test drive the vehicle to verify.\nMade necessary adjustments to the VCU settings to match pre flash.\nVCU updated and good at this time. Continue with Test drive of the vehicle to verify operations are all good still at this time."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-10 22:02",
-                  "text": "Uploaded wifi credentials to CAN logger."
-                }
-              ],
-              "checklist_items": [
-                {
-                  "checklist": "Checklist",
-                  "name": "Address CAN3 Termination issue (currently 110 ohms)",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Add wifi credentials",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Enter vehicle weight",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Update GUI to lastest version",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Verify gauges after reinstallation",
-                  "resolved": false
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Test fast charging",
-                  "resolved": false
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Perform overnight charge",
-                  "resolved": false
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Verify inverter break speed",
-                  "resolved": false
-                }
-              ],
-              "content_hash": "0a957a78c171d7235c406260926716b9f8364e083c6ddb57d57498fed4dadca2"
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
             }
           ]
         },
@@ -1670,15 +1541,9 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868kzamnu",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-01 18:01",
-                  "text": "removed the bolts in the top front\nremoved visors\nlifted the top up\ninserted sealant\nlet it set up\nreinstalled the top bolts\nsealed it back up\ntested in the rain leak is much better\nwindows need to be adjusted"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "192445e261c9057599e975c37fa8b797c4c9d65666df973166836ebc8989febc"
+              "content_hash": "e3b9720501fed8b59c1666984eb5cf4999b31bf2bfc0e6fb23d2cf837b73817a"
             },
             {
               "id": "868kzapnn",
@@ -1696,15 +1561,9 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868kzaq6r",
-              "comments": [
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-03 20:58",
-                  "text": "Greased front and rear leaf spring pivot points"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "99f8eeeaf4739735b3db8035734bd1c654ad4e0034f2d6a4ef70d831b32fe6df"
+              "content_hash": "dfcfa914428437333c0ae6fcb4dab8f221c044a55e935e2319ae1c20a72046fb"
             },
             {
               "id": "868kzhwzn",
@@ -1712,30 +1571,9 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868kzhwzn",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-02 03:30",
-                  "text": "ordered power windows"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-02 03:31",
-                  "text": "Screenshot 2026-09-01 at 10.30.51\u202fPM.png"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-10 02:37",
-                  "text": "power windows came in\nlooked at them and inventoried all the parts\nwe are good to go"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-11 02:54",
-                  "text": "installed the windows and regulators\nwired in the switches\nre assembled the doors\ntested the windows\nall is good\nhad to order new seals\nthey were glued in the wrong place\nIMG_2080.jpeg\nIMG_2079.jpeg"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "f186884232077eb9faf00a4d028513a4ef27bc96e0bd5997fc5ec4ed6b2714cf"
+              "content_hash": "d8f3f1e1ac991812aac5b970555ceb2a379ecbc4d424c96505d165c3ac4b4a9d"
             },
             {
               "id": "868kx4870",
@@ -1743,20 +1581,9 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868kx4870",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-27 02:47",
-                  "text": "checked out the leaf springs\nloosed up the bolts\njacked up the frame\ntightened up the bolts again\nleveled off within 1/2 inch now will see how it goes\nall looks good"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-27 12:53",
-                  "text": "IMG_1977.jpeg\nIMG_1976.jpeg\nIMG_1975.jpeg\nIMG_1974.jpeg"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "3fea4b22306c5163892b4a9fcf27abd5924045b2cf1aeb2bc794f86dc5ff1d7e"
+              "content_hash": "2eb7d82d478185319af5bcef8a69c100305bc9c1968c83184286a5bd69c4847a"
             },
             {
               "id": "868kx4f7u",
@@ -1764,15 +1591,9 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868kx4f7u",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-31 20:37",
-                  "text": "test drove truck\nmade my list and sent to Alex\nfound several issues we need to take care of"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "8e9970e45befd77f7e4452bc9ec7de43adca84059bb82f6740b695415662d058"
+              "content_hash": "16b663d18fbf511d04fc5891bd8783a045dcf757ee0ccc8a4b8950f005f0e1b3"
             }
           ]
         },
@@ -1785,75 +1606,9 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868j626qw",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-04-09 02:03",
-                  "text": "put a list of parts together for options\nthis was from Avalos to Hogan hide away steps\nthey range from $200- $4500\nwe will get her to make a decision"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-04-20 19:41",
-                  "text": "step sides ordered\nI have 2 sets coming\nwill test fit both to see which one s look better"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-04-29 19:51",
-                  "text": "unboxed boxed sets\nfit both to truck\nthe Westin won\npurchased tubing for the mounts\nIMG_0912.jpeg\nIMG_0911.jpeg"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-21 03:54",
-                  "text": "cut the brackets for the truck\nmarked all the holes"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-05 01:29",
-                  "text": "paste_455f8b99-f3f7-4b05-b70d-62adc12a8baa.jpgpaste_ca699617-f93f-4794-b03f-ce394f88557a.jpgpaste_aa30a583-7eaa-4430-b1bb-ca864f2a91e7.jpgpaste_e56dcf0e-2237-4b36-8661-e7734e107e71.jpgpaste_0025905c-b6c5-4728-be6e-c33772237e28.jpgpaste_2bd31d2d-fa08-4d44-9f5c-30e5efeea548.jpgpaste_51400c30-94b4-4a74-ad8b-47d4743ac36f.jpgpaste_71092da0-7d1e-49a3-821d-daf0caa02ce1.jpgpaste_95efa529-c844-434c-b55a-eb04c0ac8515.jpgpaste_ee923142-8683-4d8b-a701-608e084647e2.jpgpaste_552e42a9-c9ae-44d6-b445-8667db417a19.jpgpaste_9d9449ab-c6a2-41fa-ba08-af83313f53cb.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-05 01:29",
-                  "text": "Step install has been very tedious\nNo mounts provided with nerf bars\nAll mounts, braces, reinforcements, and supports measured and cut\nSupport bars drilled and tapped M10"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-05 01:32",
-                  "text": "paste_0c0304a5-79b7-4d51-ba2d-47f69c96f912.jpgpaste_a1b83ec4-b309-4807-9cde-77b5745604fa.jpgpaste_9348733f-e2a4-4d20-afec-4e9e216a14d4.jpgpaste_93e3821d-1568-4bee-a312-486e51dd3614.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-09 01:28",
-                  "text": "Fwd nerf bar mounts removed and braces added\nExtra hole drilled for additional leg\nAdditional leg points drilled and tapped M10\nAccess holes deburred and cover plates made"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-09 01:29",
-                  "text": "paste_7b34bd5b-2599-4a2c-ac00-4208b3531c65.jpgpaste_4b8183d5-50c3-47da-900b-dd8a5f07e582.jpgpaste_7e2748a4-250c-4b09-8b3b-742b565ff855.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-10 17:50",
-                  "text": "Driver side brackets installed. Rear mount needed adjustment due to differences in body from side to side.\nNerf bar position verified equal from side to side\nForward support bar inside floor cavity tapped for M10 and final mount bolt installed\nBolts from McMaster delayed until tomorrow (Nerf bar to bracket bolts)"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-10 17:51",
-                  "text": "Inside space of driver side cavity sprayed with rust encapsulator  to prevent further corrosion and rot"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-11 18:20",
-                  "text": "paste_8a140e8f-1f3c-4095-8182-3b3ed8d2d73f.jpgpaste_69254ce1-1327-4fee-ad48-1e3a2affe4ab.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-11 18:20",
-                  "text": "Steps installed"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "0ee04c20d4b89ef86b71f46e8f4a3103b92b47fa1e75419dbf3950ce5b6214f0"
+              "content_hash": "b531ef74fed559b9574c50066a678e58e6517dca10bf0cc03581c891c9218ea4"
             },
             {
               "id": "868kzahbv",
@@ -1861,35 +1616,9 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868kzahbv",
-              "comments": [
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-02 17:34",
-                  "text": "Rear sway bar install details:\nKit verified to fit with additional work on brake mounts and replacing hardware and bushing risers\nRear brake bracket had to be removed and the welded bracket cut out and raw steel was painted\nBrackets installed and centered\nI ordered appropriate hardware and bushing riser material because the hardware is spec'd for stock height\nCrescent mounts for rear brake line mounts need to be welded to the rear end"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-02 17:36",
-                  "text": "paste_b3f4d546-77bf-4339-99ef-c97611aea723.jpgpaste_1c656eed-a6ef-4758-baf2-f53182e04961.jpgpaste_6d5de5f3-405c-4881-ab3e-e4510b42c21c.jpgpaste_99a03231-6ac6-48bc-b625-3faa1a964421.jpgpaste_2dcb7a9e-f9e1-40ba-8c33-cbed9f98943f.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-03 19:30",
-                  "text": "Install Process:\nVerify kit will clear components\nMockup sway bar and mounting brackets\nPass. bracket fouls on brake fork mount\nCut brake mount off rear end and paint raw metal\nMove brake lines\nSetup welder to weld in new brake mounts\nBevel welds  and paint raw metal\nRemount sway bar after greasing bushings\nMeasure height at sway bar parallel to ground\nSupplied hardware is 3 inches short\nOrder new hardware and thick wall tubing for bushing spacers\nHardware and tubing arrived\nCut tubing to spec, clean and bevel\nPaint bushing spacers\nMark lower frame rail for upper sway bar end link mount\nDrill 4 holes for mounts avoiding HV and brake lines\nDeburr holes and paint raw metal\nInstall u-bolt in chassis and mount upper sway bar mount\nGrease all end link bushings\nInstall end links into new sway bar\nTighten all hardware\nVerify install"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-03 19:39",
-                  "text": "paste_b532cb55-b2ad-4676-ad4d-b3aaff165db6.jpgpaste_04c378bd-903b-4897-8eb5-70ab5616ea88.jpgpaste_b92a5bb9-fd81-488b-81cc-6e6d1ed42a72.jpgpaste_5ba0d857-10fa-4596-b7fd-41050252a894.jpgpaste_f9d4f1e8-3f5f-4aa8-9fbd-76d001c8a300.jpgpaste_3f548953-32e2-4c31-968c-4e9629ac735a.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-05 01:16",
-                  "text": "Front sway bar attempted install but fouls on crossover steering assembly\nNo way to modify to fit\nSourced a possible replacement that should work with crossover steering"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "a4061684cf2f82939ef2cab20fc4b4b29cb3927c5fcfb49c6119b1bb67007fc0"
+              "content_hash": "75d544ac467d0fabdd6cb8d7350351be4980d135c383c9391def44d832521bc2"
             }
           ]
         },
@@ -1902,15 +1631,9 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868krfacg",
-              "comments": [
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-27 22:42",
-                  "text": "Had to gather LDU EEPROM settings to move to Ritchie.\nEnabled AC Condensor Fan in vcu.\nVerified operations with billy.\nCondenser fan and motor currently set to always stay on when AC is enabled."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "4b0d80fa5d03076b3595d1cd2f3419b23e9b6d424fa13c0d3619117b04229497"
+              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
             }
           ]
         }
@@ -1987,15 +1710,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kmp9tm",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-07 13:24",
-                  "text": "test fit the battery lid\nit is ready for LOGO and PC\nIMG_1830.jpeg\nIMG_1829.jpeg\nIMG_1827.jpeg\nIMG_1826.jpeg\nIMG_1828.jpeg"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "2aa8a1589ae675ef2968cbacc6f98d00daf87b8afd119e17e8350d38e262df2c"
+              "content_hash": "25977cfdfe0fd6dc5303338eb465f4ded373d84fa04ebe79c10f1e716c4899e4"
             },
             {
               "id": "868ktqjxq",
@@ -2003,20 +1720,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ktqjxq",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-19 02:34",
-                  "text": "seat belts ordered"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-10 02:33",
-                  "text": "covered the glove box and ashtray with vinyl"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "32684eed741507b25e13c243375bae6fdee88fa9335abed6222ea2d2d854c9cc"
+              "content_hash": "371237ba86e4892bc87fcc0dd72a17784c4ecac889b399914e56e0f1cafd7fb9"
             },
             {
               "id": "868gaza16",
@@ -2034,15 +1740,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868m2ye0h",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-09 18:32",
-                  "text": "removed the master\nmeasured the plunger\nmachined down the plunger\nreinstalled\ntested on the drive in\nall is working"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "deb74eff0c2c63a13d793663a334bda7efe46bc6d73cb15b24743f1e4932dbd9"
+              "content_hash": "b11b069e1e4390eb9f9c6bbf1f319f698539627e8e4c2e975c8c84eaf3256e62"
             },
             {
               "id": "868m3h8yd",
@@ -2050,15 +1750,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868m3h8yd",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-10 02:30",
-                  "text": "blazer didn't charge\nit was turning off every 45 min\nplugged in the shop charger\nwas able to charge the truck up\nmy personal charged was the issue\ni checked wiring and pins to rule it out"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "789c4723267bcecaf9212351dfa330cb22ab6acbd8be376bbce57827a83aebe1"
+              "content_hash": "d08d320acdac30f176513d4c02dbaf7925aab5b125e8e9b4787cc03f81645882"
             }
           ]
         },
@@ -2071,75 +1765,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868k6ttbf",
-              "comments": [
-                {
-                  "author": "Alex Noonan",
-                  "date": "2026-07-27 21:11",
-                  "text": "In conversations with customer on this topic. Setup needs to be confirmed before we are able to proceed."
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-03 22:06",
-                  "text": "Audio system has been spec'd and ordered.\nJL C2 components for front and rear 6\" & 6.5\"\nJL W3 slim for lows\nJL RD900-5 as amplifier"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-06 20:19",
-                  "text": "Audio arrived minus fwd speaker spacers\nTook measurements and sketched box layout for subwoofer mounting under rear bench seat\nMocked up front speakers\nMeasured for amplifier mount location"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-18 00:18",
-                  "text": "Headunit installed for mockup and wiring"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-18 00:19",
-                  "text": "1000014708.jpg1000014709.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-19 21:31",
-                  "text": "Ordered RCAs for Ritchie\nBuilt audio subharness\nChose amplifier position"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-20 19:27",
-                  "text": "Picked up RCAs for Ritchie Audio"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-25 00:53",
-                  "text": "paste_04dbeca5-398e-4049-aa83-1a092e02b518.jpgpaste_362d3eb0-7a0c-4c7e-ab58-032a685ebabf.jpgpaste_632576d7-0d34-46a1-8038-c5e8451d3f68.jpgpaste_6dbf9016-5284-452c-aad0-21bbe5c2bb39.jpgpaste_5b91a4b5-f1f6-4d25-9ce2-61b71425cb93.jpgpaste_956fe9de-345a-4a94-9d44-e604e46cbf5a.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-25 00:53",
-                  "text": "FWD speaker spacers received\nSpeakers and spacers installed in kick panels\nAmp mounting hardware position marked and nutserts installed\nAmp mocked up\nSpeaker wiring ran and secured\nRCAs ran and secured\nRemote wire ran and secured\nWiring to amplifier cut to length\nCarpet reinstalled\nHoles and slots in carpet made for wiring and bolt pass throughs\nAmplifier installed\nAmplifier wiring installed minus power and ground\nKick panels installed and wiring to fwd speakers finished\nKick panels tapped for retainment hardware and installed"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-02 18:01",
-                  "text": "Order replacement radio mounting bezel\nMake support bar for back of radio"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-02 19:26",
-                  "text": "Power and ground amplifier wiring ran"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-10 21:33",
-                  "text": "Headunit removed\nBezel replaced\nKnob height adjusted\nHeadunit reinstalled\nSupport bar installed"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-10 21:34",
-                  "text": "paste_43912374-26fa-48e6-b697-975a749723f8.jpgpaste_2fdf9460-5209-471e-bc91-51aa867589ac.jpg"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "2df9598d54dd5e83f5a722774485e4cde54d65dc64ebdca86c4602464dbd1126"
+              "content_hash": "d7872d4902746774cea8e7a57c66ebc49fcc4ad91f595624ef93e2354cd44fdc"
             },
             {
               "id": "868kpg6th",
@@ -2147,40 +1775,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kpg6th",
-              "comments": [
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-11 00:43",
-                  "text": "Bed cap cover options sourced and relayed to Blazer group. Decision to be made"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-11 16:29",
-                  "text": "Game plan made for Blazer bed caps.\nCovers ordered"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-18 00:13",
-                  "text": "Blazer caps arrived\nCaps mocked up\nTrimming in process\nPassenger side trimming roughed in"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-18 00:18",
-                  "text": "1000014711.jpg1000014710.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-18 22:24",
-                  "text": "Driver and Passenger side caps have been trimmed and modifications have been finalized.\nCovers will be attached after interior side panels have been installed as the caps overlap the interior panels"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-18 22:26",
-                  "text": "1000014734.jpg1000014735.jpg1000014736.jpg1000014737.jpg"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "458375deb00d16a348b5c32e215bb16c62c24944619474990fed27dc8e45c604"
+              "content_hash": "5f784fc4355ea24b3d7ab5fac0fd2f9fdb3c6da70b26b29130030605b994b98a"
             },
             {
               "id": "868ka4d5e",
@@ -2188,135 +1785,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ka4d5e",
-              "comments": [
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-10 20:45",
-                  "text": "Kick panels sanded, cleaned, sprayed with adhesion promoter and painted"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-10 20:53",
-                  "text": "1000014562.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-10 20:55",
-                  "text": "Door panel armrests installed"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-11 19:13",
-                  "text": "Remove passenger door panel to send with Ryan so Colvins can match the seat backs"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-25 00:54",
-                  "text": "Driver side visor install in progress and fwd carpet installed"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-25 00:55",
-                  "text": "paste_50cd478d-4416-4387-9ad4-ebe505f53939.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-25 00:57",
-                  "text": "paste_c724e9ae-7641-4d6e-838e-d055eb383c7f.jpgpaste_cbb6cdb0-741c-4585-8e83-b27f129a4873.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-26 19:19",
-                  "text": "Driver side carpet punctured for seat bolts"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-26 19:20",
-                  "text": "paste_34ee242e-ccfa-42ed-b5d0-559a8bf2b4e0.jpgpaste_33285637-22dc-4310-a785-2ab3bd7fa3a4.jpgpaste_c7dde881-95ce-41b1-88e9-fb9f31ae8fed.jpgpaste_76dc5ec5-0c49-41ba-aab3-f2cad6540d22.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-27 23:11",
-                  "text": "Passenger side carpet punctured\nPassenger seat installed\nSeat pivots cleaned and greased\nPassenger side seat rear cap installed\nDriver side seat cap requires additional mounting work"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-27 23:14",
-                  "text": "paste_4373b090-edc8-40ca-a6bf-0e934225c3a4.jpgpaste_b6d5a38c-7847-4470-a792-0d007fc0dc76.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-28 19:34",
-                  "text": "paste_7324b092-cbd3-45c7-a8b8-1944e491372f.jpgpaste_61533955-1463-4db8-b2f5-7202c022b3a1.jpgpaste_a4f0733e-6279-485f-ba05-b872a304cce2.jpgpaste_ba92f3c5-2407-4e72-8b3a-ced8b928d3b6.jpgpaste_1812a0bb-87c7-4392-8c22-2b0ffa515a7c.jpgpaste_8179339e-b53b-4d91-a60a-56be2ce91efa.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-28 19:35",
-                  "text": "Visor mount remedied and bracket installed\nRear carpet installed\nCarpet formed to wheel tubs\nHeat applied and reliefs made to allow wheel cover carpet to contour correctly"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-28 22:08",
-                  "text": "paste_0b4588db-48ed-456d-9d00-c8d717369c3e.jpgpaste_c7304e87-6000-4cc8-aaf8-acf1ad2417fe.jpgpaste_23877a8a-e2db-4b5e-8772-3c1307fc32c1.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-28 22:09",
-                  "text": "Seat back covers installed minus 2 screws"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-31 21:06",
-                  "text": "paste_08f12c38-c910-492b-8ef2-3f8d8cea693a.jpgpaste_fcb5eb37-1c4e-4e5b-8a1b-1e210c83bde3.jpgpaste_6c127a07-1df7-4ba8-867a-a5db75e2d26f.jpgpaste_494323a3-d630-47c2-964d-5d61254ba5ef.jpgpaste_50273c51-8aa8-4383-bea0-5858745d44f4.jpgpaste_3436e4c7-b846-4da8-b10e-85391b8afbb7.jpgpaste_d52a80df-80c0-4901-b369-907a71481184.jpgpaste_cffdc6c3-1246-4bc1-8943-0f9f40dc6a25.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-31 21:06",
-                  "text": "Rear bench seat armrest fab work finished\nArm bars mocked up\nLocation marked\nBrackets and arm bar prepped & welded out\nBrackets w/ Billy for PC run"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-01 22:30",
-                  "text": "Carpet adhesive did not hold on passenger side\nRelief cuts made and adhesive reapplied"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-01 22:32",
-                  "text": "paste_738d5392-f48d-4fb1-b071-70b3457ec8f5.jpg"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-04 03:28",
-                  "text": "IMG_2044.jpeg"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-04 03:28",
-                  "text": "went o er the rear side panels with David G\nwe got the parts laid out and sketched the design\nhe will have them next week to install"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-05 01:53",
-                  "text": "Installed arm rest bars on rear bench seat"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-05 01:54",
-                  "text": "paste_e4f125f9-376e-41fe-8903-2c4b1b0adad2.jpgpaste_10fd6033-ef28-4e7e-9b88-bbe9231af189.jpgpaste_e685bdf4-8c4f-4480-86cc-5de609bd3b6c.jpgpaste_31f95860-7007-499f-ac32-74aca9491e2a.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-08 15:41",
-                  "text": "paste_3b85bef1-7639-4989-92c7-88809ca58d90.jpgpaste_265428fa-f8a5-4131-a39e-54ccb758972b.jpgpaste_8b1c5aca-2839-4a39-9132-09021ba76b2c.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-08 15:41",
-                  "text": "Measure, mark and lance the carpets for rear seat brackets\nOrder new rear mid brackets and bar clamps for the rear seat"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "476c527e15c88f383a2bf4bbd00a1196dc88595fb62321f0ed29367935ae8e08"
+              "content_hash": "8fd66da719ff705d1cfee40e5a59ea597a5a80d93c1c6678c2c1fb1afd503ed5"
             },
             {
               "id": "868gaza9t",
@@ -2339,15 +1810,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kv07mr",
-              "comments": [
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-08-24 13:15",
-                  "text": "Colvin's picked up the center console Friday, 8/21"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "ea55d8dc41e520a032549b095ae1d521530f36e7313df2e087e349bcd8fe2461"
+              "content_hash": "37096c993a29d491a8c621440518a2b31e58cef53e742fd27b64634297be8390"
             },
             {
               "id": "868m4ae1z",
@@ -2370,20 +1835,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868m40fu8",
-              "comments": [
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-10 23:46",
-                  "text": "Found that the logger in this vehicle was not configured for our bucket nor were the wifi credentials setup to start logging as we test drove the truck.\nWent through and configured the Logger to our bucket and Added Billy's wifi credentials to the logger.\nTest and Verified with Marc that the truck was now uploading logs.\nTruck Now uploading logs and should be good to for Logging.\nOnce we have the Clients wifi credentials I can upload these ASAP."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-11 20:16",
-                  "text": "Adjusted Tire diameter according to Billys Measurements from 0.838 to 0.800\nWill need to test drive vehicle and verify."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "34c026f845286e8bb1b05bf29c5d01e0214fb7191bbf571d475c13771bfc1092"
+              "content_hash": "83bb4f939a841271259612353f26a6babb67e422ab4f557b85b2019d3d381794"
             }
           ]
         }
@@ -2558,5 +2012,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-12T04:41:25Z"
+  "generated_at": "2026-09-12T04:49:41Z"
 }
