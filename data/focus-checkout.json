@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T05:12:36.977035Z",
+  "updated_at": "2026-09-12T05:26:22.389240Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -76,10 +76,111 @@
         }
       },
       "clickup_match": {
-        "found": false,
-        "error": "fetch_failed: 429 Client Error: Too Many Requests for url: https://api.clickup.com/api/v2/team/9011243300/task?custom_items%5B%5D=1003&include_closed=false&subtasks=true&page=11"
+        "found": true,
+        "matched_lists": [
+          "Chuter 62 Healey"
+        ],
+        "open_tasks": 2
       },
-      "assignees": []
+      "assignees": [
+        {
+          "name": "Brandon Beaman",
+          "tasks": [
+            {
+              "id": "868g9vwju",
+              "name": "Checkout Vehicle",
+              "status": "Open",
+              "list": "Chuter 62 Healey",
+              "url": "https://app.clickup.com/t/868g9vwju",
+              "comments": [
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-11-07 23:41",
+                  "text": "Re-checked all three battery boxes with both serial interface and BMS text box. Filled out sheet alongside. Everything passed 100% on test box firmware build 62."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-14 03:09",
+                  "text": "Guided Andrew through VCU options based off the Vehicle Requirements Doc. Setup to flash PMU programs but needed the Lotus backups since they were most recent. Looked for key, couldn't find. Disconnected the Lotus PMU's from the main harness to pull them with the bench harness. Moved back over to the Healey and uploaded the PMU programs but ran out of time to go any further. Vehicle not yet key'd on with those loaded."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-14 22:21",
+                  "text": "Continued startup. Verified some VCU options and the PMU program was loaded correctly yesterday. Flashed firmware to the inverter and configured EEPROM. Checked several PMU channels. Worked with Andrew & Brandon to pass along possible parts of the PMU checkout process. Marked items off in sheet as Brandon was learning."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-15 21:03",
+                  "text": "Worked with Brandon to run through the LV startup, now called Ampere I/O. Built a ClickUp card to compliment."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-22 03:51",
+                  "text": "Verified completion of Ampere IO checkout. Continued HV startup. Fully reviewed VCU configuration, changed CAN3 passive timeout to 10s to supress passive faults. Calibrated the resolver. Test drove. Weighed vehicle. Tested L2 charging and verified DCDC outputting. Charging threw a fault for AC thermistors. Checked that the DC thermistor board was added & verified AC thermistor reading correctly on the right chargebyte pins. Everything looked correct, opened a ticket with Ampere about this."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-12 18:45",
+                  "text": "Restored inverter firmware and settings. Tested vehicle going into gear and rolling forward. Verified gamma adjust. Reviewed checkout sheet for completeness. Filled in sections for inverter EEPROM and marked PMU checkout N/A. Verified VCU config, updated firmware to 1.8.14 to include torque tuning mods, verified the config and fixed the incorrect options. Added details about the vehicle to the sheet and corrected some typos. Uploaded all backups to the drive. Posted remaining items to Slack."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-24 16:09",
+                  "text": "FDR - 1.9*3.54 = 6.726  4.30\nWeight plus Driver - 2785lbs"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-24 16:13",
+                  "text": "image.png\nUpdated vehicle FDR. Weight and Wheel Diameter. Set vehicle parameters to calibration.\n\nWheel diameter 0.660 \u2192 0.649\nGear Ratio 4.300 \u2192 6.726\nWeight 1500kg \u2192 1263kg"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-24 16:16",
+                  "text": "Updated these settings in the GUI as well.\nVerified settings stayed persistent through a key cycle."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-24 22:45",
+                  "text": "Corrected Gear ratio. Mistakenly input Dans Healey ratio versus this vehicle.\nThis vehicle has a 4.3 ratio rear end and a direct drive setup so the Final Drive ratio should be 4.3 unless incorrect information has been relayed to me.\nAsked Ryan to gather Wifi credentials for this client.\nClient stopped by today to drop off License plates. And provided the details at that time.\nID: ATT8072B\npw: h1aj2u123K\nDevin uploaded this data to the vehicle.\nWent through and verified heater operations.\nFound that this vehicle has the heater circuit wired differently than our new standards.\nBlower motor and heater contactor are trigged by the same switch using the same output from the PDU.\nAt this point in time upper management says that this should be fine since our older cars have been wired this way without any major issues.\nThe proper fix to this would be to move the contactor positive lead over to the \"AC Blower\" positive in the HVAC sub and have it commanded on based on the current level of the Heat Blower output from the pmu. This prevents the heater from turning on unless there is a load present on the heater blower motor.\nHowever as the vehicle sits the heater is enabled and works as built.\nAlso Uploaded the current PMU Project files to the drive under the vehicle folder. That way this can be referenced in the future if necessary.If any PMU changes are made we will need to reupload or replace what was there."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-25 15:07",
+                  "text": "Waiting for vehicle to be driven down to less than or equal to 10%."
+                }
+              ],
+              "checklist_items": [
+                {
+                  "checklist": "Checklist",
+                  "name": "Charge pack to 390V for at least 6-7 hours",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Confirm vehicle weight and gearing is correct",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Add wifi credentials",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Perform overnight charge",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Test heater",
+                  "resolved": true
+                }
+              ],
+              "content_hash": "8d1b2524bc9e5b7844caea91b0b6561d65a56dbec7e3af01223646049b3e98a5"
+            }
+          ]
+        }
+      ]
     },
     {
       "owner": "Connolly",
@@ -143,10 +244,207 @@
         }
       },
       "clickup_match": {
-        "found": false,
-        "error": "fetch_failed: 429 Client Error: Too Many Requests for url: https://api.clickup.com/api/v2/team/9011243300/task?custom_items%5B%5D=1003&include_closed=false&subtasks=true&page=11"
+        "found": true,
+        "matched_lists": [
+          "Connolly 58 220S"
+        ],
+        "open_tasks": 2
       },
-      "assignees": []
+      "assignees": [
+        {
+          "name": "Brandon Beaman",
+          "tasks": [
+            {
+              "id": "868exjqjc",
+              "name": "Checkout vehicle",
+              "status": "Open",
+              "list": "Connolly 58 220S",
+              "url": "https://app.clickup.com/t/868exjqjc",
+              "comments": [
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-10-23 22:07",
+                  "text": "Test drove with laptop looking for CAN1 errors. Catching about 870 per second all in one large group. Turned off OBDII from the inverter which didn't help. Also tried turning off diag data. Turned them back on and unplugged the logger which is set to auto-baud. Still no change. Used Kvaser set at 1000mbps and I get a message to decode with data 2044, 2046, and 2048. Test driving is getting difficult since CAN errors occasionally cause the VCU to drop PreCharge."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-10-25 00:21",
+                  "text": "Removed all CAN messages from both PMU's re-tested for CAN errors, still there. Removed CAN1 wiring to PMU's and re-tested. No luck."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-10-28 22:16",
+                  "text": "Tested out external CAN connection to the inverter. Problem went away momentarily. Tested alternate VCU. Problem still exists. Decided to buy PicoScope to help analyze."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-10-31 16:27",
+                  "text": "Reviewed PEAK codebase for good starting point. Setup project for basic router. Modified, commented, & compiled."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-11-06 01:06",
+                  "text": "Worked with Jordan and Dusty to use the PicoScope on CAN1 crashing issue. Hooked up to CAN1 at various spots. Tried grounding shields. Verified waveforms against Buck."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-11-07 00:48",
+                  "text": "Re-checked vehicle faults after Jordan replaced the ground to the inverter. Noise problem stopped with a larger ground but also didn't come back with the old #22 wire back installed. Was able to drive the vehicle shortly till the problem resurfaced causing the positive contactor to weld. Verified this with Ampere and used the BMS test box to break the weld since the vehicle logic does not allow. Checked the whole vehicle again and the noise problem still exists. Tried unplugging all HV accessories, no luck. Installed a minimal external CAN1 network with all new wiring and found the CAN1L wire pulled out of the terminal at the inverter while removing that wire. Tested with new CAN network and PicoScope looks noisy like before. Tried grounding shield, still no luck."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-11-07 23:43",
+                  "text": "Re-verified noise exists on external CAN harness. Setup provisions to pull in the positive contactor with the BMS disconnected. Had a remote session with Andrew to force the VCU into enabling the inverter with the BMS missing. Noise still present on external CAN1 network. Repeated various trials. Discovered HVIL in the JB wasn't working correctly, replaced. Noise still present. Decided to isolate inverter as much as possible from vehicle. Modified Python gauges test script to enable inverter for 500ms. Setup completely isolated inverter harness & provisions to pre-charge. Tested both VCU CAN and INV CAN but both still had noise. Added motor case and inverter case into the PicoScope, and re-tested. Found ~10V between chassis ground and motor case. Installed #4 AWG wire between motor case, inverter case and battery negative stud. Re-tested and still found noise. Moved #4 AWG to ground distribution blocks, re-tested, and still have noise."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-11-11 14:08",
+                  "text": "Met with team over strategy. Followed along with diag over the day."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-11-13 23:59",
+                  "text": "Verified major errors gone away. Did notice some inverter errors but they may just be old. Cleared diagnostic buffer. Verified all VCU settings. Weighed vehicle. Input correct weight, tire size, gear ratio, etc. Checked PRND, needed adjustment to wiring. Verified DCDC output and charging rate. Checked off last BMS checklist items. Test drove for completeness. Troubleshot gauges with Jordan."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-11-13 23:59",
+                  "text": "Tested new motor and phase leads under various configurations with Jordan. Captured documentation to send to Cascadia. Set gamma adjust in new motor."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-12-05 21:30",
+                  "text": "Replaced fuse, located & improved associated documentation. Gave repaired box to Jordan."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-07 22:31",
+                  "text": "Ran through the checkout sheet filling in the items remaining section. Flashed the latest AWD firmware and verified options."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-20 22:38",
+                  "text": "Pedal Launch Gain adjusted from 70 -> 50"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-25 17:17",
+                  "text": "image.png\nimage.png\nUploaded PMU and EEPROM files to the Vehicle folder in google drive for future reference."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-08 19:20",
+                  "text": "flash successful\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-08 19:20",
+                  "text": "Before VCU Update\nimage.png\nimage.png\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-08 19:22",
+                  "text": "Post Flash\nimage.png\nimage.png\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-08 19:23",
+                  "text": "Ajusted Launch Gain to 50 before taking a SS. Knew this setting was going to need to be updated after VCU upgrade"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-08 20:31",
+                  "text": "Adjustments based off differences pointed out by Claude.\nimage.png\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-08 21:00",
+                  "text": "Corrected all mismatch settings. Car should be good to drive now for a final test."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-09 17:20",
+                  "text": "Current E-Stopp Settings. Vehicle currently set to None for ParkPawl control. Need to verify if we want to use current control or not based on the findings.\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-09 17:21",
+                  "text": "Progress Report \u2014 Parking Brake EStopp Actuator Current Analysis\nDate: 9/9/2026 System: VCM_517 \u2014 Parking Brake / EStopp Pawl Actuator Logged by: Brandon Beaman\nSummary\nReviewed five Raptor-Cal test logs of the parking brake pawl actuator (PrkPwlO15) to characterize peak current draw against actuator timing calibration and identify any correlation worth flagging for calibration tuning.\nWork Performed\nPulled and parsed five sequential VCM_517 Parking Brake logs (11:47:16, 11:51:09, 11:54:52, 12:00:45, 12:08:36) for the measured actuator current channel (PrkPwlO15_P27_Measured_Current) and the EStopp actuator timing calibration fields (PrkActMnTime_EStopp, PrkActMxTime_EStopp, PrkActReleaseTime_EStopp).\nExtracted peak current draw and its timestamp from each log.\nCross-referenced peak draw against each log's actuation timing setpoints to check for a relationship between calibration and real-world current pull.\nCompiled a comparison table and written analysis of findings (delivered as a standalone report, both Markdown and PDF).\nFindings\n\nundefined\nAcross Logs 1\u20134, shortening either the min or max actuation time window was associated with a higher peak current pull \u2014 a preliminary pattern worth further testing.\nLog 5 breaks that pattern: it shares identical timing calibration with Log 4 (Min 4.250 s / Max 6.000 s / Release 3.500 s) but produced the highest peak draw of the whole set (12.25 A vs. Log 4's 10.25 A) \u2014 a 2 A swing with no calibration change. This points to run-to-run mechanical/electrical variability rather than a purely timing-driven effect, and suggests more repeat runs at fixed timing are needed before drawing conclusions.\nRelease Time was held constant (3.500 s) across all five tests and was not a variable in this data set.\nNext Steps / Open Items\nRun repeat tests at fixed timing calibration (e.g., hold Log 4/5's settings) to quantify normal run-to-run variance in peak draw before attributing changes to calibration.\nOnce variance is characterized, revisit the min/max actuation time trend with a larger sample to confirm or rule it out.\n\nSide Note:\nIt looks / feels like its more dependent on how much pedal pressure is being applied when the vehicle is commanded to go into park. If you have just enough pedal in it to prevent the vehicle from rolling the Amp draw is higher. If you're heavy in the pedal then the amp draw is lower.\nThis might make the current based engagement unreliable. Set it low enough to not throw a flag based on pedal pressure then you may end up with a light engagement.\nPlace it high enough to reach the max amp draw you may get a GML because the end user was holding the brake pedal harder when going into park."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-09 20:02",
+                  "text": "image.png\nimage.png\nimage.png\nE-Stopp Amperage Findings. Everything seems to be operating as normal if not a bit above normal / expected."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-09 20:49",
+                  "text": "Further testing shows that the slight rolling on an extreme road grade.\nThe road that I was testing on is Foremost here near the shop. The Approx grade of this road is 11\u00b0.\nThe vehicle makes a good effort to hold itself after the parking brake is engaged however without fail every time it does slowly roll away regardless if the car is facing up the hill or down the hill.\nMultiple tests and test runs were performed to verify this data.\nA couple key take aways here are that the E-Stopp is functioning exactly as it should and or at least within manufacturers specifications. Regardless of parking brake adjustments we add it will still only pull 10A reliably. There is nothing in our system that is preventing the E-Stopp from using up to 25A its just not requesting anything more.\nMarc opted to return all the settings back to where they were previously set. He had Claude go through all of the old logs and look for a difference in settings changes and there were no major setting changes from today.\nSo we left the settings where they were except release timing. we add 0.8seconds to the release timing to hopefully help with the brake dragging when coming out of park."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-10 22:00",
+                  "text": "Verified Wifi credentials uploaded to logger and let all appropriate parties know."
+                }
+              ],
+              "checklist_items": [
+                {
+                  "checklist": "Checklist",
+                  "name": "Add wifi credentials",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Test temp gauge functionality",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Troubleshoot \"DisplayDashGUI_SettingsMsgTimeout\" message",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Tune throttle",
+                  "resolved": true
+                }
+              ],
+              "content_hash": "06a837148fd509d9612e5b0911f7f3d5ee5d2e494006b4212b6eddc0a3190e7b"
+            }
+          ]
+        },
+        {
+          "name": "Devin DuMont",
+          "tasks": [
+            {
+              "id": "868kzdxnk",
+              "name": "Enable PMU CAN status messages",
+              "status": "Open",
+              "list": "Connolly 58 220S",
+              "url": "https://app.clickup.com/t/868kzdxnk",
+              "comments": [
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-09-03 22:05",
+                  "text": "Organized every vehicle specific PMU backup into their respective vehicles folder. Exported and imported several messages into a sample program to give Claude to find the import pattern and produce a script to repeat. Tested the script on several programs re-iterating on small gotchas like a name changed variable or something out of order. The PMU program and script seems solid but I'm waiting till tomorrow to mull over the possible problems of using Claude generated PMU programs. Verified customer wifi credentials have been uploaded and sync'd."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-09-08 03:46",
+                  "text": "First took backups, then ran the Claude generated script that injects CAN messages and re-organizes a PMU configuration. Ran a Claude generated compare tool as well as some manual methods to verify file integrity."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-09-08 03:47",
+                  "text": "Loaded the Claude generated PMU configurations. Used the Ampere IO Checkout layout to test various channels and monitor via CAN bus. Trouble shot parking brakes not disengaging fully. Took notes on remaining items."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "354025a2a60cfa184ef31497628cf8ce7e6d36bc04426563bcea9d2a2b22ce04"
+            }
+          ]
+        }
+      ]
     },
     {
       "owner": "Ferdman",
@@ -218,10 +516,213 @@
         }
       },
       "clickup_match": {
-        "found": false,
-        "error": "fetch_failed: 429 Client Error: Too Many Requests for url: https://api.clickup.com/api/v2/team/9011243300/task?custom_items%5B%5D=1003&include_closed=false&subtasks=true&page=11"
+        "found": true,
+        "matched_lists": [
+          "Ferdman 66 Bus"
+        ],
+        "open_tasks": 9
       },
-      "assignees": []
+      "assignees": [
+        {
+          "name": "Jordan Jones",
+          "tasks": [
+            {
+              "id": "868kq38dz",
+              "name": "Facilitate head liner repair",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868kq38dz",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "59732d4b9948b960d87a339e4a4984a7398330244c01b8163c5a64e12e13de90"
+            },
+            {
+              "id": "868kzmqbg",
+              "name": "Fix all door issues",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868kzmqbg",
+              "comments": [
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-09-02 22:59",
+                  "text": "(Moved from earlier task, work performed on Monday)"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-09-02 22:59",
+                  "text": "Rear door latches: Took off the door panels and removed the latch mechanisms. Noticed the lower latches were not functioning properly. 3 hours @Alex Noonan\nFront door has a broken internal mechanism, the lower door barely moves. Not worth repairing, have ordered a new mechanism.\nRear door had two issues that have been resolved.\nInterior self-tapper was interfering with the latching arm mechanism.\nOne of the retaining screws on the arm was loose and catching."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-09-09 22:42",
+                  "text": "Received door parts.\nInstalled front rear door latch: Latch functioning, however the 'tab' of the locking arm not engaging with the bottom lock. Attempted to adjust bottom lock divot, no luck.\nRemoved and re-shaped to allow for proper engagement.\nNote: Door has been re-welded and worked on at some point, requiring the arm to be bent. Found the sweet spot after lots of trial and error.\nRe-shaped striker to better engage with rear fore/aft new door latch mechanism.\nReinstalled door panels and tested. Functioning as intended.\nNote: Due to previous bodywork, light pressure is required on the middle of door when closing to allow all three points to engage (top middle center). Prior to work performed, only top and center were engaging.\nFurther note: Rear door lock mechanism was broken prior. Now functional, new keys on keyring."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "729d60f8cb7476372128f44f582d9788e5bd8f8d5babe6ec2506ff613a3adca7"
+            },
+            {
+              "id": "868k7em0v",
+              "name": "Install roof rack",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868k7em0v",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "50fc9d84c3355de220fb3b731c8503bf4fba35ad333e6d11cfc4788709f58506"
+            },
+            {
+              "id": "868m2y1ap",
+              "name": "Replace damaged motor cradle",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868m2y1ap",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "7f891d6c42432c8f41025fd35019a46319bc4fb2a5c2bfc023e742a0d9d82010"
+            },
+            {
+              "id": "868jqn2ge",
+              "name": "Troubleshoot cooling issue",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868jqn2ge",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "c2edc0486b34eb2f2a7b13c7b40b6eda82403f04c7a95849ff217e2a1c4e3b42"
+            }
+          ]
+        },
+        {
+          "name": "Brandon Beaman",
+          "tasks": [
+            {
+              "id": "868krf5mg",
+              "name": "Checkout vehicle",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868krf5mg",
+              "comments": [
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-10 21:59",
+                  "text": "Verified wifi credentials still missing. Reached out to Ryan to gather that info. Once we have it I will upload that to the logger."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "f9f32b861cf95bb22a954185f01e68a774fa8e9c4584cd5cc9314f6ec20a9ac2"
+            }
+          ]
+        },
+        {
+          "name": "Devin DuMont",
+          "tasks": [
+            {
+              "id": "868krf5h0",
+              "name": "Troubleshoot inverter issue",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868krf5h0",
+              "comments": [
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-14 21:44",
+                  "text": "Reviewed torque doc and amps doc. Ran trials requested by Andrew. Developed tune and re-tested. Wrote up time and observations and posted to Slack."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-17 22:55",
+                  "text": "Used Claude to plot the trials from Friday. Determined peak amps wise my tune looks good, just needs to have a better \"feel\" in one area. Developed a plan for a new torque limit tune based from amperage feedback instead of torque. Still need to generate number to input to Raptor-Service and actually test."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-18 23:37",
+                  "text": "Reviewed my new torque based tune and tested in the vehicle. The boost is still quite noticeable even with a perfectly flat torque feedback. Will need to switch to heavy current limiting, if that doesn't solve it the SDU is operating outside of it's reported feedback and needs to be reviewed by AEM."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-20 22:49",
+                  "text": "Reviewed new Claude posts since yesterday. Reviewed trial notes. Repeated baseline current derate test and then tried a medium and max derate tune. In eco mode things are feeling way better but for some reason that changes switching back over to sport. Log analysis backs that up with current figures, derate sounding like more of a band aid solution now. Browsed all the various inverter feedback signals for any that seem to get rough at the same time. Noticed phase B current is always 0, turned out to be the DBC or something not important."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-20 22:49",
+                  "text": "Ran the several trials Claude requested and organized notes about what was changed and how the vehicle felt in response."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-21 21:53",
+                  "text": "Worked with Claude to review EEPROM settings for the SDU. Determined several to investigate testing with. Also figured actual base torque from logs to that my conservative tune can be relaxed."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-26 19:50",
+                  "text": "Researched Kp and Wp via Claude for typical values and expected changes. Couldn't really get a dependable answer, relied on my tuning experience of never more than double or half. Set the VCU back toa default tune and drove for a baseline. Changed the inverter settings Kp from 5 to 10 and W1 from 3600 to 1800 in live memory. Re-tested and pulled the logs for Claude. Couldn't really see any effect from my plot."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-27 23:33",
+                  "text": "Repeated Claudes temperature consistant trial, posted for analysis. Reviewed logs in the AEM format and trimmed down two that best highlighted the issue, took screen shots and drafted a analysis request email to AEM. Included vehicle specs and attached the current EEPROM settings for the motor. Sent email off to AEM."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-30 20:38",
+                  "text": "Reviewed Slack and Claude's recommendation. Tested the \"Aggressive\" tune in sport mode first. It's some what flat in the highway entering speed but completely eliminates the surprising boost. Posted to Slack, left tune in. Went for a final test drive with Jordan in eco mode to verify the bus wasn't too slow now. Organized all my trial notes more clearly for future pickup."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-09-01 21:36",
+                  "text": "Grabbed the EEPROM backups just to be sure my offline copies matched, they do. Compared to the new files provided by AEM, a very close match except for motor type seems wrong in one AEM file. Posted compare report and results to Slack."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-09-02 18:51",
+                  "text": "Reviewed all the manuals and change logs I could find for which firmware I should flash into the SDU to test the rollback theory. Flashed that firmware. Can't test since the bus has no door latch."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-09-03 22:04",
+                  "text": "Reviewed Scott's email and converted the AEM data logs to CSV for Claude. Posted all to Slack. Re-flashed the inverter with 6B33 and verified EEPROM settings. Flashed VCU firmware VCM_517_R010902_Persist.rpg and reviewed all the calibration settings. Set the gear ratio and tire size to calibration to be consistent with our new way. Re-correlated the checkout sheet. Went to enable torque tables but it's locked out in the new firmware."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "75d8e0a4c0aca135f3ac0934d29dd5fe55dad869de1b37bba694b16d094121f6"
+            }
+          ]
+        },
+        {
+          "name": "Marshall Carter",
+          "tasks": [
+            {
+              "id": "868kv2u3g",
+              "name": "Engineer Core - Radiator Mount",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868kv2u3g",
+              "comments": [
+                {
+                  "author": "Marshall Carter",
+                  "date": "2026-08-21 21:50",
+                  "text": "image.png\nimage.png\nimage.png\nimage.png\nimage.png\n\n\nimage.png\n\nimage.png"
+                },
+                {
+                  "author": "Marshall Carter",
+                  "date": "2026-08-21 21:54",
+                  "text": "-Did a preliminary design\n-Met with Jordan and Alex 8/20 and as a team decided to try to make a design for the radiator mount that contoured to the wheel well. Screen shots are of the final design that got ordered from OSH.\nSheet metal will come too long, extruded through the wheel well. After Jordan makes a rectangular cut and installs the sheetmetal assembly, he will mark the radius he needs to cut.\n-It was acknowledged that the contoured design would be more complicated to fit test/install, but it was agreed as a team that this was the right direction to go."
+                },
+                {
+                  "author": "Marshall Carter",
+                  "date": "2026-08-21 21:58",
+                  "text": "As a backup, I designed upper and lower \"U\" mount brackets that would allow us to mount the existing shroud. I also designed a thin piece of aluminum to mount the mesh screen that we could bend along the contour of the wheel well as a backup.\nimage.png\nimage.png"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "5b03cfa33a0a08ff8bf41dd6ff2935f07fa1768adaeed9d2300d8edc37fe9fc2"
+            }
+          ]
+        }
+      ]
     },
     {
       "owner": "Kelly",
@@ -281,17 +782,141 @@
         }
       },
       "clickup_match": {
-        "found": false,
-        "error": "fetch_failed: 429 Client Error: Too Many Requests for url: https://api.clickup.com/api/v2/team/9011243300/task?custom_items%5B%5D=1003&include_closed=false&subtasks=true&page=11"
+        "found": true,
+        "matched_lists": [
+          "Kelly 63 Corvette"
+        ],
+        "open_tasks": 9
       },
-      "assignees": []
+      "assignees": [
+        {
+          "name": "Noah Sharif",
+          "tasks": [
+            {
+              "id": "868k2w2gy",
+              "name": "Install front battery lid",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868k2w2gy",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "25977cfdfe0fd6dc5303338eb465f4ded373d84fa04ebe79c10f1e716c4899e4"
+            },
+            {
+              "id": "868ku38p2",
+              "name": "Troubleshoot parking brake issue",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868ku38p2",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "f03cc36ea2161313bd4435bb91334292d56909c182d8e4a76335ecdd1877cc1a"
+            },
+            {
+              "id": "868kwnwyc",
+              "name": "Troubleshoot steering column issue",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868kwnwyc",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "4b836ebe3cb3600f42a61d26ec9db978fcb12c7b386f1f0de48ced5843596261"
+            }
+          ]
+        },
+        {
+          "name": "Devin DuMont",
+          "tasks": [
+            {
+              "id": "868kzdyam",
+              "name": "Enable PMU CAN status messages",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868kzdyam",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "3b9a3a8ec6175ea649fba96181ff3fb5f0a7d1579e6fab69ce6e3991a0f8251f"
+            },
+            {
+              "id": "868krf65c",
+              "name": "Troubleshoot inverter issue",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868krf65c",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "3ef609addaf0057936618acba3af357d19280540b63ae1e7d0f068966b6b0807"
+            }
+          ]
+        },
+        {
+          "name": "Aharon Adams",
+          "tasks": [
+            {
+              "id": "868kqcuv8",
+              "name": "Test drive vehicle",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868kqcuv8",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "16b663d18fbf511d04fc5891bd8783a045dcf757ee0ccc8a4b8950f005f0e1b3"
+            }
+          ]
+        },
+        {
+          "name": "Ben Drinkard",
+          "tasks": [
+            {
+              "id": "868k2w2xp",
+              "name": "Manufacture Core - Battery Pack Lid",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868k2w2xp",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "e1e5ac5ec632777ea9a6cf8c2b8764643a0e413d9159a9ddfcea829e46cf4ffc"
+            }
+          ]
+        },
+        {
+          "name": "Brandon Beaman",
+          "tasks": [
+            {
+              "id": "868krf6f9",
+              "name": "Checkout vehicle",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868krf6f9",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
+            }
+          ]
+        },
+        {
+          "name": "Ryan Laurel",
+          "tasks": [
+            {
+              "id": "868m2v63x",
+              "name": "Keep tabs on Chris at KW",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868m2v63x",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "bb0b898d26aa687ee42321c49a81bbf2842d49b629356e29a70771b2ef59ba3a"
+            }
+          ]
+        }
+      ]
     },
     {
       "owner": "Lee",
       "vehicle": null,
       "clickup_match": {
         "found": false,
-        "error": "fetch_failed: 429 Client Error: Too Many Requests for url: https://api.clickup.com/api/v2/team/9011243300/task?custom_items%5B%5D=1003&include_closed=false&subtasks=true&page=11"
+        "error": "no_vehicle"
       },
       "assignees": []
     },
@@ -393,10 +1018,69 @@
         }
       },
       "clickup_match": {
-        "found": false,
-        "error": "fetch_failed: 429 Client Error: Too Many Requests for url: https://api.clickup.com/api/v2/team/9011243300/task?custom_items%5B%5D=1003&include_closed=false&subtasks=true&page=11"
+        "found": true,
+        "matched_lists": [
+          "McDonough 77 Esprit"
+        ],
+        "open_tasks": 6
       },
-      "assignees": []
+      "assignees": [
+        {
+          "name": "David Webber",
+          "tasks": [
+            {
+              "id": "868m2ww4n",
+              "name": "Replace headlight switch",
+              "status": "Open",
+              "list": "McDonough 77 Esprit",
+              "url": "https://app.clickup.com/t/868m2ww4n",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "ea84c49ccd3b3360d6899e32fb75aeff13ce679073d58134105a709e40b40cda"
+            },
+            {
+              "id": "868km7t9d",
+              "name": "Test drive vehicle",
+              "status": "Open",
+              "list": "McDonough 77 Esprit",
+              "url": "https://app.clickup.com/t/868km7t9d",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "16b663d18fbf511d04fc5891bd8783a045dcf757ee0ccc8a4b8950f005f0e1b3"
+            }
+          ]
+        },
+        {
+          "name": "Brandon Beaman",
+          "tasks": [
+            {
+              "id": "868jkmucy",
+              "name": "Checkout vehicle",
+              "status": "Open",
+              "list": "McDonough 77 Esprit",
+              "url": "https://app.clickup.com/t/868jkmucy",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
+            }
+          ]
+        },
+        {
+          "name": "Justin Landry",
+          "tasks": [
+            {
+              "id": "868m0fbgp",
+              "name": "Perform PDI",
+              "status": "Open",
+              "list": "McDonough 77 Esprit",
+              "url": "https://app.clickup.com/t/868m0fbgp",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "2e00c870193a7e5cad46da2e37f7540e5a97acbc53ed4fdfd1933ebe5d4e7b9e"
+            }
+          ]
+        }
+      ]
     },
     {
       "owner": "Miner",
@@ -413,7 +1097,7 @@
       },
       "clickup_match": {
         "found": false,
-        "error": "fetch_failed: 429 Client Error: Too Many Requests for url: https://api.clickup.com/api/v2/team/9011243300/task?custom_items%5B%5D=1003&include_closed=false&subtasks=true&page=11"
+        "error": "no_match"
       },
       "assignees": []
     },
@@ -551,10 +1235,119 @@
         }
       },
       "clickup_match": {
-        "found": false,
-        "error": "fetch_failed: 429 Client Error: Too Many Requests for url: https://api.clickup.com/api/v2/team/9011243300/task?custom_items%5B%5D=1003&include_closed=false&subtasks=true&page=11"
+        "found": true,
+        "matched_lists": [
+          "Preheim 72 Blazer"
+        ],
+        "open_tasks": 9
       },
-      "assignees": []
+      "assignees": [
+        {
+          "name": "Billy Arrasmith",
+          "tasks": [
+            {
+              "id": "868kzamnu",
+              "name": "Address issues with top",
+              "status": "Open",
+              "list": "Preheim 72 Blazer",
+              "url": "https://app.clickup.com/t/868kzamnu",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "e3b9720501fed8b59c1666984eb5cf4999b31bf2bfc0e6fb23d2cf837b73817a"
+            },
+            {
+              "id": "868kzapnn",
+              "name": "Address rear tire wobble",
+              "status": "Open",
+              "list": "Preheim 72 Blazer",
+              "url": "https://app.clickup.com/t/868kzapnn",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "9b934d1a969cc5c05fd902604b23cdfbb302ad104cd5a5e6813c746720b8dacb"
+            },
+            {
+              "id": "868kzaq6r",
+              "name": "Address squeaks/noises",
+              "status": "Open",
+              "list": "Preheim 72 Blazer",
+              "url": "https://app.clickup.com/t/868kzaq6r",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "dfcfa914428437333c0ae6fcb4dab8f221c044a55e935e2319ae1c20a72046fb"
+            },
+            {
+              "id": "868kzhwzn",
+              "name": "Install power window assmebly",
+              "status": "Open",
+              "list": "Preheim 72 Blazer",
+              "url": "https://app.clickup.com/t/868kzhwzn",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "d8f3f1e1ac991812aac5b970555ceb2a379ecbc4d424c96505d165c3ac4b4a9d"
+            },
+            {
+              "id": "868kx4870",
+              "name": "Level ride height",
+              "status": "Open",
+              "list": "Preheim 72 Blazer",
+              "url": "https://app.clickup.com/t/868kx4870",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "2eb7d82d478185319af5bcef8a69c100305bc9c1968c83184286a5bd69c4847a"
+            },
+            {
+              "id": "868kx4f7u",
+              "name": "Test drive vehicle",
+              "status": "Open",
+              "list": "Preheim 72 Blazer",
+              "url": "https://app.clickup.com/t/868kx4f7u",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "16b663d18fbf511d04fc5891bd8783a045dcf757ee0ccc8a4b8950f005f0e1b3"
+            }
+          ]
+        },
+        {
+          "name": "Ben Drinkard",
+          "tasks": [
+            {
+              "id": "868j626qw",
+              "name": "Add step sides",
+              "status": "Open",
+              "list": "Preheim 72 Blazer",
+              "url": "https://app.clickup.com/t/868j626qw",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "b531ef74fed559b9574c50066a678e58e6517dca10bf0cc03581c891c9218ea4"
+            },
+            {
+              "id": "868kzahbv",
+              "name": "Install sway bars",
+              "status": "Open",
+              "list": "Preheim 72 Blazer",
+              "url": "https://app.clickup.com/t/868kzahbv",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "75d544ac467d0fabdd6cb8d7350351be4980d135c383c9391def44d832521bc2"
+            }
+          ]
+        },
+        {
+          "name": "Brandon Beaman",
+          "tasks": [
+            {
+              "id": "868krfacg",
+              "name": "Checkout vehicle",
+              "status": "Open",
+              "list": "Preheim 72 Blazer",
+              "url": "https://app.clickup.com/t/868krfacg",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
+            }
+          ]
+        }
+      ]
     },
     {
       "owner": "Ritchie",
@@ -591,10 +1384,174 @@
         "system": "Ampere"
       },
       "clickup_match": {
-        "found": false,
-        "error": "fetch_failed: 429 Client Error: Too Many Requests for url: https://api.clickup.com/api/v2/team/9011243300/task?custom_items%5B%5D=1003&include_closed=false&subtasks=true&page=11"
+        "found": true,
+        "matched_lists": [
+          "Ritchie 71 Blazer"
+        ],
+        "open_tasks": 31
       },
-      "assignees": []
+      "assignees": [
+        {
+          "name": "Billy Arrasmith",
+          "tasks": [
+            {
+              "id": "868hbnnhz",
+              "name": "Balance driveshafts",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868hbnnhz",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "3171a318632a0fe1c991f4e58f9902e494db2e3c43a879ff3508158c6dc77e07"
+            },
+            {
+              "id": "868hbnfk6",
+              "name": "Install GUI assembly",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868hbnfk6",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "cd0bc0ea600491b4fbceb878cf61aef187e2e4fddcd0748dca6bd53811d1287d"
+            },
+            {
+              "id": "868kmp9tm",
+              "name": "Install front battery lid",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868kmp9tm",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "25977cfdfe0fd6dc5303338eb465f4ded373d84fa04ebe79c10f1e716c4899e4"
+            },
+            {
+              "id": "868ktqjxq",
+              "name": "Install seat belts",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868ktqjxq",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "371237ba86e4892bc87fcc0dd72a17784c4ecac889b399914e56e0f1cafd7fb9"
+            },
+            {
+              "id": "868gaza16",
+              "name": "Manufacture Core - GUI Mount",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868gaza16",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "343e363118156f75652f0a31310daa43313af26b3097b7471d0d9cd78416f3b3"
+            },
+            {
+              "id": "868m2ye0h",
+              "name": "Shorten iBooster plunger",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868m2ye0h",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "b11b069e1e4390eb9f9c6bbf1f319f698539627e8e4c2e975c8c84eaf3256e62"
+            },
+            {
+              "id": "868m3h8yd",
+              "name": "Troubleshoot charging issue",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868m3h8yd",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "d08d320acdac30f176513d4c02dbaf7925aab5b125e8e9b4787cc03f81645882"
+            }
+          ]
+        },
+        {
+          "name": "Ben Drinkard",
+          "tasks": [
+            {
+              "id": "868k6ttbf",
+              "name": "Install audio system",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868k6ttbf",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "d7872d4902746774cea8e7a57c66ebc49fcc4ad91f595624ef93e2354cd44fdc"
+            },
+            {
+              "id": "868kpg6th",
+              "name": "Install bed rail caps",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868kpg6th",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "5f784fc4355ea24b3d7ab5fac0fd2f9fdb3c6da70b26b29130030605b994b98a"
+            },
+            {
+              "id": "868ka4d5e",
+              "name": "Install interior",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868ka4d5e",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "8fd66da719ff705d1cfee40e5a59ea597a5a80d93c1c6678c2c1fb1afd503ed5"
+            },
+            {
+              "id": "868gaza9t",
+              "name": "Manufacture Core - Battery Pack Lids",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868gaza9t",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "d9f9273bd20a0261c1da8aa58792fabb09ecbcfe7ed7ff121281c714d5fa985e"
+            }
+          ]
+        },
+        {
+          "name": "Ryan Laurel",
+          "tasks": [
+            {
+              "id": "868kv07mr",
+              "name": "Coordinate center console paint",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868kv07mr",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "37096c993a29d491a8c621440518a2b31e58cef53e742fd27b64634297be8390"
+            },
+            {
+              "id": "868m4ae1z",
+              "name": "Coordinate paint correction with Colvin",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868m4ae1z",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "848f0acfca65c3314cd9c56898674883c14ccfa8f53680e99ac6ec5bfc77e82b"
+            }
+          ]
+        },
+        {
+          "name": "Brandon Beaman",
+          "tasks": [
+            {
+              "id": "868m40fu8",
+              "name": "Checkout Vehicle",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868m40fu8",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "83bb4f939a841271259612353f26a6babb67e422ab4f557b85b2019d3d381794"
+            }
+          ]
+        }
+      ]
     },
     {
       "owner": "Teague",
@@ -690,11 +1647,80 @@
         }
       },
       "clickup_match": {
-        "found": false,
-        "error": "fetch_failed: 429 Client Error: Too Many Requests for url: https://api.clickup.com/api/v2/team/9011243300/task?custom_items%5B%5D=1003&include_closed=false&subtasks=true&page=11"
+        "found": true,
+        "matched_lists": [
+          "Teague 62 Jaguar"
+        ],
+        "open_tasks": 17
       },
-      "assignees": []
+      "assignees": [
+        {
+          "name": "Brandon Beaman",
+          "tasks": [
+            {
+              "id": "868m4aptq",
+              "name": "Aid in PRND indicator mod",
+              "status": "Open",
+              "list": "Teague 62 Jaguar",
+              "url": "https://app.clickup.com/t/868m4aptq",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "4eae9c967d413617f3b2b6d16cce340de0d7d3a4f43c92058cf2b45d8d918885"
+            },
+            {
+              "id": "868khu6f8",
+              "name": "Checkout vehicle",
+              "status": "Open",
+              "list": "Teague 62 Jaguar",
+              "url": "https://app.clickup.com/t/868khu6f8",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
+            }
+          ]
+        },
+        {
+          "name": "David Webber",
+          "tasks": [
+            {
+              "id": "868jj1ac8",
+              "name": "Install font battery lid",
+              "status": "Open",
+              "list": "Teague 62 Jaguar",
+              "url": "https://app.clickup.com/t/868jj1ac8",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "660d5d6ca681f665bcf4d9c15314bf8bfa08105e09f99c9809d6d4ba2fad2219"
+            },
+            {
+              "id": "868m3t9eq",
+              "name": "Remove OEM shifter assembly",
+              "status": "Open",
+              "list": "Teague 62 Jaguar",
+              "url": "https://app.clickup.com/t/868m3t9eq",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "05e4c0ef8406d9e45cab9d7165504704916b5f431ed2d5f22cc1ca60293d2451"
+            }
+          ]
+        },
+        {
+          "name": "Devin DuMont",
+          "tasks": [
+            {
+              "id": "868kzdw3t",
+              "name": "Troubleshoot AC issue",
+              "status": "Open",
+              "list": "Teague 62 Jaguar",
+              "url": "https://app.clickup.com/t/868kzdw3t",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "d5a1aa55c34751a42ba48c7a10699affc93e322a0843ec4b3d0f7dd98b960ffd"
+            }
+          ]
+        }
+      ]
     }
   ],
-  "generated_at": "2026-09-12T05:11:35Z"
+  "generated_at": "2026-09-12T05:25:00Z"
 }
