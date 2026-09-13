@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T17:50:19.529252Z",
+  "updated_at": "2026-09-13T18:15:49.339935Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1670,15 +1670,9 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868kzamnu",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-01 18:01",
-                  "text": "removed the bolts in the top front\nremoved visors\nlifted the top up\ninserted sealant\nlet it set up\nreinstalled the top bolts\nsealed it back up\ntested in the rain leak is much better\nwindows need to be adjusted"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "192445e261c9057599e975c37fa8b797c4c9d65666df973166836ebc8989febc"
+              "content_hash": "e3b9720501fed8b59c1666984eb5cf4999b31bf2bfc0e6fb23d2cf837b73817a"
             },
             {
               "id": "868kzapnn",
@@ -1967,9 +1961,20 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868hbnnhz",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Alex Noonan",
+                  "date": "2026-07-27 21:10",
+                  "text": "Need to start up vehicle first"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-09 03:15",
+                  "text": "test drove checking the DS bolts\nhave some vibration but it goes away after 65\nwill need the balance the tires"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "3171a318632a0fe1c991f4e58f9902e494db2e3c43a879ff3508158c6dc77e07"
+              "content_hash": "4f32e84d8c80a853072406569487503d2c855dd35d922af72596410e6885338e"
             },
             {
               "id": "868hbnfk6",
@@ -2558,5 +2563,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-13T17:48:45Z"
+  "generated_at": "2026-09-13T18:14:03Z"
 }
