@@ -3,7 +3,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 57.2,
-      "pct_of_total": 11.1,
+      "pct_of_total": 11.0,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -42,7 +42,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 50.0,
-      "pct_of_total": 9.7,
+      "pct_of_total": 9.6,
       "tasks": [
         {
           "task": "Scanning",
@@ -85,7 +85,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 45.2,
-      "pct_of_total": 8.8,
+      "pct_of_total": 8.7,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -132,7 +132,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 39.8,
-      "pct_of_total": 7.7,
+      "pct_of_total": 7.6,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -275,7 +275,7 @@
     {
       "project": "Krafcik 02 Caterham",
       "total_hours": 18.5,
-      "pct_of_total": 3.6,
+      "pct_of_total": 3.5,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -324,20 +324,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 80.8,
-    "pct_of_total": 15.6,
-    "avg_per_person_per_day": 1.12,
+    "total_hours": 81.8,
+    "pct_of_total": 15.7,
+    "avg_per_person_per_day": 1.14,
     "flagged": true,
     "tech_count": 8,
     "working_days": 9,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 36.2
+        "hours": 36.8
       },
       {
         "label": "Shop Meetings",
-        "hours": 29.0
+        "hours": 29.5
       },
       {
         "label": "Personal Meetings",
@@ -423,10 +423,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 394.8,
-    "non_billable_hours": 122.2,
+    "billable_hours": 398.2,
+    "non_billable_hours": 123.2,
     "pto_hours": 8.0,
-    "total_hours": 517.0
+    "total_hours": 521.5
   },
-  "generated_at": "2026-09-13T23:35:07Z"
+  "generated_at": "2026-09-13T23:48:36Z"
 }
