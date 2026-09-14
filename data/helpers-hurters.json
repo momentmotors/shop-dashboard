@@ -2,12 +2,12 @@
   "helpers": [
     {
       "project": "LB 82 911",
-      "total_hours": 57.2,
-      "pct_of_total": 10.5,
+      "total_hours": 59.2,
+      "pct_of_total": 10.8,
       "tasks": [
         {
           "task": "Manufacturing - Product",
-          "hours": 19.8
+          "hours": 21.8
         },
         {
           "task": "Vehicle Control",
@@ -42,7 +42,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 52.0,
-      "pct_of_total": 9.6,
+      "pct_of_total": 9.4,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -85,7 +85,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 49.8,
-      "pct_of_total": 9.2,
+      "pct_of_total": 9.0,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -131,12 +131,12 @@
     },
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 39.8,
-      "pct_of_total": 7.3,
+      "total_hours": 41.8,
+      "pct_of_total": 7.6,
       "tasks": [
         {
           "task": "Manufacturing - Product",
-          "hours": 23.8
+          "hours": 25.8
         },
         {
           "task": "HVAC",
@@ -167,7 +167,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 32.8,
-      "pct_of_total": 6.0,
+      "pct_of_total": 5.9,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -194,7 +194,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 24.2,
-      "pct_of_total": 4.5,
+      "pct_of_total": 4.4,
       "tasks": [
         {
           "task": "Audio",
@@ -227,36 +227,13 @@
       ]
     },
     {
-      "project": "Preheim 72 Blazer",
-      "total_hours": 20.8,
-      "pct_of_total": 3.8,
-      "tasks": [
-        {
-          "task": "Interior",
-          "hours": 10.0
-        },
-        {
-          "task": "Exterior",
-          "hours": 4.5
-        },
-        {
-          "task": "Suspension",
-          "hours": 4.2
-        },
-        {
-          "task": "Audio",
-          "hours": 2.0
-        }
-      ]
-    },
-    {
       "project": "Krafcik 02 Caterham",
-      "total_hours": 20.0,
-      "pct_of_total": 3.7,
+      "total_hours": 22.0,
+      "pct_of_total": 4.0,
       "tasks": [
         {
           "task": "Manufacturing - Product",
-          "hours": 9.0
+          "hours": 11.0
         },
         {
           "task": "Manufacturing - Core",
@@ -285,6 +262,29 @@
         {
           "task": "Battery Pack",
           "hours": 0.2
+        }
+      ]
+    },
+    {
+      "project": "Preheim 72 Blazer",
+      "total_hours": 20.8,
+      "pct_of_total": 3.8,
+      "tasks": [
+        {
+          "task": "Interior",
+          "hours": 10.0
+        },
+        {
+          "task": "Exterior",
+          "hours": 4.5
+        },
+        {
+          "task": "Suspension",
+          "hours": 4.2
+        },
+        {
+          "task": "Audio",
+          "hours": 2.0
         }
       ]
     },
@@ -336,20 +336,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 85.2,
-    "pct_of_total": 15.7,
-    "avg_per_person_per_day": 1.07,
+    "total_hours": 86.8,
+    "pct_of_total": 15.8,
+    "avg_per_person_per_day": 1.08,
     "flagged": true,
     "tech_count": 8,
     "working_days": 10,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 37.2
+        "hours": 37.8
       },
       {
         "label": "Shop Meetings",
-        "hours": 30.0
+        "hours": 30.5
       },
       {
         "label": "Personal Meetings",
@@ -357,7 +357,7 @@
       },
       {
         "label": "Organization",
-        "hours": 5.0
+        "hours": 5.5
       },
       {
         "label": "Other",
@@ -435,10 +435,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 415.2,
-    "non_billable_hours": 127.5,
+    "billable_hours": 421.8,
+    "non_billable_hours": 129.0,
     "pto_hours": 8.0,
-    "total_hours": 542.8
+    "total_hours": 550.8
   },
-  "generated_at": "2026-09-14T18:32:49Z"
+  "generated_at": "2026-09-14T18:50:07Z"
 }
