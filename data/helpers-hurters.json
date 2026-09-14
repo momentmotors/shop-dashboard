@@ -131,8 +131,8 @@
     },
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 41.8,
-      "pct_of_total": 7.6,
+      "total_hours": 42.8,
+      "pct_of_total": 7.7,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -155,12 +155,12 @@
           "hours": 2.5
         },
         {
-          "task": "Manufacturing - Core",
-          "hours": 1.0
+          "task": "Steering",
+          "hours": 1.2
         },
         {
-          "task": "Steering",
-          "hours": 0.2
+          "task": "Manufacturing - Core",
+          "hours": 1.0
         }
       ]
     },
@@ -435,10 +435,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 421.8,
+    "billable_hours": 422.8,
     "non_billable_hours": 130.0,
     "pto_hours": 8.0,
-    "total_hours": 551.8
+    "total_hours": 552.8
   },
-  "generated_at": "2026-09-14T19:10:39Z"
+  "generated_at": "2026-09-14T19:22:39Z"
 }
