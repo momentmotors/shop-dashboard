@@ -227,6 +227,45 @@
       ]
     },
     {
+      "project": "Krafcik 02 Caterham",
+      "total_hours": 20.0,
+      "pct_of_total": 3.8,
+      "tasks": [
+        {
+          "task": "Manufacturing - Product",
+          "hours": 9.0
+        },
+        {
+          "task": "Manufacturing - Core",
+          "hours": 6.2
+        },
+        {
+          "task": "Scanning",
+          "hours": 1.5
+        },
+        {
+          "task": "Engineering - Core",
+          "hours": 1.0
+        },
+        {
+          "task": "Engine Bay",
+          "hours": 1.0
+        },
+        {
+          "task": "Engineering - Support",
+          "hours": 0.5
+        },
+        {
+          "task": "Cooling",
+          "hours": 0.5
+        },
+        {
+          "task": "Battery Pack",
+          "hours": 0.2
+        }
+      ]
+    },
+    {
       "project": "Richardson 72 240Z",
       "total_hours": 19.8,
       "pct_of_total": 3.7,
@@ -273,41 +312,6 @@
       ]
     },
     {
-      "project": "Krafcik 02 Caterham",
-      "total_hours": 18.5,
-      "pct_of_total": 3.5,
-      "tasks": [
-        {
-          "task": "Manufacturing - Product",
-          "hours": 9.0
-        },
-        {
-          "task": "Manufacturing - Core",
-          "hours": 6.2
-        },
-        {
-          "task": "Engineering - Core",
-          "hours": 1.0
-        },
-        {
-          "task": "Engine Bay",
-          "hours": 1.0
-        },
-        {
-          "task": "Engineering - Support",
-          "hours": 0.5
-        },
-        {
-          "task": "Cooling",
-          "hours": 0.5
-        },
-        {
-          "task": "Battery Pack",
-          "hours": 0.2
-        }
-      ]
-    },
-    {
       "project": "Barton 59 Impala",
       "total_hours": 17.5,
       "pct_of_total": 3.3,
@@ -325,7 +329,7 @@
   ],
   "shop_work": {
     "total_hours": 82.5,
-    "pct_of_total": 15.6,
+    "pct_of_total": 15.5,
     "avg_per_person_per_day": 1.03,
     "flagged": true,
     "tech_count": 8,
@@ -423,10 +427,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 405.0,
+    "billable_hours": 406.5,
     "non_billable_hours": 124.8,
     "pto_hours": 8.0,
-    "total_hours": 529.8
+    "total_hours": 531.2
   },
-  "generated_at": "2026-09-14T15:49:51Z"
+  "generated_at": "2026-09-14T16:13:07Z"
 }
