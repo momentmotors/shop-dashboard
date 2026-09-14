@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T17:37:27.375954Z",
+  "updated_at": "2026-09-14T17:50:56.211255Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -489,7 +489,7 @@
         "matched_lists": [
           "Ferdman 66 Bus"
         ],
-        "open_tasks": 9
+        "open_tasks": 8
       },
       "assignees": [
         {
@@ -805,37 +805,6 @@
               ],
               "checklist_items": [],
               "content_hash": "75d8e0a4c0aca135f3ac0934d29dd5fe55dad869de1b37bba694b16d094121f6"
-            }
-          ]
-        },
-        {
-          "name": "Marshall Carter",
-          "tasks": [
-            {
-              "id": "868kv2u3g",
-              "name": "Engineer Core - Radiator Mount",
-              "status": "Open",
-              "list": "Ferdman 66 Bus",
-              "url": "https://app.clickup.com/t/868kv2u3g",
-              "comments": [
-                {
-                  "author": "Marshall Carter",
-                  "date": "2026-08-21 21:50",
-                  "text": "image.png\nimage.png\nimage.png\nimage.png\nimage.png\n\n\nimage.png\n\nimage.png"
-                },
-                {
-                  "author": "Marshall Carter",
-                  "date": "2026-08-21 21:54",
-                  "text": "-Did a preliminary design\n-Met with Jordan and Alex 8/20 and as a team decided to try to make a design for the radiator mount that contoured to the wheel well. Screen shots are of the final design that got ordered from OSH.\nSheet metal will come too long, extruded through the wheel well. After Jordan makes a rectangular cut and installs the sheetmetal assembly, he will mark the radius he needs to cut.\n-It was acknowledged that the contoured design would be more complicated to fit test/install, but it was agreed as a team that this was the right direction to go."
-                },
-                {
-                  "author": "Marshall Carter",
-                  "date": "2026-08-21 21:58",
-                  "text": "As a backup, I designed upper and lower \"U\" mount brackets that would allow us to mount the existing shroud. I also designed a thin piece of aluminum to mount the mesh screen that we could bend along the contour of the wheel well as a backup.\nimage.png\nimage.png"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "5b03cfa33a0a08ff8bf41dd6ff2935f07fa1768adaeed9d2300d8edc37fe9fc2"
             }
           ]
         }
@@ -1843,9 +1812,25 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868hbnnhz",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Alex Noonan",
+                  "date": "2026-07-27 21:10",
+                  "text": "Need to start up vehicle first"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-09 03:15",
+                  "text": "test drove checking the DS bolts\nhave some vibration but it goes away after 65\nwill need the balance the tires"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-13 23:53",
+                  "text": "printed the rings\nset the rings 180* from the weights\ntest drove\nadjusted the position\nbrought back and removed one of the weights from each DS\nretested drove better\nadjusted the DS rings\nfound the best position at the moment\nsending it to balance the tires\nwhen I get back I will finish\nit is a lot better now"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "3171a318632a0fe1c991f4e58f9902e494db2e3c43a879ff3508158c6dc77e07"
+              "content_hash": "b7339e85fa602e9227bbdd2e8bdc6fa9469383b5f22e1e0877eca97c6346389e"
             },
             {
               "id": "868hbnfk6",
@@ -2464,5 +2449,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-14T17:35:36Z"
+  "generated_at": "2026-09-14T17:49:08Z"
 }
