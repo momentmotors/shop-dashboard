@@ -3,7 +3,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 66.2,
-      "pct_of_total": 11.6,
+      "pct_of_total": 11.5,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -42,7 +42,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 52.0,
-      "pct_of_total": 9.1,
+      "pct_of_total": 9.0,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -85,7 +85,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 49.8,
-      "pct_of_total": 8.7,
+      "pct_of_total": 8.6,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -132,7 +132,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 42.8,
-      "pct_of_total": 7.5,
+      "pct_of_total": 7.4,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -167,7 +167,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 40.5,
-      "pct_of_total": 7.1,
+      "pct_of_total": 7.0,
       "tasks": [
         {
           "task": "Battery Pack",
@@ -192,9 +192,48 @@
       ]
     },
     {
+      "project": "Krafcik 02 Caterham",
+      "total_hours": 28.0,
+      "pct_of_total": 4.9,
+      "tasks": [
+        {
+          "task": "Manufacturing - Product",
+          "hours": 12.0
+        },
+        {
+          "task": "Manufacturing - Core",
+          "hours": 6.2
+        },
+        {
+          "task": "Engine Bay",
+          "hours": 6.0
+        },
+        {
+          "task": "Scanning",
+          "hours": 1.5
+        },
+        {
+          "task": "Engineering - Core",
+          "hours": 1.0
+        },
+        {
+          "task": "Engineering - Support",
+          "hours": 0.5
+        },
+        {
+          "task": "Cooling",
+          "hours": 0.5
+        },
+        {
+          "task": "Battery Pack",
+          "hours": 0.2
+        }
+      ]
+    },
+    {
       "project": "Thacker 46 Woody",
       "total_hours": 24.2,
-      "pct_of_total": 4.3,
+      "pct_of_total": 4.2,
       "tasks": [
         {
           "task": "Audio",
@@ -227,45 +266,6 @@
       ]
     },
     {
-      "project": "Krafcik 02 Caterham",
-      "total_hours": 22.0,
-      "pct_of_total": 3.9,
-      "tasks": [
-        {
-          "task": "Manufacturing - Product",
-          "hours": 11.0
-        },
-        {
-          "task": "Manufacturing - Core",
-          "hours": 6.2
-        },
-        {
-          "task": "Scanning",
-          "hours": 1.5
-        },
-        {
-          "task": "Engineering - Core",
-          "hours": 1.0
-        },
-        {
-          "task": "Engine Bay",
-          "hours": 1.0
-        },
-        {
-          "task": "Engineering - Support",
-          "hours": 0.5
-        },
-        {
-          "task": "Cooling",
-          "hours": 0.5
-        },
-        {
-          "task": "Battery Pack",
-          "hours": 0.2
-        }
-      ]
-    },
-    {
       "project": "Preheim 72 Blazer",
       "total_hours": 20.8,
       "pct_of_total": 3.6,
@@ -291,7 +291,7 @@
     {
       "project": "Richardson 72 240Z",
       "total_hours": 19.8,
-      "pct_of_total": 3.5,
+      "pct_of_total": 3.4,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -318,7 +318,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 19.2,
-      "pct_of_total": 3.4,
+      "pct_of_total": 3.3,
       "tasks": [
         {
           "task": "HVAC",
@@ -336,20 +336,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 90.0,
-    "pct_of_total": 15.8,
-    "avg_per_person_per_day": 1.12,
+    "total_hours": 90.8,
+    "pct_of_total": 15.7,
+    "avg_per_person_per_day": 1.13,
     "flagged": true,
     "tech_count": 8,
     "working_days": 10,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 39.2
+        "hours": 39.8
       },
       {
         "label": "Shop Meetings",
-        "hours": 32.0
+        "hours": 32.2
       },
       {
         "label": "Personal Meetings",
@@ -373,7 +373,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 17.5,
-      "pct_of_total": 3.1,
+      "pct_of_total": 3.0,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -435,10 +435,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 437.5,
-    "non_billable_hours": 132.2,
+    "billable_hours": 443.5,
+    "non_billable_hours": 133.0,
     "pto_hours": 8.0,
-    "total_hours": 569.8
+    "total_hours": 576.5
   },
-  "generated_at": "2026-09-14T22:48:42Z"
+  "generated_at": "2026-09-14T23:10:38Z"
 }
