@@ -229,7 +229,7 @@
     {
       "project": "Richardson 72 240Z",
       "total_hours": 19.8,
-      "pct_of_total": 3.8,
+      "pct_of_total": 3.7,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -371,12 +371,12 @@
     },
     {
       "project": "Buck 70 280SL",
-      "total_hours": 10.8,
-      "pct_of_total": 2.0,
+      "total_hours": 11.5,
+      "pct_of_total": 2.2,
       "tasks": [
         {
           "task": "Troubleshooting",
-          "hours": 10.8
+          "hours": 11.5
         }
       ]
     },
@@ -424,9 +424,9 @@
   ],
   "totals": {
     "billable_hours": 403.2,
-    "non_billable_hours": 123.2,
+    "non_billable_hours": 124.0,
     "pto_hours": 8.0,
-    "total_hours": 526.5
+    "total_hours": 527.2
   },
-  "generated_at": "2026-09-14T14:31:52Z"
+  "generated_at": "2026-09-14T14:49:33Z"
 }
