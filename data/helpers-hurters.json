@@ -3,7 +3,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 66.2,
-      "pct_of_total": 11.0,
+      "pct_of_total": 10.8,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -42,7 +42,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 54.0,
-      "pct_of_total": 8.9,
+      "pct_of_total": 8.8,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -89,7 +89,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 52.0,
-      "pct_of_total": 8.6,
+      "pct_of_total": 8.5,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -132,7 +132,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 42.8,
-      "pct_of_total": 7.1,
+      "pct_of_total": 7.0,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -167,7 +167,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 40.5,
-      "pct_of_total": 6.7,
+      "pct_of_total": 6.6,
       "tasks": [
         {
           "task": "Battery Pack",
@@ -291,7 +291,7 @@
     {
       "project": "Richardson 72 240Z",
       "total_hours": 19.8,
-      "pct_of_total": 3.3,
+      "pct_of_total": 3.2,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -318,7 +318,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 19.2,
-      "pct_of_total": 3.2,
+      "pct_of_total": 3.1,
       "tasks": [
         {
           "task": "HVAC",
@@ -337,7 +337,7 @@
   ],
   "shop_work": {
     "total_hours": 98.5,
-    "pct_of_total": 16.3,
+    "pct_of_total": 16.1,
     "avg_per_person_per_day": 1.12,
     "flagged": true,
     "tech_count": 8,
@@ -371,6 +371,17 @@
   },
   "project_hurters": [
     {
+      "project": "ICON Bronco Prototype",
+      "total_hours": 23.5,
+      "pct_of_total": 3.8,
+      "tasks": [
+        {
+          "task": "Installation - Extra",
+          "hours": 23.5
+        }
+      ]
+    },
+    {
       "project": "Ferdman 66 Bus",
       "total_hours": 17.5,
       "pct_of_total": 2.9,
@@ -378,17 +389,6 @@
         {
           "task": "Troubleshooting",
           "hours": 17.5
-        }
-      ]
-    },
-    {
-      "project": "ICON Bronco Prototype",
-      "total_hours": 15.5,
-      "pct_of_total": 2.6,
-      "tasks": [
-        {
-          "task": "Installation - Extra",
-          "hours": 15.5
         }
       ]
     },
@@ -406,7 +406,7 @@
     {
       "project": "Connolly 58 220S",
       "total_hours": 8.2,
-      "pct_of_total": 1.4,
+      "pct_of_total": 1.3,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -436,9 +436,9 @@
   ],
   "totals": {
     "billable_hours": 452.8,
-    "non_billable_hours": 151.8,
+    "non_billable_hours": 159.8,
     "pto_hours": 8.0,
-    "total_hours": 604.5
+    "total_hours": 612.5
   },
-  "generated_at": "2026-09-15T17:35:23Z"
+  "generated_at": "2026-09-15T17:48:52Z"
 }
