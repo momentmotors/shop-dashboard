@@ -132,7 +132,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 50.2,
-      "pct_of_total": 7.8,
+      "pct_of_total": 7.7,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -303,7 +303,7 @@
     {
       "project": "Richardson 72 240Z",
       "total_hours": 19.8,
-      "pct_of_total": 3.1,
+      "pct_of_total": 3.0,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -348,9 +348,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 101.0,
-    "pct_of_total": 15.6,
-    "avg_per_person_per_day": 1.15,
+    "total_hours": 102.2,
+    "pct_of_total": 15.8,
+    "avg_per_person_per_day": 1.16,
     "flagged": true,
     "tech_count": 8,
     "working_days": 11,
@@ -372,12 +372,12 @@
         "hours": 6.2
       },
       {
-        "label": "Other",
+        "label": "Errands",
         "hours": 1.8
       },
       {
-        "label": "Errands",
-        "hours": 0.5
+        "label": "Other",
+        "hours": 1.8
       }
     ]
   },
@@ -448,9 +448,9 @@
   ],
   "totals": {
     "billable_hours": 474.2,
-    "non_billable_hours": 173.2,
+    "non_billable_hours": 174.5,
     "pto_hours": 8.0,
-    "total_hours": 647.5
+    "total_hours": 648.8
   },
-  "generated_at": "2026-09-15T22:48:15Z"
+  "generated_at": "2026-09-15T23:11:07Z"
 }
