@@ -132,7 +132,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 42.8,
-      "pct_of_total": 7.3,
+      "pct_of_total": 7.2,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -194,7 +194,7 @@
     {
       "project": "Krafcik 02 Caterham",
       "total_hours": 28.0,
-      "pct_of_total": 4.8,
+      "pct_of_total": 4.7,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -291,7 +291,7 @@
     {
       "project": "Richardson 72 240Z",
       "total_hours": 19.8,
-      "pct_of_total": 3.4,
+      "pct_of_total": 3.3,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -336,9 +336,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 94.2,
-    "pct_of_total": 16.0,
-    "avg_per_person_per_day": 1.07,
+    "total_hours": 94.8,
+    "pct_of_total": 16.1,
+    "avg_per_person_per_day": 1.08,
     "flagged": true,
     "tech_count": 8,
     "working_days": 11,
@@ -349,7 +349,7 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 33.2
+        "hours": 33.8
       },
       {
         "label": "Personal Meetings",
@@ -384,7 +384,7 @@
     {
       "project": "Buck 70 280SL",
       "total_hours": 11.5,
-      "pct_of_total": 2.0,
+      "pct_of_total": 1.9,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -436,9 +436,9 @@
   ],
   "totals": {
     "billable_hours": 452.8,
-    "non_billable_hours": 136.5,
+    "non_billable_hours": 137.0,
     "pto_hours": 8.0,
-    "total_hours": 589.2
+    "total_hours": 589.8
   },
-  "generated_at": "2026-09-15T15:12:06Z"
+  "generated_at": "2026-09-15T15:26:19Z"
 }
