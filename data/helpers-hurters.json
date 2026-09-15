@@ -2,8 +2,8 @@
   "helpers": [
     {
       "project": "LB 82 911",
-      "total_hours": 68.8,
-      "pct_of_total": 11.1,
+      "total_hours": 72.0,
+      "pct_of_total": 11.5,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -15,11 +15,11 @@
         },
         {
           "task": "Motor & Transmission",
-          "hours": 8.5
+          "hours": 11.2
         },
         {
           "task": "HVAC",
-          "hours": 6.0
+          "hours": 6.5
         },
         {
           "task": "Manufacturing - Core",
@@ -42,7 +42,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 54.0,
-      "pct_of_total": 8.7,
+      "pct_of_total": 8.6,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -89,7 +89,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 52.0,
-      "pct_of_total": 8.4,
+      "pct_of_total": 8.3,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -132,7 +132,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 47.0,
-      "pct_of_total": 7.6,
+      "pct_of_total": 7.5,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -340,24 +340,24 @@
     }
   ],
   "shop_work": {
-    "total_hours": 100.2,
-    "pct_of_total": 16.1,
-    "avg_per_person_per_day": 1.14,
+    "total_hours": 102.5,
+    "pct_of_total": 16.4,
+    "avg_per_person_per_day": 1.16,
     "flagged": true,
     "tech_count": 8,
     "working_days": 11,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 41.0
+        "hours": 42.0
       },
       {
         "label": "Shop Meetings",
-        "hours": 34.8
+        "hours": 35.2
       },
       {
         "label": "Personal Meetings",
-        "hours": 12.8
+        "hours": 13.5
       },
       {
         "label": "Organization",
@@ -399,7 +399,7 @@
     {
       "project": "Buck 70 280SL",
       "total_hours": 11.5,
-      "pct_of_total": 1.9,
+      "pct_of_total": 1.8,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -439,10 +439,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 459.5,
-    "non_billable_hours": 161.5,
+    "billable_hours": 462.8,
+    "non_billable_hours": 163.8,
     "pto_hours": 8.0,
-    "total_hours": 621.0
+    "total_hours": 626.5
   },
-  "generated_at": "2026-09-15T21:23:21Z"
+  "generated_at": "2026-09-15T21:35:07Z"
 }
