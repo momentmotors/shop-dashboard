@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T21:50:45.506493Z",
+  "updated_at": "2026-09-15T22:13:21.952336Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -801,10 +801,15 @@
                   "author": "Devin DuMont",
                   "date": "2026-09-03 22:04",
                   "text": "Reviewed Scott's email and converted the AEM data logs to CSV for Claude. Posted all to Slack. Re-flashed the inverter with 6B33 and verified EEPROM settings. Flashed VCU firmware VCM_517_R010902_Persist.rpg and reviewed all the calibration settings. Set the gear ratio and tire size to calibration to be consistent with our new way. Re-correlated the checkout sheet. Went to enable torque tables but it's locked out in the new firmware."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-09-15 21:51",
+                  "text": "Prompted Claude to pull several months of logs from the SDU and determine the most torque the motor made across all voltage levels. Converted this full sized data table into Andrews condensed table selecting break voltages to align with noticeable changes in the torque stability. Organized the newest SDU firmware into the drive and reviewed the release notes. Flashed the firmware to the vehicle and explored the base motor torque features. Went for a quick test drive to get some data on the logs."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "75d8e0a4c0aca135f3ac0934d29dd5fe55dad869de1b37bba694b16d094121f6"
+              "content_hash": "58953258ba3357c0ee9d0eabb9f90976c53991fc9999ffd3075efea937583691"
             }
           ]
         }
@@ -2486,5 +2491,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-15T21:48:47Z"
+  "generated_at": "2026-09-15T22:11:40Z"
 }

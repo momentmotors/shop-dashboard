@@ -3,7 +3,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 72.0,
-      "pct_of_total": 11.5,
+      "pct_of_total": 11.4,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -41,8 +41,8 @@
     },
     {
       "project": "Ritchie 71 Blazer",
-      "total_hours": 54.0,
-      "pct_of_total": 8.6,
+      "total_hours": 59.0,
+      "pct_of_total": 9.3,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -55,6 +55,10 @@
         {
           "task": "Exterior",
           "hours": 9.2
+        },
+        {
+          "task": "Instrumentation",
+          "hours": 7.5
         },
         {
           "task": "Interior",
@@ -73,10 +77,6 @@
           "hours": 4.0
         },
         {
-          "task": "Instrumentation",
-          "hours": 2.5
-        },
-        {
           "task": "Charging",
           "hours": 2.0
         },
@@ -89,7 +89,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 52.0,
-      "pct_of_total": 8.3,
+      "pct_of_total": 8.2,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -131,8 +131,8 @@
     },
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 47.0,
-      "pct_of_total": 7.5,
+      "total_hours": 50.2,
+      "pct_of_total": 8.0,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -141,6 +141,10 @@
         {
           "task": "HVAC",
           "hours": 4.8
+        },
+        {
+          "task": "Steering",
+          "hours": 4.5
         },
         {
           "task": "Charging",
@@ -159,10 +163,6 @@
           "hours": 3.0
         },
         {
-          "task": "Steering",
-          "hours": 1.2
-        },
-        {
           "task": "Manufacturing - Core",
           "hours": 1.0
         }
@@ -171,7 +171,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 40.5,
-      "pct_of_total": 6.5,
+      "pct_of_total": 6.4,
       "tasks": [
         {
           "task": "Battery Pack",
@@ -198,7 +198,7 @@
     {
       "project": "Krafcik 02 Caterham",
       "total_hours": 28.0,
-      "pct_of_total": 4.5,
+      "pct_of_total": 4.4,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -237,7 +237,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 24.2,
-      "pct_of_total": 3.9,
+      "pct_of_total": 3.8,
       "tasks": [
         {
           "task": "Audio",
@@ -295,7 +295,7 @@
     {
       "project": "Richardson 72 240Z",
       "total_hours": 19.8,
-      "pct_of_total": 3.2,
+      "pct_of_total": 3.1,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -322,7 +322,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 19.2,
-      "pct_of_total": 3.1,
+      "pct_of_total": 3.0,
       "tasks": [
         {
           "task": "HVAC",
@@ -340,9 +340,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 102.5,
-    "pct_of_total": 16.4,
-    "avg_per_person_per_day": 1.16,
+    "total_hours": 99.8,
+    "pct_of_total": 15.8,
+    "avg_per_person_per_day": 1.13,
     "flagged": true,
     "tech_count": 8,
     "working_days": 11,
@@ -353,7 +353,7 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 35.2
+        "hours": 35.8
       },
       {
         "label": "Personal Meetings",
@@ -365,7 +365,7 @@
       },
       {
         "label": "Other",
-        "hours": 5.0
+        "hours": 1.8
       },
       {
         "label": "Errands",
@@ -377,11 +377,22 @@
     {
       "project": "ICON Bronco Prototype",
       "total_hours": 23.5,
-      "pct_of_total": 3.8,
+      "pct_of_total": 3.7,
       "tasks": [
         {
           "task": "Installation - Extra",
           "hours": 23.5
+        }
+      ]
+    },
+    {
+      "project": "Buck 70 280SL",
+      "total_hours": 22.5,
+      "pct_of_total": 3.6,
+      "tasks": [
+        {
+          "task": "Troubleshooting",
+          "hours": 22.5
         }
       ]
     },
@@ -393,17 +404,6 @@
         {
           "task": "Troubleshooting",
           "hours": 17.5
-        }
-      ]
-    },
-    {
-      "project": "Buck 70 280SL",
-      "total_hours": 11.5,
-      "pct_of_total": 1.8,
-      "tasks": [
-        {
-          "task": "Troubleshooting",
-          "hours": 11.5
         }
       ]
     },
@@ -439,10 +439,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 462.8,
-    "non_billable_hours": 163.8,
+    "billable_hours": 460.0,
+    "non_billable_hours": 172.0,
     "pto_hours": 8.0,
-    "total_hours": 626.5
+    "total_hours": 632.0
   },
-  "generated_at": "2026-09-15T21:48:47Z"
+  "generated_at": "2026-09-15T22:11:40Z"
 }
