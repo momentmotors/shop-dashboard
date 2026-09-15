@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T05:30:29.350885Z",
+  "updated_at": "2026-09-15T05:42:58.933263Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1848,9 +1848,20 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ktqjxq",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-19 02:34",
+                  "text": "seat belts ordered"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-10 02:33",
+                  "text": "covered the glove box and ashtray with vinyl"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "371237ba86e4892bc87fcc0dd72a17784c4ecac889b399914e56e0f1cafd7fb9"
+              "content_hash": "32684eed741507b25e13c243375bae6fdee88fa9335abed6222ea2d2d854c9cc"
             },
             {
               "id": "868gaza16",
@@ -1868,9 +1879,15 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868m2ye0h",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-09 18:32",
+                  "text": "removed the master\nmeasured the plunger\nmachined down the plunger\nreinstalled\ntested on the drive in\nall is working"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "b11b069e1e4390eb9f9c6bbf1f319f698539627e8e4c2e975c8c84eaf3256e62"
+              "content_hash": "deb74eff0c2c63a13d793663a334bda7efe46bc6d73cb15b24743f1e4932dbd9"
             },
             {
               "id": "868m3h8yd",
@@ -1878,9 +1895,15 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868m3h8yd",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-10 02:30",
+                  "text": "blazer didn't charge\nit was turning off every 45 min\nplugged in the shop charger\nwas able to charge the truck up\nmy personal charged was the issue\ni checked wiring and pins to rule it out"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "d08d320acdac30f176513d4c02dbaf7925aab5b125e8e9b4787cc03f81645882"
+              "content_hash": "789c4723267bcecaf9212351dfa330cb22ab6acbd8be376bbce57827a83aebe1"
             }
           ]
         },
@@ -1938,9 +1961,15 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kv07mr",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-08-24 13:15",
+                  "text": "Colvin's picked up the center console Friday, 8/21"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "37096c993a29d491a8c621440518a2b31e58cef53e742fd27b64634297be8390"
+              "content_hash": "ea55d8dc41e520a032549b095ae1d521530f36e7313df2e087e349bcd8fe2461"
             },
             {
               "id": "868m4ae1z",
@@ -2181,5 +2210,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-15T05:28:54Z"
+  "generated_at": "2026-09-15T05:41:26Z"
 }
