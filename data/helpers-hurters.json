@@ -3,7 +3,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 66.2,
-      "pct_of_total": 10.8,
+      "pct_of_total": 10.7,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -42,7 +42,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 54.0,
-      "pct_of_total": 8.8,
+      "pct_of_total": 8.7,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -89,7 +89,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 52.0,
-      "pct_of_total": 8.5,
+      "pct_of_total": 8.4,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -131,8 +131,8 @@
     },
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 42.8,
-      "pct_of_total": 7.0,
+      "total_hours": 47.0,
+      "pct_of_total": 7.6,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -147,12 +147,16 @@
           "hours": 4.5
         },
         {
-          "task": "Cooling",
-          "hours": 3.0
+          "task": "Brakes",
+          "hours": 3.5
         },
         {
           "task": "Vehicle Control",
-          "hours": 2.5
+          "hours": 3.2
+        },
+        {
+          "task": "Cooling",
+          "hours": 3.0
         },
         {
           "task": "Steering",
@@ -194,7 +198,7 @@
     {
       "project": "Krafcik 02 Caterham",
       "total_hours": 28.0,
-      "pct_of_total": 4.6,
+      "pct_of_total": 4.5,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -233,7 +237,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 24.2,
-      "pct_of_total": 4.0,
+      "pct_of_total": 3.9,
       "tasks": [
         {
           "task": "Audio",
@@ -336,8 +340,8 @@
     }
   ],
   "shop_work": {
-    "total_hours": 98.5,
-    "pct_of_total": 16.1,
+    "total_hours": 99.0,
+    "pct_of_total": 16.0,
     "avg_per_person_per_day": 1.12,
     "flagged": true,
     "tech_count": 8,
@@ -345,7 +349,7 @@
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 40.2
+        "hours": 40.8
       },
       {
         "label": "Shop Meetings",
@@ -384,7 +388,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 17.5,
-      "pct_of_total": 2.9,
+      "pct_of_total": 2.8,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -435,10 +439,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 452.8,
-    "non_billable_hours": 159.8,
+    "billable_hours": 457.0,
+    "non_billable_hours": 160.2,
     "pto_hours": 8.0,
-    "total_hours": 612.5
+    "total_hours": 617.2
   },
-  "generated_at": "2026-09-15T19:48:54Z"
+  "generated_at": "2026-09-15T20:12:47Z"
 }
