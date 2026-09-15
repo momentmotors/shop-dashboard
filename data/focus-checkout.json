@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T11:13:21.941755Z",
+  "updated_at": "2026-09-15T11:27:46.482783Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -2406,9 +2406,136 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868khu6f8",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
+              "comments": [
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-07-30 02:34",
+                  "text": "Worked with Brandon to develop a better PMU revision system. Cleaned up the master branch and backed up on google drive. Had Brandon pull this down and showed him how to flash to the PMU's along with a number of other vehicle startup details to follow along first. Moved on to the VCU, showed Brandon about the firmware builds and Raptor structures. Converted vehicle requirements into a VCU config. Moved on to the inverter while Brandon loaded that. Upgraded the inverter firmware and flashed EEPROM in line with a W motor while following along in thee sheet."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-07-30 21:43",
+                  "text": "Continued startup with Brandon and Dave. Hooked up HV and key'd on. Tried charging and got the ChgPortContFlt, verified all the associated wiring that has caused that fault previously, no problems found. Tried charging again and it just worked this time. Verified battery heater. Calibrated the resolver. Troubleshot cabin heater wiring. Searched and searched for documentation but couldn't find complete references. Experementially found the VCU was telling the PMU to tell the VCU to turn on the heat. Took thorough notes on actual wiring."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-07-31 21:33",
+                  "text": "Verified K33 \"Heat Request\" functionality on Prehiem to make sure I had the correct tags in Raptor-Service. Tried various combinations of PMU outputs and VCU configs to determine if there was a way to get powering up the heater logic unit as the mechanism to enable heat. Ends up with a fault in the VCU which makes adding a relay the easier option. Drew a diagram for and wired up a relay to a spare output on the PMU. Wrote logic to check the temp knob below 15%, the fan knob above 30%, as well as negative contactor and ignition on. Tested all knob positions and GUI inputs while watching in Raptor and the PMU software. The GUI indicates correctly and warm air blows. I never let it heat up enough to judge effectiveness. Only thing left for HVAC now is to charge the AC and tune that in."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-03 23:47",
+                  "text": "Verified heater circuit actually working by monitoring CAN data from the heater itself for output power. Double checked with a second data source Pack_Current from the BMS. Modified the PMU logic to also include fan and temp knobs as a criteria for turning on the cabin heat pump. Tested all scenarious with the user inputs from the GUI and knobs. Noticed the battery pump was running when it usually isn't, started to investigate, met for various discussions with the team before I could finish. Plugged into Preheim to investigate source of the difference in control."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-06 21:15",
+                  "text": "Tuned in the AC compressor with Dave, it's working as expected plus a little 'bonus'. The AC compressor 'hiccups' with HV connected but the logic unit powered off. Powering up the compressor logic controller without Ampere commanding it to actually compress causes a VCU level fault. Shared to Slack."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-11 22:31",
+                  "text": "Catching up on Slack before the meeting. Looked into Claudes diagnosis of the AC issue. Looks like the PMU program has never changed for that channel and Claude picked up on the troubleshooting I did as the actual problem, not knowing that at time the system was supposed to be operating different than the rest of the fleet. This was required to verify the 450V compressor functions differently than the 400V one and would work better under a different control sequence. Verified VCU settings for the battery were wrong and corrected."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-13 22:16",
+                  "text": "Forced the car to suck out the BMS config again and the fully charged range estimate dropped from 306.04 to 149.58 miles. The new battery health calculations result in 146.4 Ah for the pack, a very reasonable estimate. Also verified Dave's findings on the AC compressor from the computer side. The hiccup issue has been magically fixed."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-17 17:08",
+                  "text": "image.png\nsettings found in raptor when checking initially"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-17 17:13",
+                  "text": "image.png\nadjusted settings"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-17 17:34",
+                  "text": "test drove vehicle.\nfound that at gui 60 the speedo was off by 2mph.\ngoing to reduce overall tire diameter by a small amount to try and get the delta as low as possible"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-17 17:36",
+                  "text": "image.png\nadjusted settings"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-17 17:44",
+                  "text": "Will need to test drive the vehicle to determine if the speedometer is more accurate."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-17 23:10",
+                  "text": "image.png\nHad to update the vehicle weight to kg."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-17 23:25",
+                  "text": "Went through the VCU and verified all of the Vehicle Parameters were set into the VCU appropriately.\nThe tire size on this vehicle is 185vR15... there isnt any aspect ratio listed. According to the googles though total diameter is approx 675mm to 677mm.\nAdjusted settings appropriately in the VCU and\u00a0 switched all of the parameters from Display to Calibration.\nTest drove the vehicle with Dave. Found that the GUI displayed the same speed as my Phone did. Speedo gauge was approx 1-2mph high.\nAdjusted tire size down from 0.675 to 0.665.\nVehicle can be test driven again to verify that we are closer to a 0 delta. Not 100% sure if there is a filter that Peterson is adding to the speed or not but that would explain the slight difference. Or the fact that the GUI and My phone were both using GPS data while the speedo gauge was using calculations. Either way we are much much closer than the 20% that was noticed\nFinal vehicle weight wasn't recorded explicitly so the weight that is in there is close but not exact.\nMessaged Ryan to gather the wifi credentials for this car."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-18 19:54",
+                  "text": "Noticed the GUI in this vehicle is operating a tad bit different than other GUIs we have had in the past.\nWent through the Update process for the GUI.\nUpdated and or Installed all necessary .apk files.\nUpdated .xml file and realdash dashboard.\nOperations found to boot at different speeds.\nThe boot time on this GUI is much much faster than all of our other units. Unsure why this is at this time.\nAmpere Software will finish booting before CAN 3 messages are ready.\nSo there is a slight \" loading time \" feel present for this vehicle. This however seems to be normal operation on all our vehicles except boot times are a bit longer so by the time everything loads the Messages are already there and present so there isnt that \"loading\" feeling.\nPossible we take a trace of CAN3 and have claude see if there are any noticeable issues with it."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-20 22:51",
+                  "text": "Sat down with Brandon and talked through how the VCU and GUI work together to get gear ratio and vehicle weight input. Fixed the incorrect numbers, correlated startup sheet."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-25 20:22",
+                  "text": "Got the Wifi Credentials for this vehicle and updated documentation.\n\nTuxedo2 - username\nsweettea - password"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-09 20:59",
+                  "text": "Confirmed vehicle still on the VCU firmware to test AC hiccup issue.\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-09 21:23",
+                  "text": "image.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-09 21:32",
+                  "text": "Went to verify status of the AC system on Teague.\nFound the Drive Button LED to not be lighting Up. Tested Drive button. Found no response.\nPossible disconnected on the back side? Or death of a button.\nThis will need to be looked at.\nVerified Teague was on the VCU firmware that we talked about this morning. Sat in the car with the vehicle on.\nFound that the AC was acting as intended. No noticeable hiccups or blips from the AC compressor.\nSo as of right now Yes the fix in the VCU_516_Beta10813_SDU_Persist should be moved over to the newest firmware to allow us to update this vehicle and keep the Hiccup fix.\nHowever this car is still experiencing the AC low voltage errors.\nAs the car is turning off you can observe the HV Fault lamp pop up on the right before the GUI screen turns off. So this seems like its happening during Key Off. Maybe we have Andrew look into the thresholds that may be causing this as well. Has the contactors open but the CAN messages are still sending Valid checks?"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-10 21:58",
+                  "text": "Added wifi credentials to Logger."
+                }
+              ],
+              "checklist_items": [
+                {
+                  "checklist": "Checklist",
+                  "name": "Add wifi credentials",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Test fast charging",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Perform full overnight charge",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Determine the correct settings for 450V components (AC comp, OBC, DCDC, precharge resistor, etc)",
+                  "resolved": false
+                }
+              ],
+              "content_hash": "98a547f220489dcbff48addfeb1c6e3997f02c2b8b8a7462881e16db339f4fdb"
             }
           ]
         },
@@ -2421,9 +2548,20 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868jj1ac8",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "David Webber",
+                  "date": "2026-07-02 11:10",
+                  "text": "I don't believe we have a design for this yet"
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-09-10 15:14",
+                  "text": "Parts ETA = 9/11"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "660d5d6ca681f665bcf4d9c15314bf8bfa08105e09f99c9809d6d4ba2fad2219"
+              "content_hash": "c804e9f818e6635e546e13cb0c189169ec55fff45bdb08ee7ab54685be19e957"
             },
             {
               "id": "868m3t9eq",
@@ -2446,9 +2584,15 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868kzdw3t",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-09-08 03:47",
+                  "text": "Verified the AC compressor hiccup was not solveable in the latest firmware release. Rolled back the firmware so the AC would be working, posted findings to Slack."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "d5a1aa55c34751a42ba48c7a10699affc93e322a0843ec4b3d0f7dd98b960ffd"
+              "content_hash": "b0992c84c0bdcc16e98d9fa05aa8c4143618104bec4c979eb0af0c9662e6a7c3"
             }
           ]
         },
@@ -2470,5 +2614,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-15T11:11:40Z"
+  "generated_at": "2026-09-15T11:25:49Z"
 }
