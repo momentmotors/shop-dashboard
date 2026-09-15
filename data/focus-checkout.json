@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T21:13:13.828110Z",
+  "updated_at": "2026-09-15T21:25:10.652488Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1939,6 +1939,16 @@
           "name": "Ben Drinkard",
           "tasks": [
             {
+              "id": "868hbnfk6",
+              "name": "Install GUI assembly",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868hbnfk6",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "cd0bc0ea600491b4fbceb878cf61aef187e2e4fddcd0748dca6bd53811d1287d"
+            },
+            {
               "id": "868k6ttbf",
               "name": "Install audio system",
               "status": "Open",
@@ -2476,5 +2486,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-15T21:11:11Z"
+  "generated_at": "2026-09-15T21:23:21Z"
 }

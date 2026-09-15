@@ -2,8 +2,8 @@
   "helpers": [
     {
       "project": "LB 82 911",
-      "total_hours": 66.2,
-      "pct_of_total": 10.7,
+      "total_hours": 68.8,
+      "pct_of_total": 11.1,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -18,16 +18,16 @@
           "hours": 8.5
         },
         {
+          "task": "HVAC",
+          "hours": 6.0
+        },
+        {
           "task": "Manufacturing - Core",
           "hours": 5.5
         },
         {
           "task": "Exterior",
           "hours": 4.5
-        },
-        {
-          "task": "HVAC",
-          "hours": 3.5
         },
         {
           "task": "Cooling",
@@ -171,7 +171,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 40.5,
-      "pct_of_total": 6.6,
+      "pct_of_total": 6.5,
       "tasks": [
         {
           "task": "Battery Pack",
@@ -272,7 +272,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 20.8,
-      "pct_of_total": 3.4,
+      "pct_of_total": 3.3,
       "tasks": [
         {
           "task": "Interior",
@@ -340,20 +340,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 99.5,
+    "total_hours": 100.2,
     "pct_of_total": 16.1,
-    "avg_per_person_per_day": 1.13,
+    "avg_per_person_per_day": 1.14,
     "flagged": true,
     "tech_count": 8,
     "working_days": 11,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 40.8
+        "hours": 41.0
       },
       {
         "label": "Shop Meetings",
-        "hours": 34.2
+        "hours": 34.8
       },
       {
         "label": "Personal Meetings",
@@ -439,10 +439,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 457.0,
-    "non_billable_hours": 160.8,
+    "billable_hours": 459.5,
+    "non_billable_hours": 161.5,
     "pto_hours": 8.0,
-    "total_hours": 617.8
+    "total_hours": 621.0
   },
-  "generated_at": "2026-09-15T21:11:11Z"
+  "generated_at": "2026-09-15T21:23:21Z"
 }
