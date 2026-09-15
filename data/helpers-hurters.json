@@ -132,7 +132,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 50.2,
-      "pct_of_total": 8.0,
+      "pct_of_total": 7.9,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -170,8 +170,8 @@
     },
     {
       "project": "Lee 68 Mustang",
-      "total_hours": 40.5,
-      "pct_of_total": 6.4,
+      "total_hours": 42.0,
+      "pct_of_total": 6.6,
       "tasks": [
         {
           "task": "Battery Pack",
@@ -188,6 +188,10 @@
         {
           "task": "Vehicle Control",
           "hours": 6.2
+        },
+        {
+          "task": "Instrumentation",
+          "hours": 1.5
         },
         {
           "task": "Charging",
@@ -341,7 +345,7 @@
   ],
   "shop_work": {
     "total_hours": 99.8,
-    "pct_of_total": 15.8,
+    "pct_of_total": 15.7,
     "avg_per_person_per_day": 1.13,
     "flagged": true,
     "tech_count": 8,
@@ -439,10 +443,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 460.0,
+    "billable_hours": 461.5,
     "non_billable_hours": 172.0,
     "pto_hours": 8.0,
-    "total_hours": 632.0
+    "total_hours": 633.5
   },
-  "generated_at": "2026-09-15T22:11:40Z"
+  "generated_at": "2026-09-15T22:25:03Z"
 }
