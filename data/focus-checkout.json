@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T17:37:07.023227Z",
+  "updated_at": "2026-09-16T17:50:40.349552Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1674,39 +1674,24 @@
           ]
         },
         {
-          "name": "David Webber",
+          "name": "Ben Drinkard",
           "tasks": [
             {
-              "id": "868m4x44u",
-              "name": "Assess interior squeaks and rattles",
+              "id": "868kzamnu",
+              "name": "Address issues with top",
               "status": "Open",
               "list": "Preheim 72 Blazer",
-              "url": "https://app.clickup.com/t/868m4x44u",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "8fea1d6d1af49160ab84bcb7db71aea2821b265f67709e5cde86abebe31c7e84"
-            },
-            {
-              "id": "868m4x3uh",
-              "name": "Assess interior squeaks and rattles",
-              "status": "Open",
-              "list": "Preheim 72 Blazer",
-              "url": "https://app.clickup.com/t/868m4x3uh",
+              "url": "https://app.clickup.com/t/868kzamnu",
               "comments": [
                 {
-                  "author": "David Webber",
-                  "date": "2026-09-14 18:26",
-                  "text": "Multiple noises from tailgate and hard top\ntailgate latch and rods and release handle banging around in tailgate - removed components, installed dampening + lube and adjust\nTailgate and hardtop remaining noises \u2026\n- Missing bumper stop for tailgate - ordered replacement\n-tailgate straps noisy.. order nylon shims for an ATTEMPT to tighten these up\n-Rear window still knocking (side/side) in frame during bump/flex\u2026 already thick anti-rattle rubber here\u2026 There is cracking damage/repairs here ... this may be as good as it gets?\nHardtop latches loose and dry. - Adjust, tighten and lube. Rear window seal dry and creaking - clean/lube seal\nCreaking/squeaking from door/hood latches - clean/lube latches\nCenter console squeaks/rattles - VHB chrome trim in place, make and install felt bumpers for lid and ashtray insert"
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-01 18:01",
+                  "text": "removed the bolts in the top front\nremoved visors\nlifted the top up\ninserted sealant\nlet it set up\nreinstalled the top bolts\nsealed it back up\ntested in the rain leak is much better\nwindows need to be adjusted"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "7ba92a7f5c3623b7e0ad0821a8e2a39a94bdad948c6c0146371fd9344c0807a6"
-            }
-          ]
-        },
-        {
-          "name": "Ben Drinkard",
-          "tasks": [
+              "content_hash": "192445e261c9057599e975c37fa8b797c4c9d65666df973166836ebc8989febc"
+            },
             {
               "id": "868kzahbv",
               "name": "Install sway bars",
@@ -1742,6 +1727,37 @@
               ],
               "checklist_items": [],
               "content_hash": "a4061684cf2f82939ef2cab20fc4b4b29cb3927c5fcfb49c6119b1bb67007fc0"
+            }
+          ]
+        },
+        {
+          "name": "David Webber",
+          "tasks": [
+            {
+              "id": "868m4x44u",
+              "name": "Assess interior squeaks and rattles",
+              "status": "Open",
+              "list": "Preheim 72 Blazer",
+              "url": "https://app.clickup.com/t/868m4x44u",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "8fea1d6d1af49160ab84bcb7db71aea2821b265f67709e5cde86abebe31c7e84"
+            },
+            {
+              "id": "868m4x3uh",
+              "name": "Assess interior squeaks and rattles",
+              "status": "Open",
+              "list": "Preheim 72 Blazer",
+              "url": "https://app.clickup.com/t/868m4x3uh",
+              "comments": [
+                {
+                  "author": "David Webber",
+                  "date": "2026-09-14 18:26",
+                  "text": "Multiple noises from tailgate and hard top\ntailgate latch and rods and release handle banging around in tailgate - removed components, installed dampening + lube and adjust\nTailgate and hardtop remaining noises \u2026\n- Missing bumper stop for tailgate - ordered replacement\n-tailgate straps noisy.. order nylon shims for an ATTEMPT to tighten these up\n-Rear window still knocking (side/side) in frame during bump/flex\u2026 already thick anti-rattle rubber here\u2026 There is cracking damage/repairs here ... this may be as good as it gets?\nHardtop latches loose and dry. - Adjust, tighten and lube. Rear window seal dry and creaking - clean/lube seal\nCreaking/squeaking from door/hood latches - clean/lube latches\nCenter console squeaks/rattles - VHB chrome trim in place, make and install felt bumpers for lid and ashtray insert"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "7ba92a7f5c3623b7e0ad0821a8e2a39a94bdad948c6c0146371fd9344c0807a6"
             }
           ]
         },
@@ -2425,34 +2441,9 @@
         "matched_lists": [
           "Teague 62 Jaguar"
         ],
-        "open_tasks": 18
+        "open_tasks": 17
       },
       "assignees": [
-        {
-          "name": "Brandon Beaman",
-          "tasks": [
-            {
-              "id": "868m4aptq",
-              "name": "Aid in PRND indicator mod",
-              "status": "Open",
-              "list": "Teague 62 Jaguar",
-              "url": "https://app.clickup.com/t/868m4aptq",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "4eae9c967d413617f3b2b6d16cce340de0d7d3a4f43c92058cf2b45d8d918885"
-            },
-            {
-              "id": "868khu6f8",
-              "name": "Checkout vehicle",
-              "status": "Open",
-              "list": "Teague 62 Jaguar",
-              "url": "https://app.clickup.com/t/868khu6f8",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
-            }
-          ]
-        },
         {
           "name": "David Webber",
           "tasks": [
@@ -2475,6 +2466,21 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "05e4c0ef8406d9e45cab9d7165504704916b5f431ed2d5f22cc1ca60293d2451"
+            }
+          ]
+        },
+        {
+          "name": "Brandon Beaman",
+          "tasks": [
+            {
+              "id": "868khu6f8",
+              "name": "Checkout vehicle",
+              "status": "Open",
+              "list": "Teague 62 Jaguar",
+              "url": "https://app.clickup.com/t/868khu6f8",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
             }
           ]
         },
@@ -2511,5 +2517,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-16T17:35:23Z"
+  "generated_at": "2026-09-16T17:48:54Z"
 }
