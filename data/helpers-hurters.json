@@ -41,8 +41,8 @@
     },
     {
       "project": "Ritchie 71 Blazer",
-      "total_hours": 59.5,
-      "pct_of_total": 9.1,
+      "total_hours": 60.0,
+      "pct_of_total": 9.2,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -82,14 +82,14 @@
         },
         {
           "task": "Vehicle Control",
-          "hours": 0.5
+          "hours": 1.0
         }
       ]
     },
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 52.0,
-      "pct_of_total": 8.0,
+      "pct_of_total": 7.9,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -170,7 +170,7 @@
     },
     {
       "project": "Lee 68 Mustang",
-      "total_hours": 48.0,
+      "total_hours": 48.5,
       "pct_of_total": 7.4,
       "tasks": [
         {
@@ -191,7 +191,7 @@
         },
         {
           "task": "Audio",
-          "hours": 4.0
+          "hours": 4.5
         },
         {
           "task": "Instrumentation",
@@ -278,6 +278,33 @@
       ]
     },
     {
+      "project": "Preheim 72 Blazer",
+      "total_hours": 21.2,
+      "pct_of_total": 3.2,
+      "tasks": [
+        {
+          "task": "Interior",
+          "hours": 10.0
+        },
+        {
+          "task": "Exterior",
+          "hours": 4.5
+        },
+        {
+          "task": "Suspension",
+          "hours": 4.2
+        },
+        {
+          "task": "Audio",
+          "hours": 2.0
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 0.5
+        }
+      ]
+    },
+    {
       "project": "Teague 62 Jaguar",
       "total_hours": 20.8,
       "pct_of_total": 3.2,
@@ -297,29 +324,6 @@
         {
           "task": "Vehicle Control",
           "hours": 0.8
-        }
-      ]
-    },
-    {
-      "project": "Preheim 72 Blazer",
-      "total_hours": 20.8,
-      "pct_of_total": 3.2,
-      "tasks": [
-        {
-          "task": "Interior",
-          "hours": 10.0
-        },
-        {
-          "task": "Exterior",
-          "hours": 4.5
-        },
-        {
-          "task": "Suspension",
-          "hours": 4.2
-        },
-        {
-          "task": "Audio",
-          "hours": 2.0
         }
       ]
     },
@@ -352,9 +356,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 103.2,
-    "pct_of_total": 15.8,
-    "avg_per_person_per_day": 1.08,
+    "total_hours": 104.2,
+    "pct_of_total": 15.9,
+    "avg_per_person_per_day": 1.09,
     "flagged": true,
     "tech_count": 8,
     "working_days": 12,
@@ -369,7 +373,7 @@
       },
       {
         "label": "Personal Meetings",
-        "hours": 13.8
+        "hours": 14.8
       },
       {
         "label": "Organization",
@@ -400,7 +404,7 @@
     {
       "project": "Buck 70 280SL",
       "total_hours": 22.5,
-      "pct_of_total": 3.5,
+      "pct_of_total": 3.4,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -451,10 +455,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 476.2,
-    "non_billable_hours": 175.5,
+    "billable_hours": 477.8,
+    "non_billable_hours": 176.5,
     "pto_hours": 12.0,
-    "total_hours": 651.8
+    "total_hours": 654.2
   },
-  "generated_at": "2026-09-16T15:48:42Z"
+  "generated_at": "2026-09-16T16:14:11Z"
 }
