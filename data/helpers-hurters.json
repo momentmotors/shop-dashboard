@@ -89,7 +89,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 59.0,
-      "pct_of_total": 8.8,
+      "pct_of_total": 8.7,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -210,7 +210,7 @@
     {
       "project": "Krafcik 02 Caterham",
       "total_hours": 28.0,
-      "pct_of_total": 4.2,
+      "pct_of_total": 4.1,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -248,8 +248,8 @@
     },
     {
       "project": "Thacker 46 Woody",
-      "total_hours": 26.2,
-      "pct_of_total": 3.9,
+      "total_hours": 27.0,
+      "pct_of_total": 4.0,
       "tasks": [
         {
           "task": "Audio",
@@ -257,7 +257,7 @@
         },
         {
           "task": "HVAC",
-          "hours": 5.5
+          "hours": 6.2
         },
         {
           "task": "Exterior",
@@ -360,20 +360,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 106.5,
-    "pct_of_total": 15.8,
-    "avg_per_person_per_day": 1.11,
+    "total_hours": 107.5,
+    "pct_of_total": 15.9,
+    "avg_per_person_per_day": 1.12,
     "flagged": true,
     "tech_count": 8,
     "working_days": 12,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 44.2
+        "hours": 44.8
       },
       {
         "label": "Shop Meetings",
-        "hours": 37.8
+        "hours": 38.2
       },
       {
         "label": "Personal Meetings",
@@ -459,10 +459,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 495.0,
-    "non_billable_hours": 178.8,
+    "billable_hours": 495.8,
+    "non_billable_hours": 179.8,
     "pto_hours": 12.0,
-    "total_hours": 673.8
+    "total_hours": 675.5
   },
-  "generated_at": "2026-09-16T18:49:57Z"
+  "generated_at": "2026-09-16T19:10:23Z"
 }
