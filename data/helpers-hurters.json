@@ -3,7 +3,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 76.5,
-      "pct_of_total": 11.0,
+      "pct_of_total": 10.9,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -42,7 +42,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 60.0,
-      "pct_of_total": 8.6,
+      "pct_of_total": 8.5,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -89,7 +89,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 59.0,
-      "pct_of_total": 8.5,
+      "pct_of_total": 8.4,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -132,7 +132,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 59.0,
-      "pct_of_total": 8.5,
+      "pct_of_total": 8.4,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -175,7 +175,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 52.0,
-      "pct_of_total": 7.5,
+      "pct_of_total": 7.4,
       "tasks": [
         {
           "task": "Battery Pack",
@@ -209,8 +209,8 @@
     },
     {
       "project": "Krafcik 02 Caterham",
-      "total_hours": 28.0,
-      "pct_of_total": 4.0,
+      "total_hours": 35.5,
+      "pct_of_total": 5.0,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -225,6 +225,14 @@
           "hours": 6.0
         },
         {
+          "task": "Battery Pack",
+          "hours": 4.8
+        },
+        {
+          "task": "Cooling",
+          "hours": 3.5
+        },
+        {
           "task": "Scanning",
           "hours": 1.5
         },
@@ -235,21 +243,13 @@
         {
           "task": "Engineering - Support",
           "hours": 0.5
-        },
-        {
-          "task": "Cooling",
-          "hours": 0.5
-        },
-        {
-          "task": "Battery Pack",
-          "hours": 0.2
         }
       ]
     },
     {
       "project": "Thacker 46 Woody",
       "total_hours": 27.0,
-      "pct_of_total": 3.9,
+      "pct_of_total": 3.8,
       "tasks": [
         {
           "task": "Audio",
@@ -284,7 +284,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 24.8,
-      "pct_of_total": 3.6,
+      "pct_of_total": 3.5,
       "tasks": [
         {
           "task": "Interior",
@@ -311,7 +311,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 20.8,
-      "pct_of_total": 3.0,
+      "pct_of_total": 2.9,
       "tasks": [
         {
           "task": "HVAC",
@@ -360,8 +360,8 @@
     }
   ],
   "shop_work": {
-    "total_hours": 110.0,
-    "pct_of_total": 15.8,
+    "total_hours": 110.8,
+    "pct_of_total": 15.7,
     "avg_per_person_per_day": 1.15,
     "flagged": true,
     "tech_count": 8,
@@ -369,7 +369,7 @@
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 46.2
+        "hours": 47.0
       },
       {
         "label": "Shop Meetings",
@@ -397,7 +397,7 @@
     {
       "project": "ICON Bronco Prototype",
       "total_hours": 23.5,
-      "pct_of_total": 3.4,
+      "pct_of_total": 3.3,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -459,10 +459,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 513.2,
-    "non_billable_hours": 182.2,
+    "billable_hours": 520.8,
+    "non_billable_hours": 183.0,
     "pto_hours": 12.0,
-    "total_hours": 695.5
+    "total_hours": 703.8
   },
-  "generated_at": "2026-09-16T22:35:29Z"
+  "generated_at": "2026-09-16T22:48:35Z"
 }
