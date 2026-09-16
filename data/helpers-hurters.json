@@ -3,7 +3,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 72.0,
-      "pct_of_total": 10.7,
+      "pct_of_total": 10.5,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -42,7 +42,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 60.0,
-      "pct_of_total": 8.9,
+      "pct_of_total": 8.8,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -87,9 +87,52 @@
       ]
     },
     {
+      "project": "Warke 61 Eldorado",
+      "total_hours": 59.0,
+      "pct_of_total": 8.6,
+      "tasks": [
+        {
+          "task": "Manufacturing - Product",
+          "hours": 30.8
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 5.8
+        },
+        {
+          "task": "HVAC",
+          "hours": 4.8
+        },
+        {
+          "task": "Steering",
+          "hours": 4.5
+        },
+        {
+          "task": "Charging",
+          "hours": 4.5
+        },
+        {
+          "task": "Brakes",
+          "hours": 3.5
+        },
+        {
+          "task": "Cooling",
+          "hours": 3.0
+        },
+        {
+          "task": "Motor & Transmission",
+          "hours": 1.2
+        },
+        {
+          "task": "Manufacturing - Core",
+          "hours": 1.0
+        }
+      ]
+    },
+    {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 59.0,
-      "pct_of_total": 8.7,
+      "pct_of_total": 8.6,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -130,52 +173,9 @@
       ]
     },
     {
-      "project": "Warke 61 Eldorado",
-      "total_hours": 54.0,
-      "pct_of_total": 8.0,
-      "tasks": [
-        {
-          "task": "Manufacturing - Product",
-          "hours": 25.8
-        },
-        {
-          "task": "Vehicle Control",
-          "hours": 5.8
-        },
-        {
-          "task": "HVAC",
-          "hours": 4.8
-        },
-        {
-          "task": "Steering",
-          "hours": 4.5
-        },
-        {
-          "task": "Charging",
-          "hours": 4.5
-        },
-        {
-          "task": "Brakes",
-          "hours": 3.5
-        },
-        {
-          "task": "Cooling",
-          "hours": 3.0
-        },
-        {
-          "task": "Motor & Transmission",
-          "hours": 1.2
-        },
-        {
-          "task": "Manufacturing - Core",
-          "hours": 1.0
-        }
-      ]
-    },
-    {
       "project": "Lee 68 Mustang",
       "total_hours": 49.5,
-      "pct_of_total": 7.3,
+      "pct_of_total": 7.2,
       "tasks": [
         {
           "task": "Battery Pack",
@@ -284,7 +284,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 24.8,
-      "pct_of_total": 3.7,
+      "pct_of_total": 3.6,
       "tasks": [
         {
           "task": "Interior",
@@ -311,7 +311,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 20.8,
-      "pct_of_total": 3.1,
+      "pct_of_total": 3.0,
       "tasks": [
         {
           "task": "HVAC",
@@ -360,16 +360,16 @@
     }
   ],
   "shop_work": {
-    "total_hours": 107.5,
+    "total_hours": 108.5,
     "pct_of_total": 15.9,
-    "avg_per_person_per_day": 1.12,
+    "avg_per_person_per_day": 1.13,
     "flagged": true,
     "tech_count": 8,
     "working_days": 12,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 44.8
+        "hours": 45.2
       },
       {
         "label": "Shop Meetings",
@@ -377,7 +377,7 @@
       },
       {
         "label": "Personal Meetings",
-        "hours": 14.8
+        "hours": 15.2
       },
       {
         "label": "Organization",
@@ -397,7 +397,7 @@
     {
       "project": "ICON Bronco Prototype",
       "total_hours": 23.5,
-      "pct_of_total": 3.5,
+      "pct_of_total": 3.4,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -459,10 +459,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 495.8,
-    "non_billable_hours": 179.8,
+    "billable_hours": 502.8,
+    "non_billable_hours": 180.8,
     "pto_hours": 12.0,
-    "total_hours": 675.5
+    "total_hours": 683.5
   },
-  "generated_at": "2026-09-16T19:10:23Z"
+  "generated_at": "2026-09-16T19:22:36Z"
 }
