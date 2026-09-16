@@ -46,9 +46,9 @@
     },
     {
       "month": "2025-12",
-      "productivity_pct": 68.8,
+      "productivity_pct": 68.9,
       "billable_hours": 811.0,
-      "total_hours": 1250.0,
+      "total_hours": 1249.8,
       "pto_hours": 72.0
     },
     {
@@ -209,5 +209,5 @@
       "total_hours": 1.0
     }
   ],
-  "generated_at": "2026-09-16T14:41:32Z"
+  "generated_at": "2026-09-16T14:50:11Z"
 }
