@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T20:50:17.900519Z",
+  "updated_at": "2026-09-16T21:13:22.897859Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1560,33 +1560,12 @@
         "matched_lists": [
           "Preheim 72 Blazer"
         ],
-        "open_tasks": 11
+        "open_tasks": 8
       },
       "assignees": [
         {
           "name": "Billy Arrasmith",
           "tasks": [
-            {
-              "id": "868kzamnu",
-              "name": "Address issues with top",
-              "status": "Open",
-              "list": "Preheim 72 Blazer",
-              "url": "https://app.clickup.com/t/868kzamnu",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-01 18:01",
-                  "text": "removed the bolts in the top front\nremoved visors\nlifted the top up\ninserted sealant\nlet it set up\nreinstalled the top bolts\nsealed it back up\ntested in the rain leak is much better\nwindows need to be adjusted"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-16 17:56",
-                  "text": "Drove Preheim to listen for source of rattles and clunks for rear hatch\nDrove to feel for wheel vibration issues\nPadding added to rear hatch and trunk\nNoise is vastly improved\nLinkage in door and hatch still makes noise but it is a quarter of what it was"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "6e1579760f033edeca277bfc163c631dc4d3675267d4c4cb904db3f3c9231385"
-            },
             {
               "id": "868kzapnn",
               "name": "Address rear tire wobble",
@@ -1614,99 +1593,51 @@
               "content_hash": "99f8eeeaf4739735b3db8035734bd1c654ad4e0034f2d6a4ef70d831b32fe6df"
             },
             {
-              "id": "868kzhwzn",
-              "name": "Install power window assmebly",
+              "id": "868m63v76",
+              "name": "Install horns",
               "status": "Open",
               "list": "Preheim 72 Blazer",
-              "url": "https://app.clickup.com/t/868kzhwzn",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-02 03:30",
-                  "text": "ordered power windows"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-02 03:31",
-                  "text": "Screenshot 2026-09-01 at 10.30.51\u202fPM.png"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-10 02:37",
-                  "text": "power windows came in\nlooked at them and inventoried all the parts\nwe are good to go"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-11 02:54",
-                  "text": "installed the windows and regulators\nwired in the switches\nre assembled the doors\ntested the windows\nall is good\nhad to order new seals\nthey were glued in the wrong place\nIMG_2080.jpeg\nIMG_2079.jpeg"
-                }
-              ],
+              "url": "https://app.clickup.com/t/868m63v76",
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "f186884232077eb9faf00a4d028513a4ef27bc96e0bd5997fc5ec4ed6b2714cf"
+              "content_hash": "33251b80e3c60dee2a2ffa8673bcf4a55000a82bb13611a0d312a4136583c23a"
+            }
+          ]
+        },
+        {
+          "name": "David Webber",
+          "tasks": [
+            {
+              "id": "868m4x44u",
+              "name": "Assess interior squeaks and rattles",
+              "status": "Open",
+              "list": "Preheim 72 Blazer",
+              "url": "https://app.clickup.com/t/868m4x44u",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "8fea1d6d1af49160ab84bcb7db71aea2821b265f67709e5cde86abebe31c7e84"
             },
             {
-              "id": "868kx4870",
-              "name": "Level ride height",
+              "id": "868m4x3uh",
+              "name": "Assess interior squeaks and rattles",
               "status": "Open",
               "list": "Preheim 72 Blazer",
-              "url": "https://app.clickup.com/t/868kx4870",
+              "url": "https://app.clickup.com/t/868m4x3uh",
               "comments": [
                 {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-27 02:47",
-                  "text": "checked out the leaf springs\nloosed up the bolts\njacked up the frame\ntightened up the bolts again\nleveled off within 1/2 inch now will see how it goes\nall looks good"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-27 12:53",
-                  "text": "IMG_1977.jpeg\nIMG_1976.jpeg\nIMG_1975.jpeg\nIMG_1974.jpeg"
+                  "author": "David Webber",
+                  "date": "2026-09-14 18:26",
+                  "text": "Multiple noises from tailgate and hard top\ntailgate latch and rods and release handle banging around in tailgate - removed components, installed dampening + lube and adjust\nTailgate and hardtop remaining noises \u2026\n- Missing bumper stop for tailgate - ordered replacement\n-tailgate straps noisy.. order nylon shims for an ATTEMPT to tighten these up\n-Rear window still knocking (side/side) in frame during bump/flex\u2026 already thick anti-rattle rubber here\u2026 There is cracking damage/repairs here ... this may be as good as it gets?\nHardtop latches loose and dry. - Adjust, tighten and lube. Rear window seal dry and creaking - clean/lube seal\nCreaking/squeaking from door/hood latches - clean/lube latches\nCenter console squeaks/rattles - VHB chrome trim in place, make and install felt bumpers for lid and ashtray insert"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "3fea4b22306c5163892b4a9fcf27abd5924045b2cf1aeb2bc794f86dc5ff1d7e"
-            },
-            {
-              "id": "868kx4f7u",
-              "name": "Test drive vehicle",
-              "status": "Open",
-              "list": "Preheim 72 Blazer",
-              "url": "https://app.clickup.com/t/868kx4f7u",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-31 20:37",
-                  "text": "test drove truck\nmade my list and sent to Alex\nfound several issues we need to take care of"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "8e9970e45befd77f7e4452bc9ec7de43adca84059bb82f6740b695415662d058"
+              "content_hash": "7ba92a7f5c3623b7e0ad0821a8e2a39a94bdad948c6c0146371fd9344c0807a6"
             }
           ]
         },
         {
           "name": "Ben Drinkard",
           "tasks": [
-            {
-              "id": "868kzamnu",
-              "name": "Address issues with top",
-              "status": "Open",
-              "list": "Preheim 72 Blazer",
-              "url": "https://app.clickup.com/t/868kzamnu",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-01 18:01",
-                  "text": "removed the bolts in the top front\nremoved visors\nlifted the top up\ninserted sealant\nlet it set up\nreinstalled the top bolts\nsealed it back up\ntested in the rain leak is much better\nwindows need to be adjusted"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-16 17:56",
-                  "text": "Drove Preheim to listen for source of rattles and clunks for rear hatch\nDrove to feel for wheel vibration issues\nPadding added to rear hatch and trunk\nNoise is vastly improved\nLinkage in door and hatch still makes noise but it is a quarter of what it was"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "6e1579760f033edeca277bfc163c631dc4d3675267d4c4cb904db3f3c9231385"
-            },
             {
               "id": "868kzahbv",
               "name": "Install sway bars",
@@ -1747,37 +1678,6 @@
               ],
               "checklist_items": [],
               "content_hash": "c42656a4558af50d56d1e5411e94b110bde13912d5ef1e0875efecc28d3e78d8"
-            }
-          ]
-        },
-        {
-          "name": "David Webber",
-          "tasks": [
-            {
-              "id": "868m4x44u",
-              "name": "Assess interior squeaks and rattles",
-              "status": "Open",
-              "list": "Preheim 72 Blazer",
-              "url": "https://app.clickup.com/t/868m4x44u",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "8fea1d6d1af49160ab84bcb7db71aea2821b265f67709e5cde86abebe31c7e84"
-            },
-            {
-              "id": "868m4x3uh",
-              "name": "Assess interior squeaks and rattles",
-              "status": "Open",
-              "list": "Preheim 72 Blazer",
-              "url": "https://app.clickup.com/t/868m4x3uh",
-              "comments": [
-                {
-                  "author": "David Webber",
-                  "date": "2026-09-14 18:26",
-                  "text": "Multiple noises from tailgate and hard top\ntailgate latch and rods and release handle banging around in tailgate - removed components, installed dampening + lube and adjust\nTailgate and hardtop remaining noises \u2026\n- Missing bumper stop for tailgate - ordered replacement\n-tailgate straps noisy.. order nylon shims for an ATTEMPT to tighten these up\n-Rear window still knocking (side/side) in frame during bump/flex\u2026 already thick anti-rattle rubber here\u2026 There is cracking damage/repairs here ... this may be as good as it gets?\nHardtop latches loose and dry. - Adjust, tighten and lube. Rear window seal dry and creaking - clean/lube seal\nCreaking/squeaking from door/hood latches - clean/lube latches\nCenter console squeaks/rattles - VHB chrome trim in place, make and install felt bumpers for lid and ashtray insert"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "7ba92a7f5c3623b7e0ad0821a8e2a39a94bdad948c6c0146371fd9344c0807a6"
             }
           ]
         },
@@ -1863,7 +1763,7 @@
         "matched_lists": [
           "Ritchie 71 Blazer"
         ],
-        "open_tasks": 35
+        "open_tasks": 33
       },
       "assignees": [
         {
@@ -1885,19 +1785,25 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868hbnnhz",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Alex Noonan",
+                  "date": "2026-07-27 21:10",
+                  "text": "Need to start up vehicle first"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-09 03:15",
+                  "text": "test drove checking the DS bolts\nhave some vibration but it goes away after 65\nwill need the balance the tires"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-13 23:53",
+                  "text": "printed the rings\nset the rings 180* from the weights\ntest drove\nadjusted the position\nbrought back and removed one of the weights from each DS\nretested drove better\nadjusted the DS rings\nfound the best position at the moment\nsending it to balance the tires\nwhen I get back I will finish\nit is a lot better now"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "3171a318632a0fe1c991f4e58f9902e494db2e3c43a879ff3508158c6dc77e07"
-            },
-            {
-              "id": "868hbnfk6",
-              "name": "Install GUI assembly",
-              "status": "Open",
-              "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868hbnfk6",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "cd0bc0ea600491b4fbceb878cf61aef187e2e4fddcd0748dca6bd53811d1287d"
+              "content_hash": "b7339e85fa602e9227bbdd2e8bdc6fa9469383b5f22e1e0877eca97c6346389e"
             },
             {
               "id": "868hbmwkf",
@@ -1905,9 +1811,20 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868hbmwkf",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-05-27 02:55",
+                  "text": "started HVAC ducting\nadded the adapters on the box\nrouting the hoses to the vents"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-05-27 20:04",
+                  "text": "HVAC ducting installed\ninstalled the vents\nran ducting to the vents\ninstalled the defrost\nrand ducting to the defrost\nduct work \nIMG_1116.jpeg\nIMG_1115.jpeg\nIMG_1114.jpeg\nis done"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "142c7dc10ffd1c432d3222c7477111b2af8ffb1f68bb8468efdb659ddb15f50f"
+              "content_hash": "4b203d696cbccb6fa094d770d4180322367d2cf70d1de7c2c0e1df98ad9fea9e"
             },
             {
               "id": "868m63pqp",
@@ -1934,6 +1851,16 @@
               ],
               "checklist_items": [],
               "content_hash": "2aa8a1589ae675ef2968cbacc6f98d00daf87b8afd119e17e8350d38e262df2c"
+            },
+            {
+              "id": "868m63uu0",
+              "name": "Install horns",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868m63uu0",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "33251b80e3c60dee2a2ffa8673bcf4a55000a82bb13611a0d312a4136583c23a"
             },
             {
               "id": "868m63qvh",
@@ -1965,32 +1892,6 @@
               ],
               "checklist_items": [],
               "content_hash": "32684eed741507b25e13c243375bae6fdee88fa9335abed6222ea2d2d854c9cc"
-            },
-            {
-              "id": "868gaza16",
-              "name": "Manufacture Core - GUI Mount",
-              "status": "Open",
-              "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868gaza16",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "343e363118156f75652f0a31310daa43313af26b3097b7471d0d9cd78416f3b3"
-            },
-            {
-              "id": "868m3h8yd",
-              "name": "Troubleshoot charging issue",
-              "status": "Open",
-              "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868m3h8yd",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-10 02:30",
-                  "text": "blazer didn't charge\nit was turning off every 45 min\nplugged in the shop charger\nwas able to charge the truck up\nmy personal charged was the issue\ni checked wiring and pins to rule it out"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "789c4723267bcecaf9212351dfa330cb22ab6acbd8be376bbce57827a83aebe1"
             }
           ]
         },
@@ -1998,24 +1899,90 @@
           "name": "Ben Drinkard",
           "tasks": [
             {
-              "id": "868hbnfk6",
-              "name": "Install GUI assembly",
-              "status": "Open",
-              "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868hbnfk6",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "cd0bc0ea600491b4fbceb878cf61aef187e2e4fddcd0748dca6bd53811d1287d"
-            },
-            {
               "id": "868k6ttbf",
               "name": "Install audio system",
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868k6ttbf",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Alex Noonan",
+                  "date": "2026-07-27 21:11",
+                  "text": "In conversations with customer on this topic. Setup needs to be confirmed before we are able to proceed."
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-03 22:06",
+                  "text": "Audio system has been spec'd and ordered.\nJL C2 components for front and rear 6\" & 6.5\"\nJL W3 slim for lows\nJL RD900-5 as amplifier"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-06 20:19",
+                  "text": "Audio arrived minus fwd speaker spacers\nTook measurements and sketched box layout for subwoofer mounting under rear bench seat\nMocked up front speakers\nMeasured for amplifier mount location"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 00:18",
+                  "text": "Headunit installed for mockup and wiring"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 00:19",
+                  "text": "1000014708.jpg1000014709.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-19 21:31",
+                  "text": "Ordered RCAs for Ritchie\nBuilt audio subharness\nChose amplifier position"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-20 19:27",
+                  "text": "Picked up RCAs for Ritchie Audio"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-25 00:53",
+                  "text": "paste_04dbeca5-398e-4049-aa83-1a092e02b518.jpgpaste_362d3eb0-7a0c-4c7e-ab58-032a685ebabf.jpgpaste_632576d7-0d34-46a1-8038-c5e8451d3f68.jpgpaste_6dbf9016-5284-452c-aad0-21bbe5c2bb39.jpgpaste_5b91a4b5-f1f6-4d25-9ce2-61b71425cb93.jpgpaste_956fe9de-345a-4a94-9d44-e604e46cbf5a.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-25 00:53",
+                  "text": "FWD speaker spacers received\nSpeakers and spacers installed in kick panels\nAmp mounting hardware position marked and nutserts installed\nAmp mocked up\nSpeaker wiring ran and secured\nRCAs ran and secured\nRemote wire ran and secured\nWiring to amplifier cut to length\nCarpet reinstalled\nHoles and slots in carpet made for wiring and bolt pass throughs\nAmplifier installed\nAmplifier wiring installed minus power and ground\nKick panels installed and wiring to fwd speakers finished\nKick panels tapped for retainment hardware and installed"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-02 18:01",
+                  "text": "Order replacement radio mounting bezel\nMake support bar for back of radio"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-02 19:26",
+                  "text": "Power and ground amplifier wiring ran"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-10 21:33",
+                  "text": "Headunit removed\nBezel replaced\nKnob height adjusted\nHeadunit reinstalled\nSupport bar installed"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-10 21:34",
+                  "text": "paste_43912374-26fa-48e6-b697-975a749723f8.jpgpaste_2fdf9460-5209-471e-bc91-51aa867589ac.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-14 23:15",
+                  "text": "paste_c129c781-c1ea-4418-a7b9-9894318e9607.jpgpaste_c56d3637-9e0a-4ea3-903b-7f68698f4441.jpgpaste_3a617898-dd6f-48e0-bae0-27756300c6c1.jpgpaste_9d23d044-f165-417a-87a6-22bacea8ea35.jpgpaste_218d0218-857e-4ce5-9005-b7d6ad087f6e.jpgpaste_75d6863d-5a72-482b-87e8-88fafcfb546e.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-14 23:15",
+                  "text": "Center console has been assembled minus emblem and trim ring\nFloor has been tapped for hardware\nConsole installed"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "d7872d4902746774cea8e7a57c66ebc49fcc4ad91f595624ef93e2354cd44fdc"
+              "content_hash": "a58badc0b9ba678a23168020ed025d7aea1514a96a4cfc534dee6f91f5188d90"
             },
             {
               "id": "868kpg6th",
@@ -2469,5 +2436,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-16T20:48:27Z"
+  "generated_at": "2026-09-16T21:11:46Z"
 }
