@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T17:50:40.349552Z",
+  "updated_at": "2026-09-16T18:16:50.397125Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1572,10 +1572,15 @@
                   "author": "Billy Arrasmith",
                   "date": "2026-09-01 18:01",
                   "text": "removed the bolts in the top front\nremoved visors\nlifted the top up\ninserted sealant\nlet it set up\nreinstalled the top bolts\nsealed it back up\ntested in the rain leak is much better\nwindows need to be adjusted"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-16 17:56",
+                  "text": "Drove Preheim to listen for source of rattles and clunks for rear hatch\nDrove to feel for wheel vibration issues\nPadding added to rear hatch and trunk\nNoise is vastly improved\nLinkage in door and hatch still makes noise but it is a quarter of what it was"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "192445e261c9057599e975c37fa8b797c4c9d65666df973166836ebc8989febc"
+              "content_hash": "6e1579760f033edeca277bfc163c631dc4d3675267d4c4cb904db3f3c9231385"
             },
             {
               "id": "868kzapnn",
@@ -1687,10 +1692,15 @@
                   "author": "Billy Arrasmith",
                   "date": "2026-09-01 18:01",
                   "text": "removed the bolts in the top front\nremoved visors\nlifted the top up\ninserted sealant\nlet it set up\nreinstalled the top bolts\nsealed it back up\ntested in the rain leak is much better\nwindows need to be adjusted"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-16 17:56",
+                  "text": "Drove Preheim to listen for source of rattles and clunks for rear hatch\nDrove to feel for wheel vibration issues\nPadding added to rear hatch and trunk\nNoise is vastly improved\nLinkage in door and hatch still makes noise but it is a quarter of what it was"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "192445e261c9057599e975c37fa8b797c4c9d65666df973166836ebc8989febc"
+              "content_hash": "6e1579760f033edeca277bfc163c631dc4d3675267d4c4cb904db3f3c9231385"
             },
             {
               "id": "868kzahbv",
@@ -1723,10 +1733,15 @@
                   "author": "Ben Drinkard",
                   "date": "2026-09-05 01:16",
                   "text": "Front sway bar attempted install but fouls on crossover steering assembly\nNo way to modify to fit\nSourced a possible replacement that should work with crossover steering"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-16 18:03",
+                  "text": "Spent time with Offroad finding a solution that allows us to get the swaybar installed while keeping our timeframe\nThere swaybar end link material did not arrive as they said it would.\nThey will provide their 8\" upgraded end links and I will cut them to our length"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "a4061684cf2f82939ef2cab20fc4b4b29cb3927c5fcfb49c6119b1bb67007fc0"
+              "content_hash": "c42656a4558af50d56d1e5411e94b110bde13912d5ef1e0875efecc28d3e78d8"
             }
           ]
         },
@@ -2517,5 +2532,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-16T17:48:54Z"
+  "generated_at": "2026-09-16T18:15:14Z"
 }

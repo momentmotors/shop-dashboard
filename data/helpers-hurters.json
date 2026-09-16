@@ -89,7 +89,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 54.0,
-      "pct_of_total": 8.2,
+      "pct_of_total": 8.1,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -132,7 +132,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 52.0,
-      "pct_of_total": 7.9,
+      "pct_of_total": 7.8,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -175,7 +175,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 48.5,
-      "pct_of_total": 7.4,
+      "pct_of_total": 7.3,
       "tasks": [
         {
           "task": "Battery Pack",
@@ -247,6 +247,33 @@
       ]
     },
     {
+      "project": "Preheim 72 Blazer",
+      "total_hours": 24.8,
+      "pct_of_total": 3.7,
+      "tasks": [
+        {
+          "task": "Interior",
+          "hours": 10.0
+        },
+        {
+          "task": "Exterior",
+          "hours": 7.0
+        },
+        {
+          "task": "Suspension",
+          "hours": 5.2
+        },
+        {
+          "task": "Audio",
+          "hours": 2.0
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 0.5
+        }
+      ]
+    },
+    {
       "project": "Thacker 46 Woody",
       "total_hours": 24.2,
       "pct_of_total": 3.7,
@@ -277,33 +304,6 @@
         },
         {
           "task": "Motor & Transmission",
-          "hours": 0.5
-        }
-      ]
-    },
-    {
-      "project": "Preheim 72 Blazer",
-      "total_hours": 21.2,
-      "pct_of_total": 3.2,
-      "tasks": [
-        {
-          "task": "Interior",
-          "hours": 10.0
-        },
-        {
-          "task": "Exterior",
-          "hours": 4.5
-        },
-        {
-          "task": "Suspension",
-          "hours": 4.2
-        },
-        {
-          "task": "Audio",
-          "hours": 2.0
-        },
-        {
-          "task": "Vehicle Control",
           "hours": 0.5
         }
       ]
@@ -361,7 +361,7 @@
   ],
   "shop_work": {
     "total_hours": 105.5,
-    "pct_of_total": 16.0,
+    "pct_of_total": 15.9,
     "avg_per_person_per_day": 1.1,
     "flagged": true,
     "tech_count": 8,
@@ -397,7 +397,7 @@
     {
       "project": "ICON Bronco Prototype",
       "total_hours": 23.5,
-      "pct_of_total": 3.6,
+      "pct_of_total": 3.5,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -419,7 +419,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 17.5,
-      "pct_of_total": 2.7,
+      "pct_of_total": 2.6,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -430,7 +430,7 @@
     {
       "project": "Connolly 58 220S",
       "total_hours": 8.2,
-      "pct_of_total": 1.3,
+      "pct_of_total": 1.2,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -459,10 +459,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 481.5,
+    "billable_hours": 485.0,
     "non_billable_hours": 177.8,
     "pto_hours": 12.0,
-    "total_hours": 659.2
+    "total_hours": 662.8
   },
-  "generated_at": "2026-09-16T17:48:54Z"
+  "generated_at": "2026-09-16T18:15:14Z"
 }
