@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T21:27:03.537617Z",
+  "updated_at": "2026-09-16T21:37:31.127840Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1047,10 +1047,15 @@
                   "author": "Brandon Beaman",
                   "date": "2026-09-16 21:25",
                   "text": "Gathered information and compared to Lee.\nFurther testing to be done to verify findings."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-16 21:29",
+                  "text": "EOD \u2014 16 Sep 2026 \u2014 Lee & Kelly test pull analysis\nDone today\nCompared inverter EEPROM dumps: Kelly (SN 958) vs Lee (SN 1469). Only 4 of 101 shared params differ \u2014 serial, gamma (32.9\u00b0 vs 34.7\u00b0), relay output state (12 vs 0), torque rate limit (5.0 vs 7.0 Nm). Brake_Lo missing from the Lee dump, likely a capture artifact, needs a re-pull to confirm.\nBuilt a 117-signal list valid on both VCU display tabs (VCM_490 and VCM_517) for motor-behavior comparison.\nAnalyzed both cars' Motoring Diag test pulls. Three reports issued: Lee, Kelly, and a Lee-vs-Kelly comparison.\nMain finding \u2014 affects both cars\n Both VCUs command 580 Nm; both inverters deliver ~460 Nm from ~1400 rpm up. ~130 Nm short. Not a derate \u2014 no faults, cold, no thermal or voltage limit. Both carry DrvInvtrMCL = 1272 A, matching IQ_Limit_EEPROM 12720 on both dumps. The current limit binds before the torque limit. Every VCU and inverter limit is identical across the two cars, so this is one shared decision, not a per-car calibration issue. Do not raise the current limit without checking motor/inverter ratings and pack discharge capability first \u2014 lowering the request may be the right fix.\nKelly-specific \u2014 needs resolving before her numbers can be trusted\n Reported shaft power exceeds measured DC input power in 31% of full-throttle samples, peaking at 2.04\u00d7. Physically impossible. Present in both pulls (27.7% and 33.4%). Lee never crosses 1.0. Pack current vs inverter DC current disagree by up to 264 A \u2014 and it's worse in pull 2 (sd 60 A) than pull 1 (sd 18 A), so it looks intermittent. Start with the pack current path: IVT/BMS message rate, message age, stale holds. Kelly's Gamma_Adjust reading 329 is a secondary lead on the torque estimate, unconfirmed.\nCars are otherwise near-identical\n Delivered torque within 6 Nm from 2000\u20135000 rpm. Gearing within 0.7%. 20\u219260 mph: Lee 4.02 s, Kelly 3.95 s."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "61ee46f6439806e4ced882485ae953e8183f2bafb16a2d83989114d64f9369c1"
+              "content_hash": "a4cc59f01c206b964b57673ad9cf343f3c2bd5f5bd7918ad2588dc781e91c07a"
             }
           ]
         },
@@ -2441,5 +2446,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-16T21:25:22Z"
+  "generated_at": "2026-09-16T21:35:53Z"
 }
