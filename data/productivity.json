@@ -4,8 +4,8 @@
     "month": "2026-09",
     "productivity_pct": 73.1,
     "billable_hours": 475.8,
-    "total_hours": 658.8,
-    "pto_hours": 8.0
+    "total_hours": 662.8,
+    "pto_hours": 12.0
   },
   "comparisons": {
     "vs_last_month": {
@@ -111,8 +111,8 @@
       "month": "2026-09",
       "productivity_pct": 73.1,
       "billable_hours": 475.8,
-      "total_hours": 658.8,
-      "pto_hours": 8.0
+      "total_hours": 662.8,
+      "pto_hours": 12.0
     }
   ],
   "current_month_weeks": [
@@ -132,7 +132,7 @@
       "week": "2026-W38",
       "productivity_pct": 67.6,
       "billable_hours": 83.5,
-      "total_hours": 123.5
+      "total_hours": 127.5
     }
   ],
   "current_month_days": [
@@ -200,8 +200,8 @@
       "date": "2026-09-15",
       "productivity_pct": 67.3,
       "billable_hours": 36.0,
-      "total_hours": 53.5
+      "total_hours": 57.5
     }
   ],
-  "generated_at": "2026-09-16T12:46:19Z"
+  "generated_at": "2026-09-16T13:12:09Z"
 }
