@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T20:30:18.578680Z",
+  "updated_at": "2026-09-17T20:41:19.331445Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -244,176 +244,10 @@
         }
       },
       "clickup_match": {
-        "found": true,
-        "matched_lists": [
-          "Connolly 58 220S"
-        ],
-        "open_tasks": 1
+        "found": false,
+        "error": "no_match"
       },
-      "assignees": [
-        {
-          "name": "Brandon Beaman",
-          "tasks": [
-            {
-              "id": "868exjqjc",
-              "name": "Checkout vehicle",
-              "status": "Open",
-              "list": "Connolly 58 220S",
-              "url": "https://app.clickup.com/t/868exjqjc",
-              "comments": [
-                {
-                  "author": "Devin DuMont",
-                  "date": "2025-10-23 22:07",
-                  "text": "Test drove with laptop looking for CAN1 errors. Catching about 870 per second all in one large group. Turned off OBDII from the inverter which didn't help. Also tried turning off diag data. Turned them back on and unplugged the logger which is set to auto-baud. Still no change. Used Kvaser set at 1000mbps and I get a message to decode with data 2044, 2046, and 2048. Test driving is getting difficult since CAN errors occasionally cause the VCU to drop PreCharge."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2025-10-25 00:21",
-                  "text": "Removed all CAN messages from both PMU's re-tested for CAN errors, still there. Removed CAN1 wiring to PMU's and re-tested. No luck."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2025-10-28 22:16",
-                  "text": "Tested out external CAN connection to the inverter. Problem went away momentarily. Tested alternate VCU. Problem still exists. Decided to buy PicoScope to help analyze."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2025-10-31 16:27",
-                  "text": "Reviewed PEAK codebase for good starting point. Setup project for basic router. Modified, commented, & compiled."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2025-11-06 01:06",
-                  "text": "Worked with Jordan and Dusty to use the PicoScope on CAN1 crashing issue. Hooked up to CAN1 at various spots. Tried grounding shields. Verified waveforms against Buck."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2025-11-07 00:48",
-                  "text": "Re-checked vehicle faults after Jordan replaced the ground to the inverter. Noise problem stopped with a larger ground but also didn't come back with the old #22 wire back installed. Was able to drive the vehicle shortly till the problem resurfaced causing the positive contactor to weld. Verified this with Ampere and used the BMS test box to break the weld since the vehicle logic does not allow. Checked the whole vehicle again and the noise problem still exists. Tried unplugging all HV accessories, no luck. Installed a minimal external CAN1 network with all new wiring and found the CAN1L wire pulled out of the terminal at the inverter while removing that wire. Tested with new CAN network and PicoScope looks noisy like before. Tried grounding shield, still no luck."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2025-11-07 23:43",
-                  "text": "Re-verified noise exists on external CAN harness. Setup provisions to pull in the positive contactor with the BMS disconnected. Had a remote session with Andrew to force the VCU into enabling the inverter with the BMS missing. Noise still present on external CAN1 network. Repeated various trials. Discovered HVIL in the JB wasn't working correctly, replaced. Noise still present. Decided to isolate inverter as much as possible from vehicle. Modified Python gauges test script to enable inverter for 500ms. Setup completely isolated inverter harness & provisions to pre-charge. Tested both VCU CAN and INV CAN but both still had noise. Added motor case and inverter case into the PicoScope, and re-tested. Found ~10V between chassis ground and motor case. Installed #4 AWG wire between motor case, inverter case and battery negative stud. Re-tested and still found noise. Moved #4 AWG to ground distribution blocks, re-tested, and still have noise."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2025-11-11 14:08",
-                  "text": "Met with team over strategy. Followed along with diag over the day."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2025-11-13 23:59",
-                  "text": "Verified major errors gone away. Did notice some inverter errors but they may just be old. Cleared diagnostic buffer. Verified all VCU settings. Weighed vehicle. Input correct weight, tire size, gear ratio, etc. Checked PRND, needed adjustment to wiring. Verified DCDC output and charging rate. Checked off last BMS checklist items. Test drove for completeness. Troubleshot gauges with Jordan."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2025-11-13 23:59",
-                  "text": "Tested new motor and phase leads under various configurations with Jordan. Captured documentation to send to Cascadia. Set gamma adjust in new motor."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2025-12-05 21:30",
-                  "text": "Replaced fuse, located & improved associated documentation. Gave repaired box to Jordan."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-08-07 22:31",
-                  "text": "Ran through the checkout sheet filling in the items remaining section. Flashed the latest AWD firmware and verified options."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-20 22:38",
-                  "text": "Pedal Launch Gain adjusted from 70 -> 50"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-25 17:17",
-                  "text": "image.png\nimage.png\nUploaded PMU and EEPROM files to the Vehicle folder in google drive for future reference."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-08 19:20",
-                  "text": "flash successful\nimage.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-08 19:20",
-                  "text": "Before VCU Update\nimage.png\nimage.png\nimage.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-08 19:22",
-                  "text": "Post Flash\nimage.png\nimage.png\nimage.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-08 19:23",
-                  "text": "Ajusted Launch Gain to 50 before taking a SS. Knew this setting was going to need to be updated after VCU upgrade"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-08 20:31",
-                  "text": "Adjustments based off differences pointed out by Claude.\nimage.png\nimage.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-08 21:00",
-                  "text": "Corrected all mismatch settings. Car should be good to drive now for a final test."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-09 17:20",
-                  "text": "Current E-Stopp Settings. Vehicle currently set to None for ParkPawl control. Need to verify if we want to use current control or not based on the findings.\nimage.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-09 17:21",
-                  "text": "Progress Report \u2014 Parking Brake EStopp Actuator Current Analysis\nDate: 9/9/2026 System: VCM_517 \u2014 Parking Brake / EStopp Pawl Actuator Logged by: Brandon Beaman\nSummary\nReviewed five Raptor-Cal test logs of the parking brake pawl actuator (PrkPwlO15) to characterize peak current draw against actuator timing calibration and identify any correlation worth flagging for calibration tuning.\nWork Performed\nPulled and parsed five sequential VCM_517 Parking Brake logs (11:47:16, 11:51:09, 11:54:52, 12:00:45, 12:08:36) for the measured actuator current channel (PrkPwlO15_P27_Measured_Current) and the EStopp actuator timing calibration fields (PrkActMnTime_EStopp, PrkActMxTime_EStopp, PrkActReleaseTime_EStopp).\nExtracted peak current draw and its timestamp from each log.\nCross-referenced peak draw against each log's actuation timing setpoints to check for a relationship between calibration and real-world current pull.\nCompiled a comparison table and written analysis of findings (delivered as a standalone report, both Markdown and PDF).\nFindings\n\nundefined\nAcross Logs 1\u20134, shortening either the min or max actuation time window was associated with a higher peak current pull \u2014 a preliminary pattern worth further testing.\nLog 5 breaks that pattern: it shares identical timing calibration with Log 4 (Min 4.250 s / Max 6.000 s / Release 3.500 s) but produced the highest peak draw of the whole set (12.25 A vs. Log 4's 10.25 A) \u2014 a 2 A swing with no calibration change. This points to run-to-run mechanical/electrical variability rather than a purely timing-driven effect, and suggests more repeat runs at fixed timing are needed before drawing conclusions.\nRelease Time was held constant (3.500 s) across all five tests and was not a variable in this data set.\nNext Steps / Open Items\nRun repeat tests at fixed timing calibration (e.g., hold Log 4/5's settings) to quantify normal run-to-run variance in peak draw before attributing changes to calibration.\nOnce variance is characterized, revisit the min/max actuation time trend with a larger sample to confirm or rule it out.\n\nSide Note:\nIt looks / feels like its more dependent on how much pedal pressure is being applied when the vehicle is commanded to go into park. If you have just enough pedal in it to prevent the vehicle from rolling the Amp draw is higher. If you're heavy in the pedal then the amp draw is lower.\nThis might make the current based engagement unreliable. Set it low enough to not throw a flag based on pedal pressure then you may end up with a light engagement.\nPlace it high enough to reach the max amp draw you may get a GML because the end user was holding the brake pedal harder when going into park."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-09 20:02",
-                  "text": "image.png\nimage.png\nimage.png\nE-Stopp Amperage Findings. Everything seems to be operating as normal if not a bit above normal / expected."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-09 20:49",
-                  "text": "Further testing shows that the slight rolling on an extreme road grade.\nThe road that I was testing on is Foremost here near the shop. The Approx grade of this road is 11\u00b0.\nThe vehicle makes a good effort to hold itself after the parking brake is engaged however without fail every time it does slowly roll away regardless if the car is facing up the hill or down the hill.\nMultiple tests and test runs were performed to verify this data.\nA couple key take aways here are that the E-Stopp is functioning exactly as it should and or at least within manufacturers specifications. Regardless of parking brake adjustments we add it will still only pull 10A reliably. There is nothing in our system that is preventing the E-Stopp from using up to 25A its just not requesting anything more.\nMarc opted to return all the settings back to where they were previously set. He had Claude go through all of the old logs and look for a difference in settings changes and there were no major setting changes from today.\nSo we left the settings where they were except release timing. we add 0.8seconds to the release timing to hopefully help with the brake dragging when coming out of park."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-10 22:00",
-                  "text": "Verified Wifi credentials uploaded to logger and let all appropriate parties know."
-                }
-              ],
-              "checklist_items": [
-                {
-                  "checklist": "Checklist",
-                  "name": "Add wifi credentials",
-                  "resolved": false
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Test temp gauge functionality",
-                  "resolved": false
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Troubleshoot \"DisplayDashGUI_SettingsMsgTimeout\" message",
-                  "resolved": false
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Tune throttle",
-                  "resolved": true
-                }
-              ],
-              "content_hash": "06a837148fd509d9612e5b0911f7f3d5ee5d2e494006b4212b6eddc0a3190e7b"
-            }
-          ]
-        }
-      ]
+      "assignees": []
     },
     {
       "owner": "Ferdman",
@@ -2449,5 +2283,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-17T20:28:20Z"
+  "generated_at": "2026-09-17T20:39:32Z"
 }

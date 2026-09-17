@@ -364,8 +364,8 @@
     }
   ],
   "shop_work": {
-    "total_hours": 119.2,
-    "pct_of_total": 15.9,
+    "total_hours": 119.8,
+    "pct_of_total": 16.0,
     "avg_per_person_per_day": 1.15,
     "flagged": true,
     "tech_count": 8,
@@ -388,11 +388,11 @@
         "hours": 6.2
       },
       {
-        "label": "Errands",
-        "hours": 1.8
+        "label": "Other",
+        "hours": 2.2
       },
       {
-        "label": "Other",
+        "label": "Errands",
         "hours": 1.8
       }
     ]
@@ -467,10 +467,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 554.5,
-    "non_billable_hours": 194.0,
+    "billable_hours": 554.8,
+    "non_billable_hours": 194.5,
     "pto_hours": 12.0,
-    "total_hours": 748.5
+    "total_hours": 749.2
   },
-  "generated_at": "2026-09-17T20:28:20Z"
+  "generated_at": "2026-09-17T20:39:32Z"
 }
