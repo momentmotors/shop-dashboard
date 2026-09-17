@@ -132,7 +132,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 59.0,
-      "pct_of_total": 8.3,
+      "pct_of_total": 8.2,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -247,6 +247,33 @@
       ]
     },
     {
+      "project": "Preheim 72 Blazer",
+      "total_hours": 27.8,
+      "pct_of_total": 3.9,
+      "tasks": [
+        {
+          "task": "Interior",
+          "hours": 13.0
+        },
+        {
+          "task": "Exterior",
+          "hours": 7.0
+        },
+        {
+          "task": "Suspension",
+          "hours": 5.2
+        },
+        {
+          "task": "Audio",
+          "hours": 2.0
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 0.5
+        }
+      ]
+    },
+    {
       "project": "Thacker 46 Woody",
       "total_hours": 27.0,
       "pct_of_total": 3.8,
@@ -277,33 +304,6 @@
         },
         {
           "task": "Motor & Transmission",
-          "hours": 0.5
-        }
-      ]
-    },
-    {
-      "project": "Preheim 72 Blazer",
-      "total_hours": 26.8,
-      "pct_of_total": 3.7,
-      "tasks": [
-        {
-          "task": "Interior",
-          "hours": 12.0
-        },
-        {
-          "task": "Exterior",
-          "hours": 7.0
-        },
-        {
-          "task": "Suspension",
-          "hours": 5.2
-        },
-        {
-          "task": "Audio",
-          "hours": 2.0
-        },
-        {
-          "task": "Vehicle Control",
           "hours": 0.5
         }
       ]
@@ -459,10 +459,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 526.5,
+    "billable_hours": 527.5,
     "non_billable_hours": 188.0,
     "pto_hours": 12.0,
-    "total_hours": 714.5
+    "total_hours": 715.5
   },
-  "generated_at": "2026-09-17T16:14:41Z"
+  "generated_at": "2026-09-17T16:31:45Z"
 }
