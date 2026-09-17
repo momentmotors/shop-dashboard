@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T17:11:55.168090Z",
+  "updated_at": "2026-09-17T17:24:03.688556Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -882,22 +882,12 @@
         "matched_lists": [
           "Kelly 63 Corvette"
         ],
-        "open_tasks": 8
+        "open_tasks": 6
       },
       "assignees": [
         {
           "name": "Noah Sharif",
           "tasks": [
-            {
-              "id": "868k2w2gy",
-              "name": "Install front battery lid",
-              "status": "Open",
-              "list": "Kelly 63 Corvette",
-              "url": "https://app.clickup.com/t/868k2w2gy",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "25977cfdfe0fd6dc5303338eb465f4ded373d84fa04ebe79c10f1e716c4899e4"
-            },
             {
               "id": "868ku38p2",
               "name": "Troubleshoot parking brake issue",
@@ -918,77 +908,6 @@
               ],
               "checklist_items": [],
               "content_hash": "21712878cf48fa925b4e96bb0c05494b43314d03f01be7b4f9d79f1525a7e72e"
-            },
-            {
-              "id": "868kwnwyc",
-              "name": "Troubleshoot steering column issue",
-              "status": "Open",
-              "list": "Kelly 63 Corvette",
-              "url": "https://app.clickup.com/t/868kwnwyc",
-              "comments": [
-                {
-                  "author": "Noah Sharif",
-                  "date": "2026-08-25 19:33",
-                  "text": "3.5 hours testing to find the issue, removal of the steering column, then separating them and checking, I've ordered m8 set screws to install in the motor to ididit part. Waiting until parts arrive to continue."
-                },
-                {
-                  "author": "Noah Sharif",
-                  "date": "2026-08-26 11:31",
-                  "text": "https://t9011243300.p.clickup-attachments.com/t9011243300/677ea097-d7a5-4cf0-9f25-a0160f4162ad/paste_58310b22-00ef-49ae-8e0f-8d40ec44c88f.mp4?view=openpaste_69faf861-5dfd-48dd-8f68-cbe6a67db40b.jpg"
-                },
-                {
-                  "author": "Noah Sharif",
-                  "date": "2026-08-27 12:26",
-                  "text": "Drilled the IDIDIT housing to allow set screw install. Reassembled the powered steering column, and tested it, the wobble that could be felt is gone, but the whole assembly wiggles on the outside, I'm going to show Alex before proceeding."
-                },
-                {
-                  "author": "Noah Sharif",
-                  "date": "2026-08-27 19:30",
-                  "text": "paste_6227316a-2918-455f-a657-79b182023360.jpg"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-28 04:35",
-                  "text": "made a bushing for the column\npressed it into place\nclearance the adapter and pressed it on\nready for assembly\ni will hand off tomorrow to Noah\nit should make a big difference on the column retention\nIMG_1988.jpeg\nIMG_1987.jpeg"
-                },
-                {
-                  "author": "Noah Sharif",
-                  "date": "2026-08-28 18:36",
-                  "text": "Assembled the steering column back together, i had to turn down the 6mm m8 set screws to about 3mm long. Got everything assembled and we are set for reinstall. I had both Billy and Alex check the operation by hand on the bench, and all 3 of us are happy with the improvement. So on Monday I will Install the part and see what it feels like in the car!."
-                },
-                {
-                  "author": "Noah Sharif",
-                  "date": "2026-08-28 18:37",
-                  "text": "It should be about 2-3 hours on Monday to get the car reassembled. So keep that in mind, But we should be done once those hours are added to what i have in today, and the past."
-                },
-                {
-                  "author": "Noah Sharif",
-                  "date": "2026-08-28 20:33",
-                  "text": "paste_4545af43-412d-48ef-98e8-711128eca13d.jpgpaste_e4915fb6-68ba-451f-85b1-d7602bb53f52.jpgpaste_6a94db28-b295-4d4f-a0e7-a70c1e26cedc.jpgpaste_55e4bdbf-304a-4c44-a338-221292cf4f23.jpgpaste_e878ac98-1b7c-4875-a3cc-67f41b0a490d.jpgpaste_37cb4507-e89e-4d08-988d-2d1cba8b8139.jpgpaste_389d0a1b-18a2-4dde-8189-33e1b8a760b5.jpgpaste_51997b53-d9c6-4b41-aa8a-012d789579b3.jpg"
-                },
-                {
-                  "author": "Noah Sharif",
-                  "date": "2026-09-01 16:25",
-                  "text": "Reinstalled the steering column, Tighten all hardware on the shaft itself. It feels better then before, but still clicks a little from telescoping D-shafts. I have gotten this et of hardware the best i can, if we want it feeling better, then we will need to replace basically the enter system to a power rack from flaming river, and then give it an epas power steering pump."
-                },
-                {
-                  "author": "Noah Sharif",
-                  "date": "2026-09-01 16:28",
-                  "text": "paste_a7166cd7-5ac8-404c-b241-697c1dec45e4.jpg"
-                },
-                {
-                  "author": "Noah Sharif",
-                  "date": "2026-09-10 16:05",
-                  "text": "Observed the noise AA was talking about,  Fixed it, and also straiten the Steering wheel to fix the 180 out issue. This is now solved completely."
-                },
-                {
-                  "author": "Noah Sharif",
-                  "date": "2026-09-10 16:08",
-                  "text": "paste_74ab3908-1eda-49be-bd23-9b399dcc4d2d.jpg"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "a75107e87f56b76fb24d59f059099f9c762268cdf7384e8d28cb64b1131db12e"
             },
             {
               "id": "868m6d8fj",
@@ -1836,9 +1755,25 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868hbmwkf",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-05-27 02:55",
+                  "text": "started HVAC ducting\nadded the adapters on the box\nrouting the hoses to the vents"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-05-27 20:04",
+                  "text": "HVAC ducting installed\ninstalled the vents\nran ducting to the vents\ninstalled the defrost\nrand ducting to the defrost\nduct work \nIMG_1116.jpeg\nIMG_1115.jpeg\nIMG_1114.jpeg\nis done"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-16 23:54",
+                  "text": "installed ducting after the radio install"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "142c7dc10ffd1c432d3222c7477111b2af8ffb1f68bb8468efdb659ddb15f50f"
+              "content_hash": "3f136a96a1739248246c3d41af1a9759f2d6dca68de46337fe2edf5cf4e0af58"
             },
             {
               "id": "868m63pqp",
@@ -2186,9 +2121,20 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868gaza9t",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-27 23:04",
+                  "text": "Lid trial fit successfully\nCover inspected for damage\nLogo location measure for\nBorder taped out\nCenterline and height measured and marked\nSurface cleaned\nLetters planed, cut out and deburred\nLetters cleaned\nLord applied to letters and set in jig\nLetters tacked up, tape removed and jig removed"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-27 23:06",
+                  "text": "paste_141d968b-0512-452b-a33a-86e7fc241f0f.jpgpaste_bf4776b9-40fe-4367-967c-ada0ad2e562a.jpg"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "d9f9273bd20a0261c1da8aa58792fabb09ecbcfe7ed7ff121281c714d5fa985e"
+              "content_hash": "80813490a3658dae81d59cebc717ba1b9ad6c40740e243855fcd1327dc70de1f"
             }
           ]
         },
@@ -2450,5 +2396,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-17T17:10:08Z"
+  "generated_at": "2026-09-17T17:22:33Z"
 }
