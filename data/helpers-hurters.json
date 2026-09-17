@@ -3,7 +3,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 76.5,
-      "pct_of_total": 10.9,
+      "pct_of_total": 10.8,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -41,8 +41,8 @@
     },
     {
       "project": "Ritchie 71 Blazer",
-      "total_hours": 60.0,
-      "pct_of_total": 8.5,
+      "total_hours": 63.0,
+      "pct_of_total": 8.9,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -62,11 +62,11 @@
         },
         {
           "task": "Interior",
-          "hours": 4.8
+          "hours": 6.8
         },
         {
           "task": "HVAC",
-          "hours": 4.2
+          "hours": 5.2
         },
         {
           "task": "Brakes",
@@ -89,7 +89,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 59.0,
-      "pct_of_total": 8.4,
+      "pct_of_total": 8.3,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -132,7 +132,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 59.0,
-      "pct_of_total": 8.4,
+      "pct_of_total": 8.3,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -175,7 +175,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 52.0,
-      "pct_of_total": 7.4,
+      "pct_of_total": 7.3,
       "tasks": [
         {
           "task": "Battery Pack",
@@ -360,24 +360,24 @@
     }
   ],
   "shop_work": {
-    "total_hours": 111.0,
-    "pct_of_total": 15.8,
-    "avg_per_person_per_day": 1.16,
+    "total_hours": 113.0,
+    "pct_of_total": 15.9,
+    "avg_per_person_per_day": 1.09,
     "flagged": true,
     "tech_count": 8,
-    "working_days": 12,
+    "working_days": 13,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 47.2
+        "hours": 47.8
       },
       {
         "label": "Shop Meetings",
-        "hours": 38.8
+        "hours": 39.2
       },
       {
         "label": "Personal Meetings",
-        "hours": 15.2
+        "hours": 16.2
       },
       {
         "label": "Organization",
@@ -396,12 +396,12 @@
   "project_hurters": [
     {
       "project": "ICON Bronco Prototype",
-      "total_hours": 23.5,
-      "pct_of_total": 3.3,
+      "total_hours": 25.5,
+      "pct_of_total": 3.6,
       "tasks": [
         {
           "task": "Installation - Extra",
-          "hours": 23.5
+          "hours": 25.5
         }
       ]
     },
@@ -459,10 +459,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 520.8,
-    "non_billable_hours": 183.2,
+    "billable_hours": 523.8,
+    "non_billable_hours": 187.2,
     "pto_hours": 12.0,
-    "total_hours": 704.0
+    "total_hours": 711.0
   },
-  "generated_at": "2026-09-16T23:48:31Z"
+  "generated_at": "2026-09-17T00:34:00Z"
 }
