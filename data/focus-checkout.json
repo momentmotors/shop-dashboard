@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T21:13:29.536436Z",
+  "updated_at": "2026-09-17T21:26:26.505440Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -716,12 +716,22 @@
         "matched_lists": [
           "Kelly 63 Corvette"
         ],
-        "open_tasks": 6
+        "open_tasks": 8
       },
       "assignees": [
         {
           "name": "Noah Sharif",
           "tasks": [
+            {
+              "id": "868m6jh53",
+              "name": "Troubleshoot iBooster issue",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868m6jh53",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "be2b2d96755056f01ceb515a98e73a76b0c6b9cc5a3c3f1aaa88fc8017f7209b"
+            },
             {
               "id": "868ku38p2",
               "name": "Troubleshoot parking brake issue",
@@ -742,6 +752,16 @@
               ],
               "checklist_items": [],
               "content_hash": "21712878cf48fa925b4e96bb0c05494b43314d03f01be7b4f9d79f1525a7e72e"
+            },
+            {
+              "id": "868m6jhbu",
+              "name": "Troubleshoot speedo issue",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868m6jhbu",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "bbf48580188822445536cf3fe7ec00bc1e79b553367a365675aba598db1eb57d"
             },
             {
               "id": "868m6d8fj",
@@ -826,10 +846,15 @@
                   "author": "Brandon Beaman",
                   "date": "2026-09-17 20:47",
                   "text": "Kelly / Lee \u2014 EOD, Wed 17 Sep\nDisplay tab rebuilt. Stripped the Motoring Diag tab from 117 columns to 51 and renamed it Motoring Claude. Removed 23 calibration boxes and 29 dead constants; added five reason codes and four message-age channels. Result: clean 100 ms logging with zero cal-read gaps, against 5,300+ gaps over 50 ms before. Full channel spec is in the Motoring Diag Tab document.\nThree full-throttle pulls on Kelly with the new pedal (13:58 session, two pulls; 14:07 session, one).\nNew pedal is confirmed good. Both sensors correlate 0.99997, ADC ratio holds 2.0218 \u00b1 0.0059, pedal wobble 0.37% RMS at full throttle. It also cut the high-speed current ripple roughly in half and moved its onset from 50 mph to 60 mph. Replicated on all three pulls.\nFound the cause of the high-speed torque taper. DrvMtrTrqLim \u2014 the VCU's own torque ceiling \u2014 holds 580 Nm to 60 mph, then falls to ~500 Nm by 65 and ~440 by 75. Delivered torque follows it down. That ceiling works out to a near-constant 345\u2013355 kW of shaft power, so it's a calibration choice, not hardware. The inverter's actual power limit reads 395 kW and the car only ever drew 317 kW.\nBut there's a second, separate problem underneath it. At every speed on every pull, the car delivers 85\u2013132 Nm less than its own declared ceiling. Below 60 mph the ceiling is a flat 580 Nm and the car makes 450\u2013465. Nothing in the log accounts for it. This is the shortfall we've been chasing since Tuesday, now cleanly separated from the taper.\nThe DC power ripple is not commanded. Pedal and torque command are flat to within 0.5% while inverter current swings 8\u20139%. The ripple is real \u2014 bus voltage responds at 54\u201373 m\u03a9 against the pack's measured 80.6 m\u03a9 \u2014 but it produces no torque: reported torque swings eight times less and correlates negatively with current. That's the signature of field-weakening (d-axis) current hunting, and it starts at the same 58\u201360 mph where the torque ceiling begins tapering.\nEverything still points at rotor angle on Kelly. One error would explain all three symptoms: the torque estimate reading high (shaft power still exceeds DC input on 41\u201356% of samples), the field-weakening regulator hunting, and the speed-dependent ripple. Gamma_Adjust_EEPROM reads 329 on Kelly against 347 on Lee.\nThree things I got wrong earlier today and have retracted:\nThe \"current channel split above 75 mph\" was noise. Two more pulls give +11 A and \u221219 A \u2014 the sign flips. It was measurement phase at 10 Hz, not a real disagreement.\nThe \"constant power wall at 288 kW\" had the causation backwards. Torque is capped; flat power is the consequence.\nAmpereBMSPeak_Discharge_Current is not a limit. It rises monotonically from 3 A to 589 A and never falls \u2014 it's a peak recorder.\nAlso worth noting: the BMS current message goes stale at a standstill, freezing the pack-current reading on 12.7% of samples (31.6% while stationary, 1.2% above 40 mph). It never touched a full-throttle sample, but idle and creep current data from Kelly shouldn't be trusted."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-17 21:20",
+                  "text": "Conducted a handful of test drives on this vehicle all trying to get into the problem area.\nWe have found one issue that being the throttle pedal sensor/assembly.\nNoah found debris in the sensor and after swapping out the pedal our APP signal cleans up dramatically.\nHowever our \"Misfire\" symptom still persists.\nGathered a handful of logs today and used claude to analyze them. Marc also helping with the analysis.\nNew data is showing some very weird symptoms will need to analyze this further. Unfortunatley this is not complete."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "8f186032d04384ef218d91135e2ece3cc073b97559836369758b712f217000d0"
+              "content_hash": "a9d3145e0a88d74804d6adc32c19d8065ad08639de797fc931a174aa11af3372"
             }
           ]
         },
@@ -1998,20 +2023,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868gaza9t",
-              "comments": [
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-27 23:04",
-                  "text": "Lid trial fit successfully\nCover inspected for damage\nLogo location measure for\nBorder taped out\nCenterline and height measured and marked\nSurface cleaned\nLetters planed, cut out and deburred\nLetters cleaned\nLord applied to letters and set in jig\nLetters tacked up, tape removed and jig removed"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-27 23:06",
-                  "text": "paste_141d968b-0512-452b-a33a-86e7fc241f0f.jpgpaste_bf4776b9-40fe-4367-967c-ada0ad2e562a.jpg"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "80813490a3658dae81d59cebc717ba1b9ad6c40740e243855fcd1327dc70de1f"
+              "content_hash": "d9f9273bd20a0261c1da8aa58792fabb09ecbcfe7ed7ff121281c714d5fa985e"
             }
           ]
         },
@@ -2288,5 +2302,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-17T21:11:45Z"
+  "generated_at": "2026-09-17T21:24:44Z"
 }
