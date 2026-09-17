@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T04:51:51.740278Z",
+  "updated_at": "2026-09-17T05:14:52.026536Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1592,15 +1592,9 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868kzaq6r",
-              "comments": [
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-03 20:58",
-                  "text": "Greased front and rear leaf spring pivot points"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "99f8eeeaf4739735b3db8035734bd1c654ad4e0034f2d6a4ef70d831b32fe6df"
+              "content_hash": "dfcfa914428437333c0ae6fcb4dab8f221c044a55e935e2319ae1c20a72046fb"
             },
             {
               "id": "868m63v76",
@@ -1633,15 +1627,9 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868m4x3uh",
-              "comments": [
-                {
-                  "author": "David Webber",
-                  "date": "2026-09-14 18:26",
-                  "text": "Multiple noises from tailgate and hard top\ntailgate latch and rods and release handle banging around in tailgate - removed components, installed dampening + lube and adjust\nTailgate and hardtop remaining noises \u2026\n- Missing bumper stop for tailgate - ordered replacement\n-tailgate straps noisy.. order nylon shims for an ATTEMPT to tighten these up\n-Rear window still knocking (side/side) in frame during bump/flex\u2026 already thick anti-rattle rubber here\u2026 There is cracking damage/repairs here ... this may be as good as it gets?\nHardtop latches loose and dry. - Adjust, tighten and lube. Rear window seal dry and creaking - clean/lube seal\nCreaking/squeaking from door/hood latches - clean/lube latches\nCenter console squeaks/rattles - VHB chrome trim in place, make and install felt bumpers for lid and ashtray insert"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "7ba92a7f5c3623b7e0ad0821a8e2a39a94bdad948c6c0146371fd9344c0807a6"
+              "content_hash": "8fea1d6d1af49160ab84bcb7db71aea2821b265f67709e5cde86abebe31c7e84"
             }
           ]
         },
@@ -1654,40 +1642,9 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868kzahbv",
-              "comments": [
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-02 17:34",
-                  "text": "Rear sway bar install details:\nKit verified to fit with additional work on brake mounts and replacing hardware and bushing risers\nRear brake bracket had to be removed and the welded bracket cut out and raw steel was painted\nBrackets installed and centered\nI ordered appropriate hardware and bushing riser material because the hardware is spec'd for stock height\nCrescent mounts for rear brake line mounts need to be welded to the rear end"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-02 17:36",
-                  "text": "paste_b3f4d546-77bf-4339-99ef-c97611aea723.jpgpaste_1c656eed-a6ef-4758-baf2-f53182e04961.jpgpaste_6d5de5f3-405c-4881-ab3e-e4510b42c21c.jpgpaste_99a03231-6ac6-48bc-b625-3faa1a964421.jpgpaste_2dcb7a9e-f9e1-40ba-8c33-cbed9f98943f.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-03 19:30",
-                  "text": "Install Process:\nVerify kit will clear components\nMockup sway bar and mounting brackets\nPass. bracket fouls on brake fork mount\nCut brake mount off rear end and paint raw metal\nMove brake lines\nSetup welder to weld in new brake mounts\nBevel welds  and paint raw metal\nRemount sway bar after greasing bushings\nMeasure height at sway bar parallel to ground\nSupplied hardware is 3 inches short\nOrder new hardware and thick wall tubing for bushing spacers\nHardware and tubing arrived\nCut tubing to spec, clean and bevel\nPaint bushing spacers\nMark lower frame rail for upper sway bar end link mount\nDrill 4 holes for mounts avoiding HV and brake lines\nDeburr holes and paint raw metal\nInstall u-bolt in chassis and mount upper sway bar mount\nGrease all end link bushings\nInstall end links into new sway bar\nTighten all hardware\nVerify install"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-03 19:39",
-                  "text": "paste_b532cb55-b2ad-4676-ad4d-b3aaff165db6.jpgpaste_04c378bd-903b-4897-8eb5-70ab5616ea88.jpgpaste_b92a5bb9-fd81-488b-81cc-6e6d1ed42a72.jpgpaste_5ba0d857-10fa-4596-b7fd-41050252a894.jpgpaste_f9d4f1e8-3f5f-4aa8-9fbd-76d001c8a300.jpgpaste_3f548953-32e2-4c31-968c-4e9629ac735a.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-05 01:16",
-                  "text": "Front sway bar attempted install but fouls on crossover steering assembly\nNo way to modify to fit\nSourced a possible replacement that should work with crossover steering"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-16 18:03",
-                  "text": "Spent time with Offroad finding a solution that allows us to get the swaybar installed while keeping our timeframe\nThere swaybar end link material did not arrive as they said it would.\nThey will provide their 8\" upgraded end links and I will cut them to our length"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "c42656a4558af50d56d1e5411e94b110bde13912d5ef1e0875efecc28d3e78d8"
+              "content_hash": "75d544ac467d0fabdd6cb8d7350351be4980d135c383c9391def44d832521bc2"
             }
           ]
         },
@@ -1700,20 +1657,9 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868krfacg",
-              "comments": [
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-27 22:42",
-                  "text": "Had to gather LDU EEPROM settings to move to Ritchie.\nEnabled AC Condensor Fan in vcu.\nVerified operations with billy.\nCondenser fan and motor currently set to always stay on when AC is enabled."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-16 15:09",
-                  "text": "Meeting about what needs to be done and when checkout needs to be finished.\nVerified CAN logger data uploaded to the vehicle and wifi credentials added.\nUploaded screenshots for verifications and future reference."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "7893b279743c99eb6541c749564e56dc7faa375b7c789152a8bc8e6ce9bc4631"
+              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
             }
           ]
         },
@@ -1855,20 +1801,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ktqjxq",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-19 02:34",
-                  "text": "seat belts ordered"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-10 02:33",
-                  "text": "covered the glove box and ashtray with vinyl"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "32684eed741507b25e13c243375bae6fdee88fa9335abed6222ea2d2d854c9cc"
+              "content_hash": "371237ba86e4892bc87fcc0dd72a17784c4ecac889b399914e56e0f1cafd7fb9"
             }
           ]
         },
@@ -1891,45 +1826,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kpg6th",
-              "comments": [
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-11 00:43",
-                  "text": "Bed cap cover options sourced and relayed to Blazer group. Decision to be made"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-11 16:29",
-                  "text": "Game plan made for Blazer bed caps.\nCovers ordered"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-18 00:13",
-                  "text": "Blazer caps arrived\nCaps mocked up\nTrimming in process\nPassenger side trimming roughed in"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-18 00:18",
-                  "text": "1000014711.jpg1000014710.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-18 22:24",
-                  "text": "Driver and Passenger side caps have been trimmed and modifications have been finalized.\nCovers will be attached after interior side panels have been installed as the caps overlap the interior panels"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-18 22:26",
-                  "text": "1000014734.jpg1000014735.jpg1000014736.jpg1000014737.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-14 23:35",
-                  "text": "Mark all areas for paint touch up"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "9eb78b8bcf5b08f74d11f41417fb1bc2b4e02669263f97d5ba7f7274c6286f5b"
+              "content_hash": "5f784fc4355ea24b3d7ab5fac0fd2f9fdb3c6da70b26b29130030605b994b98a"
             },
             {
               "id": "868ka4d5e",
@@ -1962,15 +1861,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kv07mr",
-              "comments": [
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-08-24 13:15",
-                  "text": "Colvin's picked up the center console Friday, 8/21"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "ea55d8dc41e520a032549b095ae1d521530f36e7313df2e087e349bcd8fe2461"
+              "content_hash": "37096c993a29d491a8c621440518a2b31e58cef53e742fd27b64634297be8390"
             },
             {
               "id": "868m4ae1z",
@@ -1993,30 +1886,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868m40fu8",
-              "comments": [
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-10 23:46",
-                  "text": "Found that the logger in this vehicle was not configured for our bucket nor were the wifi credentials setup to start logging as we test drove the truck.\nWent through and configured the Logger to our bucket and Added Billy's wifi credentials to the logger.\nTest and Verified with Marc that the truck was now uploading logs.\nTruck Now uploading logs and should be good to for Logging.\nOnce we have the Clients wifi credentials I can upload these ASAP."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-11 20:16",
-                  "text": "Adjusted Tire diameter according to Billys Measurements from 0.838 to 0.800\nWill need to test drive vehicle and verify."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-16 15:52",
-                  "text": "Verified CAN logger information is updated and applied to the truck.\nUploaded screenshots for verification and future use if necessary."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-16 15:52",
-                  "text": "Meeting Covering checkout necessities and when the vehicle needs to be done."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "25621a299a15339bd7b3ece38bf0938b4479a1e482f28763db64b81e72bca0c6"
+              "content_hash": "83bb4f939a841271259612353f26a6babb67e422ab4f557b85b2019d3d381794"
             }
           ]
         },
@@ -2211,5 +2083,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-17T04:50:13Z"
+  "generated_at": "2026-09-17T05:13:21Z"
 }
