@@ -3,7 +3,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 82.5,
-      "pct_of_total": 10.7,
+      "pct_of_total": 10.6,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -42,7 +42,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 72.5,
-      "pct_of_total": 9.4,
+      "pct_of_total": 9.3,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -85,7 +85,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 69.0,
-      "pct_of_total": 9.0,
+      "pct_of_total": 8.9,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -136,7 +136,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 64.5,
-      "pct_of_total": 8.4,
+      "pct_of_total": 8.3,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -179,7 +179,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 52.0,
-      "pct_of_total": 6.8,
+      "pct_of_total": 6.7,
       "tasks": [
         {
           "task": "Battery Pack",
@@ -255,6 +255,41 @@
       ]
     },
     {
+      "project": "Thacker 46 Woody",
+      "total_hours": 31.5,
+      "pct_of_total": 4.1,
+      "tasks": [
+        {
+          "task": "HVAC",
+          "hours": 10.8
+        },
+        {
+          "task": "Audio",
+          "hours": 6.5
+        },
+        {
+          "task": "Exterior",
+          "hours": 5.5
+        },
+        {
+          "task": "Wiring - OEM",
+          "hours": 4.0
+        },
+        {
+          "task": "Brakes",
+          "hours": 3.2
+        },
+        {
+          "task": "Manufacturing - Product",
+          "hours": 1.0
+        },
+        {
+          "task": "Motor & Transmission",
+          "hours": 0.5
+        }
+      ]
+    },
+    {
       "project": "Preheim 72 Blazer",
       "total_hours": 27.8,
       "pct_of_total": 3.6,
@@ -277,41 +312,6 @@
         },
         {
           "task": "Vehicle Control",
-          "hours": 0.5
-        }
-      ]
-    },
-    {
-      "project": "Thacker 46 Woody",
-      "total_hours": 27.0,
-      "pct_of_total": 3.5,
-      "tasks": [
-        {
-          "task": "Audio",
-          "hours": 6.5
-        },
-        {
-          "task": "HVAC",
-          "hours": 6.2
-        },
-        {
-          "task": "Exterior",
-          "hours": 5.5
-        },
-        {
-          "task": "Wiring - OEM",
-          "hours": 4.0
-        },
-        {
-          "task": "Brakes",
-          "hours": 3.2
-        },
-        {
-          "task": "Manufacturing - Product",
-          "hours": 1.0
-        },
-        {
-          "task": "Motor & Transmission",
           "hours": 0.5
         }
       ]
@@ -364,7 +364,7 @@
     }
   ],
   "shop_work": {
-    "total_hours": 122.5,
+    "total_hours": 123.0,
     "pct_of_total": 15.9,
     "avg_per_person_per_day": 1.18,
     "flagged": true,
@@ -373,7 +373,7 @@
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 51.5
+        "hours": 52.0
       },
       {
         "label": "Shop Meetings",
@@ -467,10 +467,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 572.0,
-    "non_billable_hours": 198.2,
+    "billable_hours": 577.2,
+    "non_billable_hours": 198.8,
     "pto_hours": 12.0,
-    "total_hours": 770.2
+    "total_hours": 776.0
   },
-  "generated_at": "2026-09-17T23:35:26Z"
+  "generated_at": "2026-09-17T23:49:10Z"
 }
