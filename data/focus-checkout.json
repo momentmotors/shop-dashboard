@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T17:50:19.043300Z",
+  "updated_at": "2026-09-17T18:17:59.138191Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1142,51 +1142,9 @@
         "matched_lists": [
           "McDonough 77 Esprit"
         ],
-        "open_tasks": 6
+        "open_tasks": 5
       },
       "assignees": [
-        {
-          "name": "David Webber",
-          "tasks": [
-            {
-              "id": "868m2ww4n",
-              "name": "Replace headlight switch",
-              "status": "Open",
-              "list": "McDonough 77 Esprit",
-              "url": "https://app.clickup.com/t/868m2ww4n",
-              "comments": [
-                {
-                  "author": "David Webber",
-                  "date": "2026-09-10 15:14",
-                  "text": "parts ETA = 9/11"
-                },
-                {
-                  "author": "David Webber",
-                  "date": "2026-09-11 18:19",
-                  "text": "Received replacement switch & noted that it uss spade terminals instead of pin/socket type. Also notes that it is missing a circuit. Fashioned a new switch using the circuit base of the original switch and combining it with the sliding contact and rocker portion of the new switch. Installed new assembly. Lamp functions restored."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "e11e9ce5113d57d559c971e7fdbe68bd3523c99cd25f5d287bc8524adf1d6c0d"
-            },
-            {
-              "id": "868km7t9d",
-              "name": "Test drive vehicle",
-              "status": "Open",
-              "list": "McDonough 77 Esprit",
-              "url": "https://app.clickup.com/t/868km7t9d",
-              "comments": [
-                {
-                  "author": "David Webber",
-                  "date": "2026-08-06 13:12",
-                  "text": "31 mile road test. Motor & Battery circuits running cool. No DTCs. GUI ok... not dropping out as previously noted. Rear suspension is still quiet."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "ce28c1c89c82278d2e0c2f6e5373fc224928fb0295bf6f4bb40b99828181ecde"
-            }
-          ]
-        },
         {
           "name": "Brandon Beaman",
           "tasks": [
@@ -1311,6 +1269,27 @@
                 }
               ],
               "content_hash": "0a957a78c171d7235c406260926716b9f8364e083c6ddb57d57498fed4dadca2"
+            }
+          ]
+        },
+        {
+          "name": "David Webber",
+          "tasks": [
+            {
+              "id": "868km7t9d",
+              "name": "Test drive vehicle",
+              "status": "Open",
+              "list": "McDonough 77 Esprit",
+              "url": "https://app.clickup.com/t/868km7t9d",
+              "comments": [
+                {
+                  "author": "David Webber",
+                  "date": "2026-08-06 13:12",
+                  "text": "31 mile road test. Motor & Battery circuits running cool. No DTCs. GUI ok... not dropping out as previously noted. Rear suspension is still quiet."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "ce28c1c89c82278d2e0c2f6e5373fc224928fb0295bf6f4bb40b99828181ecde"
             }
           ]
         },
@@ -2401,5 +2380,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-17T17:48:40Z"
+  "generated_at": "2026-09-17T18:16:08Z"
 }

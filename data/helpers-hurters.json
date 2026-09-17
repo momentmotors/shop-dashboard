@@ -41,20 +41,20 @@
     },
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 64.5,
-      "pct_of_total": 8.9,
+      "total_hours": 65.5,
+      "pct_of_total": 9.0,
       "tasks": [
         {
           "task": "Manufacturing - Product",
           "hours": 30.8
         },
         {
-          "task": "Motor & Transmission",
-          "hours": 6.0
+          "task": "Vehicle Control",
+          "hours": 6.8
         },
         {
-          "task": "Vehicle Control",
-          "hours": 5.8
+          "task": "Motor & Transmission",
+          "hours": 6.0
         },
         {
           "task": "HVAC",
@@ -132,7 +132,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 59.0,
-      "pct_of_total": 8.2,
+      "pct_of_total": 8.1,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -459,10 +459,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 534.8,
+    "billable_hours": 535.8,
     "non_billable_hours": 188.5,
     "pto_hours": 12.0,
-    "total_hours": 723.2
+    "total_hours": 724.2
   },
-  "generated_at": "2026-09-17T17:48:40Z"
+  "generated_at": "2026-09-17T18:16:08Z"
 }
