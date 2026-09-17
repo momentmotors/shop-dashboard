@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T21:26:26.505440Z",
+  "updated_at": "2026-09-17T21:36:15.186286Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -851,10 +851,15 @@
                   "author": "Brandon Beaman",
                   "date": "2026-09-17 21:20",
                   "text": "Conducted a handful of test drives on this vehicle all trying to get into the problem area.\nWe have found one issue that being the throttle pedal sensor/assembly.\nNoah found debris in the sensor and after swapping out the pedal our APP signal cleans up dramatically.\nHowever our \"Misfire\" symptom still persists.\nGathered a handful of logs today and used claude to analyze them. Marc also helping with the analysis.\nNew data is showing some very weird symptoms will need to analyze this further. Unfortunatley this is not complete."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-17 21:35",
+                  "text": "Kelly_Per_Pull_Traces_17Sep.pdfThis data is interesting."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "a9d3145e0a88d74804d6adc32c19d8065ad08639de797fc931a174aa11af3372"
+              "content_hash": "aa3d03ff9c6934fc0a17538376a5d93901e1ff18a7a84ecf5ff2483b32087508"
             }
           ]
         },
@@ -2302,5 +2307,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-17T21:24:44Z"
+  "generated_at": "2026-09-17T21:34:45Z"
 }
