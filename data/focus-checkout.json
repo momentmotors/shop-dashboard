@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T15:50:34.251377Z",
+  "updated_at": "2026-09-17T16:16:40.652734Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1638,10 +1638,15 @@
                   "author": "David Webber",
                   "date": "2026-09-14 18:26",
                   "text": "Multiple noises from tailgate and hard top\ntailgate latch and rods and release handle banging around in tailgate - removed components, installed dampening + lube and adjust\nTailgate and hardtop remaining noises \u2026\n- Missing bumper stop for tailgate - ordered replacement\n-tailgate straps noisy.. order nylon shims for an ATTEMPT to tighten these up\n-Rear window still knocking (side/side) in frame during bump/flex\u2026 already thick anti-rattle rubber here\u2026 There is cracking damage/repairs here ... this may be as good as it gets?\nHardtop latches loose and dry. - Adjust, tighten and lube. Rear window seal dry and creaking - clean/lube seal\nCreaking/squeaking from door/hood latches - clean/lube latches\nCenter console squeaks/rattles - VHB chrome trim in place, make and install felt bumpers for lid and ashtray insert"
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-09-17 16:13",
+                  "text": "Continued road testing for creak/rattle abatement. Fashion & affix a pair of hard rubber wedges to hard top rear window/gate to restrict side to side movement & rattling. Got with Billy to source replacement door panel clips. Once these arrive I'll address noisy window & lock mechanisms in each door. I'll also get the truck in the air to explore rotational noises once the lift is free."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "7ba92a7f5c3623b7e0ad0821a8e2a39a94bdad948c6c0146371fd9344c0807a6"
+              "content_hash": "3b376e73137df9ac02764c118467c1132b53641da7d7c7af253b85a287c9455b"
             }
           ]
         },
@@ -2451,5 +2456,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-17T15:48:25Z"
+  "generated_at": "2026-09-17T16:14:41Z"
 }
