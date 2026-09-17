@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T19:12:00.516182Z",
+  "updated_at": "2026-09-17T19:24:00.976035Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1802,9 +1802,15 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868m63pqp",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-17 19:20",
+                  "text": "Installed the spring brakes are working will test tonight"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "26d06387690cd7c83123ef2a50fc44d12dfa8be4c5d9ffab308bb1eb8e730ebb"
+              "content_hash": "ed0967d1a0b6db310edeac59772e27168011782f1a612e1aa014546ec846cd9b"
             },
             {
               "id": "868kmp9tm",
@@ -1858,10 +1864,15 @@
                   "author": "Billy Arrasmith",
                   "date": "2026-09-10 02:33",
                   "text": "covered the glove box and ashtray with vinyl"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-17 19:23",
+                  "text": "seat belts installed\nIMG_2117.jpeg\nIMG_2116.jpeg"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "32684eed741507b25e13c243375bae6fdee88fa9335abed6222ea2d2d854c9cc"
+              "content_hash": "60724e651b14d9abf508e9254575ef5bb18202573e7ac4deab5ace8e0a762117"
             }
           ]
         },
@@ -2432,5 +2443,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-17T19:10:18Z"
+  "generated_at": "2026-09-17T19:22:29Z"
 }
