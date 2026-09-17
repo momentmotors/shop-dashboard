@@ -337,8 +337,8 @@
     },
     {
       "project": "Richardson 72 240Z",
-      "total_hours": 19.8,
-      "pct_of_total": 2.6,
+      "total_hours": 20.0,
+      "pct_of_total": 2.7,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -358,7 +358,7 @@
         },
         {
           "task": "Audio",
-          "hours": 0.5
+          "hours": 0.8
         }
       ]
     }
@@ -467,10 +467,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 554.2,
+    "billable_hours": 554.5,
     "non_billable_hours": 194.0,
     "pto_hours": 12.0,
-    "total_hours": 748.2
+    "total_hours": 748.5
   },
-  "generated_at": "2026-09-17T20:12:58Z"
+  "generated_at": "2026-09-17T20:28:20Z"
 }
