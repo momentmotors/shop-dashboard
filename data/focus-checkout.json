@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T16:50:43.444529Z",
+  "updated_at": "2026-09-17T17:11:55.168090Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -882,7 +882,7 @@
         "matched_lists": [
           "Kelly 63 Corvette"
         ],
-        "open_tasks": 7
+        "open_tasks": 8
       },
       "assignees": [
         {
@@ -989,6 +989,16 @@
               ],
               "checklist_items": [],
               "content_hash": "a75107e87f56b76fb24d59f059099f9c762268cdf7384e8d28cb64b1131db12e"
+            },
+            {
+              "id": "868m6d8fj",
+              "name": "Troubleshoot throttle issue",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868m6d8fj",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "a4512900e66a18004d16a400dcc65b70d525aed6bd56158408daf953849f237f"
             }
           ]
         },
@@ -1826,25 +1836,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868hbmwkf",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-05-27 02:55",
-                  "text": "started HVAC ducting\nadded the adapters on the box\nrouting the hoses to the vents"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-05-27 20:04",
-                  "text": "HVAC ducting installed\ninstalled the vents\nran ducting to the vents\ninstalled the defrost\nrand ducting to the defrost\nduct work \nIMG_1116.jpeg\nIMG_1115.jpeg\nIMG_1114.jpeg\nis done"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-16 23:54",
-                  "text": "installed ducting after the radio install"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "3f136a96a1739248246c3d41af1a9759f2d6dca68de46337fe2edf5cf4e0af58"
+              "content_hash": "142c7dc10ffd1c432d3222c7477111b2af8ffb1f68bb8468efdb659ddb15f50f"
             },
             {
               "id": "868m63pqp",
@@ -2456,5 +2450,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-17T16:48:54Z"
+  "generated_at": "2026-09-17T17:10:08Z"
 }
