@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T17:24:03.688556Z",
+  "updated_at": "2026-09-17T17:37:23.642624Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1572,10 +1572,15 @@
                   "author": "David Webber",
                   "date": "2026-09-17 16:13",
                   "text": "Continued road testing for creak/rattle abatement. Fashion & affix a pair of hard rubber wedges to hard top rear window/gate to restrict side to side movement & rattling. Got with Billy to source replacement door panel clips. Once these arrive I'll address noisy window & lock mechanisms in each door. I'll also get the truck in the air to explore rotational noises once the lift is free."
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-09-17 17:27",
+                  "text": "I've got 7hrs in this task & I'll probably spend another 4? See above comments"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "3b376e73137df9ac02764c118467c1132b53641da7d7c7af253b85a287c9455b"
+              "content_hash": "9c6e84153657942f9772801abc2726148d01a5e9dac630c1bd0b77a44652aacd"
             }
           ]
         },
@@ -2396,5 +2401,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-17T17:22:33Z"
+  "generated_at": "2026-09-17T17:35:39Z"
 }
