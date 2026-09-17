@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T18:53:03.471873Z",
+  "updated_at": "2026-09-17T19:12:00.516182Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -915,9 +915,15 @@
               "status": "Open",
               "list": "Kelly 63 Corvette",
               "url": "https://app.clickup.com/t/868m6d8fj",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-09-17 19:07",
+                  "text": "Removed OE apps, found a TON of fiberglass powder and resign shards in the sensor, Swapped in a sensor from Nolan, and reinstalled, and gave Brandon the keys to drive. We will see if the Apps is fixed now."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "a4512900e66a18004d16a400dcc65b70d525aed6bd56158408daf953849f237f"
+              "content_hash": "3925137764bfc41af5a92f12776778396df5e83cfe567e863113b9d9fee7b03f"
             }
           ]
         },
@@ -1713,9 +1719,30 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868m63q3d",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-17 19:05",
+                  "text": "IMG_2112.jpeg\nIMG_2111.jpeg"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-17 19:05",
+                  "text": "replaced the hose\nadded a new clamp\nhose had broke inside and leaked throught the webbing"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-17 19:06",
+                  "text": "IMG_2110.jpeg\nIMG_2109.jpeg\nIMG_2108.jpeg"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-17 19:06",
+                  "text": "installed the 1/8 npt fittings"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "aab11bab337aeecdb335db06c747c4075672cb8393d36284455d4db7bb6f3123"
+              "content_hash": "6d1544404164e5741d772fc24c6c16b381d02c2ba52b8a50a818eb66eba232f4"
             },
             {
               "id": "868hbnnhz",
@@ -2405,5 +2432,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-17T18:51:13Z"
+  "generated_at": "2026-09-17T19:10:18Z"
 }
