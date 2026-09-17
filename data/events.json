@@ -117,7 +117,13 @@
           "day_name": "Thursday",
           "is_today": false,
           "is_weekend": false,
-          "events": []
+          "events": [
+            {
+              "summary": "Ryan in late, Court Appt. ",
+              "type": "pto",
+              "all_day": true
+            }
+          ]
         },
         {
           "date": "2026-09-25",
@@ -267,5 +273,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-17T18:40:44Z"
+  "generated_at": "2026-09-17T18:51:13Z"
 }
