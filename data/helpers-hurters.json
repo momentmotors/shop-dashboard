@@ -3,7 +3,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 76.5,
-      "pct_of_total": 10.7,
+      "pct_of_total": 10.6,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -40,9 +40,52 @@
       ]
     },
     {
+      "project": "Warke 61 Eldorado",
+      "total_hours": 64.5,
+      "pct_of_total": 9.0,
+      "tasks": [
+        {
+          "task": "Manufacturing - Product",
+          "hours": 30.8
+        },
+        {
+          "task": "Motor & Transmission",
+          "hours": 6.0
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 5.8
+        },
+        {
+          "task": "HVAC",
+          "hours": 4.8
+        },
+        {
+          "task": "Steering",
+          "hours": 4.5
+        },
+        {
+          "task": "Charging",
+          "hours": 4.5
+        },
+        {
+          "task": "Cooling",
+          "hours": 3.8
+        },
+        {
+          "task": "Brakes",
+          "hours": 3.5
+        },
+        {
+          "task": "Manufacturing - Core",
+          "hours": 1.0
+        }
+      ]
+    },
+    {
       "project": "Ritchie 71 Blazer",
       "total_hours": 63.0,
-      "pct_of_total": 8.8,
+      "pct_of_total": 8.7,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -82,49 +125,6 @@
         },
         {
           "task": "Vehicle Control",
-          "hours": 1.0
-        }
-      ]
-    },
-    {
-      "project": "Warke 61 Eldorado",
-      "total_hours": 59.8,
-      "pct_of_total": 8.4,
-      "tasks": [
-        {
-          "task": "Manufacturing - Product",
-          "hours": 30.8
-        },
-        {
-          "task": "Vehicle Control",
-          "hours": 5.8
-        },
-        {
-          "task": "HVAC",
-          "hours": 4.8
-        },
-        {
-          "task": "Steering",
-          "hours": 4.5
-        },
-        {
-          "task": "Charging",
-          "hours": 4.5
-        },
-        {
-          "task": "Cooling",
-          "hours": 3.8
-        },
-        {
-          "task": "Brakes",
-          "hours": 3.5
-        },
-        {
-          "task": "Motor & Transmission",
-          "hours": 1.2
-        },
-        {
-          "task": "Manufacturing - Core",
           "hours": 1.0
         }
       ]
@@ -175,7 +175,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 52.0,
-      "pct_of_total": 7.3,
+      "pct_of_total": 7.2,
       "tasks": [
         {
           "task": "Battery Pack",
@@ -210,7 +210,7 @@
     {
       "project": "Krafcik 02 Caterham",
       "total_hours": 35.5,
-      "pct_of_total": 5.0,
+      "pct_of_total": 4.9,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -276,7 +276,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 27.0,
-      "pct_of_total": 3.8,
+      "pct_of_total": 3.7,
       "tasks": [
         {
           "task": "Audio",
@@ -334,7 +334,7 @@
     {
       "project": "Richardson 72 240Z",
       "total_hours": 19.8,
-      "pct_of_total": 2.8,
+      "pct_of_total": 2.7,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -361,7 +361,7 @@
   ],
   "shop_work": {
     "total_hours": 113.8,
-    "pct_of_total": 15.9,
+    "pct_of_total": 15.8,
     "avg_per_person_per_day": 1.09,
     "flagged": true,
     "tech_count": 8,
@@ -397,7 +397,7 @@
     {
       "project": "ICON Bronco Prototype",
       "total_hours": 25.5,
-      "pct_of_total": 3.6,
+      "pct_of_total": 3.5,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -430,7 +430,7 @@
     {
       "project": "Connolly 58 220S",
       "total_hours": 8.2,
-      "pct_of_total": 1.2,
+      "pct_of_total": 1.1,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -459,10 +459,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 527.5,
+    "billable_hours": 532.2,
     "non_billable_hours": 188.0,
     "pto_hours": 12.0,
-    "total_hours": 715.5
+    "total_hours": 720.2
   },
-  "generated_at": "2026-09-17T16:31:45Z"
+  "generated_at": "2026-09-17T16:48:54Z"
 }
