@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T18:17:59.138191Z",
+  "updated_at": "2026-09-17T18:42:27.743526Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1142,9 +1142,40 @@
         "matched_lists": [
           "McDonough 77 Esprit"
         ],
-        "open_tasks": 5
+        "open_tasks": 6
       },
       "assignees": [
+        {
+          "name": "David Webber",
+          "tasks": [
+            {
+              "id": "868m6fadr",
+              "name": "Clean car",
+              "status": "Open",
+              "list": "McDonough 77 Esprit",
+              "url": "https://app.clickup.com/t/868m6fadr",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "b0e4ced02a0b830e0647096d0fa0fe021ae8bd78548385872e36318791eed7d8"
+            },
+            {
+              "id": "868km7t9d",
+              "name": "Test drive vehicle",
+              "status": "Open",
+              "list": "McDonough 77 Esprit",
+              "url": "https://app.clickup.com/t/868km7t9d",
+              "comments": [
+                {
+                  "author": "David Webber",
+                  "date": "2026-08-06 13:12",
+                  "text": "31 mile road test. Motor & Battery circuits running cool. No DTCs. GUI ok... not dropping out as previously noted. Rear suspension is still quiet."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "ce28c1c89c82278d2e0c2f6e5373fc224928fb0295bf6f4bb40b99828181ecde"
+            }
+          ]
+        },
         {
           "name": "Brandon Beaman",
           "tasks": [
@@ -1269,27 +1300,6 @@
                 }
               ],
               "content_hash": "0a957a78c171d7235c406260926716b9f8364e083c6ddb57d57498fed4dadca2"
-            }
-          ]
-        },
-        {
-          "name": "David Webber",
-          "tasks": [
-            {
-              "id": "868km7t9d",
-              "name": "Test drive vehicle",
-              "status": "Open",
-              "list": "McDonough 77 Esprit",
-              "url": "https://app.clickup.com/t/868km7t9d",
-              "comments": [
-                {
-                  "author": "David Webber",
-                  "date": "2026-08-06 13:12",
-                  "text": "31 mile road test. Motor & Battery circuits running cool. No DTCs. GUI ok... not dropping out as previously noted. Rear suspension is still quiet."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "ce28c1c89c82278d2e0c2f6e5373fc224928fb0295bf6f4bb40b99828181ecde"
             }
           ]
         },
@@ -1526,14 +1536,14 @@
           "name": "David Webber",
           "tasks": [
             {
-              "id": "868m4x44u",
-              "name": "Assess interior squeaks and rattles",
+              "id": "868m6f2w9",
+              "name": "Assess exterior squeaks and rattles",
               "status": "Open",
               "list": "Preheim 72 Blazer",
-              "url": "https://app.clickup.com/t/868m4x44u",
+              "url": "https://app.clickup.com/t/868m6f2w9",
               "comments": [],
               "checklist_items": [],
-              "content_hash": "8fea1d6d1af49160ab84bcb7db71aea2821b265f67709e5cde86abebe31c7e84"
+              "content_hash": "5e2e22b328adb322794115540010e430f049f2ff6e66f8457b83415f5251e793"
             },
             {
               "id": "868m4x3uh",
@@ -2333,6 +2343,21 @@
           ]
         },
         {
+          "name": "Ben Drinkard",
+          "tasks": [
+            {
+              "id": "868jfe48t",
+              "name": "Manufacture Core - Front Battery Pack Lid",
+              "status": "Open",
+              "list": "Teague 62 Jaguar",
+              "url": "https://app.clickup.com/t/868jfe48t",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "1f92a310468f8aee2b0606515b7d60357be331944f6fc94c52a28da4c0de3263"
+            }
+          ]
+        },
+        {
           "name": "Brandon Beaman",
           "tasks": [
             {
@@ -2380,5 +2405,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-17T18:16:08Z"
+  "generated_at": "2026-09-17T18:40:44Z"
 }
