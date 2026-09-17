@@ -2,8 +2,8 @@
   "helpers": [
     {
       "project": "LB 82 911",
-      "total_hours": 79.5,
-      "pct_of_total": 10.4,
+      "total_hours": 82.5,
+      "pct_of_total": 10.7,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -22,16 +22,16 @@
           "hours": 6.5
         },
         {
+          "task": "Cooling",
+          "hours": 5.8
+        },
+        {
           "task": "Manufacturing - Core",
           "hours": 5.5
         },
         {
           "task": "Exterior",
           "hours": 4.5
-        },
-        {
-          "task": "Cooling",
-          "hours": 2.8
         },
         {
           "task": "Interior",
@@ -42,7 +42,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 72.5,
-      "pct_of_total": 9.5,
+      "pct_of_total": 9.4,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -360,20 +360,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 121.5,
+    "total_hours": 122.5,
     "pct_of_total": 15.9,
-    "avg_per_person_per_day": 1.17,
+    "avg_per_person_per_day": 1.18,
     "flagged": true,
     "tech_count": 8,
     "working_days": 13,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 51.0
+        "hours": 51.5
       },
       {
         "label": "Shop Meetings",
-        "hours": 42.0
+        "hours": 42.5
       },
       {
         "label": "Personal Meetings",
@@ -448,25 +448,25 @@
     },
     {
       "project": "Kelly 63 Corvette",
-      "total_hours": 1.0,
-      "pct_of_total": 0.1,
+      "total_hours": 2.0,
+      "pct_of_total": 0.3,
       "tasks": [
         {
-          "task": "Troubleshooting",
-          "hours": 0.5
+          "task": "Installation - Extra",
+          "hours": 1.5
         },
         {
-          "task": "Installation - Extra",
+          "task": "Troubleshooting",
           "hours": 0.5
         }
       ]
     }
   ],
   "totals": {
-    "billable_hours": 567.5,
-    "non_billable_hours": 196.2,
+    "billable_hours": 570.5,
+    "non_billable_hours": 198.2,
     "pto_hours": 12.0,
-    "total_hours": 763.8
+    "total_hours": 768.8
   },
-  "generated_at": "2026-09-17T23:09:55Z"
+  "generated_at": "2026-09-17T23:21:08Z"
 }
