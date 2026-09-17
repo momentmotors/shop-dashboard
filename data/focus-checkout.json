@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T07:17:59.705447Z",
+  "updated_at": "2026-09-17T07:41:56.415047Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -387,29 +387,8 @@
                   "text": "Verified Wifi credentials uploaded to logger and let all appropriate parties know."
                 }
               ],
-              "checklist_items": [
-                {
-                  "checklist": "Checklist",
-                  "name": "Add wifi credentials",
-                  "resolved": false
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Test temp gauge functionality",
-                  "resolved": false
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Troubleshoot \"DisplayDashGUI_SettingsMsgTimeout\" message",
-                  "resolved": false
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Tune throttle",
-                  "resolved": true
-                }
-              ],
-              "content_hash": "06a837148fd509d9612e5b0911f7f3d5ee5d2e494006b4212b6eddc0a3190e7b"
+              "checklist_items": [],
+              "content_hash": "1326ee3ca07a29a4365bbd0e8c785a6d5e7b704d676e12078fc3d9ef189f3df5"
             }
           ]
         }
@@ -2187,9 +2166,20 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868gaza9t",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-27 23:04",
+                  "text": "Lid trial fit successfully\nCover inspected for damage\nLogo location measure for\nBorder taped out\nCenterline and height measured and marked\nSurface cleaned\nLetters planed, cut out and deburred\nLetters cleaned\nLord applied to letters and set in jig\nLetters tacked up, tape removed and jig removed"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-27 23:06",
+                  "text": "paste_141d968b-0512-452b-a33a-86e7fc241f0f.jpgpaste_bf4776b9-40fe-4367-967c-ada0ad2e562a.jpg"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "d9f9273bd20a0261c1da8aa58792fabb09ecbcfe7ed7ff121281c714d5fa985e"
+              "content_hash": "80813490a3658dae81d59cebc717ba1b9ad6c40740e243855fcd1327dc70de1f"
             }
           ]
         },
@@ -2233,30 +2223,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868m40fu8",
-              "comments": [
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-10 23:46",
-                  "text": "Found that the logger in this vehicle was not configured for our bucket nor were the wifi credentials setup to start logging as we test drove the truck.\nWent through and configured the Logger to our bucket and Added Billy's wifi credentials to the logger.\nTest and Verified with Marc that the truck was now uploading logs.\nTruck Now uploading logs and should be good to for Logging.\nOnce we have the Clients wifi credentials I can upload these ASAP."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-11 20:16",
-                  "text": "Adjusted Tire diameter according to Billys Measurements from 0.838 to 0.800\nWill need to test drive vehicle and verify."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-16 15:52",
-                  "text": "Verified CAN logger information is updated and applied to the truck.\nUploaded screenshots for verification and future use if necessary."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-16 15:52",
-                  "text": "Meeting Covering checkout necessities and when the vehicle needs to be done."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "25621a299a15339bd7b3ece38bf0938b4479a1e482f28763db64b81e72bca0c6"
+              "content_hash": "83bb4f939a841271259612353f26a6babb67e422ab4f557b85b2019d3d381794"
             }
           ]
         },
@@ -2451,5 +2420,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-17T07:16:18Z"
+  "generated_at": "2026-09-17T07:39:58Z"
 }
