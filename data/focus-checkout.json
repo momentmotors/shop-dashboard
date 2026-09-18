@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T13:50:00.658203Z",
+  "updated_at": "2026-09-18T14:14:53.360743Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -733,9 +733,20 @@
               "status": "Open",
               "list": "Kelly 63 Corvette",
               "url": "https://app.clickup.com/t/868m6jh53",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-09-18 13:51",
+                  "text": "This is from slack. \"On brake pedal. Something is odd.\u00a0 On one startup it was hard, one another startup I got boosted brakes right away. After trying the pedal put I turned the car off, but still had boosted brakes. I took the connector off and checked all the wiring, the switched and perm powers all work as expected. So it's a little odd the booster is acting like this, and worked even while not being commanded to do so. I think the gen1 in this car is bad. Curious what y'all think.\"\n\nSo i replaced the broken latch plastic but that didn't help, and tested the harness and it functions as we normally want it to, so i don't have a answer as to why the booster is not working correctly. Ill bring up in morning meeting for ideas/ insight."
+                },
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-09-18 13:55",
+                  "text": "Chatted With Billy and there is a chance ill need to do the adjustment again. Going to wait till after meeting."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "be2b2d96755056f01ceb515a98e73a76b0c6b9cc5a3c3f1aaa88fc8017f7209b"
+              "content_hash": "0ed08116d8ea14935a1cc0b1b24713062ed0982d291e2077e1f4b8d49d1d9f2d"
             },
             {
               "id": "868ku38p2",
@@ -2328,5 +2339,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-18T13:48:25Z"
+  "generated_at": "2026-09-18T14:12:59Z"
 }

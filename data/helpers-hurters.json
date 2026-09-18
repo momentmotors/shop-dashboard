@@ -214,7 +214,7 @@
     {
       "project": "Krafcik 02 Caterham",
       "total_hours": 39.2,
-      "pct_of_total": 5.1,
+      "pct_of_total": 5.0,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -257,7 +257,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 31.5,
-      "pct_of_total": 4.1,
+      "pct_of_total": 4.0,
       "tasks": [
         {
           "task": "HVAC",
@@ -423,7 +423,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 17.5,
-      "pct_of_total": 2.3,
+      "pct_of_total": 2.2,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -452,25 +452,25 @@
     },
     {
       "project": "Kelly 63 Corvette",
-      "total_hours": 2.0,
-      "pct_of_total": 0.3,
+      "total_hours": 4.0,
+      "pct_of_total": 0.5,
       "tasks": [
+        {
+          "task": "Troubleshooting",
+          "hours": 2.5
+        },
         {
           "task": "Installation - Extra",
           "hours": 1.5
-        },
-        {
-          "task": "Troubleshooting",
-          "hours": 0.5
         }
       ]
     }
   ],
   "totals": {
     "billable_hours": 577.5,
-    "non_billable_hours": 198.8,
+    "non_billable_hours": 200.8,
     "pto_hours": 12.0,
-    "total_hours": 776.2
+    "total_hours": 778.2
   },
-  "generated_at": "2026-09-18T13:48:25Z"
+  "generated_at": "2026-09-18T14:12:59Z"
 }
