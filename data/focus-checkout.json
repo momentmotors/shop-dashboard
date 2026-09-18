@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T22:36:28.564918Z",
+  "updated_at": "2026-09-18T22:50:57.425334Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -92,9 +92,15 @@
               "status": "Open",
               "list": "Chuter 62 Healey",
               "url": "https://app.clickup.com/t/868m6ufe9",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-18 22:44",
+                  "text": "speedo calibrated test drove and set the DD"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "7ba13b5411f6760a7594a71a19d53adc7e23214912d398efbabdf1b74657854b"
+              "content_hash": "48737f89239985ed2c5647ace3ec9f669723dc24f3d2357887e3d24df983ada3"
             }
           ]
         },
@@ -448,10 +454,20 @@
                   "author": "Brandon Beaman",
                   "date": "2026-09-18 22:35",
                   "text": "Pre Flash\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-18 22:40",
+                  "text": "Flash to VCM_518_Beta010816_SDU_Persist\nimage.png\nFlash Successful"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-18 22:43",
+                  "text": "Post Flash Pre Correction\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "2838f78b2b748ea2ea416ac2882c192ee8155385e0bf62d8393d56911a65fc79"
+              "content_hash": "ae818b5fdab30610792604fb28b53b2759034c4e2f7aa179b61ac5f19887cfb4"
             }
           ]
         },
@@ -1367,9 +1383,15 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868m6uehh",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-18 22:49",
+                  "text": "removed the dr side axle\ntook the U-Joint out\nwaited for the new joint\nfirst one was wrong\ngot the right one\ninstalled U-Joint\nreinstalled axle\ntest drove truck\ndrives great"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "83f5b0057d0375e695b5e7475b0efeff3c5c1da8e27a114558fd5c62d6eede1b"
+              "content_hash": "2b1cd7a3ddef873ea6fac4b77cfe8cca50628ec361a6bc1282366188f6ba1cd3"
             }
           ]
         },
@@ -2242,5 +2264,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-18T22:35:01Z"
+  "generated_at": "2026-09-18T22:49:15Z"
 }
