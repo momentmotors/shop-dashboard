@@ -42,7 +42,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 72.5,
-      "pct_of_total": 9.3,
+      "pct_of_total": 9.2,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -256,8 +256,8 @@
     },
     {
       "project": "Thacker 46 Woody",
-      "total_hours": 31.5,
-      "pct_of_total": 4.0,
+      "total_hours": 32.5,
+      "pct_of_total": 4.1,
       "tasks": [
         {
           "task": "HVAC",
@@ -281,7 +281,7 @@
         },
         {
           "task": "Manufacturing - Product",
-          "hours": 1.0
+          "hours": 2.0
         },
         {
           "task": "Motor & Transmission",
@@ -364,9 +364,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 124.5,
-    "pct_of_total": 15.9,
-    "avg_per_person_per_day": 1.11,
+    "total_hours": 125.2,
+    "pct_of_total": 16.0,
+    "avg_per_person_per_day": 1.12,
     "flagged": true,
     "tech_count": 8,
     "working_days": 14,
@@ -381,7 +381,7 @@
       },
       {
         "label": "Personal Meetings",
-        "hours": 17.8
+        "hours": 18.5
       },
       {
         "label": "Organization",
@@ -467,10 +467,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 579.0,
-    "non_billable_hours": 203.5,
+    "billable_hours": 580.0,
+    "non_billable_hours": 204.2,
     "pto_hours": 12.0,
-    "total_hours": 782.5
+    "total_hours": 784.2
   },
-  "generated_at": "2026-09-18T18:32:36Z"
+  "generated_at": "2026-09-18T18:48:09Z"
 }
