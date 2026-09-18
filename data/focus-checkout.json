@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T14:31:40.766465Z",
+  "updated_at": "2026-09-18T14:42:44.090425Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1188,25 +1188,25 @@
                 {
                   "checklist": "Checklist",
                   "name": "Verify gauges after reinstallation",
-                  "resolved": false
+                  "resolved": true
                 },
                 {
                   "checklist": "Checklist",
                   "name": "Test fast charging",
-                  "resolved": false
+                  "resolved": true
                 },
                 {
                   "checklist": "Checklist",
                   "name": "Perform overnight charge",
-                  "resolved": false
+                  "resolved": true
                 },
                 {
                   "checklist": "Checklist",
                   "name": "Verify inverter break speed",
-                  "resolved": false
+                  "resolved": true
                 }
               ],
-              "content_hash": "0a957a78c171d7235c406260926716b9f8364e083c6ddb57d57498fed4dadca2"
+              "content_hash": "c9f765f5bfd91f4c7dbde634aa9c874e0f6661b38cc8162b9c1b4865c7e41574"
             }
           ]
         },
@@ -2339,5 +2339,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-18T14:29:08Z"
+  "generated_at": "2026-09-18T14:40:49Z"
 }
