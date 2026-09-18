@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T22:50:57.425334Z",
+  "updated_at": "2026-09-18T23:12:36.112159Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1707,9 +1707,20 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868m63qvh",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-18 22:51",
+                  "text": "installed new trim ring for ignition\nordered new CIG lighter"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-18 22:52",
+                  "text": "installed the rear speakers\ncut l channel for the rear panels\nready to install"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "8fd66da719ff705d1cfee40e5a59ea597a5a80d93c1c6678c2c1fb1afd503ed5"
+              "content_hash": "1d112dfa30f23031288d57c8a5f07da804c6842af686ba7824fec41d62a92952"
             },
             {
               "id": "868ktqjxq",
@@ -2264,5 +2275,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-18T22:49:15Z"
+  "generated_at": "2026-09-18T23:11:08Z"
 }
