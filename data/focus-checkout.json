@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T18:49:55.646680Z",
+  "updated_at": "2026-09-18T19:12:08.250314Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1372,9 +1372,15 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868m6f2w9",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "David Webber",
+                  "date": "2026-09-18 19:02",
+                  "text": "Road tested again for rotational noise(s) heard by marc. Drive vehicle on rack for rotational nose diagnosis. Noted failing Ujoint at left front axle."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "5e2e22b328adb322794115540010e430f049f2ff6e66f8457b83415f5251e793"
+              "content_hash": "99a7f1587c70030b23ed7f15fbff1b131e5a28b38fca13f6fa3f2718339ee0e3"
             },
             {
               "id": "868m4x3uh",
@@ -2205,5 +2211,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-18T18:48:09Z"
+  "generated_at": "2026-09-18T19:10:36Z"
 }

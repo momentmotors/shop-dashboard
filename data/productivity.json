@@ -2,31 +2,31 @@
   "target_pct": 75,
   "current_month": {
     "month": "2026-09",
-    "productivity_pct": 74.0,
-    "billable_hours": 580.0,
-    "total_hours": 796.2,
+    "productivity_pct": 74.2,
+    "billable_hours": 589.0,
+    "total_hours": 806.2,
     "pto_hours": 12.0
   },
   "comparisons": {
     "vs_last_month": {
       "label": "vs Last Month",
-      "value": 70.4,
-      "delta": 3.6
+      "value": 70.3,
+      "delta": 3.9
     },
     "vs_last_quarter": {
       "label": "vs Last Quarter Avg",
-      "value": 69.8,
-      "delta": 4.2
+      "value": 69.7,
+      "delta": 4.5
     },
     "vs_last_week": {
       "label": "vs Last Week",
       "value": 65.3,
-      "delta": 8.7
+      "delta": 8.9
     },
     "vs_target": {
       "label": "vs Target",
       "value": 75,
-      "delta": -1.0
+      "delta": -0.8
     }
   },
   "monthly": [
@@ -102,16 +102,16 @@
     },
     {
       "month": "2026-08",
-      "productivity_pct": 70.4,
-      "billable_hours": 942.2,
-      "total_hours": 1362.2,
+      "productivity_pct": 70.3,
+      "billable_hours": 941.8,
+      "total_hours": 1361.8,
       "pto_hours": 23.0
     },
     {
       "month": "2026-09",
-      "productivity_pct": 74.0,
-      "billable_hours": 580.0,
-      "total_hours": 796.2,
+      "productivity_pct": 74.2,
+      "billable_hours": 589.0,
+      "total_hours": 806.2,
       "pto_hours": 12.0
     }
   ],
@@ -130,9 +130,9 @@
     },
     {
       "week": "2026-W38",
-      "productivity_pct": 73.1,
-      "billable_hours": 187.8,
-      "total_hours": 261.0
+      "productivity_pct": 73.7,
+      "billable_hours": 196.8,
+      "total_hours": 271.0
     }
   ],
   "current_month_days": [
@@ -216,10 +216,10 @@
     },
     {
       "date": "2026-09-18",
-      "productivity_pct": 21.4,
-      "billable_hours": 1.5,
-      "total_hours": 7.0
+      "productivity_pct": 61.8,
+      "billable_hours": 10.5,
+      "total_hours": 17.0
     }
   ],
-  "generated_at": "2026-09-18T18:48:09Z"
+  "generated_at": "2026-09-18T19:10:36Z"
 }
