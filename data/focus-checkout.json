@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T15:27:56.414924Z",
+  "updated_at": "2026-09-18T15:39:42.073493Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -323,7 +323,7 @@
         "matched_lists": [
           "Ferdman 66 Bus"
         ],
-        "open_tasks": 8
+        "open_tasks": 7
       },
       "assignees": [
         {
@@ -411,142 +411,6 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "7f891d6c42432c8f41025fd35019a46319bc4fb2a5c2bfc023e742a0d9d82010"
-            },
-            {
-              "id": "868jqn2ge",
-              "name": "Troubleshoot cooling issue",
-              "status": "Open",
-              "list": "Ferdman 66 Bus",
-              "url": "https://app.clickup.com/t/868jqn2ge",
-              "comments": [
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-05-27 21:42",
-                  "text": "Removed coolant cover plate and inspected levels. (levels haven't been inspected since vehicle got on the road).\nBattery level: 120mm from top\nMotor level: 70mm from top\nTopped off both reservoirs.\nAttached charger to turn on motor circuit. Jacked up that corner to bring air bubbles to top.\nNo air bubbles observed.\nReinstalled cover. Will test drive tomorrow to attempt to replicate.\nHighest temp reached today while testing throttle: 190F (slightly over middle of gauge)."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-02 16:16",
-                  "text": "image.png\nMade new coolant clamps to redo motor circuit return line."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-02 16:16",
-                  "text": "At one point at the end of our testing it did feel like the motor was pulling power... Motor temp and inverter temp did get pretty high, but still in the blue on gauge, and no alerts were present. I saw 250F on the motor and 136F on the inverter.\nimage (8).png\nimage (7).png\nFerdman-CoolantDiagram-1.5.drawio.pdf"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-02 16:17",
-                  "text": "Ordered new parts for motor circuit return line.\nhttps://www.summitracing.com/parts/rdm-14-0193 x1\nhttps://www.summitracing.com/parts/bpu-3254000160 x1\nhttps://www.amazon.com/EVIL-ENERGY-Straight-Fitting-Black/dp/B08NYLZC66/ x1 (pack of 2)\nProject: Ferdman Bus\nSubsystem: Cooling\n\nUpdated coolant return line information on coolant diagram. (see pdf above)"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-06 01:39",
-                  "text": "Removed -6an reservoir and lines.\nRemoved motor to pump line for access.\nInstalled new reservoir with -10AN fitting.\nFabricated and installed new -10AN line from radiator to reservoir\nInstalled new lineclamps for new hose ses.\nVacuum filled cooling reservoir.\nOne leak found - at motor. Repaired.\n-25in/hg holding steady.\nRan pump on motor circuit for and hour. Inspected for leaks: none found.\n\nReady for testing on Monday."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-08 19:32",
-                  "text": "After sat over the weekend: leaks or drips.\nReinstalled cover and tail-light.\nZip-tied wiring harness back in place."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-10 20:48",
-                  "text": "service.tesla.com/docs/ModelX/ServiceManual/en-us/GUID-C66F47F5-FD82-4FA5-B530-48F20DAAE254.html \n Correction codes:\n18301722\n18302522\n\nTesla runs motor and inverter in parallel."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-10 21:07",
-                  "text": "image.png\nIncorrect coolant routing (inline, not parallel).\nTest drove up the hill a bunch of times. Maximum temperatures reached:\nInverter: 170F. (77C)Temp very responsive to throttle position. Get hot quick and cools down quick.\nMotor: 217F (102C). Slower to respond to temperature differences."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-12 23:05",
-                  "text": "Test drove 24 minutes, with logger installed. Able to get severe temp spike with a full-throttle run up Foremost hill (80C) with temp going from 35C to 80C by the top of the hill, and back to 35C at the bottom of the hill. No alerts or thermal derating present.\nTest drove with logger in Chuter healy.\nCompared logs on AEM dash. Discovered dash was reporting \"inverter module\" - aka IGBT temp. Inverter temp on GUI and speedhut temp gauge match. With @Devin DuMont, changed channel to proper channel for inverter temp measurement. After changing signals, dash now responding 'rationally', IE temp climbs and falls slowly over time as the vehilce is driven harder."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-29 20:52",
-                  "text": "@Marc Davis took vehicle home, and drove on the highway. No overheating observed, even with the skidplate. We can consider this one done."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-22 22:52",
-                  "text": "Ryan brought the bus back from Soulspeed today reporting another inverter overtemp \"limp mode\" \u2014 an issue we hadn't seen in weeks since switching the reservoir return line from 3/8\" to 5/8\". I verified the basics first: coolant reservoir full and flowing well, no bubbles, and the coolant fan operating.\nA few observations from digging in: the inlet and outlet are swapped on the inverter (probably doesn't matter, but we could set it to Tesla spec), and we run the inverter and motor in series while Tesla actually plumbs them in parallel. Neither seems likely to fix the inverter temp, but both are options to test.\nI ran two controlled test drives at 100\u00b0F ambient to isolate whether airflow (the skidplate) is the culprit.\nRun 1 (skidplate on): inverter started at 109\u00b0F and hit the 160\u00b0F overtemp limp mode after 13 minutes of hard-ish driving. Motor climbed from 163\u00b0F to 232\u00b0F \u2014 still mid-gauge in the Ampere GUI. Notably, the temperature creep is slow and steady, not \"peaky\" like Connolly was with its restrictive return line (30\u00b0F swings with throttle); Ferdman barely reacts to power input or off-throttle periods.\nRun 2 (skidplate removed): inverter started at 104\u00b0F, motor at 165\u00b0F. Took 17 minutes / 2.5 laps of the same loop to hit limp mode at 160\u00b0F inverter, 241\u00b0F motor.\nConclusion: removing the skidplate bought roughly 25% more time/distance before limp mode, but didn't prevent it. Airflow is a contributing factor, not the root cause. Next candidates to test: correcting the inverter inlet/outlet to Tesla spec and re-plumbing the motor/inverter from series to parallel.\n\nInvestigated a variety of small options for additional cooler.\nInvestigated possible locations.\n\nMade a mockup of the Derale 15865 unit - appears it will fit. Handed off the Geoff to verify.\n\nCurrent thought:\nLH rear corner."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-24 23:49",
-                  "text": "Investigated derale fitting. DIscussed with @Geoff Raynak and @Alex Noonan\nOrdered derale cooler. Rough plan made."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-24 23:50",
-                  "text": "Screenshot 2026-07-24 102005.png\nScreenshot 2026-07-24 102054.png\nScreenshot 2026-07-24 102313.png\nScreenshot 2026-07-24 102402.png\nScreenshot 2026-07-24 102407.png\nScreenshot 2026-07-24 122916.png\nScreenshot 2026-07-24 123516.png\nScreenshot 2026-07-24 123606.png\nScreenshot 2026-07-24 123610.png\nScreenshot 2026-07-24 124434.png"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-28 23:52",
-                  "text": "Received Derale cooler\nRough-installed for testing:\nSoft lines plumbed in series between motor outlet and charger.\nRelay added:\n12V+ comes from PDM stud\nground from tailight ground\nRelay mounted in driver's side cubby\nRelay signal spliced into motor fan with pigtail. Twisted pair runs to relay.\nTest drove:\nUnable to reach temps above 117F. Confirmed both fans come on at the same time.\nWill re-test tomororw PM when heat is up."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-29 23:59",
-                  "text": "I test drove the bus for 45 minutes as hard as I could given traffic. Derale plumbed in, hanging in space in the cubby. Some stop-and-go, aggressive acceleration where possible. Mostly around 50mph.\nAmbient temp: 95F\nSat outside all day.\n\nStarting temp:\nInverter: 104F\nMotor: 99F\n\nEnding temp: 145F\nMotor: 232F\n\nUnable to get it into a fault state.\n\nTemp edged up over time, settling right around 140F. If I had a long stretch where I could floor it, it would climb 145F. Maximum I saw was 149F.\n\nMotor temp noticeably lower than last test, indicating the additional cooling is having an effect, at least on the motor.\n\nTwo things prevent this from being a conclusive test:\nAmbient temperature not high enough. The day where I could consistently fault the vehicle it was 100F+. Earlier drives had not caused the fault when temps were lower.\nUnable to do an extended highway run. Increased airflow will be a benefit, but higher draw may cause more heat.\n\n\nTomorrow I will attempt a highway run after the CVs are in. Unfortunately there are no super-hot days on the forecast this week."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-30 22:43",
-                  "text": "Good news:\nHighway driving isn't an issue for the cooling. Current draw is significantly higher, but airflow over even our oddly placed radiators more than makes up for it. Once you get off the highway, speeds are lower, and you're trying to beat on it, that's when we start to have inverter temp creep up. But again, still unable to get it to overheat with the second cooler even though the temps do get higher.\nAmbient temp: 95F\nRun length: 30 minutes\n\nStarting temps:\nInverter: 104F\nMotor: 129F\n\nHighway cruising (65-70mph indicated), temps very steady, no creep.\nInverter: 129F\nMotor: 181F\n\nEnding temps (lower speeds to get back to the shop):\nInverter: 131\nMotor: 196F\n\nAs I mentioned before, ideally I would like to test at 100F+, but the weather forecast is not forthcoming. Next Monday may be close...\nBut in any case, I think we're good to proceed with designing/ordering a simple mount for the Derale cooler in the vertical orientation. Simple top-mounted bracket with press-in nuts so that it can be installed from the floor of the cargo area, similar to the other side."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-08-04 23:31",
-                  "text": "Claude:\n\"Fix cooling. Stop chasing signals.\nThree reasons, and the third decides the order.\n1. The bus has given up what it has. We now know the derate driver (motor temp), the inverter's limit and which sensor it uses (module, 80 \u00b0C), and the coolant temperature (RTD1). The remaining signal mysteries \u2014 hot-spot reading zero, the duplicated coolant field, AEM's channel labels \u2014 wouldn't change a single action. Chasing them further is bookkeeping.\n\n2. The cooling system is already flat out and losing. Pump at 100 % duty and ~6,500 rpm for the entire evening \u2014 never modulated, no reserve. Module-to-coolant delta normal at 3.2 \u00b0C median. So heat transfer out of the modules is fine and the pump is maxed; the constraint is heat-rejection capacity, not control and not the interface.\n\n3. Order matters \u2014 settings first would make it worse. Raising the derate thresholds hands torque back, which puts more heat into a loop that's already out of margin, while the inverter sits at its 80 \u00b0C limit. Cooling first isn't just safer, it's the only sequence that isn't self-defeating. And it pays twice: cooler coolant means a cooler motor, which backs the derate off on its own and gives you some torque back without touching a single parameter.\n\nStart here \u2014 Fan1 is never commanded\nNot once, at any coolant temperature, all the way to 65 \u00b0C with 40 \u00b0C ambient. Fan2 runs continuously. Either this car only has one fan wired to the Fan2 output, or there's a second fan that isn't being asked to run \u2014 which would be free capacity sitting idle. That's a five-minute check and it's the cheapest possible outcome.\n\nAfter that, in cost order:\nAirflow at the radiator\u2014 blockage, missing shroud, or hot air recirculating. At 40 \u00b0C ambient every degree of approach matters.\nLoop topology\u2014 is the inverter fed before or after the motor? RTD1 is coolantbefore the inverterand it's already 62 \u00b0C. If a 129 \u00b0C motor sits upstream, the inverter is being handed pre-heated coolant and can never win. Worth confirming the plumbing order; if it is motor-then-inverter, re-routing or splitting the loop is likely the single biggest lever.\nRadiator capacity\u2014 to hold modules under 70 \u00b0C you need coolant near 50 \u00b0C, which is only 10 \u00b0C above that day's ambient. That may simply be more than this radiator can do, in which case it's a sizing decision.\nActual flow\u2014 the pump is commanded 100 %, but air lock or a restriction would still starve it.\"\nMe:\nI'm not sure what is meant by 'modules'. Is claude confusing the motor circuit and the battery circuit? Claude is only looking at the motor circuit, correct?\n\nNot sure what is referred to as 'fan 1' and 'fan 2', but I can confirm that all 3 fans come on as expected. There are currently two motor radiators, the original and the temporary secondary, both come on at the same time.\nAirflow at both radiators is questionable. We have one small radiator horizontally under the car, and one in the cubby on the rear driver's side.\nInverter is fed before the motor. Circuit currently:\nPump > inverter > motor > secondary rad > ovar > primary rad > reservoir\nRadiator capacity... I don't believe this is significantly different than any of our other cars.\nAir lock or starvation. I see no evidence of flow restriction. In the reservoir there are no bubbles, flow looks good, level stays steady.\n\n\n\n\nMy thoughts...\nAirflow on the primary radiator does appear to have an effect. Removing the skidplate increased the time-to-overheat by 25%.\nAdding a secondary radiator did make a significant improvement in the symptoms with no other changes Prior to that change coolant temps were over 160F and the symptom was inverter overtemp errors and the vehicle shutting off. Adding a second radiator in a spot with minimal airflow temps dropped by 20F. Not enough to prevent derating, but better than before.\nThe differences between this car and our other cars:\nSDU\nRadiator placement\n\n\nThings to test:\nI can swap the inverter inlets and see if that helps. As I mentioned before, I plumbed it backwards to how Tesla runs it. Could have an effect.\n\nToday:\nSwapped the inlet on the inverter.\nRemoved the cover on the LH fenderwell to increase airflow."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-08-18 23:14",
-                  "text": "I did my overheating loop with heavy throttle application. No overheating, but no game-changing improvement on cooling. GUI temps are still roughly where they were prior to the last round of tunes. I did not observe any de-rating, but acceleration is still abnormal so I can't say for sure.\n\nMaximum inverter temp on GUI was 135 (typically hovers around 129F) and maximum motor temp on GUI was 200F in a 15 minute test drive. Ambient temp 98F.\n\nThat said, we're really down to the wire for an early September soft delivery. We need the radiator brackets designed immediately so they can be ordered and installed next week.\n\nThere is the possibility that the two derales are insufficient even once we get the tuning ironed out, but if we wait for that definitive data we will not be able to meet our soft-delivery deadline.\n\nWhatever we're going to do we need to decide today. I'm of the opinion that we should pull the trigger and have @geoff raynak or @Marshall Carter design the wheel-well radiator mount brackets and get them rush-shipped here so I can take care of it next week. Worst case scenario, we have to figure out a solution for the de-rating down the line, but Ferdman can drive it in the meantime. The inverter-overheat-shutdown has been resolved at least.\u00a0(edited)\n\nOnly visible to you"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-08-26 19:50",
-                  "text": "Removed temporary wiring.\nBuilt motor-fan-2 subharness:\nPigtail splices into motor fan 1.\nPer @Brandon Beaman, two fans can run on one circuit. Circuit is rated at 4.8amps. Output is up to 25 amps. Even with inrush current it's fine.\nSubharness runs along VC harness route to RH wheel well.\nInstalled subharness.\nFlipped skidplate louvres to get 'ram air' effect.\nAdded mesh backing above, to prevent debris ingress."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-08-27 22:35",
-                  "text": "Continued with finalizing old test-electrical equipment removal.\nAlso tidied up a few electrical bits (engine-bay ground, amp ground).\nReinstalled engine bay cover in preparation for soft delivery tomorrow."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-09-03 22:44",
-                  "text": "Received secondary cooler mounting parts.\nInvestigated/clarified hardware insertion. Found incorrect HW x4, missing HW x2.\nPressed out incorrect hardware and installed correct HW\nVerified assembly with engineering."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-09-08 23:08",
-                  "text": "Measured and cutout hole for fender radiator.\nNutserted fender for cover installation.\nMock-installed radiator and made multiple measurements for contoured cuts.\nMoved vehicle in and out a few times."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-09-09 22:44",
-                  "text": "Made final adjustments to all pieces after test fitting.\nNutserted top-bottom mount holes for ease of installation.\nMarked and drilled mounting holes.\nRan and marked radiator inlet hose.\nPunched hole in tray for inlet.\nRan and marked radiator outlet hose.\nApplied 3 coats of rollbar paint to all parts. Will install in AM."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-09-11 01:23",
-                  "text": "Assembled radiator assembly, including mesh guard.\nAnother incorrect nutsert discovered upon installation.\nAdded rubber surround to improve aesthetics, prevent chatter or metallic noise.\nInstalled into vehicle\nAdded hoses, installed hose clamps to secure.\nPer @Alex Noonan, will add another piece of metal to reduce hole size to match radiator inlet."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-09-11 22:31",
-                  "text": "Installed skiplate.\nManufactured small blockoff plate for extra space in cutout.\nPainted with rollbar paint.\nInstalled wheelwell bezel.\nInstalled coolant hoses. Marked and checked for leaks.\nManaged hose routing to prevent kinks.\nVacuum filled coolant reservoirs.\nRan coolant tanks at a steep reverse angle for .5 hours"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "7d6708452f7bf4c7261a565851900b42fdbc0a74889582e6a08693712745bb7b"
             }
           ]
         },
@@ -743,10 +607,20 @@
                   "author": "Noah Sharif",
                   "date": "2026-09-18 13:55",
                   "text": "Chatted With Billy and there is a chance ill need to do the adjustment again. Going to wait till after meeting."
+                },
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-09-18 15:33",
+                  "text": "paste_ab89cfde-7b91-4bab-98fd-5c02d0d138b5.jpgpaste_bc78a4de-b4c5-4176-ba9c-e9c075adb77f.jpg"
+                },
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-09-18 15:35",
+                  "text": "Fixed the issue, the brake travel sensor came out of range, fixed it and now the booster always comes on."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "0ed08116d8ea14935a1cc0b1b24713062ed0982d291e2077e1f4b8d49d1d9f2d"
+              "content_hash": "44233c33db4fc19d6cbbcc065e6f2a27b32d28aae51f87763a68e157ece25b74"
             },
             {
               "id": "868ku38p2",
@@ -2065,9 +1939,20 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868gaza9t",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-27 23:04",
+                  "text": "Lid trial fit successfully\nCover inspected for damage\nLogo location measure for\nBorder taped out\nCenterline and height measured and marked\nSurface cleaned\nLetters planed, cut out and deburred\nLetters cleaned\nLord applied to letters and set in jig\nLetters tacked up, tape removed and jig removed"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-27 23:06",
+                  "text": "paste_141d968b-0512-452b-a33a-86e7fc241f0f.jpgpaste_bf4776b9-40fe-4367-967c-ada0ad2e562a.jpg"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "d9f9273bd20a0261c1da8aa58792fabb09ecbcfe7ed7ff121281c714d5fa985e"
+              "content_hash": "80813490a3658dae81d59cebc717ba1b9ad6c40740e243855fcd1327dc70de1f"
             }
           ]
         },
@@ -2344,5 +2229,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-18T15:26:15Z"
+  "generated_at": "2026-09-18T15:38:09Z"
 }

@@ -319,7 +319,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 22.2,
-      "pct_of_total": 2.9,
+      "pct_of_total": 2.8,
       "tasks": [
         {
           "task": "HVAC",
@@ -365,7 +365,7 @@
   ],
   "shop_work": {
     "total_hours": 123.8,
-    "pct_of_total": 15.9,
+    "pct_of_total": 15.8,
     "avg_per_person_per_day": 1.1,
     "flagged": true,
     "tech_count": 8,
@@ -452,12 +452,12 @@
     },
     {
       "project": "Kelly 63 Corvette",
-      "total_hours": 4.5,
-      "pct_of_total": 0.6,
+      "total_hours": 5.2,
+      "pct_of_total": 0.7,
       "tasks": [
         {
           "task": "Troubleshooting",
-          "hours": 3.0
+          "hours": 3.8
         },
         {
           "task": "Installation - Extra",
@@ -468,9 +468,9 @@
   ],
   "totals": {
     "billable_hours": 578.5,
-    "non_billable_hours": 202.0,
+    "non_billable_hours": 202.8,
     "pto_hours": 12.0,
-    "total_hours": 780.5
+    "total_hours": 781.2
   },
-  "generated_at": "2026-09-18T15:26:15Z"
+  "generated_at": "2026-09-18T15:38:09Z"
 }
