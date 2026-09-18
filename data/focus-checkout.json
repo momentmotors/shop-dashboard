@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T21:50:04.670611Z",
+  "updated_at": "2026-09-18T22:13:06.774746Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -529,10 +529,15 @@
                   "author": "Devin DuMont",
                   "date": "2026-09-17 23:46",
                   "text": "Fed additional logs into Claude along with more encouragement to remove the \"Power Boost\". Reviewed reccomendation and adjusted. Flashed the new VCU firmwarre with a 6x11 torque table and loaded the Claude numbers. Ran trial, toog log, fed that back into Claude and reviewed analysis. Repeated. Organized VCU firmware and uploaded to the drive."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-09-18 22:05",
+                  "text": "Tested Claude's 6x11 base torque map tune v3. Performance was low and it introduced a clunk at 40MPH as well as torque so limited off the line you can get into trouble on a hill. Ran several iterations. Discovered a firmware bug where the axis numbers reset. This invalidates all the testing."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "8a4f18d08a0e3c5a245d6bd30e8a5f92c88e45e34b86afd7c3d4f9253019b2d6"
+              "content_hash": "435483a41bc4fa5c9131d2b1a1c6edb0eff4a95255221ce8b4a56d83779b01ab"
             }
           ]
         }
@@ -1475,10 +1480,15 @@
                   "author": "Brandon Beaman",
                   "date": "2026-09-16 15:09",
                   "text": "Meeting about what needs to be done and when checkout needs to be finished.\nVerified CAN logger data uploaded to the vehicle and wifi credentials added.\nUploaded screenshots for verifications and future reference."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-18 22:11",
+                  "text": "New RDIS set up for new firmware. Prep for checkout once vehicle is on the road again.\nCurrently waiting for repairs to be finished."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "7893b279743c99eb6541c749564e56dc7faa375b7c789152a8bc8e6ce9bc4631"
+              "content_hash": "73f3bc14c375e0655b2244add12845acae261ce1bab74d1ebda5edf1ebbc9069"
             }
           ]
         },
@@ -2009,10 +2019,15 @@
                   "author": "Brandon Beaman",
                   "date": "2026-09-18 21:42",
                   "text": "image.png\nAdjusted Increase Rate Rate"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-18 22:08",
+                  "text": "Date: Friday, September 18, 2026\nVehicle/System: Ritchie 71 Blazer \u2014 Ampere EV VCU (New Eagle VCM_519)\nFirmware: DiagCANSW 1.8.13 / build 516 \u2192 1.9.3 / build 519 (VCM_519_RC010903_Persist)\nStatus: VCU adjustments finalized\nObjective\nFlash Ritchie to the new 1.9.3 VCU firmware, identify every calibration the flash reset to factory defaults, restore the shop's drivability settings, and validate regen behavior on road.\nWhat we did\nCaptured a full pre-flash screenshot set across all tabs, flashed to 1.9.3 / build 519, and captured a matching post-flash set. Ran a field-by-field pre/post comparison to find what did not carry over. Restored the affected calibrations with Marc's direction, then ran three instrumented test drives \u2014 a regen baseline, a BrkTrqReqTblHigh validation run, and a final AWD-enabled run \u2014 logging each to CSV. Backed up the inverter and PMU configurations to the Drive. Cross-referenced Ritchie's tables against Preheim's for a known-good reference. Closed out the remaining rate adjustment at end of day; VCU calibration is now final.\nKey findings\nTen calibrations did not survive the flash. Everything else on the eight comparable tabs was identical. The losses cluster in two places \u2014 pedal/torque and high-regen braking:\nPedal and torque\nAPPTrqReqMapEco \u2014 full pedal was 50% torque, reset to 100%\nAPPTrqReqMap (Normal) \u2014 full pedal was 75% torque, reset to 100%\nAPPTrqReqMapSport \u2014 still 100% at top, but sharper off idle (20% pedal was 20% torque, now 30%)\nPedal axes (APP11IdxArr, \u2026Eco, \u2026Sport) \u2014 were even 10% steps, now 0/4/10/20/30/40/50/62.5/75/87.5/100\nDrvTrqReqFiltTC 0.005 \u2192 0.050 s\nDrvTrqReqRateLimIncTbl 300 \u2192 500 Nm/s at 0 kph; 2500 \u2192 3000 Nm/s at 100 kph (~62 mph)\nDrvTrqReqRateRateLimInc 25000 \u2192 1500 Nm/s/s\nBrake regen \u2014 Driver_RegenLevel reads High on this truck, so all four are live:\nBrkTrqReqTblHigh was a flat \u22121.25 / \u22121.40 / \u22121.50 m/s\u00b2 at every vehicle weight; now weight-tiered \u22120.30 to \u22121.10. Materially less braking regen.\nVehSpd07IdxArrHigh first two breakpoints 0 / 2 kph \u2192 5 / 12.5 kph (0 / 1.2 mph \u2192 3.1 / 7.8 mph)\nRegenTrqReqRateHighLimInc \u2212100 \u2192 \u221250\nRegenRateLimHighIncTbl \u2212100 / \u2212100 / \u2212300 / \u2212400 / \u2212400 \u2192 flat \u221250\nDrivability is now scaled, not per-table. 1.9.3 replaces the three separate pedal maps with a single table plus an Eco/Normal/Sport percentage. Per Marc, set back to 50 / 75 / 100.\nA hidden torque limit was masking the regen fix. DrvMtrTrqLimMn_AEM_LDU_Sport sat at \u2212400 pre-flash; we adjusted it to \u2212300 before test driving. Marc confirmed the previously-fixed \"800s\" had a limit underneath that wasn't accounted for. Table re-adjusted.\nThe \u221250 rate was a red herring. On review, the RegenRateLimHighIncTbl \u221250 is a rate, not the cap \u2014 reset to \u221250 and moved on.\nRestoring BrkTrqReqTblHigh changed feel, not magnitude. With the table set back to pre-flash values for the truck's current weight category (all other fields untouched), regen braking became noticeably more responsive but not any stronger. Logged as VCM_519_Motoring Diag_2026_09_18_01_56_27.csv.\nA/C pressure protection carried over clean \u2014 including the bug. All fifteen fields identical pre to post: static and running high/low thresholds, all four time thresholds, sensor gain, offset and filter. ACPress_RunLow_Thr still reads \u2212500 / \u2212475 kPa. Since this flash overwrote ten other calibrations and left this one alone, \u2212500 is Ampere's own default, not a shop entry \u2014 the same negative threshold seen on Lee's Mustang and on Preheim.\nAWD tab restructured. BrkTrqReqTblAWD is new in 1.9.3 \u2014 Preheim doesn't have it (old firmware), so the \u22122.2 reference point it was compared against isn't real; Preheim's table reads \u22121.5, matching how Ritchie is set now. Andrew dropped the weight dimension entirely on the new AWD table; it's speed-based only, which is the same table we changed last time that moved DrvTrqReqRaw from \u221249 to \u221293.\nPark brake / E-Stop: closed, no action. Wilwood actuator timings carried over unchanged. E-Stop entries are hardware this truck doesn't have.\nFinal calibration state\nVCU adjustments on Ritchie are finalized as of end of day. The last change was the increase rate-rate setting (DrvTrqReqRateRateLimInc), adjusted and screenshotted at 4:42 PM after Marc's review of the AWD-enabled log. No further table changes are outstanding on this truck.\nTest drives and logs\n\nundefined\nTruck is back on and uploading the AWD-enabled log.\nArtifacts produced\nFull pre-flash and post-flash screenshot sets, all tabs \u2014 attached to the ClickUp monthly goal\nField-by-field pre/post comparison table\nInverter and PMU backups uploaded to the Drive under the Vehicle Folder\nPreheim RDIS comparison (old vs. new) for reference\nThree instrumented drive logs (above)\nStatus\nFlash complete and stable. All ten reset calibrations identified and addressed; drivability, torque-limit, and regen rate settings restored and validated on road. VCU adjustments finalized \u2014 no open changes on this truck. Backups secured. Remaining work is display/logging additions and the Ampere threshold item, none of which block the vehicle.\n\n\n\nSpent quite a bit of time today pretty much all day getting through checkout on this vehicle.\nMost of the time spent today was testing and tuning the new VCU AWD firmware with Marc.\nThe EOD report above has a good summary of all the details.\nBilly is taking the vehicle home this weekend to test everything.\nAny issues needing to be resolved will be relayed to me ASAP."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "dc8522cb7fd42096a1526749858e26eacd9a153bc0c7aec0c36e7381c979530f"
+              "content_hash": "8af539e3f1ed9613bdbc9ec8d057d977cbb3c823dde6126523ee4866328879dd"
             }
           ]
         },
@@ -2222,5 +2237,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-18T21:48:28Z"
+  "generated_at": "2026-09-18T22:11:26Z"
 }
