@@ -84,12 +84,12 @@
     },
     {
       "project": "Ritchie 71 Blazer",
-      "total_hours": 69.0,
-      "pct_of_total": 8.9,
+      "total_hours": 70.0,
+      "pct_of_total": 9.0,
       "tasks": [
         {
           "task": "Motor & Transmission",
-          "hours": 12.0
+          "hours": 13.0
         },
         {
           "task": "Audio",
@@ -452,12 +452,12 @@
     },
     {
       "project": "Kelly 63 Corvette",
-      "total_hours": 4.0,
-      "pct_of_total": 0.5,
+      "total_hours": 4.5,
+      "pct_of_total": 0.6,
       "tasks": [
         {
           "task": "Troubleshooting",
-          "hours": 2.5
+          "hours": 3.0
         },
         {
           "task": "Installation - Extra",
@@ -467,10 +467,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 577.5,
-    "non_billable_hours": 201.5,
+    "billable_hours": 578.5,
+    "non_billable_hours": 202.0,
     "pto_hours": 12.0,
-    "total_hours": 779.0
+    "total_hours": 780.5
   },
-  "generated_at": "2026-09-18T14:49:07Z"
+  "generated_at": "2026-09-18T15:12:00Z"
 }
