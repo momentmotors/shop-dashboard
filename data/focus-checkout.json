@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T13:39:21.441153Z",
+  "updated_at": "2026-09-18T13:50:00.658203Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -764,9 +764,15 @@
               "status": "Open",
               "list": "Kelly 63 Corvette",
               "url": "https://app.clickup.com/t/868m6jhbu",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-09-18 13:49",
+                  "text": "Was told the speedo doesn't work, but checked connections and they are all seated fine, and the Speedo Sweeps proper. Not sure what is going on there, will bring up in the morning meeting."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "bbf48580188822445536cf3fe7ec00bc1e79b553367a365675aba598db1eb57d"
+              "content_hash": "9c673fe63ca44a07aa740710e51b657c353d1ec08197d8e60c04275dec4aa461"
             },
             {
               "id": "868m6d8fj",
@@ -2322,5 +2328,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-18T13:37:36Z"
+  "generated_at": "2026-09-18T13:48:25Z"
 }
