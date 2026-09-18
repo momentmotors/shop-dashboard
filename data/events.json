@@ -110,7 +110,13 @@
           "day_name": "Wednesday",
           "is_today": false,
           "is_weekend": false,
-          "events": []
+          "events": [
+            {
+              "summary": "Jordan J long lunch",
+              "type": "pto",
+              "all_day": true
+            }
+          ]
         },
         {
           "date": "2026-09-24",
@@ -119,7 +125,7 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Ryan in late, Court Appt. ",
+              "summary": "Jordan J long lunch",
               "type": "pto",
               "all_day": true
             }
@@ -130,7 +136,13 @@
           "day_name": "Friday",
           "is_today": false,
           "is_weekend": false,
-          "events": []
+          "events": [
+            {
+              "summary": "Noah S Out",
+              "type": "pto",
+              "all_day": true
+            }
+          ]
         },
         {
           "date": "2026-09-26",
@@ -273,5 +285,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-18T21:34:58Z"
+  "generated_at": "2026-09-18T21:48:28Z"
 }
