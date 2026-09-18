@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T16:14:15.495920Z",
+  "updated_at": "2026-09-18T16:28:49.938113Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -585,7 +585,7 @@
         "matched_lists": [
           "Kelly 63 Corvette"
         ],
-        "open_tasks": 8
+        "open_tasks": 9
       },
       "assignees": [
         {
@@ -688,42 +688,6 @@
           ]
         },
         {
-          "name": "Aharon Adams",
-          "tasks": [
-            {
-              "id": "868kqcuv8",
-              "name": "Test drive vehicle",
-              "status": "Open",
-              "list": "Kelly 63 Corvette",
-              "url": "https://app.clickup.com/t/868kqcuv8",
-              "comments": [
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-14 22:02",
-                  "text": "test driving after new settings"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-09 14:50",
-                  "text": "test drive after new steering set up. my notes from slack:\n\nOk just got done driving the car. The steering is completely transformed and the car feels great and much more confidence inspiring.\nThere are two small issues:\nAlthough the steering is centered in the rack appropriately. (1.5 turns to lock each way). The steering wheel is perfectly upside down lol 180\u00b0 out.\nThere is a very obvious and annoying creak coming from the column maybe rubbing against the dash, you can replicate it by wiggling the steering wheel a bit and moving the column. It's not too bad standing still but when driving i think the dash moves over small bumps and it is really annoying."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-09 14:51",
-                  "text": "I believe this task needs to stay open due to the \"misfire\" inverter settings thing going on."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-17 23:11",
-                  "text": "long test drives with many full throttle pulls."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "ab9f633856cfcbb5fa7def1d60d545c31c43ecb01417ecf3d964b1fa1561771d"
-            }
-          ]
-        },
-        {
           "name": "Brandon Beaman",
           "tasks": [
             {
@@ -776,6 +740,52 @@
               ],
               "checklist_items": [],
               "content_hash": "df6ba53f6e8bbdb8f5092f983483da4a62b5a0a360f2ecb3b8220e25ce886b06"
+            },
+            {
+              "id": "868m6ucr6",
+              "name": "Troubleshoot speedo issue",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868m6ucr6",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "bbf48580188822445536cf3fe7ec00bc1e79b553367a365675aba598db1eb57d"
+            }
+          ]
+        },
+        {
+          "name": "Aharon Adams",
+          "tasks": [
+            {
+              "id": "868kqcuv8",
+              "name": "Test drive vehicle",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868kqcuv8",
+              "comments": [
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-14 22:02",
+                  "text": "test driving after new settings"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-09-09 14:50",
+                  "text": "test drive after new steering set up. my notes from slack:\n\nOk just got done driving the car. The steering is completely transformed and the car feels great and much more confidence inspiring.\nThere are two small issues:\nAlthough the steering is centered in the rack appropriately. (1.5 turns to lock each way). The steering wheel is perfectly upside down lol 180\u00b0 out.\nThere is a very obvious and annoying creak coming from the column maybe rubbing against the dash, you can replicate it by wiggling the steering wheel a bit and moving the column. It's not too bad standing still but when driving i think the dash moves over small bumps and it is really annoying."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-09-09 14:51",
+                  "text": "I believe this task needs to stay open due to the \"misfire\" inverter settings thing going on."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-09-17 23:11",
+                  "text": "long test drives with many full throttle pulls."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "ab9f633856cfcbb5fa7def1d60d545c31c43ecb01417ecf3d964b1fa1561771d"
             }
           ]
         },
@@ -1949,20 +1959,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868gaza9t",
-              "comments": [
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-27 23:04",
-                  "text": "Lid trial fit successfully\nCover inspected for damage\nLogo location measure for\nBorder taped out\nCenterline and height measured and marked\nSurface cleaned\nLetters planed, cut out and deburred\nLetters cleaned\nLord applied to letters and set in jig\nLetters tacked up, tape removed and jig removed"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-27 23:06",
-                  "text": "paste_141d968b-0512-452b-a33a-86e7fc241f0f.jpgpaste_bf4776b9-40fe-4367-967c-ada0ad2e562a.jpg"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "80813490a3658dae81d59cebc717ba1b9ad6c40740e243855fcd1327dc70de1f"
+              "content_hash": "d9f9273bd20a0261c1da8aa58792fabb09ecbcfe7ed7ff121281c714d5fa985e"
             }
           ]
         },
@@ -2254,5 +2253,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-18T16:12:17Z"
+  "generated_at": "2026-09-18T16:27:09Z"
 }
