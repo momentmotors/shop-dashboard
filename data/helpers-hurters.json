@@ -2,12 +2,12 @@
   "helpers": [
     {
       "project": "LB 82 911",
-      "total_hours": 82.5,
+      "total_hours": 83.0,
       "pct_of_total": 10.3,
       "tasks": [
         {
           "task": "Manufacturing - Product",
-          "hours": 21.8
+          "hours": 22.2
         },
         {
           "task": "Vehicle Control",
@@ -41,12 +41,16 @@
     },
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 78.5,
-      "pct_of_total": 9.8,
+      "total_hours": 82.0,
+      "pct_of_total": 10.2,
       "tasks": [
         {
           "task": "Manufacturing - Product",
           "hours": 43.8
+        },
+        {
+          "task": "HVAC",
+          "hours": 8.2
         },
         {
           "task": "Vehicle Control",
@@ -55,10 +59,6 @@
         {
           "task": "Motor & Transmission",
           "hours": 6.0
-        },
-        {
-          "task": "HVAC",
-          "hours": 4.8
         },
         {
           "task": "Steering",
@@ -85,7 +85,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 70.5,
-      "pct_of_total": 8.8,
+      "pct_of_total": 8.7,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -179,7 +179,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 52.0,
-      "pct_of_total": 6.5,
+      "pct_of_total": 6.4,
       "tasks": [
         {
           "task": "Battery Pack",
@@ -257,7 +257,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 32.5,
-      "pct_of_total": 4.1,
+      "pct_of_total": 4.0,
       "tasks": [
         {
           "task": "HVAC",
@@ -291,7 +291,7 @@
     },
     {
       "project": "Preheim 72 Blazer",
-      "total_hours": 29.8,
+      "total_hours": 30.2,
       "pct_of_total": 3.7,
       "tasks": [
         {
@@ -309,6 +309,10 @@
         {
           "task": "Audio",
           "hours": 2.0
+        },
+        {
+          "task": "Motor & Transmission",
+          "hours": 0.5
         },
         {
           "task": "Vehicle Control",
@@ -365,7 +369,7 @@
   ],
   "shop_work": {
     "total_hours": 128.0,
-    "pct_of_total": 16.0,
+    "pct_of_total": 15.9,
     "avg_per_person_per_day": 1.14,
     "flagged": true,
     "tech_count": 8,
@@ -467,10 +471,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 595.0,
+    "billable_hours": 600.0,
     "non_billable_hours": 207.0,
     "pto_hours": 12.0,
-    "total_hours": 802.0
+    "total_hours": 807.0
   },
-  "generated_at": "2026-09-18T19:22:13Z"
+  "generated_at": "2026-09-18T19:35:01Z"
 }
