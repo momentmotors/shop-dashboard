@@ -211,15 +211,6 @@ def fetch_focus_data(checkout_data, focus_owners):
         owner = entry["owner"]
         match_prefix = entry["match"]
         vehicle = vehicles_by_owner.get(owner.lower())
-        if not vehicle:
-            print(f"  '{owner}': not found in checkout data")
-            projects.append({
-                "owner": owner,
-                "vehicle": None,
-                "clickup_match": {"found": False, "error": "no_vehicle"},
-                "assignees": [],
-            })
-            continue
 
         matching = [
             m for m in all_mgs
@@ -230,6 +221,22 @@ def fetch_focus_data(checkout_data, focus_owners):
             for m in matching
             if m.get("list")
         })
+
+        if not vehicle:
+            if not matching:
+                # Nothing to show at all: no checkout row and no ClickUp list.
+                print(f"  '{owner}': not found in checkout data")
+                projects.append({
+                    "owner": owner,
+                    "vehicle": None,
+                    "clickup_match": {"found": False, "error": "no_vehicle"},
+                    "assignees": [],
+                })
+                continue
+            # Build is live in ClickUp but hasn't reached the checkout sheet yet.
+            # Show it at 0% rather than hiding it or leaving the header blank.
+            print(f"  '{owner}': not in checkout data; showing at 0%")
+            vehicle = {"owner": owner, "checkout": 0, "placeholder": True}
 
         if not matching:
             print(f"  '{owner}': no ClickUp list match for open MGs")
