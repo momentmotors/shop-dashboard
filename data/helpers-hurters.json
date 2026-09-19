@@ -476,13 +476,24 @@
           "hours": 1.5
         }
       ]
+    },
+    {
+      "project": "Chuter 62 Healey",
+      "total_hours": 1.0,
+      "pct_of_total": 0.1,
+      "tasks": [
+        {
+          "task": "Installation - Extra",
+          "hours": 1.0
+        }
+      ]
     }
   ],
   "totals": {
-    "billable_hours": 633.2,
-    "non_billable_hours": 212.8,
+    "billable_hours": 632.2,
+    "non_billable_hours": 213.8,
     "pto_hours": 12.0,
     "total_hours": 846.0
   },
-  "generated_at": "2026-09-19T19:48:33Z"
+  "generated_at": "2026-09-19T20:11:24Z"
 }
