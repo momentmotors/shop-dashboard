@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T10:50:31.702721Z",
+  "updated_at": "2026-09-20T11:11:30.756417Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -722,9 +722,20 @@
               "status": "Open",
               "list": "Kelly 63 Corvette",
               "url": "https://app.clickup.com/t/868ku38p2",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-08-19 18:51",
+                  "text": "I checked the issue, and could only get the parking brake to not engage, when turning the car off when in neutral, which is not what was described in slack. We are now waiting for a can logger upload to get Claude on it."
+                },
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-08-19 18:52",
+                  "text": "https://t9011243300.p.clickup-attachments.com/t9011243300/f5109632-86cd-4272-be54-2165e6045e64/1000027692.mp4?view=open"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "f03cc36ea2161313bd4435bb91334292d56909c182d8e4a76335ecdd1877cc1a"
+              "content_hash": "21712878cf48fa925b4e96bb0c05494b43314d03f01be7b4f9d79f1525a7e72e"
             },
             {
               "id": "868m6jhbu",
@@ -1762,30 +1773,9 @@
               "status": "Open",
               "list": "Lee 68 Mustang",
               "url": "https://app.clickup.com/t/868kvft7k",
-              "comments": [
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-28 20:51",
-                  "text": "Gathered some data to start the Diag of possible DCDC timing fault and or VCU programming errors on our Dilong chargers.\nDCDC errors show up when the key is cycled off to on in quick succession."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-14 21:05",
-                  "text": "image.png\nimage.png\nimage.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-14 21:58",
-                  "text": "2026-08-11 Lee Mustang Inverter Config defsyms_20250513_09142026.txtAdjusted Torque Rate Limit from 50 to 70"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-14 22:08",
-                  "text": "Updated VCU.\nQuickly went through the settings and config to make sure things didnt change.\nThis vehicle has not had a lot of time or tuning done to it so this was not difficult nor were there a bunch of settings that would have been changed yet.\nVCU updated to the latest firmware.\nAdjusted Launch gain to 70, Test drive, adjusted to 100, Test drive.\nDidn't have any noticeable difference at this time.\nWill need to charge the vehicle before further testing.\nUpdated Torque Rate limit from 50 to 70 on the EEPROM settings since 70 is stock. Not entirely sure how it was reduced down to 50 but this should also help the acceleration."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "b8ef0db6962787bd5de7d41800eb4e2b19c9f7b752e0a33d37e06dd6c669497c"
+              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
             },
             {
               "id": "868m5njnw",
@@ -2710,5 +2700,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-20T10:48:43Z"
+  "generated_at": "2026-09-20T11:09:50Z"
 }
