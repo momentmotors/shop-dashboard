@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T04:16:16.114621Z",
+  "updated_at": "2026-09-20T04:33:44.918917Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -289,20 +289,9 @@
               "status": "Open",
               "list": "Ferdman 66 Bus",
               "url": "https://app.clickup.com/t/868kq38dz",
-              "comments": [
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-08-11 23:34",
-                  "text": "IMG_5314.jpg\nIMG_5316.jpg\nIMG_5317.jpg\nIMG_5318.jpg\nIMG_5319.jpg\nIMG_5320.jpg\nIMG_5321.jpg\nIMG_5322.jpg\nIMG_5323.jpg\nIMG_5324.jpg\nIMG_5325.jpg\nIMG_8469-scaled-14355.webp\nIMG_5315.jpg"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-08-11 23:34",
-                  "text": "Austin vee dub - No answer\nMotormania - They don't know who could do that sort of work, but recommended calling a Jim's Top Shop\nJim's top shop - Recommended possibly Texas Auto Tops\nTexas Auto Tops - They asked for some photos. Emailed for quote.\nEmailed Austin vee dub\nSent information to Ryan to ask Colvin's\nGot information for David G - he sent photos of other 'bow' headliners he's done.\nGot parts list for David G."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "945e93e959088c21cb4e691a5a09541c2764c1bf16baab962a769d483263db58"
+              "content_hash": "59732d4b9948b960d87a339e4a4984a7398330244c01b8163c5a64e12e13de90"
             },
             {
               "id": "868kzmqbg",
@@ -336,25 +325,9 @@
               "status": "Open",
               "list": "Ferdman 66 Bus",
               "url": "https://app.clickup.com/t/868k7em0v",
-              "comments": [
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-08-06 22:59",
-                  "text": "Some exterior pieces need replacing. Will do when doing roof rack.\nAs we've been driving it more I've noticed two things:\nExterior mirrors are floppy, vibey. The rubber mount is perished. New mirrors are cheap.\nRH blinker lens cracked.\nParts are less than $100, less than .5 hours to replace these parts. I'll put the time under the 'install roof rack' task."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-08-11 19:11",
-                  "text": "Installed new front marker light trim/lenses.\nObserved LH rear tailight bulb out. Diagnosed sticky bulb socket. Repaired."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-09-15 22:28",
-                  "text": "Run to storage unit to verify/measure roof rack. 81 inches at the highest point.\nDuring test drive, observed loose turn signal stalk and turn signals blinking too fast. Repaired."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "46ed7590ef80c224b414d81d12664f9c6d4019b1541000f6762f848aabff6b41"
+              "content_hash": "50fc9d84c3355de220fb3b731c8503bf4fba35ad333e6d11cfc4788709f58506"
             },
             {
               "id": "868m2y1ap",
@@ -593,25 +566,9 @@
               "status": "Open",
               "list": "Hastert 60 F250",
               "url": "https://app.clickup.com/t/868kg03hx",
-              "comments": [
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-07-24 22:23",
-                  "text": "Collected various information onn the PTC heater, coolant sensor, piping, etc. and drew up piping and controls diagram. Researched the limited VCU informaiton on PackActiveHeat and determined we don't want to use that for control. Continued work on controls spec and wiring diagram."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-09-14 23:24",
-                  "text": "Picking back up on heater addition development. Reviewed notes for current status and finished typing up the functional spec. Found drawing snippets and consolidated into full schematic."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-09-18 22:05",
-                  "text": "Located and reviewed drawing start and notes. Re-capped existing wiring additions so far and made adjustments to the drawing to match the vehicle."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "6f0dce6340a3ae589ea31674e4b49d271bf70f52242686e9d47efd6c3a491a51"
+              "content_hash": "b2afe07d32fd664717f79836f98a471e42448c1ce4fbf3fa727a5522cf6438ef"
             }
           ]
         }
@@ -1763,9 +1720,65 @@
               "status": "Open",
               "list": "Lee 68 Mustang",
               "url": "https://app.clickup.com/t/868kar0ru",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-07-13 20:26",
+                  "text": "Started NVH inspection to determine where the extra noise was coming from and or how to solve it.\nFound that we did not have any sound deadening in stock.\nOrdered up both a set of butyl sound deadening and adhesive backed foam layer to help with vibrations and other low frequencies being transmitted through the tunnel.\nWhile waiting for these items to be shipped I inspected the motor cradle and clearances around the motor.\nFound a couple small pieces of hardware sitting between the motor and cradle which could potentially been transmitting a bit of sound through the frame of the car.\nCleaned out the cradle. This took a decent amount of effort and time due to the hardware being lodged in between the motor and cradle.\nThis was definitely transmitting something into the car likely not much but might be just enough to notice.\nContinue with cover the under side of the tunnel once the material arrives."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-07-16 23:36",
+                  "text": "Installed sound deadening in the trans tunnel area to help with NVH.\nWill test to verify noise reduction once the new driveshaft gets installed."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-07 00:43",
+                  "text": "Gear box noise issue was still bad enough that we need to continue addressing the issue.\nQuick Meeting with Marc and geoff on possible solutions.\nSetup chassis ears on the vehicle.\nTest drove the vehicle and reported findings from the chassis ears.\n\n\nRed - Subframe right behind the sled / trans mounting area.\nWhite - Motor Cradle\nGreen - Rear most part of the subframe assembly to verify if its truly transmitting through the tubular structure.\nYellow - Sheet metal at the front of the vehicle.\n\nThis is from Slack:\nAfter a quick test drive.\n\nWhite showed to be the loudest. Very much dependent on speed. The faster you went the louder it got but was louder on decel than it was on acceleration. It was also more a screeching sound than a gear sound but that would just be the way gears sound in a mono analog input.\n\nRed required almost double if not triple the volume to hear the sounds we were hoping to. So I dont think the sound is transmitting through just the subframe.\n\nGreen verifys that the sound is not being directly transmitted through the sub frame structure that the cradle is mounted to. With the volume at max its still very hard to hear any of the noises we are chasing. But I did notice a clicking sound coming from the rear end area of the vheicle using this one.\n\nYellow showed basically no noise I could hear the power steering pump over everything else.\n\nOverall I feel like its possible that SEV is loud and that loudness is being transmitted through the entire vehicle just enough to where the entire vehicle is basically becoming a speaker for these noises.\n\nI can run more tests if we would like and maybe have another set of ears listen to it to verify the same findings. This however was what I noticed.\nOk so I moved red even closer to the cradle. Moved on to the vertical uprights that box in the cradle at the transmission mount.\n\nAs well as Added Blue.\n\nBlue is attached to the drain plug hole for the motor.\n\nBasically the same results as before.\n\nRed had no smoking gun noises present even being as close as it is. With the chassis ears at max volume you can slightly hear the gear box but Im pretty sure thats from surrounding vibrations in the air since the gain is up so high.\n\nBlue basically the same story as red. You can hear the gear box slightly with the chassis ears at max volume but not at all representative of what we are hearing in the cabin of the vehicle.\n\nNext plan was to swap the SEV and attempt to add luxury liner to the underside of the tunnel.\nPulled motor and gearbox.\nSwapped gear box.\nPrepped for install.\nStill need to install luxury liner and motor into the vehicle."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-07 23:30",
+                  "text": "Finished installing the motor and all other changes we wanted to make while changing out the SEV.\nAdded luxury line under to the tunnel to help with noise.\nInstalled new new new driveshaft.\nTested vehicle during driveshaft balancing.\nGearbox sounds very similar to how it did.\nWill need to road test and verify if there are any more changes necessary."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-17 22:06",
+                  "text": "Waiting on New sled from OSH.\nparts added to order OA226"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-02 23:55",
+                  "text": "New sled Arrived\nJustin Welded up the metal.\nI handed metal off to Ryan to drop off at Powder Coat ASAP.\nRemoved the motor from the vehicle today while the battery box was removed from the vehicle.\nIn preparation for the new sled to return.\nCleaned up bay from motor removal."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-08 20:59",
+                  "text": "Started transferring components over to the new sled.\nfound that a couple of the hole in the new mounting plate were actually sized for M8s when the bolts are m10. Will update Geoff on this to make the correction.\nModified mounting plate.\nContinued transferring parts over.\nFound that the bushing shim definitely will not fit as is unless we do some major hammering and or forcing of the part to fit.\nWaiting for confirmation of if we want to wait until the parts on order show up. Current ETA is the 11th.\nFound that the oil temp sensor does collide with the slide when installed.\nRemoved motor from sled and swapped for a plug.\nReinstalled motor into the sled.\nOnce we decide on the bushing shim we can move forward appropriately with this."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-10 21:57",
+                  "text": "Finished swapping the motor over to the new cradle.\nChecked fluids.\nInstalled motor and new cradle into the vehicle.\nContinue with installing all remaining pieces to finish motor install and move on to the battery box."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-11 20:24",
+                  "text": "Finished installing the driveshaft and all of the motors connecting components."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-15 22:28",
+                  "text": "Continued testing on this vehicle to determine if the NVH issue is still present on this vehicle.\nUsing Chassis ear tested a handful of different spots on the car and didnt find any substantial evidence for a very clear source of the sound.\nWorked with Marc and spun the vehicle driveline up while the vehicle was on the lift inspecting different areas and listening for the most apparent sounds.\nMarc and I both come to the conclusion that it seems like most of the sound is being transmitted through the driveshaft of the vehicle.\nCombined with how stiff the chassis is reverberations and loudness are all amplified compared to Vargas.\nBack to back comparison to Vargas shows both mustang making the exact same sounds joust at different amplitudes. Lees mustang being the louder of the 2.\nDetermined that the next best step is to add sound deadening to the interior of the vehicle to try and help cut back on all of the NVH as much as possible.\nAt this point we have to to shift from getting rid of the sound entirely to just making the sound bearable. There are no apparent  solutions for this vehicle due to the way the vehicle is manufactured and equipped. Its almost too good for how quite our systems are.\nWill continue the sound deadening install on it own specific task."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-16 18:41",
+                  "text": "Aharon finished balancing the driveshaft.\nTest drove the vehicle after to get a feel for the balance.\nCar felt great. No crazy vibrations felt up to 60-65 mph. Still need to do highway testing.\nThe weird thing I noticed though was that with the center console out of the car the Gear groan / Noise was bearable. It wasnt obnoxious or crazy. Still present but drivable. The center console must be acting as amplifier as well especially the center console cubby box thing. We should also add sound treatment to the underside of this as well.\nWill add this to the list of things to address when it comes to NVH and or sound deadening."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "2e22e130e4483b94d8c1da8a37c63d595333ec972f3e7371a4d05a5581970ca1"
+              "content_hash": "2e35808b0ea21e9b42f8d11e735597b3662c1e8f4d84036b304954b48526f507"
             },
             {
               "id": "868kvft7k",
@@ -1773,9 +1786,30 @@
               "status": "Open",
               "list": "Lee 68 Mustang",
               "url": "https://app.clickup.com/t/868kvft7k",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-28 20:51",
+                  "text": "Gathered some data to start the Diag of possible DCDC timing fault and or VCU programming errors on our Dilong chargers.\nDCDC errors show up when the key is cycled off to on in quick succession."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-14 21:05",
+                  "text": "image.png\nimage.png\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-14 21:58",
+                  "text": "2026-08-11 Lee Mustang Inverter Config defsyms_20250513_09142026.txtAdjusted Torque Rate Limit from 50 to 70"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-14 22:08",
+                  "text": "Updated VCU.\nQuickly went through the settings and config to make sure things didnt change.\nThis vehicle has not had a lot of time or tuning done to it so this was not difficult nor were there a bunch of settings that would have been changed yet.\nVCU updated to the latest firmware.\nAdjusted Launch gain to 70, Test drive, adjusted to 100, Test drive.\nDidn't have any noticeable difference at this time.\nWill need to charge the vehicle before further testing.\nUpdated Torque Rate limit from 50 to 70 on the EEPROM settings since 70 is stock. Not entirely sure how it was reduced down to 50 but this should also help the acceleration."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
+              "content_hash": "b8ef0db6962787bd5de7d41800eb4e2b19c9f7b752e0a33d37e06dd6c669497c"
             },
             {
               "id": "868m5njnw",
@@ -1824,9 +1858,60 @@
               "status": "Open",
               "list": "Lee 68 Mustang",
               "url": "https://app.clickup.com/t/868hygk5k",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-07-15 21:55",
+                  "text": "worked on balancing the DS\nthis is the worst one  I have started with\nlooking at runout it is bad\nadded the weight ring and 3/4 once I am only getting small gains\ntried several locations stopped to see what could be done of if their is another issu"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-07-16 13:26",
+                  "text": "https://t9011243300.p.clickup-attachments.com/t9011243300/d01af902-5e50-4736-8a46-1d434a328144/IMG_1660.mov?view=openhttps://t9011243300.p.clickup-attachments.com/t9011243300/5020b92a-0128-4ca4-a60b-1e73eaa14eb7/IMG_1659.mov?view=openhttps://t9011243300.p.clickup-attachments.com/t9011243300/ee7fff68-7bc8-4ed3-8fc7-b794c2064723/IMG_1658.mov?view=openhttps://t9011243300.p.clickup-attachments.com/t9011243300/d21613ae-b775-4224-999e-41ad30a81481/IMG_1656.mov?view=openhttps://t9011243300.p.clickup-attachments.com/t9011243300/ba321582-e4e8-42d9-8a4b-a7e0401ba0da/IMG_1655.mov?view=open"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-07-16 16:51",
+                  "text": "Took all the dims and found the DS had 20 thou of runout at the rear CV\nthis is the vibration\nmost DS have about 5-6 thou of runout\ntalked with Dan at Inland he is ordering the dampener tubing\nhe will remake it when it comes in"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-07-29 23:07",
+                  "text": "I am still measuring .020 of runout on the rear of the shaft, but only getting .005 on the CV itself.\nSeeing .012 on the splined part of the shaft going in to the CV itself and it perfectly matches the high/low points of the larger diameter area of shaft.\nI am starting to suspect the star in the CV or the machining of the CV itself.\nHow do we we think I should proceed? I can absolutely try to balance around this and see what happens. We can also pull the shaft and flip the star-CV config. @Marc Davis @Billy Arrasmith\u00a0(edited)"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-07-31 00:01",
+                  "text": "We have .003-.004 on the pinion flange itself, then probably .005 on OUR adapter flange. There is a configuration that makes it about .010 (which is how we had it initially) and I'm hoping this helps.\nThen when I install the driveshaft I'll rotate it around to find the lowest axial runout, which I believe is contributing to the radial runout of the shaft because everything is acting like a wobble plate and moving the shaft around in space. TBD on how low I can actually get it. but we may be looking at an issue all the way down to the pinion.\n\nI swapped the CV today and then did much much testing of the flanges and adapters and CV etc. to try and get down to configuration with the least run out. we still ended up with .025 unfortunately. I may try a different CV before attempting to balance."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-01 16:03",
+                  "text": "discussions, working with billy, pull driveshaft and adapter and hand off to billy"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-04 20:53",
+                  "text": "runout is a lot better\nstated by listening to the DS\nfound the vibration at the front\nstarted with 1/2 OZ\nrotated the DS to the low spot\nplaced my starting mark\nspun the DS up\nmoved till i t got worse\nadded weight\nrepeated the step till i was able to spin it all the way up\nnoticed that the speed topped out at 90\ngot Devin\nchecked it out\nit was the GUI gear ratio set wrong\nchanged it\ntested had it doing good then change all at once\nthought i lost a weight\ntesting again\nadded more weight feels good\nlet it sit\nspun it up had some vibration at first then went away\nnot sure if the isolator is acting this way causing this\ngoing to test drive again"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-04 20:54",
+                  "text": "IMG_1810.jpeg\nIMG_1811.jpeg\nhttps://t9011243300.p.clickup-attachments.com/t9011243300/6c3cda14-1682-4152-86ef-8b7691e14084/20260803_104219.mov?view=openIMG_1809.jpeg"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-10 00:18",
+                  "text": "picked up the DS\ninstalled the DS\nchecked runout\nfound we were 22tho\nchecked the CV adapters for runout\nfound them to have 6-8 tho\nmarked and rotated the adapters\ngot the runout to 5-6 tho\nspun it up\nused the vibration analyzer to get some readings\nfound a lot of weight was necessary to balance\nfound that as usual i was counter balancing the weights\nremoved the weights\nspun the DS up  vibration was considerably better\nadded 1/2OZ and went for a test drive\nDS vibration was good\nSEV was noisy\nready for Marc to Drive"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-09-16 21:28",
+                  "text": "re-check runout. check clocking of mating surfaces. decided that i liked where they were and proceeded to balance. came out pretty darn good"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "5d9f3d36a65b5beb07d608b891dcd97941a03fce1f02ad3aff6d09a8c2a5dc9e"
+              "content_hash": "ed01d07471346b2fb88baf5b0259c91c803d3d2030f81718a21f40148a802b91"
             }
           ]
         },
@@ -1971,9 +2056,20 @@
               "status": "Open",
               "list": "McDonough 77 Esprit",
               "url": "https://app.clickup.com/t/868km7t9d",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "David Webber",
+                  "date": "2026-08-06 13:12",
+                  "text": "31 mile road test. Motor & Battery circuits running cool. No DTCs. GUI ok... not dropping out as previously noted. Rear suspension is still quiet."
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-09-18 18:47",
+                  "text": "Road test vehicle & confirmed fast charging operation"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "16b663d18fbf511d04fc5891bd8783a045dcf757ee0ccc8a4b8950f005f0e1b3"
+              "content_hash": "592d5caf4e56b1188728f7b1508fba227943649cae5fec6372326a5ed7e0d079"
             }
           ]
         },
@@ -1986,9 +2082,121 @@
               "status": "Open",
               "list": "McDonough 77 Esprit",
               "url": "https://app.clickup.com/t/868jkmucy",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
+              "comments": [
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-13 04:47",
+                  "text": "Walked Andrew through the vehicle requirements sheet and filled in all the information possible. Went to flash inverter firmware, cable wouldn't connect physically, looks like the wrong gender. Made quick cable changer. Connected to inverter, pulled EEPROM backups for the main settings, RTD calibrations, and control loop settings. Flashed firmware 6533 and started on the EEPROM combing. Had Claude look at the EEPROM compare tool since it wasn't working for some reason. Compared the Ampere, Moment, and Stock W EEPROM files and decided on an updated blend with weight towards the Ampere settings, made a Master EEPROM column in the startup sheet to permanently capture these. Flashed and backed up everything. Moved on to the VCU, flashed the latest firmware, transfered settinngs from the vehicle requirements sheet and noted with comments where it was lackinng / not super clear. Transfered clear settings to the VCU and marked ones that needed to be reviewed at a later date. Upgraded the PMU's to the latest firmware and flashed the Preheim calibration, which matches closest. Later this week when Preheim HVAC is finished it should be considered to re-flash that program over to here if zero changes have been made to McDonough. Moved over to OBD port which is not reading the PMU CAN but was able to use the PMU checkout box to monitor current while Andrew forced on all channels controlled by the VCU. Started to hookup HV and ran into an HVIL issue, narrowed it down to an IMD box which checked good earlier. Either it's a different IMD box that was actually installed in the vehicle or the vehicle harness has an issue."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-14 02:57",
+                  "text": "Measured CAN network resistances and found CAN3 at 105 Ohms. Temporarily added a resistor to CAN3 to correct the termination. Found PMU CAN1 was flipped high and low causing the laptop to not connect, had brandon fix that. Verified HVIL now satisfied with Daves fix, plugged in the rest of the HV acessories. Enabled HV from the VCU and watched precharge. Verified L2 charging and DCDC output and marked off in the sheet. Discovered bug where PMU was sending output status 1 for all channels, corrected. Will need to fix on three other vehicles. Monitored VCU while testing brake switch. Ended up overriding from the VCU to move on. Calibrated the resolver and continued testing brakes with Dave. Took the vehicle for a test drive and updated the punch card."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-19 23:27",
+                  "text": "Drew up HVAC summary diagram for understanding of which control needs to be configured where. Corrected incorrect VCU options marked off as done during rush last week. Verified all input switches making it to the right controller and all outputs switching on the correct device. Watched AC cycles with Dave & adjusted setpoints per his suggestion. Tested cabin heat, drawing 2kW and internally shutting off at 70C, might be a blend door problem that is not removing the heat from the heater core."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-07-24 22:19",
+                  "text": "Removed the temp temperature logger from Preheim and wired up some thermistors to take the place of the permanent ones in the battery box. Adjusted the logger setup slightly and setup to log temps on Hastert out in the sun. Temperature results at 5pm:\n\nTop of Dash: 32.9 C\nTop of Battery Box: 36.9 C\nSide of Battery Box: 34.6 C\nSide of Battery Box (In the air): 41.8 C\n\nLooks like the air around the box is significantly hotter, test might not have ran long enough. Should re-try on the Lotus."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-06 21:15",
+                  "text": "Picked up on startup. Scanned the sheet to get an overview of what's left. Changed the inverter setting for breakspeed to match the W type motor. Setup second GitHub account with the email Andrew used. Pulled the latest VCU firmware and release notes. Hooked up to vehicle to flash and the passenger window seemed to be stalling. Shut off vehicle and discussed with Dave."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-07 22:31",
+                  "text": "Ran through the checkout sheet filling in the items remaining section. Flashed the latest AWD firmware and verified options. Left on charge the rest of the day and monitored."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-20 22:41",
+                  "text": "Pedal Launch Gain adjusted from 70 -> 50"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-03 15:37",
+                  "text": "image.png\nEntered Vehicle weight and Gear Ratio into the VCU"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-03 23:08",
+                  "text": "Messaged Ryan to acquire the Wifi Credentials.\nWifi creds gathered. Notified Devin to upload creds to the logger.\nUploaded the vehicle weight and gear ratio into the VCU. Left the parameters on Display since the vehicle has been working well and as intended at this time.\nAddressed CAN 3 termination issue. Missing term resistor. Added a removable term resistor at the OBD port.\nSpoke to Marc about updating the GUI. We decided that we should leave it as is to prevent any possible failures on a complete car."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-09 13:44",
+                  "text": "Pre Flash\nimage.png\nimage.png\nimage.png\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-09 13:48",
+                  "text": "image.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-09 13:59",
+                  "text": "Post Flash\nimage.png\nimage.png\nimage.png\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-09 15:18",
+                  "text": "Flashed the VCU firmware to the latest firmware.\nSpent sometime setting up the RDIS file to have our HVAC diag and settings in the HVAC tab.\nSubmitted before and after screenshots to Claude to determine what settings changed pre and post flash.\nthe only setting that \"changed\" was the LaunchGain. In the old settings we had it set to 50 at drive factor 8. The thing is this car has a drive factor of 11.2 so that setting was never actually being used. So we updated that setting to 50 on this new firmware. Will need to test drive the vehicle to verify.\nMade necessary adjustments to the VCU settings to match pre flash.\nVCU updated and good at this time. Continue with Test drive of the vehicle to verify operations are all good still at this time."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-10 22:02",
+                  "text": "Uploaded wifi credentials to CAN logger."
+                }
+              ],
+              "checklist_items": [
+                {
+                  "checklist": "Checklist",
+                  "name": "Address CAN3 Termination issue (currently 110 ohms)",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Add wifi credentials",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Enter vehicle weight",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Update GUI to lastest version",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Verify gauges after reinstallation",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Test fast charging",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Perform overnight charge",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Verify inverter break speed",
+                  "resolved": true
+                }
+              ],
+              "content_hash": "c9f765f5bfd91f4c7dbde634aa9c874e0f6661b38cc8162b9c1b4865c7e41574"
             }
           ]
         },
@@ -2001,9 +2209,20 @@
               "status": "Open",
               "list": "McDonough 77 Esprit",
               "url": "https://app.clickup.com/t/868m0fbgp",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Justin Landry",
+                  "date": "2026-09-15 14:27",
+                  "text": "PDI is about 80% complete before the vehicle had to leave for photos. will continue tomorrow with HVAC, lighting checks and photos for documents."
+                },
+                {
+                  "author": "Justin Landry",
+                  "date": "2026-09-16 19:14",
+                  "text": "Completed PDI on the lotus. Filled out signed and added sheet to the glovebox. added photos in the slack page of diag ports and gauges."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "2e00c870193a7e5cad46da2e37f7540e5a97acbc53ed4fdfd1933ebe5d4e7b9e"
+              "content_hash": "c7ff73866f4d809e1530bb2bd9ebf345e6d98f00defe005d213d32dbbaeeba97"
             }
           ]
         }
@@ -2169,9 +2388,15 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868kzaq6r",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-03 20:58",
+                  "text": "Greased front and rear leaf spring pivot points"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "dfcfa914428437333c0ae6fcb4dab8f221c044a55e935e2319ae1c20a72046fb"
+              "content_hash": "99f8eeeaf4739735b3db8035734bd1c654ad4e0034f2d6a4ef70d831b32fe6df"
             },
             {
               "id": "868m63v76",
@@ -2189,9 +2414,15 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868m6uehh",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-18 22:49",
+                  "text": "removed the dr side axle\ntook the U-Joint out\nwaited for the new joint\nfirst one was wrong\ngot the right one\ninstalled U-Joint\nreinstalled axle\ntest drove truck\ndrives great"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "83f5b0057d0375e695b5e7475b0efeff3c5c1da8e27a114558fd5c62d6eede1b"
+              "content_hash": "2b1cd7a3ddef873ea6fac4b77cfe8cca50628ec361a6bc1282366188f6ba1cd3"
             }
           ]
         },
@@ -2204,9 +2435,15 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868m6f2w9",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "David Webber",
+                  "date": "2026-09-18 19:02",
+                  "text": "Road tested again for rotational noise(s) heard by marc. Drive vehicle on rack for rotational nose diagnosis. Noted failing Ujoint at left front axle."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "5e2e22b328adb322794115540010e430f049f2ff6e66f8457b83415f5251e793"
+              "content_hash": "99a7f1587c70030b23ed7f15fbff1b131e5a28b38fca13f6fa3f2718339ee0e3"
             },
             {
               "id": "868m4x3uh",
@@ -2214,9 +2451,25 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868m4x3uh",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "David Webber",
+                  "date": "2026-09-14 18:26",
+                  "text": "Multiple noises from tailgate and hard top\ntailgate latch and rods and release handle banging around in tailgate - removed components, installed dampening + lube and adjust\nTailgate and hardtop remaining noises \u2026\n- Missing bumper stop for tailgate - ordered replacement\n-tailgate straps noisy.. order nylon shims for an ATTEMPT to tighten these up\n-Rear window still knocking (side/side) in frame during bump/flex\u2026 already thick anti-rattle rubber here\u2026 There is cracking damage/repairs here ... this may be as good as it gets?\nHardtop latches loose and dry. - Adjust, tighten and lube. Rear window seal dry and creaking - clean/lube seal\nCreaking/squeaking from door/hood latches - clean/lube latches\nCenter console squeaks/rattles - VHB chrome trim in place, make and install felt bumpers for lid and ashtray insert"
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-09-17 16:13",
+                  "text": "Continued road testing for creak/rattle abatement. Fashion & affix a pair of hard rubber wedges to hard top rear window/gate to restrict side to side movement & rattling. Got with Billy to source replacement door panel clips. Once these arrive I'll address noisy window & lock mechanisms in each door. I'll also get the truck in the air to explore rotational noises once the lift is free."
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-09-17 17:27",
+                  "text": "I've got 7hrs in this task & I'll probably spend another 4? See above comments"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "8fea1d6d1af49160ab84bcb7db71aea2821b265f67709e5cde86abebe31c7e84"
+              "content_hash": "9c6e84153657942f9772801abc2726148d01a5e9dac630c1bd0b77a44652aacd"
             }
           ]
         },
@@ -2229,9 +2482,50 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868kzahbv",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-02 17:34",
+                  "text": "Rear sway bar install details:\nKit verified to fit with additional work on brake mounts and replacing hardware and bushing risers\nRear brake bracket had to be removed and the welded bracket cut out and raw steel was painted\nBrackets installed and centered\nI ordered appropriate hardware and bushing riser material because the hardware is spec'd for stock height\nCrescent mounts for rear brake line mounts need to be welded to the rear end"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-02 17:36",
+                  "text": "paste_b3f4d546-77bf-4339-99ef-c97611aea723.jpgpaste_1c656eed-a6ef-4758-baf2-f53182e04961.jpgpaste_6d5de5f3-405c-4881-ab3e-e4510b42c21c.jpgpaste_99a03231-6ac6-48bc-b625-3faa1a964421.jpgpaste_2dcb7a9e-f9e1-40ba-8c33-cbed9f98943f.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-03 19:30",
+                  "text": "Install Process:\nVerify kit will clear components\nMockup sway bar and mounting brackets\nPass. bracket fouls on brake fork mount\nCut brake mount off rear end and paint raw metal\nMove brake lines\nSetup welder to weld in new brake mounts\nBevel welds  and paint raw metal\nRemount sway bar after greasing bushings\nMeasure height at sway bar parallel to ground\nSupplied hardware is 3 inches short\nOrder new hardware and thick wall tubing for bushing spacers\nHardware and tubing arrived\nCut tubing to spec, clean and bevel\nPaint bushing spacers\nMark lower frame rail for upper sway bar end link mount\nDrill 4 holes for mounts avoiding HV and brake lines\nDeburr holes and paint raw metal\nInstall u-bolt in chassis and mount upper sway bar mount\nGrease all end link bushings\nInstall end links into new sway bar\nTighten all hardware\nVerify install"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-03 19:39",
+                  "text": "paste_b532cb55-b2ad-4676-ad4d-b3aaff165db6.jpgpaste_04c378bd-903b-4897-8eb5-70ab5616ea88.jpgpaste_b92a5bb9-fd81-488b-81cc-6e6d1ed42a72.jpgpaste_5ba0d857-10fa-4596-b7fd-41050252a894.jpgpaste_f9d4f1e8-3f5f-4aa8-9fbd-76d001c8a300.jpgpaste_3f548953-32e2-4c31-968c-4e9629ac735a.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-05 01:16",
+                  "text": "Front sway bar attempted install but fouls on crossover steering assembly\nNo way to modify to fit\nSourced a possible replacement that should work with crossover steering"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-16 18:03",
+                  "text": "Spent time with Offroad finding a solution that allows us to get the swaybar installed while keeping our timeframe\nThere swaybar end link material did not arrive as they said it would.\nThey will provide their 8\" upgraded end links and I will cut them to our length"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-19 00:14",
+                  "text": "paste_cf60d413-2523-4033-8c57-a7a1cda97c57.jpgpaste_06fe9e7e-fe3e-49dc-b744-2908bc596358.jpgpaste_fa21afa9-5374-4685-9adc-258985ea630c.jpgpaste_28cb810e-5c2f-47ec-8583-1272a07088ae.jpgpaste_b204dfd8-56f6-46be-8252-aff7458f95fc.jpgpaste_bd744a1f-b429-46cd-9814-8f84492350d9.jpgpaste_4eb21c18-64e7-49e8-bc55-7641f814776f.jpgpaste_af2c9096-f0fe-45f6-9e83-8f8a4c6cd2cb.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-19 00:14",
+                  "text": "Swaybar received\nTook inventory and verified fitup\nUpper leaf spring clamp removed\nNew clamp prepped and painted\nNew clamp installed\nSway bar set in\nSway bar end links assembled\nEnd links fitup\nSway bar bracket location measured and marked\n1.25\" Sway bar brackets ordered and received\nFrame rail drilled for brackets and hardware pulled\nAssembly tightened and u-bolt clamp hardware torqued"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "75d544ac467d0fabdd6cb8d7350351be4980d135c383c9391def44d832521bc2"
+              "content_hash": "7c2a9ef3e710467ecdedcc4c54178e699d21ff4e1747c1d2003963371751a83e"
             }
           ]
         },
@@ -2274,9 +2568,15 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868m6ue6t",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-09-18 19:20",
+                  "text": "Helped Dave in troubleshooting noise from Prehiem."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "e025a4e5d5843cabb37ec79a4589f2ec4291644d7a7c1213237792b5a96411f4"
+              "content_hash": "282733ff4f89c88adac9e8efdce82ab202d69857ef8344135dde2dbed0bf0ca9"
             }
           ]
         }
@@ -2700,5 +3000,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-20T04:14:27Z"
+  "generated_at": "2026-09-20T04:32:11Z"
 }
