@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T04:51:11.886796Z",
+  "updated_at": "2026-09-20T05:13:40.918027Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -856,9 +856,30 @@
               "status": "Open",
               "list": "Kelly 63 Corvette",
               "url": "https://app.clickup.com/t/868kqcuv8",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-14 22:02",
+                  "text": "test driving after new settings"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-09-09 14:50",
+                  "text": "test drive after new steering set up. my notes from slack:\n\nOk just got done driving the car. The steering is completely transformed and the car feels great and much more confidence inspiring.\nThere are two small issues:\nAlthough the steering is centered in the rack appropriately. (1.5 turns to lock each way). The steering wheel is perfectly upside down lol 180\u00b0 out.\nThere is a very obvious and annoying creak coming from the column maybe rubbing against the dash, you can replicate it by wiggling the steering wheel a bit and moving the column. It's not too bad standing still but when driving i think the dash moves over small bumps and it is really annoying."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-09-09 14:51",
+                  "text": "I believe this task needs to stay open due to the \"misfire\" inverter settings thing going on."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-09-17 23:11",
+                  "text": "long test drives with many full throttle pulls."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "16b663d18fbf511d04fc5891bd8783a045dcf757ee0ccc8a4b8950f005f0e1b3"
+              "content_hash": "ab9f633856cfcbb5fa7def1d60d545c31c43ecb01417ecf3d964b1fa1561771d"
             }
           ]
         },
@@ -929,9 +950,40 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868knrzc6",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-18 22:21",
+                  "text": "parts searching, discussing solutions. correspondence with vendors."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-19 21:47",
+                  "text": "attempted correspondence"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-21 21:15",
+                  "text": "The company we purchased the wood trim pieces from says that their photos on their site are wrong and they do not have the correct part. I will now attempt to cut the panels for hvac using the least visible methods possible and install with the small slits under hvac."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-25 22:22",
+                  "text": "trimming dash panel. i used the old aluminum pieces as a template. i chose to undersize the hole and slowly work it out to fit our hvac piece since its such an expensive piece of wood and i didnt want to make it too large and have to scrap it."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-26 22:25",
+                  "text": "This wood trim conversion has once again snowballed, but we're nearing the tail end.\nEnded up needing to modify the Rennline HVAC panel since it didn't fit between the dashboard, which is how everything is centered. Had to cut back the beauty ring and drill and tap the billet face in 4 different spots to create new mounting tabs. It now fits and everything aligns well. Moved on to the rest of the wood trim.\nI've cut every piece that needed modification except the key switch panel, which is almost done. Some of these were supposed to be templated off the dash or the Voiture Extravert parts, but they were all done by hand and done poorly, so I had to go my own route. Should be able to get visual approval and mount everything permanently tomorrow."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-09-09 21:57",
+                  "text": "reaching out to local cnc shopts"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "ff65ffa6e3b870f14631f54ce5b0e4903067f8d847c23a2586c0bbbcbc44100a"
+              "content_hash": "55db90b0f67e502e5b702fab9f0ab9db68b563d00d6e7107df509c2e91ece6b4"
             },
             {
               "id": "868hbv2qu",
@@ -959,9 +1011,50 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868k84q9v",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-07-03 01:31",
+                  "text": "mock up, check cad. mark frame and drill for rivnut installations. keep in car while checking rear batt box fitment to make sure we're good and so that I can visualize cooling lines"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-07-08 19:28",
+                  "text": "checking/measuring cad/ making temp mounting plates and get junction box mocked up into car for HV measurement."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-07-08 19:30",
+                  "text": "IMG_2142.jpeg"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-07-14 14:44",
+                  "text": "7/3 .5 hr added for mocking up of vcu adapter mounting plate that goes on box itself to hold the vcu mounting plate."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-01 16:07",
+                  "text": "install water pump mounting plates and water pump, battery heater,"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-11 23:11",
+                  "text": "remove and reinstall mounting plates for water pump and battery heater with the correct cooling hoses and fittings. install motor pump and cooling hoses/ fittings. install coolant reservoirs."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-11 23:13",
+                  "text": "IMG_2491.jpeg\nIMG_2492.jpeg\nIMG_2493.jpeg"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-09-11 21:12",
+                  "text": "had to remove motor water pump for harness installation. reinstall after harness has been situated. assembly and installation of vcu stack. i had to tap the pre installed threads due to powdercoat"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "a1dad4553ec4a5c6b34f2cb329dbf17e06855b6cce8d68227166f352a288c03c"
+              "content_hash": "d083236566ca3f93003b9d1645b6014016742f8ba881a62f301427405780143e"
             },
             {
               "id": "868g3ptf9",
@@ -999,9 +1092,25 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868j7kw3h",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-24 22:12",
+                  "text": "stubs arrived and inspected."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-09-17 23:06",
+                  "text": "Removed bolt-on wheel spacers\nRemoved the OEM hub stub\nInstalled the new stubs into the LDU after test-fitting them without the retaining clips, just in case\nAssembled and installed axles with a bit of anaerobic gasket maker on the LDU stub side\nTorqued wheel sides to 250 ft-lb\nMarked all bolts and nuts"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-09-17 23:08",
+                  "text": "BFDE3372-B91F-4973-BAEE-8800362EA7EE.heicFABDCBEE-7AD0-40ED-9290-C430EEFA76C4.heic"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "3ae8bb0583d6488c35f2423218e40d7109cd25e06cc7b4979a010cc70878cd49"
+              "content_hash": "149bd192de069c5c078c45131cbcf688262657434a7de5dff85378537366bccb"
             },
             {
               "id": "868jwn2c3",
@@ -1009,9 +1118,35 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868jwn2c3",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-07-03 01:25",
+                  "text": "clean, prep and assemble new printed radiators\ninstall tabs and radiator mount\nstill need to mock up radiators and do cooling lines."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-13 22:04",
+                  "text": "receive and inspect modified part"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-18 15:37",
+                  "text": "Fitment resolved \u2014 see \"Manufacture Core - Radiator Mounts\" (8/17): re-tested after clearancing, plates seat clean, no more frame-support contact. Painted body cuts, disassembled units, sent to powdercoat. Waiting on powdercoat return before reinstall. Ryan notified in Slack."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-09-09 21:56",
+                  "text": "After making sure the shrouds and fans align with the custom radiators, removed them and the drain plugs from the stock rads. Realized I didn't like how they were secured to the radiators with just self-tapping screws \u2014 Noah had described some contacting the tanks and causing leaks. So I slowly marked, drilled, and tapped each one up to a #8 sheet metal screw, cutting the screws down to size so they barely or don't make contact with the fins and tank spacers. Installed with #8 washer cups for looks."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-09-17 23:10",
+                  "text": "install radiators and cooling fittings, crimp all connections. actually had to drop it after installation to get the fittings installed but yeah. send hoses up to reservoir. all done"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "9ecd557eb7d39bf8c06ffccd4b49932dc1bde83befe08e52c00593ddd11f5a97"
+              "content_hash": "ef04f5ea20f2131e9666fc9d1a3670d7a7b679fddb28bfa3e4078021b214d105"
             },
             {
               "id": "868j7krpv",
@@ -1059,9 +1194,45 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868k55n9a",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-06-26 02:26",
+                  "text": "June 24\npeeping a couple of locations, after looking at cad and chatting with Brandon, decided to place them on the wall near the oem fuse box. finish out dcdc charger cable and start on 12v to fuses etc."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-06-26 02:30",
+                  "text": "finish up main cables from batt to midis and charger. cut back oem harness and terminate as well."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-06-26 21:53",
+                  "text": "run 4 awg cable through drivers side frame duct. I ran this twice as the first one I ran was like 8\" short of course. had to pull and cut a new for the re run. need to terminate at midi fuses."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-14 21:51",
+                  "text": "Re-consolidated the MIDI fuse area with the addition of the vehicle control 12V main power cable. Put vehicle control and body control on the same 100A MIDI, so that if there are any charging issues, they'll be easy to diagnose \u2014 and similarly, if there's a blown fuse on the vehicle side, that'll be straightforward to isolate too. The charger and vehicle are isolated by a charging fuse. Placed a 30A inline fuse on the radio amplifier, installed pre-MIDI fuse \u2014 keeping it off our side but still safe. Still need to terminate the PDM side of the cable, but will handle that during component installation since the length isn't known yet."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-09-14 21:59",
+                  "text": "final termination of 12v cables from front to rear of vehicle."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-09-15 19:27",
+                  "text": "I still need to make the LDU ground cable."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-09-16 21:30",
+                  "text": "made ldu ground cable and attached after install"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "28a4a83e87420a3959f90b83786ba8c9a0f63c5d8662c9c94ea53f3e7b840bc6"
+              "content_hash": "a78a5320b0bb7a89093442a01d0305f91a276a243e47d615257f73837bb5fb75"
             },
             {
               "id": "868g3pt74",
@@ -1084,9 +1255,55 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868jg5vhj",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-05-08 19:34",
+                  "text": "Talk to Angel at Colvin"
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-05-15 17:37",
+                  "text": "Will discuss with Angel when Connolly is picked up."
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-05-21 19:36",
+                  "text": "Angel has the LB Upholstery Spec PDF. He'll review and get us an estimate. He will also look to source the Recaros."
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-05-29 18:09",
+                  "text": "Waiting on Angel's estimate."
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-06-04 23:18",
+                  "text": "Angel has estimate ready. Need to confirm seat pattern. He seems to prefer the vendor Relicate. NO luck on Recaros yet, both Angel and I are searching."
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-06-12 13:15",
+                  "text": "Need yardage numbers for material. Angel should have numbers for us today, 6/12."
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-06-17 16:20",
+                  "text": "Sent accent material measurements to Angel to confirm."
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-06-24 17:23",
+                  "text": "Estimate numbers shared"
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-08-14 16:36",
+                  "text": "Need to track down leather samples."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "d683478c375b9364201bf8445859244c6d1d769a118725c3da3bac25c2358198"
+              "content_hash": "3f41d74eb0ac2db5177ca5dc4a12805a0d098654630a6b04a3776e2242acbed3"
             },
             {
               "id": "868jg5vgm",
@@ -1094,9 +1311,30 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868jg5vgm",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-05-07 20:13",
+                  "text": "Style?"
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-05-08 19:31",
+                  "text": "65-73 Early 911 Recaro Sport Style Seat\n\nsierramadrecollection.com/products/porsche-911-rs-recaro-style-sport-seat-set-911-1965-1973-smc-000-911-seat?srsltid=AfmBOopTJ5lX0wNbjDhffSV7-YH3zw9HtHjWz4DKZPbslChQ9PaF0om0"
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-05-08 19:32",
+                  "text": "Search Bring a Trailer"
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-05-29 18:08",
+                  "text": "Having Angel at Colvin source Recaros"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "3799cfe45dd546d01784d0746fbb4dfc612876c02eb7b002c0d4c02a4a68d2fc"
+              "content_hash": "f41a1ab1831f47bab4988de8723de1f413f0b518995c76e2cb65dcecf7c8f10c"
             }
           ]
         },
@@ -1109,9 +1347,15 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868knrzp8",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-11 15:57",
+                  "text": "PMU1 SN : 201-2608-00284\nPMU2 SN : 201-2610-00485"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "d78440966f91a7753aee616d683570b500075d7cad9fdedb5aa9cde2367c2fb5"
+              "content_hash": "911fd4f5c6516f3ef6f07fdd030c8d7da1eae198c66bafc581dfdaf80d758900"
             }
           ]
         },
@@ -1139,9 +1383,75 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868jz61wr",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Justin Landry",
+                  "date": "2026-08-20 19:26",
+                  "text": "started in on going through the doc and kit for the LB AIO. going to start the building of it tomorrow."
+                },
+                {
+                  "author": "Justin Landry",
+                  "date": "2026-08-21 19:23",
+                  "text": "assembled the hardware parts onto the base plate, verified changes that were made on the first version seemed to have worked because they line up much better on this run. got all contactors, fuses, busbars and base plate mounted things finished. had to drill out the base plate mount holes to the box a bit. reported changes to geoff."
+                },
+                {
+                  "author": "Justin Landry",
+                  "date": "2026-08-24 19:41",
+                  "text": "Continued the build process today with some wiring before being pulled off to tend to ritchie. got the contactors and large resistors wired as we as some of the feeds to the discharge resistors."
+                },
+                {
+                  "author": "Justin Landry",
+                  "date": "2026-08-25 19:41",
+                  "text": "Continued briefly with some wiring in between other work. looked over aio diagram to confirm wire routing."
+                },
+                {
+                  "author": "Justin Landry",
+                  "date": "2026-08-26 19:21",
+                  "text": "Continued HV wiring alongside the catch up of the 3rd AIO box being built."
+                },
+                {
+                  "author": "Justin Landry",
+                  "date": "2026-08-27 19:41",
+                  "text": "Began assembling the LV/Comms wiring from the milspec connector to the various components in the AIO box. most of the large connector is terminated and needs the component end connectors done. still waiting on a final correct copy of the HV circuit in order to complete before returning to finish the HV."
+                },
+                {
+                  "author": "Justin Landry",
+                  "date": "2026-08-28 19:08",
+                  "text": "Completed comms wiring harness and prepped IMD. Mounted IMD to box lid"
+                },
+                {
+                  "author": "Justin Landry",
+                  "date": "2026-09-03 19:19",
+                  "text": "went over exsisting wiring that had been started and made changes reflected in the newest version of the wiring info. completed precharge/discharge circuits and began on all other AUC HV wiring."
+                },
+                {
+                  "author": "Justin Landry",
+                  "date": "2026-09-03 19:20",
+                  "text": "got about halfway into the HV wiring and installed base plate into box."
+                },
+                {
+                  "author": "Justin Landry",
+                  "date": "2026-09-04 19:14",
+                  "text": "Completed bus bars, fuse layout, HV to amphenol wiring and IVTS install."
+                },
+                {
+                  "author": "Justin Landry",
+                  "date": "2026-09-08 19:18",
+                  "text": "Completed HVIL loop and distribution setup and installed final busbar."
+                },
+                {
+                  "author": "Justin Landry",
+                  "date": "2026-09-09 19:30",
+                  "text": "Worked on IMD tap wiring and IVTS U1,2 and 3"
+                },
+                {
+                  "author": "Justin Landry",
+                  "date": "2026-09-18 19:23",
+                  "text": "Began reading through and prepping for the test procedure for the AIO boxes."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "4e7cb1c4399da78ad464890ebc65c8bc02a428fa1f6c13e543d0f544465797a8"
+              "content_hash": "618ff5bcfe1f4a330bcc9b38c4acfeb16fe07638cbb68e4063e0cac64a95f793"
             }
           ]
         },
@@ -2107,5 +2417,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-20T04:49:46Z"
+  "generated_at": "2026-09-20T05:11:57Z"
 }
