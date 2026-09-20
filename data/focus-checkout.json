@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T05:13:40.918027Z",
+  "updated_at": "2026-09-20T05:27:17.277268Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1092,25 +1092,9 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868j7kw3h",
-              "comments": [
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-24 22:12",
-                  "text": "stubs arrived and inspected."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-17 23:06",
-                  "text": "Removed bolt-on wheel spacers\nRemoved the OEM hub stub\nInstalled the new stubs into the LDU after test-fitting them without the retaining clips, just in case\nAssembled and installed axles with a bit of anaerobic gasket maker on the LDU stub side\nTorqued wheel sides to 250 ft-lb\nMarked all bolts and nuts"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-17 23:08",
-                  "text": "BFDE3372-B91F-4973-BAEE-8800362EA7EE.heicFABDCBEE-7AD0-40ED-9290-C430EEFA76C4.heic"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "149bd192de069c5c078c45131cbcf688262657434a7de5dff85378537366bccb"
+              "content_hash": "3ae8bb0583d6488c35f2423218e40d7109cd25e06cc7b4979a010cc70878cd49"
             },
             {
               "id": "868jwn2c3",
@@ -1311,30 +1295,9 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868jg5vgm",
-              "comments": [
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-05-07 20:13",
-                  "text": "Style?"
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-05-08 19:31",
-                  "text": "65-73 Early 911 Recaro Sport Style Seat\n\nsierramadrecollection.com/products/porsche-911-rs-recaro-style-sport-seat-set-911-1965-1973-smc-000-911-seat?srsltid=AfmBOopTJ5lX0wNbjDhffSV7-YH3zw9HtHjWz4DKZPbslChQ9PaF0om0"
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-05-08 19:32",
-                  "text": "Search Bring a Trailer"
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-05-29 18:08",
-                  "text": "Having Angel at Colvin source Recaros"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "f41a1ab1831f47bab4988de8723de1f413f0b518995c76e2cb65dcecf7c8f10c"
+              "content_hash": "3799cfe45dd546d01784d0746fbb4dfc612876c02eb7b002c0d4c02a4a68d2fc"
             }
           ]
         },
@@ -2417,5 +2380,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-20T05:11:57Z"
+  "generated_at": "2026-09-20T05:25:46Z"
 }
