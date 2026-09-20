@@ -49,7 +49,7 @@
         {
           "date": "2026-09-19",
           "day_name": "Saturday",
-          "is_today": true,
+          "is_today": false,
           "is_weekend": true,
           "events": [
             {
@@ -62,7 +62,7 @@
         {
           "date": "2026-09-20",
           "day_name": "Sunday",
-          "is_today": false,
+          "is_today": true,
           "is_weekend": true,
           "events": [
             {
@@ -285,5 +285,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-19T23:48:31Z"
+  "generated_at": "2026-09-20T00:38:24Z"
 }
