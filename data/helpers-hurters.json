@@ -3,7 +3,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 94.8,
-      "pct_of_total": 10.9,
+      "pct_of_total": 10.8,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -84,7 +84,7 @@
     },
     {
       "project": "Ritchie 71 Blazer",
-      "total_hours": 80.0,
+      "total_hours": 80.5,
       "pct_of_total": 9.2,
       "tasks": [
         {
@@ -97,7 +97,7 @@
         },
         {
           "task": "Vehicle Control",
-          "hours": 10.0
+          "hours": 10.5
         },
         {
           "task": "Exterior",
@@ -179,7 +179,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 52.0,
-      "pct_of_total": 6.0,
+      "pct_of_total": 5.9,
       "tasks": [
         {
           "task": "Battery Pack",
@@ -213,8 +213,8 @@
     },
     {
       "project": "Preheim 72 Blazer",
-      "total_hours": 43.2,
-      "pct_of_total": 5.0,
+      "total_hours": 47.2,
+      "pct_of_total": 5.4,
       "tasks": [
         {
           "task": "Interior",
@@ -233,12 +233,12 @@
           "hours": 5.5
         },
         {
-          "task": "Audio",
-          "hours": 2.0
+          "task": "Vehicle Control",
+          "hours": 5.0
         },
         {
-          "task": "Vehicle Control",
-          "hours": 1.0
+          "task": "Audio",
+          "hours": 2.0
         }
       ]
     },
@@ -376,8 +376,8 @@
     }
   ],
   "shop_work": {
-    "total_hours": 137.5,
-    "pct_of_total": 15.8,
+    "total_hours": 138.0,
+    "pct_of_total": 15.7,
     "avg_per_person_per_day": 1.15,
     "flagged": true,
     "tech_count": 8,
@@ -389,7 +389,7 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 49.0
+        "hours": 49.5
       },
       {
         "label": "Personal Meetings",
@@ -490,10 +490,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 655.5,
-    "non_billable_hours": 217.5,
+    "billable_hours": 660.0,
+    "non_billable_hours": 218.0,
     "pto_hours": 12.0,
-    "total_hours": 873.0
+    "total_hours": 878.0
   },
-  "generated_at": "2026-09-21T19:48:50Z"
+  "generated_at": "2026-09-21T20:12:09Z"
 }
