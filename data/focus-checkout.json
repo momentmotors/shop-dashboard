@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T16:15:53.259650Z",
+  "updated_at": "2026-09-21T16:33:11.186509Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -2225,7 +2225,7 @@
         "make": "Chevrolet",
         "model": "Blazer",
         "status": "Fabrication",
-        "checkout": 17.6,
+        "checkout": 20.6,
         "sub_metrics": [
           {
             "label": "BMS",
@@ -2634,5 +2634,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-21T16:13:55Z"
+  "generated_at": "2026-09-21T16:31:15Z"
 }
