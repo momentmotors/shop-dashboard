@@ -456,7 +456,7 @@
       "make": "Ford",
       "model": "F-250",
       "status": "Shipped",
-      "checkout": 97.8,
+      "checkout": 98.1,
       "sub_metrics": [],
       "system": "AEM"
     },
@@ -1291,6 +1291,38 @@
       "system": "AEM"
     },
     {
+      "owner": "Ritchie",
+      "year": 1972,
+      "color": "",
+      "make": "Chevrolet",
+      "model": "Blazer",
+      "status": "Fabrication",
+      "checkout": 20.6,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 100
+        },
+        {
+          "label": "Inverter",
+          "value": 0
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 0
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere"
+    },
+    {
       "owner": "Alvarez",
       "year": 1966,
       "color": "Green",
@@ -1388,38 +1420,6 @@
         "done": 6,
         "open": 1
       }
-    },
-    {
-      "owner": "Ritchie",
-      "year": 1972,
-      "color": "",
-      "make": "Chevrolet",
-      "model": "Blazer",
-      "status": "Fabrication",
-      "checkout": 17.6,
-      "sub_metrics": [
-        {
-          "label": "BMS",
-          "value": 100
-        },
-        {
-          "label": "Inverter",
-          "value": 0
-        },
-        {
-          "label": "PMU",
-          "value": 0
-        },
-        {
-          "label": "Raptor",
-          "value": 0
-        },
-        {
-          "label": "Functional",
-          "value": 0
-        }
-      ],
-      "system": "Ampere"
     },
     {
       "owner": "Nolan",
@@ -1743,6 +1743,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-09-18T23:13:12.673625+00:00",
+  "updated": "2026-09-21T23:13:46.386808+00:00",
   "source": "Google Sheets API"
 }
