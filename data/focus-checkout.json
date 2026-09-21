@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T14:52:05.618095Z",
+  "updated_at": "2026-09-21T15:14:07.752017Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -277,7 +277,7 @@
         "matched_lists": [
           "Ferdman 66 Bus"
         ],
-        "open_tasks": 9
+        "open_tasks": 8
       },
       "assignees": [
         {
@@ -431,97 +431,6 @@
               ],
               "checklist_items": [],
               "content_hash": "319ea60c6b74bfb7942e20c2da314089cf6c28d62dd60755a0a9502bae989443"
-            }
-          ]
-        },
-        {
-          "name": "Devin DuMont",
-          "tasks": [
-            {
-              "id": "868krf5h0",
-              "name": "Troubleshoot inverter issue",
-              "status": "Open",
-              "list": "Ferdman 66 Bus",
-              "url": "https://app.clickup.com/t/868krf5h0",
-              "comments": [
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-08-14 21:44",
-                  "text": "Reviewed torque doc and amps doc. Ran trials requested by Andrew. Developed tune and re-tested. Wrote up time and observations and posted to Slack."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-08-17 22:55",
-                  "text": "Used Claude to plot the trials from Friday. Determined peak amps wise my tune looks good, just needs to have a better \"feel\" in one area. Developed a plan for a new torque limit tune based from amperage feedback instead of torque. Still need to generate number to input to Raptor-Service and actually test."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-08-18 23:37",
-                  "text": "Reviewed my new torque based tune and tested in the vehicle. The boost is still quite noticeable even with a perfectly flat torque feedback. Will need to switch to heavy current limiting, if that doesn't solve it the SDU is operating outside of it's reported feedback and needs to be reviewed by AEM."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-08-20 22:49",
-                  "text": "Reviewed new Claude posts since yesterday. Reviewed trial notes. Repeated baseline current derate test and then tried a medium and max derate tune. In eco mode things are feeling way better but for some reason that changes switching back over to sport. Log analysis backs that up with current figures, derate sounding like more of a band aid solution now. Browsed all the various inverter feedback signals for any that seem to get rough at the same time. Noticed phase B current is always 0, turned out to be the DBC or something not important."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-08-20 22:49",
-                  "text": "Ran the several trials Claude requested and organized notes about what was changed and how the vehicle felt in response."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-08-21 21:53",
-                  "text": "Worked with Claude to review EEPROM settings for the SDU. Determined several to investigate testing with. Also figured actual base torque from logs to that my conservative tune can be relaxed."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-08-26 19:50",
-                  "text": "Researched Kp and Wp via Claude for typical values and expected changes. Couldn't really get a dependable answer, relied on my tuning experience of never more than double or half. Set the VCU back toa default tune and drove for a baseline. Changed the inverter settings Kp from 5 to 10 and W1 from 3600 to 1800 in live memory. Re-tested and pulled the logs for Claude. Couldn't really see any effect from my plot."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-08-27 23:33",
-                  "text": "Repeated Claudes temperature consistant trial, posted for analysis. Reviewed logs in the AEM format and trimmed down two that best highlighted the issue, took screen shots and drafted a analysis request email to AEM. Included vehicle specs and attached the current EEPROM settings for the motor. Sent email off to AEM."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-08-30 20:38",
-                  "text": "Reviewed Slack and Claude's recommendation. Tested the \"Aggressive\" tune in sport mode first. It's some what flat in the highway entering speed but completely eliminates the surprising boost. Posted to Slack, left tune in. Went for a final test drive with Jordan in eco mode to verify the bus wasn't too slow now. Organized all my trial notes more clearly for future pickup."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-09-01 21:36",
-                  "text": "Grabbed the EEPROM backups just to be sure my offline copies matched, they do. Compared to the new files provided by AEM, a very close match except for motor type seems wrong in one AEM file. Posted compare report and results to Slack."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-09-02 18:51",
-                  "text": "Reviewed all the manuals and change logs I could find for which firmware I should flash into the SDU to test the rollback theory. Flashed that firmware. Can't test since the bus has no door latch."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-09-03 22:04",
-                  "text": "Reviewed Scott's email and converted the AEM data logs to CSV for Claude. Posted all to Slack. Re-flashed the inverter with 6B33 and verified EEPROM settings. Flashed VCU firmware VCM_517_R010902_Persist.rpg and reviewed all the calibration settings. Set the gear ratio and tire size to calibration to be consistent with our new way. Re-correlated the checkout sheet. Went to enable torque tables but it's locked out in the new firmware."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-09-15 21:51",
-                  "text": "Prompted Claude to pull several months of logs from the SDU and determine the most torque the motor made across all voltage levels. Converted this full sized data table into Andrews condensed table selecting break voltages to align with noticeable changes in the torque stability. Organized the newest SDU firmware into the drive and reviewed the release notes. Flashed the firmware to the vehicle and explored the base motor torque features. Went for a quick test drive to get some data on the logs."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-09-17 23:46",
-                  "text": "Fed additional logs into Claude along with more encouragement to remove the \"Power Boost\". Reviewed reccomendation and adjusted. Flashed the new VCU firmwarre with a 6x11 torque table and loaded the Claude numbers. Ran trial, toog log, fed that back into Claude and reviewed analysis. Repeated. Organized VCU firmware and uploaded to the drive."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-09-18 22:05",
-                  "text": "Tested Claude's 6x11 base torque map tune v3. Performance was low and it introduced a clunk at 40MPH as well as torque so limited off the line you can get into trouble on a hill. Ran several iterations. Discovered a firmware bug where the axis numbers reset. This invalidates all the testing."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "435483a41bc4fa5c9131d2b1a1c6edb0eff4a95255221ce8b4a56d83779b01ab"
             }
           ]
         }
@@ -2725,5 +2634,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-21T14:49:36Z"
+  "generated_at": "2026-09-21T15:11:59Z"
 }
