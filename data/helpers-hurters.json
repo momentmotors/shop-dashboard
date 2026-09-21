@@ -3,7 +3,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 96.8,
-      "pct_of_total": 10.7,
+      "pct_of_total": 10.6,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -44,9 +44,52 @@
       ]
     },
     {
+      "project": "LB 82 911",
+      "total_hours": 92.8,
+      "pct_of_total": 10.2,
+      "tasks": [
+        {
+          "task": "Motor & Transmission",
+          "hours": 22.5
+        },
+        {
+          "task": "Manufacturing - Product",
+          "hours": 22.2
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 19.8
+        },
+        {
+          "task": "HVAC",
+          "hours": 6.5
+        },
+        {
+          "task": "Cooling",
+          "hours": 5.8
+        },
+        {
+          "task": "Manufacturing - Core",
+          "hours": 5.5
+        },
+        {
+          "task": "Instrumentation",
+          "hours": 5.2
+        },
+        {
+          "task": "Exterior",
+          "hours": 4.5
+        },
+        {
+          "task": "Interior",
+          "hours": 0.8
+        }
+      ]
+    },
+    {
       "project": "Ritchie 71 Blazer",
       "total_hours": 89.5,
-      "pct_of_total": 9.9,
+      "pct_of_total": 9.8,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -95,48 +138,9 @@
       ]
     },
     {
-      "project": "LB 82 911",
-      "total_hours": 87.5,
-      "pct_of_total": 9.7,
-      "tasks": [
-        {
-          "task": "Motor & Transmission",
-          "hours": 22.5
-        },
-        {
-          "task": "Manufacturing - Product",
-          "hours": 22.2
-        },
-        {
-          "task": "Vehicle Control",
-          "hours": 19.8
-        },
-        {
-          "task": "HVAC",
-          "hours": 6.5
-        },
-        {
-          "task": "Cooling",
-          "hours": 5.8
-        },
-        {
-          "task": "Manufacturing - Core",
-          "hours": 5.5
-        },
-        {
-          "task": "Exterior",
-          "hours": 4.5
-        },
-        {
-          "task": "Interior",
-          "hours": 0.8
-        }
-      ]
-    },
-    {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 74.5,
-      "pct_of_total": 8.3,
+      "pct_of_total": 8.2,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -179,7 +183,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 52.0,
-      "pct_of_total": 5.8,
+      "pct_of_total": 5.7,
       "tasks": [
         {
           "task": "Battery Pack",
@@ -245,7 +249,7 @@
     {
       "project": "Krafcik 02 Caterham",
       "total_hours": 39.2,
-      "pct_of_total": 4.4,
+      "pct_of_total": 4.3,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -350,7 +354,7 @@
     {
       "project": "Richardson 72 240Z",
       "total_hours": 21.2,
-      "pct_of_total": 2.4,
+      "pct_of_total": 2.3,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -376,20 +380,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 142.8,
+    "total_hours": 144.5,
     "pct_of_total": 15.9,
-    "avg_per_person_per_day": 1.19,
+    "avg_per_person_per_day": 1.2,
     "flagged": true,
     "tech_count": 8,
     "working_days": 15,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 59.0
+        "hours": 60.2
       },
       {
         "label": "Shop Meetings",
-        "hours": 50.0
+        "hours": 50.5
       },
       {
         "label": "Personal Meetings",
@@ -490,10 +494,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 677.8,
-    "non_billable_hours": 222.8,
+    "billable_hours": 685.0,
+    "non_billable_hours": 224.5,
     "pto_hours": 12.0,
-    "total_hours": 900.5
+    "total_hours": 909.5
   },
-  "generated_at": "2026-09-21T22:38:15Z"
+  "generated_at": "2026-09-21T22:48:35Z"
 }
