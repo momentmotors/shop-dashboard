@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T04:18:38.929974Z",
+  "updated_at": "2026-09-21T04:44:35.607990Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1705,35 +1705,9 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868g3pt4u",
-              "comments": [
-                {
-                  "author": "Marshall Carter",
-                  "date": "2026-07-18 02:02",
-                  "text": "-took photos and measurements\n-found some friction hinges that could be used for a flip screen that could stay hidden\n-decided where it would mount under the dash and started design"
-                },
-                {
-                  "author": "Marshall Carter",
-                  "date": "2026-07-28 01:58",
-                  "text": "-Met with Aharon to come up with game plan for exactly where the hinge would mount so that we could place the screen under the radio\nimage.png"
-                },
-                {
-                  "author": "Marshall Carter",
-                  "date": "2026-08-26 10:57",
-                  "text": "image.png\nimage.png\nimage.png\n-Scanned interior around radio so that I could see where I have clearance for a tucked away screen\n-Positioned hinge and screen so that when open, it matches the same plane that the the radio faces\n-Designed sheet metal bracket to mount the screen to the hinge\n-Printing out bracket so that it can be fit tested in car.... then will determine if a bracket is needed to mount the hinge to the dash (most likely will)\n-Because apple car play is going to be used, we might need to design a bezel around screen.. will get feedback for this today"
-                },
-                {
-                  "author": "Marshall Carter",
-                  "date": "2026-08-26 10:59",
-                  "text": "image.png"
-                },
-                {
-                  "author": "Marshall Carter",
-                  "date": "2026-08-29 02:54",
-                  "text": "-Fit tested bracket and mounted to a test bench\n-Because the screen will be more of a focus with the need to control audio, it needs to feel solid when being used as a touch screen. Feedback was that the friction hinge was not quite enough solid so I was asked to look into alternative options that would feel more solid"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "c6267d9966d787a5b75e94c1fc0a0daf20434302c2ea780f2a92dd4ee1e121ff"
+              "content_hash": "df7c11733df84fd67801142bd3aa45a78a05c5a8888d5a0f06b179cafeb5b586"
             }
           ]
         }
@@ -1793,25 +1767,9 @@
               "status": "Open",
               "list": "Lee 68 Mustang",
               "url": "https://app.clickup.com/t/868m5p8ud",
-              "comments": [
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-15 22:46",
-                  "text": "Noticed that there was a buzzing sound coming through the speakers of this vehicle that wasnt present before.\nIsolated the issue down to the outputs of the GUI.\nAfter a lot of testing I found that the issue was actually a USB C cable that was plugged into the back of the GUI.\nTo get there though we ended up swapping out the headunit for a new one however the new one does have the delay in CAN messages so it might be worth swapping back.\nWill leave the new one in at this time.\nCurrently the Audio system is operating as intended. Will need to re route the new microphone when the center console goes back in."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-16 15:53",
-                  "text": "Started to replace the microphone. Will have this finished up pretty quick but got pulled off onto other things."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-16 18:39",
-                  "text": "Microphone installed and center console wiring tidy up."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "a5497313116074adeeff8d17cff105f53e00f8dd54df12b927e162876d6376b8"
+              "content_hash": "1326f2e1eb922c52ae722d2ce67a86b2ae6ac3d7b1b84488df74659450de06b3"
             }
           ]
         },
@@ -2700,5 +2658,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-21T04:16:40Z"
+  "generated_at": "2026-09-21T04:43:04Z"
 }
