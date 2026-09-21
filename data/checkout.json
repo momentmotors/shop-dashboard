@@ -456,7 +456,7 @@
       "make": "Ford",
       "model": "F-250",
       "status": "Shipped",
-      "checkout": 97.8,
+      "checkout": 98.1,
       "sub_metrics": [],
       "system": "AEM"
     },
@@ -1743,7 +1743,7 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-09-21T17:23:25.322379+00:00",
+  "updated": "2026-09-21T17:37:01.024501+00:00",
   "source": "Google Sheets API",
-  "generated_at": "2026-09-21T17:22:11Z"
+  "generated_at": "2026-09-21T17:35:41Z"
 }

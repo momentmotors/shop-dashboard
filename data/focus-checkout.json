@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T17:24:17.712999Z",
+  "updated_at": "2026-09-21T17:37:41.350238Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -457,7 +457,7 @@
         "make": "Ford",
         "model": "F-250",
         "status": "Shipped",
-        "checkout": 97.8,
+        "checkout": 98.1,
         "sub_metrics": [],
         "system": "AEM"
       },
@@ -1895,7 +1895,7 @@
         "matched_lists": [
           "McDonough 77 Esprit"
         ],
-        "open_tasks": 6
+        "open_tasks": 5
       },
       "assignees": [
         {
@@ -1935,21 +1935,6 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
-            }
-          ]
-        },
-        {
-          "name": "Justin Landry",
-          "tasks": [
-            {
-              "id": "868m0fbgp",
-              "name": "Perform PDI",
-              "status": "Open",
-              "list": "McDonough 77 Esprit",
-              "url": "https://app.clickup.com/t/868m0fbgp",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "2e00c870193a7e5cad46da2e37f7540e5a97acbc53ed4fdfd1933ebe5d4e7b9e"
             }
           ]
         }
@@ -2646,5 +2631,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-21T17:22:11Z"
+  "generated_at": "2026-09-21T17:35:41Z"
 }
