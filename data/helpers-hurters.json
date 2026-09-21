@@ -288,7 +288,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 36.0,
-      "pct_of_total": 4.3,
+      "pct_of_total": 4.2,
       "tasks": [
         {
           "task": "HVAC",
@@ -376,9 +376,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 133.8,
+    "total_hours": 134.2,
     "pct_of_total": 15.8,
-    "avg_per_person_per_day": 1.11,
+    "avg_per_person_per_day": 1.12,
     "flagged": true,
     "tech_count": 8,
     "working_days": 15,
@@ -389,7 +389,7 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 47.0
+        "hours": 47.5
       },
       {
         "label": "Personal Meetings",
@@ -490,10 +490,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 632.2,
-    "non_billable_hours": 213.8,
+    "billable_hours": 633.2,
+    "non_billable_hours": 214.2,
     "pto_hours": 12.0,
-    "total_hours": 846.0
+    "total_hours": 847.5
   },
-  "generated_at": "2026-09-21T14:31:50Z"
+  "generated_at": "2026-09-21T14:49:36Z"
 }
