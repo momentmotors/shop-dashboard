@@ -1,88 +1,14 @@
 {
   "weeks": [
     {
-      "week_start": "2026-09-14",
-      "week_label": "Week of Sep 14",
-      "is_current_week": true,
-      "days": [
-        {
-          "date": "2026-09-14",
-          "day_name": "Monday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": []
-        },
-        {
-          "date": "2026-09-15",
-          "day_name": "Tuesday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": []
-        },
-        {
-          "date": "2026-09-16",
-          "day_name": "Wednesday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": []
-        },
-        {
-          "date": "2026-09-17",
-          "day_name": "Thursday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": []
-        },
-        {
-          "date": "2026-09-18",
-          "day_name": "Friday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": [
-            {
-              "summary": "Ryan L Out",
-              "type": "pto",
-              "all_day": true
-            }
-          ]
-        },
-        {
-          "date": "2026-09-19",
-          "day_name": "Saturday",
-          "is_today": false,
-          "is_weekend": true,
-          "events": [
-            {
-              "summary": "Ryan L Out",
-              "type": "pto",
-              "all_day": true
-            }
-          ]
-        },
-        {
-          "date": "2026-09-20",
-          "day_name": "Sunday",
-          "is_today": true,
-          "is_weekend": true,
-          "events": [
-            {
-              "summary": "Ryan L Out",
-              "type": "pto",
-              "all_day": true
-            }
-          ]
-        }
-      ]
-    },
-    {
       "week_start": "2026-09-21",
       "week_label": "Week of Sep 21",
-      "is_current_week": false,
+      "is_current_week": true,
       "days": [
         {
           "date": "2026-09-21",
           "day_name": "Monday",
-          "is_today": false,
+          "is_today": true,
           "is_weekend": false,
           "events": [
             {
@@ -283,7 +209,69 @@
           "events": []
         }
       ]
+    },
+    {
+      "week_start": "2026-10-12",
+      "week_label": "Week of Oct 12",
+      "is_current_week": false,
+      "days": [
+        {
+          "date": "2026-10-12",
+          "day_name": "Monday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": []
+        },
+        {
+          "date": "2026-10-13",
+          "day_name": "Tuesday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": []
+        },
+        {
+          "date": "2026-10-14",
+          "day_name": "Wednesday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": []
+        },
+        {
+          "date": "2026-10-15",
+          "day_name": "Thursday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": []
+        },
+        {
+          "date": "2026-10-16",
+          "day_name": "Friday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": [
+            {
+              "summary": "Ryan in late, Court Appt.",
+              "type": "pto",
+              "all_day": true
+            }
+          ]
+        },
+        {
+          "date": "2026-10-17",
+          "day_name": "Saturday",
+          "is_today": false,
+          "is_weekend": true,
+          "events": []
+        },
+        {
+          "date": "2026-10-18",
+          "day_name": "Sunday",
+          "is_today": false,
+          "is_weekend": true,
+          "events": []
+        }
+      ]
     }
   ],
-  "generated_at": "2026-09-20T23:48:33Z"
+  "generated_at": "2026-09-21T00:37:49Z"
 }
