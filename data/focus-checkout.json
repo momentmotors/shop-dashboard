@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T20:50:27.331077Z",
+  "updated_at": "2026-09-21T21:14:10.013453Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -173,6 +173,21 @@
                   "author": "Brandon Beaman",
                   "date": "2026-09-21 20:41",
                   "text": "image.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-21 20:54",
+                  "text": "GUI updated and Re configured."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-21 20:56",
+                  "text": "Pre Flash\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-21 20:57",
+                  "text": "Flashing to VCM_519_RC010903_Persist\nimage.png\nimage.png"
                 }
               ],
               "checklist_items": [
@@ -202,7 +217,7 @@
                   "resolved": true
                 }
               ],
-              "content_hash": "a54eae0e52667cbf8bc0f1b33b9955c982d6e63cc1befb430da6508e1db57b4b"
+              "content_hash": "4cd21c4252cdbec5a2e5523e50e4cc6fd7b301ea6661ad2e2d04584d134067da"
             }
           ]
         }
@@ -382,10 +397,15 @@
                   "author": "David Webber",
                   "date": "2026-09-21 16:44",
                   "text": "Multiple noises present from chassis:\nrear spring plate contact with adjuster location fasteners - this will likely require reworking by Aharon\nMetallic creaking from throttle bell crank. Installed nylon washers to eliminate metal to metal contact & lubricated all contact points\nMetallic creaking from service brake pedal. Torsion spring dry & noisy. Anointed it with Winzer penetrating grease.\n\nLubricated door check straps for creaking noises"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-09-21 20:54",
+                  "text": "Performed rework per @Alex Noonan, @Aharon Adams\nRemoved hardware. Countersunk from the backside.\nDifficulty countersinking due to limited space between control arm and surface. Had to use a smaller bit and modify hardware to match. Painted affected areas after rework.\nTorqued and test-drove. Issue resolved.\nNote:\nPrior to rework: 9/21\nFront left: 270\nRear left: 268\nFront right: 276\nRear right: 272\n\n\nAfter rework:\nRear left: 270\nRear right: 275\n\nSome settling is expected.\n\nIf sagging is too much, re-clocking may be required.\n\nNote on potential sagging: OEM torsion bars are 590mm, 29mm diameter. Aftermarket bars in this size are not available. New bars are available from Europe."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "4e694c8693c10e42308113a93c29e257814607b036cae67ed3206b08e723cfe6"
+              "content_hash": "5413c399748bce305b50411b56f78c6ae17fda5cdf29f9db1dee3ee23ce238c0"
             },
             {
               "id": "868m7djz9",
@@ -398,10 +418,15 @@
                   "author": "David Webber",
                   "date": "2026-09-21 16:49",
                   "text": "Diagnose interior noises:\nfront seats noisey, rubber bumpers for seat back frames & seat bottom frames missing ... parts ordered\nOEM headliner ribs have been replaced with a shadetree wooden solution. These have come loose and are flopping about resulting in knocking noises. I've recommended replacement of these Items. Perhaps to be performed by an upholsterer.\nLubricated door check straps for creaking noises"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-09-21 20:56",
+                  "text": "Assisted with test-driving and pedal rework.\nFound and rush-ordered parts for seat rework (see above).\nPer ISP west, parts should arrive by end of week.\n\nWe solved the issue with 'motor cogging'. It actually was a little stiff near the 'accelerator off' position and wasn't recording fully off, the last 1/2\" was sticky. Dave re-adjusted and now we have a more positive snap-back, no more cogging.\n\nWe may want to re-do the accelerator table regardless, as there was a throttle out-of-range pending alert that appeared at one point... perhaps because it was recording the throttle as open on startup? It hasn't reappeared in my test-driving since.\""
                 }
               ],
               "checklist_items": [],
-              "content_hash": "faeecae6b8c020ba7ddb61c146ca3fbada31879c5b5a1298360805d480606e01"
+              "content_hash": "94fd3d307ddd357e1de5842fd2783a9e53ac894c6738936806c2f2d4cf0d2753"
             }
           ]
         },
@@ -419,10 +444,15 @@
                   "author": "David Webber",
                   "date": "2026-09-21 16:44",
                   "text": "Multiple noises present from chassis:\nrear spring plate contact with adjuster location fasteners - this will likely require reworking by Aharon\nMetallic creaking from throttle bell crank. Installed nylon washers to eliminate metal to metal contact & lubricated all contact points\nMetallic creaking from service brake pedal. Torsion spring dry & noisy. Anointed it with Winzer penetrating grease.\n\nLubricated door check straps for creaking noises"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-09-21 20:54",
+                  "text": "Performed rework per @Alex Noonan, @Aharon Adams\nRemoved hardware. Countersunk from the backside.\nDifficulty countersinking due to limited space between control arm and surface. Had to use a smaller bit and modify hardware to match. Painted affected areas after rework.\nTorqued and test-drove. Issue resolved.\nNote:\nPrior to rework: 9/21\nFront left: 270\nRear left: 268\nFront right: 276\nRear right: 272\n\n\nAfter rework:\nRear left: 270\nRear right: 275\n\nSome settling is expected.\n\nIf sagging is too much, re-clocking may be required.\n\nNote on potential sagging: OEM torsion bars are 590mm, 29mm diameter. Aftermarket bars in this size are not available. New bars are available from Europe."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "4e694c8693c10e42308113a93c29e257814607b036cae67ed3206b08e723cfe6"
+              "content_hash": "5413c399748bce305b50411b56f78c6ae17fda5cdf29f9db1dee3ee23ce238c0"
             },
             {
               "id": "868m7djz9",
@@ -435,10 +465,15 @@
                   "author": "David Webber",
                   "date": "2026-09-21 16:49",
                   "text": "Diagnose interior noises:\nfront seats noisey, rubber bumpers for seat back frames & seat bottom frames missing ... parts ordered\nOEM headliner ribs have been replaced with a shadetree wooden solution. These have come loose and are flopping about resulting in knocking noises. I've recommended replacement of these Items. Perhaps to be performed by an upholsterer.\nLubricated door check straps for creaking noises"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-09-21 20:56",
+                  "text": "Assisted with test-driving and pedal rework.\nFound and rush-ordered parts for seat rework (see above).\nPer ISP west, parts should arrive by end of week.\n\nWe solved the issue with 'motor cogging'. It actually was a little stiff near the 'accelerator off' position and wasn't recording fully off, the last 1/2\" was sticky. Dave re-adjusted and now we have a more positive snap-back, no more cogging.\n\nWe may want to re-do the accelerator table regardless, as there was a throttle out-of-range pending alert that appeared at one point... perhaps because it was recording the throttle as open on startup? It hasn't reappeared in my test-driving since.\""
                 }
               ],
               "checklist_items": [],
-              "content_hash": "faeecae6b8c020ba7ddb61c146ca3fbada31879c5b5a1298360805d480606e01"
+              "content_hash": "94fd3d307ddd357e1de5842fd2783a9e53ac894c6738936806c2f2d4cf0d2753"
             }
           ]
         },
@@ -591,10 +626,15 @@
                   "author": "Devin DuMont",
                   "date": "2026-09-18 22:05",
                   "text": "Located and reviewed drawing start and notes. Re-capped existing wiring additions so far and made adjustments to the drawing to match the vehicle."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-09-21 20:57",
+                  "text": "Connected to vehicle and verified VCU to PMU CAN link was already established, it is not. Finalized drawing and highlighted the parts already installed."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "6f0dce6340a3ae589ea31674e4b49d271bf70f52242686e9d47efd6c3a491a51"
+              "content_hash": "247b287eab408a2f45ca1a4f253f6da80868943202bccdc360ee6d9527c9d170"
             }
           ]
         }
@@ -2678,5 +2718,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-21T20:48:39Z"
+  "generated_at": "2026-09-21T21:11:57Z"
 }

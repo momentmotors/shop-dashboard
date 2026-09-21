@@ -97,7 +97,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 87.5,
-      "pct_of_total": 9.8,
+      "pct_of_total": 9.7,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -136,7 +136,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 74.5,
-      "pct_of_total": 8.4,
+      "pct_of_total": 8.3,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -323,7 +323,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 22.8,
-      "pct_of_total": 2.6,
+      "pct_of_total": 2.5,
       "tasks": [
         {
           "task": "HVAC",
@@ -376,7 +376,7 @@
     }
   ],
   "shop_work": {
-    "total_hours": 141.0,
+    "total_hours": 142.0,
     "pct_of_total": 15.8,
     "avg_per_person_per_day": 1.18,
     "flagged": true,
@@ -401,7 +401,7 @@
       },
       {
         "label": "Errands",
-        "hours": 3.8
+        "hours": 4.8
       },
       {
         "label": "Other",
@@ -413,7 +413,7 @@
     {
       "project": "ICON Bronco Prototype",
       "total_hours": 25.5,
-      "pct_of_total": 2.9,
+      "pct_of_total": 2.8,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -435,7 +435,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 17.5,
-      "pct_of_total": 2.0,
+      "pct_of_total": 1.9,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -490,10 +490,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 671.0,
-    "non_billable_hours": 221.0,
+    "billable_hours": 675.5,
+    "non_billable_hours": 222.0,
     "pto_hours": 12.0,
-    "total_hours": 892.0
+    "total_hours": 897.5
   },
-  "generated_at": "2026-09-21T20:48:39Z"
+  "generated_at": "2026-09-21T21:11:57Z"
 }
