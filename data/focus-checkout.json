@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T05:32:40.797053Z",
+  "updated_at": "2026-09-21T05:51:17.642791Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1001,9 +1001,15 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868g811de",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-06-17 22:26",
+                  "text": "attempt to pull vacuum, chase down some leaks and realize that the \"mock up\" drier was still installed. the fittings left loose on purpose so that I didn't end up running it if I had forgotten.\npull vacuum again and check. all is good. left in vacuum for future charge"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "3047aff25ed9ada9726d733f6e694f9ca7be9cc80910b77feb785931c769526f"
+              "content_hash": "9a0c226a3c8f737966bd9246aeb0e275a511ac285afc31173aa711249b4cad19"
             },
             {
               "id": "868k84q9v",
@@ -1072,9 +1078,35 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868j7kkze",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-07-27 23:16",
+                  "text": "chat with marshall about general plan."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-18 22:22",
+                  "text": "parts searching, discussions. the client now wants car play and this may be a scope change for the radio/stereo subsystem. we are looking into alternative stereo/ amplifier options."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-19 21:49",
+                  "text": "gui discussions. order new toe plate to mount gui behind since the old board was waterlogged and gross. begin making mounting plates."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-20 22:49",
+                  "text": "installation of GUI and re-do of amplifier and stereo wiring. made brackets and mounted to toe board. will transfer holes to new toe board when it arrives and swap them out."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-25 22:19",
+                  "text": "swap over the gui to the new rennline plate using the old toe plate as a template. install with ribbon cable. ready for marshall to creat my screen mount"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "519879917ffe918d0309316e6dbe4fc29527e23820a78f078baf0f365079af8d"
+              "content_hash": "05a6aff5e00485c19922dfc1cd383465396b97f94e435d62649fd36a71164aa6"
             },
             {
               "id": "868j7kv4t",
@@ -1082,9 +1114,85 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868j7kv4t",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-07-09 22:40",
+                  "text": "Installation of the mock-up LDU unit for proper dimensions during HV routing."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-07-13 23:05",
+                  "text": "removal of ldu for cable termination."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-07-28 22:57",
+                  "text": "installation of ldu. found some issues during install that lead to some modifications of brackets. having to slot them a little and change the order of installation to get all to fit without lots of prying and bushing compression. still need to maybe reinforce the third mount but maybe not. tbd. if not then i will pull it and weld it up quick and paint it while i install the proper motor mount bolts that we did not have."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-11 23:05",
+                  "text": "Used this time to drop the rear mount and look for routing options that wouldn't require modifying any brackets. I'm not confident a no-modification option exists, so I made a video presenting the potential solutions and asking for recommendations. Current plan is to move ahead with cutting the main rear bracket first, hoping that alone solves it. If not, we'll slot all three mount bolt holes and see if that resolves it \u2014 if it does, that tells us how far to modify the new mount design."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-12 22:42",
+                  "text": "Dropped the LDU multiple times today to move and re-situate the HV leads. Also had to disassemble the Amphenols to let the leads spin in the connector after re-routing. The goal was to avoid dropping the rear mount, but ended up having to notch it anyway to get clearance between it and the LDU gearbox. After all of that, plus mocking up the AIO junction box to confirm the Amphenols still connected properly \u2014 unfortunately, I still needed to drop the rear mount 5mm to give the cables enough room to move freely. Not confident this is sufficient for a final result, especially since we want to add a small \"heat shield\" support piece for the leads where they cross the gearbox. Good sign though \u2014 shows we don't need much, and if more clearance is needed, we can drop the other mounts instead to make up the difference rather than modifying the rear mount further."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-13 22:01",
+                  "text": "planning, discussing, plotting, chatting, whatever"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-18 22:27",
+                  "text": "remove ldu completely with mounts. attempt to tap through bungs for hv plate. ended up having to make a tap that will travel all the way through. after multiple attempts and one broken tap, one destroyed, i believe we will need to drop the battery box and attack these from the top if we want to use them"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-21 21:13",
+                  "text": "cleaning threads out, taking my time with 2 new taps, eventually got the rear two bolts tapped all the way through cleanly and was able to get bolts installed. then began to work on design with geoff."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-09-08 22:06",
+                  "text": "Mocked up the HV cable stay plate\nDrilled and tapped battery box supports and installed plates\nTemporarily secured HV cables while installing LDU\nInstalled LDU \u2014 quite difficult with the new mounts, which have tighter tolerances\nInstalled AIO junction box to get HV lengths correct, secured them, then removed the AIO to return to Justin for assembly\nWill mark and secure the HV cables after removing the LDU, and get everything ready for powdercoat."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-09-09 21:52",
+                  "text": "Used the stainless clamps to arrange cables as best as possible for marking\nGot some marking done with the LDU up\nRemoved the LDU \u2014 ideally for the last time\nMarked, drilled, and rivnutted the HV plate\nReinstalled and tested cable fitment\nRelayed measurements of all holes to Geoff\nRemoved all mounts and the plate, labeled everything for sending off to powdercoat"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-09-15 21:25",
+                  "text": "looming hv in the rear or the car in prep for ldu install"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-09-16 21:31",
+                  "text": "A04B1E75-DC66-4932-82C3-CC55D621DCBC.heic"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-09-16 21:31",
+                  "text": "ldu install hopefully final time."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-09-16 21:32",
+                  "text": "will do axles and radiator tomorrow. then should be ready to connect cooling and harness provisions. still need to make junction box - inverter leads"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-09-18 22:01",
+                  "text": "made hardlines for cooling, move motor cooling over to better outlets for routing. connect all and crimp cables"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "6360179005146fb31105392ecf8da6e69300453f9a9a974f4bf7ad0d8dcf5d00"
+              "content_hash": "19d208039be08ea3067bc2846d456bac7d818ef8d0ef77c687afe39063e8efc3"
             },
             {
               "id": "868j7kw3h",
@@ -1154,9 +1262,35 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868j7krpv",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-06-17 22:34",
+                  "text": "trying to install dash panel aluminum and wood trims during hvac and radio controls installation due to it needing to go in order.\nfound issues with the parts that we had, AND the parts the we ordered, because the car was previously modified and backdated in weird ways to accommodate their stupid vehicle control system. will need to figure out which way we want to head."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-06-19 01:54",
+                  "text": "find the trim and order. I ended up ordering the right hand drive version for 1/3 of the price as the right hand drive wood, but because I only need the center piece im pretty sure theyre the same and I can use it. if not, well send it back."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-07-22 22:59",
+                  "text": "begin assembling and trying to test fit dash parts and radio but got pulled off for pressing manufacturing tasks for cooling/ component mounting solutions."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-24 22:11",
+                  "text": "new foot panels arrived"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-25 22:26",
+                  "text": "attempted installations of dash components. not starting off well. may run into some issues with thickness of wood vs the backspacing of the hvac unit, not making contact so it doesnt sit flush. i may have to notch out the dash or file down the hardware on the hvac unit a little bit."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "6c635489f5108a474d6987dff0bf83ba69168c64e3b82e6951a52696ea9b9e9c"
+              "content_hash": "0002ada2572c1e77375f541fa2d10f02904ce44d5ecfd95b7ca81882696d1fed"
             },
             {
               "id": "868j7kytx",
@@ -2417,5 +2551,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-21T05:30:52Z"
+  "generated_at": "2026-09-21T05:49:38Z"
 }
