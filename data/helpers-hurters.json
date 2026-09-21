@@ -2,8 +2,8 @@
   "helpers": [
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 94.8,
-      "pct_of_total": 10.7,
+      "total_hours": 96.8,
+      "pct_of_total": 10.8,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -15,7 +15,7 @@
         },
         {
           "task": "Vehicle Control",
-          "hours": 6.8
+          "hours": 8.8
         },
         {
           "task": "Motor & Transmission",
@@ -45,7 +45,7 @@
     },
     {
       "project": "Ritchie 71 Blazer",
-      "total_hours": 88.5,
+      "total_hours": 89.5,
       "pct_of_total": 10.0,
       "tasks": [
         {
@@ -82,7 +82,7 @@
         },
         {
           "task": "Suspension",
-          "hours": 4.0
+          "hours": 5.0
         },
         {
           "task": "Charging",
@@ -377,7 +377,7 @@
   ],
   "shop_work": {
     "total_hours": 141.0,
-    "pct_of_total": 15.9,
+    "pct_of_total": 15.8,
     "avg_per_person_per_day": 1.18,
     "flagged": true,
     "tech_count": 8,
@@ -490,10 +490,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 668.0,
+    "billable_hours": 671.0,
     "non_billable_hours": 221.0,
     "pto_hours": 12.0,
-    "total_hours": 889.0
+    "total_hours": 892.0
   },
-  "generated_at": "2026-09-21T20:38:02Z"
+  "generated_at": "2026-09-21T20:48:39Z"
 }
