@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T20:28:41.201453Z",
+  "updated_at": "2026-09-21T20:40:07.201241Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -365,6 +365,38 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "7f891d6c42432c8f41025fd35019a46319bc4fb2a5c2bfc023e742a0d9d82010"
+            },
+            {
+              "id": "868m7dj77",
+              "name": "Troubleshoot exterior noise issues",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868m7dj77",
+              "comments": [
+                {
+                  "author": "David Webber",
+                  "date": "2026-09-21 16:44",
+                  "text": "Multiple noises present from chassis:\nrear spring plate contact with adjuster location fasteners - this will likely require reworking by Aharon\nMetallic creaking from throttle bell crank. Installed nylon washers to eliminate metal to metal contact & lubricated all contact points\nMetallic creaking from service brake pedal. Torsion spring dry & noisy. Anointed it with Winzer penetrating grease.\n\nLubricated door check straps for creaking noises"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "4e694c8693c10e42308113a93c29e257814607b036cae67ed3206b08e723cfe6"
+            },
+            {
+              "id": "868m7djz9",
+              "name": "Troubleshoot interior noise issues",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868m7djz9",
+              "comments": [
+                {
+                  "author": "David Webber",
+                  "date": "2026-09-21 16:49",
+                  "text": "Diagnose interior noises:\nfront seats noisey, rubber bumpers for seat back frames & seat bottom frames missing ... parts ordered\nOEM headliner ribs have been replaced with a shadetree wooden solution. These have come loose and are flopping about resulting in knocking noises. I've recommended replacement of these Items. Perhaps to be performed by an upholsterer.\nLubricated door check straps for creaking noises"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "faeecae6b8c020ba7ddb61c146ca3fbada31879c5b5a1298360805d480606e01"
             }
           ]
         },
@@ -2641,5 +2673,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-21T20:26:47Z"
+  "generated_at": "2026-09-21T20:38:02Z"
 }
