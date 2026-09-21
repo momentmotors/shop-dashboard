@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T05:51:17.642791Z",
+  "updated_at": "2026-09-21T06:31:00.382158Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1068,9 +1068,110 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868g3ptf9",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-01-05 22:58",
+                  "text": "blend valve assembly with new parts."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-01-05 22:58",
+                  "text": "unboxing and begin component installation. mock up suitcase and begin mocking up evaporators. will need to remove valance and make small modifications. remove oem grommets for t pass throughs and install rubber linings to make this easier."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-01-07 22:55",
+                  "text": "design and document FRONT SECTION hose routing \ninstall drier\ninstall all fittings and run hoses\ncrimp as many fittings as possible without bulkhead\nmock up bumper"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-01-07 22:56",
+                  "text": "prep for blend valve install and hose mock up"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-01-07 22:58",
+                  "text": "take stock of fittings and order burgaclip fittings necessary for the frunk section installation."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-01-14 23:33",
+                  "text": "inspection of used controls, begin attempting to mount microswitches. will probably cad up a small mount for both. controls will also need to be repaired a little bit."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-01-16 21:25",
+                  "text": "compressor fitment discussion and begin on heater installation."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-01-21 01:27",
+                  "text": "clean and repair hvac controls."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-01-21 23:08",
+                  "text": "ended up having to disassemble and redo hvac controls because of how the rennline faceplate adapts. \nalso finding and ordering parts for the blend valves since ours were cut. and deciphering how the hell the valves work with the cables and slides."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-01-23 00:55",
+                  "text": "heat brick measure, design, build, mock up, wire and install."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-02-04 22:48",
+                  "text": "after mocking up compressor, mark and cut holes for hose entry. measure lengths, cut, and assemble hoses."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-06-12 00:45",
+                  "text": "disassemble evaporator and install evaporator temp sensor inside. make sub harness and drill through shell to attach switch and run out wiring. reassemble all. this was not accounted for in my budget because I forgot it ended to happen."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-06-12 23:28",
+                  "text": "prepping areas for install, begin suitcase installation, had to pull back out for steering shroud install."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-06-17 03:54",
+                  "text": "almost finished with this miserable install of the worst a/c kit. made suction lines, made drain hose, install flapper boxes and cables (excluding controls) install suitcase and install most of the hoses. had to remove the flapper boxes and cut the footwell blower tees cause of how dumb their design is. set me back a couple hours.\ninstalled the hvac wiring harness.\n ordered some special soft hose for the inlets due to how theyre routed.\ntomorrow will be installation of the hvac controls and cables."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-06-17 22:29",
+                  "text": "attaching cables to hvac controls and begin installation. once in, I found that there's no retaining bracket so I ended up having to make one out of some aluminum. ended up looking pretty good. although it was a complex little bracket in order to not drill anymore unnecessary holes in the car.\nmoved on to interior reassembly as it needs to be done in a certain order, the trim pieces going in before hvac controls. but then ran into parts issues with interior trim etc."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-06-19 01:39",
+                  "text": "when getting ready for front box installation, I realized when I had installed the high side fill port that I hadn't accounted for the battery box being installed because, well, it wasn't there or even placed in cad yet lol. so I had to go back and drop vacuum, cut the hoses and remove stuff. then reinstall a new one near the evaporator. I also used this opportunity to install the ampere a/c pressure switch which I just received today.\npull vacuum for half hour monitoring gauges for half hour after and then leave in vacuum."
+                },
+                {
+                  "author": "Alex Noonan",
+                  "date": "2026-06-30 20:57",
+                  "text": "We can log the time to change connectors on condenser fans on Vehicle Control."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-07-08 15:15",
+                  "text": "we will be finishing this up once the wiring harness is installed, that way we have room to reach behind the blower suitcase for gauges etc."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-09-11 21:10",
+                  "text": "pull vacuum, check gauges after 30 min of vacuum. looks good. leave in vacuum for future filling"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-09-15 21:21",
+                  "text": "finish installation of all ducting in frunk and cabin. cr kit is installed excluding hvac cables (the controls unit can not be installed until the dash is figured out) and the initial charging of refrigerant. (waiting until we can run compressor."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "f18b92c27237c11129e63503d5be5ffde07660d779b65e9842b490102a93cc0b"
+              "content_hash": "95e2f59a6be6469f0533af4ba299ef7e11352624913b791ca3748fc6cec6b846"
             },
             {
               "id": "868j7kkze",
@@ -1308,9 +1409,15 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868g3ptcv",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-19 21:50",
+                  "text": "looking for tires to see if we need to swap them due to them hitting the driver side condensor. i think we may be ok if i move the condensor a little bit."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "52018ac0e4350260697ca8ed567e3d70c9b7dd1e88230f23859a1cee328cf4da"
+              "content_hash": "fab4ff4d3751623a67fa547e8a969f46d28027736387e0dbe0884ac26d979e26"
             },
             {
               "id": "868jg4cba",
@@ -1598,9 +1705,35 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868g3pt4u",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Marshall Carter",
+                  "date": "2026-07-18 02:02",
+                  "text": "-took photos and measurements\n-found some friction hinges that could be used for a flip screen that could stay hidden\n-decided where it would mount under the dash and started design"
+                },
+                {
+                  "author": "Marshall Carter",
+                  "date": "2026-07-28 01:58",
+                  "text": "-Met with Aharon to come up with game plan for exactly where the hinge would mount so that we could place the screen under the radio\nimage.png"
+                },
+                {
+                  "author": "Marshall Carter",
+                  "date": "2026-08-26 10:57",
+                  "text": "image.png\nimage.png\nimage.png\n-Scanned interior around radio so that I could see where I have clearance for a tucked away screen\n-Positioned hinge and screen so that when open, it matches the same plane that the the radio faces\n-Designed sheet metal bracket to mount the screen to the hinge\n-Printing out bracket so that it can be fit tested in car.... then will determine if a bracket is needed to mount the hinge to the dash (most likely will)\n-Because apple car play is going to be used, we might need to design a bezel around screen.. will get feedback for this today"
+                },
+                {
+                  "author": "Marshall Carter",
+                  "date": "2026-08-26 10:59",
+                  "text": "image.png"
+                },
+                {
+                  "author": "Marshall Carter",
+                  "date": "2026-08-29 02:54",
+                  "text": "-Fit tested bracket and mounted to a test bench\n-Because the screen will be more of a focus with the need to control audio, it needs to feel solid when being used as a touch screen. Feedback was that the friction hinge was not quite enough solid so I was asked to look into alternative options that would feel more solid"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "df7c11733df84fd67801142bd3aa45a78a05c5a8888d5a0f06b179cafeb5b586"
+              "content_hash": "c6267d9966d787a5b75e94c1fc0a0daf20434302c2ea780f2a92dd4ee1e121ff"
             }
           ]
         }
@@ -1660,9 +1793,25 @@
               "status": "Open",
               "list": "Lee 68 Mustang",
               "url": "https://app.clickup.com/t/868m5p8ud",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-15 22:46",
+                  "text": "Noticed that there was a buzzing sound coming through the speakers of this vehicle that wasnt present before.\nIsolated the issue down to the outputs of the GUI.\nAfter a lot of testing I found that the issue was actually a USB C cable that was plugged into the back of the GUI.\nTo get there though we ended up swapping out the headunit for a new one however the new one does have the delay in CAN messages so it might be worth swapping back.\nWill leave the new one in at this time.\nCurrently the Audio system is operating as intended. Will need to re route the new microphone when the center console goes back in."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-16 15:53",
+                  "text": "Started to replace the microphone. Will have this finished up pretty quick but got pulled off onto other things."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-16 18:39",
+                  "text": "Microphone installed and center console wiring tidy up."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "1326f2e1eb922c52ae722d2ce67a86b2ae6ac3d7b1b84488df74659450de06b3"
+              "content_hash": "a5497313116074adeeff8d17cff105f53e00f8dd54df12b927e162876d6376b8"
             }
           ]
         },
@@ -2551,5 +2700,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-21T05:49:38Z"
+  "generated_at": "2026-09-21T06:29:04Z"
 }
