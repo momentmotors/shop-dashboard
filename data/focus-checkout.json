@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T16:33:11.186509Z",
+  "updated_at": "2026-09-21T16:51:36.041961Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -377,9 +377,15 @@
               "status": "Open",
               "list": "Ferdman 66 Bus",
               "url": "https://app.clickup.com/t/868m7dj77",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "David Webber",
+                  "date": "2026-09-21 16:44",
+                  "text": "Multiple noises present from chassis:\nrear spring plate contact with adjuster location fasteners - this will likely require reworking by Aharon\nMetallic creaking from throttle bell crank. Installed nylon washers to eliminate metal to metal contact & lubricated all contact points\nMetallic creaking from service brake pedal. Torsion spring dry & noisy. Anointed it with Winzer penetrating grease.\n\nLubricated door check straps for creaking noises"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "a8468f3f8a405cf27331c7693d1c41d1254fb1ae698c675623fac66d04207c1a"
+              "content_hash": "4e694c8693c10e42308113a93c29e257814607b036cae67ed3206b08e723cfe6"
             },
             {
               "id": "868m7djz9",
@@ -387,9 +393,15 @@
               "status": "Open",
               "list": "Ferdman 66 Bus",
               "url": "https://app.clickup.com/t/868m7djz9",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "David Webber",
+                  "date": "2026-09-21 16:49",
+                  "text": "Diagnose interior noises:\nfront seats noisey, rubber bumpers for seat back frames & seat bottom frames missing ... parts ordered\nOEM headliner ribs have been replaced with a shadetree wooden solution. These have come loose and are flopping about resulting in knocking noises. I've recommended replacement of these Items. Perhaps to be performed by an upholsterer.\nLubricated door check straps for creaking noises"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "1ac4b1d25c75f5d8f3cec3b69820abf60dda8efef2103c6d13f24bfd1d668814"
+              "content_hash": "faeecae6b8c020ba7ddb61c146ca3fbada31879c5b5a1298360805d480606e01"
             }
           ]
         },
@@ -2634,5 +2646,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-21T16:31:15Z"
+  "generated_at": "2026-09-21T16:49:15Z"
 }
