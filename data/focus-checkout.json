@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T18:53:39.515820Z",
+  "updated_at": "2026-09-21T19:12:18.714885Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -2562,25 +2562,9 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868jj1ac8",
-              "comments": [
-                {
-                  "author": "David Webber",
-                  "date": "2026-07-02 11:10",
-                  "text": "I don't believe we have a design for this yet"
-                },
-                {
-                  "author": "David Webber",
-                  "date": "2026-09-10 15:14",
-                  "text": "Parts ETA = 9/11"
-                },
-                {
-                  "author": "David Webber",
-                  "date": "2026-09-17 17:25",
-                  "text": "Parts recieved. I'd like an addition .5 - 1hr for manufacturing/installing lid"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "2607cafd29367aa485777de92a97d5aa9001a83cedd84a376e98b79aa321538d"
+              "content_hash": "660d5d6ca681f665bcf4d9c15314bf8bfa08105e09f99c9809d6d4ba2fad2219"
             },
             {
               "id": "868m3t9eq",
@@ -2603,25 +2587,9 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868jfe48t",
-              "comments": [
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-17 23:30",
-                  "text": "paste_a9b6e1bf-1c11-4c6a-80de-c6de3691df08.jpgpaste_f30f4738-6498-44c9-a376-35628629c3f1.jpgpaste_9f228ea9-9b8c-48c0-a209-313de8b73556.jpgpaste_50c2de1d-c75e-456e-8bf0-74d2bacdc534.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-17 23:30",
-                  "text": "Cover inspected\nPlacement chosen\nMeasured and marked\nTaped\nCleaned and prepped\nLetters cut and prepped\nLetters adhered"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-19 00:19",
-                  "text": "Had another failure to cure with LORD. 1 side setup and cured fine and the other didnt. I used 2 different brushes to apply the adhesive. The narrow brush doesnt mess with the adhesive and I verified by reapplying with the narrow brush this morning and it cured perfectly."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "9b9e8e4c638e79083426c6cc09784c44683dc676f9488b6e1afc509d8d0a8908"
+              "content_hash": "1f92a310468f8aee2b0606515b7d60357be331944f6fc94c52a28da4c0de3263"
             }
           ]
         },
@@ -2673,5 +2641,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-21T18:51:45Z"
+  "generated_at": "2026-09-21T19:10:30Z"
 }
