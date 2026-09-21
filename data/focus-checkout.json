@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T14:16:26.741949Z",
+  "updated_at": "2026-09-21T14:33:35.916248Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -277,7 +277,7 @@
         "matched_lists": [
           "Ferdman 66 Bus"
         ],
-        "open_tasks": 7
+        "open_tasks": 9
       },
       "assignees": [
         {
@@ -365,6 +365,31 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "7f891d6c42432c8f41025fd35019a46319bc4fb2a5c2bfc023e742a0d9d82010"
+            }
+          ]
+        },
+        {
+          "name": "David Webber",
+          "tasks": [
+            {
+              "id": "868m7dj77",
+              "name": "Troubleshoot exterior noise issues",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868m7dj77",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "a8468f3f8a405cf27331c7693d1c41d1254fb1ae698c675623fac66d04207c1a"
+            },
+            {
+              "id": "868m7djz9",
+              "name": "Troubleshoot interior noise issues",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868m7djz9",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "1ac4b1d25c75f5d8f3cec3b69820abf60dda8efef2103c6d13f24bfd1d668814"
             }
           ]
         },
@@ -2700,5 +2725,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-21T14:14:22Z"
+  "generated_at": "2026-09-21T14:31:50Z"
 }
