@@ -88,16 +88,16 @@
     },
     {
       "project": "Ritchie 71 Blazer",
-      "total_hours": 89.5,
-      "pct_of_total": 9.8,
+      "total_hours": 92.5,
+      "pct_of_total": 10.1,
       "tasks": [
+        {
+          "task": "Exterior",
+          "hours": 15.2
+        },
         {
           "task": "Motor & Transmission",
           "hours": 15.0
-        },
-        {
-          "task": "Exterior",
-          "hours": 12.2
         },
         {
           "task": "Interior",
@@ -292,7 +292,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 36.0,
-      "pct_of_total": 4.0,
+      "pct_of_total": 3.9,
       "tasks": [
         {
           "task": "HVAC",
@@ -384,9 +384,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 145.0,
-    "pct_of_total": 15.9,
-    "avg_per_person_per_day": 1.21,
+    "total_hours": 143.0,
+    "pct_of_total": 15.7,
+    "avg_per_person_per_day": 1.19,
     "flagged": true,
     "tech_count": 8,
     "working_days": 15,
@@ -409,7 +409,7 @@
       },
       {
         "label": "Errands",
-        "hours": 4.8
+        "hours": 2.8
       },
       {
         "label": "Other",
@@ -498,10 +498,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 686.0,
-    "non_billable_hours": 225.0,
+    "billable_hours": 689.0,
+    "non_billable_hours": 223.0,
     "pto_hours": 12.0,
-    "total_hours": 911.0
+    "total_hours": 912.0
   },
-  "generated_at": "2026-09-21T23:24:35Z"
+  "generated_at": "2026-09-21T23:35:59Z"
 }
