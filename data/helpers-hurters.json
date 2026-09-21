@@ -84,8 +84,8 @@
     },
     {
       "project": "Ritchie 71 Blazer",
-      "total_hours": 78.5,
-      "pct_of_total": 9.3,
+      "total_hours": 80.0,
+      "pct_of_total": 9.4,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -96,16 +96,16 @@
           "hours": 11.2
         },
         {
+          "task": "Vehicle Control",
+          "hours": 10.0
+        },
+        {
           "task": "Exterior",
           "hours": 9.2
         },
         {
           "task": "Interior",
           "hours": 8.8
-        },
-        {
-          "task": "Vehicle Control",
-          "hours": 8.5
         },
         {
           "task": "Instrumentation",
@@ -424,7 +424,7 @@
     {
       "project": "Buck 70 280SL",
       "total_hours": 22.5,
-      "pct_of_total": 2.7,
+      "pct_of_total": 2.6,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -490,10 +490,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 633.2,
+    "billable_hours": 634.8,
     "non_billable_hours": 214.8,
     "pto_hours": 12.0,
-    "total_hours": 848.0
+    "total_hours": 849.5
   },
-  "generated_at": "2026-09-21T15:48:45Z"
+  "generated_at": "2026-09-21T16:13:55Z"
 }
