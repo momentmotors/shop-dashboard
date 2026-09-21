@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T22:50:33.342112Z",
+  "updated_at": "2026-09-21T23:13:00.562750Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -208,6 +208,16 @@
                   "author": "Brandon Beaman",
                   "date": "2026-09-21 22:45",
                   "text": "Updated GUI\nUpdated VCU and made necessary adjustments to match prior settings.\nUploaded all necessary backup files."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-21 22:55",
+                  "text": "image.png\nAdjusted Max Torque Percentages back to 100% across all 3 drive modes."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-21 23:03",
+                  "text": "Date: Monday, September 21, 2026\nVehicle/System: Chuter 62 Healey \u2014 Ampere EV VCU (New Eagle VCM_519), single motor, direct drive\nFirmware: DiagCANSW 1.8.13 / build 516 \u2192 1.9.3 / build 519 (VCM_519_RC010903_Persist)\nClickUp: Checkout Vehicle \u2014 Monthly Goal, Chuter 62 Healey \u00b7 Open \u00b7 High \u00b7 due Sep 30 \u00b7 22.5 h logged\nObjective\nBring Chuter onto the same 1.9.3 firmware as the Blazers, update and reconfigure the GUI, identify every calibration the flash changed, restore the shop's settings, and secure delivery backups.\nWhat we did\nConfirmed with Marc that Chuter goes to the same build as the Blazers. Updated and reconfigured the GUI, captured a pre-flash screenshot set, flashed to 1.9.3 / build 519, and captured a matching post-flash set. Ran a field-by-field comparison, applied all the restores, then revised the per-mode torque limits after talking it through with Marc. Uploaded EEPROM and PMU project files to the Drive as delivery backups.\nKey findings\nSeven calibrations changed, and all seven are live. Drive mode on this car reads Normal, so unlike Preheim there's no AWD tab absorbing the resets \u2014 everything the flash touched landed on tables Chuter actually uses.\n\nundefined\nThe torque-limit wipe was the one that mattered most. The pedal maps already reach 100%, so the per-mode multiplier is the peak torque limit \u2014 at 100/100/100 there was effectively no limit in any mode. Launch gain is now a single value in 1.9.3 rather than a table, so that restore was one entry.\nPer-mode torque limits are intentionally back at 100 / 100 / 100. They were initially set to 50 / 75 / 100, but those were Preheim's numbers, not Healey's \u2014 Chuter's own pre-flash values were never captured and aren't on the 1.8.13 Config tab. After talking with Marc, reverted deliberately to 100 across Eco, Normal and Sport.\nChuter was already close to the new defaults. Most of what 1.9.3 installs as defaults, this car was already running pre-flash \u2014 which is why only seven values moved, versus ten on Ritchie. Six new blocks came in sitting at flash defaults.\nAll seven restores verified against post-adjustment screenshots; every row of the comparison now carries pre-flash, post-flash and current values.\nSeventeen tabs are unverified \u2014 no screenshot on either side of the flash, so nothing was compared on them.\nPrior work on this checkout\nAug 12 (Devin) \u2014 Restored inverter firmware and settings, verified gamma adjust, reviewed the checkout sheet, updated VCU firmware to 1.8.14 for the torque tuning mods, uploaded backups.\nAug 24 \u2014 Set vehicle parameters to calibration: wheel diameter 0.660 \u2192 0.649 m, gear ratio 4.300 \u2192 6.726, weight 1500 \u2192 1263 kg. Verified persistence through a key cycle. Corrected the gear ratio after Dan's Healey ratio was entered by mistake. Client wifi credentials collected and loaded by Devin. Heater finding: this car's heater circuit is wired to the older standard \u2014 blower motor and heater contactor triggered by the same switch off one PDU output. Upper management signed off as acceptable; the proper fix would move the contactor positive lead to the \"AC Blower\" positive in the HVAC sub so the heater can't energize without blower load. Works as built.\nAug 25 \u2014 Held, waiting for the vehicle to be driven down to \u226410% SOC.\nArtifacts produced\nPre-flash (5) and post-flash (5) screenshot sets, plus six adjustment captures \u2014 on the ClickUp goal\nField-by-field pre/post/current comparison\nEEPROM and PMU project files uploaded to the Drive \u2014 flagged to the channel as the only backups for these two, since neither is reported in the VCU log. Any change has to be documented and the Drive files replaced."
                 }
               ],
               "checklist_items": [
@@ -237,7 +247,7 @@
                   "resolved": true
                 }
               ],
-              "content_hash": "bfd4d0de95361de6912f5685c151472c90a067cc1b49d21a80ed99ae597e6760"
+              "content_hash": "169a41ccdd376048cf2c21854d3e86014ccf9945de590397053be108e56f1d83"
             }
           ]
         }
@@ -531,10 +541,15 @@
                   "author": "Brandon Beaman",
                   "date": "2026-09-18 23:14",
                   "text": "Revert and compare VCU firmware file as requested by Marc."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-21 23:00",
+                  "text": "image (7).png\nUpdated VCU settings as per Marcs Request. This setting changes the 0-100% throttle threshold to be relative to the Trq Table."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "319ea60c6b74bfb7942e20c2da314089cf6c28d62dd60755a0a9502bae989443"
+              "content_hash": "5799b9a1512e6412c026655b3731f7b64e45a6f3452ee3b929c9c2a6b8f032be"
             }
           ]
         }
@@ -2744,5 +2759,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-21T22:48:35Z"
+  "generated_at": "2026-09-21T23:11:09Z"
 }
