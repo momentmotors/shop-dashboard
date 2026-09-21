@@ -46,7 +46,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 87.5,
-      "pct_of_total": 10.2,
+      "pct_of_total": 10.1,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -85,7 +85,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 80.0,
-      "pct_of_total": 9.3,
+      "pct_of_total": 9.2,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -135,12 +135,12 @@
     },
     {
       "project": "Hopkins 65 Silver Cloud",
-      "total_hours": 73.5,
-      "pct_of_total": 8.5,
+      "total_hours": 74.5,
+      "pct_of_total": 8.6,
       "tasks": [
         {
           "task": "Wiring - OEM",
-          "hours": 28.5
+          "hours": 29.5
         },
         {
           "task": "Scanning",
@@ -213,8 +213,8 @@
     },
     {
       "project": "Preheim 72 Blazer",
-      "total_hours": 42.2,
-      "pct_of_total": 4.9,
+      "total_hours": 43.2,
+      "pct_of_total": 5.0,
       "tasks": [
         {
           "task": "Interior",
@@ -226,7 +226,7 @@
         },
         {
           "task": "Exterior",
-          "hours": 9.0
+          "hours": 10.0
         },
         {
           "task": "Motor & Transmission",
@@ -245,7 +245,7 @@
     {
       "project": "Krafcik 02 Caterham",
       "total_hours": 39.2,
-      "pct_of_total": 4.6,
+      "pct_of_total": 4.5,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -376,20 +376,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 135.2,
-    "pct_of_total": 15.7,
-    "avg_per_person_per_day": 1.13,
+    "total_hours": 136.2,
+    "pct_of_total": 15.8,
+    "avg_per_person_per_day": 1.14,
     "flagged": true,
     "tech_count": 8,
     "working_days": 15,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 56.8
+        "hours": 57.2
       },
       {
         "label": "Shop Meetings",
-        "hours": 48.0
+        "hours": 48.5
       },
       {
         "label": "Personal Meetings",
@@ -413,7 +413,7 @@
     {
       "project": "ICON Bronco Prototype",
       "total_hours": 25.5,
-      "pct_of_total": 3.0,
+      "pct_of_total": 2.9,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -490,10 +490,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 646.8,
-    "non_billable_hours": 215.2,
+    "billable_hours": 648.8,
+    "non_billable_hours": 216.2,
     "pto_hours": 12.0,
-    "total_hours": 862.0
+    "total_hours": 865.0
   },
-  "generated_at": "2026-09-21T19:10:30Z"
+  "generated_at": "2026-09-21T19:23:38Z"
 }
