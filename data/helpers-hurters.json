@@ -1,6 +1,49 @@
 {
   "helpers": [
     {
+      "project": "Warke 61 Eldorado",
+      "total_hours": 88.0,
+      "pct_of_total": 10.2,
+      "tasks": [
+        {
+          "task": "Manufacturing - Product",
+          "hours": 43.8
+        },
+        {
+          "task": "HVAC",
+          "hours": 14.2
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 6.8
+        },
+        {
+          "task": "Motor & Transmission",
+          "hours": 6.0
+        },
+        {
+          "task": "Steering",
+          "hours": 4.5
+        },
+        {
+          "task": "Charging",
+          "hours": 4.5
+        },
+        {
+          "task": "Cooling",
+          "hours": 3.8
+        },
+        {
+          "task": "Brakes",
+          "hours": 3.5
+        },
+        {
+          "task": "Manufacturing - Core",
+          "hours": 1.0
+        }
+      ]
+    },
+    {
       "project": "LB 82 911",
       "total_hours": 87.5,
       "pct_of_total": 10.2,
@@ -40,52 +83,9 @@
       ]
     },
     {
-      "project": "Warke 61 Eldorado",
-      "total_hours": 82.0,
-      "pct_of_total": 9.6,
-      "tasks": [
-        {
-          "task": "Manufacturing - Product",
-          "hours": 43.8
-        },
-        {
-          "task": "HVAC",
-          "hours": 8.2
-        },
-        {
-          "task": "Vehicle Control",
-          "hours": 6.8
-        },
-        {
-          "task": "Motor & Transmission",
-          "hours": 6.0
-        },
-        {
-          "task": "Steering",
-          "hours": 4.5
-        },
-        {
-          "task": "Charging",
-          "hours": 4.5
-        },
-        {
-          "task": "Cooling",
-          "hours": 3.8
-        },
-        {
-          "task": "Brakes",
-          "hours": 3.5
-        },
-        {
-          "task": "Manufacturing - Core",
-          "hours": 1.0
-        }
-      ]
-    },
-    {
       "project": "Ritchie 71 Blazer",
       "total_hours": 80.0,
-      "pct_of_total": 9.4,
+      "pct_of_total": 9.3,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -136,7 +136,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 73.5,
-      "pct_of_total": 8.6,
+      "pct_of_total": 8.5,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -179,7 +179,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 52.0,
-      "pct_of_total": 6.1,
+      "pct_of_total": 6.0,
       "tasks": [
         {
           "task": "Battery Pack",
@@ -323,7 +323,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 22.8,
-      "pct_of_total": 2.7,
+      "pct_of_total": 2.6,
       "tasks": [
         {
           "task": "HVAC",
@@ -377,7 +377,7 @@
   ],
   "shop_work": {
     "total_hours": 134.8,
-    "pct_of_total": 15.8,
+    "pct_of_total": 15.6,
     "avg_per_person_per_day": 1.12,
     "flagged": true,
     "tech_count": 8,
@@ -490,10 +490,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 640.8,
+    "billable_hours": 646.8,
     "non_billable_hours": 214.8,
     "pto_hours": 12.0,
-    "total_hours": 855.5
+    "total_hours": 861.5
   },
-  "generated_at": "2026-09-21T17:10:12Z"
+  "generated_at": "2026-09-21T17:22:11Z"
 }
