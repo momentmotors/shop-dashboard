@@ -229,16 +229,16 @@
           "hours": 15.0
         },
         {
-          "task": "Exterior",
-          "hours": 12.0
-        },
-        {
           "task": "Suspension",
           "hours": 11.8
         },
         {
+          "task": "Exterior",
+          "hours": 10.0
+        },
+        {
           "task": "Motor & Transmission",
-          "hours": 5.5
+          "hours": 7.5
         },
         {
           "task": "Vehicle Control",
@@ -388,8 +388,8 @@
     }
   ],
   "shop_work": {
-    "total_hours": 143.5,
-    "pct_of_total": 15.6,
+    "total_hours": 144.0,
+    "pct_of_total": 15.7,
     "avg_per_person_per_day": 1.12,
     "flagged": true,
     "tech_count": 8,
@@ -401,7 +401,7 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 50.5
+        "hours": 51.0
       },
       {
         "label": "Personal Meetings",
@@ -503,9 +503,9 @@
   ],
   "totals": {
     "billable_hours": 695.5,
-    "non_billable_hours": 223.5,
+    "non_billable_hours": 224.0,
     "pto_hours": 12.0,
-    "total_hours": 919.0
+    "total_hours": 919.5
   },
-  "generated_at": "2026-09-22T16:30:40Z"
+  "generated_at": "2026-09-22T16:49:10Z"
 }

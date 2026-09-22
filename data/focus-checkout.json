@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T16:33:12.130734Z",
+  "updated_at": "2026-09-22T16:50:57.430637Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -2051,16 +2051,6 @@
           "name": "Billy Arrasmith",
           "tasks": [
             {
-              "id": "868kzapnn",
-              "name": "Address rear tire wobble",
-              "status": "Open",
-              "list": "Preheim 72 Blazer",
-              "url": "https://app.clickup.com/t/868kzapnn",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "9b934d1a969cc5c05fd902604b23cdfbb302ad104cd5a5e6813c746720b8dacb"
-            },
-            {
               "id": "868kzaq6r",
               "name": "Address squeaks/noises",
               "status": "Open",
@@ -2089,12 +2079,42 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "83f5b0057d0375e695b5e7475b0efeff3c5c1da8e27a114558fd5c62d6eede1b"
+            },
+            {
+              "id": "868m81x7t",
+              "name": "Replace front wheel bearing",
+              "status": "Open",
+              "list": "Preheim 72 Blazer",
+              "url": "https://app.clickup.com/t/868m81x7t",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "c8863cafaa9e3d0e8f5bfc41c9e268aa73395c4351c7c9430cec076c8252d7d7"
             }
           ]
         },
         {
           "name": "David Webber",
           "tasks": [
+            {
+              "id": "868m823za",
+              "name": "Address squeaks/noises",
+              "status": "Open",
+              "list": "Preheim 72 Blazer",
+              "url": "https://app.clickup.com/t/868m823za",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "dfcfa914428437333c0ae6fcb4dab8f221c044a55e935e2319ae1c20a72046fb"
+            },
+            {
+              "id": "868kzaq6r",
+              "name": "Address squeaks/noises",
+              "status": "Open",
+              "list": "Preheim 72 Blazer",
+              "url": "https://app.clickup.com/t/868kzaq6r",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "dfcfa914428437333c0ae6fcb4dab8f221c044a55e935e2319ae1c20a72046fb"
+            },
             {
               "id": "868m6f2w9",
               "name": "Assess exterior squeaks and rattles",
@@ -2161,21 +2181,6 @@
               "content_hash": "2e00c870193a7e5cad46da2e37f7540e5a97acbc53ed4fdfd1933ebe5d4e7b9e"
             }
           ]
-        },
-        {
-          "name": "Noah Sharif",
-          "tasks": [
-            {
-              "id": "868m6ue6t",
-              "name": "Aid in troubleshooting",
-              "status": "Open",
-              "list": "Preheim 72 Blazer",
-              "url": "https://app.clickup.com/t/868m6ue6t",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "e025a4e5d5843cabb37ec79a4589f2ec4291644d7a7c1213237792b5a96411f4"
-            }
-          ]
         }
       ]
     },
@@ -2218,104 +2223,9 @@
         "matched_lists": [
           "Ritchie 71 Blazer"
         ],
-        "open_tasks": 34
+        "open_tasks": 27
       },
       "assignees": [
-        {
-          "name": "Billy Arrasmith",
-          "tasks": [
-            {
-              "id": "868m63q3d",
-              "name": "Address leak in heater system",
-              "status": "Open",
-              "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868m63q3d",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "aab11bab337aeecdb335db06c747c4075672cb8393d36284455d4db7bb6f3123"
-            },
-            {
-              "id": "868hbnnhz",
-              "name": "Balance driveshafts",
-              "status": "Open",
-              "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868hbnnhz",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "3171a318632a0fe1c991f4e58f9902e494db2e3c43a879ff3508158c6dc77e07"
-            },
-            {
-              "id": "868m7k11q",
-              "name": "Facilitate paint work",
-              "status": "Open",
-              "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868m7k11q",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "e01310bf6f1428a8b46b1682455c530a2bbc8ce83a33cec215985dd2d098a2de"
-            },
-            {
-              "id": "868hbmwkf",
-              "name": "Install HVAC ducting",
-              "status": "Open",
-              "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868hbmwkf",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "142c7dc10ffd1c432d3222c7477111b2af8ffb1f68bb8468efdb659ddb15f50f"
-            },
-            {
-              "id": "868m63pqp",
-              "name": "Install brake pedal return spring",
-              "status": "Open",
-              "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868m63pqp",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "26d06387690cd7c83123ef2a50fc44d12dfa8be4c5d9ffab308bb1eb8e730ebb"
-            },
-            {
-              "id": "868kmp9tm",
-              "name": "Install front battery lid",
-              "status": "Open",
-              "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868kmp9tm",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "25977cfdfe0fd6dc5303338eb465f4ded373d84fa04ebe79c10f1e716c4899e4"
-            },
-            {
-              "id": "868m63uu0",
-              "name": "Install horns",
-              "status": "Open",
-              "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868m63uu0",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "33251b80e3c60dee2a2ffa8673bcf4a55000a82bb13611a0d312a4136583c23a"
-            },
-            {
-              "id": "868m63qvh",
-              "name": "Install interior",
-              "status": "Open",
-              "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868m63qvh",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "8fd66da719ff705d1cfee40e5a59ea597a5a80d93c1c6678c2c1fb1afd503ed5"
-            },
-            {
-              "id": "868ktqjxq",
-              "name": "Install seat belts",
-              "status": "Open",
-              "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868ktqjxq",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "371237ba86e4892bc87fcc0dd72a17784c4ecac889b399914e56e0f1cafd7fb9"
-            }
-          ]
-        },
         {
           "name": "Ben Drinkard",
           "tasks": [
@@ -2358,6 +2268,31 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "d9f9273bd20a0261c1da8aa58792fabb09ecbcfe7ed7ff121281c714d5fa985e"
+            }
+          ]
+        },
+        {
+          "name": "Billy Arrasmith",
+          "tasks": [
+            {
+              "id": "868m7k11q",
+              "name": "Facilitate paint work",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868m7k11q",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "e01310bf6f1428a8b46b1682455c530a2bbc8ce83a33cec215985dd2d098a2de"
+            },
+            {
+              "id": "868kmp9tm",
+              "name": "Install front battery lid",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868kmp9tm",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "25977cfdfe0fd6dc5303338eb465f4ded373d84fa04ebe79c10f1e716c4899e4"
             }
           ]
         },
@@ -2607,5 +2542,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-22T16:30:40Z"
+  "generated_at": "2026-09-22T16:49:10Z"
 }
