@@ -159,7 +159,7 @@
       "year": 1962,
       "color": "Black",
       "make": "Jaguar",
-      "model": "",
+      "model": "Jaguar",
       "status": "Testing",
       "checkout": 100,
       "sub_metrics": [
@@ -1754,7 +1754,7 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-09-22T20:27:30.112199+00:00",
+  "updated": "2026-09-22T20:39:23.019961+00:00",
   "source": "Google Sheets API",
-  "generated_at": "2026-09-22T20:26:10Z"
+  "generated_at": "2026-09-22T20:38:07Z"
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T20:28:15.254561Z",
+  "updated_at": "2026-09-22T20:40:08.820358Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -2355,7 +2355,7 @@
         "year": 1962,
         "color": "Black",
         "make": "Jaguar",
-        "model": "",
+        "model": "Jaguar",
         "status": "Testing",
         "checkout": 100,
         "sub_metrics": [
@@ -2537,5 +2537,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-22T20:26:10Z"
+  "generated_at": "2026-09-22T20:38:07Z"
 }
