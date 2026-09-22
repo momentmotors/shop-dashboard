@@ -2,12 +2,12 @@
   "helpers": [
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 98.0,
-      "pct_of_total": 10.6,
+      "total_hours": 101.8,
+      "pct_of_total": 11.0,
       "tasks": [
         {
           "task": "Manufacturing - Product",
-          "hours": 50.5
+          "hours": 54.2
         },
         {
           "task": "HVAC",
@@ -50,7 +50,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 92.8,
-      "pct_of_total": 10.1,
+      "pct_of_total": 10.0,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -144,7 +144,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 74.5,
-      "pct_of_total": 8.1,
+      "pct_of_total": 8.0,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -222,7 +222,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 51.2,
-      "pct_of_total": 5.6,
+      "pct_of_total": 5.5,
       "tasks": [
         {
           "task": "Interior",
@@ -253,7 +253,7 @@
     {
       "project": "Krafcik 02 Caterham",
       "total_hours": 39.2,
-      "pct_of_total": 4.3,
+      "pct_of_total": 4.2,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -388,7 +388,7 @@
     }
   ],
   "shop_work": {
-    "total_hours": 144.2,
+    "total_hours": 145.2,
     "pct_of_total": 15.7,
     "avg_per_person_per_day": 1.13,
     "flagged": true,
@@ -397,11 +397,11 @@
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 61.2
+        "hours": 61.8
       },
       {
         "label": "Shop Meetings",
-        "hours": 51.2
+        "hours": 51.8
       },
       {
         "label": "Personal Meetings",
@@ -502,10 +502,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 697.0,
-    "non_billable_hours": 224.2,
+    "billable_hours": 700.8,
+    "non_billable_hours": 225.2,
     "pto_hours": 12.0,
-    "total_hours": 921.2
+    "total_hours": 926.0
   },
-  "generated_at": "2026-09-22T17:48:50Z"
+  "generated_at": "2026-09-22T18:16:53Z"
 }
