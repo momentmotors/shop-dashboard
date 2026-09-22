@@ -50,7 +50,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 92.8,
-      "pct_of_total": 10.2,
+      "pct_of_total": 10.1,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -144,7 +144,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 74.5,
-      "pct_of_total": 8.2,
+      "pct_of_total": 8.1,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -502,10 +502,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 690.2,
+    "billable_hours": 691.5,
     "non_billable_hours": 223.5,
     "pto_hours": 12.0,
-    "total_hours": 913.8
+    "total_hours": 915.0
   },
-  "generated_at": "2026-09-22T15:27:16Z"
+  "generated_at": "2026-09-22T15:38:59Z"
 }
