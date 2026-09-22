@@ -3,7 +3,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 98.0,
-      "pct_of_total": 10.7,
+      "pct_of_total": 10.6,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -93,7 +93,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 92.5,
-      "pct_of_total": 10.1,
+      "pct_of_total": 10.0,
       "tasks": [
         {
           "task": "Exterior",
@@ -187,7 +187,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 52.0,
-      "pct_of_total": 5.7,
+      "pct_of_total": 5.6,
       "tasks": [
         {
           "task": "Battery Pack",
@@ -389,7 +389,7 @@
   ],
   "shop_work": {
     "total_hours": 144.0,
-    "pct_of_total": 15.7,
+    "pct_of_total": 15.6,
     "avg_per_person_per_day": 1.12,
     "flagged": true,
     "tech_count": 8,
@@ -502,10 +502,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 695.5,
+    "billable_hours": 697.0,
     "non_billable_hours": 224.0,
     "pto_hours": 12.0,
-    "total_hours": 919.5
+    "total_hours": 921.0
   },
-  "generated_at": "2026-09-22T17:11:09Z"
+  "generated_at": "2026-09-22T17:24:22Z"
 }
