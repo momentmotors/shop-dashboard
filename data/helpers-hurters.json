@@ -190,8 +190,8 @@
     },
     {
       "project": "Lee 68 Mustang",
-      "total_hours": 52.0,
-      "pct_of_total": 5.5,
+      "total_hours": 56.0,
+      "pct_of_total": 5.9,
       "tasks": [
         {
           "task": "Battery Pack",
@@ -202,12 +202,12 @@
           "hours": 15.8
         },
         {
-          "task": "Manufacturing - Core",
-          "hours": 7.0
+          "task": "Vehicle Control",
+          "hours": 10.2
         },
         {
-          "task": "Vehicle Control",
-          "hours": 6.2
+          "task": "Manufacturing - Core",
+          "hours": 7.0
         },
         {
           "task": "Audio",
@@ -225,8 +225,8 @@
     },
     {
       "project": "Preheim 72 Blazer",
-      "total_hours": 51.2,
-      "pct_of_total": 5.4,
+      "total_hours": 51.8,
+      "pct_of_total": 5.5,
       "tasks": [
         {
           "task": "Interior",
@@ -246,7 +246,7 @@
         },
         {
           "task": "Vehicle Control",
-          "hours": 5.0
+          "hours": 5.5
         },
         {
           "task": "Audio",
@@ -257,7 +257,7 @@
     {
       "project": "Krafcik 02 Caterham",
       "total_hours": 40.2,
-      "pct_of_total": 4.3,
+      "pct_of_total": 4.2,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -362,7 +362,7 @@
     {
       "project": "Richardson 72 240Z",
       "total_hours": 22.2,
-      "pct_of_total": 2.4,
+      "pct_of_total": 2.3,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -392,20 +392,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 146.8,
+    "total_hours": 148.2,
     "pct_of_total": 15.6,
-    "avg_per_person_per_day": 1.15,
+    "avg_per_person_per_day": 1.16,
     "flagged": true,
     "tech_count": 8,
     "working_days": 16,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 62.8
+        "hours": 63.2
       },
       {
         "label": "Shop Meetings",
-        "hours": 52.2
+        "hours": 52.8
       },
       {
         "label": "Personal Meetings",
@@ -416,12 +416,12 @@
         "hours": 8.0
       },
       {
-        "label": "Errands",
+        "label": "Other",
         "hours": 2.8
       },
       {
-        "label": "Other",
-        "hours": 2.2
+        "label": "Errands",
+        "hours": 2.8
       }
     ]
   },
@@ -451,7 +451,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 17.5,
-      "pct_of_total": 1.9,
+      "pct_of_total": 1.8,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -506,10 +506,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 715.5,
-    "non_billable_hours": 226.8,
+    "billable_hours": 720.0,
+    "non_billable_hours": 228.2,
     "pto_hours": 12.0,
-    "total_hours": 942.2
+    "total_hours": 948.2
   },
-  "generated_at": "2026-09-22T19:48:57Z"
+  "generated_at": "2026-09-22T20:11:47Z"
 }
