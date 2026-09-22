@@ -1580,7 +1580,18 @@
           "value": 0
         }
       ],
-      "system": "Ampere"
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "2026-03-27: IVT needs to be configured per Ampere spec.",
+            "done": false
+          }
+        ],
+        "total": 1,
+        "done": 0,
+        "open": 1
+      }
     },
     {
       "owner": "#REF! (Reference does not exist.)",
@@ -1743,7 +1754,7 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-09-22T20:13:13.957628+00:00",
+  "updated": "2026-09-22T20:27:30.112199+00:00",
   "source": "Google Sheets API",
-  "generated_at": "2026-09-22T20:11:47Z"
+  "generated_at": "2026-09-22T20:26:10Z"
 }
