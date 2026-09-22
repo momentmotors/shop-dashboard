@@ -221,20 +221,20 @@
     },
     {
       "project": "Preheim 72 Blazer",
-      "total_hours": 47.2,
-      "pct_of_total": 5.2,
+      "total_hours": 51.2,
+      "pct_of_total": 5.6,
       "tasks": [
         {
           "task": "Interior",
-          "hours": 13.0
+          "hours": 15.0
+        },
+        {
+          "task": "Exterior",
+          "hours": 12.0
         },
         {
           "task": "Suspension",
           "hours": 11.8
-        },
-        {
-          "task": "Exterior",
-          "hours": 10.0
         },
         {
           "task": "Motor & Transmission",
@@ -389,7 +389,7 @@
   ],
   "shop_work": {
     "total_hours": 143.5,
-    "pct_of_total": 15.7,
+    "pct_of_total": 15.6,
     "avg_per_person_per_day": 1.12,
     "flagged": true,
     "tech_count": 8,
@@ -436,7 +436,7 @@
     {
       "project": "Buck 70 280SL",
       "total_hours": 22.5,
-      "pct_of_total": 2.5,
+      "pct_of_total": 2.4,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -502,10 +502,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 691.5,
+    "billable_hours": 695.5,
     "non_billable_hours": 223.5,
     "pto_hours": 12.0,
-    "total_hours": 915.0
+    "total_hours": 919.0
   },
-  "generated_at": "2026-09-22T15:48:35Z"
+  "generated_at": "2026-09-22T16:13:20Z"
 }
