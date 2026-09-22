@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T14:52:09.652844Z",
+  "updated_at": "2026-09-22T15:14:18.924251Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1815,7 +1815,7 @@
         "matched_lists": [
           "Lee 68 Mustang"
         ],
-        "open_tasks": 9
+        "open_tasks": 8
       },
       "assignees": [
         {
@@ -1876,21 +1876,6 @@
               ],
               "checklist_items": [],
               "content_hash": "a5497313116074adeeff8d17cff105f53e00f8dd54df12b927e162876d6376b8"
-            }
-          ]
-        },
-        {
-          "name": "Aharon Adams",
-          "tasks": [
-            {
-              "id": "868hygk5k",
-              "name": "Balance DS",
-              "status": "Open",
-              "list": "Lee 68 Mustang",
-              "url": "https://app.clickup.com/t/868hygk5k",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "5d9f3d36a65b5beb07d608b891dcd97941a03fce1f02ad3aff6d09a8c2a5dc9e"
             }
           ]
         },
@@ -2759,5 +2744,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-22T14:50:19Z"
+  "generated_at": "2026-09-22T15:12:31Z"
 }
