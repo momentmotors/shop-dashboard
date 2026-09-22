@@ -3,7 +3,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 110.5,
-      "pct_of_total": 11.7,
+      "pct_of_total": 11.6,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -50,7 +50,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 93.8,
-      "pct_of_total": 9.9,
+      "pct_of_total": 9.8,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -93,7 +93,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 92.5,
-      "pct_of_total": 9.8,
+      "pct_of_total": 9.7,
       "tasks": [
         {
           "task": "Exterior",
@@ -144,7 +144,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 78.5,
-      "pct_of_total": 8.3,
+      "pct_of_total": 8.2,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -226,7 +226,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 51.8,
-      "pct_of_total": 5.5,
+      "pct_of_total": 5.4,
       "tasks": [
         {
           "task": "Interior",
@@ -256,12 +256,16 @@
     },
     {
       "project": "Krafcik 02 Caterham",
-      "total_hours": 40.2,
-      "pct_of_total": 4.2,
+      "total_hours": 44.8,
+      "pct_of_total": 4.7,
       "tasks": [
         {
           "task": "Manufacturing - Product",
           "hours": 13.0
+        },
+        {
+          "task": "Wiring - High Voltage",
+          "hours": 7.2
         },
         {
           "task": "Manufacturing - Core",
@@ -276,20 +280,16 @@
           "hours": 5.5
         },
         {
-          "task": "Wiring - High Voltage",
-          "hours": 3.8
-        },
-        {
           "task": "Cooling",
           "hours": 3.5
         },
         {
-          "task": "Engineering - Core",
-          "hours": 1.0
+          "task": "Battery Pack",
+          "hours": 1.8
         },
         {
-          "task": "Battery Pack",
-          "hours": 0.8
+          "task": "Engineering - Core",
+          "hours": 1.0
         },
         {
           "task": "Engineering - Support",
@@ -392,7 +392,7 @@
     }
   ],
   "shop_work": {
-    "total_hours": 148.2,
+    "total_hours": 148.8,
     "pct_of_total": 15.6,
     "avg_per_person_per_day": 1.16,
     "flagged": true,
@@ -401,7 +401,7 @@
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 63.2
+        "hours": 63.8
       },
       {
         "label": "Shop Meetings",
@@ -506,10 +506,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 720.0,
-    "non_billable_hours": 228.2,
+    "billable_hours": 724.5,
+    "non_billable_hours": 228.8,
     "pto_hours": 12.0,
-    "total_hours": 948.2
+    "total_hours": 953.2
   },
-  "generated_at": "2026-09-22T22:35:35Z"
+  "generated_at": "2026-09-22T22:48:38Z"
 }
