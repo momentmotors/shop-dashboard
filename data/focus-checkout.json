@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T16:50:57.430637Z",
+  "updated_at": "2026-09-22T17:13:00.044398Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -2044,7 +2044,7 @@
         "matched_lists": [
           "Preheim 72 Blazer"
         ],
-        "open_tasks": 10
+        "open_tasks": 9
       },
       "assignees": [
         {
@@ -2134,21 +2134,6 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "8fea1d6d1af49160ab84bcb7db71aea2821b265f67709e5cde86abebe31c7e84"
-            }
-          ]
-        },
-        {
-          "name": "Ben Drinkard",
-          "tasks": [
-            {
-              "id": "868kzahbv",
-              "name": "Install sway bars",
-              "status": "Open",
-              "list": "Preheim 72 Blazer",
-              "url": "https://app.clickup.com/t/868kzahbv",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "75d544ac467d0fabdd6cb8d7350351be4980d135c383c9391def44d832521bc2"
             }
           ]
         },
@@ -2542,5 +2527,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-22T16:49:10Z"
+  "generated_at": "2026-09-22T17:11:09Z"
 }
