@@ -2,8 +2,8 @@
   "helpers": [
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 96.8,
-      "pct_of_total": 10.6,
+      "total_hours": 98.0,
+      "pct_of_total": 10.7,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -15,7 +15,7 @@
         },
         {
           "task": "Vehicle Control",
-          "hours": 8.8
+          "hours": 9.0
         },
         {
           "task": "Motor & Transmission",
@@ -30,16 +30,20 @@
           "hours": 4.5
         },
         {
+          "task": "Brakes",
+          "hours": 4.2
+        },
+        {
           "task": "Cooling",
           "hours": 3.8
         },
         {
-          "task": "Brakes",
-          "hours": 3.5
-        },
-        {
           "task": "Manufacturing - Core",
           "hours": 1.0
+        },
+        {
+          "task": "Battery Pack",
+          "hours": 0.2
         }
       ]
     },
@@ -386,10 +390,10 @@
   "shop_work": {
     "total_hours": 143.0,
     "pct_of_total": 15.7,
-    "avg_per_person_per_day": 1.19,
+    "avg_per_person_per_day": 1.12,
     "flagged": true,
     "tech_count": 8,
-    "working_days": 15,
+    "working_days": 16,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
@@ -498,10 +502,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 689.0,
+    "billable_hours": 690.2,
     "non_billable_hours": 223.0,
     "pto_hours": 12.0,
-    "total_hours": 912.0
+    "total_hours": 913.2
   },
-  "generated_at": "2026-09-21T23:48:35Z"
+  "generated_at": "2026-09-22T00:34:35Z"
 }
