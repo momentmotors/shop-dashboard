@@ -3,7 +3,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 105.8,
-      "pct_of_total": 11.4,
+      "pct_of_total": 11.3,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -50,7 +50,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 92.8,
-      "pct_of_total": 10.0,
+      "pct_of_total": 9.9,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -143,12 +143,12 @@
     },
     {
       "project": "Hopkins 65 Silver Cloud",
-      "total_hours": 74.5,
-      "pct_of_total": 8.0,
+      "total_hours": 78.5,
+      "pct_of_total": 8.4,
       "tasks": [
         {
           "task": "Wiring - OEM",
-          "hours": 29.5
+          "hours": 31.5
         },
         {
           "task": "Scanning",
@@ -177,6 +177,10 @@
         {
           "task": "Steering",
           "hours": 4.0
+        },
+        {
+          "task": "Engine Bay",
+          "hours": 2.0
         },
         {
           "task": "Brakes",
@@ -296,7 +300,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 36.0,
-      "pct_of_total": 3.9,
+      "pct_of_total": 3.8,
       "tasks": [
         {
           "task": "HVAC",
@@ -388,20 +392,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 145.2,
-    "pct_of_total": 15.6,
-    "avg_per_person_per_day": 1.13,
+    "total_hours": 146.8,
+    "pct_of_total": 15.7,
+    "avg_per_person_per_day": 1.15,
     "flagged": true,
     "tech_count": 8,
     "working_days": 16,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 61.8
+        "hours": 62.8
       },
       {
         "label": "Shop Meetings",
-        "hours": 51.8
+        "hours": 52.2
       },
       {
         "label": "Personal Meetings",
@@ -502,10 +506,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 704.8,
-    "non_billable_hours": 225.2,
+    "billable_hours": 708.8,
+    "non_billable_hours": 226.8,
     "pto_hours": 12.0,
-    "total_hours": 930.0
+    "total_hours": 935.5
   },
-  "generated_at": "2026-09-22T19:11:02Z"
+  "generated_at": "2026-09-22T19:22:52Z"
 }
