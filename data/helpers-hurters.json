@@ -2,12 +2,12 @@
   "helpers": [
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 105.8,
-      "pct_of_total": 11.3,
+      "total_hours": 110.5,
+      "pct_of_total": 11.7,
       "tasks": [
         {
           "task": "Manufacturing - Product",
-          "hours": 54.2
+          "hours": 55.5
         },
         {
           "task": "HVAC",
@@ -34,31 +34,31 @@
           "hours": 4.5
         },
         {
+          "task": "Battery Pack",
+          "hours": 3.8
+        },
+        {
           "task": "Cooling",
           "hours": 3.8
         },
         {
           "task": "Manufacturing - Core",
           "hours": 1.0
-        },
-        {
-          "task": "Battery Pack",
-          "hours": 0.2
         }
       ]
     },
     {
       "project": "LB 82 911",
-      "total_hours": 92.8,
+      "total_hours": 93.8,
       "pct_of_total": 9.9,
       "tasks": [
         {
-          "task": "Motor & Transmission",
-          "hours": 22.5
+          "task": "Manufacturing - Product",
+          "hours": 23.2
         },
         {
-          "task": "Manufacturing - Product",
-          "hours": 22.2
+          "task": "Motor & Transmission",
+          "hours": 22.5
         },
         {
           "task": "Vehicle Control",
@@ -93,7 +93,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 92.5,
-      "pct_of_total": 9.9,
+      "pct_of_total": 9.8,
       "tasks": [
         {
           "task": "Exterior",
@@ -144,7 +144,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 78.5,
-      "pct_of_total": 8.4,
+      "pct_of_total": 8.3,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -191,7 +191,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 52.0,
-      "pct_of_total": 5.6,
+      "pct_of_total": 5.5,
       "tasks": [
         {
           "task": "Battery Pack",
@@ -226,7 +226,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 51.2,
-      "pct_of_total": 5.5,
+      "pct_of_total": 5.4,
       "tasks": [
         {
           "task": "Interior",
@@ -256,12 +256,12 @@
     },
     {
       "project": "Krafcik 02 Caterham",
-      "total_hours": 39.2,
-      "pct_of_total": 4.2,
+      "total_hours": 40.2,
+      "pct_of_total": 4.3,
       "tasks": [
         {
           "task": "Manufacturing - Product",
-          "hours": 12.0
+          "hours": 13.0
         },
         {
           "task": "Manufacturing - Core",
@@ -393,7 +393,7 @@
   ],
   "shop_work": {
     "total_hours": 146.8,
-    "pct_of_total": 15.7,
+    "pct_of_total": 15.6,
     "avg_per_person_per_day": 1.15,
     "flagged": true,
     "tech_count": 8,
@@ -506,10 +506,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 708.8,
+    "billable_hours": 715.5,
     "non_billable_hours": 226.8,
     "pto_hours": 12.0,
-    "total_hours": 935.5
+    "total_hours": 942.2
   },
-  "generated_at": "2026-09-22T19:22:52Z"
+  "generated_at": "2026-09-22T19:35:14Z"
 }

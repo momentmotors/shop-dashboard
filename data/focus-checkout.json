@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T19:25:06.266146Z",
+  "updated_at": "2026-09-22T19:37:05.049662Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1513,10 +1513,15 @@
                   "author": "Justin Landry",
                   "date": "2026-09-18 19:23",
                   "text": "Began reading through and prepping for the test procedure for the AIO boxes."
+                },
+                {
+                  "author": "Justin Landry",
+                  "date": "2026-09-22 19:27",
+                  "text": "Put together a basic parts list and a wiring diagram for the proposed testing fixture for AIO boxes. talked with devin about requirements for the IVT and IMD tests. printed out diagram to start putting together the basics."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "618ff5bcfe1f4a330bcc9b38c4acfeb16fe07638cbb68e4063e0cac64a95f793"
+              "content_hash": "f659c2efffebe71968e5e1dfdc35d609cf122031c97345a84c9866c9b80e6f80"
             }
           ]
         },
@@ -2527,5 +2532,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-22T19:22:52Z"
+  "generated_at": "2026-09-22T19:35:14Z"
 }
