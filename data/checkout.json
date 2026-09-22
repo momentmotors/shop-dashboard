@@ -1497,38 +1497,6 @@
       }
     },
     {
-      "owner": "Ampere Default",
-      "year": null,
-      "color": "",
-      "make": "",
-      "model": "",
-      "status": "Shipped",
-      "checkout": 4.5,
-      "sub_metrics": [
-        {
-          "label": "BMS",
-          "value": 3.7
-        },
-        {
-          "label": "Inverter",
-          "value": 23.1
-        },
-        {
-          "label": "PMU",
-          "value": 0
-        },
-        {
-          "label": "Raptor",
-          "value": 0
-        },
-        {
-          "label": "Functional",
-          "value": 0
-        }
-      ],
-      "system": "Ampere"
-    },
-    {
       "owner": "Simpson",
       "year": null,
       "color": "",
@@ -1741,9 +1709,41 @@
         }
       ],
       "system": "Ampere"
+    },
+    {
+      "owner": "#REF! (Reference does not exist.)",
+      "year": null,
+      "color": "#REF! (Reference does not exist.)",
+      "make": "#REF! (Reference does not exist.)",
+      "model": "#REF! (Reference does not exist.)",
+      "status": "#REF! (Reference does not exist.)",
+      "checkout": 0.0,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 0.0
+        },
+        {
+          "label": "Inverter",
+          "value": 0.0
+        },
+        {
+          "label": "PMU",
+          "value": 0.0
+        },
+        {
+          "label": "Raptor",
+          "value": 0.0
+        },
+        {
+          "label": "Functional",
+          "value": 0.0
+        }
+      ],
+      "system": "Ampere"
     }
   ],
-  "updated": "2026-09-22T18:18:02.380638+00:00",
+  "updated": "2026-09-22T18:41:39.305310+00:00",
   "source": "Google Sheets API",
-  "generated_at": "2026-09-22T18:16:53Z"
+  "generated_at": "2026-09-22T18:40:26Z"
 }

@@ -2,8 +2,8 @@
   "helpers": [
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 101.8,
-      "pct_of_total": 11.0,
+      "total_hours": 105.8,
+      "pct_of_total": 11.4,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -18,6 +18,10 @@
           "hours": 9.0
         },
         {
+          "task": "Brakes",
+          "hours": 8.2
+        },
+        {
           "task": "Motor & Transmission",
           "hours": 6.0
         },
@@ -28,10 +32,6 @@
         {
           "task": "Charging",
           "hours": 4.5
-        },
-        {
-          "task": "Brakes",
-          "hours": 4.2
         },
         {
           "task": "Cooling",
@@ -93,7 +93,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 92.5,
-      "pct_of_total": 10.0,
+      "pct_of_total": 9.9,
       "tasks": [
         {
           "task": "Exterior",
@@ -331,7 +331,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 22.8,
-      "pct_of_total": 2.5,
+      "pct_of_total": 2.4,
       "tasks": [
         {
           "task": "HVAC",
@@ -389,7 +389,7 @@
   ],
   "shop_work": {
     "total_hours": 145.2,
-    "pct_of_total": 15.7,
+    "pct_of_total": 15.6,
     "avg_per_person_per_day": 1.13,
     "flagged": true,
     "tech_count": 8,
@@ -425,7 +425,7 @@
     {
       "project": "ICON Bronco Prototype",
       "total_hours": 25.5,
-      "pct_of_total": 2.8,
+      "pct_of_total": 2.7,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -502,10 +502,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 700.8,
+    "billable_hours": 704.8,
     "non_billable_hours": 225.2,
     "pto_hours": 12.0,
-    "total_hours": 926.0
+    "total_hours": 930.0
   },
-  "generated_at": "2026-09-22T18:16:53Z"
+  "generated_at": "2026-09-22T18:40:26Z"
 }
