@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T15:14:18.924251Z",
+  "updated_at": "2026-09-22T15:29:16.023949Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -996,7 +996,7 @@
         "matched_lists": [
           "LB 82 911"
         ],
-        "open_tasks": 35
+        "open_tasks": 31
       },
       "assignees": [
         {
@@ -1121,117 +1121,6 @@
               "content_hash": "d083236566ca3f93003b9d1645b6014016742f8ba881a62f301427405780143e"
             },
             {
-              "id": "868g3ptf9",
-              "name": "Install CR kit",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868g3ptf9",
-              "comments": [
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-01-05 22:58",
-                  "text": "blend valve assembly with new parts."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-01-05 22:58",
-                  "text": "unboxing and begin component installation. mock up suitcase and begin mocking up evaporators. will need to remove valance and make small modifications. remove oem grommets for t pass throughs and install rubber linings to make this easier."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-01-07 22:55",
-                  "text": "design and document FRONT SECTION hose routing \ninstall drier\ninstall all fittings and run hoses\ncrimp as many fittings as possible without bulkhead\nmock up bumper"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-01-07 22:56",
-                  "text": "prep for blend valve install and hose mock up"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-01-07 22:58",
-                  "text": "take stock of fittings and order burgaclip fittings necessary for the frunk section installation."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-01-14 23:33",
-                  "text": "inspection of used controls, begin attempting to mount microswitches. will probably cad up a small mount for both. controls will also need to be repaired a little bit."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-01-16 21:25",
-                  "text": "compressor fitment discussion and begin on heater installation."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-01-21 01:27",
-                  "text": "clean and repair hvac controls."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-01-21 23:08",
-                  "text": "ended up having to disassemble and redo hvac controls because of how the rennline faceplate adapts. \nalso finding and ordering parts for the blend valves since ours were cut. and deciphering how the hell the valves work with the cables and slides."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-01-23 00:55",
-                  "text": "heat brick measure, design, build, mock up, wire and install."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-02-04 22:48",
-                  "text": "after mocking up compressor, mark and cut holes for hose entry. measure lengths, cut, and assemble hoses."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-06-12 00:45",
-                  "text": "disassemble evaporator and install evaporator temp sensor inside. make sub harness and drill through shell to attach switch and run out wiring. reassemble all. this was not accounted for in my budget because I forgot it ended to happen."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-06-12 23:28",
-                  "text": "prepping areas for install, begin suitcase installation, had to pull back out for steering shroud install."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-06-17 03:54",
-                  "text": "almost finished with this miserable install of the worst a/c kit. made suction lines, made drain hose, install flapper boxes and cables (excluding controls) install suitcase and install most of the hoses. had to remove the flapper boxes and cut the footwell blower tees cause of how dumb their design is. set me back a couple hours.\ninstalled the hvac wiring harness.\n ordered some special soft hose for the inlets due to how theyre routed.\ntomorrow will be installation of the hvac controls and cables."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-06-17 22:29",
-                  "text": "attaching cables to hvac controls and begin installation. once in, I found that there's no retaining bracket so I ended up having to make one out of some aluminum. ended up looking pretty good. although it was a complex little bracket in order to not drill anymore unnecessary holes in the car.\nmoved on to interior reassembly as it needs to be done in a certain order, the trim pieces going in before hvac controls. but then ran into parts issues with interior trim etc."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-06-19 01:39",
-                  "text": "when getting ready for front box installation, I realized when I had installed the high side fill port that I hadn't accounted for the battery box being installed because, well, it wasn't there or even placed in cad yet lol. so I had to go back and drop vacuum, cut the hoses and remove stuff. then reinstall a new one near the evaporator. I also used this opportunity to install the ampere a/c pressure switch which I just received today.\npull vacuum for half hour monitoring gauges for half hour after and then leave in vacuum."
-                },
-                {
-                  "author": "Alex Noonan",
-                  "date": "2026-06-30 20:57",
-                  "text": "We can log the time to change connectors on condenser fans on Vehicle Control."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-07-08 15:15",
-                  "text": "we will be finishing this up once the wiring harness is installed, that way we have room to reach behind the blower suitcase for gauges etc."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-11 21:10",
-                  "text": "pull vacuum, check gauges after 30 min of vacuum. looks good. leave in vacuum for future filling"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-15 21:21",
-                  "text": "finish installation of all ducting in frunk and cabin. cr kit is installed excluding hvac cables (the controls unit can not be installed until the dash is figured out) and the initial charging of refrigerant. (waiting until we can run compressor."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "95e2f59a6be6469f0533af4ba299ef7e11352624913b791ca3748fc6cec6b846"
-            },
-            {
               "id": "868j7kkze",
               "name": "Install GUI",
               "status": "Open",
@@ -1354,68 +1243,6 @@
               "content_hash": "19d208039be08ea3067bc2846d456bac7d818ef8d0ef77c687afe39063e8efc3"
             },
             {
-              "id": "868j7kw3h",
-              "name": "Install axles",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868j7kw3h",
-              "comments": [
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-24 22:12",
-                  "text": "stubs arrived and inspected."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-17 23:06",
-                  "text": "Removed bolt-on wheel spacers\nRemoved the OEM hub stub\nInstalled the new stubs into the LDU after test-fitting them without the retaining clips, just in case\nAssembled and installed axles with a bit of anaerobic gasket maker on the LDU stub side\nTorqued wheel sides to 250 ft-lb\nMarked all bolts and nuts"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-17 23:08",
-                  "text": "BFDE3372-B91F-4973-BAEE-8800362EA7EE.heicFABDCBEE-7AD0-40ED-9290-C430EEFA76C4.heic"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "149bd192de069c5c078c45131cbcf688262657434a7de5dff85378537366bccb"
-            },
-            {
-              "id": "868jwn2c3",
-              "name": "Install radiator assembly",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868jwn2c3",
-              "comments": [
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-07-03 01:25",
-                  "text": "clean, prep and assemble new printed radiators\ninstall tabs and radiator mount\nstill need to mock up radiators and do cooling lines."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-13 22:04",
-                  "text": "receive and inspect modified part"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-18 15:37",
-                  "text": "Fitment resolved \u2014 see \"Manufacture Core - Radiator Mounts\" (8/17): re-tested after clearancing, plates seat clean, no more frame-support contact. Painted body cuts, disassembled units, sent to powdercoat. Waiting on powdercoat return before reinstall. Ryan notified in Slack."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-09 21:56",
-                  "text": "After making sure the shrouds and fans align with the custom radiators, removed them and the drain plugs from the stock rads. Realized I didn't like how they were secured to the radiators with just self-tapping screws \u2014 Noah had described some contacting the tanks and causing leaks. So I slowly marked, drilled, and tapped each one up to a #8 sheet metal screw, cutting the screws down to size so they barely or don't make contact with the fins and tank spacers. Installed with #8 washer cups for looks."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-17 23:10",
-                  "text": "install radiators and cooling fittings, crimp all connections. actually had to drop it after installation to get the fittings installed but yeah. send hoses up to reservoir. all done"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "ef04f5ea20f2131e9666fc9d1a3670d7a7b679fddb28bfa3e4078021b214d105"
-            },
-            {
               "id": "868j7krpv",
               "name": "Reinstall interior",
               "status": "Open",
@@ -1486,52 +1313,6 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "d78440966f91a7753aee616d683570b500075d7cad9fdedb5aa9cde2367c2fb5"
-            },
-            {
-              "id": "868k55n9a",
-              "name": "Terminate main 12V power cables",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868k55n9a",
-              "comments": [
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-06-26 02:26",
-                  "text": "June 24\npeeping a couple of locations, after looking at cad and chatting with Brandon, decided to place them on the wall near the oem fuse box. finish out dcdc charger cable and start on 12v to fuses etc."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-06-26 02:30",
-                  "text": "finish up main cables from batt to midis and charger. cut back oem harness and terminate as well."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-06-26 21:53",
-                  "text": "run 4 awg cable through drivers side frame duct. I ran this twice as the first one I ran was like 8\" short of course. had to pull and cut a new for the re run. need to terminate at midi fuses."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-14 21:51",
-                  "text": "Re-consolidated the MIDI fuse area with the addition of the vehicle control 12V main power cable. Put vehicle control and body control on the same 100A MIDI, so that if there are any charging issues, they'll be easy to diagnose \u2014 and similarly, if there's a blown fuse on the vehicle side, that'll be straightforward to isolate too. The charger and vehicle are isolated by a charging fuse. Placed a 30A inline fuse on the radio amplifier, installed pre-MIDI fuse \u2014 keeping it off our side but still safe. Still need to terminate the PDM side of the cable, but will handle that during component installation since the length isn't known yet."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-14 21:59",
-                  "text": "final termination of 12v cables from front to rear of vehicle."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-15 19:27",
-                  "text": "I still need to make the LDU ground cable."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-16 21:30",
-                  "text": "made ldu ground cable and attached after install"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "a78a5320b0bb7a89093442a01d0305f91a276a243e47d615257f73837bb5fb75"
             },
             {
               "id": "868g3pt74",
@@ -1827,9 +1608,65 @@
               "status": "Open",
               "list": "Lee 68 Mustang",
               "url": "https://app.clickup.com/t/868kar0ru",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-07-13 20:26",
+                  "text": "Started NVH inspection to determine where the extra noise was coming from and or how to solve it.\nFound that we did not have any sound deadening in stock.\nOrdered up both a set of butyl sound deadening and adhesive backed foam layer to help with vibrations and other low frequencies being transmitted through the tunnel.\nWhile waiting for these items to be shipped I inspected the motor cradle and clearances around the motor.\nFound a couple small pieces of hardware sitting between the motor and cradle which could potentially been transmitting a bit of sound through the frame of the car.\nCleaned out the cradle. This took a decent amount of effort and time due to the hardware being lodged in between the motor and cradle.\nThis was definitely transmitting something into the car likely not much but might be just enough to notice.\nContinue with cover the under side of the tunnel once the material arrives."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-07-16 23:36",
+                  "text": "Installed sound deadening in the trans tunnel area to help with NVH.\nWill test to verify noise reduction once the new driveshaft gets installed."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-07 00:43",
+                  "text": "Gear box noise issue was still bad enough that we need to continue addressing the issue.\nQuick Meeting with Marc and geoff on possible solutions.\nSetup chassis ears on the vehicle.\nTest drove the vehicle and reported findings from the chassis ears.\n\n\nRed - Subframe right behind the sled / trans mounting area.\nWhite - Motor Cradle\nGreen - Rear most part of the subframe assembly to verify if its truly transmitting through the tubular structure.\nYellow - Sheet metal at the front of the vehicle.\n\nThis is from Slack:\nAfter a quick test drive.\n\nWhite showed to be the loudest. Very much dependent on speed. The faster you went the louder it got but was louder on decel than it was on acceleration. It was also more a screeching sound than a gear sound but that would just be the way gears sound in a mono analog input.\n\nRed required almost double if not triple the volume to hear the sounds we were hoping to. So I dont think the sound is transmitting through just the subframe.\n\nGreen verifys that the sound is not being directly transmitted through the sub frame structure that the cradle is mounted to. With the volume at max its still very hard to hear any of the noises we are chasing. But I did notice a clicking sound coming from the rear end area of the vheicle using this one.\n\nYellow showed basically no noise I could hear the power steering pump over everything else.\n\nOverall I feel like its possible that SEV is loud and that loudness is being transmitted through the entire vehicle just enough to where the entire vehicle is basically becoming a speaker for these noises.\n\nI can run more tests if we would like and maybe have another set of ears listen to it to verify the same findings. This however was what I noticed.\nOk so I moved red even closer to the cradle. Moved on to the vertical uprights that box in the cradle at the transmission mount.\n\nAs well as Added Blue.\n\nBlue is attached to the drain plug hole for the motor.\n\nBasically the same results as before.\n\nRed had no smoking gun noises present even being as close as it is. With the chassis ears at max volume you can slightly hear the gear box but Im pretty sure thats from surrounding vibrations in the air since the gain is up so high.\n\nBlue basically the same story as red. You can hear the gear box slightly with the chassis ears at max volume but not at all representative of what we are hearing in the cabin of the vehicle.\n\nNext plan was to swap the SEV and attempt to add luxury liner to the underside of the tunnel.\nPulled motor and gearbox.\nSwapped gear box.\nPrepped for install.\nStill need to install luxury liner and motor into the vehicle."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-07 23:30",
+                  "text": "Finished installing the motor and all other changes we wanted to make while changing out the SEV.\nAdded luxury line under to the tunnel to help with noise.\nInstalled new new new driveshaft.\nTested vehicle during driveshaft balancing.\nGearbox sounds very similar to how it did.\nWill need to road test and verify if there are any more changes necessary."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-17 22:06",
+                  "text": "Waiting on New sled from OSH.\nparts added to order OA226"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-02 23:55",
+                  "text": "New sled Arrived\nJustin Welded up the metal.\nI handed metal off to Ryan to drop off at Powder Coat ASAP.\nRemoved the motor from the vehicle today while the battery box was removed from the vehicle.\nIn preparation for the new sled to return.\nCleaned up bay from motor removal."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-08 20:59",
+                  "text": "Started transferring components over to the new sled.\nfound that a couple of the hole in the new mounting plate were actually sized for M8s when the bolts are m10. Will update Geoff on this to make the correction.\nModified mounting plate.\nContinued transferring parts over.\nFound that the bushing shim definitely will not fit as is unless we do some major hammering and or forcing of the part to fit.\nWaiting for confirmation of if we want to wait until the parts on order show up. Current ETA is the 11th.\nFound that the oil temp sensor does collide with the slide when installed.\nRemoved motor from sled and swapped for a plug.\nReinstalled motor into the sled.\nOnce we decide on the bushing shim we can move forward appropriately with this."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-10 21:57",
+                  "text": "Finished swapping the motor over to the new cradle.\nChecked fluids.\nInstalled motor and new cradle into the vehicle.\nContinue with installing all remaining pieces to finish motor install and move on to the battery box."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-11 20:24",
+                  "text": "Finished installing the driveshaft and all of the motors connecting components."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-15 22:28",
+                  "text": "Continued testing on this vehicle to determine if the NVH issue is still present on this vehicle.\nUsing Chassis ear tested a handful of different spots on the car and didnt find any substantial evidence for a very clear source of the sound.\nWorked with Marc and spun the vehicle driveline up while the vehicle was on the lift inspecting different areas and listening for the most apparent sounds.\nMarc and I both come to the conclusion that it seems like most of the sound is being transmitted through the driveshaft of the vehicle.\nCombined with how stiff the chassis is reverberations and loudness are all amplified compared to Vargas.\nBack to back comparison to Vargas shows both mustang making the exact same sounds joust at different amplitudes. Lees mustang being the louder of the 2.\nDetermined that the next best step is to add sound deadening to the interior of the vehicle to try and help cut back on all of the NVH as much as possible.\nAt this point we have to to shift from getting rid of the sound entirely to just making the sound bearable. There are no apparent  solutions for this vehicle due to the way the vehicle is manufactured and equipped. Its almost too good for how quite our systems are.\nWill continue the sound deadening install on it own specific task."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-16 18:41",
+                  "text": "Aharon finished balancing the driveshaft.\nTest drove the vehicle after to get a feel for the balance.\nCar felt great. No crazy vibrations felt up to 60-65 mph. Still need to do highway testing.\nThe weird thing I noticed though was that with the center console out of the car the Gear groan / Noise was bearable. It wasnt obnoxious or crazy. Still present but drivable. The center console must be acting as amplifier as well especially the center console cubby box thing. We should also add sound treatment to the underside of this as well.\nWill add this to the list of things to address when it comes to NVH and or sound deadening."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "2e22e130e4483b94d8c1da8a37c63d595333ec972f3e7371a4d05a5581970ca1"
+              "content_hash": "2e35808b0ea21e9b42f8d11e735597b3662c1e8f4d84036b304954b48526f507"
             },
             {
               "id": "868kvft7k",
@@ -1837,9 +1674,30 @@
               "status": "Open",
               "list": "Lee 68 Mustang",
               "url": "https://app.clickup.com/t/868kvft7k",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-28 20:51",
+                  "text": "Gathered some data to start the Diag of possible DCDC timing fault and or VCU programming errors on our Dilong chargers.\nDCDC errors show up when the key is cycled off to on in quick succession."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-14 21:05",
+                  "text": "image.png\nimage.png\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-14 21:58",
+                  "text": "2026-08-11 Lee Mustang Inverter Config defsyms_20250513_09142026.txtAdjusted Torque Rate Limit from 50 to 70"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-14 22:08",
+                  "text": "Updated VCU.\nQuickly went through the settings and config to make sure things didnt change.\nThis vehicle has not had a lot of time or tuning done to it so this was not difficult nor were there a bunch of settings that would have been changed yet.\nVCU updated to the latest firmware.\nAdjusted Launch gain to 70, Test drive, adjusted to 100, Test drive.\nDidn't have any noticeable difference at this time.\nWill need to charge the vehicle before further testing.\nUpdated Torque Rate limit from 50 to 70 on the EEPROM settings since 70 is stock. Not entirely sure how it was reduced down to 50 but this should also help the acceleration."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
+              "content_hash": "b8ef0db6962787bd5de7d41800eb4e2b19c9f7b752e0a33d37e06dd6c669497c"
             },
             {
               "id": "868m5njnw",
@@ -2744,5 +2602,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-22T15:12:31Z"
+  "generated_at": "2026-09-22T15:27:16Z"
 }
