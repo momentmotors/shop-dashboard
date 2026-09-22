@@ -159,7 +159,7 @@
       "year": 1962,
       "color": "Black",
       "make": "Jaguar",
-      "model": "",
+      "model": "Jaguar",
       "status": "Testing",
       "checkout": 100,
       "sub_metrics": [
@@ -1497,38 +1497,6 @@
       }
     },
     {
-      "owner": "Ampere Default",
-      "year": null,
-      "color": "",
-      "make": "",
-      "model": "",
-      "status": "Shipped",
-      "checkout": 4.5,
-      "sub_metrics": [
-        {
-          "label": "BMS",
-          "value": 3.7
-        },
-        {
-          "label": "Inverter",
-          "value": 23.1
-        },
-        {
-          "label": "PMU",
-          "value": 0
-        },
-        {
-          "label": "Raptor",
-          "value": 0
-        },
-        {
-          "label": "Functional",
-          "value": 0
-        }
-      ],
-      "system": "Ampere"
-    },
-    {
       "owner": "Simpson",
       "year": null,
       "color": "",
@@ -1612,7 +1580,18 @@
           "value": 0
         }
       ],
-      "system": "Ampere"
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "2026-03-27: IVT needs to be configured per Ampere spec.",
+            "done": false
+          }
+        ],
+        "total": 1,
+        "done": 0,
+        "open": 1
+      }
     },
     {
       "owner": "#REF! (Reference does not exist.)",
@@ -1741,8 +1720,40 @@
         }
       ],
       "system": "Ampere"
+    },
+    {
+      "owner": "#REF! (Reference does not exist.)",
+      "year": null,
+      "color": "#REF! (Reference does not exist.)",
+      "make": "#REF! (Reference does not exist.)",
+      "model": "#REF! (Reference does not exist.)",
+      "status": "#REF! (Reference does not exist.)",
+      "checkout": 0,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 0
+        },
+        {
+          "label": "Inverter",
+          "value": 0
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 0
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere"
     }
   ],
-  "updated": "2026-09-21T23:13:46.386808+00:00",
+  "updated": "2026-09-22T23:13:05.129665+00:00",
   "source": "Google Sheets API"
 }
