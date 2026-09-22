@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T21:51:00.388741Z",
+  "updated_at": "2026-09-22T22:12:54.333335Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -645,10 +645,15 @@
                   "author": "Devin DuMont",
                   "date": "2026-09-21 20:57",
                   "text": "Connected to vehicle and verified VCU to PMU CAN link was already established, it is not. Finalized drawing and highlighted the parts already installed."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-09-22 21:54",
+                  "text": "Met with Alex to review and handoff design. Updated Notes. Worked on the PMU program. Added in outputs for the contactors and heater logic unit. Renamed all IO consistent with the fleet and marked spared and not connected channels as such. Set the contactors up to use the same logic as the AC compressor for comming online after precharge. Found the CAN messages necessary for the battery heater and set that to only transmit on with a VCU request."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "247b287eab408a2f45ca1a4f253f6da80868943202bccdc360ee6d9527c9d170"
+              "content_hash": "10aa09e26f2c88a36f417b5f13f6cf910be21c08ed3580a417d43ef50ea0299b"
             }
           ]
         }
@@ -2537,5 +2542,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-22T21:49:07Z"
+  "generated_at": "2026-09-22T22:11:16Z"
 }
