@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T16:15:31.039220Z",
+  "updated_at": "2026-09-22T16:33:12.130734Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -80,30 +80,9 @@
         "matched_lists": [
           "Chuter 62 Healey"
         ],
-        "open_tasks": 3
+        "open_tasks": 2
       },
       "assignees": [
-        {
-          "name": "Billy Arrasmith",
-          "tasks": [
-            {
-              "id": "868m6ufe9",
-              "name": "Calibrate speedo",
-              "status": "Open",
-              "list": "Chuter 62 Healey",
-              "url": "https://app.clickup.com/t/868m6ufe9",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-18 22:44",
-                  "text": "speedo calibrated test drove and set the DD"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "48737f89239985ed2c5647ace3ec9f669723dc24f3d2357887e3d24df983ada3"
-            }
-          ]
-        },
         {
           "name": "Brandon Beaman",
           "tasks": [
@@ -1704,10 +1683,15 @@
                   "author": "Brandon Beaman",
                   "date": "2026-09-22 15:47",
                   "text": "Reverted Firmware from GEN5_CC_CM_20250514_6533 \u2192 GEN5_CC_CM_20240829_6531.\nVerified EEPROM settings remained persistent through the firmware revert.\nThe only four that disappear are the Active Short Circuit trio and the DC-link flux-weakening flag, and all four were reading zero on 6533, so no live configuration was lost.\nAttached below is the report from comparing before and after EEPROM settings.\n\nLee_Mustang_Firmware_Revert_Verification.pdf"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-22 16:26",
+                  "text": "Test drove vehicle.\nFound that the vehicle makes much more torque now. Enough to finally chirp the tires a little bit.\nHowever when the tires break traction the inverter has faulted out both times.\nTwo events, both a complete loss of drive\n\n\nDuring both, inverter current sits at 0.2\u20130.4 A and delivered torque at zero. The car is making nothing for forty seconds at a stretch.\nIn event 2 the driver clearly tried to get it back \u2014 at t = 355.6 to 356.4 the pedal goes 68%, 81%, 97%, command rises to 350 Nm, and the inverter still puts out 0.2 A.\n\nBoth trip at the same place\n\nBoth faults set on the very next sample after peak torque, during a hard launch from low speed.\nIt isn't torque on its own. Pull 2 made 591 Nm at 4,746 rpm and pull 3 made 589 Nm at 3,148 rpm, and neither tripped. Both trips were below 1,750 rpm. The envelope that kills it is high torque below about 2,000 rpm \u2014 which is exactly where phase current peaks and back-EMF is lowest, even though DC current is only ~200 A. With IQ_Limit_EEPROM at 1272 A, that corner is where the phase-current limit would bite first.\nNot thermal: inverter was at 42\u201344 \u00b0C and the motor at 24\u201340 \u00b0C at both trips. Stone cold.\n\nNeither clears on its own\nBoth events end only when HV is cycled. Bus goes 590 \u2192 260 \u2192 33 \u2192 0 V, validity flags drop for 8 s (event 1) and 3.8 s (event 2), HV comes back, fault clears. Nothing in the log suggests it would have recovered otherwise.\n\nNothing else flags it\nDrvInvtrDsblReason reads No Fault on all 11,582 samples. So do APPLimReason, LimpInModeReason and both HVSysDsblLevel codes. DrvMtrTrqVld and DrvInvtrCurVld stay at 1 throughout the fault \u2014 they only drop during the HV-off window. The raw DrvInvtrFault bit is the only thing that catches this, which is worth knowing for the tab spec and for anyone reading these logs."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "edad5432e1f75174a0e950466918864cf307e739317e16276d610c0401186377"
+              "content_hash": "cfe8606b549298c713edf1c9d37a372cb056a267fd94ec338f971ffef994c2c6"
             },
             {
               "id": "868m5njnw",
@@ -1888,9 +1872,20 @@
               "status": "Open",
               "list": "McDonough 77 Esprit",
               "url": "https://app.clickup.com/t/868km7t9d",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "David Webber",
+                  "date": "2026-08-06 13:12",
+                  "text": "31 mile road test. Motor & Battery circuits running cool. No DTCs. GUI ok... not dropping out as previously noted. Rear suspension is still quiet."
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-09-18 18:47",
+                  "text": "Road test vehicle & confirmed fast charging operation"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "16b663d18fbf511d04fc5891bd8783a045dcf757ee0ccc8a4b8950f005f0e1b3"
+              "content_hash": "592d5caf4e56b1188728f7b1508fba227943649cae5fec6372326a5ed7e0d079"
             }
           ]
         },
@@ -2612,5 +2607,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-22T16:13:20Z"
+  "generated_at": "2026-09-22T16:30:40Z"
 }
