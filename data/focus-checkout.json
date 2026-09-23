@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T21:49:51.593928Z",
+  "updated_at": "2026-09-23T22:14:06.811459Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -93,16 +93,6 @@
               "list": "Chuter 62 Healey",
               "url": "https://app.clickup.com/t/868g9vwju",
               "comments": [
-                {
-                  "author": "Devin DuMont",
-                  "date": "2025-11-07 23:41",
-                  "text": "Re-checked all three battery boxes with both serial interface and BMS text box. Filled out sheet alongside. Everything passed 100% on test box firmware build 62."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-05-14 03:09",
-                  "text": "Guided Andrew through VCU options based off the Vehicle Requirements Doc. Setup to flash PMU programs but needed the Lotus backups since they were most recent. Looked for key, couldn't find. Disconnected the Lotus PMU's from the main harness to pull them with the bench harness. Moved back over to the Healey and uploaded the PMU programs but ran out of time to go any further. Vehicle not yet key'd on with those loaded."
-                },
                 {
                   "author": "Devin DuMont",
                   "date": "2026-05-14 22:21",
@@ -217,6 +207,16 @@
                   "author": "Brandon Beaman",
                   "date": "2026-09-23 19:34",
                   "text": "image (8).png\nThe only thing that changed from then to now was the VCU firmware upgrade and the vehicle was fully charged overnight\nReverted VCU back to VCM_515_RC010813_ENone and the car returned to normal operating conditions. Throttle pedal delay was no longer present and the Regen never faulted the inverter. Multiple hard pedal stabs and could not get the Inverter to fault or the car to feel weird in any sort of way.\nCharging the vehicle back up to Full and retesting on the older 515 VCU firmware."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-23 21:53",
+                  "text": "After talking to Andrew and Marc the best bet is to actually move this car over to 517 since its the most stable release we have plus has all of the changes we need for the VCU already baked in."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-23 21:56",
+                  "text": "Flashing to VCM_517_R010902_Persist\nimage.png\nimage.png"
                 }
               ],
               "checklist_items": [
@@ -246,7 +246,7 @@
                   "resolved": true
                 }
               ],
-              "content_hash": "a8dd2db5ba3845b65941de663a3edbe6cd065e6a95ae1b89f1e81d5fbe63f67b"
+              "content_hash": "99cfafbe3558be99c7d0f6dac4d3da50f758c3152c6ced9d33e799a84e82a5af"
             }
           ]
         }
@@ -2694,5 +2694,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-23T21:48:17Z"
+  "generated_at": "2026-09-23T22:12:06Z"
 }
