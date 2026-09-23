@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T05:14:07.199798Z",
+  "updated_at": "2026-09-23T05:29:58.061596Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1189,55 +1189,9 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868jg5vhj",
-              "comments": [
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-05-08 19:34",
-                  "text": "Talk to Angel at Colvin"
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-05-15 17:37",
-                  "text": "Will discuss with Angel when Connolly is picked up."
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-05-21 19:36",
-                  "text": "Angel has the LB Upholstery Spec PDF. He'll review and get us an estimate. He will also look to source the Recaros."
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-05-29 18:09",
-                  "text": "Waiting on Angel's estimate."
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-06-04 23:18",
-                  "text": "Angel has estimate ready. Need to confirm seat pattern. He seems to prefer the vendor Relicate. NO luck on Recaros yet, both Angel and I are searching."
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-06-12 13:15",
-                  "text": "Need yardage numbers for material. Angel should have numbers for us today, 6/12."
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-06-17 16:20",
-                  "text": "Sent accent material measurements to Angel to confirm."
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-06-24 17:23",
-                  "text": "Estimate numbers shared"
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-08-14 16:36",
-                  "text": "Need to track down leather samples."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "3f41d74eb0ac2db5177ca5dc4a12805a0d098654630a6b04a3776e2242acbed3"
+              "content_hash": "d683478c375b9364201bf8445859244c6d1d769a118725c3da3bac25c2358198"
             },
             {
               "id": "868jg5vgm",
@@ -2235,5 +2189,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-23T05:12:47Z"
+  "generated_at": "2026-09-23T05:28:37Z"
 }
