@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T11:13:52.965382Z",
+  "updated_at": "2026-09-23T11:28:03.423990Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1892,9 +1892,15 @@
               "status": "Open",
               "list": "McDonough 77 Esprit",
               "url": "https://app.clickup.com/t/868m6fadr",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "David Webber",
+                  "date": "2026-09-23 11:27",
+                  "text": "Performed final wipe down of car for delivery"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "b0e4ced02a0b830e0647096d0fa0fe021ae8bd78548385872e36318791eed7d8"
+              "content_hash": "2c9d27315f5470c663a4c4147af72db359b7c1d27c1de5bdd360e21e926705a3"
             },
             {
               "id": "868km7t9d",
@@ -2557,5 +2563,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-23T11:12:05Z"
+  "generated_at": "2026-09-23T11:26:21Z"
 }
