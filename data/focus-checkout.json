@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T13:14:23.572766Z",
+  "updated_at": "2026-09-23T13:29:52.723471Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -203,7 +203,7 @@
                 {
                   "checklist": "Checklist",
                   "name": "Charge pack to 390V for at least 6-7 hours",
-                  "resolved": false
+                  "resolved": true
                 },
                 {
                   "checklist": "Checklist",
@@ -218,7 +218,7 @@
                 {
                   "checklist": "Checklist",
                   "name": "Perform overnight charge",
-                  "resolved": false
+                  "resolved": true
                 },
                 {
                   "checklist": "Checklist",
@@ -226,7 +226,7 @@
                   "resolved": true
                 }
               ],
-              "content_hash": "169a41ccdd376048cf2c21854d3e86014ccf9945de590397053be108e56f1d83"
+              "content_hash": "9e83752147b59e2658446e99836f0e90f5cbbff89b8f510abeedd9d1cf6e3dc6"
             }
           ]
         }
@@ -2563,5 +2563,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-23T13:12:33Z"
+  "generated_at": "2026-09-23T13:28:00Z"
 }
