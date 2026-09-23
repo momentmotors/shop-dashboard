@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T23:11:33.120754Z",
+  "updated_at": "2026-09-23T23:22:56.780526Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1240,10 +1240,15 @@
                   "author": "Aharon Adams",
                   "date": "2026-08-25 22:26",
                   "text": "attempted installations of dash components. not starting off well. may run into some issues with thickness of wood vs the backspacing of the hvac unit, not making contact so it doesnt sit flush. i may have to notch out the dash or file down the hardware on the hvac unit a little bit."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-09-23 23:12",
+                  "text": "toe panel modifications, kick panel shenanigans. will elaborate.\n\nI've run into an issue with the interior installation on LB. When I disassembled the interior, everything was nicely carpeted all the way up to the front, even the areas where the footwell blowers typically reside. At the time I took no notice, but there are supposed to be kick panels installed there in later cars to cover up the footwell blowers and their ducting. This car didn't have them, so they weren't necessary at the time.\nAlong the way, we decided to place the blowers and heat bricks in that area like we normally do, but I didn't recognize the downstream effect that would have. Today I went to install the interior panels and thought I'd misplaced them... turns out they never existed for this car.\nThe biggest issue is there are no reproductions I can find, and finding them used is nearly impossible too. Not sure why that is \u2014 I can't even find the part in the OEM catalog. I did find one used one on eBay and went ahead and ordered it, but I think I may end up trying to fit 964 versions instead. Spent a good chunk of the day combing through catalogs, websites, and eBay trying to track these down.\nI'm unsure what to do beyond that unless we have David Gonzalez make us something, or we scan and print them. For now, I think the cheapest route is ordering some used 964 parts and seeing what I can do with them. This puts a decent delay on the interior installation and may stall it for a while if we can't find replacement parts.\nHere are some pics of what I need."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "0002ada2572c1e77375f541fa2d10f02904ce44d5ecfd95b7ca81882696d1fed"
+              "content_hash": "63c98fe4ca934435ada021c8cd5b192e8660340b27721b5f2ca9b325a51510e7"
             },
             {
               "id": "868j7kytx",
@@ -2704,5 +2709,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-23T23:09:48Z"
+  "generated_at": "2026-09-23T23:21:09Z"
 }
