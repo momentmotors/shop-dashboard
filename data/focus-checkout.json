@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T23:51:19.033212Z",
+  "updated_at": "2026-09-23T00:34:05.204334Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1309,10 +1309,15 @@
                   "author": "Aharon Adams",
                   "date": "2026-09-21 22:48",
                   "text": "using claude to make a build doc. making decisions on wire colors for oem harness integration of telltale lights ( high beam etc.) build harnesses on bench. almost wrapped up with building. will be able to install tomorrow"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-09-23 00:15",
+                  "text": "finish wiring, and installation of gauges. used some time to clean up the oem wiring for the instrumentation behind the dash to keep it hidden, secured, and from rattling. power gauge is temporarily installed because i need to order a new gasket for it. It seems like Peterson makes their gauges just a little undersized for ease of installation but that means i cant use my typical method of using tessa tape for install. i need the oem gasket johnny."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "8f9c8fcd9a63730f1841c0e56925721e5169c0cd95ac07e0b47518e761d5d843"
+              "content_hash": "2a5598892443cf16a0f06334d1edfbba51b70e6b1822fd3d91ad4df86042f022"
             }
           ]
         },
@@ -1913,131 +1918,9 @@
               "status": "Open",
               "list": "McDonough 77 Esprit",
               "url": "https://app.clickup.com/t/868jkmucy",
-              "comments": [
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-05-13 04:47",
-                  "text": "Walked Andrew through the vehicle requirements sheet and filled in all the information possible. Went to flash inverter firmware, cable wouldn't connect physically, looks like the wrong gender. Made quick cable changer. Connected to inverter, pulled EEPROM backups for the main settings, RTD calibrations, and control loop settings. Flashed firmware 6533 and started on the EEPROM combing. Had Claude look at the EEPROM compare tool since it wasn't working for some reason. Compared the Ampere, Moment, and Stock W EEPROM files and decided on an updated blend with weight towards the Ampere settings, made a Master EEPROM column in the startup sheet to permanently capture these. Flashed and backed up everything. Moved on to the VCU, flashed the latest firmware, transfered settinngs from the vehicle requirements sheet and noted with comments where it was lackinng / not super clear. Transfered clear settings to the VCU and marked ones that needed to be reviewed at a later date. Upgraded the PMU's to the latest firmware and flashed the Preheim calibration, which matches closest. Later this week when Preheim HVAC is finished it should be considered to re-flash that program over to here if zero changes have been made to McDonough. Moved over to OBD port which is not reading the PMU CAN but was able to use the PMU checkout box to monitor current while Andrew forced on all channels controlled by the VCU. Started to hookup HV and ran into an HVIL issue, narrowed it down to an IMD box which checked good earlier. Either it's a different IMD box that was actually installed in the vehicle or the vehicle harness has an issue."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-05-14 02:57",
-                  "text": "Measured CAN network resistances and found CAN3 at 105 Ohms. Temporarily added a resistor to CAN3 to correct the termination. Found PMU CAN1 was flipped high and low causing the laptop to not connect, had brandon fix that. Verified HVIL now satisfied with Daves fix, plugged in the rest of the HV acessories. Enabled HV from the VCU and watched precharge. Verified L2 charging and DCDC output and marked off in the sheet. Discovered bug where PMU was sending output status 1 for all channels, corrected. Will need to fix on three other vehicles. Monitored VCU while testing brake switch. Ended up overriding from the VCU to move on. Calibrated the resolver and continued testing brakes with Dave. Took the vehicle for a test drive and updated the punch card."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-05-19 23:27",
-                  "text": "Drew up HVAC summary diagram for understanding of which control needs to be configured where. Corrected incorrect VCU options marked off as done during rush last week. Verified all input switches making it to the right controller and all outputs switching on the correct device. Watched AC cycles with Dave & adjusted setpoints per his suggestion. Tested cabin heat, drawing 2kW and internally shutting off at 70C, might be a blend door problem that is not removing the heat from the heater core."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-07-24 22:19",
-                  "text": "Removed the temp temperature logger from Preheim and wired up some thermistors to take the place of the permanent ones in the battery box. Adjusted the logger setup slightly and setup to log temps on Hastert out in the sun. Temperature results at 5pm:\n\nTop of Dash: 32.9 C\nTop of Battery Box: 36.9 C\nSide of Battery Box: 34.6 C\nSide of Battery Box (In the air): 41.8 C\n\nLooks like the air around the box is significantly hotter, test might not have ran long enough. Should re-try on the Lotus."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-08-06 21:15",
-                  "text": "Picked up on startup. Scanned the sheet to get an overview of what's left. Changed the inverter setting for breakspeed to match the W type motor. Setup second GitHub account with the email Andrew used. Pulled the latest VCU firmware and release notes. Hooked up to vehicle to flash and the passenger window seemed to be stalling. Shut off vehicle and discussed with Dave."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-08-07 22:31",
-                  "text": "Ran through the checkout sheet filling in the items remaining section. Flashed the latest AWD firmware and verified options. Left on charge the rest of the day and monitored."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-20 22:41",
-                  "text": "Pedal Launch Gain adjusted from 70 -> 50"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-03 15:37",
-                  "text": "image.png\nEntered Vehicle weight and Gear Ratio into the VCU"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-03 23:08",
-                  "text": "Messaged Ryan to acquire the Wifi Credentials.\nWifi creds gathered. Notified Devin to upload creds to the logger.\nUploaded the vehicle weight and gear ratio into the VCU. Left the parameters on Display since the vehicle has been working well and as intended at this time.\nAddressed CAN 3 termination issue. Missing term resistor. Added a removable term resistor at the OBD port.\nSpoke to Marc about updating the GUI. We decided that we should leave it as is to prevent any possible failures on a complete car."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-09 13:44",
-                  "text": "Pre Flash\nimage.png\nimage.png\nimage.png\nimage.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-09 13:48",
-                  "text": "image.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-09 13:59",
-                  "text": "Post Flash\nimage.png\nimage.png\nimage.png\nimage.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-09 15:18",
-                  "text": "Flashed the VCU firmware to the latest firmware.\nSpent sometime setting up the RDIS file to have our HVAC diag and settings in the HVAC tab.\nSubmitted before and after screenshots to Claude to determine what settings changed pre and post flash.\nthe only setting that \"changed\" was the LaunchGain. In the old settings we had it set to 50 at drive factor 8. The thing is this car has a drive factor of 11.2 so that setting was never actually being used. So we updated that setting to 50 on this new firmware. Will need to test drive the vehicle to verify.\nMade necessary adjustments to the VCU settings to match pre flash.\nVCU updated and good at this time. Continue with Test drive of the vehicle to verify operations are all good still at this time."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-10 22:02",
-                  "text": "Uploaded wifi credentials to CAN logger."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-21 13:56",
-                  "text": "image.png\nimage.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-21 13:59",
-                  "text": "Uploaded backup files of the Inverter EEPROM Settings and the PMU Project files.\nCheckout for this vehicle should be done.\nWill likely need to use some time to finish up documentation before the car leaves"
-                }
-              ],
-              "checklist_items": [
-                {
-                  "checklist": "Checklist",
-                  "name": "Address CAN3 Termination issue (currently 110 ohms)",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Add wifi credentials",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Enter vehicle weight",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Update GUI to lastest version",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Verify gauges after reinstallation",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Test fast charging",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Perform overnight charge",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Verify inverter break speed",
-                  "resolved": true
-                }
-              ],
-              "content_hash": "e63d160e1b093fab2ac0e2ee56dcced937de4b82cb0c77419b1dcc452d27b9a7"
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
             }
           ]
         }
@@ -2193,15 +2076,9 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868kzaq6r",
-              "comments": [
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-03 20:58",
-                  "text": "Greased front and rear leaf spring pivot points"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "99f8eeeaf4739735b3db8035734bd1c654ad4e0034f2d6a4ef70d831b32fe6df"
+              "content_hash": "dfcfa914428437333c0ae6fcb4dab8f221c044a55e935e2319ae1c20a72046fb"
             },
             {
               "id": "868m63v76",
@@ -2219,15 +2096,9 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868m6uehh",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-18 22:49",
-                  "text": "removed the dr side axle\ntook the U-Joint out\nwaited for the new joint\nfirst one was wrong\ngot the right one\ninstalled U-Joint\nreinstalled axle\ntest drove truck\ndrives great"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "2b1cd7a3ddef873ea6fac4b77cfe8cca50628ec361a6bc1282366188f6ba1cd3"
+              "content_hash": "83f5b0057d0375e695b5e7475b0efeff3c5c1da8e27a114558fd5c62d6eede1b"
             },
             {
               "id": "868m81x7t",
@@ -2250,15 +2121,9 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868m823za",
-              "comments": [
-                {
-                  "author": "David Webber",
-                  "date": "2026-09-22 16:43",
-                  "text": "Additional road testing & \"driving\" vehicle on jack stands. Left front wheel bearing noisy"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "60c067b4ab841ca788a05d35000ec2b45c71055fdfe9a25596954c677f2d1ec2"
+              "content_hash": "dfcfa914428437333c0ae6fcb4dab8f221c044a55e935e2319ae1c20a72046fb"
             },
             {
               "id": "868kzaq6r",
@@ -2266,15 +2131,9 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868kzaq6r",
-              "comments": [
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-03 20:58",
-                  "text": "Greased front and rear leaf spring pivot points"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "99f8eeeaf4739735b3db8035734bd1c654ad4e0034f2d6a4ef70d831b32fe6df"
+              "content_hash": "dfcfa914428437333c0ae6fcb4dab8f221c044a55e935e2319ae1c20a72046fb"
             },
             {
               "id": "868m6f2w9",
@@ -2282,25 +2141,9 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868m6f2w9",
-              "comments": [
-                {
-                  "author": "David Webber",
-                  "date": "2026-09-18 19:02",
-                  "text": "Road tested again for rotational noise(s) heard by marc. Drive vehicle on rack for rotational nose diagnosis. Noted failing Ujoint at left front axle."
-                },
-                {
-                  "author": "David Webber",
-                  "date": "2026-09-21 19:01",
-                  "text": "Continued road testing. I'm noting tire noise for now. Tomorrow I'll run the car again on jack stands to continue diagnosis."
-                },
-                {
-                  "author": "David Webber",
-                  "date": "2026-09-22 15:55",
-                  "text": "Additional road testing & \"driving\" vehicle on jack stands. Left front wheel bearing noisy"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "e2a5cc93ac09cf2714f28d792320a58bc2c461a75b93ff33af65e866fd461c68"
+              "content_hash": "5e2e22b328adb322794115540010e430f049f2ff6e66f8457b83415f5251e793"
             },
             {
               "id": "868m4x3uh",
@@ -2308,30 +2151,9 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868m4x3uh",
-              "comments": [
-                {
-                  "author": "David Webber",
-                  "date": "2026-09-14 18:26",
-                  "text": "Multiple noises from tailgate and hard top\ntailgate latch and rods and release handle banging around in tailgate - removed components, installed dampening + lube and adjust\nTailgate and hardtop remaining noises \u2026\n- Missing bumper stop for tailgate - ordered replacement\n-tailgate straps noisy.. order nylon shims for an ATTEMPT to tighten these up\n-Rear window still knocking (side/side) in frame during bump/flex\u2026 already thick anti-rattle rubber here\u2026 There is cracking damage/repairs here ... this may be as good as it gets?\nHardtop latches loose and dry. - Adjust, tighten and lube. Rear window seal dry and creaking - clean/lube seal\nCreaking/squeaking from door/hood latches - clean/lube latches\nCenter console squeaks/rattles - VHB chrome trim in place, make and install felt bumpers for lid and ashtray insert"
-                },
-                {
-                  "author": "David Webber",
-                  "date": "2026-09-17 16:13",
-                  "text": "Continued road testing for creak/rattle abatement. Fashion & affix a pair of hard rubber wedges to hard top rear window/gate to restrict side to side movement & rattling. Got with Billy to source replacement door panel clips. Once these arrive I'll address noisy window & lock mechanisms in each door. I'll also get the truck in the air to explore rotational noises once the lift is free."
-                },
-                {
-                  "author": "David Webber",
-                  "date": "2026-09-17 17:27",
-                  "text": "I've got 7hrs in this task & I'll probably spend another 4? See above comments"
-                },
-                {
-                  "author": "David Webber",
-                  "date": "2026-09-22 15:54",
-                  "text": "Removed door panels & insulated window lift motors to prevent them from rattling"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "22da8fddca38576078466d440a2d08a541bf5e5397dad610ae0226f8339cca86"
+              "content_hash": "8fea1d6d1af49160ab84bcb7db71aea2821b265f67709e5cde86abebe31c7e84"
             }
           ]
         },
@@ -2344,95 +2166,9 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868krfacg",
-              "comments": [
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-27 22:42",
-                  "text": "Had to gather LDU EEPROM settings to move to Ritchie.\nEnabled AC Condensor Fan in vcu.\nVerified operations with billy.\nCondenser fan and motor currently set to always stay on when AC is enabled."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-16 15:09",
-                  "text": "Meeting about what needs to be done and when checkout needs to be finished.\nVerified CAN logger data uploaded to the vehicle and wifi credentials added.\nUploaded screenshots for verifications and future reference."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-18 22:11",
-                  "text": "New RDIS set up for new firmware. Prep for checkout once vehicle is on the road again.\nCurrently waiting for repairs to be finished."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-21 16:48",
-                  "text": "image.png\nOriginal vehicle parameter settings. This is wildly incorrect. Will need to adjust this appropriately based off of the GUI information since this truck has been working as intended."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-21 16:50",
-                  "text": "image.png\nAdjusted based on GUI settings"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-21 16:54",
-                  "text": "Pre Flash Screenshots\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-21 16:58",
-                  "text": "Flashing to VCM_519_RC010903_Persist\nimage.png\nimage.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-21 17:03",
-                  "text": "Post Flash Screenshots\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-21 17:08",
-                  "text": "Adjustments\nimage.png\nimage.png\nimage.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-21 17:54",
-                  "text": "Adjustments\nimage.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-21 17:56",
-                  "text": "Based on the diff screenshots there are no other major changes we need to make at this time. Most of these will remain as they are in the new flash and will need to be tested before saying this is the final.\nimage.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-21 18:00",
-                  "text": "image.png\nimage.png\nAdjusted Inverter temp from 80c to 95c"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-21 18:23",
-                  "text": "Adjustments\nimage.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-21 19:53",
-                  "text": "image.png\nimage.png\nUploaded PMU project Files and EEPROM settings on the drive for future reference and store backups for potential field repairs."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-21 20:06",
-                  "text": "VCU flash and settings update.\nVerified settings and made adjustments as necessary.\nWaiting for Marc to test drive the vehicle to verify the feel of everything.\nUploaded all necessary documents to the drive for future reference and or field repairs.\nTest drove the vehicle with Dave since he needed to inspect for sounds and NVH.\nVCU is updated to latest firmware as of 09.21.26. VCM_519_RC010903_Persist"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-21 20:11",
-                  "text": "Date: Monday, September 21, 2026\nVehicle/System: Preheim 72 Blazer \u2014 Ampere EV VCU (New Eagle VCM_519), AWD, serial 2903741625\nFirmware: DiagCANSW 1.8.13 / build 516 \u2192 1.9.3 / build 519 (VCM_519_RC010903_Persist)\nClickUp: Checkout vehicle \u2014 Monthly Goal, Preheim 72 Blazer \u00b7 Open \u00b7 High \u00b7 due Sep 30 \u00b7 2.75 h logged (2.75 h over)\nObjective\nComplete VCU checkout on Preheim: correct the vehicle parameter set, flash to 1.9.3, identify and restore anything the flash reset, road-verify feel and NVH, and secure delivery backups.\nWhat we did\nReviewed the existing vehicle parameters and corrected them against the GUI values, since the truck has been driving as intended. Captured a pre-flash screenshot set, flashed to 1.9.3 / build 519, captured a post-flash set, and ran a field-by-field comparison to separate real changes from resets. Applied the live corrections, adjusted inverter thermal limits, and road-tested with Dave for sounds and NVH. Uploaded EEPROM and PMU project files to the Drive as delivery backups.\nKey findings\nThe AWD tab is the live one \u2014 most of the reset list is moot. Preheim runs AWD, and every table with an AWD variant kept its pre-flash values: the pedal map and axis, the high-regen brake table and speed axis, and the torque and regen rate limits. The flash reset those calibrations on tables this truck doesn't use. That's why regen felt unchanged on the road test, and it's the key difference from Ritchie.\nNegative torque limit left at \u2212400. Pre-flash showed \u2212200, post-flash \u2212400; Ritchie also runs \u2212400. Marc's call: \u2212400 is fine \u2014 other limiters mean we never actually reach it.\nOriginal vehicle parameters were wildly incorrect. Corrected against the GUI values rather than the stored set, on the basis that the truck has been working as intended.\nThe gearing numbers don't match the hardware. Preheim's settings back-calculate to a 4.28 ring and pinion with 33-inch tires. The truck is definitely on 31-inch tires, and the ring and pinion is unconfirmed. Left as-is for now because the truck's speedo is reportedly correct \u2014 but the stored parameters describe a vehicle this isn't. Related: Billy noted someone swapped axles, which would explain why the lash on Ritchie is far less than Preheim's.\nInverter thermal limit raised 80 \u00b0C \u2192 95 \u00b0C.\nRegen feels appropriate on the road test, consistent with the AWD-tab finding above.\nThirteen tabs are unverified \u2014 no screenshot on either side of the flash, so nothing was compared on them.\nPrior work on this checkout\nAug 27 \u2014 Pulled LDU EEPROM settings to move to Ritchie. Enabled the A/C condenser fan in the VCU; verified operation with Billy. Condenser fan and motor currently set to stay on whenever A/C is enabled.\nSep 16 \u2014 Scope and timing meeting. Verified CAN logger data loaded to the vehicle and wifi credentials added.\nSep 18 \u2014 New RDIS built for the new firmware, staged for checkout. Held pending completion of repairs.\nArtifacts produced\nPre-flash (6) and post-flash (7) screenshot sets, plus adjustment captures \u2014 31 attachments on the ClickUp goal\nField-by-field pre/post comparison\nEEPROM and PMU project files uploaded to the Drive \u2014 flagged to the channel as the only backups that exist for these two, since neither is reported in the VCU log. Any change to them has to be documented and the Drive files updated.\nStatus\nFlash complete; live changes identified and mostly addressed. Road-tested with Dave for sounds and NVH \u2014 regen feel is appropriate. Delivery backups secured on the Drive. Not final \u2014 awaiting Marc's test drive, and per the diff review the remaining post-flash values stay as they are until tested. VCU is on VCM_519_RC010903_Persist as of 09.21.26."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-22 20:07",
-                  "text": "Used some time for checkout documentation.\nVehicle_Checkout_Completion_Form_1.pdf"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "25da10fbb93b1f4424f5575443d7e171fd427ca149da2f695a00329460ef7921"
+              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
             }
           ]
         },
@@ -2514,45 +2250,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kpg6th",
-              "comments": [
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-11 00:43",
-                  "text": "Bed cap cover options sourced and relayed to Blazer group. Decision to be made"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-11 16:29",
-                  "text": "Game plan made for Blazer bed caps.\nCovers ordered"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-18 00:13",
-                  "text": "Blazer caps arrived\nCaps mocked up\nTrimming in process\nPassenger side trimming roughed in"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-18 00:18",
-                  "text": "1000014711.jpg1000014710.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-18 22:24",
-                  "text": "Driver and Passenger side caps have been trimmed and modifications have been finalized.\nCovers will be attached after interior side panels have been installed as the caps overlap the interior panels"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-18 22:26",
-                  "text": "1000014734.jpg1000014735.jpg1000014736.jpg1000014737.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-14 23:35",
-                  "text": "Mark all areas for paint touch up"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "9eb78b8bcf5b08f74d11f41417fb1bc2b4e02669263f97d5ba7f7274c6286f5b"
+              "content_hash": "5f784fc4355ea24b3d7ab5fac0fd2f9fdb3c6da70b26b29130030605b994b98a"
             },
             {
               "id": "868ka4d5e",
@@ -2585,20 +2285,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868m7k11q",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-21 20:33",
-                  "text": "talked with Ryan Marc and Cory about paint\nsettled on full paint\nI had Chris come and look at it spent some time going over the truck\nwe will bust our butts to get it done on time"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-21 23:31",
-                  "text": "dropped of the Blazer\nhelped with disassembly\ngot it all taken apart\nready for taping interior off and sanding"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "84141e6caba15b322c7ffd250bb52d38cced305f038cd788e4b702245992de7d"
+              "content_hash": "e01310bf6f1428a8b46b1682455c530a2bbc8ce83a33cec215985dd2d098a2de"
             },
             {
               "id": "868kmp9tm",
@@ -2606,15 +2295,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kmp9tm",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-07 13:24",
-                  "text": "test fit the battery lid\nit is ready for LOGO and PC\nIMG_1830.jpeg\nIMG_1829.jpeg\nIMG_1827.jpeg\nIMG_1826.jpeg\nIMG_1828.jpeg"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "2aa8a1589ae675ef2968cbacc6f98d00daf87b8afd119e17e8350d38e262df2c"
+              "content_hash": "25977cfdfe0fd6dc5303338eb465f4ded373d84fa04ebe79c10f1e716c4899e4"
             }
           ]
         },
@@ -2627,15 +2310,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kv07mr",
-              "comments": [
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-08-24 13:15",
-                  "text": "Colvin's picked up the center console Friday, 8/21"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "ea55d8dc41e520a032549b095ae1d521530f36e7313df2e087e349bcd8fe2461"
+              "content_hash": "37096c993a29d491a8c621440518a2b31e58cef53e742fd27b64634297be8390"
             },
             {
               "id": "868m4ae1z",
@@ -2658,80 +2335,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868m40fu8",
-              "comments": [
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-10 23:46",
-                  "text": "Found that the logger in this vehicle was not configured for our bucket nor were the wifi credentials setup to start logging as we test drove the truck.\nWent through and configured the Logger to our bucket and Added Billy's wifi credentials to the logger.\nTest and Verified with Marc that the truck was now uploading logs.\nTruck Now uploading logs and should be good to for Logging.\nOnce we have the Clients wifi credentials I can upload these ASAP."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-11 20:16",
-                  "text": "Adjusted Tire diameter according to Billys Measurements from 0.838 to 0.800\nWill need to test drive vehicle and verify."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-16 15:52",
-                  "text": "Verified CAN logger information is updated and applied to the truck.\nUploaded screenshots for verification and future use if necessary."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-16 15:52",
-                  "text": "Meeting Covering checkout necessities and when the vehicle needs to be done."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-18 15:55",
-                  "text": "Pre Flash\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-18 15:59",
-                  "text": "Flashing to VCM_519_RC010903_Persist\nimage.png\nimage.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-18 16:04",
-                  "text": "Post Flash Pre Corrections\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-18 16:41",
-                  "text": "Settings To Adjust\nimage.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-18 16:58",
-                  "text": "Corrections\nimage.png\nimage.png\nimage.png\n\n\nRDIS Additions\nimage.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-18 17:13",
-                  "text": "Inverter Corrections\nFrom\nimage.png\nTo\nimage.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-18 17:28",
-                  "text": "image.png\nimage.png\nInverter and PMU Backups Uploaded to the drive under the Vehicle Folder."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-18 21:42",
-                  "text": "image.png\nAdjusted Increase Rate Rate"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-18 22:08",
-                  "text": "Date: Friday, September 18, 2026\nVehicle/System: Ritchie 71 Blazer \u2014 Ampere EV VCU (New Eagle VCM_519)\nFirmware: DiagCANSW 1.8.13 / build 516 \u2192 1.9.3 / build 519 (VCM_519_RC010903_Persist)\nStatus: VCU adjustments finalized\nObjective\nFlash Ritchie to the new 1.9.3 VCU firmware, identify every calibration the flash reset to factory defaults, restore the shop's drivability settings, and validate regen behavior on road.\nWhat we did\nCaptured a full pre-flash screenshot set across all tabs, flashed to 1.9.3 / build 519, and captured a matching post-flash set. Ran a field-by-field pre/post comparison to find what did not carry over. Restored the affected calibrations with Marc's direction, then ran three instrumented test drives \u2014 a regen baseline, a BrkTrqReqTblHigh validation run, and a final AWD-enabled run \u2014 logging each to CSV. Backed up the inverter and PMU configurations to the Drive. Cross-referenced Ritchie's tables against Preheim's for a known-good reference. Closed out the remaining rate adjustment at end of day; VCU calibration is now final.\nKey findings\nTen calibrations did not survive the flash. Everything else on the eight comparable tabs was identical. The losses cluster in two places \u2014 pedal/torque and high-regen braking:\nPedal and torque\nAPPTrqReqMapEco \u2014 full pedal was 50% torque, reset to 100%\nAPPTrqReqMap (Normal) \u2014 full pedal was 75% torque, reset to 100%\nAPPTrqReqMapSport \u2014 still 100% at top, but sharper off idle (20% pedal was 20% torque, now 30%)\nPedal axes (APP11IdxArr, \u2026Eco, \u2026Sport) \u2014 were even 10% steps, now 0/4/10/20/30/40/50/62.5/75/87.5/100\nDrvTrqReqFiltTC 0.005 \u2192 0.050 s\nDrvTrqReqRateLimIncTbl 300 \u2192 500 Nm/s at 0 kph; 2500 \u2192 3000 Nm/s at 100 kph (~62 mph)\nDrvTrqReqRateRateLimInc 25000 \u2192 1500 Nm/s/s\nBrake regen \u2014 Driver_RegenLevel reads High on this truck, so all four are live:\nBrkTrqReqTblHigh was a flat \u22121.25 / \u22121.40 / \u22121.50 m/s\u00b2 at every vehicle weight; now weight-tiered \u22120.30 to \u22121.10. Materially less braking regen.\nVehSpd07IdxArrHigh first two breakpoints 0 / 2 kph \u2192 5 / 12.5 kph (0 / 1.2 mph \u2192 3.1 / 7.8 mph)\nRegenTrqReqRateHighLimInc \u2212100 \u2192 \u221250\nRegenRateLimHighIncTbl \u2212100 / \u2212100 / \u2212300 / \u2212400 / \u2212400 \u2192 flat \u221250\nDrivability is now scaled, not per-table. 1.9.3 replaces the three separate pedal maps with a single table plus an Eco/Normal/Sport percentage. Per Marc, set back to 50 / 75 / 100.\nA hidden torque limit was masking the regen fix. DrvMtrTrqLimMn_AEM_LDU_Sport sat at \u2212400 pre-flash; we adjusted it to \u2212300 before test driving. Marc confirmed the previously-fixed \"800s\" had a limit underneath that wasn't accounted for. Table re-adjusted.\nThe \u221250 rate was a red herring. On review, the RegenRateLimHighIncTbl \u221250 is a rate, not the cap \u2014 reset to \u221250 and moved on.\nRestoring BrkTrqReqTblHigh changed feel, not magnitude. With the table set back to pre-flash values for the truck's current weight category (all other fields untouched), regen braking became noticeably more responsive but not any stronger. Logged as VCM_519_Motoring Diag_2026_09_18_01_56_27.csv.\nA/C pressure protection carried over clean \u2014 including the bug. All fifteen fields identical pre to post: static and running high/low thresholds, all four time thresholds, sensor gain, offset and filter. ACPress_RunLow_Thr still reads \u2212500 / \u2212475 kPa. Since this flash overwrote ten other calibrations and left this one alone, \u2212500 is Ampere's own default, not a shop entry \u2014 the same negative threshold seen on Lee's Mustang and on Preheim.\nAWD tab restructured. BrkTrqReqTblAWD is new in 1.9.3 \u2014 Preheim doesn't have it (old firmware), so the \u22122.2 reference point it was compared against isn't real; Preheim's table reads \u22121.5, matching how Ritchie is set now. Andrew dropped the weight dimension entirely on the new AWD table; it's speed-based only, which is the same table we changed last time that moved DrvTrqReqRaw from \u221249 to \u221293.\nPark brake / E-Stop: closed, no action. Wilwood actuator timings carried over unchanged. E-Stop entries are hardware this truck doesn't have.\nFinal calibration state\nVCU adjustments on Ritchie are finalized as of end of day. The last change was the increase rate-rate setting (DrvTrqReqRateRateLimInc), adjusted and screenshotted at 4:42 PM after Marc's review of the AWD-enabled log. No further table changes are outstanding on this truck.\nTest drives and logs\n\nundefined\nTruck is back on and uploading the AWD-enabled log.\nArtifacts produced\nFull pre-flash and post-flash screenshot sets, all tabs \u2014 attached to the ClickUp monthly goal\nField-by-field pre/post comparison table\nInverter and PMU backups uploaded to the Drive under the Vehicle Folder\nPreheim RDIS comparison (old vs. new) for reference\nThree instrumented drive logs (above)\nStatus\nFlash complete and stable. All ten reset calibrations identified and addressed; drivability, torque-limit, and regen rate settings restored and validated on road. VCU adjustments finalized \u2014 no open changes on this truck. Backups secured. Remaining work is display/logging additions and the Ampere threshold item, none of which block the vehicle.\n\n\n\nSpent quite a bit of time today pretty much all day getting through checkout on this vehicle.\nMost of the time spent today was testing and tuning the new VCU AWD firmware with Marc.\nThe EOD report above has a good summary of all the details.\nBilly is taking the vehicle home this weekend to test everything.\nAny issues needing to be resolved will be relayed to me ASAP."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-21 16:00",
-                  "text": "VCU Changes Update\n\nRitchie Blazer speedo corrected. The notes below are using the 0.838 meter tall tires (33 inches)\n\nLDU with the Fellten Re Gear has a ratio of 4.1.\nOriginally we had the ratio for the Ring and Pinion set to 3.73\nThis gave us a Final Drive Ratio (FDR) of 15.293\n\nThis had approx. a 10-15mph error where actual speed was slower than indicated.\n\nAfter some calculations we did some research and found that the Ring and Pinion ratio of 3.23 was first off possible for these axles to have. Second that the ratio of 3.23 would make the corrections we needed.\n\nTest Drive showed good at this time. With the GPS speed and Indicated speed being approx 1-2mph off now at 60mph.\n\nWith the LDU at 4.1\nRing and Pinion at 3.23\nThat puts FDR at 13.243\n\nThis is where the truck has been set to and is currently. Let me know if we need to make any final adjustments. (Based on calculations 13.7 FDR would correct the 2mph ish error at 60mph if we really want to try and fine tune this thing."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "2848240e13b368be1c5dd2a540ea96a322e9b14f25e520ebe376727afa64d19f"
+              "content_hash": "83bb4f939a841271259612353f26a6babb67e422ab4f557b85b2019d3d381794"
             }
           ]
         },
@@ -2941,5 +2547,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-22T23:48:44Z"
+  "generated_at": "2026-09-23T00:32:37Z"
 }
