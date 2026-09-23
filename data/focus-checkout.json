@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T22:14:06.811459Z",
+  "updated_at": "2026-09-23T22:26:56.142260Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -93,11 +93,6 @@
               "list": "Chuter 62 Healey",
               "url": "https://app.clickup.com/t/868g9vwju",
               "comments": [
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-05-14 22:21",
-                  "text": "Continued startup. Verified some VCU options and the PMU program was loaded correctly yesterday. Flashed firmware to the inverter and configured EEPROM. Checked several PMU channels. Worked with Andrew & Brandon to pass along possible parts of the PMU checkout process. Marked items off in sheet as Brandon was learning."
-                },
                 {
                   "author": "Devin DuMont",
                   "date": "2026-05-15 21:03",
@@ -217,6 +212,11 @@
                   "author": "Brandon Beaman",
                   "date": "2026-09-23 21:56",
                   "text": "Flashing to VCM_517_R010902_Persist\nimage.png\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-23 22:19",
+                  "text": "Marc test drove the vehicle. Everything seems to be working as intended.\nWill have to continue testing. Possible marc can drive the car home depending on the weather."
                 }
               ],
               "checklist_items": [
@@ -246,7 +246,7 @@
                   "resolved": true
                 }
               ],
-              "content_hash": "99cfafbe3558be99c7d0f6dac4d3da50f758c3152c6ced9d33e799a84e82a5af"
+              "content_hash": "38a6092dfed4370bd893273cbcfd21e18cd772f6262e785c3e1ca328402d52f9"
             }
           ]
         }
@@ -1768,10 +1768,20 @@
                   "author": "Brandon Beaman",
                   "date": "2026-09-23 16:58",
                   "text": "This is with the Torque rate set back to 50. No real change there.\n\nWasn't able to get diag data. RMS GUI wouldn't open. Diving into that next. Could be indicator to a damaged harness if I cant get this setup to work on another vehicle.\n\nHere a couple claude responses.\n\nQ: Could this be drivetrain?\nDrivetrain momentum is probably what sets it off, but it can't be what the resolver is reading. The logs show both effects, and they differ by a factor of about 40.\nReal driveline motion is slow. In the 10 ms log, the motor speed rings after the trip as the driveline unwinds:\nIt drops from 1,632 to 1,516 rpm, back up to 1,709 rpm, and keeps ringing about every 140 ms.\nThat's a swing of about \u00b1100 rpm at roughly 7 Hz, the driveline winding up and springing back once the torque disappears.\nThe current loop copes easily with a speed change that slow and small.\nThe resolver disturbance is far faster and far bigger:\nIt swings at about 300 Hz.\nIn a fraction of a millisecond, the resolver reports the speed dropping to about a quarter of 1,650 rpm, then doubling, then briefly reversing.\nFor the rotor to really do that, it would need well over 10,000 Nm acting on it. The motor makes 580 Nm. Even a hard shock from the tires hooking back up can't come close to that at the rotor without breaking something. So the rotor isn't moving the way the resolver says.\n\n\nQ: Could this be Torque Rate Limit?\nProbably not. The rate limit only slows down how fast the torque command can change. At the trip the command wasn't changing, and the ramps in the logs never reached either limit.\nWhat the setting means. Cascadia's software manual defines Torque_Rate_Limit_EEPROM as torque increase per 3 ms:\nSettingPer 3 msPer secondOld: 505 Nmabout 1,670 Nm/sNow: 707 Nmabout 2,330 Nm/s\nCascadia only warns about stability above 70 Nm per 3 ms (a setting of 700, about 23,000 Nm/s). Lee's 7 Nm is a tenth of that.\nWhy it isn't causing the trip:\nThe command was flat when it tripped. In the diag file the current commands (Iq_cmd / Id_cmd) held steady for the whole 26.7 ms before the trip. A rate limiter only acts while the command is rising or falling, so it had nothing to do. The current ran away while the command sat still, the same point that rules out shudder compensation.\nThe trips didn't ramp as fast as the limit allows. The steepest actual torque rise in each pull, from the logs:\nPullSteepest torque riseTrip 1~1,700 Nm/sTrip 2~1,500 Nm/sTrip 3~700 Nm/sClean rolling pull~2,280 Nm/s\nThe pedal and the VCU's own ramp set these rates, not the inverter setting. Even at the old 5 Nm limit, trips 2 and 3 would have ramped the same way.\nThe fastest ramp didn't trip. The clean rolling pull came right up against the 7 Nm limit and ran fine. All three trips ramped slower.\n\n\nQ: Could the Gamma be affected with a new cable?\nNot if the new cable is wired pin for pin the same. Gamma adjust corrects for where the resolver sits on the shaft relative to the rotor magnets. Cascadia's software manual describes it as compensating for the resolver's position on the shaft. A cable swap doesn't move anything mechanically, so the offset shouldn't change.\nVerify after the swap:\nDirection: with the motor stopped, turn the shaft slowly by hand in the forward direction.\nGamma_Resolver should count up and wrap from 360\u00b0 to 0.\nSin_corr and Cos_corr should trace a circle.\nIf the angle counts down or doesn't move, a pair is swapped or reversed. That shows up as a 90\u00b0 or 180\u00b0 error, or the motor won't run at all, not a small drift.\nOffset check: coast the motor down with the inverter disabled and read Delta_Resolver_In_Fil. It should read +90\u00b0 forward (or \u221290\u00b0 in reverse), within \u00b10.7\u00b0.\nIf it's within that, leave Gamma_Adjust at 34.7\u00b0.\nIf it's outside that, redo the calibration per section 4.1.3 of the manual.\nSpinning the motor generates HV even with the inverter off, so follow the manual's precautions.\nIf the new cable is a different length or type: it can delay the resolver signals relative to the excitation. That doesn't shift the angle, because sin and cos are delayed equally. It does lower the signal amplitude the inverter reads, which makes it more sensitive to noise. Cascadia has a Resolver PWM Delay setting that tunes when the inverter samples the resolver signal (default 1100). Look at the sin/cos amplitude after the swap, and ask Cascadia before changing that setting."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-23 22:20",
+                  "text": "2026-09-23 Lee Mustang EEPROM Rev.3 defsyms_20240829"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-23 22:22",
+                  "text": "Enabled self sense on this vehicle for further testing.\nMade 2 new sets of Inverter programming cables since the last one was causing issues. Turns out one of the wires was broke inside the connector."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "fd4dcf389edf75dbf94589b9f685cfd8ba93653750387dfeed36c5a8a1a19e01"
+              "content_hash": "d15236f2d6d52095ce8e80bb667dd9e2358bbf6c1de6049caf9c13b8f8b021d5"
             }
           ]
         },
@@ -2694,5 +2704,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-23T22:12:06Z"
+  "generated_at": "2026-09-23T22:25:14Z"
 }
