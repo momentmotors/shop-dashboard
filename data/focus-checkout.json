@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T06:24:16.197065Z",
+  "updated_at": "2026-09-23T06:53:33.788422Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1929,49 +1929,8 @@
               "list": "McDonough 77 Esprit",
               "url": "https://app.clickup.com/t/868jkmucy",
               "comments": [],
-              "checklist_items": [
-                {
-                  "checklist": "Checklist",
-                  "name": "Address CAN3 Termination issue (currently 110 ohms)",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Add wifi credentials",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Enter vehicle weight",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Update GUI to lastest version",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Verify gauges after reinstallation",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Test fast charging",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Perform overnight charge",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Verify inverter break speed",
-                  "resolved": true
-                }
-              ],
-              "content_hash": "a5c99ee460a2e45353b01652c6d03ef3caf4bf350decab6efb6a9b988dde8099"
+              "checklist_items": [],
+              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
             }
           ]
         }
@@ -2598,5 +2557,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-23T06:22:49Z"
+  "generated_at": "2026-09-23T06:52:05Z"
 }
