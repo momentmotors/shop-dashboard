@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T19:25:45.720758Z",
+  "updated_at": "2026-09-23T19:37:41.620626Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -207,6 +207,16 @@
                   "author": "Brandon Beaman",
                   "date": "2026-09-23 18:49",
                   "text": "After Screenshots\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-23 19:33",
+                  "text": "Date: Wednesday, September 23, 2026\nVehicle/System: Chuter 62 Healey \u2014 Ampere EV VCU (New Eagle VCM_519), single motor, direct drive\nFirmware: VCM_519_RC010903_Persist (1.9.3 / build 519) \u2192 VCM_515_RC010813_ENone (build 515)\nClickUp: Checkout Vehicle \u2014 Monthly Goal, Chuter 62 Healey \u00b7 Open \u00b7 High \u00b7 due Sep 30\nObjective\nDiagnose the drive-loss and cut-out events that appeared on the delivery run to Colvin's, and get the car back to a known-good state.\nWhat happened\nThe car finished charging overnight and was staged for delivery. On the run to Colvin's, Ryan lost throttle twice when lifting off to come to a stop, each time with a coinciding clunk. Turning regen off appeared to stop it. Near Colvin's the car cut off while accelerating from a stop \u2014 hard cut, loud clunk. It cut off once more at a stoplight on the way back, no noise, and the motor was cogging intermittently at stoplights and in traffic. Justin noted he'd had something similar taking Alvarez to Colvin's, outcome not remembered.\nKey findings\nThe fault is real and it lives in regen. Two logs captured back to back \u2014 regen on and regen off. The regen-off drive was harder on the drive system and never faulted; the regen-on log shows a genuine inverter trip. So this is not a general current or thermal problem \u2014 it only shows up under deep negative torque.\nThe trip, in detail (regen-on log, 12:44):\nGoing in, everything is clean. At ~104 s, lift-off at ~2,250 rpm (40 mph), no brake. The VCM ramps regen smoothly to its \u2212104.8 Nm ceiling and the motor follows it well: \u221297 to \u2212100 Nm actual, battery taking about \u221247 A, 64 A at peak.\nThe trip: at 108.0 s, 1,555 rpm (28 mph), the inverter drops out. Torque and current go to zero in a single sample. The VCM sets DrvInvtrFault, and after its 2 s debounce logs InvtrReportsOverCurrentFault and InvtrReportsGenFault. DrvMtrTrqLo follows as a side effect.\nNothing else looks wrong. Bus voltage peaks at 394.8 V, motor/inverter temps 52/61 \u00b0C, BMS fine, CAN message ages normal. There's a modest ~100 rpm dip and a \u2212112 Nm overshoot at 106.4 s, but the sample rate is too low to call that a cause.\nIt latches. The fault holds for the rest of the log (to 142.7 s). Neutral-and-back-to-Drive doesn't clear it; the car makes no torque even with 98 Nm requested. Only a key cycle clears it.\nThreshold behavior: the deepest regen before this event was about \u221280 Nm at up to ~1,270 rpm (~22 mph), and that was fine. The trip came on the first push past that, at higher speed.\nMotoring and regen efficiency measured at the battery look identical in both logs, so nothing in the data points to a sensor or resolver-angle problem.\nCorrection to Monday's baseline: the car was on 515, not 516. Double-checking the before photos showed the pre-flash firmware was actually VCM_515_RC010813_ENone, so the revert target was one step further back than recorded.\nThe revert fixed it. Back on 515, the car returned to normal operating conditions. The off-throttle pedal delay is gone and regen never faulted the inverter \u2014 multiple hard pedal stabs and the car could not be made to fault or feel strange in any way.\nOpen disagreement on cause. Marc's read is that this doesn't look like a VCU issue and points to inverter firmware. Inverter firmware wasn't touched Monday, and old backups can be compared against the most recent to confirm. Marc last drove the car on the highway Friday morning 9/18 and it was perfect \u2014 the only two changes since are the VCU firmware upgrade and a full overnight charge.\nNext steps\nRecharge to full and retest on 515 \u2014 in progress. Being at the top of the pack is the other variable that changed, and the regen ceiling is highest there.\nCompare old vs. most recent inverter firmware backups to close out Marc's theory.\nVerify every setting re-entered correctly after the revert.\nDecide the path forward on 1.9.3 \u2014 whether this is a regen calibration ceiling that needs lowering on this car, or a genuine firmware incompatibility.\nRe-plan delivery \u2014 the Colvin's drop-off did not complete.\nStatus\nCar is back on 515 and behaving normally. Delivery is on hold. Root cause not yet established: the symptom tracks the VCU firmware change, but the fault is reported by the inverter under deep regen only, and Marc's inverter-firmware theory is still open. Recharging now for the confirming test at full pack."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-23 19:34",
+                  "text": "image (8).png\nThe only thing that changed from then to now was the VCU firmware upgrade and the vehicle was fully charged overnight\nReverted VCU back to VCM_515_RC010813_ENone and the car returned to normal operating conditions. Throttle pedal delay was no longer present and the Regen never faulted the inverter. Multiple hard pedal stabs and could not get the Inverter to fault or the car to feel weird in any sort of way.\nCharging the vehicle back up to Full and retesting on the older 515 VCU firmware."
                 }
               ],
               "checklist_items": [
@@ -236,7 +246,7 @@
                   "resolved": true
                 }
               ],
-              "content_hash": "f07c0f4973b6e6ca67102a29a098079238860c13b07390587632251b5391da3d"
+              "content_hash": "a8dd2db5ba3845b65941de663a3edbe6cd065e6a95ae1b89f1e81d5fbe63f67b"
             }
           ]
         }
@@ -2684,5 +2694,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-23T19:24:02Z"
+  "generated_at": "2026-09-23T19:35:55Z"
 }
