@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T18:51:47.530556Z",
+  "updated_at": "2026-09-23T19:12:41.128046Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1501,10 +1501,15 @@
                   "author": "Justin Landry",
                   "date": "2026-09-22 19:27",
                   "text": "Put together a basic parts list and a wiring diagram for the proposed testing fixture for AIO boxes. talked with devin about requirements for the IVT and IMD tests. printed out diagram to start putting together the basics."
+                },
+                {
+                  "author": "Justin Landry",
+                  "date": "2026-09-23 19:08",
+                  "text": "Installed connector between IMD and HV tap. continued work on the test harness that will be used to verify these boxes."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "f659c2efffebe71968e5e1dfdc35d609cf122031c97345a84c9866c9b80e6f80"
+              "content_hash": "fc41ad3a892b3963b56f5e441f1556bc1fc3ade77564b33219c5b03f2f219c32"
             }
           ]
         },
@@ -1542,10 +1547,15 @@
                   "author": "Marshall Carter",
                   "date": "2026-08-29 02:54",
                   "text": "-Fit tested bracket and mounted to a test bench\n-Because the screen will be more of a focus with the need to control audio, it needs to feel solid when being used as a touch screen. Feedback was that the friction hinge was not quite enough solid so I was asked to look into alternative options that would feel more solid"
+                },
+                {
+                  "author": "Marshall Carter",
+                  "date": "2026-09-23 19:07",
+                  "text": "-Updated design to have a magnet stopper to hold open\n-Also added bezel to the screen mount\nimage.png\nimage.png"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "c6267d9966d787a5b75e94c1fc0a0daf20434302c2ea780f2a92dd4ee1e121ff"
+              "content_hash": "e280a4c2c1565721d8d8adb491270cc979d2333a8f0929a3552a789c99b3a196"
             }
           ]
         }
@@ -2674,5 +2684,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-23T18:49:55Z"
+  "generated_at": "2026-09-23T19:10:55Z"
 }

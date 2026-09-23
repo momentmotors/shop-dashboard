@@ -2,12 +2,12 @@
   "helpers": [
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 115.5,
+      "total_hours": 117.2,
       "pct_of_total": 11.6,
       "tasks": [
         {
           "task": "Manufacturing - Product",
-          "hours": 55.5
+          "hours": 56.2
         },
         {
           "task": "HVAC",
@@ -42,6 +42,10 @@
           "hours": 3.8
         },
         {
+          "task": "Interior",
+          "hours": 1.0
+        },
+        {
           "task": "Manufacturing - Core",
           "hours": 1.0
         }
@@ -49,12 +53,12 @@
     },
     {
       "project": "LB 82 911",
-      "total_hours": 100.2,
-      "pct_of_total": 10.1,
+      "total_hours": 101.8,
+      "pct_of_total": 10.0,
       "tasks": [
         {
           "task": "Manufacturing - Product",
-          "hours": 23.2
+          "hours": 24.8
         },
         {
           "task": "Motor & Transmission",
@@ -93,7 +97,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 96.2,
-      "pct_of_total": 9.7,
+      "pct_of_total": 9.5,
       "tasks": [
         {
           "task": "Exterior",
@@ -147,12 +151,12 @@
     },
     {
       "project": "Hopkins 65 Silver Cloud",
-      "total_hours": 78.5,
-      "pct_of_total": 7.9,
+      "total_hours": 84.5,
+      "pct_of_total": 8.3,
       "tasks": [
         {
           "task": "Wiring - OEM",
-          "hours": 31.5
+          "hours": 32.5
         },
         {
           "task": "Scanning",
@@ -160,7 +164,11 @@
         },
         {
           "task": "HVAC",
-          "hours": 8.0
+          "hours": 11.0
+        },
+        {
+          "task": "Steering",
+          "hours": 6.0
         },
         {
           "task": "Interior",
@@ -179,10 +187,6 @@
           "hours": 4.0
         },
         {
-          "task": "Steering",
-          "hours": 4.0
-        },
-        {
           "task": "Engine Bay",
           "hours": 2.0
         },
@@ -195,7 +199,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 58.0,
-      "pct_of_total": 5.8,
+      "pct_of_total": 5.7,
       "tasks": [
         {
           "task": "Battery Pack",
@@ -230,7 +234,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 52.8,
-      "pct_of_total": 5.3,
+      "pct_of_total": 5.2,
       "tasks": [
         {
           "task": "Interior",
@@ -260,12 +264,12 @@
     },
     {
       "project": "Krafcik 02 Caterham",
-      "total_hours": 45.0,
-      "pct_of_total": 4.5,
+      "total_hours": 47.0,
+      "pct_of_total": 4.6,
       "tasks": [
         {
           "task": "Manufacturing - Product",
-          "hours": 13.0
+          "hours": 15.0
         },
         {
           "task": "Wiring - High Voltage",
@@ -370,7 +374,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 23.8,
-      "pct_of_total": 2.4,
+      "pct_of_total": 2.3,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -404,24 +408,24 @@
     }
   ],
   "shop_work": {
-    "total_hours": 157.8,
+    "total_hours": 160.5,
     "pct_of_total": 15.8,
-    "avg_per_person_per_day": 1.16,
+    "avg_per_person_per_day": 1.18,
     "flagged": true,
     "tech_count": 8,
     "working_days": 17,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 66.2
+        "hours": 67.2
       },
       {
         "label": "Shop Meetings",
-        "hours": 55.8
+        "hours": 56.8
       },
       {
         "label": "Personal Meetings",
-        "hours": 21.8
+        "hours": 22.5
       },
       {
         "label": "Organization",
@@ -441,7 +445,7 @@
     {
       "project": "ICON Bronco Prototype",
       "total_hours": 25.5,
-      "pct_of_total": 2.6,
+      "pct_of_total": 2.5,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -452,7 +456,7 @@
     {
       "project": "Buck 70 280SL",
       "total_hours": 22.5,
-      "pct_of_total": 2.3,
+      "pct_of_total": 2.2,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -463,7 +467,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 17.5,
-      "pct_of_total": 1.8,
+      "pct_of_total": 1.7,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -518,10 +522,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 759.0,
-    "non_billable_hours": 237.8,
+    "billable_hours": 773.0,
+    "non_billable_hours": 240.5,
     "pto_hours": 12.0,
-    "total_hours": 996.8
+    "total_hours": 1013.5
   },
-  "generated_at": "2026-09-23T18:49:55Z"
+  "generated_at": "2026-09-23T19:10:55Z"
 }
