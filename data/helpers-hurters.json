@@ -97,7 +97,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 96.2,
-      "pct_of_total": 9.5,
+      "pct_of_total": 9.4,
       "tasks": [
         {
           "task": "Exterior",
@@ -409,7 +409,7 @@
   ],
   "shop_work": {
     "total_hours": 161.5,
-    "pct_of_total": 15.9,
+    "pct_of_total": 15.8,
     "avg_per_person_per_day": 1.19,
     "flagged": true,
     "tech_count": 8,
@@ -495,6 +495,17 @@
       ]
     },
     {
+      "project": "Chuter 62 Healey",
+      "total_hours": 5.5,
+      "pct_of_total": 0.5,
+      "tasks": [
+        {
+          "task": "Installation - Extra",
+          "hours": 5.5
+        }
+      ]
+    },
+    {
       "project": "Kelly 63 Corvette",
       "total_hours": 5.2,
       "pct_of_total": 0.5,
@@ -510,22 +521,22 @@
       ]
     },
     {
-      "project": "Chuter 62 Healey",
-      "total_hours": 1.0,
+      "project": "Vargas 66 Mustang",
+      "total_hours": 0.8,
       "pct_of_total": 0.1,
       "tasks": [
         {
-          "task": "Installation - Extra",
-          "hours": 1.0
+          "task": "Troubleshooting",
+          "hours": 0.8
         }
       ]
     }
   ],
   "totals": {
-    "billable_hours": 776.0,
-    "non_billable_hours": 241.5,
+    "billable_hours": 773.2,
+    "non_billable_hours": 246.8,
     "pto_hours": 17.0,
-    "total_hours": 1017.5
+    "total_hours": 1020.0
   },
-  "generated_at": "2026-09-23T19:35:55Z"
+  "generated_at": "2026-09-23T19:48:43Z"
 }
