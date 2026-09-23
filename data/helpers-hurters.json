@@ -194,7 +194,7 @@
     },
     {
       "project": "Lee 68 Mustang",
-      "total_hours": 57.5,
+      "total_hours": 58.0,
       "pct_of_total": 5.8,
       "tasks": [
         {
@@ -207,7 +207,7 @@
         },
         {
           "task": "Vehicle Control",
-          "hours": 11.8
+          "hours": 12.2
         },
         {
           "task": "Manufacturing - Core",
@@ -404,9 +404,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 155.8,
-    "pct_of_total": 15.7,
-    "avg_per_person_per_day": 1.15,
+    "total_hours": 157.2,
+    "pct_of_total": 15.8,
+    "avg_per_person_per_day": 1.16,
     "flagged": true,
     "tech_count": 8,
     "working_days": 17,
@@ -421,7 +421,7 @@
       },
       {
         "label": "Personal Meetings",
-        "hours": 20.2
+        "hours": 21.8
       },
       {
         "label": "Organization",
@@ -518,10 +518,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 758.5,
-    "non_billable_hours": 235.8,
+    "billable_hours": 759.0,
+    "non_billable_hours": 237.2,
     "pto_hours": 12.0,
-    "total_hours": 994.2
+    "total_hours": 996.2
   },
-  "generated_at": "2026-09-23T16:49:29Z"
+  "generated_at": "2026-09-23T17:12:17Z"
 }

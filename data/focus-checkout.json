@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T16:51:46.588323Z",
+  "updated_at": "2026-09-23T17:13:59.744961Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1775,10 +1775,20 @@
                   "author": "Brandon Beaman",
                   "date": "2026-09-23 15:13",
                   "text": "Visual inspection shows that the inverter resolver cable is not damaged or installed improperly.\nEverything is still secured as it was before.\nThe only thing that may changed would have been routing of the cable.\nFirst will be the Torque rate test and then Self sense. If neither of those work I will re route the cable.\nFurther testing to still be done and a resolution to be found.\nAlso spent a little bit of time to wipe down the car since it was looking unacceptably dirty."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-23 16:58",
+                  "text": "VCM_517_Motoring Claude_2026_09_23_11_33_26_TorqueRateSetto50.csv"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-23 16:58",
+                  "text": "This is with the Torque rate set back to 50. No real change there.\n\nWasn't able to get diag data. RMS GUI wouldn't open. Diving into that next. Could be indicator to a damaged harness if I cant get this setup to work on another vehicle.\n\nHere a couple claude responses.\n\nQ: Could this be drivetrain?\nDrivetrain momentum is probably what sets it off, but it can't be what the resolver is reading. The logs show both effects, and they differ by a factor of about 40.\nReal driveline motion is slow. In the 10 ms log, the motor speed rings after the trip as the driveline unwinds:\nIt drops from 1,632 to 1,516 rpm, back up to 1,709 rpm, and keeps ringing about every 140 ms.\nThat's a swing of about \u00b1100 rpm at roughly 7 Hz, the driveline winding up and springing back once the torque disappears.\nThe current loop copes easily with a speed change that slow and small.\nThe resolver disturbance is far faster and far bigger:\nIt swings at about 300 Hz.\nIn a fraction of a millisecond, the resolver reports the speed dropping to about a quarter of 1,650 rpm, then doubling, then briefly reversing.\nFor the rotor to really do that, it would need well over 10,000 Nm acting on it. The motor makes 580 Nm. Even a hard shock from the tires hooking back up can't come close to that at the rotor without breaking something. So the rotor isn't moving the way the resolver says.\n\n\nQ: Could this be Torque Rate Limit?\nProbably not. The rate limit only slows down how fast the torque command can change. At the trip the command wasn't changing, and the ramps in the logs never reached either limit.\nWhat the setting means. Cascadia's software manual defines Torque_Rate_Limit_EEPROM as torque increase per 3 ms:\nSettingPer 3 msPer secondOld: 505 Nmabout 1,670 Nm/sNow: 707 Nmabout 2,330 Nm/s\nCascadia only warns about stability above 70 Nm per 3 ms (a setting of 700, about 23,000 Nm/s). Lee's 7 Nm is a tenth of that.\nWhy it isn't causing the trip:\nThe command was flat when it tripped. In the diag file the current commands (Iq_cmd / Id_cmd) held steady for the whole 26.7 ms before the trip. A rate limiter only acts while the command is rising or falling, so it had nothing to do. The current ran away while the command sat still, the same point that rules out shudder compensation.\nThe trips didn't ramp as fast as the limit allows. The steepest actual torque rise in each pull, from the logs:\nPullSteepest torque riseTrip 1~1,700 Nm/sTrip 2~1,500 Nm/sTrip 3~700 Nm/sClean rolling pull~2,280 Nm/s\nThe pedal and the VCU's own ramp set these rates, not the inverter setting. Even at the old 5 Nm limit, trips 2 and 3 would have ramped the same way.\nThe fastest ramp didn't trip. The clean rolling pull came right up against the 7 Nm limit and ran fine. All three trips ramped slower.\n\n\nQ: Could the Gamma be affected with a new cable?\nNot if the new cable is wired pin for pin the same. Gamma adjust corrects for where the resolver sits on the shaft relative to the rotor magnets. Cascadia's software manual describes it as compensating for the resolver's position on the shaft. A cable swap doesn't move anything mechanically, so the offset shouldn't change.\nVerify after the swap:\nDirection: with the motor stopped, turn the shaft slowly by hand in the forward direction.\nGamma_Resolver should count up and wrap from 360\u00b0 to 0.\nSin_corr and Cos_corr should trace a circle.\nIf the angle counts down or doesn't move, a pair is swapped or reversed. That shows up as a 90\u00b0 or 180\u00b0 error, or the motor won't run at all, not a small drift.\nOffset check: coast the motor down with the inverter disabled and read Delta_Resolver_In_Fil. It should read +90\u00b0 forward (or \u221290\u00b0 in reverse), within \u00b10.7\u00b0.\nIf it's within that, leave Gamma_Adjust at 34.7\u00b0.\nIf it's outside that, redo the calibration per section 4.1.3 of the manual.\nSpinning the motor generates HV even with the inverter off, so follow the manual's precautions.\nIf the new cable is a different length or type: it can delay the resolver signals relative to the excitation. That doesn't shift the angle, because sin and cos are delayed equally. It does lower the signal amplitude the inverter reads, which makes it more sensitive to noise. Cascadia has a Resolver PWM Delay setting that tunes when the inverter samples the resolver signal (default 1100). Look at the sin/cos amplitude after the swap, and ask Cascadia before changing that setting."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "b5ad4014d2198280fa61ddcd5c6fb60b785dc2188834836cc49a6381180b1ae8"
+              "content_hash": "fd4dcf389edf75dbf94589b9f685cfd8ba93653750387dfeed36c5a8a1a19e01"
             }
           ]
         },
@@ -2578,5 +2588,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-23T16:49:29Z"
+  "generated_at": "2026-09-23T17:12:17Z"
 }
