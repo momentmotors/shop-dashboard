@@ -405,7 +405,7 @@
   ],
   "shop_work": {
     "total_hours": 153.2,
-    "pct_of_total": 15.7,
+    "pct_of_total": 15.6,
     "avg_per_person_per_day": 1.13,
     "flagged": true,
     "tech_count": 8,
@@ -518,10 +518,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 745.2,
+    "billable_hours": 746.8,
     "non_billable_hours": 233.2,
     "pto_hours": 12.0,
-    "total_hours": 978.5
+    "total_hours": 980.0
   },
-  "generated_at": "2026-09-23T11:26:21Z"
+  "generated_at": "2026-09-23T11:38:41Z"
 }
