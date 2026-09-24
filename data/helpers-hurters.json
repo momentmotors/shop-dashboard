@@ -2,12 +2,12 @@
   "helpers": [
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 117.2,
-      "pct_of_total": 11.2,
+      "total_hours": 120.2,
+      "pct_of_total": 11.5,
       "tasks": [
         {
           "task": "Manufacturing - Product",
-          "hours": 56.2
+          "hours": 59.2
         },
         {
           "task": "HVAC",
@@ -152,7 +152,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 85.5,
-      "pct_of_total": 8.2,
+      "pct_of_total": 8.1,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -378,7 +378,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 26.8,
-      "pct_of_total": 2.6,
+      "pct_of_total": 2.5,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -412,20 +412,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 164.5,
-    "pct_of_total": 15.7,
-    "avg_per_person_per_day": 1.14,
+    "total_hours": 166.2,
+    "pct_of_total": 15.8,
+    "avg_per_person_per_day": 1.15,
     "flagged": true,
     "tech_count": 8,
     "working_days": 18,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 70.2
+        "hours": 70.8
       },
       {
         "label": "Shop Meetings",
-        "hours": 57.8
+        "hours": 58.2
       },
       {
         "label": "Personal Meetings",
@@ -433,7 +433,7 @@
       },
       {
         "label": "Organization",
-        "hours": 8.5
+        "hours": 9.2
       },
       {
         "label": "Other",
@@ -460,7 +460,7 @@
     {
       "project": "Buck 70 280SL",
       "total_hours": 22.5,
-      "pct_of_total": 2.2,
+      "pct_of_total": 2.1,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -537,10 +537,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 795.2,
-    "non_billable_hours": 249.8,
+    "billable_hours": 798.2,
+    "non_billable_hours": 251.5,
     "pto_hours": 17.0,
-    "total_hours": 1045.0
+    "total_hours": 1049.8
   },
-  "generated_at": "2026-09-24T18:16:24Z"
+  "generated_at": "2026-09-24T18:40:43Z"
 }
