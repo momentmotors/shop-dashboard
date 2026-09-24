@@ -54,7 +54,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 114.8,
-      "pct_of_total": 10.7,
+      "pct_of_total": 10.6,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -97,7 +97,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 96.2,
-      "pct_of_total": 9.0,
+      "pct_of_total": 8.9,
       "tasks": [
         {
           "task": "Exterior",
@@ -152,7 +152,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 93.0,
-      "pct_of_total": 8.7,
+      "pct_of_total": 8.6,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -198,7 +198,7 @@
     },
     {
       "project": "Lee 68 Mustang",
-      "total_hours": 59.5,
+      "total_hours": 60.5,
       "pct_of_total": 5.6,
       "tasks": [
         {
@@ -211,7 +211,7 @@
         },
         {
           "task": "Vehicle Control",
-          "hours": 13.8
+          "hours": 14.8
         },
         {
           "task": "Manufacturing - Core",
@@ -412,20 +412,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 168.2,
-    "pct_of_total": 15.7,
-    "avg_per_person_per_day": 1.17,
+    "total_hours": 170.2,
+    "pct_of_total": 15.8,
+    "avg_per_person_per_day": 1.18,
     "flagged": true,
     "tech_count": 8,
     "working_days": 18,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 71.8
+        "hours": 72.8
       },
       {
         "label": "Shop Meetings",
-        "hours": 59.2
+        "hours": 60.2
       },
       {
         "label": "Personal Meetings",
@@ -537,10 +537,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 815.5,
-    "non_billable_hours": 253.5,
+    "billable_hours": 822.5,
+    "non_billable_hours": 255.5,
     "pto_hours": 17.0,
-    "total_hours": 1069.0
+    "total_hours": 1078.0
   },
-  "generated_at": "2026-09-24T22:12:00Z"
+  "generated_at": "2026-09-24T22:26:24Z"
 }
