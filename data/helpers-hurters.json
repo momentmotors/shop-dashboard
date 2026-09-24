@@ -3,7 +3,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 120.2,
-      "pct_of_total": 11.2,
+      "pct_of_total": 11.1,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -232,6 +232,49 @@
       ]
     },
     {
+      "project": "Krafcik 02 Caterham",
+      "total_hours": 58.2,
+      "pct_of_total": 5.4,
+      "tasks": [
+        {
+          "task": "Manufacturing - Product",
+          "hours": 15.0
+        },
+        {
+          "task": "Cooling",
+          "hours": 11.8
+        },
+        {
+          "task": "Wiring - High Voltage",
+          "hours": 10.0
+        },
+        {
+          "task": "Manufacturing - Core",
+          "hours": 6.2
+        },
+        {
+          "task": "Engine Bay",
+          "hours": 6.0
+        },
+        {
+          "task": "Scanning",
+          "hours": 5.5
+        },
+        {
+          "task": "Battery Pack",
+          "hours": 1.8
+        },
+        {
+          "task": "Engineering - Support",
+          "hours": 1.0
+        },
+        {
+          "task": "Engineering - Core",
+          "hours": 1.0
+        }
+      ]
+    },
+    {
       "project": "Preheim 72 Blazer",
       "total_hours": 52.8,
       "pct_of_total": 4.9,
@@ -259,49 +302,6 @@
         {
           "task": "Audio",
           "hours": 2.0
-        }
-      ]
-    },
-    {
-      "project": "Krafcik 02 Caterham",
-      "total_hours": 52.5,
-      "pct_of_total": 4.9,
-      "tasks": [
-        {
-          "task": "Manufacturing - Product",
-          "hours": 15.0
-        },
-        {
-          "task": "Cooling",
-          "hours": 8.8
-        },
-        {
-          "task": "Wiring - High Voltage",
-          "hours": 7.2
-        },
-        {
-          "task": "Manufacturing - Core",
-          "hours": 6.2
-        },
-        {
-          "task": "Engine Bay",
-          "hours": 6.0
-        },
-        {
-          "task": "Scanning",
-          "hours": 5.5
-        },
-        {
-          "task": "Battery Pack",
-          "hours": 1.8
-        },
-        {
-          "task": "Engineering - Support",
-          "hours": 1.0
-        },
-        {
-          "task": "Engineering - Core",
-          "hours": 1.0
         }
       ]
     },
@@ -412,8 +412,8 @@
     }
   ],
   "shop_work": {
-    "total_hours": 170.2,
-    "pct_of_total": 15.8,
+    "total_hours": 170.5,
+    "pct_of_total": 15.7,
     "avg_per_person_per_day": 1.18,
     "flagged": true,
     "tech_count": 8,
@@ -421,7 +421,7 @@
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 72.8
+        "hours": 73.0
       },
       {
         "label": "Shop Meetings",
@@ -537,10 +537,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 822.5,
-    "non_billable_hours": 255.5,
+    "billable_hours": 828.2,
+    "non_billable_hours": 255.8,
     "pto_hours": 17.0,
-    "total_hours": 1078.0
+    "total_hours": 1084.0
   },
-  "generated_at": "2026-09-24T22:26:24Z"
+  "generated_at": "2026-09-24T22:37:17Z"
 }
