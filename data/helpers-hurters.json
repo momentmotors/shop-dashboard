@@ -234,7 +234,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 52.8,
-      "pct_of_total": 5.1,
+      "pct_of_total": 5.0,
       "tasks": [
         {
           "task": "Interior",
@@ -537,10 +537,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 794.8,
+    "billable_hours": 795.2,
     "non_billable_hours": 249.8,
     "pto_hours": 17.0,
-    "total_hours": 1044.5
+    "total_hours": 1045.0
   },
-  "generated_at": "2026-09-24T17:48:31Z"
+  "generated_at": "2026-09-24T18:16:24Z"
 }
