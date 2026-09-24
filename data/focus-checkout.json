@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T17:38:16.575790Z",
+  "updated_at": "2026-09-24T17:50:11.892091Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -326,7 +326,7 @@
         "matched_lists": [
           "Ferdman 66 Bus"
         ],
-        "open_tasks": 9
+        "open_tasks": 7
       },
       "assignees": [
         {
@@ -414,105 +414,6 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "7f891d6c42432c8f41025fd35019a46319bc4fb2a5c2bfc023e742a0d9d82010"
-            },
-            {
-              "id": "868m7dj77",
-              "name": "Troubleshoot exterior noise issues",
-              "status": "Open",
-              "list": "Ferdman 66 Bus",
-              "url": "https://app.clickup.com/t/868m7dj77",
-              "comments": [
-                {
-                  "author": "David Webber",
-                  "date": "2026-09-21 16:44",
-                  "text": "Multiple noises present from chassis:\nrear spring plate contact with adjuster location fasteners - this will likely require reworking by Aharon\nMetallic creaking from throttle bell crank. Installed nylon washers to eliminate metal to metal contact & lubricated all contact points\nMetallic creaking from service brake pedal. Torsion spring dry & noisy. Anointed it with Winzer penetrating grease.\n\nLubricated door check straps for creaking noises"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-09-21 20:54",
-                  "text": "Performed rework per @Alex Noonan, @Aharon Adams\nRemoved hardware. Countersunk from the backside.\nDifficulty countersinking due to limited space between control arm and surface. Had to use a smaller bit and modify hardware to match. Painted affected areas after rework.\nTorqued and test-drove. Issue resolved.\nNote:\nPrior to rework: 9/21\nFront left: 270\nRear left: 268\nFront right: 276\nRear right: 272\n\n\nAfter rework:\nRear left: 270\nRear right: 275\n\nSome settling is expected.\n\nIf sagging is too much, re-clocking may be required.\n\nNote on potential sagging: OEM torsion bars are 590mm, 29mm diameter. Aftermarket bars in this size are not available. New bars are available from Europe."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "5413c399748bce305b50411b56f78c6ae17fda5cdf29f9db1dee3ee23ce238c0"
-            },
-            {
-              "id": "868m7djz9",
-              "name": "Troubleshoot interior noise issues",
-              "status": "Open",
-              "list": "Ferdman 66 Bus",
-              "url": "https://app.clickup.com/t/868m7djz9",
-              "comments": [
-                {
-                  "author": "David Webber",
-                  "date": "2026-09-21 16:49",
-                  "text": "Diagnose interior noises:\nfront seats noisey, rubber bumpers for seat back frames & seat bottom frames missing ... parts ordered\nOEM headliner ribs have been replaced with a shadetree wooden solution. These have come loose and are flopping about resulting in knocking noises. I've recommended replacement of these Items. Perhaps to be performed by an upholsterer.\nLubricated door check straps for creaking noises"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-09-21 20:56",
-                  "text": "Assisted with test-driving and pedal rework.\nFound and rush-ordered parts for seat rework (see above).\nPer ISP west, parts should arrive by end of week.\n\nWe solved the issue with 'motor cogging'. It actually was a little stiff near the 'accelerator off' position and wasn't recording fully off, the last 1/2\" was sticky. Dave re-adjusted and now we have a more positive snap-back, no more cogging.\n\nWe may want to re-do the accelerator table regardless, as there was a throttle out-of-range pending alert that appeared at one point... perhaps because it was recording the throttle as open on startup? It hasn't reappeared in my test-driving since.\""
-                },
-                {
-                  "author": "David Webber",
-                  "date": "2026-09-24 17:07",
-                  "text": "Addressed squeaking noises from 3rd row seat"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "16040b41fe31e16e2889618f6c422b23ee11e943ea2ccb67a184d974877fc743"
-            }
-          ]
-        },
-        {
-          "name": "David Webber",
-          "tasks": [
-            {
-              "id": "868m7dj77",
-              "name": "Troubleshoot exterior noise issues",
-              "status": "Open",
-              "list": "Ferdman 66 Bus",
-              "url": "https://app.clickup.com/t/868m7dj77",
-              "comments": [
-                {
-                  "author": "David Webber",
-                  "date": "2026-09-21 16:44",
-                  "text": "Multiple noises present from chassis:\nrear spring plate contact with adjuster location fasteners - this will likely require reworking by Aharon\nMetallic creaking from throttle bell crank. Installed nylon washers to eliminate metal to metal contact & lubricated all contact points\nMetallic creaking from service brake pedal. Torsion spring dry & noisy. Anointed it with Winzer penetrating grease.\n\nLubricated door check straps for creaking noises"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-09-21 20:54",
-                  "text": "Performed rework per @Alex Noonan, @Aharon Adams\nRemoved hardware. Countersunk from the backside.\nDifficulty countersinking due to limited space between control arm and surface. Had to use a smaller bit and modify hardware to match. Painted affected areas after rework.\nTorqued and test-drove. Issue resolved.\nNote:\nPrior to rework: 9/21\nFront left: 270\nRear left: 268\nFront right: 276\nRear right: 272\n\n\nAfter rework:\nRear left: 270\nRear right: 275\n\nSome settling is expected.\n\nIf sagging is too much, re-clocking may be required.\n\nNote on potential sagging: OEM torsion bars are 590mm, 29mm diameter. Aftermarket bars in this size are not available. New bars are available from Europe."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "5413c399748bce305b50411b56f78c6ae17fda5cdf29f9db1dee3ee23ce238c0"
-            },
-            {
-              "id": "868m7djz9",
-              "name": "Troubleshoot interior noise issues",
-              "status": "Open",
-              "list": "Ferdman 66 Bus",
-              "url": "https://app.clickup.com/t/868m7djz9",
-              "comments": [
-                {
-                  "author": "David Webber",
-                  "date": "2026-09-21 16:49",
-                  "text": "Diagnose interior noises:\nfront seats noisey, rubber bumpers for seat back frames & seat bottom frames missing ... parts ordered\nOEM headliner ribs have been replaced with a shadetree wooden solution. These have come loose and are flopping about resulting in knocking noises. I've recommended replacement of these Items. Perhaps to be performed by an upholsterer.\nLubricated door check straps for creaking noises"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-09-21 20:56",
-                  "text": "Assisted with test-driving and pedal rework.\nFound and rush-ordered parts for seat rework (see above).\nPer ISP west, parts should arrive by end of week.\n\nWe solved the issue with 'motor cogging'. It actually was a little stiff near the 'accelerator off' position and wasn't recording fully off, the last 1/2\" was sticky. Dave re-adjusted and now we have a more positive snap-back, no more cogging.\n\nWe may want to re-do the accelerator table regardless, as there was a throttle out-of-range pending alert that appeared at one point... perhaps because it was recording the throttle as open on startup? It hasn't reappeared in my test-driving since.\""
-                },
-                {
-                  "author": "David Webber",
-                  "date": "2026-09-24 17:07",
-                  "text": "Addressed squeaking noises from 3rd row seat"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "16040b41fe31e16e2889618f6c422b23ee11e943ea2ccb67a184d974877fc743"
             }
           ]
         },
@@ -1939,56 +1840,9 @@
         "matched_lists": [
           "McDonough 77 Esprit"
         ],
-        "open_tasks": 5
+        "open_tasks": 3
       },
       "assignees": [
-        {
-          "name": "David Webber",
-          "tasks": [
-            {
-              "id": "868m6fadr",
-              "name": "Clean car",
-              "status": "Open",
-              "list": "McDonough 77 Esprit",
-              "url": "https://app.clickup.com/t/868m6fadr",
-              "comments": [
-                {
-                  "author": "David Webber",
-                  "date": "2026-09-23 11:27",
-                  "text": "Performed final wipe down of car for delivery"
-                },
-                {
-                  "author": "David Webber",
-                  "date": "2026-09-23 14:27",
-                  "text": "Assisted with vehicle loading and delivery including instructing driver how to operate vehicle and stowage of take off items"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "191b61998f056cc82d277cf0477eb534b816d27ab9e050114237ecdcc56d65bd"
-            },
-            {
-              "id": "868km7t9d",
-              "name": "Test drive vehicle",
-              "status": "Open",
-              "list": "McDonough 77 Esprit",
-              "url": "https://app.clickup.com/t/868km7t9d",
-              "comments": [
-                {
-                  "author": "David Webber",
-                  "date": "2026-08-06 13:12",
-                  "text": "31 mile road test. Motor & Battery circuits running cool. No DTCs. GUI ok... not dropping out as previously noted. Rear suspension is still quiet."
-                },
-                {
-                  "author": "David Webber",
-                  "date": "2026-09-18 18:47",
-                  "text": "Road test vehicle & confirmed fast charging operation"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "592d5caf4e56b1188728f7b1508fba227943649cae5fec6372326a5ed7e0d079"
-            }
-          ]
-        },
         {
           "name": "Brandon Beaman",
           "tasks": [
@@ -1998,9 +1852,131 @@
               "status": "Open",
               "list": "McDonough 77 Esprit",
               "url": "https://app.clickup.com/t/868jkmucy",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
+              "comments": [
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-13 04:47",
+                  "text": "Walked Andrew through the vehicle requirements sheet and filled in all the information possible. Went to flash inverter firmware, cable wouldn't connect physically, looks like the wrong gender. Made quick cable changer. Connected to inverter, pulled EEPROM backups for the main settings, RTD calibrations, and control loop settings. Flashed firmware 6533 and started on the EEPROM combing. Had Claude look at the EEPROM compare tool since it wasn't working for some reason. Compared the Ampere, Moment, and Stock W EEPROM files and decided on an updated blend with weight towards the Ampere settings, made a Master EEPROM column in the startup sheet to permanently capture these. Flashed and backed up everything. Moved on to the VCU, flashed the latest firmware, transfered settinngs from the vehicle requirements sheet and noted with comments where it was lackinng / not super clear. Transfered clear settings to the VCU and marked ones that needed to be reviewed at a later date. Upgraded the PMU's to the latest firmware and flashed the Preheim calibration, which matches closest. Later this week when Preheim HVAC is finished it should be considered to re-flash that program over to here if zero changes have been made to McDonough. Moved over to OBD port which is not reading the PMU CAN but was able to use the PMU checkout box to monitor current while Andrew forced on all channels controlled by the VCU. Started to hookup HV and ran into an HVIL issue, narrowed it down to an IMD box which checked good earlier. Either it's a different IMD box that was actually installed in the vehicle or the vehicle harness has an issue."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-14 02:57",
+                  "text": "Measured CAN network resistances and found CAN3 at 105 Ohms. Temporarily added a resistor to CAN3 to correct the termination. Found PMU CAN1 was flipped high and low causing the laptop to not connect, had brandon fix that. Verified HVIL now satisfied with Daves fix, plugged in the rest of the HV acessories. Enabled HV from the VCU and watched precharge. Verified L2 charging and DCDC output and marked off in the sheet. Discovered bug where PMU was sending output status 1 for all channels, corrected. Will need to fix on three other vehicles. Monitored VCU while testing brake switch. Ended up overriding from the VCU to move on. Calibrated the resolver and continued testing brakes with Dave. Took the vehicle for a test drive and updated the punch card."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-19 23:27",
+                  "text": "Drew up HVAC summary diagram for understanding of which control needs to be configured where. Corrected incorrect VCU options marked off as done during rush last week. Verified all input switches making it to the right controller and all outputs switching on the correct device. Watched AC cycles with Dave & adjusted setpoints per his suggestion. Tested cabin heat, drawing 2kW and internally shutting off at 70C, might be a blend door problem that is not removing the heat from the heater core."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-07-24 22:19",
+                  "text": "Removed the temp temperature logger from Preheim and wired up some thermistors to take the place of the permanent ones in the battery box. Adjusted the logger setup slightly and setup to log temps on Hastert out in the sun. Temperature results at 5pm:\n\nTop of Dash: 32.9 C\nTop of Battery Box: 36.9 C\nSide of Battery Box: 34.6 C\nSide of Battery Box (In the air): 41.8 C\n\nLooks like the air around the box is significantly hotter, test might not have ran long enough. Should re-try on the Lotus."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-06 21:15",
+                  "text": "Picked up on startup. Scanned the sheet to get an overview of what's left. Changed the inverter setting for breakspeed to match the W type motor. Setup second GitHub account with the email Andrew used. Pulled the latest VCU firmware and release notes. Hooked up to vehicle to flash and the passenger window seemed to be stalling. Shut off vehicle and discussed with Dave."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-07 22:31",
+                  "text": "Ran through the checkout sheet filling in the items remaining section. Flashed the latest AWD firmware and verified options. Left on charge the rest of the day and monitored."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-20 22:41",
+                  "text": "Pedal Launch Gain adjusted from 70 -> 50"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-03 15:37",
+                  "text": "image.png\nEntered Vehicle weight and Gear Ratio into the VCU"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-03 23:08",
+                  "text": "Messaged Ryan to acquire the Wifi Credentials.\nWifi creds gathered. Notified Devin to upload creds to the logger.\nUploaded the vehicle weight and gear ratio into the VCU. Left the parameters on Display since the vehicle has been working well and as intended at this time.\nAddressed CAN 3 termination issue. Missing term resistor. Added a removable term resistor at the OBD port.\nSpoke to Marc about updating the GUI. We decided that we should leave it as is to prevent any possible failures on a complete car."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-09 13:44",
+                  "text": "Pre Flash\nimage.png\nimage.png\nimage.png\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-09 13:48",
+                  "text": "image.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-09 13:59",
+                  "text": "Post Flash\nimage.png\nimage.png\nimage.png\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-09 15:18",
+                  "text": "Flashed the VCU firmware to the latest firmware.\nSpent sometime setting up the RDIS file to have our HVAC diag and settings in the HVAC tab.\nSubmitted before and after screenshots to Claude to determine what settings changed pre and post flash.\nthe only setting that \"changed\" was the LaunchGain. In the old settings we had it set to 50 at drive factor 8. The thing is this car has a drive factor of 11.2 so that setting was never actually being used. So we updated that setting to 50 on this new firmware. Will need to test drive the vehicle to verify.\nMade necessary adjustments to the VCU settings to match pre flash.\nVCU updated and good at this time. Continue with Test drive of the vehicle to verify operations are all good still at this time."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-10 22:02",
+                  "text": "Uploaded wifi credentials to CAN logger."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-21 13:56",
+                  "text": "image.png\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-21 13:59",
+                  "text": "Uploaded backup files of the Inverter EEPROM Settings and the PMU Project files.\nCheckout for this vehicle should be done.\nWill likely need to use some time to finish up documentation before the car leaves"
+                }
+              ],
+              "checklist_items": [
+                {
+                  "checklist": "Checklist",
+                  "name": "Address CAN3 Termination issue (currently 110 ohms)",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Add wifi credentials",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Enter vehicle weight",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Update GUI to lastest version",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Verify gauges after reinstallation",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Test fast charging",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Perform overnight charge",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Verify inverter break speed",
+                  "resolved": true
+                }
+              ],
+              "content_hash": "e63d160e1b093fab2ac0e2ee56dcced937de4b82cb0c77419b1dcc452d27b9a7"
             }
           ]
         }
@@ -2144,22 +2120,12 @@
         "matched_lists": [
           "Preheim 72 Blazer"
         ],
-        "open_tasks": 9
+        "open_tasks": 5
       },
       "assignees": [
         {
           "name": "Billy Arrasmith",
           "tasks": [
-            {
-              "id": "868kzaq6r",
-              "name": "Address squeaks/noises",
-              "status": "Open",
-              "list": "Preheim 72 Blazer",
-              "url": "https://app.clickup.com/t/868kzaq6r",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "dfcfa914428437333c0ae6fcb4dab8f221c044a55e935e2319ae1c20a72046fb"
-            },
             {
               "id": "868m63v76",
               "name": "Install horns",
@@ -2176,9 +2142,15 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868m6uehh",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-18 22:49",
+                  "text": "removed the dr side axle\ntook the U-Joint out\nwaited for the new joint\nfirst one was wrong\ngot the right one\ninstalled U-Joint\nreinstalled axle\ntest drove truck\ndrives great"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "83f5b0057d0375e695b5e7475b0efeff3c5c1da8e27a114558fd5c62d6eede1b"
+              "content_hash": "2b1cd7a3ddef873ea6fac4b77cfe8cca50628ec361a6bc1282366188f6ba1cd3"
             },
             {
               "id": "868m81x7t",
@@ -2189,51 +2161,6 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "c8863cafaa9e3d0e8f5bfc41c9e268aa73395c4351c7c9430cec076c8252d7d7"
-            }
-          ]
-        },
-        {
-          "name": "David Webber",
-          "tasks": [
-            {
-              "id": "868m823za",
-              "name": "Address squeaks/noises",
-              "status": "Open",
-              "list": "Preheim 72 Blazer",
-              "url": "https://app.clickup.com/t/868m823za",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "dfcfa914428437333c0ae6fcb4dab8f221c044a55e935e2319ae1c20a72046fb"
-            },
-            {
-              "id": "868kzaq6r",
-              "name": "Address squeaks/noises",
-              "status": "Open",
-              "list": "Preheim 72 Blazer",
-              "url": "https://app.clickup.com/t/868kzaq6r",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "dfcfa914428437333c0ae6fcb4dab8f221c044a55e935e2319ae1c20a72046fb"
-            },
-            {
-              "id": "868m6f2w9",
-              "name": "Assess exterior squeaks and rattles",
-              "status": "Open",
-              "list": "Preheim 72 Blazer",
-              "url": "https://app.clickup.com/t/868m6f2w9",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "5e2e22b328adb322794115540010e430f049f2ff6e66f8457b83415f5251e793"
-            },
-            {
-              "id": "868m4x3uh",
-              "name": "Assess interior squeaks and rattles",
-              "status": "Open",
-              "list": "Preheim 72 Blazer",
-              "url": "https://app.clickup.com/t/868m4x3uh",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "8fea1d6d1af49160ab84bcb7db71aea2821b265f67709e5cde86abebe31c7e84"
             }
           ]
         },
@@ -2617,5 +2544,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-24T17:36:14Z"
+  "generated_at": "2026-09-24T17:48:31Z"
 }
