@@ -3,7 +3,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 120.2,
-      "pct_of_total": 11.3,
+      "pct_of_total": 11.2,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -53,8 +53,8 @@
     },
     {
       "project": "LB 82 911",
-      "total_hours": 107.8,
-      "pct_of_total": 10.2,
+      "total_hours": 114.8,
+      "pct_of_total": 10.7,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -69,20 +69,20 @@
           "hours": 19.8
         },
         {
+          "task": "Cooling",
+          "hours": 11.8
+        },
+        {
           "task": "Instrumentation",
           "hours": 10.2
         },
         {
           "task": "Interior",
-          "hours": 8.2
+          "hours": 9.2
         },
         {
           "task": "HVAC",
           "hours": 6.5
-        },
-        {
-          "task": "Cooling",
-          "hours": 5.8
         },
         {
           "task": "Manufacturing - Core",
@@ -97,7 +97,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 96.2,
-      "pct_of_total": 9.1,
+      "pct_of_total": 9.0,
       "tasks": [
         {
           "task": "Exterior",
@@ -152,7 +152,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 93.0,
-      "pct_of_total": 8.8,
+      "pct_of_total": 8.7,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -234,7 +234,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 52.8,
-      "pct_of_total": 5.0,
+      "pct_of_total": 4.9,
       "tasks": [
         {
           "task": "Interior",
@@ -308,7 +308,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 40.0,
-      "pct_of_total": 3.8,
+      "pct_of_total": 3.7,
       "tasks": [
         {
           "task": "HVAC",
@@ -347,7 +347,7 @@
     {
       "project": "Richardson 72 240Z",
       "total_hours": 28.2,
-      "pct_of_total": 2.7,
+      "pct_of_total": 2.6,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -412,20 +412,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 167.2,
-    "pct_of_total": 15.8,
-    "avg_per_person_per_day": 1.16,
+    "total_hours": 168.2,
+    "pct_of_total": 15.7,
+    "avg_per_person_per_day": 1.17,
     "flagged": true,
     "tech_count": 8,
     "working_days": 18,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 71.2
+        "hours": 71.8
       },
       {
         "label": "Shop Meetings",
-        "hours": 58.8
+        "hours": 59.2
       },
       {
         "label": "Personal Meetings",
@@ -537,10 +537,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 808.5,
-    "non_billable_hours": 252.5,
+    "billable_hours": 815.5,
+    "non_billable_hours": 253.5,
     "pto_hours": 17.0,
-    "total_hours": 1061.0
+    "total_hours": 1069.0
   },
-  "generated_at": "2026-09-24T21:48:54Z"
+  "generated_at": "2026-09-24T22:12:00Z"
 }
