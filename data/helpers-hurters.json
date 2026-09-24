@@ -3,7 +3,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 117.2,
-      "pct_of_total": 11.3,
+      "pct_of_total": 11.2,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -54,7 +54,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 107.8,
-      "pct_of_total": 10.4,
+      "pct_of_total": 10.3,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -97,7 +97,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 96.2,
-      "pct_of_total": 9.3,
+      "pct_of_total": 9.2,
       "tasks": [
         {
           "task": "Exterior",
@@ -265,7 +265,7 @@
     {
       "project": "Krafcik 02 Caterham",
       "total_hours": 52.5,
-      "pct_of_total": 5.1,
+      "pct_of_total": 5.0,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -307,8 +307,8 @@
     },
     {
       "project": "Thacker 46 Woody",
-      "total_hours": 36.0,
-      "pct_of_total": 3.5,
+      "total_hours": 40.0,
+      "pct_of_total": 3.8,
       "tasks": [
         {
           "task": "HVAC",
@@ -325,6 +325,10 @@
         {
           "task": "Exterior",
           "hours": 5.5
+        },
+        {
+          "task": "Interior",
+          "hours": 4.0
         },
         {
           "task": "Wiring - OEM",
@@ -445,7 +449,7 @@
     {
       "project": "ICON Bronco Prototype",
       "total_hours": 25.5,
-      "pct_of_total": 2.5,
+      "pct_of_total": 2.4,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -533,10 +537,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 789.2,
+    "billable_hours": 793.2,
     "non_billable_hours": 249.8,
     "pto_hours": 17.0,
-    "total_hours": 1039.0
+    "total_hours": 1043.0
   },
-  "generated_at": "2026-09-24T02:47:49Z"
+  "generated_at": "2026-09-24T03:15:26Z"
 }
