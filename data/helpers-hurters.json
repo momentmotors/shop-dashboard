@@ -3,7 +3,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 120.2,
-      "pct_of_total": 11.4,
+      "pct_of_total": 11.3,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -151,12 +151,12 @@
     },
     {
       "project": "Hopkins 65 Silver Cloud",
-      "total_hours": 92.0,
-      "pct_of_total": 8.7,
+      "total_hours": 93.0,
+      "pct_of_total": 8.8,
       "tasks": [
         {
           "task": "Wiring - OEM",
-          "hours": 39.0
+          "hours": 40.0
         },
         {
           "task": "HVAC",
@@ -265,7 +265,7 @@
     {
       "project": "Krafcik 02 Caterham",
       "total_hours": 52.5,
-      "pct_of_total": 5.0,
+      "pct_of_total": 4.9,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -412,20 +412,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 166.2,
-    "pct_of_total": 15.7,
-    "avg_per_person_per_day": 1.15,
+    "total_hours": 167.2,
+    "pct_of_total": 15.8,
+    "avg_per_person_per_day": 1.16,
     "flagged": true,
     "tech_count": 8,
     "working_days": 18,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 70.8
+        "hours": 71.2
       },
       {
         "label": "Shop Meetings",
-        "hours": 58.2
+        "hours": 58.8
       },
       {
         "label": "Personal Meetings",
@@ -471,7 +471,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 17.5,
-      "pct_of_total": 1.7,
+      "pct_of_total": 1.6,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -537,10 +537,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 807.5,
-    "non_billable_hours": 251.5,
+    "billable_hours": 808.5,
+    "non_billable_hours": 252.5,
     "pto_hours": 17.0,
-    "total_hours": 1059.0
+    "total_hours": 1061.0
   },
-  "generated_at": "2026-09-24T19:49:14Z"
+  "generated_at": "2026-09-24T20:13:46Z"
 }
