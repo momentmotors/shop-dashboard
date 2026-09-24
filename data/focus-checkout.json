@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T18:42:46.261205Z",
+  "updated_at": "2026-09-24T18:52:32.426791Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -472,9 +472,15 @@
               "status": "Open",
               "list": "Ferdman 66 Bus",
               "url": "https://app.clickup.com/t/868m9jue7",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Justin Landry",
+                  "date": "2026-09-24 18:42",
+                  "text": "Lifted vehicle to start PDI, checked out underneath and posted possible issues to be fixes. Uncovered mid battery box for Devin to perform BMS update. checked hvac, interior controls and lighting. tomorrow morning will put the seat back in and test drive to complete pdi."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "2e00c870193a7e5cad46da2e37f7540e5a97acbc53ed4fdfd1933ebe5d4e7b9e"
+              "content_hash": "91620614e07a146abd40af06df5d33196812e3a1b00ccf99034b1e23be069b4d"
             }
           ]
         }
@@ -2544,5 +2550,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-24T18:40:43Z"
+  "generated_at": "2026-09-24T18:50:46Z"
 }
