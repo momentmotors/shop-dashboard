@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T20:32:36.521250Z",
+  "updated_at": "2026-09-24T20:50:50.451789Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -80,7 +80,7 @@
         "matched_lists": [
           "Chuter 62 Healey"
         ],
-        "open_tasks": 2
+        "open_tasks": 3
       },
       "assignees": [
         {
@@ -247,6 +247,16 @@
                 }
               ],
               "content_hash": "38a6092dfed4370bd893273cbcfd21e18cd772f6262e785c3e1ca328402d52f9"
+            },
+            {
+              "id": "868m9q4g7",
+              "name": "Replace motor sub harness",
+              "status": "Open",
+              "list": "Chuter 62 Healey",
+              "url": "https://app.clickup.com/t/868m9q4g7",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "7ae2c9ffee05b35dc35ecc88b80838a49331edb0aa58b29c8e76bf21192232dc"
             }
           ]
         }
@@ -2550,5 +2560,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-24T20:30:30Z"
+  "generated_at": "2026-09-24T20:49:06Z"
 }
