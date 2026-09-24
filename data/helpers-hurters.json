@@ -151,20 +151,20 @@
     },
     {
       "project": "Hopkins 65 Silver Cloud",
-      "total_hours": 84.5,
-      "pct_of_total": 8.1,
+      "total_hours": 85.5,
+      "pct_of_total": 8.2,
       "tasks": [
         {
           "task": "Wiring - OEM",
           "hours": 32.5
         },
         {
-          "task": "Scanning",
+          "task": "HVAC",
           "hours": 12.0
         },
         {
-          "task": "HVAC",
-          "hours": 11.0
+          "task": "Scanning",
+          "hours": 12.0
         },
         {
           "task": "Steering",
@@ -537,10 +537,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 793.2,
+    "billable_hours": 794.2,
     "non_billable_hours": 249.8,
     "pto_hours": 17.0,
-    "total_hours": 1043.0
+    "total_hours": 1044.0
   },
-  "generated_at": "2026-09-24T10:29:32Z"
+  "generated_at": "2026-09-24T10:42:05Z"
 }
