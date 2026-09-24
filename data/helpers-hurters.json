@@ -151,12 +151,12 @@
     },
     {
       "project": "Hopkins 65 Silver Cloud",
-      "total_hours": 85.5,
-      "pct_of_total": 8.1,
+      "total_hours": 92.0,
+      "pct_of_total": 8.7,
       "tasks": [
         {
           "task": "Wiring - OEM",
-          "hours": 32.5
+          "hours": 39.0
         },
         {
           "task": "HVAC",
@@ -199,7 +199,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 59.5,
-      "pct_of_total": 5.7,
+      "pct_of_total": 5.6,
       "tasks": [
         {
           "task": "Battery Pack",
@@ -413,7 +413,7 @@
   ],
   "shop_work": {
     "total_hours": 166.2,
-    "pct_of_total": 15.8,
+    "pct_of_total": 15.7,
     "avg_per_person_per_day": 1.15,
     "flagged": true,
     "tech_count": 8,
@@ -537,10 +537,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 801.0,
+    "billable_hours": 807.5,
     "non_billable_hours": 251.5,
     "pto_hours": 17.0,
-    "total_hours": 1052.5
+    "total_hours": 1059.0
   },
-  "generated_at": "2026-09-24T19:35:18Z"
+  "generated_at": "2026-09-24T19:49:14Z"
 }
