@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T04:42:57.687594Z",
+  "updated_at": "2026-09-25T04:53:39.970956Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1245,9 +1245,15 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868g3ptcv",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-19 21:50",
+                  "text": "looking for tires to see if we need to swap them due to them hitting the driver side condensor. i think we may be ok if i move the condensor a little bit."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "52018ac0e4350260697ca8ed567e3d70c9b7dd1e88230f23859a1cee328cf4da"
+              "content_hash": "fab4ff4d3751623a67fa547e8a969f46d28027736387e0dbe0884ac26d979e26"
             },
             {
               "id": "868jg4cba",
@@ -1265,9 +1271,20 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868g3pt74",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-09-21 22:48",
+                  "text": "using claude to make a build doc. making decisions on wire colors for oem harness integration of telltale lights ( high beam etc.) build harnesses on bench. almost wrapped up with building. will be able to install tomorrow"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-09-23 00:15",
+                  "text": "finish wiring, and installation of gauges. used some time to clean up the oem wiring for the instrumentation behind the dash to keep it hidden, secured, and from rattling. power gauge is temporarily installed because i need to order a new gasket for it. It seems like Peterson makes their gauges just a little undersized for ease of installation but that means i cant use my typical method of using tessa tape for install. i need the oem gasket johnny."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "66b520fa11761f4b2fbef4dfe83523d958d0b7a53a5f1a9072fe992b7fc35b17"
+              "content_hash": "2a5598892443cf16a0f06334d1edfbba51b70e6b1822fd3d91ad4df86042f022"
             }
           ]
         },
@@ -1499,9 +1516,40 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868g3pt4u",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Marshall Carter",
+                  "date": "2026-07-18 02:02",
+                  "text": "-took photos and measurements\n-found some friction hinges that could be used for a flip screen that could stay hidden\n-decided where it would mount under the dash and started design"
+                },
+                {
+                  "author": "Marshall Carter",
+                  "date": "2026-07-28 01:58",
+                  "text": "-Met with Aharon to come up with game plan for exactly where the hinge would mount so that we could place the screen under the radio\nimage.png"
+                },
+                {
+                  "author": "Marshall Carter",
+                  "date": "2026-08-26 10:57",
+                  "text": "image.png\nimage.png\nimage.png\n-Scanned interior around radio so that I could see where I have clearance for a tucked away screen\n-Positioned hinge and screen so that when open, it matches the same plane that the the radio faces\n-Designed sheet metal bracket to mount the screen to the hinge\n-Printing out bracket so that it can be fit tested in car.... then will determine if a bracket is needed to mount the hinge to the dash (most likely will)\n-Because apple car play is going to be used, we might need to design a bezel around screen.. will get feedback for this today"
+                },
+                {
+                  "author": "Marshall Carter",
+                  "date": "2026-08-26 10:59",
+                  "text": "image.png"
+                },
+                {
+                  "author": "Marshall Carter",
+                  "date": "2026-08-29 02:54",
+                  "text": "-Fit tested bracket and mounted to a test bench\n-Because the screen will be more of a focus with the need to control audio, it needs to feel solid when being used as a touch screen. Feedback was that the friction hinge was not quite enough solid so I was asked to look into alternative options that would feel more solid"
+                },
+                {
+                  "author": "Marshall Carter",
+                  "date": "2026-09-23 19:07",
+                  "text": "-Updated design to have a magnet stopper to hold open\n-Also added bezel to the screen mount\nimage.png\nimage.png"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "df7c11733df84fd67801142bd3aa45a78a05c5a8888d5a0f06b179cafeb5b586"
+              "content_hash": "e280a4c2c1565721d8d8adb491270cc979d2333a8f0929a3552a789c99b3a196"
             }
           ]
         }
@@ -2272,5 +2320,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-25T04:41:20Z"
+  "generated_at": "2026-09-25T04:52:01Z"
 }
