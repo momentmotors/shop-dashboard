@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T05:30:37.627998Z",
+  "updated_at": "2026-09-25T05:44:46.952630Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1271,9 +1271,20 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868g3pt74",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-09-21 22:48",
+                  "text": "using claude to make a build doc. making decisions on wire colors for oem harness integration of telltale lights ( high beam etc.) build harnesses on bench. almost wrapped up with building. will be able to install tomorrow"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-09-23 00:15",
+                  "text": "finish wiring, and installation of gauges. used some time to clean up the oem wiring for the instrumentation behind the dash to keep it hidden, secured, and from rattling. power gauge is temporarily installed because i need to order a new gasket for it. It seems like Peterson makes their gauges just a little undersized for ease of installation but that means i cant use my typical method of using tessa tape for install. i need the oem gasket johnny."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "66b520fa11761f4b2fbef4dfe83523d958d0b7a53a5f1a9072fe992b7fc35b17"
+              "content_hash": "2a5598892443cf16a0f06334d1edfbba51b70e6b1822fd3d91ad4df86042f022"
             }
           ]
         },
@@ -1505,9 +1516,40 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868g3pt4u",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Marshall Carter",
+                  "date": "2026-07-18 02:02",
+                  "text": "-took photos and measurements\n-found some friction hinges that could be used for a flip screen that could stay hidden\n-decided where it would mount under the dash and started design"
+                },
+                {
+                  "author": "Marshall Carter",
+                  "date": "2026-07-28 01:58",
+                  "text": "-Met with Aharon to come up with game plan for exactly where the hinge would mount so that we could place the screen under the radio\nimage.png"
+                },
+                {
+                  "author": "Marshall Carter",
+                  "date": "2026-08-26 10:57",
+                  "text": "image.png\nimage.png\nimage.png\n-Scanned interior around radio so that I could see where I have clearance for a tucked away screen\n-Positioned hinge and screen so that when open, it matches the same plane that the the radio faces\n-Designed sheet metal bracket to mount the screen to the hinge\n-Printing out bracket so that it can be fit tested in car.... then will determine if a bracket is needed to mount the hinge to the dash (most likely will)\n-Because apple car play is going to be used, we might need to design a bezel around screen.. will get feedback for this today"
+                },
+                {
+                  "author": "Marshall Carter",
+                  "date": "2026-08-26 10:59",
+                  "text": "image.png"
+                },
+                {
+                  "author": "Marshall Carter",
+                  "date": "2026-08-29 02:54",
+                  "text": "-Fit tested bracket and mounted to a test bench\n-Because the screen will be more of a focus with the need to control audio, it needs to feel solid when being used as a touch screen. Feedback was that the friction hinge was not quite enough solid so I was asked to look into alternative options that would feel more solid"
+                },
+                {
+                  "author": "Marshall Carter",
+                  "date": "2026-09-23 19:07",
+                  "text": "-Updated design to have a magnet stopper to hold open\n-Also added bezel to the screen mount\nimage.png\nimage.png"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "df7c11733df84fd67801142bd3aa45a78a05c5a8888d5a0f06b179cafeb5b586"
+              "content_hash": "e280a4c2c1565721d8d8adb491270cc979d2333a8f0929a3552a789c99b3a196"
             }
           ]
         }
@@ -1537,9 +1579,65 @@
               "status": "Open",
               "list": "Lee 68 Mustang",
               "url": "https://app.clickup.com/t/868kar0ru",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-07-13 20:26",
+                  "text": "Started NVH inspection to determine where the extra noise was coming from and or how to solve it.\nFound that we did not have any sound deadening in stock.\nOrdered up both a set of butyl sound deadening and adhesive backed foam layer to help with vibrations and other low frequencies being transmitted through the tunnel.\nWhile waiting for these items to be shipped I inspected the motor cradle and clearances around the motor.\nFound a couple small pieces of hardware sitting between the motor and cradle which could potentially been transmitting a bit of sound through the frame of the car.\nCleaned out the cradle. This took a decent amount of effort and time due to the hardware being lodged in between the motor and cradle.\nThis was definitely transmitting something into the car likely not much but might be just enough to notice.\nContinue with cover the under side of the tunnel once the material arrives."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-07-16 23:36",
+                  "text": "Installed sound deadening in the trans tunnel area to help with NVH.\nWill test to verify noise reduction once the new driveshaft gets installed."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-07 00:43",
+                  "text": "Gear box noise issue was still bad enough that we need to continue addressing the issue.\nQuick Meeting with Marc and geoff on possible solutions.\nSetup chassis ears on the vehicle.\nTest drove the vehicle and reported findings from the chassis ears.\n\n\nRed - Subframe right behind the sled / trans mounting area.\nWhite - Motor Cradle\nGreen - Rear most part of the subframe assembly to verify if its truly transmitting through the tubular structure.\nYellow - Sheet metal at the front of the vehicle.\n\nThis is from Slack:\nAfter a quick test drive.\n\nWhite showed to be the loudest. Very much dependent on speed. The faster you went the louder it got but was louder on decel than it was on acceleration. It was also more a screeching sound than a gear sound but that would just be the way gears sound in a mono analog input.\n\nRed required almost double if not triple the volume to hear the sounds we were hoping to. So I dont think the sound is transmitting through just the subframe.\n\nGreen verifys that the sound is not being directly transmitted through the sub frame structure that the cradle is mounted to. With the volume at max its still very hard to hear any of the noises we are chasing. But I did notice a clicking sound coming from the rear end area of the vheicle using this one.\n\nYellow showed basically no noise I could hear the power steering pump over everything else.\n\nOverall I feel like its possible that SEV is loud and that loudness is being transmitted through the entire vehicle just enough to where the entire vehicle is basically becoming a speaker for these noises.\n\nI can run more tests if we would like and maybe have another set of ears listen to it to verify the same findings. This however was what I noticed.\nOk so I moved red even closer to the cradle. Moved on to the vertical uprights that box in the cradle at the transmission mount.\n\nAs well as Added Blue.\n\nBlue is attached to the drain plug hole for the motor.\n\nBasically the same results as before.\n\nRed had no smoking gun noises present even being as close as it is. With the chassis ears at max volume you can slightly hear the gear box but Im pretty sure thats from surrounding vibrations in the air since the gain is up so high.\n\nBlue basically the same story as red. You can hear the gear box slightly with the chassis ears at max volume but not at all representative of what we are hearing in the cabin of the vehicle.\n\nNext plan was to swap the SEV and attempt to add luxury liner to the underside of the tunnel.\nPulled motor and gearbox.\nSwapped gear box.\nPrepped for install.\nStill need to install luxury liner and motor into the vehicle."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-07 23:30",
+                  "text": "Finished installing the motor and all other changes we wanted to make while changing out the SEV.\nAdded luxury line under to the tunnel to help with noise.\nInstalled new new new driveshaft.\nTested vehicle during driveshaft balancing.\nGearbox sounds very similar to how it did.\nWill need to road test and verify if there are any more changes necessary."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-17 22:06",
+                  "text": "Waiting on New sled from OSH.\nparts added to order OA226"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-02 23:55",
+                  "text": "New sled Arrived\nJustin Welded up the metal.\nI handed metal off to Ryan to drop off at Powder Coat ASAP.\nRemoved the motor from the vehicle today while the battery box was removed from the vehicle.\nIn preparation for the new sled to return.\nCleaned up bay from motor removal."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-08 20:59",
+                  "text": "Started transferring components over to the new sled.\nfound that a couple of the hole in the new mounting plate were actually sized for M8s when the bolts are m10. Will update Geoff on this to make the correction.\nModified mounting plate.\nContinued transferring parts over.\nFound that the bushing shim definitely will not fit as is unless we do some major hammering and or forcing of the part to fit.\nWaiting for confirmation of if we want to wait until the parts on order show up. Current ETA is the 11th.\nFound that the oil temp sensor does collide with the slide when installed.\nRemoved motor from sled and swapped for a plug.\nReinstalled motor into the sled.\nOnce we decide on the bushing shim we can move forward appropriately with this."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-10 21:57",
+                  "text": "Finished swapping the motor over to the new cradle.\nChecked fluids.\nInstalled motor and new cradle into the vehicle.\nContinue with installing all remaining pieces to finish motor install and move on to the battery box."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-11 20:24",
+                  "text": "Finished installing the driveshaft and all of the motors connecting components."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-15 22:28",
+                  "text": "Continued testing on this vehicle to determine if the NVH issue is still present on this vehicle.\nUsing Chassis ear tested a handful of different spots on the car and didnt find any substantial evidence for a very clear source of the sound.\nWorked with Marc and spun the vehicle driveline up while the vehicle was on the lift inspecting different areas and listening for the most apparent sounds.\nMarc and I both come to the conclusion that it seems like most of the sound is being transmitted through the driveshaft of the vehicle.\nCombined with how stiff the chassis is reverberations and loudness are all amplified compared to Vargas.\nBack to back comparison to Vargas shows both mustang making the exact same sounds joust at different amplitudes. Lees mustang being the louder of the 2.\nDetermined that the next best step is to add sound deadening to the interior of the vehicle to try and help cut back on all of the NVH as much as possible.\nAt this point we have to to shift from getting rid of the sound entirely to just making the sound bearable. There are no apparent  solutions for this vehicle due to the way the vehicle is manufactured and equipped. Its almost too good for how quite our systems are.\nWill continue the sound deadening install on it own specific task."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-16 18:41",
+                  "text": "Aharon finished balancing the driveshaft.\nTest drove the vehicle after to get a feel for the balance.\nCar felt great. No crazy vibrations felt up to 60-65 mph. Still need to do highway testing.\nThe weird thing I noticed though was that with the center console out of the car the Gear groan / Noise was bearable. It wasnt obnoxious or crazy. Still present but drivable. The center console must be acting as amplifier as well especially the center console cubby box thing. We should also add sound treatment to the underside of this as well.\nWill add this to the list of things to address when it comes to NVH and or sound deadening."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "2e22e130e4483b94d8c1da8a37c63d595333ec972f3e7371a4d05a5581970ca1"
+              "content_hash": "2e35808b0ea21e9b42f8d11e735597b3662c1e8f4d84036b304954b48526f507"
             },
             {
               "id": "868kvft7k",
@@ -1547,9 +1645,45 @@
               "status": "Open",
               "list": "Lee 68 Mustang",
               "url": "https://app.clickup.com/t/868kvft7k",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-28 20:51",
+                  "text": "Gathered some data to start the Diag of possible DCDC timing fault and or VCU programming errors on our Dilong chargers.\nDCDC errors show up when the key is cycled off to on in quick succession."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-14 21:05",
+                  "text": "image.png\nimage.png\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-14 21:58",
+                  "text": "2026-08-11 Lee Mustang Inverter Config defsyms_20250513_09142026.txtAdjusted Torque Rate Limit from 50 to 70"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-14 22:08",
+                  "text": "Updated VCU.\nQuickly went through the settings and config to make sure things didnt change.\nThis vehicle has not had a lot of time or tuning done to it so this was not difficult nor were there a bunch of settings that would have been changed yet.\nVCU updated to the latest firmware.\nAdjusted Launch gain to 70, Test drive, adjusted to 100, Test drive.\nDidn't have any noticeable difference at this time.\nWill need to charge the vehicle before further testing.\nUpdated Torque Rate limit from 50 to 70 on the EEPROM settings since 70 is stock. Not entirely sure how it was reduced down to 50 but this should also help the acceleration."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-22 15:45",
+                  "text": "image.png\nimage.png\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-22 15:47",
+                  "text": "Reverted Firmware from GEN5_CC_CM_20250514_6533 \u2192 GEN5_CC_CM_20240829_6531.\nVerified EEPROM settings remained persistent through the firmware revert.\nThe only four that disappear are the Active Short Circuit trio and the DC-link flux-weakening flag, and all four were reading zero on 6533, so no live configuration was lost.\nAttached below is the report from comparing before and after EEPROM settings.\n\nLee_Mustang_Firmware_Revert_Verification.pdf"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-22 16:26",
+                  "text": "Test drove vehicle.\nFound that the vehicle makes much more torque now. Enough to finally chirp the tires a little bit.\nHowever when the tires break traction the inverter has faulted out both times.\nTwo events, both a complete loss of drive\n\n\nDuring both, inverter current sits at 0.2\u20130.4 A and delivered torque at zero. The car is making nothing for forty seconds at a stretch.\nIn event 2 the driver clearly tried to get it back \u2014 at t = 355.6 to 356.4 the pedal goes 68%, 81%, 97%, command rises to 350 Nm, and the inverter still puts out 0.2 A.\n\nBoth trip at the same place\n\nBoth faults set on the very next sample after peak torque, during a hard launch from low speed.\nIt isn't torque on its own. Pull 2 made 591 Nm at 4,746 rpm and pull 3 made 589 Nm at 3,148 rpm, and neither tripped. Both trips were below 1,750 rpm. The envelope that kills it is high torque below about 2,000 rpm \u2014 which is exactly where phase current peaks and back-EMF is lowest, even though DC current is only ~200 A. With IQ_Limit_EEPROM at 1272 A, that corner is where the phase-current limit would bite first.\nNot thermal: inverter was at 42\u201344 \u00b0C and the motor at 24\u201340 \u00b0C at both trips. Stone cold.\n\nNeither clears on its own\nBoth events end only when HV is cycled. Bus goes 590 \u2192 260 \u2192 33 \u2192 0 V, validity flags drop for 8 s (event 1) and 3.8 s (event 2), HV comes back, fault clears. Nothing in the log suggests it would have recovered otherwise.\n\nNothing else flags it\nDrvInvtrDsblReason reads No Fault on all 11,582 samples. So do APPLimReason, LimpInModeReason and both HVSysDsblLevel codes. DrvMtrTrqVld and DrvInvtrCurVld stay at 1 throughout the fault \u2014 they only drop during the HV-off window. The raw DrvInvtrFault bit is the only thing that catches this, which is worth knowing for the tab spec and for anyone reading these logs."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
+              "content_hash": "cfe8606b549298c713edf1c9d37a372cb056a267fd94ec338f971ffef994c2c6"
             },
             {
               "id": "868m5njnw",
@@ -1567,9 +1701,25 @@
               "status": "Open",
               "list": "Lee 68 Mustang",
               "url": "https://app.clickup.com/t/868m5p8ud",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-15 22:46",
+                  "text": "Noticed that there was a buzzing sound coming through the speakers of this vehicle that wasnt present before.\nIsolated the issue down to the outputs of the GUI.\nAfter a lot of testing I found that the issue was actually a USB C cable that was plugged into the back of the GUI.\nTo get there though we ended up swapping out the headunit for a new one however the new one does have the delay in CAN messages so it might be worth swapping back.\nWill leave the new one in at this time.\nCurrently the Audio system is operating as intended. Will need to re route the new microphone when the center console goes back in."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-16 15:53",
+                  "text": "Started to replace the microphone. Will have this finished up pretty quick but got pulled off onto other things."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-16 18:39",
+                  "text": "Microphone installed and center console wiring tidy up."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "1326f2e1eb922c52ae722d2ce67a86b2ae6ac3d7b1b84488df74659450de06b3"
+              "content_hash": "a5497313116074adeeff8d17cff105f53e00f8dd54df12b927e162876d6376b8"
             },
             {
               "id": "868m8fhnh",
@@ -1577,9 +1727,50 @@
               "status": "Open",
               "list": "Lee 68 Mustang",
               "url": "https://app.clickup.com/t/868m8fhnh",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-23 15:06",
+                  "text": "Further diag / analysis on Lee for the inverter fault.\nShows that the inverter is faulting due to an over current. However it does also seem like there might be a potential phase irregularity. coming through when the torque is peaked and or when the tire break traction.\nWill need to reach out to cascadia on this one as per Marcs request.\nWe did get the full torque back though now so there is definitely an issue with the newest 6533 firmware thats knocking 100+Nm off of our max usable torque.\nAttached is a sort report based on the EEPROM, Inverter Diag Data and a Raptor log. This report however is not a concrete problem nor a solution but a general report based on the diag data we I collected. Using my claude.\n\n\nDate: Tuesday, September 22, 2026\nVehicle/System: Lee 68 Mustang \u2014 Cascadia inverter, Ampere EV VCU (New Eagle VCM_517)\nInverter firmware: GEN5_CC_CM_20250514_6533 (defsyms_20250513) \u2192 GEN5_CC_CM_20240829_6531 (defsyms_20240829)\nClickUp: Checkout vehicle \u2014 Monthly Goal, Lee 68 Mustang \u00b7 Open \u00b7 Urgent \u00b7 due Sep 30 \u00b7 2.5 h of 8 h logged (5.5 h remaining)\nObjective\nBack-rev the Cascadia inverter to 6531 to recover the missing peak torque, verify no EEPROM configuration was lost in the revert, and road-test to confirm the vehicle now makes full requested torque.\nWhat we did\nConfirmed the target build with Marc and Devin before flashing. Reverted the inverter from 6533 to 6531, then ran a before/after EEPROM comparison to prove nothing live was lost. Road-tested with full-throttle pulls, captured Raptor logs, and analyzed the two inverter faults that came out of it. Added signals to the 10 ms log list, set shudder compensation back to stock per Marc, and pulled inverter diag data and the full EEPROM for Cascadia.\nKey findings\nThe back-rev worked \u2014 torque is back. The car now makes 100% of requested torque, and arguably 102%. It makes enough torque to chirp the tires, which it could not do on 6533.\nThe revert cost nothing live. All EEPROM settings stayed persistent through the flash. Only four parameters disappear on 6531 \u2014 the Active Short Circuit trio and the DC-link flux-weakening flag \u2014 and all four were reading zero on 6533, so no live configuration was lost. Documented in Lee_Mustang_Firmware_Revert_Verification.pdf.\nNew problem: the inverter faults when the tires break traction. Two events on the first drive, both a complete loss of drive. During both, inverter current sits at 0.2\u20130.4 A with delivered torque at zero \u2014 the car makes nothing for forty seconds at a stretch. In event 2 the driver clearly tried to get it back: at t = 355.6\u2013356.4 s the pedal goes 68% \u2192 81% \u2192 97% and command rises to 350 Nm, and the inverter still puts out 0.2 A.\nBoth trip in the same envelope, and it isn't torque alone. Both faults set on the very next sample after peak torque, during a hard launch from low speed, both below 1,750 rpm. Pull 2 made 591 Nm at 4,746 rpm and pull 3 made 589 Nm at 3,148 rpm \u2014 neither tripped. The envelope that kills it is high torque below about 2,000 rpm, exactly where phase current peaks and back-EMF is lowest, even though DC current is only ~200 A. With IQ_Limit_EEPROM at 1272 A, that corner is where the phase-current limit would bite first.\nNot thermal. Inverter at 42\u201344 \u00b0C and motor at 24\u201340 \u00b0C at both trips. Stone cold.\nNeither clears on its own. Both events end only when HV is cycled: bus goes 590 \u2192 260 \u2192 33 \u2192 0 V, validity flags drop for 8 s (event 1) and 3.8 s (event 2), HV comes back, fault clears. Nothing in the log suggests it would have recovered otherwise.\nNothing but the raw bit catches it. DrvInvtrDsblReason reads No Fault on all 11,582 samples \u2014 as do APPLimReason, LimpInModeReason and both HVSysDsblLevel codes. DrvMtrTrqVld and DrvInvtrCurVld stay at 1 throughout the fault and only drop during the HV-off window. The raw DrvInvtrFault bit is the only signal that catches this \u2014 worth knowing for the tab spec and for anyone else reading these logs.\nFault decoded as hardware over-current. Marc read it out as INV_Run_Fault_Lo = 0x0200 (Post faults both 0x0000) \u2014 Hardware Over-current Fault, 0x00000200. Raptor surfaces it as InvtrReportsOverCurrentFault. Devin's read on the trace was that CAN1 may have dropped.\nOn the version question: Marc flagged a possible 6532 between the two builds; Devin confirmed 6532 was skipped \u2014 6531 is the right target. Devin also noted some inverters have arrived from the factory on that firmware, and he had to fabricate a symbols file to pull an EEPROM backup before flashing; that extracted firmware is overwritten now.\nArtifacts produced\nLee_Mustang_Firmware_Revert_Verification.pdf \u2014 before/after EEPROM comparison\nVCM_517_Motoring Claude_2026_09_22_10_52_43_Lee_6531_Initial.csv \u2014 first log after revert: 2 inverter faults on wheelspin, 2 full-throttle pulls, 2 key cycles\nVCM_517_Motoring Claude_2026_09_22_11_58_54_10msTest_Inverter Fault.csv \u2014 with added 10 ms signals\nLee Diag 09.22.26 1200pm \u2014 inverter diag data\n2026-09-22 Lee Mustang EEPROM Rev.1 defsyms_20240829 \u2014 full EEPROM for Cascadia\nLee_Mustang_Cascadia_Issue_Report_1.pdf \u2014 issue write-up for Cascadia"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-23 15:10",
+                  "text": "Reverted Torque_Rate_Limit_EEPROM_(Nm)_x_10 to 50 (5 Nm)"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-23 15:13",
+                  "text": "Visual inspection shows that the inverter resolver cable is not damaged or installed improperly.\nEverything is still secured as it was before.\nThe only thing that may changed would have been routing of the cable.\nFirst will be the Torque rate test and then Self sense. If neither of those work I will re route the cable.\nFurther testing to still be done and a resolution to be found.\nAlso spent a little bit of time to wipe down the car since it was looking unacceptably dirty."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-23 16:58",
+                  "text": "VCM_517_Motoring Claude_2026_09_23_11_33_26_TorqueRateSetto50.csv"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-23 16:58",
+                  "text": "This is with the Torque rate set back to 50. No real change there.\n\nWasn't able to get diag data. RMS GUI wouldn't open. Diving into that next. Could be indicator to a damaged harness if I cant get this setup to work on another vehicle.\n\nHere a couple claude responses.\n\nQ: Could this be drivetrain?\nDrivetrain momentum is probably what sets it off, but it can't be what the resolver is reading. The logs show both effects, and they differ by a factor of about 40.\nReal driveline motion is slow. In the 10 ms log, the motor speed rings after the trip as the driveline unwinds:\nIt drops from 1,632 to 1,516 rpm, back up to 1,709 rpm, and keeps ringing about every 140 ms.\nThat's a swing of about \u00b1100 rpm at roughly 7 Hz, the driveline winding up and springing back once the torque disappears.\nThe current loop copes easily with a speed change that slow and small.\nThe resolver disturbance is far faster and far bigger:\nIt swings at about 300 Hz.\nIn a fraction of a millisecond, the resolver reports the speed dropping to about a quarter of 1,650 rpm, then doubling, then briefly reversing.\nFor the rotor to really do that, it would need well over 10,000 Nm acting on it. The motor makes 580 Nm. Even a hard shock from the tires hooking back up can't come close to that at the rotor without breaking something. So the rotor isn't moving the way the resolver says.\n\n\nQ: Could this be Torque Rate Limit?\nProbably not. The rate limit only slows down how fast the torque command can change. At the trip the command wasn't changing, and the ramps in the logs never reached either limit.\nWhat the setting means. Cascadia's software manual defines Torque_Rate_Limit_EEPROM as torque increase per 3 ms:\nSettingPer 3 msPer secondOld: 505 Nmabout 1,670 Nm/sNow: 707 Nmabout 2,330 Nm/s\nCascadia only warns about stability above 70 Nm per 3 ms (a setting of 700, about 23,000 Nm/s). Lee's 7 Nm is a tenth of that.\nWhy it isn't causing the trip:\nThe command was flat when it tripped. In the diag file the current commands (Iq_cmd / Id_cmd) held steady for the whole 26.7 ms before the trip. A rate limiter only acts while the command is rising or falling, so it had nothing to do. The current ran away while the command sat still, the same point that rules out shudder compensation.\nThe trips didn't ramp as fast as the limit allows. The steepest actual torque rise in each pull, from the logs:\nPullSteepest torque riseTrip 1~1,700 Nm/sTrip 2~1,500 Nm/sTrip 3~700 Nm/sClean rolling pull~2,280 Nm/s\nThe pedal and the VCU's own ramp set these rates, not the inverter setting. Even at the old 5 Nm limit, trips 2 and 3 would have ramped the same way.\nThe fastest ramp didn't trip. The clean rolling pull came right up against the 7 Nm limit and ran fine. All three trips ramped slower.\n\n\nQ: Could the Gamma be affected with a new cable?\nNot if the new cable is wired pin for pin the same. Gamma adjust corrects for where the resolver sits on the shaft relative to the rotor magnets. Cascadia's software manual describes it as compensating for the resolver's position on the shaft. A cable swap doesn't move anything mechanically, so the offset shouldn't change.\nVerify after the swap:\nDirection: with the motor stopped, turn the shaft slowly by hand in the forward direction.\nGamma_Resolver should count up and wrap from 360\u00b0 to 0.\nSin_corr and Cos_corr should trace a circle.\nIf the angle counts down or doesn't move, a pair is swapped or reversed. That shows up as a 90\u00b0 or 180\u00b0 error, or the motor won't run at all, not a small drift.\nOffset check: coast the motor down with the inverter disabled and read Delta_Resolver_In_Fil. It should read +90\u00b0 forward (or \u221290\u00b0 in reverse), within \u00b10.7\u00b0.\nIf it's within that, leave Gamma_Adjust at 34.7\u00b0.\nIf it's outside that, redo the calibration per section 4.1.3 of the manual.\nSpinning the motor generates HV even with the inverter off, so follow the manual's precautions.\nIf the new cable is a different length or type: it can delay the resolver signals relative to the excitation. That doesn't shift the angle, because sin and cos are delayed equally. It does lower the signal amplitude the inverter reads, which makes it more sensitive to noise. Cascadia has a Resolver PWM Delay setting that tunes when the inverter samples the resolver signal (default 1100). Look at the sin/cos amplitude after the swap, and ask Cascadia before changing that setting."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-23 22:20",
+                  "text": "2026-09-23 Lee Mustang EEPROM Rev.3 defsyms_20240829"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-23 22:22",
+                  "text": "Enabled self sense on this vehicle for further testing.\nMade 2 new sets of Inverter programming cables since the last one was causing issues. Turns out one of the wires was broke inside the connector."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-24 22:24",
+                  "text": "Date: Thursday, September 24, 2026\nVehicle/System: Lee 68 Mustang \u2014 Cascadia inverter on GEN5_CC_CM_20240829_6531\nClickUp: Checkout vehicle\nWhat we did\nTwo morning test drives, both chasing the over-current fault from Tuesday.\nTest 1 \u2014 Self-sense assist enabled (Self_Sense_Assist_Enabled_EEPROM, set yesterday afternoon). Hard acceleration, no inverter fault. Log: VCM_517_Motoring Claude_2026_09_24_08_30_44_Lee_SelfSenseEnabled.csv\nTest 2 \u2014 Torque rate limit back to 70 (Torque_Rate_Limit_EEPROM_(Nm)_x_10). Same result, no faults. Upper limit on that setting is 700, so we're nowhere near it. Log: VCM_517_Motoring Claude_2026_09_24_08_41_39_Lee_Rev4EEPROM.csv\nKey findings\nThe fault is gone. Two hard-acceleration runs, neither tripped the inverter. Self-sense assist looks like the fix.\nBut the car still won't spin the tires \u2014 and a 600 V Mustang feels like it really should.\n\n\nWill need to build a new  motor sub harness for this car that uses different routing path to try and fix the resolver issues."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "3ef609addaf0057936618acba3af357d19280540b63ae1e7d0f068966b6b0807"
+              "content_hash": "6833c6c98929029293397feb65f8bf81a1c62c90810a4a5032a7cfe03c433df7"
             }
           ]
         },
@@ -1714,9 +1905,131 @@
               "status": "Open",
               "list": "McDonough 77 Esprit",
               "url": "https://app.clickup.com/t/868jkmucy",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
+              "comments": [
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-13 04:47",
+                  "text": "Walked Andrew through the vehicle requirements sheet and filled in all the information possible. Went to flash inverter firmware, cable wouldn't connect physically, looks like the wrong gender. Made quick cable changer. Connected to inverter, pulled EEPROM backups for the main settings, RTD calibrations, and control loop settings. Flashed firmware 6533 and started on the EEPROM combing. Had Claude look at the EEPROM compare tool since it wasn't working for some reason. Compared the Ampere, Moment, and Stock W EEPROM files and decided on an updated blend with weight towards the Ampere settings, made a Master EEPROM column in the startup sheet to permanently capture these. Flashed and backed up everything. Moved on to the VCU, flashed the latest firmware, transfered settinngs from the vehicle requirements sheet and noted with comments where it was lackinng / not super clear. Transfered clear settings to the VCU and marked ones that needed to be reviewed at a later date. Upgraded the PMU's to the latest firmware and flashed the Preheim calibration, which matches closest. Later this week when Preheim HVAC is finished it should be considered to re-flash that program over to here if zero changes have been made to McDonough. Moved over to OBD port which is not reading the PMU CAN but was able to use the PMU checkout box to monitor current while Andrew forced on all channels controlled by the VCU. Started to hookup HV and ran into an HVIL issue, narrowed it down to an IMD box which checked good earlier. Either it's a different IMD box that was actually installed in the vehicle or the vehicle harness has an issue."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-14 02:57",
+                  "text": "Measured CAN network resistances and found CAN3 at 105 Ohms. Temporarily added a resistor to CAN3 to correct the termination. Found PMU CAN1 was flipped high and low causing the laptop to not connect, had brandon fix that. Verified HVIL now satisfied with Daves fix, plugged in the rest of the HV acessories. Enabled HV from the VCU and watched precharge. Verified L2 charging and DCDC output and marked off in the sheet. Discovered bug where PMU was sending output status 1 for all channels, corrected. Will need to fix on three other vehicles. Monitored VCU while testing brake switch. Ended up overriding from the VCU to move on. Calibrated the resolver and continued testing brakes with Dave. Took the vehicle for a test drive and updated the punch card."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-19 23:27",
+                  "text": "Drew up HVAC summary diagram for understanding of which control needs to be configured where. Corrected incorrect VCU options marked off as done during rush last week. Verified all input switches making it to the right controller and all outputs switching on the correct device. Watched AC cycles with Dave & adjusted setpoints per his suggestion. Tested cabin heat, drawing 2kW and internally shutting off at 70C, might be a blend door problem that is not removing the heat from the heater core."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-07-24 22:19",
+                  "text": "Removed the temp temperature logger from Preheim and wired up some thermistors to take the place of the permanent ones in the battery box. Adjusted the logger setup slightly and setup to log temps on Hastert out in the sun. Temperature results at 5pm:\n\nTop of Dash: 32.9 C\nTop of Battery Box: 36.9 C\nSide of Battery Box: 34.6 C\nSide of Battery Box (In the air): 41.8 C\n\nLooks like the air around the box is significantly hotter, test might not have ran long enough. Should re-try on the Lotus."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-06 21:15",
+                  "text": "Picked up on startup. Scanned the sheet to get an overview of what's left. Changed the inverter setting for breakspeed to match the W type motor. Setup second GitHub account with the email Andrew used. Pulled the latest VCU firmware and release notes. Hooked up to vehicle to flash and the passenger window seemed to be stalling. Shut off vehicle and discussed with Dave."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-07 22:31",
+                  "text": "Ran through the checkout sheet filling in the items remaining section. Flashed the latest AWD firmware and verified options. Left on charge the rest of the day and monitored."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-20 22:41",
+                  "text": "Pedal Launch Gain adjusted from 70 -> 50"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-03 15:37",
+                  "text": "image.png\nEntered Vehicle weight and Gear Ratio into the VCU"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-03 23:08",
+                  "text": "Messaged Ryan to acquire the Wifi Credentials.\nWifi creds gathered. Notified Devin to upload creds to the logger.\nUploaded the vehicle weight and gear ratio into the VCU. Left the parameters on Display since the vehicle has been working well and as intended at this time.\nAddressed CAN 3 termination issue. Missing term resistor. Added a removable term resistor at the OBD port.\nSpoke to Marc about updating the GUI. We decided that we should leave it as is to prevent any possible failures on a complete car."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-09 13:44",
+                  "text": "Pre Flash\nimage.png\nimage.png\nimage.png\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-09 13:48",
+                  "text": "image.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-09 13:59",
+                  "text": "Post Flash\nimage.png\nimage.png\nimage.png\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-09 15:18",
+                  "text": "Flashed the VCU firmware to the latest firmware.\nSpent sometime setting up the RDIS file to have our HVAC diag and settings in the HVAC tab.\nSubmitted before and after screenshots to Claude to determine what settings changed pre and post flash.\nthe only setting that \"changed\" was the LaunchGain. In the old settings we had it set to 50 at drive factor 8. The thing is this car has a drive factor of 11.2 so that setting was never actually being used. So we updated that setting to 50 on this new firmware. Will need to test drive the vehicle to verify.\nMade necessary adjustments to the VCU settings to match pre flash.\nVCU updated and good at this time. Continue with Test drive of the vehicle to verify operations are all good still at this time."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-10 22:02",
+                  "text": "Uploaded wifi credentials to CAN logger."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-21 13:56",
+                  "text": "image.png\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-21 13:59",
+                  "text": "Uploaded backup files of the Inverter EEPROM Settings and the PMU Project files.\nCheckout for this vehicle should be done.\nWill likely need to use some time to finish up documentation before the car leaves"
+                }
+              ],
+              "checklist_items": [
+                {
+                  "checklist": "Checklist",
+                  "name": "Address CAN3 Termination issue (currently 110 ohms)",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Add wifi credentials",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Enter vehicle weight",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Update GUI to lastest version",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Verify gauges after reinstallation",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Test fast charging",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Perform overnight charge",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Verify inverter break speed",
+                  "resolved": true
+                }
+              ],
+              "content_hash": "e63d160e1b093fab2ac0e2ee56dcced937de4b82cb0c77419b1dcc452d27b9a7"
             }
           ]
         }
@@ -1882,9 +2195,15 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868m6uehh",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-18 22:49",
+                  "text": "removed the dr side axle\ntook the U-Joint out\nwaited for the new joint\nfirst one was wrong\ngot the right one\ninstalled U-Joint\nreinstalled axle\ntest drove truck\ndrives great"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "83f5b0057d0375e695b5e7475b0efeff3c5c1da8e27a114558fd5c62d6eede1b"
+              "content_hash": "2b1cd7a3ddef873ea6fac4b77cfe8cca50628ec361a6bc1282366188f6ba1cd3"
             },
             {
               "id": "868m81x7t",
@@ -2278,5 +2597,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-25T05:29:09Z"
+  "generated_at": "2026-09-25T05:42:42Z"
 }
