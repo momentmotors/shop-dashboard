@@ -53,8 +53,8 @@
     },
     {
       "project": "LB 82 911",
-      "total_hours": 116.2,
-      "pct_of_total": 10.3,
+      "total_hours": 119.2,
+      "pct_of_total": 10.5,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -66,19 +66,19 @@
         },
         {
           "task": "Vehicle Control",
-          "hours": 19.8
+          "hours": 20.8
         },
         {
           "task": "Cooling",
-          "hours": 11.8
+          "hours": 12.8
+        },
+        {
+          "task": "Interior",
+          "hours": 10.2
         },
         {
           "task": "Instrumentation",
           "hours": 10.2
-        },
-        {
-          "task": "Interior",
-          "hours": 9.2
         },
         {
           "task": "HVAC",
@@ -199,7 +199,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 60.5,
-      "pct_of_total": 5.4,
+      "pct_of_total": 5.3,
       "tasks": [
         {
           "task": "Battery Pack",
@@ -420,7 +420,7 @@
     }
   ],
   "shop_work": {
-    "total_hours": 179.0,
+    "total_hours": 180.0,
     "pct_of_total": 15.9,
     "avg_per_person_per_day": 1.18,
     "flagged": true,
@@ -429,11 +429,11 @@
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 75.5
+        "hours": 76.0
       },
       {
         "label": "Shop Meetings",
-        "hours": 63.8
+        "hours": 64.2
       },
       {
         "label": "Personal Meetings",
@@ -479,7 +479,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 17.5,
-      "pct_of_total": 1.6,
+      "pct_of_total": 1.5,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -545,10 +545,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 858.2,
-    "non_billable_hours": 270.8,
+    "billable_hours": 861.2,
+    "non_billable_hours": 271.8,
     "pto_hours": 17.0,
-    "total_hours": 1129.0
+    "total_hours": 1133.0
   },
-  "generated_at": "2026-09-25T21:36:52Z"
+  "generated_at": "2026-09-25T21:48:37Z"
 }

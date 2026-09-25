@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T21:38:23.504859Z",
+  "updated_at": "2026-09-25T21:50:17.980970Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -510,10 +510,15 @@
                   "author": "Devin DuMont",
                   "date": "2026-09-24 22:12",
                   "text": "Connected to the VCU and PMU. Downloaded the new PMU program. Verified precharge signal was working as expected. Verified there was a coolant temp sensor reading, added in the calibration table and verified the reading seemed reasonable. Forced PackHeatControl and verified the signal was received at the PMU, adjusted pullups and set hysteresis values. Verified heater contactors connected HV to the battery heater with the correct polarity. Built an AEMCal tab for all the various battery heater options, channels, and tables. Couldn't find an overall pack temp override to test the battery heater logic so I used several individual thermistor overrides. Checked the correct output corresponded to the hysteresis threshold table. (Sometimes in AEMCal the descriptors Pack and Batt are completely different tables.) Verified heater CAN came online and the HV current / voltage / power readings were coming in. Tested the whole system end to end with an override in the VCU. Monitored pack temp climb from 22C to 24C. Made the PMU program permanent and took backups of the VCU configuration to send off to AEM for a burn. Uploaded both backups to the corresponding vehicles folder."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-09-25 21:48",
+                  "text": "Adjusted the temperature based regen limiter and test drove to verify. Turns out it only works on positive torque, not regen. Reaching out to AEM. Trouble shot the battery heater only reporting 2500 W out of 3500 W. Monitored pack current and verified the CAN message against that. Initially the unit does draw full power but shortly after it caps, may need to reach out to the manufacturer."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "bc065a788746e308fa21e27bc5671d0ab4f544b230ca0d37886a9123e4fdcc7c"
+              "content_hash": "3108835d92130bcd70bffad1a43a2a323dac2a832fc8b01988357cdca21a3350"
             }
           ]
         }
@@ -798,7 +803,7 @@
         "matched_lists": [
           "LB 82 911"
         ],
-        "open_tasks": 31
+        "open_tasks": 32
       },
       "assignees": [
         {
@@ -845,10 +850,15 @@
                   "author": "Aharon Adams",
                   "date": "2026-09-24 22:03",
                   "text": "remove dash trim and box up for ryan to take."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-09-25 21:41",
+                  "text": "meeting with the people we're working with, discussing the final product and drilling holes in there test piece to see how close it is and what changes need to be made."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "bbdfa552cd631f517ddf99d07a22ba3392208da7abeb4a5683c3596f8d1c8d31"
+              "content_hash": "b81b5ecc3642ffa69719722c75163933f7078b2ea9515ff4b8fadd5b4eefe1df"
             },
             {
               "id": "868hbv2qu",
@@ -866,10 +876,15 @@
                   "author": "Aharon Adams",
                   "date": "2026-09-24 22:02",
                   "text": "can not test until start up. but complete for now."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-09-25 21:42",
+                  "text": "reinstall pedal box, toe plate, and accel pedal after checking tunnel tubing for leaks and cleaning up the area."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "6e360211d1d655b28ffbecb73417d74551bacba2e0f89049e08753a07769a6ae"
+              "content_hash": "16d722694fee8a9773abc9e60696b6f18fd43373241e1e493c6864309db4d08e"
             },
             {
               "id": "868g811de",
@@ -933,10 +948,15 @@
                   "author": "Aharon Adams",
                   "date": "2026-09-11 21:12",
                   "text": "had to remove motor water pump for harness installation. reinstall after harness has been situated. assembly and installation of vcu stack. i had to tap the pre installed threads due to powdercoat"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-09-25 21:43",
+                  "text": "change connectors, and secure wiring for condensors and pressure switch."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "d083236566ca3f93003b9d1645b6014016742f8ba881a62f301427405780143e"
+              "content_hash": "cfdf71842c03979cc8015c38329e7272e1778ad83a4865a136cd9eec324ed7c4"
             },
             {
               "id": "868j7kkze",
@@ -1059,6 +1079,16 @@
               ],
               "checklist_items": [],
               "content_hash": "19d208039be08ea3067bc2846d456bac7d818ef8d0ef77c687afe39063e8efc3"
+            },
+            {
+              "id": "868ma6wy3",
+              "name": "NEEDS REVIEW mount washer bottle",
+              "status": "Open",
+              "list": "LB 82 911",
+              "url": "https://app.clickup.com/t/868ma6wy3",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "571e4a5854020fd1566ed08b00a1e3762aca5760fc2bccbbea16f999d5865a76"
             },
             {
               "id": "868j7krpv",
@@ -1923,15 +1953,9 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868m6uehh",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-18 22:49",
-                  "text": "removed the dr side axle\ntook the U-Joint out\nwaited for the new joint\nfirst one was wrong\ngot the right one\ninstalled U-Joint\nreinstalled axle\ntest drove truck\ndrives great"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "2b1cd7a3ddef873ea6fac4b77cfe8cca50628ec361a6bc1282366188f6ba1cd3"
+              "content_hash": "83f5b0057d0375e695b5e7475b0efeff3c5c1da8e27a114558fd5c62d6eede1b"
             },
             {
               "id": "868m81x7t",
@@ -2345,5 +2369,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-25T21:36:52Z"
+  "generated_at": "2026-09-25T21:48:37Z"
 }
