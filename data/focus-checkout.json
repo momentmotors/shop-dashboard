@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T20:13:11.771655Z",
+  "updated_at": "2026-09-25T20:27:45.622295Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -158,7 +158,7 @@
         "matched_lists": [
           "Ferdman 66 Bus"
         ],
-        "open_tasks": 7
+        "open_tasks": 8
       },
       "assignees": [
         {
@@ -246,6 +246,32 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "7f891d6c42432c8f41025fd35019a46319bc4fb2a5c2bfc023e742a0d9d82010"
+            },
+            {
+              "id": "868m7djz9",
+              "name": "Troubleshoot interior noise issues",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868m7djz9",
+              "comments": [
+                {
+                  "author": "David Webber",
+                  "date": "2026-09-21 16:49",
+                  "text": "Diagnose interior noises:\nfront seats noisey, rubber bumpers for seat back frames & seat bottom frames missing ... parts ordered\nOEM headliner ribs have been replaced with a shadetree wooden solution. These have come loose and are flopping about resulting in knocking noises. I've recommended replacement of these Items. Perhaps to be performed by an upholsterer.\nLubricated door check straps for creaking noises"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-09-21 20:56",
+                  "text": "Assisted with test-driving and pedal rework.\nFound and rush-ordered parts for seat rework (see above).\nPer ISP west, parts should arrive by end of week.\n\nWe solved the issue with 'motor cogging'. It actually was a little stiff near the 'accelerator off' position and wasn't recording fully off, the last 1/2\" was sticky. Dave re-adjusted and now we have a more positive snap-back, no more cogging.\n\nWe may want to re-do the accelerator table regardless, as there was a throttle out-of-range pending alert that appeared at one point... perhaps because it was recording the throttle as open on startup? It hasn't reappeared in my test-driving since.\""
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-09-24 17:07",
+                  "text": "Addressed squeaking noises from 3rd row seat"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "16040b41fe31e16e2889618f6c422b23ee11e943ea2ccb67a184d974877fc743"
             }
           ]
         },
@@ -298,10 +324,15 @@
                   "author": "Brandon Beaman",
                   "date": "2026-09-25 16:46",
                   "text": "image (66).png\nimage (65).png\nimage (67).png\nAdjusted all other fan settings to match the same speed threshold. Including the cooling fans.\nAll fans should now remain on for the entirety of the busses operation."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-25 20:21",
+                  "text": "09-25-2026 Ferdman Bus defsyms_20240513_Full Backup EEPROMMade adjustments to the EEPROM as per marcs request.\nChanges made were to\nMtr_OverTemp_Limit_EEPROM_(C)_x_10\nZero_Torque_Temp_EEPROM_(C)_x_10\nFull_Torque_Temp_EEPROM_(C)_x_10\nUploaded backup EEPROM to the Drive for future reference and record.\nUploaded a copy of the RMS GUI folder to ensure that was usable throughout the company."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "b9baca3bc62c6f500f963515e128e4ee7d869c049993cb3d4246e0c324215520"
+              "content_hash": "e3d0e9bc9d4b4e6a7ce5d41018fac76182817e6e44784d63c61d723be61007d9"
             }
           ]
         },
@@ -2304,5 +2335,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-25T20:11:28Z"
+  "generated_at": "2026-09-25T20:25:56Z"
 }
