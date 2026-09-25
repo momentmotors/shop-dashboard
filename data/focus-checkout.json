@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T22:27:49.651392Z",
+  "updated_at": "2026-09-25T22:39:48.590248Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -253,9 +253,25 @@
               "status": "Open",
               "list": "Ferdman 66 Bus",
               "url": "https://app.clickup.com/t/868ma6880",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-09-25 22:31",
+                  "text": "Per @Billy Arrasmith, AC cut out after 30-45 minutes on long drive.\nInspected temps/pressures on-site.\nRemoved 2.8oz of refrigerant and re-tested. Approximately 1lb3oz remaining.\nCondenser likely contributing factor for cooling issue.\n@Marc Davis to retest over the weekend while driving."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-09-25 22:34",
+                  "text": "# Ambient Low / High (psi) Condenser in / out (\u00b0F) Vent (\u00b0F) 1 71\u00b0F 87 / 77 (static) \u2014 \u2014 2 \u2014 20 / 250 155 / 117 31 3 75\u00b0F 20 / 220 146 / 107 32 4 \u2014 18 / 210 155 / 108 35 5 93\u00b0F 30 / 300 \u2014 \"ice cold\" 6 95\u00b0F 54 / 300 \u2014 60"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-09-25 22:34",
+                  "text": "momentmotors.slack.com/archives/D07QJENTZ0E/p1790375598212639"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "d5a1aa55c34751a42ba48c7a10699affc93e322a0843ec4b3d0f7dd98b960ffd"
+              "content_hash": "8c3a3005a5d7190c90d69ffa31cf187f84f029837067eab270e4271303152a97"
             },
             {
               "id": "868m7djz9",
@@ -278,10 +294,15 @@
                   "author": "David Webber",
                   "date": "2026-09-24 17:07",
                   "text": "Addressed squeaking noises from 3rd row seat"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-09-25 22:35",
+                  "text": "Reinstalled middle seat after earlier work"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "16040b41fe31e16e2889618f6c422b23ee11e943ea2ccb67a184d974877fc743"
+              "content_hash": "c7343013feb80696c5277603cfffb9508618c03e23192380bb1520b01c8f6866"
             }
           ]
         },
@@ -2385,5 +2406,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-25T22:26:19Z"
+  "generated_at": "2026-09-25T22:38:18Z"
 }
