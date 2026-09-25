@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T20:40:12.655628Z",
+  "updated_at": "2026-09-25T20:50:40.558789Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -158,7 +158,7 @@
         "matched_lists": [
           "Ferdman 66 Bus"
         ],
-        "open_tasks": 8
+        "open_tasks": 9
       },
       "assignees": [
         {
@@ -246,6 +246,16 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "7f891d6c42432c8f41025fd35019a46319bc4fb2a5c2bfc023e742a0d9d82010"
+            },
+            {
+              "id": "868ma6880",
+              "name": "Troubleshoot AC issue",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868ma6880",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "d5a1aa55c34751a42ba48c7a10699affc93e322a0843ec4b3d0f7dd98b960ffd"
             },
             {
               "id": "868m7djz9",
@@ -2335,5 +2345,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-25T20:38:30Z"
+  "generated_at": "2026-09-25T20:48:47Z"
 }
