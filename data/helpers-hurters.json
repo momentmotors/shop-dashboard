@@ -3,7 +3,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 122.0,
-      "pct_of_total": 10.8,
+      "pct_of_total": 10.7,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -53,7 +53,7 @@
     },
     {
       "project": "LB 82 911",
-      "total_hours": 119.2,
+      "total_hours": 119.5,
       "pct_of_total": 10.5,
       "tasks": [
         {
@@ -70,7 +70,7 @@
         },
         {
           "task": "Cooling",
-          "hours": 12.8
+          "hours": 13.0
         },
         {
           "task": "Interior",
@@ -324,7 +324,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 52.8,
-      "pct_of_total": 4.7,
+      "pct_of_total": 4.6,
       "tasks": [
         {
           "task": "Interior",
@@ -420,9 +420,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 180.0,
-    "pct_of_total": 15.9,
-    "avg_per_person_per_day": 1.18,
+    "total_hours": 182.8,
+    "pct_of_total": 16.1,
+    "avg_per_person_per_day": 1.2,
     "flagged": true,
     "tech_count": 8,
     "working_days": 19,
@@ -444,12 +444,12 @@
         "hours": 9.2
       },
       {
-        "label": "Errands",
-        "hours": 4.0
+        "label": "Other",
+        "hours": 5.5
       },
       {
-        "label": "Other",
-        "hours": 2.8
+        "label": "Errands",
+        "hours": 4.0
       }
     ]
   },
@@ -457,7 +457,7 @@
     {
       "project": "ICON Bronco Prototype",
       "total_hours": 25.5,
-      "pct_of_total": 2.3,
+      "pct_of_total": 2.2,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -545,10 +545,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 861.2,
-    "non_billable_hours": 271.8,
+    "billable_hours": 861.5,
+    "non_billable_hours": 274.5,
     "pto_hours": 17.0,
-    "total_hours": 1133.0
+    "total_hours": 1136.0
   },
-  "generated_at": "2026-09-25T21:48:37Z"
+  "generated_at": "2026-09-25T22:12:06Z"
 }

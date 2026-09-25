@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T21:50:17.980970Z",
+  "updated_at": "2026-09-25T22:13:54.500641Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -803,7 +803,7 @@
         "matched_lists": [
           "LB 82 911"
         ],
-        "open_tasks": 32
+        "open_tasks": 33
       },
       "assignees": [
         {
@@ -1089,6 +1089,22 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "571e4a5854020fd1566ed08b00a1e3762aca5760fc2bccbbea16f999d5865a76"
+            },
+            {
+              "id": "868ma6x5f",
+              "name": "NEEDS REVIEW reinstall hood",
+              "status": "Open",
+              "list": "LB 82 911",
+              "url": "https://app.clickup.com/t/868ma6x5f",
+              "comments": [
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-09-25 21:50",
+                  "text": "clean and prep hood, wiring etc. install hood with brandon and align. install struts. a little tricky now with the hvac ducting in the way"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "9b50ecea9e7bca60aff77a6e111394da525b5a1ce50ae0bc6db61651cccef355"
             },
             {
               "id": "868j7krpv",
@@ -2369,5 +2385,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-25T21:48:37Z"
+  "generated_at": "2026-09-25T22:12:06Z"
 }
