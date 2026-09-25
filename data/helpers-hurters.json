@@ -3,7 +3,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 120.2,
-      "pct_of_total": 11.1,
+      "pct_of_total": 11.0,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -54,7 +54,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 114.8,
-      "pct_of_total": 10.6,
+      "pct_of_total": 10.5,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -97,7 +97,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 96.2,
-      "pct_of_total": 8.9,
+      "pct_of_total": 8.8,
       "tasks": [
         {
           "task": "Exterior",
@@ -152,7 +152,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 93.0,
-      "pct_of_total": 8.6,
+      "pct_of_total": 8.5,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -199,7 +199,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 60.5,
-      "pct_of_total": 5.6,
+      "pct_of_total": 5.5,
       "tasks": [
         {
           "task": "Battery Pack",
@@ -234,7 +234,7 @@
     {
       "project": "Krafcik 02 Caterham",
       "total_hours": 58.2,
-      "pct_of_total": 5.4,
+      "pct_of_total": 5.3,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -277,7 +277,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 52.8,
-      "pct_of_total": 4.9,
+      "pct_of_total": 4.8,
       "tasks": [
         {
           "task": "Interior",
@@ -307,8 +307,8 @@
     },
     {
       "project": "Thacker 46 Woody",
-      "total_hours": 40.0,
-      "pct_of_total": 3.7,
+      "total_hours": 48.8,
+      "pct_of_total": 4.5,
       "tasks": [
         {
           "task": "HVAC",
@@ -319,6 +319,10 @@
           "hours": 6.5
         },
         {
+          "task": "Interior",
+          "hours": 5.5
+        },
+        {
           "task": "Manufacturing - Product",
           "hours": 5.5
         },
@@ -327,16 +331,20 @@
           "hours": 5.5
         },
         {
-          "task": "Interior",
-          "hours": 4.0
+          "task": "Wiring - High Voltage",
+          "hours": 5.0
+        },
+        {
+          "task": "Brakes",
+          "hours": 4.8
         },
         {
           "task": "Wiring - OEM",
           "hours": 4.0
         },
         {
-          "task": "Brakes",
-          "hours": 3.2
+          "task": "Cooling",
+          "hours": 0.8
         },
         {
           "task": "Motor & Transmission",
@@ -378,7 +386,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 26.8,
-      "pct_of_total": 2.5,
+      "pct_of_total": 2.4,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -412,24 +420,24 @@
     }
   ],
   "shop_work": {
-    "total_hours": 170.5,
+    "total_hours": 171.8,
     "pct_of_total": 15.7,
-    "avg_per_person_per_day": 1.18,
+    "avg_per_person_per_day": 1.13,
     "flagged": true,
     "tech_count": 8,
-    "working_days": 18,
+    "working_days": 19,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 73.0
+        "hours": 73.5
       },
       {
         "label": "Shop Meetings",
-        "hours": 60.2
+        "hours": 60.8
       },
       {
         "label": "Personal Meetings",
-        "hours": 22.5
+        "hours": 22.8
       },
       {
         "label": "Organization",
@@ -449,7 +457,7 @@
     {
       "project": "ICON Bronco Prototype",
       "total_hours": 25.5,
-      "pct_of_total": 2.4,
+      "pct_of_total": 2.3,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -537,10 +545,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 828.2,
-    "non_billable_hours": 255.8,
+    "billable_hours": 837.0,
+    "non_billable_hours": 257.0,
     "pto_hours": 17.0,
-    "total_hours": 1084.0
+    "total_hours": 1094.0
   },
-  "generated_at": "2026-09-24T23:48:43Z"
+  "generated_at": "2026-09-25T00:35:05Z"
 }
