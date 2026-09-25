@@ -3,7 +3,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 120.2,
-      "pct_of_total": 11.0,
+      "pct_of_total": 10.9,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -54,7 +54,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 114.8,
-      "pct_of_total": 10.5,
+      "pct_of_total": 10.4,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -96,12 +96,12 @@
     },
     {
       "project": "Ritchie 71 Blazer",
-      "total_hours": 96.2,
+      "total_hours": 97.2,
       "pct_of_total": 8.8,
       "tasks": [
         {
           "task": "Exterior",
-          "hours": 17.8
+          "hours": 18.8
         },
         {
           "task": "Motor & Transmission",
@@ -152,7 +152,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 93.0,
-      "pct_of_total": 8.5,
+      "pct_of_total": 8.4,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -308,7 +308,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 48.8,
-      "pct_of_total": 4.5,
+      "pct_of_total": 4.4,
       "tasks": [
         {
           "task": "HVAC",
@@ -420,20 +420,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 171.8,
+    "total_hours": 172.8,
     "pct_of_total": 15.7,
-    "avg_per_person_per_day": 1.13,
+    "avg_per_person_per_day": 1.14,
     "flagged": true,
     "tech_count": 8,
     "working_days": 19,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 73.5
+        "hours": 74.0
       },
       {
         "label": "Shop Meetings",
-        "hours": 60.8
+        "hours": 61.2
       },
       {
         "label": "Personal Meetings",
@@ -468,7 +468,7 @@
     {
       "project": "Buck 70 280SL",
       "total_hours": 22.5,
-      "pct_of_total": 2.1,
+      "pct_of_total": 2.0,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -490,7 +490,7 @@
     {
       "project": "Connolly 58 220S",
       "total_hours": 8.2,
-      "pct_of_total": 0.8,
+      "pct_of_total": 0.7,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -545,10 +545,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 837.0,
-    "non_billable_hours": 257.0,
+    "billable_hours": 844.0,
+    "non_billable_hours": 258.0,
     "pto_hours": 17.0,
-    "total_hours": 1094.0
+    "total_hours": 1102.0
   },
-  "generated_at": "2026-09-25T01:55:29Z"
+  "generated_at": "2026-09-25T02:18:43Z"
 }
