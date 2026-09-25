@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T15:31:03.844644Z",
+  "updated_at": "2026-09-25T15:42:29.864045Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -80,193 +80,9 @@
         "matched_lists": [
           "Chuter 62 Healey"
         ],
-        "open_tasks": 3
+        "open_tasks": 1
       },
-      "assignees": [
-        {
-          "name": "Brandon Beaman",
-          "tasks": [
-            {
-              "id": "868g9vwju",
-              "name": "Checkout Vehicle",
-              "status": "Open",
-              "list": "Chuter 62 Healey",
-              "url": "https://app.clickup.com/t/868g9vwju",
-              "comments": [
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-05-15 21:03",
-                  "text": "Worked with Brandon to run through the LV startup, now called Ampere I/O. Built a ClickUp card to compliment."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-05-22 03:51",
-                  "text": "Verified completion of Ampere IO checkout. Continued HV startup. Fully reviewed VCU configuration, changed CAN3 passive timeout to 10s to supress passive faults. Calibrated the resolver. Test drove. Weighed vehicle. Tested L2 charging and verified DCDC outputting. Charging threw a fault for AC thermistors. Checked that the DC thermistor board was added & verified AC thermistor reading correctly on the right chargebyte pins. Everything looked correct, opened a ticket with Ampere about this."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-08-12 18:45",
-                  "text": "Restored inverter firmware and settings. Tested vehicle going into gear and rolling forward. Verified gamma adjust. Reviewed checkout sheet for completeness. Filled in sections for inverter EEPROM and marked PMU checkout N/A. Verified VCU config, updated firmware to 1.8.14 to include torque tuning mods, verified the config and fixed the incorrect options. Added details about the vehicle to the sheet and corrected some typos. Uploaded all backups to the drive. Posted remaining items to Slack."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-24 16:09",
-                  "text": "FDR - 1.9*3.54 = 6.726  4.30\nWeight plus Driver - 2785lbs"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-24 16:13",
-                  "text": "image.png\nUpdated vehicle FDR. Weight and Wheel Diameter. Set vehicle parameters to calibration.\n\nWheel diameter 0.660 \u2192 0.649\nGear Ratio 4.300 \u2192 6.726\nWeight 1500kg \u2192 1263kg"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-24 16:16",
-                  "text": "Updated these settings in the GUI as well.\nVerified settings stayed persistent through a key cycle."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-24 22:45",
-                  "text": "Corrected Gear ratio. Mistakenly input Dans Healey ratio versus this vehicle.\nThis vehicle has a 4.3 ratio rear end and a direct drive setup so the Final Drive ratio should be 4.3 unless incorrect information has been relayed to me.\nAsked Ryan to gather Wifi credentials for this client.\nClient stopped by today to drop off License plates. And provided the details at that time.\nID: ATT8072B\npw: h1aj2u123K\nDevin uploaded this data to the vehicle.\nWent through and verified heater operations.\nFound that this vehicle has the heater circuit wired differently than our new standards.\nBlower motor and heater contactor are trigged by the same switch using the same output from the PDU.\nAt this point in time upper management says that this should be fine since our older cars have been wired this way without any major issues.\nThe proper fix to this would be to move the contactor positive lead over to the \"AC Blower\" positive in the HVAC sub and have it commanded on based on the current level of the Heat Blower output from the pmu. This prevents the heater from turning on unless there is a load present on the heater blower motor.\nHowever as the vehicle sits the heater is enabled and works as built.\nAlso Uploaded the current PMU Project files to the drive under the vehicle folder. That way this can be referenced in the future if necessary.If any PMU changes are made we will need to reupload or replace what was there."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-25 15:07",
-                  "text": "Waiting for vehicle to be driven down to less than or equal to 10%."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-21 20:41",
-                  "text": "image.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-21 20:54",
-                  "text": "GUI updated and Re configured."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-21 20:56",
-                  "text": "Pre Flash\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-21 20:57",
-                  "text": "Flashing to VCM_519_RC010903_Persist\nimage.png\nimage.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-21 21:53",
-                  "text": "Post Flash\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-21 22:21",
-                  "text": "Adjustments\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-21 22:34",
-                  "text": "image.png\nimage.png\nUploaded Backup files to the Drive"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-21 22:45",
-                  "text": "Updated GUI\nUpdated VCU and made necessary adjustments to match prior settings.\nUploaded all necessary backup files."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-21 22:55",
-                  "text": "image.png\nAdjusted Max Torque Percentages back to 100% across all 3 drive modes."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-21 23:03",
-                  "text": "Date: Monday, September 21, 2026\nVehicle/System: Chuter 62 Healey \u2014 Ampere EV VCU (New Eagle VCM_519), single motor, direct drive\nFirmware: DiagCANSW 1.8.13 / build 516 \u2192 1.9.3 / build 519 (VCM_519_RC010903_Persist)\nClickUp: Checkout Vehicle \u2014 Monthly Goal, Chuter 62 Healey \u00b7 Open \u00b7 High \u00b7 due Sep 30 \u00b7 22.5 h logged\nObjective\nBring Chuter onto the same 1.9.3 firmware as the Blazers, update and reconfigure the GUI, identify every calibration the flash changed, restore the shop's settings, and secure delivery backups.\nWhat we did\nConfirmed with Marc that Chuter goes to the same build as the Blazers. Updated and reconfigured the GUI, captured a pre-flash screenshot set, flashed to 1.9.3 / build 519, and captured a matching post-flash set. Ran a field-by-field comparison, applied all the restores, then revised the per-mode torque limits after talking it through with Marc. Uploaded EEPROM and PMU project files to the Drive as delivery backups.\nKey findings\nSeven calibrations changed, and all seven are live. Drive mode on this car reads Normal, so unlike Preheim there's no AWD tab absorbing the resets \u2014 everything the flash touched landed on tables Chuter actually uses.\n\nundefined\nThe torque-limit wipe was the one that mattered most. The pedal maps already reach 100%, so the per-mode multiplier is the peak torque limit \u2014 at 100/100/100 there was effectively no limit in any mode. Launch gain is now a single value in 1.9.3 rather than a table, so that restore was one entry.\nPer-mode torque limits are intentionally back at 100 / 100 / 100. They were initially set to 50 / 75 / 100, but those were Preheim's numbers, not Healey's \u2014 Chuter's own pre-flash values were never captured and aren't on the 1.8.13 Config tab. After talking with Marc, reverted deliberately to 100 across Eco, Normal and Sport.\nChuter was already close to the new defaults. Most of what 1.9.3 installs as defaults, this car was already running pre-flash \u2014 which is why only seven values moved, versus ten on Ritchie. Six new blocks came in sitting at flash defaults.\nAll seven restores verified against post-adjustment screenshots; every row of the comparison now carries pre-flash, post-flash and current values.\nSeventeen tabs are unverified \u2014 no screenshot on either side of the flash, so nothing was compared on them.\nPrior work on this checkout\nAug 12 (Devin) \u2014 Restored inverter firmware and settings, verified gamma adjust, reviewed the checkout sheet, updated VCU firmware to 1.8.14 for the torque tuning mods, uploaded backups.\nAug 24 \u2014 Set vehicle parameters to calibration: wheel diameter 0.660 \u2192 0.649 m, gear ratio 4.300 \u2192 6.726, weight 1500 \u2192 1263 kg. Verified persistence through a key cycle. Corrected the gear ratio after Dan's Healey ratio was entered by mistake. Client wifi credentials collected and loaded by Devin. Heater finding: this car's heater circuit is wired to the older standard \u2014 blower motor and heater contactor triggered by the same switch off one PDU output. Upper management signed off as acceptable; the proper fix would move the contactor positive lead to the \"AC Blower\" positive in the HVAC sub so the heater can't energize without blower load. Works as built.\nAug 25 \u2014 Held, waiting for the vehicle to be driven down to \u226410% SOC.\nArtifacts produced\nPre-flash (5) and post-flash (5) screenshot sets, plus six adjustment captures \u2014 on the ClickUp goal\nField-by-field pre/post/current comparison\nEEPROM and PMU project files uploaded to the Drive \u2014 flagged to the channel as the only backups for these two, since neither is reported in the VCU log. Any change has to be documented and the Drive files replaced."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-23 18:38",
-                  "text": "Reverting back to previous VCU firmware due to inverter faults happening on new firmware.\nimage.png\nimage.png\nDoubled checked before photos and we were actually back on 515.\nReverting back 1 step further to 515.\nWill need to verify settings get re entered properly and then go test drive the vehicle again.\nimage.png\nimage.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-23 18:49",
-                  "text": "After Screenshots\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-23 19:33",
-                  "text": "Date: Wednesday, September 23, 2026\nVehicle/System: Chuter 62 Healey \u2014 Ampere EV VCU (New Eagle VCM_519), single motor, direct drive\nFirmware: VCM_519_RC010903_Persist (1.9.3 / build 519) \u2192 VCM_515_RC010813_ENone (build 515)\nClickUp: Checkout Vehicle \u2014 Monthly Goal, Chuter 62 Healey \u00b7 Open \u00b7 High \u00b7 due Sep 30\nObjective\nDiagnose the drive-loss and cut-out events that appeared on the delivery run to Colvin's, and get the car back to a known-good state.\nWhat happened\nThe car finished charging overnight and was staged for delivery. On the run to Colvin's, Ryan lost throttle twice when lifting off to come to a stop, each time with a coinciding clunk. Turning regen off appeared to stop it. Near Colvin's the car cut off while accelerating from a stop \u2014 hard cut, loud clunk. It cut off once more at a stoplight on the way back, no noise, and the motor was cogging intermittently at stoplights and in traffic. Justin noted he'd had something similar taking Alvarez to Colvin's, outcome not remembered.\nKey findings\nThe fault is real and it lives in regen. Two logs captured back to back \u2014 regen on and regen off. The regen-off drive was harder on the drive system and never faulted; the regen-on log shows a genuine inverter trip. So this is not a general current or thermal problem \u2014 it only shows up under deep negative torque.\nThe trip, in detail (regen-on log, 12:44):\nGoing in, everything is clean. At ~104 s, lift-off at ~2,250 rpm (40 mph), no brake. The VCM ramps regen smoothly to its \u2212104.8 Nm ceiling and the motor follows it well: \u221297 to \u2212100 Nm actual, battery taking about \u221247 A, 64 A at peak.\nThe trip: at 108.0 s, 1,555 rpm (28 mph), the inverter drops out. Torque and current go to zero in a single sample. The VCM sets DrvInvtrFault, and after its 2 s debounce logs InvtrReportsOverCurrentFault and InvtrReportsGenFault. DrvMtrTrqLo follows as a side effect.\nNothing else looks wrong. Bus voltage peaks at 394.8 V, motor/inverter temps 52/61 \u00b0C, BMS fine, CAN message ages normal. There's a modest ~100 rpm dip and a \u2212112 Nm overshoot at 106.4 s, but the sample rate is too low to call that a cause.\nIt latches. The fault holds for the rest of the log (to 142.7 s). Neutral-and-back-to-Drive doesn't clear it; the car makes no torque even with 98 Nm requested. Only a key cycle clears it.\nThreshold behavior: the deepest regen before this event was about \u221280 Nm at up to ~1,270 rpm (~22 mph), and that was fine. The trip came on the first push past that, at higher speed.\nMotoring and regen efficiency measured at the battery look identical in both logs, so nothing in the data points to a sensor or resolver-angle problem.\nCorrection to Monday's baseline: the car was on 515, not 516. Double-checking the before photos showed the pre-flash firmware was actually VCM_515_RC010813_ENone, so the revert target was one step further back than recorded.\nThe revert fixed it. Back on 515, the car returned to normal operating conditions. The off-throttle pedal delay is gone and regen never faulted the inverter \u2014 multiple hard pedal stabs and the car could not be made to fault or feel strange in any way.\nOpen disagreement on cause. Marc's read is that this doesn't look like a VCU issue and points to inverter firmware. Inverter firmware wasn't touched Monday, and old backups can be compared against the most recent to confirm. Marc last drove the car on the highway Friday morning 9/18 and it was perfect \u2014 the only two changes since are the VCU firmware upgrade and a full overnight charge.\nNext steps\nRecharge to full and retest on 515 \u2014 in progress. Being at the top of the pack is the other variable that changed, and the regen ceiling is highest there.\nCompare old vs. most recent inverter firmware backups to close out Marc's theory.\nVerify every setting re-entered correctly after the revert.\nDecide the path forward on 1.9.3 \u2014 whether this is a regen calibration ceiling that needs lowering on this car, or a genuine firmware incompatibility.\nRe-plan delivery \u2014 the Colvin's drop-off did not complete.\nStatus\nCar is back on 515 and behaving normally. Delivery is on hold. Root cause not yet established: the symptom tracks the VCU firmware change, but the fault is reported by the inverter under deep regen only, and Marc's inverter-firmware theory is still open. Recharging now for the confirming test at full pack."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-23 19:34",
-                  "text": "image (8).png\nThe only thing that changed from then to now was the VCU firmware upgrade and the vehicle was fully charged overnight\nReverted VCU back to VCM_515_RC010813_ENone and the car returned to normal operating conditions. Throttle pedal delay was no longer present and the Regen never faulted the inverter. Multiple hard pedal stabs and could not get the Inverter to fault or the car to feel weird in any sort of way.\nCharging the vehicle back up to Full and retesting on the older 515 VCU firmware."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-23 21:53",
-                  "text": "After talking to Andrew and Marc the best bet is to actually move this car over to 517 since its the most stable release we have plus has all of the changes we need for the VCU already baked in."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-23 21:56",
-                  "text": "Flashing to VCM_517_R010902_Persist\nimage.png\nimage.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-23 22:19",
-                  "text": "Marc test drove the vehicle. Everything seems to be working as intended.\nWill have to continue testing. Possible marc can drive the car home depending on the weather."
-                }
-              ],
-              "checklist_items": [
-                {
-                  "checklist": "Checklist",
-                  "name": "Charge pack to 390V for at least 6-7 hours",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Confirm vehicle weight and gearing is correct",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Add wifi credentials",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Perform overnight charge",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Test heater",
-                  "resolved": true
-                }
-              ],
-              "content_hash": "38a6092dfed4370bd893273cbcfd21e18cd772f6262e785c3e1ca328402d52f9"
-            },
-            {
-              "id": "868m9q4g7",
-              "name": "Replace motor sub harness",
-              "status": "Open",
-              "list": "Chuter 62 Healey",
-              "url": "https://app.clickup.com/t/868m9q4g7",
-              "comments": [
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-24 22:21",
-                  "text": "No notes were present on clickup for measurements so I had to remove the harness to measure for the new one.\nRemoved the harness from the vehicle. This required the skid plate and trans tunnel cover to be removed from the vehicle.\nMeasured the old harness.\nBuilt the new harness with the new resolver cable and methods we have.\nInstalled new harness and re assembled the vehicle.\nTest drove the vehicle to verify all operations were working as intended.\nAll good at this time."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "a222d6efad329b9221a8ac01093a86d52c151430b9914cf2bfbf49eb007e2227"
-            }
-          ]
-        }
-      ]
+      "assignees": []
     },
     {
       "owner": "Ferdman",
@@ -2597,5 +2413,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-25T15:29:23Z"
+  "generated_at": "2026-09-25T15:40:51Z"
 }
