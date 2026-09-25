@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T19:24:36.253387Z",
+  "updated_at": "2026-09-25T19:37:00.533502Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1336,10 +1336,15 @@
                   "author": "Justin Landry",
                   "date": "2026-09-23 19:08",
                   "text": "Installed connector between IMD and HV tap. continued work on the test harness that will be used to verify these boxes."
+                },
+                {
+                  "author": "Justin Landry",
+                  "date": "2026-09-25 19:30",
+                  "text": "Built tester box for AIO boxes. still need to mount and program the display that will test ivts and imd and figure out how we are going to test the pre and discharge outputs."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "fc41ad3a892b3963b56f5e441f1556bc1fc3ade77564b33219c5b03f2f219c32"
+              "content_hash": "b1c898586ccfeffc81ba1d41c2695395fc78373ea793bb178e9d7c8b37853909"
             }
           ]
         },
@@ -2299,5 +2304,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-25T19:22:35Z"
+  "generated_at": "2026-09-25T19:35:19Z"
 }
