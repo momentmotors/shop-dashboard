@@ -488,6 +488,17 @@
       ]
     },
     {
+      "project": "Chuter 62 Healey",
+      "total_hours": 12.0,
+      "pct_of_total": 1.1,
+      "tasks": [
+        {
+          "task": "Installation - Extra",
+          "hours": 12.0
+        }
+      ]
+    },
+    {
       "project": "Connolly 58 220S",
       "total_hours": 8.2,
       "pct_of_total": 0.7,
@@ -503,17 +514,6 @@
         {
           "task": "Engineering - Extra",
           "hours": 1.2
-        }
-      ]
-    },
-    {
-      "project": "Chuter 62 Healey",
-      "total_hours": 5.5,
-      "pct_of_total": 0.5,
-      "tasks": [
-        {
-          "task": "Installation - Extra",
-          "hours": 5.5
         }
       ]
     },
@@ -545,10 +545,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 864.2,
-    "non_billable_hours": 264.2,
+    "billable_hours": 857.8,
+    "non_billable_hours": 270.8,
     "pto_hours": 17.0,
     "total_hours": 1128.5
   },
-  "generated_at": "2026-09-25T19:35:19Z"
+  "generated_at": "2026-09-25T19:49:09Z"
 }
