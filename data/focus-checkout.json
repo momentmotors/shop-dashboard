@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T16:34:47.792765Z",
+  "updated_at": "2026-09-25T16:51:59.836476Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -288,10 +288,20 @@
                   "author": "Brandon Beaman",
                   "date": "2026-09-21 23:00",
                   "text": "image (7).png\nUpdated VCU settings as per Marcs Request. This setting changes the 0-100% throttle threshold to be relative to the Trq Table."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-25 16:39",
+                  "text": "image.png\nAdjusted Speed Thresholds to 140kph as the OFF point and 120kph as the ON point."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-25 16:46",
+                  "text": "image (66).png\nimage (65).png\nimage (67).png\nAdjusted all other fan settings to match the same speed threshold. Including the cooling fans.\nAll fans should now remain on for the entirety of the busses operation."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "5799b9a1512e6412c026655b3731f7b64e45a6f3452ee3b929c9c2a6b8f032be"
+              "content_hash": "b9baca3bc62c6f500f963515e128e4ee7d869c049993cb3d4246e0c324215520"
             }
           ]
         },
@@ -1215,10 +1225,15 @@
                   "author": "Brandon Beaman",
                   "date": "2026-09-11 15:57",
                   "text": "PMU1 SN : 201-2608-00284\nPMU2 SN : 201-2610-00485"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-25 16:47",
+                  "text": "Be sure to change speed threshold on all of the cooling and AC fans for on this vehicle."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "911fd4f5c6516f3ef6f07fdd030c8d7da1eae198c66bafc581dfdaf80d758900"
+              "content_hash": "657e588852ae36adbd0b2dca26bf8a922ccaf585bec646c07739ef3e4bb67a5f"
             }
           ]
         },
@@ -2284,5 +2299,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-25T16:33:04Z"
+  "generated_at": "2026-09-25T16:50:26Z"
 }
