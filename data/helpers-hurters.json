@@ -144,7 +144,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 97.2,
-      "pct_of_total": 8.5,
+      "pct_of_total": 8.4,
       "tasks": [
         {
           "task": "Exterior",
@@ -424,20 +424,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 184.2,
-    "pct_of_total": 16.0,
-    "avg_per_person_per_day": 1.21,
+    "total_hours": 185.2,
+    "pct_of_total": 16.1,
+    "avg_per_person_per_day": 1.22,
     "flagged": true,
     "tech_count": 8,
     "working_days": 19,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 77.0
+        "hours": 77.5
       },
       {
         "label": "Shop Meetings",
-        "hours": 64.2
+        "hours": 64.8
       },
       {
         "label": "Personal Meetings",
@@ -550,9 +550,9 @@
   ],
   "totals": {
     "billable_hours": 874.8,
-    "non_billable_hours": 276.0,
+    "non_billable_hours": 277.0,
     "pto_hours": 17.0,
-    "total_hours": 1150.8
+    "total_hours": 1151.8
   },
-  "generated_at": "2026-09-26T03:50:18Z"
+  "generated_at": "2026-09-26T04:14:11Z"
 }
