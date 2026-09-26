@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T23:50:28.838175Z",
+  "updated_at": "2026-09-26T00:35:31.781300Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1700,10 +1700,15 @@
                   "author": "Brandon Beaman",
                   "date": "2026-09-24 22:24",
                   "text": "Date: Thursday, September 24, 2026\nVehicle/System: Lee 68 Mustang \u2014 Cascadia inverter on GEN5_CC_CM_20240829_6531\nClickUp: Checkout vehicle\nWhat we did\nTwo morning test drives, both chasing the over-current fault from Tuesday.\nTest 1 \u2014 Self-sense assist enabled (Self_Sense_Assist_Enabled_EEPROM, set yesterday afternoon). Hard acceleration, no inverter fault. Log: VCM_517_Motoring Claude_2026_09_24_08_30_44_Lee_SelfSenseEnabled.csv\nTest 2 \u2014 Torque rate limit back to 70 (Torque_Rate_Limit_EEPROM_(Nm)_x_10). Same result, no faults. Upper limit on that setting is 700, so we're nowhere near it. Log: VCM_517_Motoring Claude_2026_09_24_08_41_39_Lee_Rev4EEPROM.csv\nKey findings\nThe fault is gone. Two hard-acceleration runs, neither tripped the inverter. Self-sense assist looks like the fix.\nBut the car still won't spin the tires \u2014 and a 600 V Mustang feels like it really should.\n\n\nWill need to build a new  motor sub harness for this car that uses different routing path to try and fix the resolver issues."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-26 00:18",
+                  "text": "Date: Friday, September 25, 2026\nVehicle/System: Lee 68 Mustang \u2014 Cascadia inverter on GEN5_CC_CM_20240829_6531\nClickUp: Checkout vehicle\nObjective\nRule out resolver noise as the cause of the hardware over-current trips by installing a new motor sub-harness with all-new resolver wiring on a different routing path, then retest.\nWhat we did\nInstalled the new motor sub-harness \u2014 fresh resolver wiring, rerouted along a different path \u2014 and road-tested it. Ran the test twice: once as configured, and again with Torque_Rate_Limit back at 50. Pulled diag data from both runs, ran a comparison against the prior trip data, and separately verified the resolver gamma adjust.\nKey findings\nThe reroute did not fix it. The inverter still trips, and it feels the same in the car. Comparison against the prior diag data confirms it \u2014 same type of fault, same signature. Resolver wiring noise is effectively ruled out as the cause.\nTorque rate limit isn't it either. Retested at 50 and it still tripped, same as it does at 70.\nGamma adjust is clean. Spun the motor up to ~2,500 rpm and dropped into neutral three times: \u2212902, \u2212901, \u2212900. Dead nuts. That closes out resolver alignment as a suspect alongside the wiring.\nSelf-sense assist remains the only thing that has stopped the trips. Still the lone intervention with a clean record against this fault.\nArtifacts produced\n09-25-2026 Lee New Motor Sub Diag Data \u2014 inverter diag, as-configured run\n09-25-2026 Lee New Motor Sub Diag Data TorqueRate50 \u2014 inverter diag, torque rate limit at 50\nLee_Mustang_Inverter_OC_Trip_Analysis_1.pdf \u2014 trip analysis\nLee_Mustang_Inverter_OC_Trip_Analysis_RevB_1.pdf \u2014 revised analysis\nWhat's been eliminated so far\n\nundefined\nNext steps\nDecide whether self-sense assist is the answer or a mask. It's the only thing that stops the trips, but we haven't established why \u2014 worth understanding before shipping on it.\nTake the RevB analysis to Cascadia with the two diag sets, given how much has now been eliminated on our side.\nCharacterize the trip envelope more tightly \u2014 it's high torque at low rpm, and it happens without the tires breaking traction, so the earlier traction theory is out.\nStatus\nResolver wiring and resolver alignment are both cleared. The fault is unchanged and reproducible. With firmware, torque rate limit, thermal, harness and alignment all eliminated, this is pointing at the inverter itself or its current-limit configuration \u2014 a Cascadia conversation. Self-sense assist is the only working workaround.\n\nBuilt a new motor sub harness.\nInstalled new sub harness in a different routing position than the old one was.\nCouple test drives and got more diag data for analysis.\nHad Claude run some analysis.\nDouble checked gamma adjust and rpm / motor pole.\nHave not found anything super conclusive yet."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "6833c6c98929029293397feb65f8bf81a1c62c90810a4a5032a7cfe03c433df7"
+              "content_hash": "9f82d516187daf679f62e43ce1cdedd5c598bcee9645021a2ffb42fb34209616"
             }
           ]
         },
@@ -2406,5 +2411,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-25T23:48:47Z"
+  "generated_at": "2026-09-26T00:34:02Z"
 }
