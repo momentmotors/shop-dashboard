@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26T05:13:29.081789Z",
+  "updated_at": "2026-09-26T05:28:21.332154Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -887,25 +887,9 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868hbv2qu",
-              "comments": [
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-24 22:01",
-                  "text": "Attempted to vacuum and fill the system \u2014 would not hold vacuum on either circuit. Modified one of the caps for these reservoirs to accept a 1/8\" NPT thread so I could install a Jiffy-tite fitting for pressurization with regulated air pressure. Chose 10-12 psi.\nOnce pressurized, chased down leaks. First one was on the battery circuit, requiring me to remove the toe board, gas pedal, and brake pedal box assembly to get to the AN fitting in the transmission linkage tunnel and tighten it. Pressure tested again \u2014 successful. Pulled vacuum and held, then filled with new coolant.\nThe motor circuit had a couple more leaks. One at the motor inlet, which ended up being the O-ring that comes with it being far too small \u2014 I had suspected this but wasn't sure. I'll replace all the O-rings on the fittings we have in stock. The other leak involved disassembling the rear bulkhead to get at another AN fitting.\nAfter solving these, pressure tested again \u2014 successful. Pulled vacuum and filled. Removed the battery box bypass hoses and connected the batteries. All looks good."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-24 22:02",
-                  "text": "can not test until start up. but complete for now."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-25 21:42",
-                  "text": "reinstall pedal box, toe plate, and accel pedal after checking tunnel tubing for leaks and cleaning up the area."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "16d722694fee8a9773abc9e60696b6f18fd43373241e1e493c6864309db4d08e"
+              "content_hash": "31c7d78f6cfa3315721633219b60957c61cf809e8fe256aa5ed1c1975c3f736c"
             },
             {
               "id": "868g811de",
@@ -913,15 +897,9 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868g811de",
-              "comments": [
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-06-17 22:26",
-                  "text": "attempt to pull vacuum, chase down some leaks and realize that the \"mock up\" drier was still installed. the fittings left loose on purpose so that I didn't end up running it if I had forgotten.\npull vacuum again and check. all is good. left in vacuum for future charge"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "9a0c226a3c8f737966bd9246aeb0e275a511ac285afc31173aa711249b4cad19"
+              "content_hash": "3047aff25ed9ada9726d733f6e694f9ca7be9cc80910b77feb785931c769526f"
             },
             {
               "id": "868k84q9v",
@@ -929,55 +907,9 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868k84q9v",
-              "comments": [
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-07-03 01:31",
-                  "text": "mock up, check cad. mark frame and drill for rivnut installations. keep in car while checking rear batt box fitment to make sure we're good and so that I can visualize cooling lines"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-07-08 19:28",
-                  "text": "checking/measuring cad/ making temp mounting plates and get junction box mocked up into car for HV measurement."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-07-08 19:30",
-                  "text": "IMG_2142.jpeg"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-07-14 14:44",
-                  "text": "7/3 .5 hr added for mocking up of vcu adapter mounting plate that goes on box itself to hold the vcu mounting plate."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-01 16:07",
-                  "text": "install water pump mounting plates and water pump, battery heater,"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-11 23:11",
-                  "text": "remove and reinstall mounting plates for water pump and battery heater with the correct cooling hoses and fittings. install motor pump and cooling hoses/ fittings. install coolant reservoirs."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-11 23:13",
-                  "text": "IMG_2491.jpeg\nIMG_2492.jpeg\nIMG_2493.jpeg"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-11 21:12",
-                  "text": "had to remove motor water pump for harness installation. reinstall after harness has been situated. assembly and installation of vcu stack. i had to tap the pre installed threads due to powdercoat"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-25 21:43",
-                  "text": "change connectors, and secure wiring for condensors and pressure switch."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "cfdf71842c03979cc8015c38329e7272e1778ad83a4865a136cd9eec324ed7c4"
+              "content_hash": "a1dad4553ec4a5c6b34f2cb329dbf17e06855b6cce8d68227166f352a288c03c"
             },
             {
               "id": "868j7kkze",
@@ -985,35 +917,9 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868j7kkze",
-              "comments": [
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-07-27 23:16",
-                  "text": "chat with marshall about general plan."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-18 22:22",
-                  "text": "parts searching, discussions. the client now wants car play and this may be a scope change for the radio/stereo subsystem. we are looking into alternative stereo/ amplifier options."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-19 21:49",
-                  "text": "gui discussions. order new toe plate to mount gui behind since the old board was waterlogged and gross. begin making mounting plates."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-20 22:49",
-                  "text": "installation of GUI and re-do of amplifier and stereo wiring. made brackets and mounted to toe board. will transfer holes to new toe board when it arrives and swap them out."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-25 22:19",
-                  "text": "swap over the gui to the new rennline plate using the old toe plate as a template. install with ribbon cable. ready for marshall to creat my screen mount"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "05a6aff5e00485c19922dfc1cd383465396b97f94e435d62649fd36a71164aa6"
+              "content_hash": "519879917ffe918d0309316e6dbe4fc29527e23820a78f078baf0f365079af8d"
             },
             {
               "id": "868j7kv4t",
@@ -1021,85 +927,9 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868j7kv4t",
-              "comments": [
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-07-09 22:40",
-                  "text": "Installation of the mock-up LDU unit for proper dimensions during HV routing."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-07-13 23:05",
-                  "text": "removal of ldu for cable termination."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-07-28 22:57",
-                  "text": "installation of ldu. found some issues during install that lead to some modifications of brackets. having to slot them a little and change the order of installation to get all to fit without lots of prying and bushing compression. still need to maybe reinforce the third mount but maybe not. tbd. if not then i will pull it and weld it up quick and paint it while i install the proper motor mount bolts that we did not have."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-11 23:05",
-                  "text": "Used this time to drop the rear mount and look for routing options that wouldn't require modifying any brackets. I'm not confident a no-modification option exists, so I made a video presenting the potential solutions and asking for recommendations. Current plan is to move ahead with cutting the main rear bracket first, hoping that alone solves it. If not, we'll slot all three mount bolt holes and see if that resolves it \u2014 if it does, that tells us how far to modify the new mount design."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-12 22:42",
-                  "text": "Dropped the LDU multiple times today to move and re-situate the HV leads. Also had to disassemble the Amphenols to let the leads spin in the connector after re-routing. The goal was to avoid dropping the rear mount, but ended up having to notch it anyway to get clearance between it and the LDU gearbox. After all of that, plus mocking up the AIO junction box to confirm the Amphenols still connected properly \u2014 unfortunately, I still needed to drop the rear mount 5mm to give the cables enough room to move freely. Not confident this is sufficient for a final result, especially since we want to add a small \"heat shield\" support piece for the leads where they cross the gearbox. Good sign though \u2014 shows we don't need much, and if more clearance is needed, we can drop the other mounts instead to make up the difference rather than modifying the rear mount further."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-13 22:01",
-                  "text": "planning, discussing, plotting, chatting, whatever"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-18 22:27",
-                  "text": "remove ldu completely with mounts. attempt to tap through bungs for hv plate. ended up having to make a tap that will travel all the way through. after multiple attempts and one broken tap, one destroyed, i believe we will need to drop the battery box and attack these from the top if we want to use them"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-21 21:13",
-                  "text": "cleaning threads out, taking my time with 2 new taps, eventually got the rear two bolts tapped all the way through cleanly and was able to get bolts installed. then began to work on design with geoff."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-08 22:06",
-                  "text": "Mocked up the HV cable stay plate\nDrilled and tapped battery box supports and installed plates\nTemporarily secured HV cables while installing LDU\nInstalled LDU \u2014 quite difficult with the new mounts, which have tighter tolerances\nInstalled AIO junction box to get HV lengths correct, secured them, then removed the AIO to return to Justin for assembly\nWill mark and secure the HV cables after removing the LDU, and get everything ready for powdercoat."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-09 21:52",
-                  "text": "Used the stainless clamps to arrange cables as best as possible for marking\nGot some marking done with the LDU up\nRemoved the LDU \u2014 ideally for the last time\nMarked, drilled, and rivnutted the HV plate\nReinstalled and tested cable fitment\nRelayed measurements of all holes to Geoff\nRemoved all mounts and the plate, labeled everything for sending off to powdercoat"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-15 21:25",
-                  "text": "looming hv in the rear or the car in prep for ldu install"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-16 21:31",
-                  "text": "A04B1E75-DC66-4932-82C3-CC55D621DCBC.heic"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-16 21:31",
-                  "text": "ldu install hopefully final time."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-16 21:32",
-                  "text": "will do axles and radiator tomorrow. then should be ready to connect cooling and harness provisions. still need to make junction box - inverter leads"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-18 22:01",
-                  "text": "made hardlines for cooling, move motor cooling over to better outlets for routing. connect all and crimp cables"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "19d208039be08ea3067bc2846d456bac7d818ef8d0ef77c687afe39063e8efc3"
+              "content_hash": "6360179005146fb31105392ecf8da6e69300453f9a9a974f4bf7ad0d8dcf5d00"
             },
             {
               "id": "868ma6wy3",
@@ -1133,40 +963,9 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868j7krpv",
-              "comments": [
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-06-17 22:34",
-                  "text": "trying to install dash panel aluminum and wood trims during hvac and radio controls installation due to it needing to go in order.\nfound issues with the parts that we had, AND the parts the we ordered, because the car was previously modified and backdated in weird ways to accommodate their stupid vehicle control system. will need to figure out which way we want to head."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-06-19 01:54",
-                  "text": "find the trim and order. I ended up ordering the right hand drive version for 1/3 of the price as the right hand drive wood, but because I only need the center piece im pretty sure theyre the same and I can use it. if not, well send it back."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-07-22 22:59",
-                  "text": "begin assembling and trying to test fit dash parts and radio but got pulled off for pressing manufacturing tasks for cooling/ component mounting solutions."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-24 22:11",
-                  "text": "new foot panels arrived"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-25 22:26",
-                  "text": "attempted installations of dash components. not starting off well. may run into some issues with thickness of wood vs the backspacing of the hvac unit, not making contact so it doesnt sit flush. i may have to notch out the dash or file down the hardware on the hvac unit a little bit."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-23 23:12",
-                  "text": "toe panel modifications, kick panel shenanigans. will elaborate.\n\nI've run into an issue with the interior installation on LB. When I disassembled the interior, everything was nicely carpeted all the way up to the front, even the areas where the footwell blowers typically reside. At the time I took no notice, but there are supposed to be kick panels installed there in later cars to cover up the footwell blowers and their ducting. This car didn't have them, so they weren't necessary at the time.\nAlong the way, we decided to place the blowers and heat bricks in that area like we normally do, but I didn't recognize the downstream effect that would have. Today I went to install the interior panels and thought I'd misplaced them... turns out they never existed for this car.\nThe biggest issue is there are no reproductions I can find, and finding them used is nearly impossible too. Not sure why that is \u2014 I can't even find the part in the OEM catalog. I did find one used one on eBay and went ahead and ordered it, but I think I may end up trying to fit 964 versions instead. Spent a good chunk of the day combing through catalogs, websites, and eBay trying to track these down.\nI'm unsure what to do beyond that unless we have David Gonzalez make us something, or we scan and print them. For now, I think the cheapest route is ordering some used 964 parts and seeing what I can do with them. This puts a decent delay on the interior installation and may stall it for a while if we can't find replacement parts.\nHere are some pics of what I need."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "63c98fe4ca934435ada021c8cd5b192e8660340b27721b5f2ca9b325a51510e7"
+              "content_hash": "6c635489f5108a474d6987dff0bf83ba69168c64e3b82e6951a52696ea9b9e9c"
             },
             {
               "id": "868j7kytx",
@@ -1184,15 +983,9 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868g3ptcv",
-              "comments": [
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-19 21:50",
-                  "text": "looking for tires to see if we need to swap them due to them hitting the driver side condensor. i think we may be ok if i move the condensor a little bit."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "fab4ff4d3751623a67fa547e8a969f46d28027736387e0dbe0884ac26d979e26"
+              "content_hash": "52018ac0e4350260697ca8ed567e3d70c9b7dd1e88230f23859a1cee328cf4da"
             },
             {
               "id": "868jg4cba",
@@ -1210,20 +1003,9 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868g3pt74",
-              "comments": [
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-21 22:48",
-                  "text": "using claude to make a build doc. making decisions on wire colors for oem harness integration of telltale lights ( high beam etc.) build harnesses on bench. almost wrapped up with building. will be able to install tomorrow"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-23 00:15",
-                  "text": "finish wiring, and installation of gauges. used some time to clean up the oem wiring for the instrumentation behind the dash to keep it hidden, secured, and from rattling. power gauge is temporarily installed because i need to order a new gasket for it. It seems like Peterson makes their gauges just a little undersized for ease of installation but that means i cant use my typical method of using tessa tape for install. i need the oem gasket johnny."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "2a5598892443cf16a0f06334d1edfbba51b70e6b1822fd3d91ad4df86042f022"
+              "content_hash": "66b520fa11761f4b2fbef4dfe83523d958d0b7a53a5f1a9072fe992b7fc35b17"
             }
           ]
         },
@@ -1236,55 +1018,9 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868jg5vhj",
-              "comments": [
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-05-08 19:34",
-                  "text": "Talk to Angel at Colvin"
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-05-15 17:37",
-                  "text": "Will discuss with Angel when Connolly is picked up."
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-05-21 19:36",
-                  "text": "Angel has the LB Upholstery Spec PDF. He'll review and get us an estimate. He will also look to source the Recaros."
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-05-29 18:09",
-                  "text": "Waiting on Angel's estimate."
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-06-04 23:18",
-                  "text": "Angel has estimate ready. Need to confirm seat pattern. He seems to prefer the vendor Relicate. NO luck on Recaros yet, both Angel and I are searching."
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-06-12 13:15",
-                  "text": "Need yardage numbers for material. Angel should have numbers for us today, 6/12."
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-06-17 16:20",
-                  "text": "Sent accent material measurements to Angel to confirm."
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-06-24 17:23",
-                  "text": "Estimate numbers shared"
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-08-14 16:36",
-                  "text": "Need to track down leather samples."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "3f41d74eb0ac2db5177ca5dc4a12805a0d098654630a6b04a3776e2242acbed3"
+              "content_hash": "d683478c375b9364201bf8445859244c6d1d769a118725c3da3bac25c2358198"
             },
             {
               "id": "868jg5vgm",
@@ -1292,30 +1028,9 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868jg5vgm",
-              "comments": [
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-05-07 20:13",
-                  "text": "Style?"
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-05-08 19:31",
-                  "text": "65-73 Early 911 Recaro Sport Style Seat\n\nsierramadrecollection.com/products/porsche-911-rs-recaro-style-sport-seat-set-911-1965-1973-smc-000-911-seat?srsltid=AfmBOopTJ5lX0wNbjDhffSV7-YH3zw9HtHjWz4DKZPbslChQ9PaF0om0"
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-05-08 19:32",
-                  "text": "Search Bring a Trailer"
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-05-29 18:08",
-                  "text": "Having Angel at Colvin source Recaros"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "f41a1ab1831f47bab4988de8723de1f413f0b518995c76e2cb65dcecf7c8f10c"
+              "content_hash": "3799cfe45dd546d01784d0746fbb4dfc612876c02eb7b002c0d4c02a4a68d2fc"
             }
           ]
         },
@@ -1369,90 +1084,9 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868jz61wr",
-              "comments": [
-                {
-                  "author": "Justin Landry",
-                  "date": "2026-08-20 19:26",
-                  "text": "started in on going through the doc and kit for the LB AIO. going to start the building of it tomorrow."
-                },
-                {
-                  "author": "Justin Landry",
-                  "date": "2026-08-21 19:23",
-                  "text": "assembled the hardware parts onto the base plate, verified changes that were made on the first version seemed to have worked because they line up much better on this run. got all contactors, fuses, busbars and base plate mounted things finished. had to drill out the base plate mount holes to the box a bit. reported changes to geoff."
-                },
-                {
-                  "author": "Justin Landry",
-                  "date": "2026-08-24 19:41",
-                  "text": "Continued the build process today with some wiring before being pulled off to tend to ritchie. got the contactors and large resistors wired as we as some of the feeds to the discharge resistors."
-                },
-                {
-                  "author": "Justin Landry",
-                  "date": "2026-08-25 19:41",
-                  "text": "Continued briefly with some wiring in between other work. looked over aio diagram to confirm wire routing."
-                },
-                {
-                  "author": "Justin Landry",
-                  "date": "2026-08-26 19:21",
-                  "text": "Continued HV wiring alongside the catch up of the 3rd AIO box being built."
-                },
-                {
-                  "author": "Justin Landry",
-                  "date": "2026-08-27 19:41",
-                  "text": "Began assembling the LV/Comms wiring from the milspec connector to the various components in the AIO box. most of the large connector is terminated and needs the component end connectors done. still waiting on a final correct copy of the HV circuit in order to complete before returning to finish the HV."
-                },
-                {
-                  "author": "Justin Landry",
-                  "date": "2026-08-28 19:08",
-                  "text": "Completed comms wiring harness and prepped IMD. Mounted IMD to box lid"
-                },
-                {
-                  "author": "Justin Landry",
-                  "date": "2026-09-03 19:19",
-                  "text": "went over exsisting wiring that had been started and made changes reflected in the newest version of the wiring info. completed precharge/discharge circuits and began on all other AUC HV wiring."
-                },
-                {
-                  "author": "Justin Landry",
-                  "date": "2026-09-03 19:20",
-                  "text": "got about halfway into the HV wiring and installed base plate into box."
-                },
-                {
-                  "author": "Justin Landry",
-                  "date": "2026-09-04 19:14",
-                  "text": "Completed bus bars, fuse layout, HV to amphenol wiring and IVTS install."
-                },
-                {
-                  "author": "Justin Landry",
-                  "date": "2026-09-08 19:18",
-                  "text": "Completed HVIL loop and distribution setup and installed final busbar."
-                },
-                {
-                  "author": "Justin Landry",
-                  "date": "2026-09-09 19:30",
-                  "text": "Worked on IMD tap wiring and IVTS U1,2 and 3"
-                },
-                {
-                  "author": "Justin Landry",
-                  "date": "2026-09-18 19:23",
-                  "text": "Began reading through and prepping for the test procedure for the AIO boxes."
-                },
-                {
-                  "author": "Justin Landry",
-                  "date": "2026-09-22 19:27",
-                  "text": "Put together a basic parts list and a wiring diagram for the proposed testing fixture for AIO boxes. talked with devin about requirements for the IVT and IMD tests. printed out diagram to start putting together the basics."
-                },
-                {
-                  "author": "Justin Landry",
-                  "date": "2026-09-23 19:08",
-                  "text": "Installed connector between IMD and HV tap. continued work on the test harness that will be used to verify these boxes."
-                },
-                {
-                  "author": "Justin Landry",
-                  "date": "2026-09-25 19:30",
-                  "text": "Built tester box for AIO boxes. still need to mount and program the display that will test ivts and imd and figure out how we are going to test the pre and discharge outputs."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "b1c898586ccfeffc81ba1d41c2695395fc78373ea793bb178e9d7c8b37853909"
+              "content_hash": "4e7cb1c4399da78ad464890ebc65c8bc02a428fa1f6c13e543d0f544465797a8"
             }
           ]
         },
@@ -1465,40 +1099,9 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868g3pt4u",
-              "comments": [
-                {
-                  "author": "Marshall Carter",
-                  "date": "2026-07-18 02:02",
-                  "text": "-took photos and measurements\n-found some friction hinges that could be used for a flip screen that could stay hidden\n-decided where it would mount under the dash and started design"
-                },
-                {
-                  "author": "Marshall Carter",
-                  "date": "2026-07-28 01:58",
-                  "text": "-Met with Aharon to come up with game plan for exactly where the hinge would mount so that we could place the screen under the radio\nimage.png"
-                },
-                {
-                  "author": "Marshall Carter",
-                  "date": "2026-08-26 10:57",
-                  "text": "image.png\nimage.png\nimage.png\n-Scanned interior around radio so that I could see where I have clearance for a tucked away screen\n-Positioned hinge and screen so that when open, it matches the same plane that the the radio faces\n-Designed sheet metal bracket to mount the screen to the hinge\n-Printing out bracket so that it can be fit tested in car.... then will determine if a bracket is needed to mount the hinge to the dash (most likely will)\n-Because apple car play is going to be used, we might need to design a bezel around screen.. will get feedback for this today"
-                },
-                {
-                  "author": "Marshall Carter",
-                  "date": "2026-08-26 10:59",
-                  "text": "image.png"
-                },
-                {
-                  "author": "Marshall Carter",
-                  "date": "2026-08-29 02:54",
-                  "text": "-Fit tested bracket and mounted to a test bench\n-Because the screen will be more of a focus with the need to control audio, it needs to feel solid when being used as a touch screen. Feedback was that the friction hinge was not quite enough solid so I was asked to look into alternative options that would feel more solid"
-                },
-                {
-                  "author": "Marshall Carter",
-                  "date": "2026-09-23 19:07",
-                  "text": "-Updated design to have a magnet stopper to hold open\n-Also added bezel to the screen mount\nimage.png\nimage.png"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "e280a4c2c1565721d8d8adb491270cc979d2333a8f0929a3552a789c99b3a196"
+              "content_hash": "df7c11733df84fd67801142bd3aa45a78a05c5a8888d5a0f06b179cafeb5b586"
             }
           ]
         }
@@ -2273,5 +1876,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-26T05:12:09Z"
+  "generated_at": "2026-09-26T05:26:48Z"
 }
