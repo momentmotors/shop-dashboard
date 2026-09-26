@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26T05:41:40.685324Z",
+  "updated_at": "2026-09-26T05:50:04.861851Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -629,50 +629,9 @@
               "status": "Open",
               "list": "Kelly 63 Corvette",
               "url": "https://app.clickup.com/t/868krf6f9",
-              "comments": [
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-17 23:31",
-                  "text": "Gathering AC compressor logs from Raptor."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-20 23:00",
-                  "text": "HVAC testing and Logging."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-16 21:25",
-                  "text": "Gathered information and compared to Lee.\nFurther testing to be done to verify findings."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-16 21:29",
-                  "text": "EOD \u2014 16 Sep 2026 \u2014 Lee & Kelly test pull analysis\nDone today\nCompared inverter EEPROM dumps: Kelly (SN 958) vs Lee (SN 1469). Only 4 of 101 shared params differ \u2014 serial, gamma (32.9\u00b0 vs 34.7\u00b0), relay output state (12 vs 0), torque rate limit (5.0 vs 7.0 Nm). Brake_Lo missing from the Lee dump, likely a capture artifact, needs a re-pull to confirm.\nBuilt a 117-signal list valid on both VCU display tabs (VCM_490 and VCM_517) for motor-behavior comparison.\nAnalyzed both cars' Motoring Diag test pulls. Three reports issued: Lee, Kelly, and a Lee-vs-Kelly comparison.\nMain finding \u2014 affects both cars\n Both VCUs command 580 Nm; both inverters deliver ~460 Nm from ~1400 rpm up. ~130 Nm short. Not a derate \u2014 no faults, cold, no thermal or voltage limit. Both carry DrvInvtrMCL = 1272 A, matching IQ_Limit_EEPROM 12720 on both dumps. The current limit binds before the torque limit. Every VCU and inverter limit is identical across the two cars, so this is one shared decision, not a per-car calibration issue. Do not raise the current limit without checking motor/inverter ratings and pack discharge capability first \u2014 lowering the request may be the right fix.\nKelly-specific \u2014 needs resolving before her numbers can be trusted\n Reported shaft power exceeds measured DC input power in 31% of full-throttle samples, peaking at 2.04\u00d7. Physically impossible. Present in both pulls (27.7% and 33.4%). Lee never crosses 1.0. Pack current vs inverter DC current disagree by up to 264 A \u2014 and it's worse in pull 2 (sd 60 A) than pull 1 (sd 18 A), so it looks intermittent. Start with the pack current path: IVT/BMS message rate, message age, stale holds. Kelly's Gamma_Adjust reading 329 is a secondary lead on the torque estimate, unconfirmed.\nCars are otherwise near-identical\n Delivered torque within 6 Nm from 2000\u20135000 rpm. Gearing within 0.7%. 20\u219260 mph: Lee 4.02 s, Kelly 3.95 s."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-17 20:47",
-                  "text": "Kelly / Lee \u2014 EOD, Wed 17 Sep\nDisplay tab rebuilt. Stripped the Motoring Diag tab from 117 columns to 51 and renamed it Motoring Claude. Removed 23 calibration boxes and 29 dead constants; added five reason codes and four message-age channels. Result: clean 100 ms logging with zero cal-read gaps, against 5,300+ gaps over 50 ms before. Full channel spec is in the Motoring Diag Tab document.\nThree full-throttle pulls on Kelly with the new pedal (13:58 session, two pulls; 14:07 session, one).\nNew pedal is confirmed good. Both sensors correlate 0.99997, ADC ratio holds 2.0218 \u00b1 0.0059, pedal wobble 0.37% RMS at full throttle. It also cut the high-speed current ripple roughly in half and moved its onset from 50 mph to 60 mph. Replicated on all three pulls.\nFound the cause of the high-speed torque taper. DrvMtrTrqLim \u2014 the VCU's own torque ceiling \u2014 holds 580 Nm to 60 mph, then falls to ~500 Nm by 65 and ~440 by 75. Delivered torque follows it down. That ceiling works out to a near-constant 345\u2013355 kW of shaft power, so it's a calibration choice, not hardware. The inverter's actual power limit reads 395 kW and the car only ever drew 317 kW.\nBut there's a second, separate problem underneath it. At every speed on every pull, the car delivers 85\u2013132 Nm less than its own declared ceiling. Below 60 mph the ceiling is a flat 580 Nm and the car makes 450\u2013465. Nothing in the log accounts for it. This is the shortfall we've been chasing since Tuesday, now cleanly separated from the taper.\nThe DC power ripple is not commanded. Pedal and torque command are flat to within 0.5% while inverter current swings 8\u20139%. The ripple is real \u2014 bus voltage responds at 54\u201373 m\u03a9 against the pack's measured 80.6 m\u03a9 \u2014 but it produces no torque: reported torque swings eight times less and correlates negatively with current. That's the signature of field-weakening (d-axis) current hunting, and it starts at the same 58\u201360 mph where the torque ceiling begins tapering.\nEverything still points at rotor angle on Kelly. One error would explain all three symptoms: the torque estimate reading high (shaft power still exceeds DC input on 41\u201356% of samples), the field-weakening regulator hunting, and the speed-dependent ripple. Gamma_Adjust_EEPROM reads 329 on Kelly against 347 on Lee.\nThree things I got wrong earlier today and have retracted:\nThe \"current channel split above 75 mph\" was noise. Two more pulls give +11 A and \u221219 A \u2014 the sign flips. It was measurement phase at 10 Hz, not a real disagreement.\nThe \"constant power wall at 288 kW\" had the causation backwards. Torque is capped; flat power is the consequence.\nAmpereBMSPeak_Discharge_Current is not a limit. It rises monotonically from 3 A to 589 A and never falls \u2014 it's a peak recorder.\nAlso worth noting: the BMS current message goes stale at a standstill, freezing the pack-current reading on 12.7% of samples (31.6% while stationary, 1.2% above 40 mph). It never touched a full-throttle sample, but idle and creep current data from Kelly shouldn't be trusted."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-17 21:20",
-                  "text": "Conducted a handful of test drives on this vehicle all trying to get into the problem area.\nWe have found one issue that being the throttle pedal sensor/assembly.\nNoah found debris in the sensor and after swapping out the pedal our APP signal cleans up dramatically.\nHowever our \"Misfire\" symptom still persists.\nGathered a handful of logs today and used claude to analyze them. Marc also helping with the analysis.\nNew data is showing some very weird symptoms will need to analyze this further. Unfortunatley this is not complete."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-17 21:35",
-                  "text": "Kelly_Per_Pull_Traces_17Sep.pdfThis data is interesting."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-17 21:43",
-                  "text": "Attached the logs and the current RDIS being used for diag."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "df6ba53f6e8bbdb8f5092f983483da4a62b5a0a360f2ecb3b8220e25ce886b06"
+              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
             },
             {
               "id": "868krf65c",
@@ -680,20 +639,9 @@
               "status": "Open",
               "list": "Kelly 63 Corvette",
               "url": "https://app.clickup.com/t/868krf65c",
-              "comments": [
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-08-14 21:44",
-                  "text": "Reviewed EEPROM settings, turned off self sense, made backups. Went for a test drive with Aharon and took logs for analysis."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-08-17 22:54",
-                  "text": "Re-verified inverter EEPROM from backups. Tested Lee for the high RPM misfire issue, didn't notice it but did observe a much slower pulsing. Re-tested Kelly for the high RPM misfire and verified consistency. Took backups again of EEPROM for both vehicles and re-verified self sense was off in both vehicles."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "fb74196e160f40fe24914798e18bf8833684528582cce3cb1827fb5bdd8ab7e9"
+              "content_hash": "3ef609addaf0057936618acba3af357d19280540b63ae1e7d0f068966b6b0807"
             },
             {
               "id": "868m6ucr6",
@@ -768,30 +716,9 @@
               "status": "Open",
               "list": "Kelly 63 Corvette",
               "url": "https://app.clickup.com/t/868kqcuv8",
-              "comments": [
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-14 22:02",
-                  "text": "test driving after new settings"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-09 14:50",
-                  "text": "test drive after new steering set up. my notes from slack:\n\nOk just got done driving the car. The steering is completely transformed and the car feels great and much more confidence inspiring.\nThere are two small issues:\nAlthough the steering is centered in the rack appropriately. (1.5 turns to lock each way). The steering wheel is perfectly upside down lol 180\u00b0 out.\nThere is a very obvious and annoying creak coming from the column maybe rubbing against the dash, you can replicate it by wiggling the steering wheel a bit and moving the column. It's not too bad standing still but when driving i think the dash moves over small bumps and it is really annoying."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-09 14:51",
-                  "text": "I believe this task needs to stay open due to the \"misfire\" inverter settings thing going on."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-17 23:11",
-                  "text": "long test drives with many full throttle pulls."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "ab9f633856cfcbb5fa7def1d60d545c31c43ecb01417ecf3d964b1fa1561771d"
+              "content_hash": "16b663d18fbf511d04fc5891bd8783a045dcf757ee0ccc8a4b8950f005f0e1b3"
             }
           ]
         },
@@ -836,50 +763,9 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868knrzc6",
-              "comments": [
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-18 22:21",
-                  "text": "parts searching, discussing solutions. correspondence with vendors."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-19 21:47",
-                  "text": "attempted correspondence"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-21 21:15",
-                  "text": "The company we purchased the wood trim pieces from says that their photos on their site are wrong and they do not have the correct part. I will now attempt to cut the panels for hvac using the least visible methods possible and install with the small slits under hvac."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-25 22:22",
-                  "text": "trimming dash panel. i used the old aluminum pieces as a template. i chose to undersize the hole and slowly work it out to fit our hvac piece since its such an expensive piece of wood and i didnt want to make it too large and have to scrap it."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-26 22:25",
-                  "text": "This wood trim conversion has once again snowballed, but we're nearing the tail end.\nEnded up needing to modify the Rennline HVAC panel since it didn't fit between the dashboard, which is how everything is centered. Had to cut back the beauty ring and drill and tap the billet face in 4 different spots to create new mounting tabs. It now fits and everything aligns well. Moved on to the rest of the wood trim.\nI've cut every piece that needed modification except the key switch panel, which is almost done. Some of these were supposed to be templated off the dash or the Voiture Extravert parts, but they were all done by hand and done poorly, so I had to go my own route. Should be able to get visual approval and mount everything permanently tomorrow."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-09 21:57",
-                  "text": "reaching out to local cnc shopts"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-24 22:03",
-                  "text": "remove dash trim and box up for ryan to take."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-25 21:41",
-                  "text": "meeting with the people we're working with, discussing the final product and drilling holes in there test piece to see how close it is and what changes need to be made."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "b81b5ecc3642ffa69719722c75163933f7078b2ea9515ff4b8fadd5b4eefe1df"
+              "content_hash": "ff65ffa6e3b870f14631f54ce5b0e4903067f8d847c23a2586c0bbbcbc44100a"
             },
             {
               "id": "868hbv2qu",
@@ -929,55 +815,9 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868k84q9v",
-              "comments": [
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-07-03 01:31",
-                  "text": "mock up, check cad. mark frame and drill for rivnut installations. keep in car while checking rear batt box fitment to make sure we're good and so that I can visualize cooling lines"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-07-08 19:28",
-                  "text": "checking/measuring cad/ making temp mounting plates and get junction box mocked up into car for HV measurement."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-07-08 19:30",
-                  "text": "IMG_2142.jpeg"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-07-14 14:44",
-                  "text": "7/3 .5 hr added for mocking up of vcu adapter mounting plate that goes on box itself to hold the vcu mounting plate."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-01 16:07",
-                  "text": "install water pump mounting plates and water pump, battery heater,"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-11 23:11",
-                  "text": "remove and reinstall mounting plates for water pump and battery heater with the correct cooling hoses and fittings. install motor pump and cooling hoses/ fittings. install coolant reservoirs."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-11 23:13",
-                  "text": "IMG_2491.jpeg\nIMG_2492.jpeg\nIMG_2493.jpeg"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-11 21:12",
-                  "text": "had to remove motor water pump for harness installation. reinstall after harness has been situated. assembly and installation of vcu stack. i had to tap the pre installed threads due to powdercoat"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-25 21:43",
-                  "text": "change connectors, and secure wiring for condensors and pressure switch."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "cfdf71842c03979cc8015c38329e7272e1778ad83a4865a136cd9eec324ed7c4"
+              "content_hash": "a1dad4553ec4a5c6b34f2cb329dbf17e06855b6cce8d68227166f352a288c03c"
             },
             {
               "id": "868j7kkze",
@@ -1021,85 +861,9 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868j7kv4t",
-              "comments": [
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-07-09 22:40",
-                  "text": "Installation of the mock-up LDU unit for proper dimensions during HV routing."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-07-13 23:05",
-                  "text": "removal of ldu for cable termination."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-07-28 22:57",
-                  "text": "installation of ldu. found some issues during install that lead to some modifications of brackets. having to slot them a little and change the order of installation to get all to fit without lots of prying and bushing compression. still need to maybe reinforce the third mount but maybe not. tbd. if not then i will pull it and weld it up quick and paint it while i install the proper motor mount bolts that we did not have."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-11 23:05",
-                  "text": "Used this time to drop the rear mount and look for routing options that wouldn't require modifying any brackets. I'm not confident a no-modification option exists, so I made a video presenting the potential solutions and asking for recommendations. Current plan is to move ahead with cutting the main rear bracket first, hoping that alone solves it. If not, we'll slot all three mount bolt holes and see if that resolves it \u2014 if it does, that tells us how far to modify the new mount design."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-12 22:42",
-                  "text": "Dropped the LDU multiple times today to move and re-situate the HV leads. Also had to disassemble the Amphenols to let the leads spin in the connector after re-routing. The goal was to avoid dropping the rear mount, but ended up having to notch it anyway to get clearance between it and the LDU gearbox. After all of that, plus mocking up the AIO junction box to confirm the Amphenols still connected properly \u2014 unfortunately, I still needed to drop the rear mount 5mm to give the cables enough room to move freely. Not confident this is sufficient for a final result, especially since we want to add a small \"heat shield\" support piece for the leads where they cross the gearbox. Good sign though \u2014 shows we don't need much, and if more clearance is needed, we can drop the other mounts instead to make up the difference rather than modifying the rear mount further."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-13 22:01",
-                  "text": "planning, discussing, plotting, chatting, whatever"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-18 22:27",
-                  "text": "remove ldu completely with mounts. attempt to tap through bungs for hv plate. ended up having to make a tap that will travel all the way through. after multiple attempts and one broken tap, one destroyed, i believe we will need to drop the battery box and attack these from the top if we want to use them"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-21 21:13",
-                  "text": "cleaning threads out, taking my time with 2 new taps, eventually got the rear two bolts tapped all the way through cleanly and was able to get bolts installed. then began to work on design with geoff."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-08 22:06",
-                  "text": "Mocked up the HV cable stay plate\nDrilled and tapped battery box supports and installed plates\nTemporarily secured HV cables while installing LDU\nInstalled LDU \u2014 quite difficult with the new mounts, which have tighter tolerances\nInstalled AIO junction box to get HV lengths correct, secured them, then removed the AIO to return to Justin for assembly\nWill mark and secure the HV cables after removing the LDU, and get everything ready for powdercoat."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-09 21:52",
-                  "text": "Used the stainless clamps to arrange cables as best as possible for marking\nGot some marking done with the LDU up\nRemoved the LDU \u2014 ideally for the last time\nMarked, drilled, and rivnutted the HV plate\nReinstalled and tested cable fitment\nRelayed measurements of all holes to Geoff\nRemoved all mounts and the plate, labeled everything for sending off to powdercoat"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-15 21:25",
-                  "text": "looming hv in the rear or the car in prep for ldu install"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-16 21:31",
-                  "text": "A04B1E75-DC66-4932-82C3-CC55D621DCBC.heic"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-16 21:31",
-                  "text": "ldu install hopefully final time."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-16 21:32",
-                  "text": "will do axles and radiator tomorrow. then should be ready to connect cooling and harness provisions. still need to make junction box - inverter leads"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-18 22:01",
-                  "text": "made hardlines for cooling, move motor cooling over to better outlets for routing. connect all and crimp cables"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "19d208039be08ea3067bc2846d456bac7d818ef8d0ef77c687afe39063e8efc3"
+              "content_hash": "6360179005146fb31105392ecf8da6e69300453f9a9a974f4bf7ad0d8dcf5d00"
             },
             {
               "id": "868ma6wy3",
@@ -1117,15 +881,9 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868ma6x5f",
-              "comments": [
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-25 21:50",
-                  "text": "clean and prep hood, wiring etc. install hood with brandon and align. install struts. a little tricky now with the hvac ducting in the way"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "9b50ecea9e7bca60aff77a6e111394da525b5a1ce50ae0bc6db61651cccef355"
+              "content_hash": "31f792d3082133ea5d4c5416f6aac5233706efb3addaaaf53678dd301c48f158"
             },
             {
               "id": "868j7krpv",
@@ -1133,40 +891,9 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868j7krpv",
-              "comments": [
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-06-17 22:34",
-                  "text": "trying to install dash panel aluminum and wood trims during hvac and radio controls installation due to it needing to go in order.\nfound issues with the parts that we had, AND the parts the we ordered, because the car was previously modified and backdated in weird ways to accommodate their stupid vehicle control system. will need to figure out which way we want to head."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-06-19 01:54",
-                  "text": "find the trim and order. I ended up ordering the right hand drive version for 1/3 of the price as the right hand drive wood, but because I only need the center piece im pretty sure theyre the same and I can use it. if not, well send it back."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-07-22 22:59",
-                  "text": "begin assembling and trying to test fit dash parts and radio but got pulled off for pressing manufacturing tasks for cooling/ component mounting solutions."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-24 22:11",
-                  "text": "new foot panels arrived"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-25 22:26",
-                  "text": "attempted installations of dash components. not starting off well. may run into some issues with thickness of wood vs the backspacing of the hvac unit, not making contact so it doesnt sit flush. i may have to notch out the dash or file down the hardware on the hvac unit a little bit."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-23 23:12",
-                  "text": "toe panel modifications, kick panel shenanigans. will elaborate.\n\nI've run into an issue with the interior installation on LB. When I disassembled the interior, everything was nicely carpeted all the way up to the front, even the areas where the footwell blowers typically reside. At the time I took no notice, but there are supposed to be kick panels installed there in later cars to cover up the footwell blowers and their ducting. This car didn't have them, so they weren't necessary at the time.\nAlong the way, we decided to place the blowers and heat bricks in that area like we normally do, but I didn't recognize the downstream effect that would have. Today I went to install the interior panels and thought I'd misplaced them... turns out they never existed for this car.\nThe biggest issue is there are no reproductions I can find, and finding them used is nearly impossible too. Not sure why that is \u2014 I can't even find the part in the OEM catalog. I did find one used one on eBay and went ahead and ordered it, but I think I may end up trying to fit 964 versions instead. Spent a good chunk of the day combing through catalogs, websites, and eBay trying to track these down.\nI'm unsure what to do beyond that unless we have David Gonzalez make us something, or we scan and print them. For now, I think the cheapest route is ordering some used 964 parts and seeing what I can do with them. This puts a decent delay on the interior installation and may stall it for a while if we can't find replacement parts.\nHere are some pics of what I need."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "63c98fe4ca934435ada021c8cd5b192e8660340b27721b5f2ca9b325a51510e7"
+              "content_hash": "6c635489f5108a474d6987dff0bf83ba69168c64e3b82e6951a52696ea9b9e9c"
             },
             {
               "id": "868j7kytx",
@@ -1236,55 +963,9 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868jg5vhj",
-              "comments": [
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-05-08 19:34",
-                  "text": "Talk to Angel at Colvin"
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-05-15 17:37",
-                  "text": "Will discuss with Angel when Connolly is picked up."
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-05-21 19:36",
-                  "text": "Angel has the LB Upholstery Spec PDF. He'll review and get us an estimate. He will also look to source the Recaros."
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-05-29 18:09",
-                  "text": "Waiting on Angel's estimate."
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-06-04 23:18",
-                  "text": "Angel has estimate ready. Need to confirm seat pattern. He seems to prefer the vendor Relicate. NO luck on Recaros yet, both Angel and I are searching."
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-06-12 13:15",
-                  "text": "Need yardage numbers for material. Angel should have numbers for us today, 6/12."
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-06-17 16:20",
-                  "text": "Sent accent material measurements to Angel to confirm."
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-06-24 17:23",
-                  "text": "Estimate numbers shared"
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-08-14 16:36",
-                  "text": "Need to track down leather samples."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "3f41d74eb0ac2db5177ca5dc4a12805a0d098654630a6b04a3776e2242acbed3"
+              "content_hash": "d683478c375b9364201bf8445859244c6d1d769a118725c3da3bac25c2358198"
             },
             {
               "id": "868jg5vgm",
@@ -1292,30 +973,9 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868jg5vgm",
-              "comments": [
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-05-07 20:13",
-                  "text": "Style?"
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-05-08 19:31",
-                  "text": "65-73 Early 911 Recaro Sport Style Seat\n\nsierramadrecollection.com/products/porsche-911-rs-recaro-style-sport-seat-set-911-1965-1973-smc-000-911-seat?srsltid=AfmBOopTJ5lX0wNbjDhffSV7-YH3zw9HtHjWz4DKZPbslChQ9PaF0om0"
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-05-08 19:32",
-                  "text": "Search Bring a Trailer"
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-05-29 18:08",
-                  "text": "Having Angel at Colvin source Recaros"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "f41a1ab1831f47bab4988de8723de1f413f0b518995c76e2cb65dcecf7c8f10c"
+              "content_hash": "3799cfe45dd546d01784d0746fbb4dfc612876c02eb7b002c0d4c02a4a68d2fc"
             }
           ]
         },
@@ -1328,20 +988,9 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868knrzp8",
-              "comments": [
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-11 15:57",
-                  "text": "PMU1 SN : 201-2608-00284\nPMU2 SN : 201-2610-00485"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-25 16:47",
-                  "text": "Be sure to change speed threshold on all of the cooling and AC fans for on this vehicle."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "657e588852ae36adbd0b2dca26bf8a922ccaf585bec646c07739ef3e4bb67a5f"
+              "content_hash": "d78440966f91a7753aee616d683570b500075d7cad9fdedb5aa9cde2367c2fb5"
             }
           ]
         },
@@ -1369,90 +1018,9 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868jz61wr",
-              "comments": [
-                {
-                  "author": "Justin Landry",
-                  "date": "2026-08-20 19:26",
-                  "text": "started in on going through the doc and kit for the LB AIO. going to start the building of it tomorrow."
-                },
-                {
-                  "author": "Justin Landry",
-                  "date": "2026-08-21 19:23",
-                  "text": "assembled the hardware parts onto the base plate, verified changes that were made on the first version seemed to have worked because they line up much better on this run. got all contactors, fuses, busbars and base plate mounted things finished. had to drill out the base plate mount holes to the box a bit. reported changes to geoff."
-                },
-                {
-                  "author": "Justin Landry",
-                  "date": "2026-08-24 19:41",
-                  "text": "Continued the build process today with some wiring before being pulled off to tend to ritchie. got the contactors and large resistors wired as we as some of the feeds to the discharge resistors."
-                },
-                {
-                  "author": "Justin Landry",
-                  "date": "2026-08-25 19:41",
-                  "text": "Continued briefly with some wiring in between other work. looked over aio diagram to confirm wire routing."
-                },
-                {
-                  "author": "Justin Landry",
-                  "date": "2026-08-26 19:21",
-                  "text": "Continued HV wiring alongside the catch up of the 3rd AIO box being built."
-                },
-                {
-                  "author": "Justin Landry",
-                  "date": "2026-08-27 19:41",
-                  "text": "Began assembling the LV/Comms wiring from the milspec connector to the various components in the AIO box. most of the large connector is terminated and needs the component end connectors done. still waiting on a final correct copy of the HV circuit in order to complete before returning to finish the HV."
-                },
-                {
-                  "author": "Justin Landry",
-                  "date": "2026-08-28 19:08",
-                  "text": "Completed comms wiring harness and prepped IMD. Mounted IMD to box lid"
-                },
-                {
-                  "author": "Justin Landry",
-                  "date": "2026-09-03 19:19",
-                  "text": "went over exsisting wiring that had been started and made changes reflected in the newest version of the wiring info. completed precharge/discharge circuits and began on all other AUC HV wiring."
-                },
-                {
-                  "author": "Justin Landry",
-                  "date": "2026-09-03 19:20",
-                  "text": "got about halfway into the HV wiring and installed base plate into box."
-                },
-                {
-                  "author": "Justin Landry",
-                  "date": "2026-09-04 19:14",
-                  "text": "Completed bus bars, fuse layout, HV to amphenol wiring and IVTS install."
-                },
-                {
-                  "author": "Justin Landry",
-                  "date": "2026-09-08 19:18",
-                  "text": "Completed HVIL loop and distribution setup and installed final busbar."
-                },
-                {
-                  "author": "Justin Landry",
-                  "date": "2026-09-09 19:30",
-                  "text": "Worked on IMD tap wiring and IVTS U1,2 and 3"
-                },
-                {
-                  "author": "Justin Landry",
-                  "date": "2026-09-18 19:23",
-                  "text": "Began reading through and prepping for the test procedure for the AIO boxes."
-                },
-                {
-                  "author": "Justin Landry",
-                  "date": "2026-09-22 19:27",
-                  "text": "Put together a basic parts list and a wiring diagram for the proposed testing fixture for AIO boxes. talked with devin about requirements for the IVT and IMD tests. printed out diagram to start putting together the basics."
-                },
-                {
-                  "author": "Justin Landry",
-                  "date": "2026-09-23 19:08",
-                  "text": "Installed connector between IMD and HV tap. continued work on the test harness that will be used to verify these boxes."
-                },
-                {
-                  "author": "Justin Landry",
-                  "date": "2026-09-25 19:30",
-                  "text": "Built tester box for AIO boxes. still need to mount and program the display that will test ivts and imd and figure out how we are going to test the pre and discharge outputs."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "b1c898586ccfeffc81ba1d41c2695395fc78373ea793bb178e9d7c8b37853909"
+              "content_hash": "4e7cb1c4399da78ad464890ebc65c8bc02a428fa1f6c13e543d0f544465797a8"
             }
           ]
         },
@@ -2202,9 +1770,85 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868k6ttbf",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Alex Noonan",
+                  "date": "2026-07-27 21:11",
+                  "text": "In conversations with customer on this topic. Setup needs to be confirmed before we are able to proceed."
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-03 22:06",
+                  "text": "Audio system has been spec'd and ordered.\nJL C2 components for front and rear 6\" & 6.5\"\nJL W3 slim for lows\nJL RD900-5 as amplifier"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-06 20:19",
+                  "text": "Audio arrived minus fwd speaker spacers\nTook measurements and sketched box layout for subwoofer mounting under rear bench seat\nMocked up front speakers\nMeasured for amplifier mount location"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 00:18",
+                  "text": "Headunit installed for mockup and wiring"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 00:19",
+                  "text": "1000014708.jpg1000014709.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-19 21:31",
+                  "text": "Ordered RCAs for Ritchie\nBuilt audio subharness\nChose amplifier position"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-20 19:27",
+                  "text": "Picked up RCAs for Ritchie Audio"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-25 00:53",
+                  "text": "paste_04dbeca5-398e-4049-aa83-1a092e02b518.jpgpaste_362d3eb0-7a0c-4c7e-ab58-032a685ebabf.jpgpaste_632576d7-0d34-46a1-8038-c5e8451d3f68.jpgpaste_6dbf9016-5284-452c-aad0-21bbe5c2bb39.jpgpaste_5b91a4b5-f1f6-4d25-9ce2-61b71425cb93.jpgpaste_956fe9de-345a-4a94-9d44-e604e46cbf5a.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-25 00:53",
+                  "text": "FWD speaker spacers received\nSpeakers and spacers installed in kick panels\nAmp mounting hardware position marked and nutserts installed\nAmp mocked up\nSpeaker wiring ran and secured\nRCAs ran and secured\nRemote wire ran and secured\nWiring to amplifier cut to length\nCarpet reinstalled\nHoles and slots in carpet made for wiring and bolt pass throughs\nAmplifier installed\nAmplifier wiring installed minus power and ground\nKick panels installed and wiring to fwd speakers finished\nKick panels tapped for retainment hardware and installed"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-02 18:01",
+                  "text": "Order replacement radio mounting bezel\nMake support bar for back of radio"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-02 19:26",
+                  "text": "Power and ground amplifier wiring ran"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-10 21:33",
+                  "text": "Headunit removed\nBezel replaced\nKnob height adjusted\nHeadunit reinstalled\nSupport bar installed"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-10 21:34",
+                  "text": "paste_43912374-26fa-48e6-b697-975a749723f8.jpgpaste_2fdf9460-5209-471e-bc91-51aa867589ac.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-14 23:15",
+                  "text": "paste_c129c781-c1ea-4418-a7b9-9894318e9607.jpgpaste_c56d3637-9e0a-4ea3-903b-7f68698f4441.jpgpaste_3a617898-dd6f-48e0-bae0-27756300c6c1.jpgpaste_9d23d044-f165-417a-87a6-22bacea8ea35.jpgpaste_218d0218-857e-4ce5-9005-b7d6ad087f6e.jpgpaste_75d6863d-5a72-482b-87e8-88fafcfb546e.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-14 23:15",
+                  "text": "Center console has been assembled minus emblem and trim ring\nFloor has been tapped for hardware\nConsole installed"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "d7872d4902746774cea8e7a57c66ebc49fcc4ad91f595624ef93e2354cd44fdc"
+              "content_hash": "a58badc0b9ba678a23168020ed025d7aea1514a96a4cfc534dee6f91f5188d90"
             },
             {
               "id": "868kpg6th",
@@ -2258,9 +1902,135 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ka4d5e",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-10 20:55",
+                  "text": "Door panel armrests installed"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-11 19:13",
+                  "text": "Remove passenger door panel to send with Ryan so Colvins can match the seat backs"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-25 00:54",
+                  "text": "Driver side visor install in progress and fwd carpet installed"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-25 00:55",
+                  "text": "paste_50cd478d-4416-4387-9ad4-ebe505f53939.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-25 00:57",
+                  "text": "paste_c724e9ae-7641-4d6e-838e-d055eb383c7f.jpgpaste_cbb6cdb0-741c-4585-8e83-b27f129a4873.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-26 19:19",
+                  "text": "Driver side carpet punctured for seat bolts"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-26 19:20",
+                  "text": "paste_34ee242e-ccfa-42ed-b5d0-559a8bf2b4e0.jpgpaste_33285637-22dc-4310-a785-2ab3bd7fa3a4.jpgpaste_c7dde881-95ce-41b1-88e9-fb9f31ae8fed.jpgpaste_76dc5ec5-0c49-41ba-aab3-f2cad6540d22.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-27 23:11",
+                  "text": "Passenger side carpet punctured\nPassenger seat installed\nSeat pivots cleaned and greased\nPassenger side seat rear cap installed\nDriver side seat cap requires additional mounting work"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-27 23:14",
+                  "text": "paste_4373b090-edc8-40ca-a6bf-0e934225c3a4.jpgpaste_b6d5a38c-7847-4470-a792-0d007fc0dc76.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-28 19:34",
+                  "text": "paste_7324b092-cbd3-45c7-a8b8-1944e491372f.jpgpaste_61533955-1463-4db8-b2f5-7202c022b3a1.jpgpaste_a4f0733e-6279-485f-ba05-b872a304cce2.jpgpaste_ba92f3c5-2407-4e72-8b3a-ced8b928d3b6.jpgpaste_1812a0bb-87c7-4392-8c22-2b0ffa515a7c.jpgpaste_8179339e-b53b-4d91-a60a-56be2ce91efa.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-28 19:35",
+                  "text": "Visor mount remedied and bracket installed\nRear carpet installed\nCarpet formed to wheel tubs\nHeat applied and reliefs made to allow wheel cover carpet to contour correctly"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-28 22:08",
+                  "text": "paste_0b4588db-48ed-456d-9d00-c8d717369c3e.jpgpaste_c7304e87-6000-4cc8-aaf8-acf1ad2417fe.jpgpaste_23877a8a-e2db-4b5e-8772-3c1307fc32c1.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-28 22:09",
+                  "text": "Seat back covers installed minus 2 screws"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-31 21:06",
+                  "text": "paste_08f12c38-c910-492b-8ef2-3f8d8cea693a.jpgpaste_fcb5eb37-1c4e-4e5b-8a1b-1e210c83bde3.jpgpaste_6c127a07-1df7-4ba8-867a-a5db75e2d26f.jpgpaste_494323a3-d630-47c2-964d-5d61254ba5ef.jpgpaste_50273c51-8aa8-4383-bea0-5858745d44f4.jpgpaste_3436e4c7-b846-4da8-b10e-85391b8afbb7.jpgpaste_d52a80df-80c0-4901-b369-907a71481184.jpgpaste_cffdc6c3-1246-4bc1-8943-0f9f40dc6a25.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-31 21:06",
+                  "text": "Rear bench seat armrest fab work finished\nArm bars mocked up\nLocation marked\nBrackets and arm bar prepped & welded out\nBrackets w/ Billy for PC run"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-01 22:30",
+                  "text": "Carpet adhesive did not hold on passenger side\nRelief cuts made and adhesive reapplied"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-01 22:32",
+                  "text": "paste_738d5392-f48d-4fb1-b071-70b3457ec8f5.jpg"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-04 03:28",
+                  "text": "IMG_2044.jpeg"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-04 03:28",
+                  "text": "went o er the rear side panels with David G\nwe got the parts laid out and sketched the design\nhe will have them next week to install"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-05 01:53",
+                  "text": "Installed arm rest bars on rear bench seat"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-05 01:54",
+                  "text": "paste_e4f125f9-376e-41fe-8903-2c4b1b0adad2.jpgpaste_10fd6033-ef28-4e7e-9b88-bbe9231af189.jpgpaste_e685bdf4-8c4f-4480-86cc-5de609bd3b6c.jpgpaste_31f95860-7007-499f-ac32-74aca9491e2a.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-08 15:41",
+                  "text": "paste_3b85bef1-7639-4989-92c7-88809ca58d90.jpgpaste_265428fa-f8a5-4131-a39e-54ccb758972b.jpgpaste_8b1c5aca-2839-4a39-9132-09021ba76b2c.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-08 15:41",
+                  "text": "Measure, mark and lance the carpets for rear seat brackets\nOrder new rear mid brackets and bar clamps for the rear seat"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-15 23:28",
+                  "text": "paste_9f6374f5-9c6c-41a7-9be3-529939d88d4b.jpgpaste_02e51348-e7cc-4326-b0e8-d306393f1b36.jpgpaste_8c0c358e-3308-4081-9f1e-34aa609987bb.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-15 23:28",
+                  "text": "Install center console"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "8fd66da719ff705d1cfee40e5a59ea597a5a80d93c1c6678c2c1fb1afd503ed5"
+              "content_hash": "fa79071bf1490d8b3ed3efc9b6f8a4f6a842956d51dded2db7c995610f33a9fa"
             },
             {
               "id": "868gaza9t",
@@ -2268,9 +2038,30 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868gaza9t",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-27 23:04",
+                  "text": "Lid trial fit successfully\nCover inspected for damage\nLogo location measure for\nBorder taped out\nCenterline and height measured and marked\nSurface cleaned\nLetters planed, cut out and deburred\nLetters cleaned\nLord applied to letters and set in jig\nLetters tacked up, tape removed and jig removed"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-27 23:06",
+                  "text": "paste_141d968b-0512-452b-a33a-86e7fc241f0f.jpgpaste_bf4776b9-40fe-4367-967c-ada0ad2e562a.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-23 00:30",
+                  "text": "New lid received\nLid unboxed and inspected\nLid prepped and measured for lettering\nJig set\nLetters cut out, deburred and cleaned\nLetters adhered"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-23 00:31",
+                  "text": "paste_f33e3741-1ad1-48aa-b7a7-ffc87555b182.jpgpaste_b2cf792a-3ea9-4f21-acf3-c9a5ab5e7ce0.jpg"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "d9f9273bd20a0261c1da8aa58792fabb09ecbcfe7ed7ff121281c714d5fa985e"
+              "content_hash": "e861bf29171feffd08741932d3e6b503d4675410fcdaf9e1f424b83151246835"
             }
           ]
         },
@@ -2314,9 +2105,15 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kmp9tm",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-07 13:24",
+                  "text": "test fit the battery lid\nit is ready for LOGO and PC\nIMG_1830.jpeg\nIMG_1829.jpeg\nIMG_1827.jpeg\nIMG_1826.jpeg\nIMG_1828.jpeg"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "25977cfdfe0fd6dc5303338eb465f4ded373d84fa04ebe79c10f1e716c4899e4"
+              "content_hash": "2aa8a1589ae675ef2968cbacc6f98d00daf87b8afd119e17e8350d38e262df2c"
             }
           ]
         },
@@ -2574,9 +2371,141 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868khu6f8",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
+              "comments": [
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-07-30 02:34",
+                  "text": "Worked with Brandon to develop a better PMU revision system. Cleaned up the master branch and backed up on google drive. Had Brandon pull this down and showed him how to flash to the PMU's along with a number of other vehicle startup details to follow along first. Moved on to the VCU, showed Brandon about the firmware builds and Raptor structures. Converted vehicle requirements into a VCU config. Moved on to the inverter while Brandon loaded that. Upgraded the inverter firmware and flashed EEPROM in line with a W motor while following along in thee sheet."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-07-30 21:43",
+                  "text": "Continued startup with Brandon and Dave. Hooked up HV and key'd on. Tried charging and got the ChgPortContFlt, verified all the associated wiring that has caused that fault previously, no problems found. Tried charging again and it just worked this time. Verified battery heater. Calibrated the resolver. Troubleshot cabin heater wiring. Searched and searched for documentation but couldn't find complete references. Experementially found the VCU was telling the PMU to tell the VCU to turn on the heat. Took thorough notes on actual wiring."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-07-31 21:33",
+                  "text": "Verified K33 \"Heat Request\" functionality on Prehiem to make sure I had the correct tags in Raptor-Service. Tried various combinations of PMU outputs and VCU configs to determine if there was a way to get powering up the heater logic unit as the mechanism to enable heat. Ends up with a fault in the VCU which makes adding a relay the easier option. Drew a diagram for and wired up a relay to a spare output on the PMU. Wrote logic to check the temp knob below 15%, the fan knob above 30%, as well as negative contactor and ignition on. Tested all knob positions and GUI inputs while watching in Raptor and the PMU software. The GUI indicates correctly and warm air blows. I never let it heat up enough to judge effectiveness. Only thing left for HVAC now is to charge the AC and tune that in."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-03 23:47",
+                  "text": "Verified heater circuit actually working by monitoring CAN data from the heater itself for output power. Double checked with a second data source Pack_Current from the BMS. Modified the PMU logic to also include fan and temp knobs as a criteria for turning on the cabin heat pump. Tested all scenarious with the user inputs from the GUI and knobs. Noticed the battery pump was running when it usually isn't, started to investigate, met for various discussions with the team before I could finish. Plugged into Preheim to investigate source of the difference in control."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-06 21:15",
+                  "text": "Tuned in the AC compressor with Dave, it's working as expected plus a little 'bonus'. The AC compressor 'hiccups' with HV connected but the logic unit powered off. Powering up the compressor logic controller without Ampere commanding it to actually compress causes a VCU level fault. Shared to Slack."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-11 22:31",
+                  "text": "Catching up on Slack before the meeting. Looked into Claudes diagnosis of the AC issue. Looks like the PMU program has never changed for that channel and Claude picked up on the troubleshooting I did as the actual problem, not knowing that at time the system was supposed to be operating different than the rest of the fleet. This was required to verify the 450V compressor functions differently than the 400V one and would work better under a different control sequence. Verified VCU settings for the battery were wrong and corrected."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-13 22:16",
+                  "text": "Forced the car to suck out the BMS config again and the fully charged range estimate dropped from 306.04 to 149.58 miles. The new battery health calculations result in 146.4 Ah for the pack, a very reasonable estimate. Also verified Dave's findings on the AC compressor from the computer side. The hiccup issue has been magically fixed."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-17 17:08",
+                  "text": "image.png\nsettings found in raptor when checking initially"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-17 17:13",
+                  "text": "image.png\nadjusted settings"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-17 17:34",
+                  "text": "test drove vehicle.\nfound that at gui 60 the speedo was off by 2mph.\ngoing to reduce overall tire diameter by a small amount to try and get the delta as low as possible"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-17 17:36",
+                  "text": "image.png\nadjusted settings"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-17 17:44",
+                  "text": "Will need to test drive the vehicle to determine if the speedometer is more accurate."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-17 23:10",
+                  "text": "image.png\nHad to update the vehicle weight to kg."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-17 23:25",
+                  "text": "Went through the VCU and verified all of the Vehicle Parameters were set into the VCU appropriately.\nThe tire size on this vehicle is 185vR15... there isnt any aspect ratio listed. According to the googles though total diameter is approx 675mm to 677mm.\nAdjusted settings appropriately in the VCU and\u00a0 switched all of the parameters from Display to Calibration.\nTest drove the vehicle with Dave. Found that the GUI displayed the same speed as my Phone did. Speedo gauge was approx 1-2mph high.\nAdjusted tire size down from 0.675 to 0.665.\nVehicle can be test driven again to verify that we are closer to a 0 delta. Not 100% sure if there is a filter that Peterson is adding to the speed or not but that would explain the slight difference. Or the fact that the GUI and My phone were both using GPS data while the speedo gauge was using calculations. Either way we are much much closer than the 20% that was noticed\nFinal vehicle weight wasn't recorded explicitly so the weight that is in there is close but not exact.\nMessaged Ryan to gather the wifi credentials for this car."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-18 19:54",
+                  "text": "Noticed the GUI in this vehicle is operating a tad bit different than other GUIs we have had in the past.\nWent through the Update process for the GUI.\nUpdated and or Installed all necessary .apk files.\nUpdated .xml file and realdash dashboard.\nOperations found to boot at different speeds.\nThe boot time on this GUI is much much faster than all of our other units. Unsure why this is at this time.\nAmpere Software will finish booting before CAN 3 messages are ready.\nSo there is a slight \" loading time \" feel present for this vehicle. This however seems to be normal operation on all our vehicles except boot times are a bit longer so by the time everything loads the Messages are already there and present so there isnt that \"loading\" feeling.\nPossible we take a trace of CAN3 and have claude see if there are any noticeable issues with it."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-20 22:51",
+                  "text": "Sat down with Brandon and talked through how the VCU and GUI work together to get gear ratio and vehicle weight input. Fixed the incorrect numbers, correlated startup sheet."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-25 20:22",
+                  "text": "Got the Wifi Credentials for this vehicle and updated documentation.\n\nTuxedo2 - username\nsweettea - password"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-09 20:59",
+                  "text": "Confirmed vehicle still on the VCU firmware to test AC hiccup issue.\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-09 21:23",
+                  "text": "image.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-09 21:32",
+                  "text": "Went to verify status of the AC system on Teague.\nFound the Drive Button LED to not be lighting Up. Tested Drive button. Found no response.\nPossible disconnected on the back side? Or death of a button.\nThis will need to be looked at.\nVerified Teague was on the VCU firmware that we talked about this morning. Sat in the car with the vehicle on.\nFound that the AC was acting as intended. No noticeable hiccups or blips from the AC compressor.\nSo as of right now Yes the fix in the VCU_516_Beta10813_SDU_Persist should be moved over to the newest firmware to allow us to update this vehicle and keep the Hiccup fix.\nHowever this car is still experiencing the AC low voltage errors.\nAs the car is turning off you can observe the HV Fault lamp pop up on the right before the GUI screen turns off. So this seems like its happening during Key Off. Maybe we have Andrew look into the thresholds that may be causing this as well. Has the contactors open but the CAN messages are still sending Valid checks?"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-10 21:58",
+                  "text": "Added wifi credentials to Logger."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-17 20:37",
+                  "text": "Waiting for Car to return from the Body Shop."
+                }
+              ],
+              "checklist_items": [
+                {
+                  "checklist": "Checklist",
+                  "name": "Add wifi credentials",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Test fast charging",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Perform full overnight charge",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Determine the correct settings for 450V components (AC comp, OBC, DCDC, precharge resistor, etc)",
+                  "resolved": false
+                }
+              ],
+              "content_hash": "f015874aed9725c95155ebc451467f00308b641b75e6ead29a0660552b484834"
             }
           ]
         },
@@ -2589,9 +2518,25 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868jj1ac8",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "David Webber",
+                  "date": "2026-07-02 11:10",
+                  "text": "I don't believe we have a design for this yet"
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-09-10 15:14",
+                  "text": "Parts ETA = 9/11"
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-09-17 17:25",
+                  "text": "Parts recieved. I'd like an addition .5 - 1hr for manufacturing/installing lid"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "660d5d6ca681f665bcf4d9c15314bf8bfa08105e09f99c9809d6d4ba2fad2219"
+              "content_hash": "2607cafd29367aa485777de92a97d5aa9001a83cedd84a376e98b79aa321538d"
             },
             {
               "id": "868m3t9eq",
@@ -2599,9 +2544,15 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868m3t9eq",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "David Webber",
+                  "date": "2026-09-17 17:26",
+                  "text": "This task will be performed when I get the car back from the body shop"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "05e4c0ef8406d9e45cab9d7165504704916b5f431ed2d5f22cc1ca60293d2451"
+              "content_hash": "966ff50b4b3771ac6c1e4d168fdae6cdd628055d209b5497e295787718e135d8"
             }
           ]
         },
@@ -2614,9 +2565,25 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868jfe48t",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-17 23:30",
+                  "text": "paste_a9b6e1bf-1c11-4c6a-80de-c6de3691df08.jpgpaste_f30f4738-6498-44c9-a376-35628629c3f1.jpgpaste_9f228ea9-9b8c-48c0-a209-313de8b73556.jpgpaste_50c2de1d-c75e-456e-8bf0-74d2bacdc534.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-17 23:30",
+                  "text": "Cover inspected\nPlacement chosen\nMeasured and marked\nTaped\nCleaned and prepped\nLetters cut and prepped\nLetters adhered"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-19 00:19",
+                  "text": "Had another failure to cure with LORD. 1 side setup and cured fine and the other didnt. I used 2 different brushes to apply the adhesive. The narrow brush doesnt mess with the adhesive and I verified by reapplying with the narrow brush this morning and it cured perfectly."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "1f92a310468f8aee2b0606515b7d60357be331944f6fc94c52a28da4c0de3263"
+              "content_hash": "9b9e8e4c638e79083426c6cc09784c44683dc676f9488b6e1afc509d8d0a8908"
             }
           ]
         },
@@ -2629,9 +2596,15 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868kzdw3t",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-09-08 03:47",
+                  "text": "Verified the AC compressor hiccup was not solveable in the latest firmware release. Rolled back the firmware so the AC would be working, posted findings to Slack."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "d5a1aa55c34751a42ba48c7a10699affc93e322a0843ec4b3d0f7dd98b960ffd"
+              "content_hash": "b0992c84c0bdcc16e98d9fa05aa8c4143618104bec4c979eb0af0c9662e6a7c3"
             }
           ]
         },
@@ -2653,5 +2626,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-26T05:39:56Z"
+  "generated_at": "2026-09-26T05:48:25Z"
 }
