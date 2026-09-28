@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T14:55:39.872921Z",
+  "updated_at": "2026-09-28T15:15:23.799864Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -695,10 +695,15 @@
                   "author": "Brandon Beaman",
                   "date": "2026-09-28 13:43",
                   "text": "image.png\nimage.png\nReflashed inverter back to 6531.\nThis was done on Lee as well once we noticed that the cars were down approx 100nm of torque.\nimage.png\nimage.png\nUsed Claude to verify the EEPROM settings stayed the same between firmware flashes.\nall parameters stayed the same.\nWill go test drive vehicle and get a log showing what the requested versus actual torque is now without any setting changes."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-28 14:56",
+                  "text": "Test drove vehicle with and without Self Sense.\nVCM_487_Motoring Diag_2026_09_28_09_43_47_6531withSS.csv2026-09-28 Kelly Corvette EEPROM Initial defsyms_202408292026-09-28 Kelly Corvette EEPROM Rev1 defsyms_20240829VCM_487_Motoring Diag_2026_09_28_09_27_09_Inverter6531NoSS.csv"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "5cf9d0ef283582e2ba4156951789ac9483c63f078947034c80beae09cba005b5"
+              "content_hash": "cd5ad2e9b218c433053a0666540eb6c05f82df28a5ab9be055fc0859869b22bc"
             },
             {
               "id": "868m6ucr6",
@@ -829,7 +834,7 @@
         "matched_lists": [
           "LB 82 911"
         ],
-        "open_tasks": 33
+        "open_tasks": 36
       },
       "assignees": [
         {
@@ -1107,18 +1112,58 @@
               "content_hash": "19d208039be08ea3067bc2846d456bac7d818ef8d0ef77c687afe39063e8efc3"
             },
             {
+              "id": "868man63y",
+              "name": "Install front battery lid",
+              "status": "Open",
+              "list": "LB 82 911",
+              "url": "https://app.clickup.com/t/868man63y",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "25977cfdfe0fd6dc5303338eb465f4ded373d84fa04ebe79c10f1e716c4899e4"
+            },
+            {
+              "id": "868man6bk",
+              "name": "Install rear battery lid",
+              "status": "Open",
+              "list": "LB 82 911",
+              "url": "https://app.clickup.com/t/868man6bk",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "20caae095195c9c5a1e37493809f416bb91beb3da9652fc1d645f0ea1303dc52"
+            },
+            {
+              "id": "868g3ptbv",
+              "name": "Manufacture Core - Front Battery Pack Lid",
+              "status": "Open",
+              "list": "LB 82 911",
+              "url": "https://app.clickup.com/t/868g3ptbv",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "1f92a310468f8aee2b0606515b7d60357be331944f6fc94c52a28da4c0de3263"
+            },
+            {
+              "id": "868man7z6",
+              "name": "Manufacture Core - Rear Battery Pack Lid",
+              "status": "Open",
+              "list": "LB 82 911",
+              "url": "https://app.clickup.com/t/868man7z6",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "c6200ae9d103f4f8f40d738ba37290bfc94e1fcec9eafca980a12827db1daead"
+            },
+            {
               "id": "868ma6wy3",
-              "name": "NEEDS REVIEW mount washer bottle",
+              "name": "Mount washer bottle",
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868ma6wy3",
               "comments": [],
               "checklist_items": [],
-              "content_hash": "571e4a5854020fd1566ed08b00a1e3762aca5760fc2bccbbea16f999d5865a76"
+              "content_hash": "d4ae44cadf90810e01615e46fcbd16af2c2f922759587d2f20f078b1caac34aa"
             },
             {
               "id": "868ma6x5f",
-              "name": "NEEDS REVIEW reinstall hood",
+              "name": "Reinstall hood",
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868ma6x5f",
@@ -1130,7 +1175,7 @@
                 }
               ],
               "checklist_items": [],
-              "content_hash": "9b50ecea9e7bca60aff77a6e111394da525b5a1ce50ae0bc6db61651cccef355"
+              "content_hash": "4816ee5afe26bb0ed6be17289b9943facf62e5edc75a3cdb92e50c6ecc58049b"
             },
             {
               "id": "868j7krpv",
@@ -1543,65 +1588,9 @@
               "status": "Open",
               "list": "Lee 68 Mustang",
               "url": "https://app.clickup.com/t/868kar0ru",
-              "comments": [
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-07-13 20:26",
-                  "text": "Started NVH inspection to determine where the extra noise was coming from and or how to solve it.\nFound that we did not have any sound deadening in stock.\nOrdered up both a set of butyl sound deadening and adhesive backed foam layer to help with vibrations and other low frequencies being transmitted through the tunnel.\nWhile waiting for these items to be shipped I inspected the motor cradle and clearances around the motor.\nFound a couple small pieces of hardware sitting between the motor and cradle which could potentially been transmitting a bit of sound through the frame of the car.\nCleaned out the cradle. This took a decent amount of effort and time due to the hardware being lodged in between the motor and cradle.\nThis was definitely transmitting something into the car likely not much but might be just enough to notice.\nContinue with cover the under side of the tunnel once the material arrives."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-07-16 23:36",
-                  "text": "Installed sound deadening in the trans tunnel area to help with NVH.\nWill test to verify noise reduction once the new driveshaft gets installed."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-07 00:43",
-                  "text": "Gear box noise issue was still bad enough that we need to continue addressing the issue.\nQuick Meeting with Marc and geoff on possible solutions.\nSetup chassis ears on the vehicle.\nTest drove the vehicle and reported findings from the chassis ears.\n\n\nRed - Subframe right behind the sled / trans mounting area.\nWhite - Motor Cradle\nGreen - Rear most part of the subframe assembly to verify if its truly transmitting through the tubular structure.\nYellow - Sheet metal at the front of the vehicle.\n\nThis is from Slack:\nAfter a quick test drive.\n\nWhite showed to be the loudest. Very much dependent on speed. The faster you went the louder it got but was louder on decel than it was on acceleration. It was also more a screeching sound than a gear sound but that would just be the way gears sound in a mono analog input.\n\nRed required almost double if not triple the volume to hear the sounds we were hoping to. So I dont think the sound is transmitting through just the subframe.\n\nGreen verifys that the sound is not being directly transmitted through the sub frame structure that the cradle is mounted to. With the volume at max its still very hard to hear any of the noises we are chasing. But I did notice a clicking sound coming from the rear end area of the vheicle using this one.\n\nYellow showed basically no noise I could hear the power steering pump over everything else.\n\nOverall I feel like its possible that SEV is loud and that loudness is being transmitted through the entire vehicle just enough to where the entire vehicle is basically becoming a speaker for these noises.\n\nI can run more tests if we would like and maybe have another set of ears listen to it to verify the same findings. This however was what I noticed.\nOk so I moved red even closer to the cradle. Moved on to the vertical uprights that box in the cradle at the transmission mount.\n\nAs well as Added Blue.\n\nBlue is attached to the drain plug hole for the motor.\n\nBasically the same results as before.\n\nRed had no smoking gun noises present even being as close as it is. With the chassis ears at max volume you can slightly hear the gear box but Im pretty sure thats from surrounding vibrations in the air since the gain is up so high.\n\nBlue basically the same story as red. You can hear the gear box slightly with the chassis ears at max volume but not at all representative of what we are hearing in the cabin of the vehicle.\n\nNext plan was to swap the SEV and attempt to add luxury liner to the underside of the tunnel.\nPulled motor and gearbox.\nSwapped gear box.\nPrepped for install.\nStill need to install luxury liner and motor into the vehicle."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-07 23:30",
-                  "text": "Finished installing the motor and all other changes we wanted to make while changing out the SEV.\nAdded luxury line under to the tunnel to help with noise.\nInstalled new new new driveshaft.\nTested vehicle during driveshaft balancing.\nGearbox sounds very similar to how it did.\nWill need to road test and verify if there are any more changes necessary."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-17 22:06",
-                  "text": "Waiting on New sled from OSH.\nparts added to order OA226"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-02 23:55",
-                  "text": "New sled Arrived\nJustin Welded up the metal.\nI handed metal off to Ryan to drop off at Powder Coat ASAP.\nRemoved the motor from the vehicle today while the battery box was removed from the vehicle.\nIn preparation for the new sled to return.\nCleaned up bay from motor removal."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-08 20:59",
-                  "text": "Started transferring components over to the new sled.\nfound that a couple of the hole in the new mounting plate were actually sized for M8s when the bolts are m10. Will update Geoff on this to make the correction.\nModified mounting plate.\nContinued transferring parts over.\nFound that the bushing shim definitely will not fit as is unless we do some major hammering and or forcing of the part to fit.\nWaiting for confirmation of if we want to wait until the parts on order show up. Current ETA is the 11th.\nFound that the oil temp sensor does collide with the slide when installed.\nRemoved motor from sled and swapped for a plug.\nReinstalled motor into the sled.\nOnce we decide on the bushing shim we can move forward appropriately with this."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-10 21:57",
-                  "text": "Finished swapping the motor over to the new cradle.\nChecked fluids.\nInstalled motor and new cradle into the vehicle.\nContinue with installing all remaining pieces to finish motor install and move on to the battery box."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-11 20:24",
-                  "text": "Finished installing the driveshaft and all of the motors connecting components."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-15 22:28",
-                  "text": "Continued testing on this vehicle to determine if the NVH issue is still present on this vehicle.\nUsing Chassis ear tested a handful of different spots on the car and didnt find any substantial evidence for a very clear source of the sound.\nWorked with Marc and spun the vehicle driveline up while the vehicle was on the lift inspecting different areas and listening for the most apparent sounds.\nMarc and I both come to the conclusion that it seems like most of the sound is being transmitted through the driveshaft of the vehicle.\nCombined with how stiff the chassis is reverberations and loudness are all amplified compared to Vargas.\nBack to back comparison to Vargas shows both mustang making the exact same sounds joust at different amplitudes. Lees mustang being the louder of the 2.\nDetermined that the next best step is to add sound deadening to the interior of the vehicle to try and help cut back on all of the NVH as much as possible.\nAt this point we have to to shift from getting rid of the sound entirely to just making the sound bearable. There are no apparent  solutions for this vehicle due to the way the vehicle is manufactured and equipped. Its almost too good for how quite our systems are.\nWill continue the sound deadening install on it own specific task."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-16 18:41",
-                  "text": "Aharon finished balancing the driveshaft.\nTest drove the vehicle after to get a feel for the balance.\nCar felt great. No crazy vibrations felt up to 60-65 mph. Still need to do highway testing.\nThe weird thing I noticed though was that with the center console out of the car the Gear groan / Noise was bearable. It wasnt obnoxious or crazy. Still present but drivable. The center console must be acting as amplifier as well especially the center console cubby box thing. We should also add sound treatment to the underside of this as well.\nWill add this to the list of things to address when it comes to NVH and or sound deadening."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "2e35808b0ea21e9b42f8d11e735597b3662c1e8f4d84036b304954b48526f507"
+              "content_hash": "2e22e130e4483b94d8c1da8a37c63d595333ec972f3e7371a4d05a5581970ca1"
             },
             {
               "id": "868kvft7k",
@@ -1609,45 +1598,9 @@
               "status": "Open",
               "list": "Lee 68 Mustang",
               "url": "https://app.clickup.com/t/868kvft7k",
-              "comments": [
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-28 20:51",
-                  "text": "Gathered some data to start the Diag of possible DCDC timing fault and or VCU programming errors on our Dilong chargers.\nDCDC errors show up when the key is cycled off to on in quick succession."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-14 21:05",
-                  "text": "image.png\nimage.png\nimage.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-14 21:58",
-                  "text": "2026-08-11 Lee Mustang Inverter Config defsyms_20250513_09142026.txtAdjusted Torque Rate Limit from 50 to 70"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-14 22:08",
-                  "text": "Updated VCU.\nQuickly went through the settings and config to make sure things didnt change.\nThis vehicle has not had a lot of time or tuning done to it so this was not difficult nor were there a bunch of settings that would have been changed yet.\nVCU updated to the latest firmware.\nAdjusted Launch gain to 70, Test drive, adjusted to 100, Test drive.\nDidn't have any noticeable difference at this time.\nWill need to charge the vehicle before further testing.\nUpdated Torque Rate limit from 50 to 70 on the EEPROM settings since 70 is stock. Not entirely sure how it was reduced down to 50 but this should also help the acceleration."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-22 15:45",
-                  "text": "image.png\nimage.png\nimage.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-22 15:47",
-                  "text": "Reverted Firmware from GEN5_CC_CM_20250514_6533 \u2192 GEN5_CC_CM_20240829_6531.\nVerified EEPROM settings remained persistent through the firmware revert.\nThe only four that disappear are the Active Short Circuit trio and the DC-link flux-weakening flag, and all four were reading zero on 6533, so no live configuration was lost.\nAttached below is the report from comparing before and after EEPROM settings.\n\nLee_Mustang_Firmware_Revert_Verification.pdf"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-22 16:26",
-                  "text": "Test drove vehicle.\nFound that the vehicle makes much more torque now. Enough to finally chirp the tires a little bit.\nHowever when the tires break traction the inverter has faulted out both times.\nTwo events, both a complete loss of drive\n\n\nDuring both, inverter current sits at 0.2\u20130.4 A and delivered torque at zero. The car is making nothing for forty seconds at a stretch.\nIn event 2 the driver clearly tried to get it back \u2014 at t = 355.6 to 356.4 the pedal goes 68%, 81%, 97%, command rises to 350 Nm, and the inverter still puts out 0.2 A.\n\nBoth trip at the same place\n\nBoth faults set on the very next sample after peak torque, during a hard launch from low speed.\nIt isn't torque on its own. Pull 2 made 591 Nm at 4,746 rpm and pull 3 made 589 Nm at 3,148 rpm, and neither tripped. Both trips were below 1,750 rpm. The envelope that kills it is high torque below about 2,000 rpm \u2014 which is exactly where phase current peaks and back-EMF is lowest, even though DC current is only ~200 A. With IQ_Limit_EEPROM at 1272 A, that corner is where the phase-current limit would bite first.\nNot thermal: inverter was at 42\u201344 \u00b0C and the motor at 24\u201340 \u00b0C at both trips. Stone cold.\n\nNeither clears on its own\nBoth events end only when HV is cycled. Bus goes 590 \u2192 260 \u2192 33 \u2192 0 V, validity flags drop for 8 s (event 1) and 3.8 s (event 2), HV comes back, fault clears. Nothing in the log suggests it would have recovered otherwise.\n\nNothing else flags it\nDrvInvtrDsblReason reads No Fault on all 11,582 samples. So do APPLimReason, LimpInModeReason and both HVSysDsblLevel codes. DrvMtrTrqVld and DrvInvtrCurVld stay at 1 throughout the fault \u2014 they only drop during the HV-off window. The raw DrvInvtrFault bit is the only thing that catches this, which is worth knowing for the tab spec and for anyone reading these logs."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "cfe8606b549298c713edf1c9d37a372cb056a267fd94ec338f971ffef994c2c6"
+              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
             },
             {
               "id": "868m5njnw",
@@ -2416,5 +2369,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-28T14:53:58Z"
+  "generated_at": "2026-09-28T15:13:33Z"
 }
