@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T17:52:34.587832Z",
+  "updated_at": "2026-09-28T18:19:03.594119Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -206,10 +206,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-09-09 22:42",
                   "text": "Received door parts.\nInstalled front rear door latch: Latch functioning, however the 'tab' of the locking arm not engaging with the bottom lock. Attempted to adjust bottom lock divot, no luck.\nRemoved and re-shaped to allow for proper engagement.\nNote: Door has been re-welded and worked on at some point, requiring the arm to be bent. Found the sweet spot after lots of trial and error.\nRe-shaped striker to better engage with rear fore/aft new door latch mechanism.\nReinstalled door panels and tested. Functioning as intended.\nNote: Due to previous bodywork, light pressure is required on the middle of door when closing to allow all three points to engage (top middle center). Prior to work performed, only top and center were engaging.\nFurther note: Rear door lock mechanism was broken prior. Now functional, new keys on keyring."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-09-28 18:03",
+                  "text": "Final issue: sticky front door (sticks on top seal).\nInstalled new rubber seal.\nRemoved old seal.\nThoroughly cleaned track.\nLubricated new seal and installed inch by inch.\nApplied silglyde to door rubber to aid in break-in period.\nDoor now opens easily."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "729d60f8cb7476372128f44f582d9788e5bd8f8d5babe6ec2506ff613a3adca7"
+              "content_hash": "9c2262ee532ed8eb9ff6fb03b1cdb03971dd8f1587bf2269b4318f5f37cc0b64"
             },
             {
               "id": "868k7em0v",
@@ -232,10 +237,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-09-15 22:28",
                   "text": "Run to storage unit to verify/measure roof rack. 81 inches at the highest point.\nDuring test drive, observed loose turn signal stalk and turn signals blinking too fast. Repaired."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-09-28 18:01",
+                  "text": "Went to storage to retrieve roof rack.\nOld rubber cracked/disintegrating.\nCleaned roof rack mounting points on both rack side, body side and clamp side.\nCreated little replacement pads for all 12 contact points (6 feet + 6 clamps).\nInstalled new roof rack. Modified position slightly to be symetrical while still allowing rear doors to open.\nTorqued all hardware, used blue loctite."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "46ed7590ef80c224b414d81d12664f9c6d4019b1541000f6762f848aabff6b41"
+              "content_hash": "97ef2a1310e8a5ba3831d886c5f744d03c6755bc745244a0b0e1b19dd37188b6"
             },
             {
               "id": "868m2y1ap",
@@ -299,10 +309,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-09-25 22:35",
                   "text": "Reinstalled middle seat after earlier work"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-09-28 18:05",
+                  "text": "Installed new rubber bumpers for front seats (missing or perished).\nAdded nutsert to far RH mount point due to stripped out hole.\nAdded lower bumpers for underseat area.\nCleaned area."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "c7343013feb80696c5277603cfffb9508618c03e23192380bb1520b01c8f6866"
+              "content_hash": "3189b78279ba31d79797c4c21887922aae41115719e108f392c93d3194d0dabf"
             }
           ]
         },
@@ -2333,5 +2348,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-28T17:50:53Z"
+  "generated_at": "2026-09-28T18:17:17Z"
 }
