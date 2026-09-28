@@ -2,8 +2,8 @@
   "helpers": [
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 122.0,
-      "pct_of_total": 10.5,
+      "total_hours": 124.0,
+      "pct_of_total": 10.6,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -42,11 +42,11 @@
           "hours": 3.8
         },
         {
-          "task": "Interior",
-          "hours": 1.0
+          "task": "Manufacturing - Core",
+          "hours": 3.0
         },
         {
-          "task": "Manufacturing - Core",
+          "task": "Interior",
           "hours": 1.0
         }
       ]
@@ -234,7 +234,7 @@
     {
       "project": "Krafcik 02 Caterham",
       "total_hours": 63.2,
-      "pct_of_total": 5.5,
+      "pct_of_total": 5.4,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -424,24 +424,24 @@
     }
   ],
   "shop_work": {
-    "total_hours": 185.8,
-    "pct_of_total": 16.0,
-    "avg_per_person_per_day": 1.16,
+    "total_hours": 189.0,
+    "pct_of_total": 16.2,
+    "avg_per_person_per_day": 1.18,
     "flagged": true,
     "tech_count": 8,
     "working_days": 20,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 77.5
+        "hours": 79.2
       },
       {
         "label": "Shop Meetings",
-        "hours": 65.2
+        "hours": 66.2
       },
       {
         "label": "Personal Meetings",
-        "hours": 24.2
+        "hours": 24.8
       },
       {
         "label": "Organization",
@@ -549,10 +549,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 880.8,
-    "non_billable_hours": 278.5,
+    "billable_hours": 882.8,
+    "non_billable_hours": 281.8,
     "pto_hours": 17.0,
-    "total_hours": 1159.2
+    "total_hours": 1164.5
   },
-  "generated_at": "2026-09-28T17:27:21Z"
+  "generated_at": "2026-09-28T17:41:15Z"
 }
