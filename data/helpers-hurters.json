@@ -105,7 +105,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 110.0,
-      "pct_of_total": 9.1,
+      "pct_of_total": 9.0,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -323,12 +323,16 @@
     },
     {
       "project": "Thacker 46 Woody",
-      "total_hours": 56.0,
-      "pct_of_total": 4.6,
+      "total_hours": 59.5,
+      "pct_of_total": 4.9,
       "tasks": [
         {
           "task": "HVAC",
           "hours": 10.8
+        },
+        {
+          "task": "Manufacturing - Product",
+          "hours": 9.0
         },
         {
           "task": "Cooling",
@@ -344,10 +348,6 @@
         },
         {
           "task": "Interior",
-          "hours": 5.5
-        },
-        {
-          "task": "Manufacturing - Product",
           "hours": 5.5
         },
         {
@@ -436,16 +436,16 @@
     }
   ],
   "shop_work": {
-    "total_hours": 192.8,
+    "total_hours": 193.0,
     "pct_of_total": 15.9,
-    "avg_per_person_per_day": 1.2,
+    "avg_per_person_per_day": 1.21,
     "flagged": true,
     "tech_count": 8,
     "working_days": 20,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 81.5
+        "hours": 81.8
       },
       {
         "label": "Shop Meetings",
@@ -561,10 +561,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 924.5,
-    "non_billable_hours": 287.5,
+    "billable_hours": 928.0,
+    "non_billable_hours": 287.8,
     "pto_hours": 17.0,
-    "total_hours": 1212.0
+    "total_hours": 1215.8
   },
-  "generated_at": "2026-09-28T22:48:37Z"
+  "generated_at": "2026-09-28T23:11:58Z"
 }
