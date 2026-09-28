@@ -24,7 +24,13 @@
           "day_name": "Wednesday",
           "is_today": false,
           "is_weekend": false,
-          "events": []
+          "events": [
+            {
+              "summary": "Jordan J Out Half Day",
+              "type": "pto",
+              "all_day": true
+            }
+          ]
         },
         {
           "date": "2026-10-01",
@@ -243,5 +249,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-28T13:15:31Z"
+  "generated_at": "2026-09-28T13:42:36Z"
 }

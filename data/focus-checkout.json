@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T13:17:41.630539Z",
+  "updated_at": "2026-09-28T13:44:19.295165Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -690,10 +690,15 @@
                   "author": "Devin DuMont",
                   "date": "2026-08-17 22:54",
                   "text": "Re-verified inverter EEPROM from backups. Tested Lee for the high RPM misfire issue, didn't notice it but did observe a much slower pulsing. Re-tested Kelly for the high RPM misfire and verified consistency. Took backups again of EEPROM for both vehicles and re-verified self sense was off in both vehicles."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-28 13:43",
+                  "text": "image.png\nimage.png\nReflashed inverter back to 6531.\nThis was done on Lee as well once we noticed that the cars were down approx 100nm of torque.\nimage.png\nimage.png\nUsed Claude to verify the EEPROM settings stayed the same between firmware flashes.\nall parameters stayed the same.\nWill go test drive vehicle and get a log showing what the requested versus actual torque is now without any setting changes."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "fb74196e160f40fe24914798e18bf8833684528582cce3cb1827fb5bdd8ab7e9"
+              "content_hash": "5cf9d0ef283582e2ba4156951789ac9483c63f078947034c80beae09cba005b5"
             },
             {
               "id": "868m6ucr6",
@@ -2411,5 +2416,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-28T13:15:31Z"
+  "generated_at": "2026-09-28T13:42:36Z"
 }
