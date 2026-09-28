@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T21:50:44.567189Z",
+  "updated_at": "2026-09-28T22:15:49.650780Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -556,10 +556,15 @@
                   "author": "Devin DuMont",
                   "date": "2026-09-25 21:48",
                   "text": "Adjusted the temperature based regen limiter and test drove to verify. Turns out it only works on positive torque, not regen. Reaching out to AEM. Trouble shot the battery heater only reporting 2500 W out of 3500 W. Monitored pack current and verified the CAN message against that. Initially the unit does draw full power but shortly after it caps, may need to reach out to the manufacturer."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-09-28 21:56",
+                  "text": "Forced on the battery heater in Preheim and monitored pack current as well as the CAN messages the VCU was sending to the PTC heater. It also peaks at 3.5 kW and the cuts back to 2.5 kW before shutting off due to Ampere control. Need to ask the manufacturer if this is intended operation before going further with any more diag. Adjusted the CCL temp limiting tables and test drove with the battery temp forced to -5C. Regen was completely gone. Made a backup of the calibration and sent this off to AEM for an updated firmware burn."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "3108835d92130bcd70bffad1a43a2a323dac2a832fc8b01988357cdca21a3350"
+              "content_hash": "251bfcda56ce07608194a1c98c4c60cd515eb94f95ab85ba521f1992ba3601bd"
             }
           ]
         }
@@ -2374,5 +2379,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-28T21:48:43Z"
+  "generated_at": "2026-09-28T22:13:05Z"
 }
