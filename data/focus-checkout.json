@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T18:18:49.806392Z",
+  "updated_at": "2026-09-29T18:46:31.331422Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -158,7 +158,7 @@
         "matched_lists": [
           "Ferdman 66 Bus"
         ],
-        "open_tasks": 9
+        "open_tasks": 5
       },
       "assignees": [
         {
@@ -186,68 +186,6 @@
               "content_hash": "945e93e959088c21cb4e691a5a09541c2764c1bf16baab962a769d483263db58"
             },
             {
-              "id": "868kzmqbg",
-              "name": "Fix all door issues",
-              "status": "Open",
-              "list": "Ferdman 66 Bus",
-              "url": "https://app.clickup.com/t/868kzmqbg",
-              "comments": [
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-09-02 22:59",
-                  "text": "(Moved from earlier task, work performed on Monday)"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-09-02 22:59",
-                  "text": "Rear door latches: Took off the door panels and removed the latch mechanisms. Noticed the lower latches were not functioning properly. 3 hours @Alex Noonan\nFront door has a broken internal mechanism, the lower door barely moves. Not worth repairing, have ordered a new mechanism.\nRear door had two issues that have been resolved.\nInterior self-tapper was interfering with the latching arm mechanism.\nOne of the retaining screws on the arm was loose and catching."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-09-09 22:42",
-                  "text": "Received door parts.\nInstalled front rear door latch: Latch functioning, however the 'tab' of the locking arm not engaging with the bottom lock. Attempted to adjust bottom lock divot, no luck.\nRemoved and re-shaped to allow for proper engagement.\nNote: Door has been re-welded and worked on at some point, requiring the arm to be bent. Found the sweet spot after lots of trial and error.\nRe-shaped striker to better engage with rear fore/aft new door latch mechanism.\nReinstalled door panels and tested. Functioning as intended.\nNote: Due to previous bodywork, light pressure is required on the middle of door when closing to allow all three points to engage (top middle center). Prior to work performed, only top and center were engaging.\nFurther note: Rear door lock mechanism was broken prior. Now functional, new keys on keyring."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-09-28 18:03",
-                  "text": "Final issue: sticky front door (sticks on top seal).\nInstalled new rubber seal.\nRemoved old seal.\nThoroughly cleaned track.\nLubricated new seal and installed inch by inch.\nApplied silglyde to door rubber to aid in break-in period.\nDoor now opens easily."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "9c2262ee532ed8eb9ff6fb03b1cdb03971dd8f1587bf2269b4318f5f37cc0b64"
-            },
-            {
-              "id": "868k7em0v",
-              "name": "Install roof rack",
-              "status": "Open",
-              "list": "Ferdman 66 Bus",
-              "url": "https://app.clickup.com/t/868k7em0v",
-              "comments": [
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-08-06 22:59",
-                  "text": "Some exterior pieces need replacing. Will do when doing roof rack.\nAs we've been driving it more I've noticed two things:\nExterior mirrors are floppy, vibey. The rubber mount is perished. New mirrors are cheap.\nRH blinker lens cracked.\nParts are less than $100, less than .5 hours to replace these parts. I'll put the time under the 'install roof rack' task."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-08-11 19:11",
-                  "text": "Installed new front marker light trim/lenses.\nObserved LH rear tailight bulb out. Diagnosed sticky bulb socket. Repaired."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-09-15 22:28",
-                  "text": "Run to storage unit to verify/measure roof rack. 81 inches at the highest point.\nDuring test drive, observed loose turn signal stalk and turn signals blinking too fast. Repaired."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-09-28 18:01",
-                  "text": "Went to storage to retrieve roof rack.\nOld rubber cracked/disintegrating.\nCleaned roof rack mounting points on both rack side, body side and clamp side.\nCreated little replacement pads for all 12 contact points (6 feet + 6 clamps).\nInstalled new roof rack. Modified position slightly to be symetrical while still allowing rear doors to open.\nTorqued all hardware, used blue loctite."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "97ef2a1310e8a5ba3831d886c5f744d03c6755bc745244a0b0e1b19dd37188b6"
-            },
-            {
               "id": "868m2y1ap",
               "name": "Replace damaged motor cradle",
               "status": "Open",
@@ -256,73 +194,6 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "7f891d6c42432c8f41025fd35019a46319bc4fb2a5c2bfc023e742a0d9d82010"
-            },
-            {
-              "id": "868ma6880",
-              "name": "Troubleshoot AC issue",
-              "status": "Open",
-              "list": "Ferdman 66 Bus",
-              "url": "https://app.clickup.com/t/868ma6880",
-              "comments": [
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-09-25 22:31",
-                  "text": "Per @Billy Arrasmith, AC cut out after 30-45 minutes on long drive.\nInspected temps/pressures on-site.\nRemoved 2.8oz of refrigerant and re-tested. Approximately 1lb3oz remaining.\nCondenser likely contributing factor for cooling issue.\n@Marc Davis to retest over the weekend while driving."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-09-25 22:34",
-                  "text": "# Ambient Low / High (psi) Condenser in / out (\u00b0F) Vent (\u00b0F) 1 71\u00b0F 87 / 77 (static) \u2014 \u2014 2 \u2014 20 / 250 155 / 117 31 3 75\u00b0F 20 / 220 146 / 107 32 4 \u2014 18 / 210 155 / 108 35 5 93\u00b0F 30 / 300 \u2014 \"ice cold\" 6 95\u00b0F 54 / 300 \u2014 60"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-09-25 22:34",
-                  "text": "momentmotors.slack.com/archives/D07QJENTZ0E/p1790375598212639"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-09-28 18:42",
-                  "text": "@Marc Davis test drove over the weekend for 40 minutes. Thumbs up on cooling. Job complete."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "93ee9e62091b3630b543b04687cc98194caee913dc9a669835e18f795123b040"
-            },
-            {
-              "id": "868m7djz9",
-              "name": "Troubleshoot interior noise issues",
-              "status": "Open",
-              "list": "Ferdman 66 Bus",
-              "url": "https://app.clickup.com/t/868m7djz9",
-              "comments": [
-                {
-                  "author": "David Webber",
-                  "date": "2026-09-21 16:49",
-                  "text": "Diagnose interior noises:\nfront seats noisey, rubber bumpers for seat back frames & seat bottom frames missing ... parts ordered\nOEM headliner ribs have been replaced with a shadetree wooden solution. These have come loose and are flopping about resulting in knocking noises. I've recommended replacement of these Items. Perhaps to be performed by an upholsterer.\nLubricated door check straps for creaking noises"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-09-21 20:56",
-                  "text": "Assisted with test-driving and pedal rework.\nFound and rush-ordered parts for seat rework (see above).\nPer ISP west, parts should arrive by end of week.\n\nWe solved the issue with 'motor cogging'. It actually was a little stiff near the 'accelerator off' position and wasn't recording fully off, the last 1/2\" was sticky. Dave re-adjusted and now we have a more positive snap-back, no more cogging.\n\nWe may want to re-do the accelerator table regardless, as there was a throttle out-of-range pending alert that appeared at one point... perhaps because it was recording the throttle as open on startup? It hasn't reappeared in my test-driving since.\""
-                },
-                {
-                  "author": "David Webber",
-                  "date": "2026-09-24 17:07",
-                  "text": "Addressed squeaking noises from 3rd row seat"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-09-25 22:35",
-                  "text": "Reinstalled middle seat after earlier work"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-09-28 18:05",
-                  "text": "Installed new rubber bumpers for front seats (missing or perished).\nAdded nutsert to far RH mount point due to stripped out hole.\nAdded lower bumpers for underseat area.\nCleaned area."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "3189b78279ba31d79797c4c21887922aae41115719e108f392c93d3194d0dabf"
             }
           ]
         },
@@ -1240,10 +1111,15 @@
                   "author": "Aharon Adams",
                   "date": "2026-09-23 00:15",
                   "text": "finish wiring, and installation of gauges. used some time to clean up the oem wiring for the instrumentation behind the dash to keep it hidden, secured, and from rattling. power gauge is temporarily installed because i need to order a new gasket for it. It seems like Peterson makes their gauges just a little undersized for ease of installation but that means i cant use my typical method of using tessa tape for install. i need the oem gasket johnny."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-09-29 18:41",
+                  "text": "install gasket on power gauge and final install"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "2a5598892443cf16a0f06334d1edfbba51b70e6b1822fd3d91ad4df86042f022"
+              "content_hash": "8ae157d9d74d6d7db49641d4d107b3e162f22c806f92d940eb7e81edc0d484f2"
             }
           ]
         },
@@ -1563,9 +1439,65 @@
               "status": "Open",
               "list": "Lee 68 Mustang",
               "url": "https://app.clickup.com/t/868kar0ru",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-07-13 20:26",
+                  "text": "Started NVH inspection to determine where the extra noise was coming from and or how to solve it.\nFound that we did not have any sound deadening in stock.\nOrdered up both a set of butyl sound deadening and adhesive backed foam layer to help with vibrations and other low frequencies being transmitted through the tunnel.\nWhile waiting for these items to be shipped I inspected the motor cradle and clearances around the motor.\nFound a couple small pieces of hardware sitting between the motor and cradle which could potentially been transmitting a bit of sound through the frame of the car.\nCleaned out the cradle. This took a decent amount of effort and time due to the hardware being lodged in between the motor and cradle.\nThis was definitely transmitting something into the car likely not much but might be just enough to notice.\nContinue with cover the under side of the tunnel once the material arrives."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-07-16 23:36",
+                  "text": "Installed sound deadening in the trans tunnel area to help with NVH.\nWill test to verify noise reduction once the new driveshaft gets installed."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-07 00:43",
+                  "text": "Gear box noise issue was still bad enough that we need to continue addressing the issue.\nQuick Meeting with Marc and geoff on possible solutions.\nSetup chassis ears on the vehicle.\nTest drove the vehicle and reported findings from the chassis ears.\n\n\nRed - Subframe right behind the sled / trans mounting area.\nWhite - Motor Cradle\nGreen - Rear most part of the subframe assembly to verify if its truly transmitting through the tubular structure.\nYellow - Sheet metal at the front of the vehicle.\n\nThis is from Slack:\nAfter a quick test drive.\n\nWhite showed to be the loudest. Very much dependent on speed. The faster you went the louder it got but was louder on decel than it was on acceleration. It was also more a screeching sound than a gear sound but that would just be the way gears sound in a mono analog input.\n\nRed required almost double if not triple the volume to hear the sounds we were hoping to. So I dont think the sound is transmitting through just the subframe.\n\nGreen verifys that the sound is not being directly transmitted through the sub frame structure that the cradle is mounted to. With the volume at max its still very hard to hear any of the noises we are chasing. But I did notice a clicking sound coming from the rear end area of the vheicle using this one.\n\nYellow showed basically no noise I could hear the power steering pump over everything else.\n\nOverall I feel like its possible that SEV is loud and that loudness is being transmitted through the entire vehicle just enough to where the entire vehicle is basically becoming a speaker for these noises.\n\nI can run more tests if we would like and maybe have another set of ears listen to it to verify the same findings. This however was what I noticed.\nOk so I moved red even closer to the cradle. Moved on to the vertical uprights that box in the cradle at the transmission mount.\n\nAs well as Added Blue.\n\nBlue is attached to the drain plug hole for the motor.\n\nBasically the same results as before.\n\nRed had no smoking gun noises present even being as close as it is. With the chassis ears at max volume you can slightly hear the gear box but Im pretty sure thats from surrounding vibrations in the air since the gain is up so high.\n\nBlue basically the same story as red. You can hear the gear box slightly with the chassis ears at max volume but not at all representative of what we are hearing in the cabin of the vehicle.\n\nNext plan was to swap the SEV and attempt to add luxury liner to the underside of the tunnel.\nPulled motor and gearbox.\nSwapped gear box.\nPrepped for install.\nStill need to install luxury liner and motor into the vehicle."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-07 23:30",
+                  "text": "Finished installing the motor and all other changes we wanted to make while changing out the SEV.\nAdded luxury line under to the tunnel to help with noise.\nInstalled new new new driveshaft.\nTested vehicle during driveshaft balancing.\nGearbox sounds very similar to how it did.\nWill need to road test and verify if there are any more changes necessary."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-17 22:06",
+                  "text": "Waiting on New sled from OSH.\nparts added to order OA226"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-02 23:55",
+                  "text": "New sled Arrived\nJustin Welded up the metal.\nI handed metal off to Ryan to drop off at Powder Coat ASAP.\nRemoved the motor from the vehicle today while the battery box was removed from the vehicle.\nIn preparation for the new sled to return.\nCleaned up bay from motor removal."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-08 20:59",
+                  "text": "Started transferring components over to the new sled.\nfound that a couple of the hole in the new mounting plate were actually sized for M8s when the bolts are m10. Will update Geoff on this to make the correction.\nModified mounting plate.\nContinued transferring parts over.\nFound that the bushing shim definitely will not fit as is unless we do some major hammering and or forcing of the part to fit.\nWaiting for confirmation of if we want to wait until the parts on order show up. Current ETA is the 11th.\nFound that the oil temp sensor does collide with the slide when installed.\nRemoved motor from sled and swapped for a plug.\nReinstalled motor into the sled.\nOnce we decide on the bushing shim we can move forward appropriately with this."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-10 21:57",
+                  "text": "Finished swapping the motor over to the new cradle.\nChecked fluids.\nInstalled motor and new cradle into the vehicle.\nContinue with installing all remaining pieces to finish motor install and move on to the battery box."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-11 20:24",
+                  "text": "Finished installing the driveshaft and all of the motors connecting components."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-15 22:28",
+                  "text": "Continued testing on this vehicle to determine if the NVH issue is still present on this vehicle.\nUsing Chassis ear tested a handful of different spots on the car and didnt find any substantial evidence for a very clear source of the sound.\nWorked with Marc and spun the vehicle driveline up while the vehicle was on the lift inspecting different areas and listening for the most apparent sounds.\nMarc and I both come to the conclusion that it seems like most of the sound is being transmitted through the driveshaft of the vehicle.\nCombined with how stiff the chassis is reverberations and loudness are all amplified compared to Vargas.\nBack to back comparison to Vargas shows both mustang making the exact same sounds joust at different amplitudes. Lees mustang being the louder of the 2.\nDetermined that the next best step is to add sound deadening to the interior of the vehicle to try and help cut back on all of the NVH as much as possible.\nAt this point we have to to shift from getting rid of the sound entirely to just making the sound bearable. There are no apparent  solutions for this vehicle due to the way the vehicle is manufactured and equipped. Its almost too good for how quite our systems are.\nWill continue the sound deadening install on it own specific task."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-16 18:41",
+                  "text": "Aharon finished balancing the driveshaft.\nTest drove the vehicle after to get a feel for the balance.\nCar felt great. No crazy vibrations felt up to 60-65 mph. Still need to do highway testing.\nThe weird thing I noticed though was that with the center console out of the car the Gear groan / Noise was bearable. It wasnt obnoxious or crazy. Still present but drivable. The center console must be acting as amplifier as well especially the center console cubby box thing. We should also add sound treatment to the underside of this as well.\nWill add this to the list of things to address when it comes to NVH and or sound deadening."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "2e22e130e4483b94d8c1da8a37c63d595333ec972f3e7371a4d05a5581970ca1"
+              "content_hash": "2e35808b0ea21e9b42f8d11e735597b3662c1e8f4d84036b304954b48526f507"
             },
             {
               "id": "868kvft7k",
@@ -1573,9 +1505,45 @@
               "status": "Open",
               "list": "Lee 68 Mustang",
               "url": "https://app.clickup.com/t/868kvft7k",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-28 20:51",
+                  "text": "Gathered some data to start the Diag of possible DCDC timing fault and or VCU programming errors on our Dilong chargers.\nDCDC errors show up when the key is cycled off to on in quick succession."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-14 21:05",
+                  "text": "image.png\nimage.png\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-14 21:58",
+                  "text": "2026-08-11 Lee Mustang Inverter Config defsyms_20250513_09142026.txtAdjusted Torque Rate Limit from 50 to 70"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-14 22:08",
+                  "text": "Updated VCU.\nQuickly went through the settings and config to make sure things didnt change.\nThis vehicle has not had a lot of time or tuning done to it so this was not difficult nor were there a bunch of settings that would have been changed yet.\nVCU updated to the latest firmware.\nAdjusted Launch gain to 70, Test drive, adjusted to 100, Test drive.\nDidn't have any noticeable difference at this time.\nWill need to charge the vehicle before further testing.\nUpdated Torque Rate limit from 50 to 70 on the EEPROM settings since 70 is stock. Not entirely sure how it was reduced down to 50 but this should also help the acceleration."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-22 15:45",
+                  "text": "image.png\nimage.png\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-22 15:47",
+                  "text": "Reverted Firmware from GEN5_CC_CM_20250514_6533 \u2192 GEN5_CC_CM_20240829_6531.\nVerified EEPROM settings remained persistent through the firmware revert.\nThe only four that disappear are the Active Short Circuit trio and the DC-link flux-weakening flag, and all four were reading zero on 6533, so no live configuration was lost.\nAttached below is the report from comparing before and after EEPROM settings.\n\nLee_Mustang_Firmware_Revert_Verification.pdf"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-22 16:26",
+                  "text": "Test drove vehicle.\nFound that the vehicle makes much more torque now. Enough to finally chirp the tires a little bit.\nHowever when the tires break traction the inverter has faulted out both times.\nTwo events, both a complete loss of drive\n\n\nDuring both, inverter current sits at 0.2\u20130.4 A and delivered torque at zero. The car is making nothing for forty seconds at a stretch.\nIn event 2 the driver clearly tried to get it back \u2014 at t = 355.6 to 356.4 the pedal goes 68%, 81%, 97%, command rises to 350 Nm, and the inverter still puts out 0.2 A.\n\nBoth trip at the same place\n\nBoth faults set on the very next sample after peak torque, during a hard launch from low speed.\nIt isn't torque on its own. Pull 2 made 591 Nm at 4,746 rpm and pull 3 made 589 Nm at 3,148 rpm, and neither tripped. Both trips were below 1,750 rpm. The envelope that kills it is high torque below about 2,000 rpm \u2014 which is exactly where phase current peaks and back-EMF is lowest, even though DC current is only ~200 A. With IQ_Limit_EEPROM at 1272 A, that corner is where the phase-current limit would bite first.\nNot thermal: inverter was at 42\u201344 \u00b0C and the motor at 24\u201340 \u00b0C at both trips. Stone cold.\n\nNeither clears on its own\nBoth events end only when HV is cycled. Bus goes 590 \u2192 260 \u2192 33 \u2192 0 V, validity flags drop for 8 s (event 1) and 3.8 s (event 2), HV comes back, fault clears. Nothing in the log suggests it would have recovered otherwise.\n\nNothing else flags it\nDrvInvtrDsblReason reads No Fault on all 11,582 samples. So do APPLimReason, LimpInModeReason and both HVSysDsblLevel codes. DrvMtrTrqVld and DrvInvtrCurVld stay at 1 throughout the fault \u2014 they only drop during the HV-off window. The raw DrvInvtrFault bit is the only thing that catches this, which is worth knowing for the tab spec and for anyone reading these logs."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
+              "content_hash": "cfe8606b549298c713edf1c9d37a372cb056a267fd94ec338f971ffef994c2c6"
             },
             {
               "id": "868m5njnw",
@@ -1583,9 +1551,15 @@
               "status": "Open",
               "list": "Lee 68 Mustang",
               "url": "https://app.clickup.com/t/868m5njnw",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-28 21:25",
+                  "text": "Removed the seats, carpet and all other necessary items needed in order to get down to the floor of this vehicle for some sound treatment.\nUsing cardboard I made a template to match the trans tunnel.\nCovered all untreated areas with butyl sound deadening sheets.\nThen cut out all necessary pieces of Luxury Liner.\nTest fit pieces.\nGlued pieces into the vehicle using the high end carpet glue.\nCut out a shifter cover and affixed to the trans tunnel using tape since this piece could be serviced in the future.\nFound that revology had cross threaded a seat belt bolt. Will likely need to spend time fixing this as the car goes back together.\nContinue with re assembling the vehicle and testing."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "69c0a2ed82fc35a3bac796a7694f33d3bb8d7b7866e2e63f8fd71f3eccf87f41"
+              "content_hash": "c44aa12657a4b82c90b8fcef81d22ffad9012afee4f5b9289f98385b07bd99c6"
             },
             {
               "id": "868m8fhnh",
@@ -2037,9 +2011,45 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kpg6th",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-11 00:43",
+                  "text": "Bed cap cover options sourced and relayed to Blazer group. Decision to be made"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-11 16:29",
+                  "text": "Game plan made for Blazer bed caps.\nCovers ordered"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 00:13",
+                  "text": "Blazer caps arrived\nCaps mocked up\nTrimming in process\nPassenger side trimming roughed in"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 00:18",
+                  "text": "1000014711.jpg1000014710.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 22:24",
+                  "text": "Driver and Passenger side caps have been trimmed and modifications have been finalized.\nCovers will be attached after interior side panels have been installed as the caps overlap the interior panels"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 22:26",
+                  "text": "1000014734.jpg1000014735.jpg1000014736.jpg1000014737.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-14 23:35",
+                  "text": "Mark all areas for paint touch up"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "5f784fc4355ea24b3d7ab5fac0fd2f9fdb3c6da70b26b29130030605b994b98a"
+              "content_hash": "9eb78b8bcf5b08f74d11f41417fb1bc2b4e02669263f97d5ba7f7274c6286f5b"
             },
             {
               "id": "868kmp9tm",
@@ -2047,9 +2057,15 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kmp9tm",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-07 13:24",
+                  "text": "test fit the battery lid\nit is ready for LOGO and PC\nIMG_1830.jpeg\nIMG_1829.jpeg\nIMG_1827.jpeg\nIMG_1826.jpeg\nIMG_1828.jpeg"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "25977cfdfe0fd6dc5303338eb465f4ded373d84fa04ebe79c10f1e716c4899e4"
+              "content_hash": "2aa8a1589ae675ef2968cbacc6f98d00daf87b8afd119e17e8350d38e262df2c"
             },
             {
               "id": "868ka4d5e",
@@ -2057,9 +2073,135 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ka4d5e",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-10 20:55",
+                  "text": "Door panel armrests installed"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-11 19:13",
+                  "text": "Remove passenger door panel to send with Ryan so Colvins can match the seat backs"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-25 00:54",
+                  "text": "Driver side visor install in progress and fwd carpet installed"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-25 00:55",
+                  "text": "paste_50cd478d-4416-4387-9ad4-ebe505f53939.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-25 00:57",
+                  "text": "paste_c724e9ae-7641-4d6e-838e-d055eb383c7f.jpgpaste_cbb6cdb0-741c-4585-8e83-b27f129a4873.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-26 19:19",
+                  "text": "Driver side carpet punctured for seat bolts"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-26 19:20",
+                  "text": "paste_34ee242e-ccfa-42ed-b5d0-559a8bf2b4e0.jpgpaste_33285637-22dc-4310-a785-2ab3bd7fa3a4.jpgpaste_c7dde881-95ce-41b1-88e9-fb9f31ae8fed.jpgpaste_76dc5ec5-0c49-41ba-aab3-f2cad6540d22.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-27 23:11",
+                  "text": "Passenger side carpet punctured\nPassenger seat installed\nSeat pivots cleaned and greased\nPassenger side seat rear cap installed\nDriver side seat cap requires additional mounting work"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-27 23:14",
+                  "text": "paste_4373b090-edc8-40ca-a6bf-0e934225c3a4.jpgpaste_b6d5a38c-7847-4470-a792-0d007fc0dc76.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-28 19:34",
+                  "text": "paste_7324b092-cbd3-45c7-a8b8-1944e491372f.jpgpaste_61533955-1463-4db8-b2f5-7202c022b3a1.jpgpaste_a4f0733e-6279-485f-ba05-b872a304cce2.jpgpaste_ba92f3c5-2407-4e72-8b3a-ced8b928d3b6.jpgpaste_1812a0bb-87c7-4392-8c22-2b0ffa515a7c.jpgpaste_8179339e-b53b-4d91-a60a-56be2ce91efa.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-28 19:35",
+                  "text": "Visor mount remedied and bracket installed\nRear carpet installed\nCarpet formed to wheel tubs\nHeat applied and reliefs made to allow wheel cover carpet to contour correctly"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-28 22:08",
+                  "text": "paste_0b4588db-48ed-456d-9d00-c8d717369c3e.jpgpaste_c7304e87-6000-4cc8-aaf8-acf1ad2417fe.jpgpaste_23877a8a-e2db-4b5e-8772-3c1307fc32c1.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-28 22:09",
+                  "text": "Seat back covers installed minus 2 screws"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-31 21:06",
+                  "text": "paste_08f12c38-c910-492b-8ef2-3f8d8cea693a.jpgpaste_fcb5eb37-1c4e-4e5b-8a1b-1e210c83bde3.jpgpaste_6c127a07-1df7-4ba8-867a-a5db75e2d26f.jpgpaste_494323a3-d630-47c2-964d-5d61254ba5ef.jpgpaste_50273c51-8aa8-4383-bea0-5858745d44f4.jpgpaste_3436e4c7-b846-4da8-b10e-85391b8afbb7.jpgpaste_d52a80df-80c0-4901-b369-907a71481184.jpgpaste_cffdc6c3-1246-4bc1-8943-0f9f40dc6a25.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-31 21:06",
+                  "text": "Rear bench seat armrest fab work finished\nArm bars mocked up\nLocation marked\nBrackets and arm bar prepped & welded out\nBrackets w/ Billy for PC run"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-01 22:30",
+                  "text": "Carpet adhesive did not hold on passenger side\nRelief cuts made and adhesive reapplied"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-01 22:32",
+                  "text": "paste_738d5392-f48d-4fb1-b071-70b3457ec8f5.jpg"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-04 03:28",
+                  "text": "IMG_2044.jpeg"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-04 03:28",
+                  "text": "went o er the rear side panels with David G\nwe got the parts laid out and sketched the design\nhe will have them next week to install"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-05 01:53",
+                  "text": "Installed arm rest bars on rear bench seat"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-05 01:54",
+                  "text": "paste_e4f125f9-376e-41fe-8903-2c4b1b0adad2.jpgpaste_10fd6033-ef28-4e7e-9b88-bbe9231af189.jpgpaste_e685bdf4-8c4f-4480-86cc-5de609bd3b6c.jpgpaste_31f95860-7007-499f-ac32-74aca9491e2a.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-08 15:41",
+                  "text": "paste_3b85bef1-7639-4989-92c7-88809ca58d90.jpgpaste_265428fa-f8a5-4131-a39e-54ccb758972b.jpgpaste_8b1c5aca-2839-4a39-9132-09021ba76b2c.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-08 15:41",
+                  "text": "Measure, mark and lance the carpets for rear seat brackets\nOrder new rear mid brackets and bar clamps for the rear seat"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-15 23:28",
+                  "text": "paste_9f6374f5-9c6c-41a7-9be3-529939d88d4b.jpgpaste_02e51348-e7cc-4326-b0e8-d306393f1b36.jpgpaste_8c0c358e-3308-4081-9f1e-34aa609987bb.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-15 23:28",
+                  "text": "Install center console"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "8fd66da719ff705d1cfee40e5a59ea597a5a80d93c1c6678c2c1fb1afd503ed5"
+              "content_hash": "fa79071bf1490d8b3ed3efc9b6f8a4f6a842956d51dded2db7c995610f33a9fa"
             },
             {
               "id": "868mb6aab",
@@ -2082,9 +2224,30 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868gaza9t",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-27 23:04",
+                  "text": "Lid trial fit successfully\nCover inspected for damage\nLogo location measure for\nBorder taped out\nCenterline and height measured and marked\nSurface cleaned\nLetters planed, cut out and deburred\nLetters cleaned\nLord applied to letters and set in jig\nLetters tacked up, tape removed and jig removed"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-27 23:06",
+                  "text": "paste_141d968b-0512-452b-a33a-86e7fc241f0f.jpgpaste_bf4776b9-40fe-4367-967c-ada0ad2e562a.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-23 00:30",
+                  "text": "New lid received\nLid unboxed and inspected\nLid prepped and measured for lettering\nJig set\nLetters cut out, deburred and cleaned\nLetters adhered"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-23 00:31",
+                  "text": "paste_f33e3741-1ad1-48aa-b7a7-ffc87555b182.jpgpaste_b2cf792a-3ea9-4f21-acf3-c9a5ab5e7ce0.jpg"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "d9f9273bd20a0261c1da8aa58792fabb09ecbcfe7ed7ff121281c714d5fa985e"
+              "content_hash": "e861bf29171feffd08741932d3e6b503d4675410fcdaf9e1f424b83151246835"
             }
           ]
         },
@@ -2265,9 +2428,141 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868khu6f8",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
+              "comments": [
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-07-30 02:34",
+                  "text": "Worked with Brandon to develop a better PMU revision system. Cleaned up the master branch and backed up on google drive. Had Brandon pull this down and showed him how to flash to the PMU's along with a number of other vehicle startup details to follow along first. Moved on to the VCU, showed Brandon about the firmware builds and Raptor structures. Converted vehicle requirements into a VCU config. Moved on to the inverter while Brandon loaded that. Upgraded the inverter firmware and flashed EEPROM in line with a W motor while following along in thee sheet."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-07-30 21:43",
+                  "text": "Continued startup with Brandon and Dave. Hooked up HV and key'd on. Tried charging and got the ChgPortContFlt, verified all the associated wiring that has caused that fault previously, no problems found. Tried charging again and it just worked this time. Verified battery heater. Calibrated the resolver. Troubleshot cabin heater wiring. Searched and searched for documentation but couldn't find complete references. Experementially found the VCU was telling the PMU to tell the VCU to turn on the heat. Took thorough notes on actual wiring."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-07-31 21:33",
+                  "text": "Verified K33 \"Heat Request\" functionality on Prehiem to make sure I had the correct tags in Raptor-Service. Tried various combinations of PMU outputs and VCU configs to determine if there was a way to get powering up the heater logic unit as the mechanism to enable heat. Ends up with a fault in the VCU which makes adding a relay the easier option. Drew a diagram for and wired up a relay to a spare output on the PMU. Wrote logic to check the temp knob below 15%, the fan knob above 30%, as well as negative contactor and ignition on. Tested all knob positions and GUI inputs while watching in Raptor and the PMU software. The GUI indicates correctly and warm air blows. I never let it heat up enough to judge effectiveness. Only thing left for HVAC now is to charge the AC and tune that in."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-03 23:47",
+                  "text": "Verified heater circuit actually working by monitoring CAN data from the heater itself for output power. Double checked with a second data source Pack_Current from the BMS. Modified the PMU logic to also include fan and temp knobs as a criteria for turning on the cabin heat pump. Tested all scenarious with the user inputs from the GUI and knobs. Noticed the battery pump was running when it usually isn't, started to investigate, met for various discussions with the team before I could finish. Plugged into Preheim to investigate source of the difference in control."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-06 21:15",
+                  "text": "Tuned in the AC compressor with Dave, it's working as expected plus a little 'bonus'. The AC compressor 'hiccups' with HV connected but the logic unit powered off. Powering up the compressor logic controller without Ampere commanding it to actually compress causes a VCU level fault. Shared to Slack."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-11 22:31",
+                  "text": "Catching up on Slack before the meeting. Looked into Claudes diagnosis of the AC issue. Looks like the PMU program has never changed for that channel and Claude picked up on the troubleshooting I did as the actual problem, not knowing that at time the system was supposed to be operating different than the rest of the fleet. This was required to verify the 450V compressor functions differently than the 400V one and would work better under a different control sequence. Verified VCU settings for the battery were wrong and corrected."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-13 22:16",
+                  "text": "Forced the car to suck out the BMS config again and the fully charged range estimate dropped from 306.04 to 149.58 miles. The new battery health calculations result in 146.4 Ah for the pack, a very reasonable estimate. Also verified Dave's findings on the AC compressor from the computer side. The hiccup issue has been magically fixed."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-17 17:08",
+                  "text": "image.png\nsettings found in raptor when checking initially"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-17 17:13",
+                  "text": "image.png\nadjusted settings"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-17 17:34",
+                  "text": "test drove vehicle.\nfound that at gui 60 the speedo was off by 2mph.\ngoing to reduce overall tire diameter by a small amount to try and get the delta as low as possible"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-17 17:36",
+                  "text": "image.png\nadjusted settings"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-17 17:44",
+                  "text": "Will need to test drive the vehicle to determine if the speedometer is more accurate."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-17 23:10",
+                  "text": "image.png\nHad to update the vehicle weight to kg."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-17 23:25",
+                  "text": "Went through the VCU and verified all of the Vehicle Parameters were set into the VCU appropriately.\nThe tire size on this vehicle is 185vR15... there isnt any aspect ratio listed. According to the googles though total diameter is approx 675mm to 677mm.\nAdjusted settings appropriately in the VCU and\u00a0 switched all of the parameters from Display to Calibration.\nTest drove the vehicle with Dave. Found that the GUI displayed the same speed as my Phone did. Speedo gauge was approx 1-2mph high.\nAdjusted tire size down from 0.675 to 0.665.\nVehicle can be test driven again to verify that we are closer to a 0 delta. Not 100% sure if there is a filter that Peterson is adding to the speed or not but that would explain the slight difference. Or the fact that the GUI and My phone were both using GPS data while the speedo gauge was using calculations. Either way we are much much closer than the 20% that was noticed\nFinal vehicle weight wasn't recorded explicitly so the weight that is in there is close but not exact.\nMessaged Ryan to gather the wifi credentials for this car."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-18 19:54",
+                  "text": "Noticed the GUI in this vehicle is operating a tad bit different than other GUIs we have had in the past.\nWent through the Update process for the GUI.\nUpdated and or Installed all necessary .apk files.\nUpdated .xml file and realdash dashboard.\nOperations found to boot at different speeds.\nThe boot time on this GUI is much much faster than all of our other units. Unsure why this is at this time.\nAmpere Software will finish booting before CAN 3 messages are ready.\nSo there is a slight \" loading time \" feel present for this vehicle. This however seems to be normal operation on all our vehicles except boot times are a bit longer so by the time everything loads the Messages are already there and present so there isnt that \"loading\" feeling.\nPossible we take a trace of CAN3 and have claude see if there are any noticeable issues with it."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-20 22:51",
+                  "text": "Sat down with Brandon and talked through how the VCU and GUI work together to get gear ratio and vehicle weight input. Fixed the incorrect numbers, correlated startup sheet."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-25 20:22",
+                  "text": "Got the Wifi Credentials for this vehicle and updated documentation.\n\nTuxedo2 - username\nsweettea - password"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-09 20:59",
+                  "text": "Confirmed vehicle still on the VCU firmware to test AC hiccup issue.\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-09 21:23",
+                  "text": "image.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-09 21:32",
+                  "text": "Went to verify status of the AC system on Teague.\nFound the Drive Button LED to not be lighting Up. Tested Drive button. Found no response.\nPossible disconnected on the back side? Or death of a button.\nThis will need to be looked at.\nVerified Teague was on the VCU firmware that we talked about this morning. Sat in the car with the vehicle on.\nFound that the AC was acting as intended. No noticeable hiccups or blips from the AC compressor.\nSo as of right now Yes the fix in the VCU_516_Beta10813_SDU_Persist should be moved over to the newest firmware to allow us to update this vehicle and keep the Hiccup fix.\nHowever this car is still experiencing the AC low voltage errors.\nAs the car is turning off you can observe the HV Fault lamp pop up on the right before the GUI screen turns off. So this seems like its happening during Key Off. Maybe we have Andrew look into the thresholds that may be causing this as well. Has the contactors open but the CAN messages are still sending Valid checks?"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-10 21:58",
+                  "text": "Added wifi credentials to Logger."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-17 20:37",
+                  "text": "Waiting for Car to return from the Body Shop."
+                }
+              ],
+              "checklist_items": [
+                {
+                  "checklist": "Checklist",
+                  "name": "Add wifi credentials",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Test fast charging",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Perform full overnight charge",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Determine the correct settings for 450V components (AC comp, OBC, DCDC, precharge resistor, etc)",
+                  "resolved": false
+                }
+              ],
+              "content_hash": "f015874aed9725c95155ebc451467f00308b641b75e6ead29a0660552b484834"
             }
           ]
         },
@@ -2280,9 +2575,25 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868jj1ac8",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "David Webber",
+                  "date": "2026-07-02 11:10",
+                  "text": "I don't believe we have a design for this yet"
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-09-10 15:14",
+                  "text": "Parts ETA = 9/11"
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-09-17 17:25",
+                  "text": "Parts recieved. I'd like an addition .5 - 1hr for manufacturing/installing lid"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "660d5d6ca681f665bcf4d9c15314bf8bfa08105e09f99c9809d6d4ba2fad2219"
+              "content_hash": "2607cafd29367aa485777de92a97d5aa9001a83cedd84a376e98b79aa321538d"
             },
             {
               "id": "868m3t9eq",
@@ -2290,9 +2601,15 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868m3t9eq",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "David Webber",
+                  "date": "2026-09-17 17:26",
+                  "text": "This task will be performed when I get the car back from the body shop"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "05e4c0ef8406d9e45cab9d7165504704916b5f431ed2d5f22cc1ca60293d2451"
+              "content_hash": "966ff50b4b3771ac6c1e4d168fdae6cdd628055d209b5497e295787718e135d8"
             }
           ]
         },
@@ -2305,9 +2622,25 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868jfe48t",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-17 23:30",
+                  "text": "paste_a9b6e1bf-1c11-4c6a-80de-c6de3691df08.jpgpaste_f30f4738-6498-44c9-a376-35628629c3f1.jpgpaste_9f228ea9-9b8c-48c0-a209-313de8b73556.jpgpaste_50c2de1d-c75e-456e-8bf0-74d2bacdc534.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-17 23:30",
+                  "text": "Cover inspected\nPlacement chosen\nMeasured and marked\nTaped\nCleaned and prepped\nLetters cut and prepped\nLetters adhered"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-19 00:19",
+                  "text": "Had another failure to cure with LORD. 1 side setup and cured fine and the other didnt. I used 2 different brushes to apply the adhesive. The narrow brush doesnt mess with the adhesive and I verified by reapplying with the narrow brush this morning and it cured perfectly."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "1f92a310468f8aee2b0606515b7d60357be331944f6fc94c52a28da4c0de3263"
+              "content_hash": "9b9e8e4c638e79083426c6cc09784c44683dc676f9488b6e1afc509d8d0a8908"
             }
           ]
         },
@@ -2320,9 +2653,15 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868kzdw3t",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-09-08 03:47",
+                  "text": "Verified the AC compressor hiccup was not solveable in the latest firmware release. Rolled back the firmware so the AC would be working, posted findings to Slack."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "d5a1aa55c34751a42ba48c7a10699affc93e322a0843ec4b3d0f7dd98b960ffd"
+              "content_hash": "b0992c84c0bdcc16e98d9fa05aa8c4143618104bec4c979eb0af0c9662e6a7c3"
             }
           ]
         },
@@ -2344,5 +2683,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-29T18:17:06Z"
+  "generated_at": "2026-09-29T18:44:21Z"
 }
