@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T22:30:44.524357Z",
+  "updated_at": "2026-09-29T22:43:05.579928Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1391,10 +1391,15 @@
                   "author": "Brandon Beaman",
                   "date": "2026-09-28 21:25",
                   "text": "Removed the seats, carpet and all other necessary items needed in order to get down to the floor of this vehicle for some sound treatment.\nUsing cardboard I made a template to match the trans tunnel.\nCovered all untreated areas with butyl sound deadening sheets.\nThen cut out all necessary pieces of Luxury Liner.\nTest fit pieces.\nGlued pieces into the vehicle using the high end carpet glue.\nCut out a shifter cover and affixed to the trans tunnel using tape since this piece could be serviced in the future.\nFound that revology had cross threaded a seat belt bolt. Will likely need to spend time fixing this as the car goes back together.\nContinue with re assembling the vehicle and testing."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-29 22:38",
+                  "text": "Reassembled the vehicle adding as much sound deadening material I could underneath the center console.\nIf this does not resolve the issue then no amount of sound deadening material will be able to.\nAll of the interior pieces are a very tight fit now and cause quite a bit of difficulty to install.\nWill test drive vehicle in the morning when the rest of the cars are out of the shop and the car is removable."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "c44aa12657a4b82c90b8fcef81d22ffad9012afee4f5b9289f98385b07bd99c6"
+              "content_hash": "9fc9b047211f2c734bcf1bb00ed29e887d90f843d9f259d61ed3dd5ec3b84397"
             },
             {
               "id": "868m8fhnh",
@@ -2250,5 +2255,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-29T22:28:46Z"
+  "generated_at": "2026-09-29T22:41:11Z"
 }
