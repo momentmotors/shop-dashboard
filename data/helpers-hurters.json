@@ -340,7 +340,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 61.8,
-      "pct_of_total": 5.1,
+      "pct_of_total": 5.0,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -437,7 +437,7 @@
   ],
   "shop_work": {
     "total_hours": 194.0,
-    "pct_of_total": 15.9,
+    "pct_of_total": 15.8,
     "avg_per_person_per_day": 1.15,
     "flagged": true,
     "tech_count": 8,
@@ -473,7 +473,7 @@
     {
       "project": "ICON Bronco Prototype",
       "total_hours": 27.5,
-      "pct_of_total": 2.3,
+      "pct_of_total": 2.2,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -561,10 +561,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 933.2,
+    "billable_hours": 936.8,
     "non_billable_hours": 288.8,
     "pto_hours": 17.0,
-    "total_hours": 1222.0
+    "total_hours": 1225.5
   },
-  "generated_at": "2026-09-29T15:13:36Z"
+  "generated_at": "2026-09-29T15:31:43Z"
 }
