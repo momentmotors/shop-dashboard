@@ -2,12 +2,12 @@
   "helpers": [
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 130.0,
-      "pct_of_total": 10.6,
+      "total_hours": 133.5,
+      "pct_of_total": 10.8,
       "tasks": [
         {
           "task": "Manufacturing - Product",
-          "hours": 62.8
+          "hours": 65.2
         },
         {
           "task": "HVAC",
@@ -44,6 +44,10 @@
         {
           "task": "Manufacturing - Core",
           "hours": 3.0
+        },
+        {
+          "task": "Suspension",
+          "hours": 1.0
         },
         {
           "task": "Interior",
@@ -152,7 +156,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 98.0,
-      "pct_of_total": 8.0,
+      "pct_of_total": 7.9,
       "tasks": [
         {
           "task": "Exterior",
@@ -436,16 +440,16 @@
     }
   ],
   "shop_work": {
-    "total_hours": 195.5,
+    "total_hours": 196.0,
     "pct_of_total": 15.9,
-    "avg_per_person_per_day": 1.16,
+    "avg_per_person_per_day": 1.17,
     "flagged": true,
     "tech_count": 8,
     "working_days": 21,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 82.2
+        "hours": 82.8
       },
       {
         "label": "Shop Meetings",
@@ -561,10 +565,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 940.5,
-    "non_billable_hours": 290.2,
+    "billable_hours": 944.0,
+    "non_billable_hours": 290.8,
     "pto_hours": 17.0,
-    "total_hours": 1230.8
+    "total_hours": 1234.8
   },
-  "generated_at": "2026-09-29T19:12:50Z"
+  "generated_at": "2026-09-29T19:27:47Z"
 }
