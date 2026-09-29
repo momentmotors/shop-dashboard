@@ -105,7 +105,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 110.0,
-      "pct_of_total": 9.0,
+      "pct_of_total": 8.9,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -207,7 +207,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 73.0,
-      "pct_of_total": 6.0,
+      "pct_of_total": 5.9,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -244,9 +244,56 @@
       ]
     },
     {
+      "project": "Thacker 46 Woody",
+      "total_hours": 66.5,
+      "pct_of_total": 5.4,
+      "tasks": [
+        {
+          "task": "Brakes",
+          "hours": 11.0
+        },
+        {
+          "task": "HVAC",
+          "hours": 10.8
+        },
+        {
+          "task": "Manufacturing - Product",
+          "hours": 10.5
+        },
+        {
+          "task": "Cooling",
+          "hours": 7.2
+        },
+        {
+          "task": "Audio",
+          "hours": 6.5
+        },
+        {
+          "task": "Interior",
+          "hours": 5.5
+        },
+        {
+          "task": "Exterior",
+          "hours": 5.5
+        },
+        {
+          "task": "Wiring - High Voltage",
+          "hours": 5.0
+        },
+        {
+          "task": "Wiring - OEM",
+          "hours": 4.0
+        },
+        {
+          "task": "Motor & Transmission",
+          "hours": 0.5
+        }
+      ]
+    },
+    {
       "project": "Krafcik 02 Caterham",
       "total_hours": 64.5,
-      "pct_of_total": 5.3,
+      "pct_of_total": 5.2,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -287,53 +334,6 @@
         {
           "task": "Engineering - Core",
           "hours": 1.0
-        }
-      ]
-    },
-    {
-      "project": "Thacker 46 Woody",
-      "total_hours": 63.5,
-      "pct_of_total": 5.2,
-      "tasks": [
-        {
-          "task": "HVAC",
-          "hours": 10.8
-        },
-        {
-          "task": "Brakes",
-          "hours": 9.5
-        },
-        {
-          "task": "Manufacturing - Product",
-          "hours": 9.0
-        },
-        {
-          "task": "Cooling",
-          "hours": 7.2
-        },
-        {
-          "task": "Audio",
-          "hours": 6.5
-        },
-        {
-          "task": "Interior",
-          "hours": 5.5
-        },
-        {
-          "task": "Exterior",
-          "hours": 5.5
-        },
-        {
-          "task": "Wiring - High Voltage",
-          "hours": 5.0
-        },
-        {
-          "task": "Wiring - OEM",
-          "hours": 4.0
-        },
-        {
-          "task": "Motor & Transmission",
-          "hours": 0.5
         }
       ]
     },
@@ -436,7 +436,7 @@
     }
   ],
   "shop_work": {
-    "total_hours": 194.5,
+    "total_hours": 195.5,
     "pct_of_total": 15.9,
     "avg_per_person_per_day": 1.16,
     "flagged": true,
@@ -449,7 +449,7 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 68.0
+        "hours": 69.0
       },
       {
         "label": "Personal Meetings",
@@ -561,10 +561,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 936.8,
-    "non_billable_hours": 289.2,
+    "billable_hours": 939.8,
+    "non_billable_hours": 290.2,
     "pto_hours": 17.0,
-    "total_hours": 1226.0
+    "total_hours": 1230.0
   },
-  "generated_at": "2026-09-29T15:51:14Z"
+  "generated_at": "2026-09-29T16:15:18Z"
 }
