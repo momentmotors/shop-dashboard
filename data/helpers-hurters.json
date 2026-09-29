@@ -151,12 +151,12 @@
     },
     {
       "project": "Ritchie 71 Blazer",
-      "total_hours": 97.2,
+      "total_hours": 98.0,
       "pct_of_total": 8.0,
       "tasks": [
         {
           "task": "Exterior",
-          "hours": 18.8
+          "hours": 19.5
         },
         {
           "task": "Motor & Transmission",
@@ -561,10 +561,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 932.5,
+    "billable_hours": 933.2,
     "non_billable_hours": 288.8,
     "pto_hours": 17.0,
-    "total_hours": 1221.2
+    "total_hours": 1222.0
   },
-  "generated_at": "2026-09-29T14:31:29Z"
+  "generated_at": "2026-09-29T14:52:18Z"
 }
