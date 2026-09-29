@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T19:51:17.407803Z",
+  "updated_at": "2026-09-29T20:16:18.989575Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -664,7 +664,7 @@
         "matched_lists": [
           "LB 82 911"
         ],
-        "open_tasks": 36
+        "open_tasks": 31
       },
       "assignees": [
         {
@@ -720,32 +720,6 @@
               ],
               "checklist_items": [],
               "content_hash": "b81b5ecc3642ffa69719722c75163933f7078b2ea9515ff4b8fadd5b4eefe1df"
-            },
-            {
-              "id": "868hbv2qu",
-              "name": "Bleed and test system",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868hbv2qu",
-              "comments": [
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-24 22:01",
-                  "text": "Attempted to vacuum and fill the system \u2014 would not hold vacuum on either circuit. Modified one of the caps for these reservoirs to accept a 1/8\" NPT thread so I could install a Jiffy-tite fitting for pressurization with regulated air pressure. Chose 10-12 psi.\nOnce pressurized, chased down leaks. First one was on the battery circuit, requiring me to remove the toe board, gas pedal, and brake pedal box assembly to get to the AN fitting in the transmission linkage tunnel and tighten it. Pressure tested again \u2014 successful. Pulled vacuum and held, then filled with new coolant.\nThe motor circuit had a couple more leaks. One at the motor inlet, which ended up being the O-ring that comes with it being far too small \u2014 I had suspected this but wasn't sure. I'll replace all the O-rings on the fittings we have in stock. The other leak involved disassembling the rear bulkhead to get at another AN fitting.\nAfter solving these, pressure tested again \u2014 successful. Pulled vacuum and filled. Removed the battery box bypass hoses and connected the batteries. All looks good."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-24 22:02",
-                  "text": "can not test until start up. but complete for now."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-25 21:42",
-                  "text": "reinstall pedal box, toe plate, and accel pedal after checking tunnel tubing for leaks and cleaning up the area."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "16d722694fee8a9773abc9e60696b6f18fd43373241e1e493c6864309db4d08e"
             },
             {
               "id": "868g811de",
@@ -856,92 +830,6 @@
               "content_hash": "05a6aff5e00485c19922dfc1cd383465396b97f94e435d62649fd36a71164aa6"
             },
             {
-              "id": "868j7kv4t",
-              "name": "Install LDU",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868j7kv4t",
-              "comments": [
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-07-09 22:40",
-                  "text": "Installation of the mock-up LDU unit for proper dimensions during HV routing."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-07-13 23:05",
-                  "text": "removal of ldu for cable termination."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-07-28 22:57",
-                  "text": "installation of ldu. found some issues during install that lead to some modifications of brackets. having to slot them a little and change the order of installation to get all to fit without lots of prying and bushing compression. still need to maybe reinforce the third mount but maybe not. tbd. if not then i will pull it and weld it up quick and paint it while i install the proper motor mount bolts that we did not have."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-11 23:05",
-                  "text": "Used this time to drop the rear mount and look for routing options that wouldn't require modifying any brackets. I'm not confident a no-modification option exists, so I made a video presenting the potential solutions and asking for recommendations. Current plan is to move ahead with cutting the main rear bracket first, hoping that alone solves it. If not, we'll slot all three mount bolt holes and see if that resolves it \u2014 if it does, that tells us how far to modify the new mount design."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-12 22:42",
-                  "text": "Dropped the LDU multiple times today to move and re-situate the HV leads. Also had to disassemble the Amphenols to let the leads spin in the connector after re-routing. The goal was to avoid dropping the rear mount, but ended up having to notch it anyway to get clearance between it and the LDU gearbox. After all of that, plus mocking up the AIO junction box to confirm the Amphenols still connected properly \u2014 unfortunately, I still needed to drop the rear mount 5mm to give the cables enough room to move freely. Not confident this is sufficient for a final result, especially since we want to add a small \"heat shield\" support piece for the leads where they cross the gearbox. Good sign though \u2014 shows we don't need much, and if more clearance is needed, we can drop the other mounts instead to make up the difference rather than modifying the rear mount further."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-13 22:01",
-                  "text": "planning, discussing, plotting, chatting, whatever"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-18 22:27",
-                  "text": "remove ldu completely with mounts. attempt to tap through bungs for hv plate. ended up having to make a tap that will travel all the way through. after multiple attempts and one broken tap, one destroyed, i believe we will need to drop the battery box and attack these from the top if we want to use them"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-21 21:13",
-                  "text": "cleaning threads out, taking my time with 2 new taps, eventually got the rear two bolts tapped all the way through cleanly and was able to get bolts installed. then began to work on design with geoff."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-08 22:06",
-                  "text": "Mocked up the HV cable stay plate\nDrilled and tapped battery box supports and installed plates\nTemporarily secured HV cables while installing LDU\nInstalled LDU \u2014 quite difficult with the new mounts, which have tighter tolerances\nInstalled AIO junction box to get HV lengths correct, secured them, then removed the AIO to return to Justin for assembly\nWill mark and secure the HV cables after removing the LDU, and get everything ready for powdercoat."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-09 21:52",
-                  "text": "Used the stainless clamps to arrange cables as best as possible for marking\nGot some marking done with the LDU up\nRemoved the LDU \u2014 ideally for the last time\nMarked, drilled, and rivnutted the HV plate\nReinstalled and tested cable fitment\nRelayed measurements of all holes to Geoff\nRemoved all mounts and the plate, labeled everything for sending off to powdercoat"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-15 21:25",
-                  "text": "looming hv in the rear or the car in prep for ldu install"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-16 21:31",
-                  "text": "A04B1E75-DC66-4932-82C3-CC55D621DCBC.heic"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-16 21:31",
-                  "text": "ldu install hopefully final time."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-16 21:32",
-                  "text": "will do axles and radiator tomorrow. then should be ready to connect cooling and harness provisions. still need to make junction box - inverter leads"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-18 22:01",
-                  "text": "made hardlines for cooling, move motor cooling over to better outlets for routing. connect all and crimp cables"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "19d208039be08ea3067bc2846d456bac7d818ef8d0ef77c687afe39063e8efc3"
-            },
-            {
               "id": "868man63y",
               "name": "Install front battery lid",
               "status": "Open",
@@ -998,22 +886,6 @@
               "content_hash": "7d88d59c42899464acafcd706eca89ffb826effc65a60f0bf08ec6565a0f322b"
             },
             {
-              "id": "868ma6x5f",
-              "name": "Reinstall hood",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868ma6x5f",
-              "comments": [
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-25 21:50",
-                  "text": "clean and prep hood, wiring etc. install hood with brandon and align. install struts. a little tricky now with the hvac ducting in the way"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "4816ee5afe26bb0ed6be17289b9943facf62e5edc75a3cdb92e50c6ecc58049b"
-            },
-            {
               "id": "868j7krpv",
               "name": "Reinstall interior",
               "status": "Open",
@@ -1065,27 +937,6 @@
               "content_hash": "21d62b7281a5b2e253c5b56555627aea2662826b00f02f0945b1a0154cfec0a6"
             },
             {
-              "id": "868g3ptcv",
-              "name": "Set ride height",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868g3ptcv",
-              "comments": [
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-19 21:50",
-                  "text": "looking for tires to see if we need to swap them due to them hitting the driver side condensor. i think we may be ok if i move the condensor a little bit."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-28 21:38",
-                  "text": "using the provided adjustment to get the rear down a little bit. i think the front might still be a touch high but i like the stroke of it and everything may settle a little bit."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "fe5a882427d4d269522fbf1eeacb11d4ac2142a50d06fa9ef099200fee6b53b9"
-            },
-            {
               "id": "868jg4cba",
               "name": "Start up vehicle",
               "status": "Open",
@@ -1094,32 +945,6 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "d78440966f91a7753aee616d683570b500075d7cad9fdedb5aa9cde2367c2fb5"
-            },
-            {
-              "id": "868g3pt74",
-              "name": "Wire and install gauges",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868g3pt74",
-              "comments": [
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-21 22:48",
-                  "text": "using claude to make a build doc. making decisions on wire colors for oem harness integration of telltale lights ( high beam etc.) build harnesses on bench. almost wrapped up with building. will be able to install tomorrow"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-23 00:15",
-                  "text": "finish wiring, and installation of gauges. used some time to clean up the oem wiring for the instrumentation behind the dash to keep it hidden, secured, and from rattling. power gauge is temporarily installed because i need to order a new gasket for it. It seems like Peterson makes their gauges just a little undersized for ease of installation but that means i cant use my typical method of using tessa tape for install. i need the oem gasket johnny."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-29 18:41",
-                  "text": "install gasket on power gauge and final install"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "8ae157d9d74d6d7db49641d4d107b3e162f22c806f92d940eb7e81edc0d484f2"
             }
           ]
         },
@@ -1897,9 +1722,20 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868kzam8k",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-03 21:58",
+                  "text": "paste_974c81e0-ff91-4758-bb8e-10d253ac00a5.jpgpaste_bbdfce5e-2ccf-4dc2-a04b-d839e8802a80.jpgpaste_763da3d3-9291-47d1-9507-d3fa43d489d5.jpgpaste_25dfa998-b3c5-496f-8b9e-3c81d51a63c6.jpgpaste_8a672560-9e37-4845-ac86-98dd9c971c3e.jpgpaste_96272a5b-7f32-4449-95c4-9504b6e3eb05.jpgpaste_c56484bf-9b6b-4453-b01b-1b8a49f2b253.jpgpaste_7f80c285-4055-4017-a9cc-64883c96f4c4.jpgpaste_2220e04f-e616-48bb-a34f-45477992f161.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-03 21:58",
+                  "text": "Rear hatch hinges arrived\nHinges inpected\nHatch struts removed\nRear hatch removed (1 bolt seized)\nOld hinges removed from hatch\nRemoved broken hardware from inside hatch frame\nDocument cracking and damage to rear hatch structure\nInstall hinges in frame\nMockup hatch back on truck\nMake adjustments to fitment and torque hardware\nReinstall hatch struts\nCheck fitment and func check"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "b755cfe02acc08a4ecfb7fc3579fcb021855eb7a01e782ba5bacd09779b8e5ca"
+              "content_hash": "b1a11a37dd71d60065d68979645aca95c1b1743159bece9bb70d08ab98dc3c38"
             },
             {
               "id": "868m63v76",
@@ -1932,9 +1768,95 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868krfacg",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-27 22:42",
+                  "text": "Had to gather LDU EEPROM settings to move to Ritchie.\nEnabled AC Condensor Fan in vcu.\nVerified operations with billy.\nCondenser fan and motor currently set to always stay on when AC is enabled."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-16 15:09",
+                  "text": "Meeting about what needs to be done and when checkout needs to be finished.\nVerified CAN logger data uploaded to the vehicle and wifi credentials added.\nUploaded screenshots for verifications and future reference."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-18 22:11",
+                  "text": "New RDIS set up for new firmware. Prep for checkout once vehicle is on the road again.\nCurrently waiting for repairs to be finished."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-21 16:48",
+                  "text": "image.png\nOriginal vehicle parameter settings. This is wildly incorrect. Will need to adjust this appropriately based off of the GUI information since this truck has been working as intended."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-21 16:50",
+                  "text": "image.png\nAdjusted based on GUI settings"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-21 16:54",
+                  "text": "Pre Flash Screenshots\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-21 16:58",
+                  "text": "Flashing to VCM_519_RC010903_Persist\nimage.png\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-21 17:03",
+                  "text": "Post Flash Screenshots\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-21 17:08",
+                  "text": "Adjustments\nimage.png\nimage.png\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-21 17:54",
+                  "text": "Adjustments\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-21 17:56",
+                  "text": "Based on the diff screenshots there are no other major changes we need to make at this time. Most of these will remain as they are in the new flash and will need to be tested before saying this is the final.\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-21 18:00",
+                  "text": "image.png\nimage.png\nAdjusted Inverter temp from 80c to 95c"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-21 18:23",
+                  "text": "Adjustments\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-21 19:53",
+                  "text": "image.png\nimage.png\nUploaded PMU project Files and EEPROM settings on the drive for future reference and store backups for potential field repairs."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-21 20:06",
+                  "text": "VCU flash and settings update.\nVerified settings and made adjustments as necessary.\nWaiting for Marc to test drive the vehicle to verify the feel of everything.\nUploaded all necessary documents to the drive for future reference and or field repairs.\nTest drove the vehicle with Dave since he needed to inspect for sounds and NVH.\nVCU is updated to latest firmware as of 09.21.26. VCM_519_RC010903_Persist"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-21 20:11",
+                  "text": "Date: Monday, September 21, 2026\nVehicle/System: Preheim 72 Blazer \u2014 Ampere EV VCU (New Eagle VCM_519), AWD, serial 2903741625\nFirmware: DiagCANSW 1.8.13 / build 516 \u2192 1.9.3 / build 519 (VCM_519_RC010903_Persist)\nClickUp: Checkout vehicle \u2014 Monthly Goal, Preheim 72 Blazer \u00b7 Open \u00b7 High \u00b7 due Sep 30 \u00b7 2.75 h logged (2.75 h over)\nObjective\nComplete VCU checkout on Preheim: correct the vehicle parameter set, flash to 1.9.3, identify and restore anything the flash reset, road-verify feel and NVH, and secure delivery backups.\nWhat we did\nReviewed the existing vehicle parameters and corrected them against the GUI values, since the truck has been driving as intended. Captured a pre-flash screenshot set, flashed to 1.9.3 / build 519, captured a post-flash set, and ran a field-by-field comparison to separate real changes from resets. Applied the live corrections, adjusted inverter thermal limits, and road-tested with Dave for sounds and NVH. Uploaded EEPROM and PMU project files to the Drive as delivery backups.\nKey findings\nThe AWD tab is the live one \u2014 most of the reset list is moot. Preheim runs AWD, and every table with an AWD variant kept its pre-flash values: the pedal map and axis, the high-regen brake table and speed axis, and the torque and regen rate limits. The flash reset those calibrations on tables this truck doesn't use. That's why regen felt unchanged on the road test, and it's the key difference from Ritchie.\nNegative torque limit left at \u2212400. Pre-flash showed \u2212200, post-flash \u2212400; Ritchie also runs \u2212400. Marc's call: \u2212400 is fine \u2014 other limiters mean we never actually reach it.\nOriginal vehicle parameters were wildly incorrect. Corrected against the GUI values rather than the stored set, on the basis that the truck has been working as intended.\nThe gearing numbers don't match the hardware. Preheim's settings back-calculate to a 4.28 ring and pinion with 33-inch tires. The truck is definitely on 31-inch tires, and the ring and pinion is unconfirmed. Left as-is for now because the truck's speedo is reportedly correct \u2014 but the stored parameters describe a vehicle this isn't. Related: Billy noted someone swapped axles, which would explain why the lash on Ritchie is far less than Preheim's.\nInverter thermal limit raised 80 \u00b0C \u2192 95 \u00b0C.\nRegen feels appropriate on the road test, consistent with the AWD-tab finding above.\nThirteen tabs are unverified \u2014 no screenshot on either side of the flash, so nothing was compared on them.\nPrior work on this checkout\nAug 27 \u2014 Pulled LDU EEPROM settings to move to Ritchie. Enabled the A/C condenser fan in the VCU; verified operation with Billy. Condenser fan and motor currently set to stay on whenever A/C is enabled.\nSep 16 \u2014 Scope and timing meeting. Verified CAN logger data loaded to the vehicle and wifi credentials added.\nSep 18 \u2014 New RDIS built for the new firmware, staged for checkout. Held pending completion of repairs.\nArtifacts produced\nPre-flash (6) and post-flash (7) screenshot sets, plus adjustment captures \u2014 31 attachments on the ClickUp goal\nField-by-field pre/post comparison\nEEPROM and PMU project files uploaded to the Drive \u2014 flagged to the channel as the only backups that exist for these two, since neither is reported in the VCU log. Any change to them has to be documented and the Drive files updated.\nStatus\nFlash complete; live changes identified and mostly addressed. Road-tested with Dave for sounds and NVH \u2014 regen feel is appropriate. Delivery backups secured on the Drive. Not final \u2014 awaiting Marc's test drive, and per the diff review the remaining post-flash values stay as they are until tested. VCU is on VCM_519_RC010903_Persist as of 09.21.26."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-22 20:07",
+                  "text": "Used some time for checkout documentation.\nVehicle_Checkout_Completion_Form_1.pdf"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
+              "content_hash": "25da10fbb93b1f4424f5575443d7e171fd427ca149da2f695a00329460ef7921"
             }
           ]
         },
@@ -2323,5 +2245,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-29T19:49:30Z"
+  "generated_at": "2026-09-29T20:14:25Z"
 }
