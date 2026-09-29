@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T19:29:57.688967Z",
+  "updated_at": "2026-09-29T19:42:19.748470Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1350,10 +1350,15 @@
                   "author": "Justin Landry",
                   "date": "2026-09-28 19:27",
                   "text": "Completed Control circuit test box and HV leads. only left is to have devin write the program to test can on ivts and imd."
+                },
+                {
+                  "author": "Justin Landry",
+                  "date": "2026-09-29 19:33",
+                  "text": "Tester unveiled an issue with the AUX connectors in that they have been pinned with female pins vs male ones. will need to go back through and re pin them all except for Jaffes with the correct ones."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "d2decd0df566be9645e8ae796b2ee4fcb5242700e1d76e015520d20c69e0e581"
+              "content_hash": "cf31d076a9cd7cc80eab97e1b70d0b347edae2972858f883353919f7cc64f9b3"
             }
           ]
         },
@@ -2318,5 +2323,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-29T19:27:47Z"
+  "generated_at": "2026-09-29T19:40:34Z"
 }
