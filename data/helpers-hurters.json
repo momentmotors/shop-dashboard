@@ -3,7 +3,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 137.5,
-      "pct_of_total": 10.7,
+      "pct_of_total": 10.6,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -378,8 +378,8 @@
     },
     {
       "project": "Richardson 72 240Z",
-      "total_hours": 33.2,
-      "pct_of_total": 2.6,
+      "total_hours": 34.5,
+      "pct_of_total": 2.7,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -394,6 +394,10 @@
           "hours": 4.8
         },
         {
+          "task": "Wiring - OEM",
+          "hours": 2.5
+        },
+        {
           "task": "Audio",
           "hours": 2.0
         },
@@ -403,11 +407,7 @@
         },
         {
           "task": "Brakes",
-          "hours": 1.0
-        },
-        {
-          "task": "Wiring - OEM",
-          "hours": 1.0
+          "hours": 0.8
         }
       ]
     },
@@ -448,8 +448,8 @@
     }
   ],
   "shop_work": {
-    "total_hours": 201.8,
-    "pct_of_total": 15.6,
+    "total_hours": 202.8,
+    "pct_of_total": 15.7,
     "avg_per_person_per_day": 1.15,
     "flagged": true,
     "tech_count": 8,
@@ -457,11 +457,11 @@
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 86.0
+        "hours": 86.5
       },
       {
         "label": "Shop Meetings",
-        "hours": 71.0
+        "hours": 71.5
       },
       {
         "label": "Personal Meetings",
@@ -573,10 +573,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 994.5,
-    "non_billable_hours": 296.5,
+    "billable_hours": 995.8,
+    "non_billable_hours": 297.5,
     "pto_hours": 17.0,
-    "total_hours": 1291.0
+    "total_hours": 1293.2
   },
-  "generated_at": "2026-09-30T02:31:32Z"
+  "generated_at": "2026-09-30T02:57:52Z"
 }
