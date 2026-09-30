@@ -577,10 +577,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 1027.2,
+    "billable_hours": 1027.8,
     "non_billable_hours": 304.5,
     "pto_hours": 22.8,
-    "total_hours": 1331.8
+    "total_hours": 1332.2
   },
-  "generated_at": "2026-09-30T20:32:09Z"
+  "generated_at": "2026-09-30T20:49:34Z"
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T20:33:56.197282Z",
+  "updated_at": "2026-09-30T20:51:09.846833Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -575,10 +575,15 @@
                   "author": "Brandon Beaman",
                   "date": "2026-09-30 16:20",
                   "text": "Replied to the Cascadia Email providing EEPROMs and asking for clarification on what requested CAN files they may be looking for."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-30 20:41",
+                  "text": "image.png\nAdjustments made to Inverter settings in the VCU to prevent the full torque cut when the inverter gets above a certain temp. This should result in a much softer correction and safety."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "a581043ecee8b23b7094d7025d8131eef596824b2960383e808998344398bf42"
+              "content_hash": "aa807557c62fb823e489e722a340fc1b8d0dcf7374768fafc185a0899f6a5463"
             },
             {
               "id": "868m6ucr6",
@@ -2347,5 +2352,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-30T20:32:09Z"
+  "generated_at": "2026-09-30T20:49:34Z"
 }
