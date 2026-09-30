@@ -210,8 +210,8 @@
     },
     {
       "project": "Lee 68 Mustang",
-      "total_hours": 80.5,
-      "pct_of_total": 6.2,
+      "total_hours": 81.0,
+      "pct_of_total": 6.3,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -227,7 +227,7 @@
         },
         {
           "task": "Interior",
-          "hours": 13.0
+          "hours": 13.5
         },
         {
           "task": "Manufacturing - Core",
@@ -573,10 +573,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 995.8,
+    "billable_hours": 996.2,
     "non_billable_hours": 297.5,
     "pto_hours": 17.0,
-    "total_hours": 1293.2
+    "total_hours": 1293.8
   },
-  "generated_at": "2026-09-30T13:51:17Z"
+  "generated_at": "2026-09-30T14:15:05Z"
 }
