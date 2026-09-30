@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T15:54:41.422707Z",
+  "updated_at": "2026-09-30T16:17:27.670409Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1763,9 +1763,20 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868m63v76",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-30 16:02",
+                  "text": "IMG_2219.jpeg\nIMG_2218.jpeg"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-30 16:02",
+                  "text": "installed the horns\nwired them up\ntested\nall good"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "33251b80e3c60dee2a2ffa8673bcf4a55000a82bb13611a0d312a4136583c23a"
+              "content_hash": "ff29a45c97afdf09b5f2fadf26db744e9c1f49d12b6eafbc259e3bcb12f170a5"
             },
             {
               "id": "868mbagxr",
@@ -1783,10 +1794,20 @@
                   "author": "Billy Arrasmith",
                   "date": "2026-09-30 01:17",
                   "text": "cleaned the door seal area\nsanded the doors\ntaped the area off\npainted the area\nglued the new seals on\nsecured the seals\npulled the tape off"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-30 16:04",
+                  "text": "seal check\nthe top has the wrong gasket on it raising the top up 3/8 of an inch"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-30 16:05",
+                  "text": "IMG_2212.jpeg"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "0c51ed92e7ebc411a8477b2d09358ed73e14da5759ed894a64dede7c054d9a96"
+              "content_hash": "a5f44c179b075aae8c6b7e21138614b5f7f4a03bdc11eaa6f000fade87aada3d"
             }
           ]
         },
@@ -2276,5 +2297,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-30T15:52:39Z"
+  "generated_at": "2026-09-30T16:15:34Z"
 }
