@@ -156,7 +156,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 101.2,
-      "pct_of_total": 7.8,
+      "pct_of_total": 7.7,
       "tasks": [
         {
           "task": "Exterior",
@@ -381,6 +381,41 @@
       ]
     },
     {
+      "project": "Nolan 70 Challenger",
+      "total_hours": 35.2,
+      "pct_of_total": 2.7,
+      "tasks": [
+        {
+          "task": "Vehicle Control",
+          "hours": 18.8
+        },
+        {
+          "task": "Exterior",
+          "hours": 7.0
+        },
+        {
+          "task": "Interior",
+          "hours": 4.0
+        },
+        {
+          "task": "Charging",
+          "hours": 3.0
+        },
+        {
+          "task": "Manufacturing - Core",
+          "hours": 1.2
+        },
+        {
+          "task": "Instrumentation",
+          "hours": 0.8
+        },
+        {
+          "task": "Brakes",
+          "hours": 0.5
+        }
+      ]
+    },
+    {
       "project": "Richardson 72 240Z",
       "total_hours": 34.5,
       "pct_of_total": 2.6,
@@ -414,47 +449,12 @@
           "hours": 0.8
         }
       ]
-    },
-    {
-      "project": "Nolan 70 Challenger",
-      "total_hours": 31.2,
-      "pct_of_total": 2.4,
-      "tasks": [
-        {
-          "task": "Vehicle Control",
-          "hours": 14.8
-        },
-        {
-          "task": "Exterior",
-          "hours": 7.0
-        },
-        {
-          "task": "Interior",
-          "hours": 4.0
-        },
-        {
-          "task": "Charging",
-          "hours": 3.0
-        },
-        {
-          "task": "Manufacturing - Core",
-          "hours": 1.2
-        },
-        {
-          "task": "Instrumentation",
-          "hours": 0.8
-        },
-        {
-          "task": "Brakes",
-          "hours": 0.5
-        }
-      ]
     }
   ],
   "shop_work": {
-    "total_hours": 206.8,
+    "total_hours": 207.2,
     "pct_of_total": 15.8,
-    "avg_per_person_per_day": 1.17,
+    "avg_per_person_per_day": 1.18,
     "flagged": true,
     "tech_count": 8,
     "working_days": 22,
@@ -465,7 +465,7 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 73.0
+        "hours": 73.5
       },
       {
         "label": "Personal Meetings",
@@ -577,10 +577,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 1003.8,
-    "non_billable_hours": 301.5,
+    "billable_hours": 1007.8,
+    "non_billable_hours": 302.0,
     "pto_hours": 22.8,
-    "total_hours": 1305.2
+    "total_hours": 1309.8
   },
-  "generated_at": "2026-09-30T18:43:40Z"
+  "generated_at": "2026-09-30T18:56:32Z"
 }
