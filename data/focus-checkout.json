@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T00:40:03.894867Z",
+  "updated_at": "2026-09-30T01:22:14.480504Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1742,10 +1742,15 @@
                   "author": "Ben Drinkard",
                   "date": "2026-09-03 21:58",
                   "text": "Rear hatch hinges arrived\nHinges inpected\nHatch struts removed\nRear hatch removed (1 bolt seized)\nOld hinges removed from hatch\nRemoved broken hardware from inside hatch frame\nDocument cracking and damage to rear hatch structure\nInstall hinges in frame\nMockup hatch back on truck\nMake adjustments to fitment and torque hardware\nReinstall hatch struts\nCheck fitment and func check"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-30 01:07",
+                  "text": "wrapped the latch with felt material\npuled the rods out and covered them with felt\ntested much quieter\nwill test tomorrow"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "b1a11a37dd71d60065d68979645aca95c1b1743159bece9bb70d08ab98dc3c38"
+              "content_hash": "57b8b97905b69425e64cc472c3d6d78d6d56fd25a284a9989034aa5af0ad301f"
             },
             {
               "id": "868m63v76",
@@ -1763,9 +1768,20 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868mbagxr",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-30 01:17",
+                  "text": "IMG_2213.jpeg\nIMG_2212.jpeg\nIMG_2208.jpeg\nIMG_2207.jpeg"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-30 01:17",
+                  "text": "cleaned the door seal area\nsanded the doors\ntaped the area off\npainted the area\nglued the new seals on\nsecured the seals\npulled the tape off"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "422a71349e7a1ad92f60c58387956d76dbd2c1bcaa3ff13a2f870ee687bdd3fb"
+              "content_hash": "0c51ed92e7ebc411a8477b2d09358ed73e14da5759ed894a64dede7c054d9a96"
             }
           ]
         },
@@ -2255,5 +2271,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-30T00:38:24Z"
+  "generated_at": "2026-09-30T01:20:37Z"
 }
