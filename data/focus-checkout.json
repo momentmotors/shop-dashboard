@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T19:50:29.210622Z",
+  "updated_at": "2026-09-30T20:16:47.891132Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -356,10 +356,15 @@
                   "author": "Devin DuMont",
                   "date": "2026-09-29 21:45",
                   "text": "Organized the AEM firmware backups and added to the changelog. Flashed the firmware burn to Hastert. Adjusted CellRKFactor and forced in a reasonable CellR. Took for a test drive to set initial values for range and SOC related things. Posted to Slack."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-09-30 19:55",
+                  "text": "Tested full signal chain cold battery protection by charging with the pack temp overrode to various temperatures. Watched charging \"start\" but remain at 0.0 Amps until temperature got above 0 C. Battery heater also worked as expected. Changed the 10 C AEM default lockout to 0 C and sent firmware back off for a burn."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "a66f7be51cd23a16572406d1c9b01fce3f8f68f6f7446a8a744f90b470787cef"
+              "content_hash": "6681b75115277cb4b1e88dee45811a6efb2eb305c6e56b94e757181e3630b7e6"
             }
           ]
         }
@@ -2342,5 +2347,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-30T19:48:27Z"
+  "generated_at": "2026-09-30T20:15:07Z"
 }
