@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T22:15:04.243374Z",
+  "updated_at": "2026-09-30T22:31:46.161815Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -529,10 +529,15 @@
                   "author": "Brandon Beaman",
                   "date": "2026-09-30 19:24",
                   "text": "Adjustments\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-30 22:19",
+                  "text": "Date: Wednesday, September 30, 2026\nFirmware: DiagCANSW 1.7.5 / build 487 \u2192 1.9.3 / build 519 (VCM_519_RC010903_Persist)\nClickUp: Checkout vehicle \u00b7 Troubleshoot inverter issue\nWhat we did\nConfirmed with Marc that the \"misfire\" is entirely inverter firmware, so the VCU could be updated independently. Flashed to 519 with full pre/post screenshot sets, ran the field-by-field comparison, applied the restores, road-tested, then applied Andrew's temperature/limp-mode cals and closed out the remaining open items.\nKey findings\nSix calibrations reset; park brake, Auto Park and cooling plate unchanged. The creep decrease limit is the one you feel \u2014 creep torque can now only fall 30 Nm/s, about a second to shed 30 Nm.\nFive items were new to 1.9.3 and needed decisions: per-mode torque limits at 100/100/100 (matches how she drove on 1.7.5), CreepTrqWBrake 15 Nm plus a new 6 kph (3.7 mph) \u2192 0 Nm creep point, HVACSwitchType set to Independent, DrvModeType Normal (correct), and APP Shift arriving Disabled so its values are inert.\nDrvTrqReqRateRateLimInc set to 35000 for the right engine-braking feel \u2014 the same setting that got missed on Chuter.\nKelly is clean on 519 \u2014 none of the weird issues Chuter had. 519 confirmed good for non-AWD cars; Andrew updated so he can move forward with the release.\nLaunch gain does essentially nothing on Kelly or Lee. Tested 0 and 50 on Kelly, 0 and 100 on Lee \u2014 identical either way. Probably hitting other limiters first.\nInverter thermal cut softened with Andrew's cals, so no more full torque cut on over-temp. Limp now triggers at 105 \u00b0C; there's an argument for 95 \u00b0C where the inverter actually cuts out.\nPark pawl resolved. The post-flash PrkFeedback reading of 4.00 was fixed by enabling current-based parking brake.\nVehicle parameters verified. Weight and final drive ratio checked against build records rather than left on the VCU defaults.\nCascadia: EEPROMs sent, logs converted and delivered. Waiting on their report.\nNext steps\nCharge to full and retest \u2014 SOC was low during today's drive.\nWait on Cascadia's report before going further on the inverter.\nStatus\nOn 519, driving well, all post-flash items closed out. The only remaining work on Kelly is a full-charge confirmation drive. The inverter misfire is unchanged and sits with Cascadia \u2014 the remaining blocker on Kelly and Lee."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "ef436abada3df347d12f175a5e4108de0b6b7af3dd0182b151f35999d4f5ad66"
+              "content_hash": "02d2f2d4bc25fd1a9a9742eebe8a18ee342ca5ec72e9628eb93573f726226b83"
             },
             {
               "id": "868krf65c",
@@ -2372,5 +2377,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-30T22:12:50Z"
+  "generated_at": "2026-09-30T22:29:47Z"
 }

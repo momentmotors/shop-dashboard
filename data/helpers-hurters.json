@@ -3,7 +3,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 146.8,
-      "pct_of_total": 11.0,
+      "pct_of_total": 10.9,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -57,8 +57,8 @@
     },
     {
       "project": "LB 82 911",
-      "total_hours": 130.0,
-      "pct_of_total": 9.7,
+      "total_hours": 131.8,
+      "pct_of_total": 9.8,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -78,7 +78,7 @@
         },
         {
           "task": "Interior",
-          "hours": 11.0
+          "hours": 11.2
         },
         {
           "task": "Instrumentation",
@@ -86,7 +86,7 @@
         },
         {
           "task": "HVAC",
-          "hours": 6.5
+          "hours": 8.0
         },
         {
           "task": "Manufacturing - Core",
@@ -109,7 +109,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 127.0,
-      "pct_of_total": 9.5,
+      "pct_of_total": 9.4,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -210,12 +210,12 @@
     },
     {
       "project": "Lee 68 Mustang",
-      "total_hours": 81.0,
+      "total_hours": 82.0,
       "pct_of_total": 6.1,
       "tasks": [
         {
           "task": "Vehicle Control",
-          "hours": 21.8
+          "hours": 22.8
         },
         {
           "task": "Battery Pack",
@@ -452,20 +452,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 209.8,
+    "total_hours": 211.2,
     "pct_of_total": 15.7,
-    "avg_per_person_per_day": 1.19,
+    "avg_per_person_per_day": 1.2,
     "flagged": true,
     "tech_count": 8,
     "working_days": 22,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 88.5
+        "hours": 89.5
       },
       {
         "label": "Shop Meetings",
-        "hours": 74.5
+        "hours": 75.0
       },
       {
         "label": "Personal Meetings",
@@ -489,7 +489,7 @@
     {
       "project": "ICON Bronco Prototype",
       "total_hours": 27.5,
-      "pct_of_total": 2.1,
+      "pct_of_total": 2.0,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -577,10 +577,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 1034.0,
-    "non_billable_hours": 304.5,
+    "billable_hours": 1041.0,
+    "non_billable_hours": 306.0,
     "pto_hours": 22.8,
-    "total_hours": 1338.5
+    "total_hours": 1347.0
   },
-  "generated_at": "2026-09-30T22:12:50Z"
+  "generated_at": "2026-09-30T22:29:47Z"
 }
