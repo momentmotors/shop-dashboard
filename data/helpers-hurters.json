@@ -336,7 +336,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 69.8,
-      "pct_of_total": 5.4,
+      "pct_of_total": 5.3,
       "tasks": [
         {
           "task": "Brakes",
@@ -452,16 +452,16 @@
     }
   ],
   "shop_work": {
-    "total_hours": 205.0,
-    "pct_of_total": 15.7,
-    "avg_per_person_per_day": 1.16,
+    "total_hours": 206.8,
+    "pct_of_total": 15.8,
+    "avg_per_person_per_day": 1.17,
     "flagged": true,
     "tech_count": 8,
     "working_days": 22,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 86.5
+        "hours": 87.0
       },
       {
         "label": "Shop Meetings",
@@ -469,11 +469,11 @@
       },
       {
         "label": "Personal Meetings",
-        "hours": 26.5
+        "hours": 27.2
       },
       {
         "label": "Organization",
-        "hours": 9.2
+        "hours": 9.8
       },
       {
         "label": "Other",
@@ -578,9 +578,9 @@
   ],
   "totals": {
     "billable_hours": 1003.8,
-    "non_billable_hours": 299.8,
+    "non_billable_hours": 301.5,
     "pto_hours": 22.8,
-    "total_hours": 1303.5
+    "total_hours": 1305.2
   },
-  "generated_at": "2026-09-30T17:50:50Z"
+  "generated_at": "2026-09-30T18:16:39Z"
 }
