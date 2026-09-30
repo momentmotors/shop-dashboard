@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T21:54:54.931275Z",
+  "updated_at": "2026-09-30T22:15:04.243374Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -976,10 +976,15 @@
                   "author": "Aharon Adams",
                   "date": "2026-09-23 23:12",
                   "text": "toe panel modifications, kick panel shenanigans. will elaborate.\n\nI've run into an issue with the interior installation on LB. When I disassembled the interior, everything was nicely carpeted all the way up to the front, even the areas where the footwell blowers typically reside. At the time I took no notice, but there are supposed to be kick panels installed there in later cars to cover up the footwell blowers and their ducting. This car didn't have them, so they weren't necessary at the time.\nAlong the way, we decided to place the blowers and heat bricks in that area like we normally do, but I didn't recognize the downstream effect that would have. Today I went to install the interior panels and thought I'd misplaced them... turns out they never existed for this car.\nThe biggest issue is there are no reproductions I can find, and finding them used is nearly impossible too. Not sure why that is \u2014 I can't even find the part in the OEM catalog. I did find one used one on eBay and went ahead and ordered it, but I think I may end up trying to fit 964 versions instead. Spent a good chunk of the day combing through catalogs, websites, and eBay trying to track these down.\nI'm unsure what to do beyond that unless we have David Gonzalez make us something, or we scan and print them. For now, I think the cheapest route is ordering some used 964 parts and seeing what I can do with them. This puts a decent delay on the interior installation and may stall it for a while if we can't find replacement parts.\nHere are some pics of what I need."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-09-30 22:12",
+                  "text": "cleanup of used kick panel and test fit. i think we will end up having david g build us custom versinos based on this due to VE modifying the hood pull location and heater brick fitment."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "63c98fe4ca934435ada021c8cd5b192e8660340b27721b5f2ca9b325a51510e7"
+              "content_hash": "e715372807c1d4eeba6efdedb4901433fec22dc69e8124c69faf65bd4620fa1b"
             },
             {
               "id": "868j7kytx",
@@ -1439,11 +1444,16 @@
                 {
                   "author": "Brandon Beaman",
                   "date": "2026-09-30 21:47",
-                  "text": "Updating BMS Firmware to latest to fix slow contactor.\n\nInitial Settings.\nimage.png\nimage.png\nimage.png\nFlashing Process\nimage.png\nimage.png\nimage.png\n\nPost Flash Screenshots\nimage.png\nimage.png\nimage.png\n\nVerification Report\nEvery setting carried over unchanged. The only intended change is the firmware version, and the rest of the differences are normal live-reading drift.\nWhat changed\n\n\nThe voltage and temperature changes are 10\u201320 mV and a few hundredths of a degree, which is just the pack sitting idle.\nWhat matched exactly\nEEPROM (all 44 fields): version 7, checksum 0, battery ID 1, CAN 500k, log level 0b100, lifetime counters all 0, contactor cycles 107, DUL 0, print_details 0, HW rev 2, 2 host nodes, 144S2P, 8 modules. All thermistor settings match: counts, beta and R0 values, OT/UT thresholds, ADC max/min, config, filter settings, tsref type 2, and M1\u2013M8 enables all 11111111. Debounce raw values are still 100 / 10 / 5 / 5.\nSystem config: HW version 2, serial 79, vehicle DBC 20, internal DBC 10, EEPROM v7, 12 series cells per module node. All logger messages are still disabled.\nInput settings: wake debounce 500 / 50 ms, contactor feedback 25 / 25 ms.\nLive status: cell min/max/average and OCV, highest/lowest cell IDs (38 / 57), temperature sensor IDs (57 / 25), contactors commanded and actual both 0, HVIL 1/1/0, isolation 0 k\u03a9, current 0 A.\nContactor cycles are still 107, so the contactors weren't closed during the flash. The checksum still reads 0 and HVIL_3 is still 0, same as before the update, so nothing new there. The DBC versions didn't change either, so the VCU side shouldn't need a new CAN database for this firmware.\n\n\nMaster Box Successfully Updated"
+                  "text": "Updating BMS Firmware to latest to fix slow contactor.\n\nInitial Settings.\nimage.png\nimage.png\nimage.png\nFlashing Process to AmpereBMS_V26_40_2_4_Beta\nimage.png\nimage.png\nimage.png\n\nPost Flash Screenshots\nimage.png\nimage.png\nimage.png\n\nVerification Report\nEvery setting carried over unchanged. The only intended change is the firmware version, and the rest of the differences are normal live-reading drift.\nWhat changed\n\n\nThe voltage and temperature changes are 10\u201320 mV and a few hundredths of a degree, which is just the pack sitting idle.\nWhat matched exactly\nEEPROM (all 44 fields): version 7, checksum 0, battery ID 1, CAN 500k, log level 0b100, lifetime counters all 0, contactor cycles 107, DUL 0, print_details 0, HW rev 2, 2 host nodes, 144S2P, 8 modules. All thermistor settings match: counts, beta and R0 values, OT/UT thresholds, ADC max/min, config, filter settings, tsref type 2, and M1\u2013M8 enables all 11111111. Debounce raw values are still 100 / 10 / 5 / 5.\nSystem config: HW version 2, serial 79, vehicle DBC 20, internal DBC 10, EEPROM v7, 12 series cells per module node. All logger messages are still disabled.\nInput settings: wake debounce 500 / 50 ms, contactor feedback 25 / 25 ms.\nLive status: cell min/max/average and OCV, highest/lowest cell IDs (38 / 57), temperature sensor IDs (57 / 25), contactors commanded and actual both 0, HVIL 1/1/0, isolation 0 k\u03a9, current 0 A.\nContactor cycles are still 107, so the contactors weren't closed during the flash. The checksum still reads 0 and HVIL_3 is still 0, same as before the update, so nothing new there. The DBC versions didn't change either, so the VCU side shouldn't need a new CAN database for this firmware.\n\n\nMaster Box Successfully Updated"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-30 22:00",
+                  "text": "Updating BMS Firmware To the latest to correct the Slow Contactor.\n\n\nInitial Settings\nimage.png\nimage.png\nimage.png\n\n\nFlashing to AmpereBMS_V26_40_2_4_Beta\nimage.png\nimage.png\n\nPost Flash Screenshots\nimage.png\nimage.png\nimage.png\n\n\nVerification Report\nThe rear box matches too. Every setting carried over, and the only intended change is the firmware version.\nWhat changed\n\n\nThe temperature changes are hundredths of a degree. The lowest-cell ID moving from 1 to 2 doesn't mean anything either: the lowest reading is still 3.992 V, so two cells are just trading places for the lowest spot.\nWhat matched exactly\nEEPROM (all 44 fields): Battery ID 2, 144S2P, 4 modules, 8 cell thermistors plus 1 coolant, and all beta, R0, OT/UT, ADC and filter settings. Debounce raw values are still 100 / 10 / 5 / 5, enables M1\u2013M8 are still all 11111111, and contactor cycles are still 405.\nSystem config: HW version 2, serial 53, vehicle DBC 20, internal DBC 10, EEPROM v7. All logger messages are still disabled.\nLive status: pack voltage is still 191.680 V, cells are still 3.992\u20133.996 V, HVIL is still 0/1/1, contactors are still open, and isolation still reads 0 k\u03a9.\nBoth boxes together: the front (ID 1, SN 79) and rear (ID 2, SN 53) are now both on 26.40.2.4. No configuration changed on either one, and the DBC versions are the same as before on both, so nothing should need to change on the VCU side.\n\n\nSat Box BMS Firmware Updated Successfully."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "852591348475594eea17a2797b351b4026f085aa318948219c28ad033ad67abf"
+              "content_hash": "7fcdaa4db2e08760a7cf2eff928dc7fb788558851b0662ea817834e25e0b943e"
             },
             {
               "id": "868m5njnw",
@@ -2362,5 +2372,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-30T21:53:08Z"
+  "generated_at": "2026-09-30T22:12:50Z"
 }
