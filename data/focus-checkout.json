@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T21:31:20.263137Z",
+  "updated_at": "2026-09-30T21:45:06.008557Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1430,10 +1430,15 @@
                   "author": "Brandon Beaman",
                   "date": "2026-09-22 16:26",
                   "text": "Test drove vehicle.\nFound that the vehicle makes much more torque now. Enough to finally chirp the tires a little bit.\nHowever when the tires break traction the inverter has faulted out both times.\nTwo events, both a complete loss of drive\n\n\nDuring both, inverter current sits at 0.2\u20130.4 A and delivered torque at zero. The car is making nothing for forty seconds at a stretch.\nIn event 2 the driver clearly tried to get it back \u2014 at t = 355.6 to 356.4 the pedal goes 68%, 81%, 97%, command rises to 350 Nm, and the inverter still puts out 0.2 A.\n\nBoth trip at the same place\n\nBoth faults set on the very next sample after peak torque, during a hard launch from low speed.\nIt isn't torque on its own. Pull 2 made 591 Nm at 4,746 rpm and pull 3 made 589 Nm at 3,148 rpm, and neither tripped. Both trips were below 1,750 rpm. The envelope that kills it is high torque below about 2,000 rpm \u2014 which is exactly where phase current peaks and back-EMF is lowest, even though DC current is only ~200 A. With IQ_Limit_EEPROM at 1272 A, that corner is where the phase-current limit would bite first.\nNot thermal: inverter was at 42\u201344 \u00b0C and the motor at 24\u201340 \u00b0C at both trips. Stone cold.\n\nNeither clears on its own\nBoth events end only when HV is cycled. Bus goes 590 \u2192 260 \u2192 33 \u2192 0 V, validity flags drop for 8 s (event 1) and 3.8 s (event 2), HV comes back, fault clears. Nothing in the log suggests it would have recovered otherwise.\n\nNothing else flags it\nDrvInvtrDsblReason reads No Fault on all 11,582 samples. So do APPLimReason, LimpInModeReason and both HVSysDsblLevel codes. DrvMtrTrqVld and DrvInvtrCurVld stay at 1 throughout the fault \u2014 they only drop during the HV-off window. The raw DrvInvtrFault bit is the only thing that catches this, which is worth knowing for the tab spec and for anyone reading these logs."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-30 21:37",
+                  "text": "VCM_517_Motoring Claude_2026_09_22_11_58_54_10msTest_Inverter Fault.csv"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "cfe8606b549298c713edf1c9d37a372cb056a267fd94ec338f971ffef994c2c6"
+              "content_hash": "bfe2750935ffc111f0028eb0dca6424b5216c045c032a19751f229e10ddab51b"
             },
             {
               "id": "868m5njnw",
@@ -2352,5 +2357,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-30T21:29:26Z"
+  "generated_at": "2026-09-30T21:43:12Z"
 }
