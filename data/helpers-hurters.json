@@ -58,7 +58,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 128.0,
-      "pct_of_total": 10.0,
+      "pct_of_total": 9.9,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -109,7 +109,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 119.0,
-      "pct_of_total": 9.3,
+      "pct_of_total": 9.2,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -211,7 +211,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 80.5,
-      "pct_of_total": 6.3,
+      "pct_of_total": 6.2,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -377,6 +377,41 @@
       ]
     },
     {
+      "project": "Richardson 72 240Z",
+      "total_hours": 33.2,
+      "pct_of_total": 2.6,
+      "tasks": [
+        {
+          "task": "Motor & Transmission",
+          "hours": 14.2
+        },
+        {
+          "task": "HVAC",
+          "hours": 8.5
+        },
+        {
+          "task": "Interior",
+          "hours": 4.8
+        },
+        {
+          "task": "Audio",
+          "hours": 2.0
+        },
+        {
+          "task": "Exterior",
+          "hours": 1.8
+        },
+        {
+          "task": "Brakes",
+          "hours": 1.0
+        },
+        {
+          "task": "Wiring - OEM",
+          "hours": 1.0
+        }
+      ]
+    },
+    {
       "project": "Nolan 70 Challenger",
       "total_hours": 31.2,
       "pct_of_total": 2.4,
@@ -410,42 +445,11 @@
           "hours": 0.5
         }
       ]
-    },
-    {
-      "project": "Richardson 72 240Z",
-      "total_hours": 28.2,
-      "pct_of_total": 2.2,
-      "tasks": [
-        {
-          "task": "Motor & Transmission",
-          "hours": 14.2
-        },
-        {
-          "task": "Interior",
-          "hours": 4.8
-        },
-        {
-          "task": "HVAC",
-          "hours": 4.5
-        },
-        {
-          "task": "Audio",
-          "hours": 2.0
-        },
-        {
-          "task": "Exterior",
-          "hours": 1.8
-        },
-        {
-          "task": "Wiring - OEM",
-          "hours": 1.0
-        }
-      ]
     }
   ],
   "shop_work": {
     "total_hours": 201.8,
-    "pct_of_total": 15.7,
+    "pct_of_total": 15.6,
     "avg_per_person_per_day": 1.15,
     "flagged": true,
     "tech_count": 8,
@@ -569,10 +573,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 989.5,
+    "billable_hours": 994.5,
     "non_billable_hours": 296.5,
     "pto_hours": 17.0,
-    "total_hours": 1286.0
+    "total_hours": 1291.0
   },
-  "generated_at": "2026-09-30T01:56:39Z"
+  "generated_at": "2026-09-30T02:31:32Z"
 }
