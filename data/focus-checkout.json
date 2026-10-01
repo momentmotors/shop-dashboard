@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T17:43:53.546299Z",
+  "updated_at": "2026-10-01T17:54:07.255363Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1809,9 +1809,20 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868mcajyc",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-10-01 17:46",
+                  "text": "Top hardware removed\nFwd silicone removed at windshield to A pillar seam\nVisors removed\nFront and rear blocked for seam cleanup\nFelt cut and applied\nTop set to match window seals\nRear attachment brackets modified to allow top movement\nTailgate seal visor felted and installed\nTop reinstalled\nItems still required:\nTop will require silicone at the windshield eyebrow to top seam\nSilicone required to seal the bed rails to top\nAdditional hardware where bed rails meet top mounting fascia"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-10-01 17:47",
+                  "text": "paste_e9f93a13-7ced-4045-bd23-4992324bd89e.jpgpaste_9ced5b4e-2151-4907-80c1-a70b019c46e1.jpgpaste_ad7ef362-399a-4808-b592-9a90ced35040.jpgpaste_512728ba-ed7a-4bd8-834f-0d45b9115ee6.jpgpaste_b4d4eb9b-8ac1-4507-9c4f-63508efbb109.jpgpaste_72f3e380-417d-452a-8a71-da28b4578ce4.jpgpaste_0cea470f-f32a-4f66-b4e7-f1e9ca26898a.jpgpaste_00bc747f-6e18-4548-9317-ba077b0f2880.jpgpaste_08f0a32e-f4c2-4957-8104-cff15ebfea37.jpgpaste_a0e9a6cf-1beb-435c-b048-ce11246a033b.jpgpaste_c1384ca0-66bc-49c9-826b-25fb579abf1d.jpgpaste_c4f310c3-5ed8-46c9-818b-4bf4cf086494.jpgpaste_30ce0eb8-2504-4869-91d1-a7f9b67a71e8.jpgpaste_29516aa4-62a4-440a-afc4-8c349ea8411f.jpg"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "67fb308c69d50d49e4f3350d33e97f3404fe12f15a09f753dc0416bec51639a8"
+              "content_hash": "447ff7d3d42fcebfc57a99095ac757750d2d553d51f8b8640063e29620efdf91"
             },
             {
               "id": "868mbagxr",
@@ -1855,9 +1866,20 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868mcajyc",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-10-01 17:46",
+                  "text": "Top hardware removed\nFwd silicone removed at windshield to A pillar seam\nVisors removed\nFront and rear blocked for seam cleanup\nFelt cut and applied\nTop set to match window seals\nRear attachment brackets modified to allow top movement\nTailgate seal visor felted and installed\nTop reinstalled\nItems still required:\nTop will require silicone at the windshield eyebrow to top seam\nSilicone required to seal the bed rails to top\nAdditional hardware where bed rails meet top mounting fascia"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-10-01 17:47",
+                  "text": "paste_e9f93a13-7ced-4045-bd23-4992324bd89e.jpgpaste_9ced5b4e-2151-4907-80c1-a70b019c46e1.jpgpaste_ad7ef362-399a-4808-b592-9a90ced35040.jpgpaste_512728ba-ed7a-4bd8-834f-0d45b9115ee6.jpgpaste_b4d4eb9b-8ac1-4507-9c4f-63508efbb109.jpgpaste_72f3e380-417d-452a-8a71-da28b4578ce4.jpgpaste_0cea470f-f32a-4f66-b4e7-f1e9ca26898a.jpgpaste_00bc747f-6e18-4548-9317-ba077b0f2880.jpgpaste_08f0a32e-f4c2-4957-8104-cff15ebfea37.jpgpaste_a0e9a6cf-1beb-435c-b048-ce11246a033b.jpgpaste_c1384ca0-66bc-49c9-826b-25fb579abf1d.jpgpaste_c4f310c3-5ed8-46c9-818b-4bf4cf086494.jpgpaste_30ce0eb8-2504-4869-91d1-a7f9b67a71e8.jpgpaste_29516aa4-62a4-440a-afc4-8c349ea8411f.jpg"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "67fb308c69d50d49e4f3350d33e97f3404fe12f15a09f753dc0416bec51639a8"
+              "content_hash": "447ff7d3d42fcebfc57a99095ac757750d2d553d51f8b8640063e29620efdf91"
             }
           ]
         },
@@ -2353,5 +2375,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-01T17:42:14Z"
+  "generated_at": "2026-10-01T17:52:17Z"
 }
