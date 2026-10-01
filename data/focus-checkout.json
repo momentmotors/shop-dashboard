@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T13:55:14.982207Z",
+  "updated_at": "2026-10-01T14:16:28.838940Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -612,9 +612,15 @@
               "status": "Open",
               "list": "Kelly 63 Corvette",
               "url": "https://app.clickup.com/t/868m6ucr6",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-10-01 13:57",
+                  "text": "Have not been able to Duplicate the concern for this.\nWill need to speak with Marc and or Alex to determine how much time we want to spend on this.\nVisual inspection on the backside of the speedo shows the connection to be good and secure.\nNo major damage found to the wiring through visual inspection.\nThis was before the calibration for vehicle final drive and weight were set to Calibration versus Display. Possible communication loss / error now with the data set to Calibration in the VCU possible more reliable connection?"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "bbf48580188822445536cf3fe7ec00bc1e79b553367a365675aba598db1eb57d"
+              "content_hash": "9286b14fdfa45ca7aef033cb3304fbb06d80d8b2e4e9f549b01cdd03696c7c82"
             }
           ]
         },
@@ -2404,5 +2410,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-01T13:53:08Z"
+  "generated_at": "2026-10-01T14:14:48Z"
 }
