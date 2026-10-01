@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T20:52:47.694065Z",
+  "updated_at": "2026-10-01T21:14:19.029655Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1381,10 +1381,15 @@
                   "author": "Brandon Beaman",
                   "date": "2026-10-01 17:33",
                   "text": "NVH and Chassis ear inspection with Marc the interesting thing we found is the 3rd link / power brace in the vehicle is vibrating in the same way that the sound is being transmitted.\nHowever when disconnecting this piece from the from mount isolating the power brace. It is still vibrating in the same way so this problem is being transmitted in weird ways that may not have a great or elegant solution to isolate.\nStill brainstorming ideas to determine what the next best move is."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-10-01 20:54",
+                  "text": "More testing and diag.\nAdded rubber sheet back to the trans mount area.\nPossible that this noise is coming from the rear end which I have mentioned as a possibility in the past.\nWill continue to look at possibilities and make changes / test as appropriate."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "fd277fadfc2c062a702e9e9fadcc5d5fe808534b26049ffd3e8b5377ad3a3d2d"
+              "content_hash": "8bfd2cad3c03ea6993a91b2c7aba5fae0e995c8200c01f4f691d4769d03e0cce"
             },
             {
               "id": "868kvft7k",
@@ -2375,5 +2380,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-01T20:50:53Z"
+  "generated_at": "2026-10-01T21:12:22Z"
 }
