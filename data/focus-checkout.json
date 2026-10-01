@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T17:30:04.238247Z",
+  "updated_at": "2026-10-01T17:43:53.546299Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1376,10 +1376,15 @@
                   "author": "Brandon Beaman",
                   "date": "2026-10-01 15:09",
                   "text": "Waiting on next step decision. If we are swapping motor mounts or modifying the drive shaft in some way.\nTalks about potential softer motor bushings."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-10-01 17:33",
+                  "text": "NVH and Chassis ear inspection with Marc the interesting thing we found is the 3rd link / power brace in the vehicle is vibrating in the same way that the sound is being transmitted.\nHowever when disconnecting this piece from the from mount isolating the power brace. It is still vibrating in the same way so this problem is being transmitted in weird ways that may not have a great or elegant solution to isolate.\nStill brainstorming ideas to determine what the next best move is."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "6c1c19bf4f4d3d10c57d25e46e67eef9371a2c9f3d33a898caf7e1c37ed1f87e"
+              "content_hash": "fd277fadfc2c062a702e9e9fadcc5d5fe808534b26049ffd3e8b5377ad3a3d2d"
             },
             {
               "id": "868kvft7k",
@@ -1766,7 +1771,7 @@
         "matched_lists": [
           "Preheim 72 Blazer"
         ],
-        "open_tasks": 4
+        "open_tasks": 5
       },
       "assignees": [
         {
@@ -1799,6 +1804,16 @@
               "content_hash": "57b8b97905b69425e64cc472c3d6d78d6d56fd25a284a9989034aa5af0ad301f"
             },
             {
+              "id": "868mcajyc",
+              "name": "Replace seal for top",
+              "status": "Open",
+              "list": "Preheim 72 Blazer",
+              "url": "https://app.clickup.com/t/868mcajyc",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "67fb308c69d50d49e4f3350d33e97f3404fe12f15a09f753dc0416bec51639a8"
+            },
+            {
               "id": "868mbagxr",
               "name": "Replace upper door seals",
               "status": "Open",
@@ -1828,6 +1843,21 @@
               ],
               "checklist_items": [],
               "content_hash": "a5f44c179b075aae8c6b7e21138614b5f7f4a03bdc11eaa6f000fade87aada3d"
+            }
+          ]
+        },
+        {
+          "name": "Ben Drinkard",
+          "tasks": [
+            {
+              "id": "868mcajyc",
+              "name": "Replace seal for top",
+              "status": "Open",
+              "list": "Preheim 72 Blazer",
+              "url": "https://app.clickup.com/t/868mcajyc",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "67fb308c69d50d49e4f3350d33e97f3404fe12f15a09f753dc0416bec51639a8"
             }
           ]
         },
@@ -2323,5 +2353,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-01T17:27:47Z"
+  "generated_at": "2026-10-01T17:42:14Z"
 }
