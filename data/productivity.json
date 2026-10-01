@@ -10,8 +10,8 @@
   "comparisons": {
     "vs_last_month": {
       "label": "vs Last Month",
-      "value": 77.1,
-      "delta": -77.1
+      "value": 77.0,
+      "delta": -77.0
     },
     "vs_last_quarter": {
       "label": "vs Last Quarter Avg",
@@ -20,8 +20,8 @@
     },
     "vs_last_week": {
       "label": "vs Last Week",
-      "value": 79.4,
-      "delta": -79.4
+      "value": 79.3,
+      "delta": -79.3
     },
     "vs_target": {
       "label": "vs Target",
@@ -109,13 +109,13 @@
     },
     {
       "month": "2026-09",
-      "productivity_pct": 77.1,
-      "billable_hours": 1042.5,
+      "productivity_pct": 77.0,
+      "billable_hours": 1041.5,
       "total_hours": 1375.2,
       "pto_hours": 22.8
     }
   ],
   "current_month_weeks": [],
   "current_month_days": [],
-  "generated_at": "2026-10-01T14:34:50Z"
+  "generated_at": "2026-10-01T14:51:57Z"
 }
