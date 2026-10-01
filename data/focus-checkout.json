@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T14:53:39.756473Z",
+  "updated_at": "2026-10-01T15:15:34.941634Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1361,10 +1361,15 @@
                   "author": "Brandon Beaman",
                   "date": "2026-09-16 18:41",
                   "text": "Aharon finished balancing the driveshaft.\nTest drove the vehicle after to get a feel for the balance.\nCar felt great. No crazy vibrations felt up to 60-65 mph. Still need to do highway testing.\nThe weird thing I noticed though was that with the center console out of the car the Gear groan / Noise was bearable. It wasnt obnoxious or crazy. Still present but drivable. The center console must be acting as amplifier as well especially the center console cubby box thing. We should also add sound treatment to the underside of this as well.\nWill add this to the list of things to address when it comes to NVH and or sound deadening."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-10-01 15:09",
+                  "text": "Waiting on next step decision. If we are swapping motor mounts or modifying the drive shaft in some way.\nTalks about potential softer motor bushings."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "2e35808b0ea21e9b42f8d11e735597b3662c1e8f4d84036b304954b48526f507"
+              "content_hash": "39d02b4034fa617d63bd15dbe755348411f23273c071a871a8b80d7c7b36b57e"
             },
             {
               "id": "868kvft7k",
@@ -1504,10 +1509,15 @@
                   "author": "Brandon Beaman",
                   "date": "2026-09-26 00:18",
                   "text": "Date: Friday, September 25, 2026\nVehicle/System: Lee 68 Mustang \u2014 Cascadia inverter on GEN5_CC_CM_20240829_6531\nClickUp: Checkout vehicle\nObjective\nRule out resolver noise as the cause of the hardware over-current trips by installing a new motor sub-harness with all-new resolver wiring on a different routing path, then retest.\nWhat we did\nInstalled the new motor sub-harness \u2014 fresh resolver wiring, rerouted along a different path \u2014 and road-tested it. Ran the test twice: once as configured, and again with Torque_Rate_Limit back at 50. Pulled diag data from both runs, ran a comparison against the prior trip data, and separately verified the resolver gamma adjust.\nKey findings\nThe reroute did not fix it. The inverter still trips, and it feels the same in the car. Comparison against the prior diag data confirms it \u2014 same type of fault, same signature. Resolver wiring noise is effectively ruled out as the cause.\nTorque rate limit isn't it either. Retested at 50 and it still tripped, same as it does at 70.\nGamma adjust is clean. Spun the motor up to ~2,500 rpm and dropped into neutral three times: \u2212902, \u2212901, \u2212900. Dead nuts. That closes out resolver alignment as a suspect alongside the wiring.\nSelf-sense assist remains the only thing that has stopped the trips. Still the lone intervention with a clean record against this fault.\nArtifacts produced\n09-25-2026 Lee New Motor Sub Diag Data \u2014 inverter diag, as-configured run\n09-25-2026 Lee New Motor Sub Diag Data TorqueRate50 \u2014 inverter diag, torque rate limit at 50\nLee_Mustang_Inverter_OC_Trip_Analysis_1.pdf \u2014 trip analysis\nLee_Mustang_Inverter_OC_Trip_Analysis_RevB_1.pdf \u2014 revised analysis\nWhat's been eliminated so far\n\nundefined\nNext steps\nDecide whether self-sense assist is the answer or a mask. It's the only thing that stops the trips, but we haven't established why \u2014 worth understanding before shipping on it.\nTake the RevB analysis to Cascadia with the two diag sets, given how much has now been eliminated on our side.\nCharacterize the trip envelope more tightly \u2014 it's high torque at low rpm, and it happens without the tires breaking traction, so the earlier traction theory is out.\nStatus\nResolver wiring and resolver alignment are both cleared. The fault is unchanged and reproducible. With firmware, torque rate limit, thermal, harness and alignment all eliminated, this is pointing at the inverter itself or its current-limit configuration \u2014 a Cascadia conversation. Self-sense assist is the only working workaround.\n\nBuilt a new motor sub harness.\nInstalled new sub harness in a different routing position than the old one was.\nCouple test drives and got more diag data for analysis.\nHad Claude run some analysis.\nDouble checked gamma adjust and rpm / motor pole.\nHave not found anything super conclusive yet."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-10-01 15:08",
+                  "text": "Small testing here and there. Waiting on decision from Cascadia for any major movement forward."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "9f82d516187daf679f62e43ce1cdedd5c598bcee9645021a2ffb42fb34209616"
+              "content_hash": "3b5d497256971362bbe79b7b6dda9178f57891359dd45e944e5514dfe63f1d27"
             }
           ]
         },
@@ -2329,5 +2339,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-01T14:51:57Z"
+  "generated_at": "2026-10-01T15:13:44Z"
 }
