@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T18:19:51.004772Z",
+  "updated_at": "2026-10-01T18:46:28.625335Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -234,7 +234,7 @@
         "make": "Ford",
         "model": "F-250",
         "status": "Shipped",
-        "checkout": 98.1,
+        "checkout": 98.9,
         "sub_metrics": [],
         "system": "AEM"
       },
@@ -2375,5 +2375,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-01T18:18:01Z"
+  "generated_at": "2026-10-01T18:44:36Z"
 }
