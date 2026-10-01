@@ -110,12 +110,12 @@
     {
       "month": "2026-09",
       "productivity_pct": 77.3,
-      "billable_hours": 1041.0,
-      "total_hours": 1369.8,
+      "billable_hours": 1045.0,
+      "total_hours": 1375.2,
       "pto_hours": 22.8
     }
   ],
   "current_month_weeks": [],
   "current_month_days": [],
-  "generated_at": "2026-10-01T01:28:06Z"
+  "generated_at": "2026-10-01T02:05:42Z"
 }
