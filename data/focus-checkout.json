@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T13:43:22.616251Z",
+  "updated_at": "2026-10-01T13:55:14.982207Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -449,9 +449,15 @@
               "status": "Open",
               "list": "Kelly 63 Corvette",
               "url": "https://app.clickup.com/t/868ma130w",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-10-01 13:48",
+                  "text": "Waiting on Andrew's Response looking into DCDC re enable feature. Or possibly a DCDC Enable Retry function if the enable failed once prior on startup."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "26f8822760d18edb4fc4a7cb4f99e992a49bc45eebee7351cd5c20fc681e9505"
+              "content_hash": "8a153a62985da2fdb21d2c5c4889c4c4a072ed17d5dc761e289743f31746cbcf"
             },
             {
               "id": "868krf6f9",
@@ -590,10 +596,15 @@
                   "author": "Brandon Beaman",
                   "date": "2026-09-30 20:41",
                   "text": "image.png\nAdjustments made to Inverter settings in the VCU to prevent the full torque cut when the inverter gets above a certain temp. This should result in a much softer correction and safety."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-10-01 13:43",
+                  "text": "Small testing here and there. Waiting on decision from Cascadia for any major movement forward."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "aa807557c62fb823e489e722a340fc1b8d0dcf7374768fafc185a0899f6a5463"
+              "content_hash": "84b9a8ac0b714f77ee2deb6f78066969c74b135cd41719b465d47edebeb70aa3"
             },
             {
               "id": "868m6ucr6",
@@ -1334,9 +1345,15 @@
               "status": "Open",
               "list": "Lee 68 Mustang",
               "url": "https://app.clickup.com/t/868ma13ge",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-10-01 13:48",
+                  "text": "Waiting on Andrew's Response looking into DCDC re enable feature. Or possibly a DCDC Enable Retry function if the enable failed once prior on startup."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "26f8822760d18edb4fc4a7cb4f99e992a49bc45eebee7351cd5c20fc681e9505"
+              "content_hash": "8a153a62985da2fdb21d2c5c4889c4c4a072ed17d5dc761e289743f31746cbcf"
             },
             {
               "id": "868kar0ru",
@@ -2387,5 +2404,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-01T13:41:38Z"
+  "generated_at": "2026-10-01T13:53:08Z"
 }
