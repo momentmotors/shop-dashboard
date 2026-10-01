@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T17:13:55.306913Z",
+  "updated_at": "2026-10-01T17:30:04.238247Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1288,7 +1288,7 @@
         "matched_lists": [
           "Lee 68 Mustang"
         ],
-        "open_tasks": 9
+        "open_tasks": 8
       },
       "assignees": [
         {
@@ -1312,7 +1312,7 @@
             },
             {
               "id": "868kar0ru",
-              "name": "Address gear box NVH issue",
+              "name": "Address NVH issue",
               "status": "Open",
               "list": "Lee 68 Mustang",
               "url": "https://app.clickup.com/t/868kar0ru",
@@ -1379,7 +1379,7 @@
                 }
               ],
               "checklist_items": [],
-              "content_hash": "39d02b4034fa617d63bd15dbe755348411f23273c071a871a8b80d7c7b36b57e"
+              "content_hash": "6c1c19bf4f4d3d10c57d25e46e67eef9371a2c9f3d33a898caf7e1c37ed1f87e"
             },
             {
               "id": "868kvft7k",
@@ -1441,32 +1441,6 @@
               ],
               "checklist_items": [],
               "content_hash": "7fcdaa4db2e08760a7cf2eff928dc7fb788558851b0662ea817834e25e0b943e"
-            },
-            {
-              "id": "868m5njnw",
-              "name": "Install sound deadening",
-              "status": "Open",
-              "list": "Lee 68 Mustang",
-              "url": "https://app.clickup.com/t/868m5njnw",
-              "comments": [
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-28 21:25",
-                  "text": "Removed the seats, carpet and all other necessary items needed in order to get down to the floor of this vehicle for some sound treatment.\nUsing cardboard I made a template to match the trans tunnel.\nCovered all untreated areas with butyl sound deadening sheets.\nThen cut out all necessary pieces of Luxury Liner.\nTest fit pieces.\nGlued pieces into the vehicle using the high end carpet glue.\nCut out a shifter cover and affixed to the trans tunnel using tape since this piece could be serviced in the future.\nFound that revology had cross threaded a seat belt bolt. Will likely need to spend time fixing this as the car goes back together.\nContinue with re assembling the vehicle and testing."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-29 22:38",
-                  "text": "Reassembled the vehicle adding as much sound deadening material I could underneath the center console.\nIf this does not resolve the issue then no amount of sound deadening material will be able to.\nAll of the interior pieces are a very tight fit now and cause quite a bit of difficulty to install.\nWill test drive vehicle in the morning when the rest of the cars are out of the shop and the car is removable."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-30 13:57",
-                  "text": "Test drove the vehicle this morning.\nFound that the sound deadening really didnt do much. This NVH has to be coming from places other than where the sound deadening is helping.\nOverall this car is very well treated there should be no reason that this issue persists\nWill continue once we find the next steps."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "f8faceeb186b2704a58fe9392c75bb959d1dbed23ab1936a989130177894487d"
             },
             {
               "id": "868m8fhnh",
@@ -2349,5 +2323,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-01T17:12:16Z"
+  "generated_at": "2026-10-01T17:27:47Z"
 }
