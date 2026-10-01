@@ -173,6 +173,11 @@
               "summary": "Ryan in late, Court Appt.",
               "type": "pto",
               "all_day": true
+            },
+            {
+              "summary": "Brandon B Out",
+              "type": "pto",
+              "all_day": true
             }
           ]
         },
@@ -249,5 +254,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-01T12:51:24Z"
+  "generated_at": "2026-10-01T13:16:23Z"
 }
