@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T19:12:57.180561Z",
+  "updated_at": "2026-10-02T19:27:32.237092Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -196,9 +196,15 @@
               "status": "Open",
               "list": "Ferdman 66 Bus",
               "url": "https://app.clickup.com/t/868m2y1ap",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-10-02 19:12",
+                  "text": "Waiting on parts to arrive (ordered this week)."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "7f891d6c42432c8f41025fd35019a46319bc4fb2a5c2bfc023e742a0d9d82010"
+              "content_hash": "9362ad912d3ce91c63d2b81baf8032412a3d56cb2b012eac9800bf532d15310d"
             }
           ]
         },
@@ -2066,45 +2072,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868m7k11q",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-21 20:33",
-                  "text": "talked with Ryan Marc and Cory about paint\nsettled on full paint\nI had Chris come and look at it spent some time going over the truck\nwe will bust our butts to get it done on time"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-21 23:31",
-                  "text": "dropped of the Blazer\nhelped with disassembly\ngot it all taken apart\nready for taping interior off and sanding"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-23 02:58",
-                  "text": "ordering parts\nmade a list\nRyan has ordered what we need"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-25 02:17",
-                  "text": "ran the door parts to painter"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-30 01:18",
-                  "text": "installed new seals in the vent windows\nhad to remove 6 rivets per side\nreinstalled the gaskets"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-10-01 01:45",
-                  "text": "assembling the truck"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-10-02 16:38",
-                  "text": "went to painters\nhelped assemble the truck\ntrailered it back to the shop\ngoing over on budget estimate due to getting it back early\nIMG_2227.jpeg"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "7ac719c957f0049a6f04a57b0b43cf450e5fe73c3b8b98745e89176d6a1d6821"
+              "content_hash": "e01310bf6f1428a8b46b1682455c530a2bbc8ce83a33cec215985dd2d098a2de"
             },
             {
               "id": "868kpg6th",
@@ -2157,9 +2127,20 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868mcx2zr",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-10-02 19:19",
+                  "text": "Ritchie polishing for final:\nFront turn signals removed\nFront bumper soft cut, polish and buff (9.5/10)\nMirrors polish and buff (7/10)\nRear bumper heavy cut, polish 3x and buff (8.5/10)\nAll 4 wheels and center caps cleaned, polished and buffed"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-10-02 19:24",
+                  "text": "paste_a919841e-9c32-413c-8db6-36ad08063fa7.jpg1000015800.jpgpaste_01f32021-abe4-49a8-9b33-9d8f298deba2.jpgpaste_265a7a58-6a82-4db3-af00-edba066d4849.jpg1000015802.jpgpaste_e82a57c4-7b2a-4fa5-81e0-95f9b22415ac.jpgpaste_ff40cdc0-0985-4704-b28d-95a43768eca1.jpgpaste_c15066d5-e557-4341-be57-2e946b11b98e.jpgpaste_f2595cdd-2ff3-4d7b-a524-298ddfd229b3.jpgpaste_3a685f88-4f3b-4be0-9f52-c7df0be006cb.jpgpaste_159e9f8c-950e-4002-a1c3-7630519a72fd.jpgpaste_3461d663-8e8c-4043-8595-69a44f166dc4.jpg1000015805.mp4https://t9011243300.p.clickup-attachments.com/t9011243300/2d7a7650-4e77-4242-a7f1-262bfa739f31/paste_a2bc8fda-49ab-4e78-8cc2-c8573af7b3dc.mp4?view=open"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "747fa4e100f5d6829fa00164ef8791025cebd71dee3273e81b4db3011c04467c"
+              "content_hash": "ca2cc19e5c731f3b9d42f50bfb75b55f693c8f001d001e9d147c725282803bb0"
             }
           ]
         },
@@ -2399,5 +2380,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-02T19:11:13Z"
+  "generated_at": "2026-10-02T19:25:46Z"
 }
