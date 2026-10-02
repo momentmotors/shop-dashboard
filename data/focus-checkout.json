@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T23:12:33.903997Z",
+  "updated_at": "2026-10-02T23:25:37.042977Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -321,10 +321,15 @@
                   "author": "Devin DuMont",
                   "date": "2026-10-02 00:24",
                   "text": "Repeated flashing the firmware burn and running through enough charge cycles to get a reasonable CellR set. Set up a logger config to monitor various internal VCU channels and repeated the cold temperature test. Plotted channels and put together a good visual of the heater and charge overlap but noticed it was still at 10C. Ran a few more tests changing various setpoints and found a combination that brings that down to 5C, and another at 2C. Sent both those configurations off the AEM for a burn. Uploaded and verified the wifi credentials."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-10-02 23:12",
+                  "text": "Repeated flashing the firmware burn and running through enough charge cycles to get a reasonable CellR set. Numbers were looking odd since the pack was too close to the top, drove a few minutes to get the pack below 390 and tried again. That worked. Started the logger and repeated the cold temperature test. Noticed hystersis not working correctly. Called Scott and discussed battery heater logic. Discovered that the default values for hystersis were in the wrong spot, making that whole bit not work. Swapping the sign over from IDx0 to IDx1 made the whole charge / heat swapover behave much more predictably. Also verified ChargingPackTempMin, which I though was the culprit earlier this week, was leftover from a previous build and not used. Corrected the hystersis table and re-ran the temp testing which now shows a very predictable outcome. I moved the setpoints to 0C and 5C and sent the calibration off for a burn. Got that back and repeated all of the above then left the truck on the charger. Still needs to be driven 15+ miles before shipping."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "630945343fe7c317421f5bec7adf0fb2f9cdc3d27821492d42196dcd18180014"
+              "content_hash": "c8b8466d5fed1b25baf892ada5562e8f8bdcf4a5a55aa680dda3f8b7c325f57e"
             }
           ]
         }
@@ -2389,5 +2394,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-02T23:10:56Z"
+  "generated_at": "2026-10-02T23:24:06Z"
 }
