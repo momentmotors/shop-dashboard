@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T23:50:27.932613Z",
+  "updated_at": "2026-10-02T00:38:42.553024Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -305,10 +305,15 @@
                   "author": "Devin DuMont",
                   "date": "2026-09-30 19:55",
                   "text": "Tested full signal chain cold battery protection by charging with the pack temp overrode to various temperatures. Watched charging \"start\" but remain at 0.0 Amps until temperature got above 0 C. Battery heater also worked as expected. Changed the 10 C AEM default lockout to 0 C and sent firmware back off for a burn."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-10-02 00:24",
+                  "text": "Repeated flashing the firmware burn and running through enough charge cycles to get a reasonable CellR set. Set up a logger config to monitor various internal VCU channels and repeated the cold temperature test. Plotted channels and put together a good visual of the heater and charge overlap but noticed it was still at 10C. Ran a few more tests changing various setpoints and found a combination that brings that down to 5C, and another at 2C. Sent both those configurations off the AEM for a burn. Uploaded and verified the wifi credentials."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "6681b75115277cb4b1e88dee45811a6efb2eb305c6e56b94e757181e3630b7e6"
+              "content_hash": "630945343fe7c317421f5bec7adf0fb2f9cdc3d27821492d42196dcd18180014"
             }
           ]
         }
@@ -2380,5 +2385,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-01T23:48:50Z"
+  "generated_at": "2026-10-02T00:37:16Z"
 }
