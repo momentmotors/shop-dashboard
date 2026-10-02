@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T20:30:52.890573Z",
+  "updated_at": "2026-10-02T20:44:33.447740Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -158,7 +158,7 @@
         "matched_lists": [
           "Ferdman 66 Bus"
         ],
-        "open_tasks": 4
+        "open_tasks": 5
       },
       "assignees": [
         {
@@ -211,6 +211,27 @@
         {
           "name": "Justin Landry",
           "tasks": [
+            {
+              "id": "868ex38xq",
+              "name": "Manufacture Core - Drivetrain Mounts",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868ex38xq",
+              "comments": [
+                {
+                  "author": "Justin Landry",
+                  "date": "2025-07-28 19:52",
+                  "text": "Finish welded the rear motor assembly."
+                },
+                {
+                  "author": "Justin Landry",
+                  "date": "2025-08-07 19:19",
+                  "text": "mocked up, test fit and final welded the drivers side drive unit mount with jordan. Drivetrain mounts are complete."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "c4d8b0b4f12e1352c94ae82b92c53cd7bd5c35b0b0b857e66cc840f144c1db30"
+            },
             {
               "id": "868m9jue7",
               "name": "Perform PDI",
@@ -2072,45 +2093,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868m7k11q",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-21 20:33",
-                  "text": "talked with Ryan Marc and Cory about paint\nsettled on full paint\nI had Chris come and look at it spent some time going over the truck\nwe will bust our butts to get it done on time"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-21 23:31",
-                  "text": "dropped of the Blazer\nhelped with disassembly\ngot it all taken apart\nready for taping interior off and sanding"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-23 02:58",
-                  "text": "ordering parts\nmade a list\nRyan has ordered what we need"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-25 02:17",
-                  "text": "ran the door parts to painter"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-30 01:18",
-                  "text": "installed new seals in the vent windows\nhad to remove 6 rivets per side\nreinstalled the gaskets"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-10-01 01:45",
-                  "text": "assembling the truck"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-10-02 16:38",
-                  "text": "went to painters\nhelped assemble the truck\ntrailered it back to the shop\ngoing over on budget estimate due to getting it back early\nIMG_2227.jpeg"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "7ac719c957f0049a6f04a57b0b43cf450e5fe73c3b8b98745e89176d6a1d6821"
+              "content_hash": "e01310bf6f1428a8b46b1682455c530a2bbc8ce83a33cec215985dd2d098a2de"
             },
             {
               "id": "868kpg6th",
@@ -2416,5 +2401,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-02T20:29:06Z"
+  "generated_at": "2026-10-02T20:42:47Z"
 }
