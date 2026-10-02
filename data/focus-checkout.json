@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T18:19:39.972749Z",
+  "updated_at": "2026-10-02T18:45:04.706236Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -695,7 +695,7 @@
         "matched_lists": [
           "LB 82 911"
         ],
-        "open_tasks": 32
+        "open_tasks": 31
       },
       "assignees": [
         {
@@ -985,98 +985,6 @@
           ]
         },
         {
-          "name": "Ryan Laurel",
-          "tasks": [
-            {
-              "id": "868jg5vhj",
-              "name": "Have seats and doors reupholstered",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868jg5vhj",
-              "comments": [
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-05-08 19:34",
-                  "text": "Talk to Angel at Colvin"
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-05-15 17:37",
-                  "text": "Will discuss with Angel when Connolly is picked up."
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-05-21 19:36",
-                  "text": "Angel has the LB Upholstery Spec PDF. He'll review and get us an estimate. He will also look to source the Recaros."
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-05-29 18:09",
-                  "text": "Waiting on Angel's estimate."
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-06-04 23:18",
-                  "text": "Angel has estimate ready. Need to confirm seat pattern. He seems to prefer the vendor Relicate. NO luck on Recaros yet, both Angel and I are searching."
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-06-12 13:15",
-                  "text": "Need yardage numbers for material. Angel should have numbers for us today, 6/12."
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-06-17 16:20",
-                  "text": "Sent accent material measurements to Angel to confirm."
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-06-24 17:23",
-                  "text": "Estimate numbers shared"
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-08-14 16:36",
-                  "text": "Need to track down leather samples."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "3f41d74eb0ac2db5177ca5dc4a12805a0d098654630a6b04a3776e2242acbed3"
-            },
-            {
-              "id": "868jg5vgm",
-              "name": "Source new Recaro seats",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868jg5vgm",
-              "comments": [
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-05-07 20:13",
-                  "text": "Style?"
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-05-08 19:31",
-                  "text": "65-73 Early 911 Recaro Sport Style Seat\n\nsierramadrecollection.com/products/porsche-911-rs-recaro-style-sport-seat-set-911-1965-1973-smc-000-911-seat?srsltid=AfmBOopTJ5lX0wNbjDhffSV7-YH3zw9HtHjWz4DKZPbslChQ9PaF0om0"
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-05-08 19:32",
-                  "text": "Search Bring a Trailer"
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-05-29 18:08",
-                  "text": "Having Angel at Colvin source Recaros"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "f41a1ab1831f47bab4988de8723de1f413f0b518995c76e2cb65dcecf7c8f10c"
-            }
-          ]
-        },
-        {
           "name": "Brandon Beaman",
           "tasks": [
             {
@@ -1291,6 +1199,67 @@
               ],
               "checklist_items": [],
               "content_hash": "e280a4c2c1565721d8d8adb491270cc979d2333a8f0929a3552a789c99b3a196"
+            }
+          ]
+        },
+        {
+          "name": "Ryan Laurel",
+          "tasks": [
+            {
+              "id": "868jg5vhj",
+              "name": "Have seats and doors reupholstered",
+              "status": "Open",
+              "list": "LB 82 911",
+              "url": "https://app.clickup.com/t/868jg5vhj",
+              "comments": [
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-05-08 19:34",
+                  "text": "Talk to Angel at Colvin"
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-05-15 17:37",
+                  "text": "Will discuss with Angel when Connolly is picked up."
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-05-21 19:36",
+                  "text": "Angel has the LB Upholstery Spec PDF. He'll review and get us an estimate. He will also look to source the Recaros."
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-05-29 18:09",
+                  "text": "Waiting on Angel's estimate."
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-06-04 23:18",
+                  "text": "Angel has estimate ready. Need to confirm seat pattern. He seems to prefer the vendor Relicate. NO luck on Recaros yet, both Angel and I are searching."
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-06-12 13:15",
+                  "text": "Need yardage numbers for material. Angel should have numbers for us today, 6/12."
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-06-17 16:20",
+                  "text": "Sent accent material measurements to Angel to confirm."
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-06-24 17:23",
+                  "text": "Estimate numbers shared"
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-08-14 16:36",
+                  "text": "Need to track down leather samples."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "3f41d74eb0ac2db5177ca5dc4a12805a0d098654630a6b04a3776e2242acbed3"
             }
           ]
         }
@@ -2080,7 +2049,7 @@
         "matched_lists": [
           "Ritchie 71 Blazer"
         ],
-        "open_tasks": 25
+        "open_tasks": 24
       },
       "assignees": [
         {
@@ -2201,21 +2170,6 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "2e00c870193a7e5cad46da2e37f7540e5a97acbc53ed4fdfd1933ebe5d4e7b9e"
-            }
-          ]
-        },
-        {
-          "name": "Ryan Laurel",
-          "tasks": [
-            {
-              "id": "868m4ae1z",
-              "name": "Coordinate paint correction with Mr. G's",
-              "status": "Open",
-              "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868m4ae1z",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "5ff3511d0337c7d3a739ec175795a471ac44c76b99781cde031a48fad16c7bcf"
             }
           ]
         }
@@ -2425,5 +2379,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-02T18:17:48Z"
+  "generated_at": "2026-10-02T18:43:19Z"
 }
