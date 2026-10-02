@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T15:15:08.804350Z",
+  "updated_at": "2026-10-02T15:33:44.759048Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -695,7 +695,7 @@
         "matched_lists": [
           "LB 82 911"
         ],
-        "open_tasks": 31
+        "open_tasks": 32
       },
       "assignees": [
         {
@@ -1099,6 +1099,21 @@
               ],
               "checklist_items": [],
               "content_hash": "657e588852ae36adbd0b2dca26bf8a922ccaf585bec646c07739ef3e4bb67a5f"
+            }
+          ]
+        },
+        {
+          "name": "Devin DuMont",
+          "tasks": [
+            {
+              "id": "868mcpttt",
+              "name": "Update thermistor data",
+              "status": "Open",
+              "list": "LB 82 911",
+              "url": "https://app.clickup.com/t/868mcpttt",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "79cf6f2ad037923633bd1a8d7cf57b69b86a8956a32a3775d690bdb28acb469e"
             }
           ]
         },
@@ -2289,7 +2304,7 @@
         "matched_lists": [
           "Teague 62 Jaguar"
         ],
-        "open_tasks": 18
+        "open_tasks": 19
       },
       "assignees": [
         {
@@ -2364,6 +2379,16 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "d5a1aa55c34751a42ba48c7a10699affc93e322a0843ec4b3d0f7dd98b960ffd"
+            },
+            {
+              "id": "868mcptq4",
+              "name": "Update thermistor data",
+              "status": "Open",
+              "list": "Teague 62 Jaguar",
+              "url": "https://app.clickup.com/t/868mcptq4",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "79cf6f2ad037923633bd1a8d7cf57b69b86a8956a32a3775d690bdb28acb469e"
             }
           ]
         },
@@ -2385,5 +2410,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-02T15:13:21Z"
+  "generated_at": "2026-10-02T15:31:30Z"
 }
