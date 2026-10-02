@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T18:56:40.601468Z",
+  "updated_at": "2026-10-02T19:12:57.180561Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -180,10 +180,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-08-11 23:34",
                   "text": "Austin vee dub - No answer\nMotormania - They don't know who could do that sort of work, but recommended calling a Jim's Top Shop\nJim's top shop - Recommended possibly Texas Auto Tops\nTexas Auto Tops - They asked for some photos. Emailed for quote.\nEmailed Austin vee dub\nSent information to Ryan to ask Colvin's\nGot information for David G - he sent photos of other 'bow' headliners he's done.\nGot parts list for David G."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-10-02 19:12",
+                  "text": "Parts on site.\nWaiting for Ferdman for installation windoww (likely in November)."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "945e93e959088c21cb4e691a5a09541c2764c1bf16baab962a769d483263db58"
+              "content_hash": "1843c5c815c71e2e36a64fa4ad4dbf966712720bc71d0bda1f38ed5a6932e46e"
             },
             {
               "id": "868m2y1ap",
@@ -2049,7 +2054,7 @@
         "matched_lists": [
           "Ritchie 71 Blazer"
         ],
-        "open_tasks": 24
+        "open_tasks": 25
       },
       "assignees": [
         {
@@ -2140,6 +2145,21 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "33a33302b2a76b7b2e5434b1a468efb4d98043f6535083e7d63c8cf8a14dad5e"
+            }
+          ]
+        },
+        {
+          "name": "Ben Drinkard",
+          "tasks": [
+            {
+              "id": "868mcx2zr",
+              "name": "Polish chrome surfaces",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868mcx2zr",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "747fa4e100f5d6829fa00164ef8791025cebd71dee3273e81b4db3011c04467c"
             }
           ]
         },
@@ -2379,5 +2399,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-02T18:54:54Z"
+  "generated_at": "2026-10-02T19:11:13Z"
 }
