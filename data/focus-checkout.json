@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T04:54:00.077856Z",
+  "updated_at": "2026-10-03T05:13:44.075218Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -723,50 +723,9 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868knrzc6",
-              "comments": [
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-18 22:21",
-                  "text": "parts searching, discussing solutions. correspondence with vendors."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-19 21:47",
-                  "text": "attempted correspondence"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-21 21:15",
-                  "text": "The company we purchased the wood trim pieces from says that their photos on their site are wrong and they do not have the correct part. I will now attempt to cut the panels for hvac using the least visible methods possible and install with the small slits under hvac."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-25 22:22",
-                  "text": "trimming dash panel. i used the old aluminum pieces as a template. i chose to undersize the hole and slowly work it out to fit our hvac piece since its such an expensive piece of wood and i didnt want to make it too large and have to scrap it."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-26 22:25",
-                  "text": "This wood trim conversion has once again snowballed, but we're nearing the tail end.\nEnded up needing to modify the Rennline HVAC panel since it didn't fit between the dashboard, which is how everything is centered. Had to cut back the beauty ring and drill and tap the billet face in 4 different spots to create new mounting tabs. It now fits and everything aligns well. Moved on to the rest of the wood trim.\nI've cut every piece that needed modification except the key switch panel, which is almost done. Some of these were supposed to be templated off the dash or the Voiture Extravert parts, but they were all done by hand and done poorly, so I had to go my own route. Should be able to get visual approval and mount everything permanently tomorrow."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-09 21:57",
-                  "text": "reaching out to local cnc shopts"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-24 22:03",
-                  "text": "remove dash trim and box up for ryan to take."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-25 21:41",
-                  "text": "meeting with the people we're working with, discussing the final product and drilling holes in there test piece to see how close it is and what changes need to be made."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "b81b5ecc3642ffa69719722c75163933f7078b2ea9515ff4b8fadd5b4eefe1df"
+              "content_hash": "ff65ffa6e3b870f14631f54ce5b0e4903067f8d847c23a2586c0bbbcbc44100a"
             },
             {
               "id": "868g811de",
@@ -784,55 +743,9 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868k84q9v",
-              "comments": [
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-07-03 01:31",
-                  "text": "mock up, check cad. mark frame and drill for rivnut installations. keep in car while checking rear batt box fitment to make sure we're good and so that I can visualize cooling lines"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-07-08 19:28",
-                  "text": "checking/measuring cad/ making temp mounting plates and get junction box mocked up into car for HV measurement."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-07-08 19:30",
-                  "text": "IMG_2142.jpeg"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-07-14 14:44",
-                  "text": "7/3 .5 hr added for mocking up of vcu adapter mounting plate that goes on box itself to hold the vcu mounting plate."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-01 16:07",
-                  "text": "install water pump mounting plates and water pump, battery heater,"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-11 23:11",
-                  "text": "remove and reinstall mounting plates for water pump and battery heater with the correct cooling hoses and fittings. install motor pump and cooling hoses/ fittings. install coolant reservoirs."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-11 23:13",
-                  "text": "IMG_2491.jpeg\nIMG_2492.jpeg\nIMG_2493.jpeg"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-11 21:12",
-                  "text": "had to remove motor water pump for harness installation. reinstall after harness has been situated. assembly and installation of vcu stack. i had to tap the pre installed threads due to powdercoat"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-25 21:43",
-                  "text": "change connectors, and secure wiring for condensors and pressure switch."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "cfdf71842c03979cc8015c38329e7272e1778ad83a4865a136cd9eec324ed7c4"
+              "content_hash": "a1dad4553ec4a5c6b34f2cb329dbf17e06855b6cce8d68227166f352a288c03c"
             },
             {
               "id": "868j7kkze",
@@ -840,35 +753,9 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868j7kkze",
-              "comments": [
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-07-27 23:16",
-                  "text": "chat with marshall about general plan."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-18 22:22",
-                  "text": "parts searching, discussions. the client now wants car play and this may be a scope change for the radio/stereo subsystem. we are looking into alternative stereo/ amplifier options."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-19 21:49",
-                  "text": "gui discussions. order new toe plate to mount gui behind since the old board was waterlogged and gross. begin making mounting plates."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-20 22:49",
-                  "text": "installation of GUI and re-do of amplifier and stereo wiring. made brackets and mounted to toe board. will transfer holes to new toe board when it arrives and swap them out."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-25 22:19",
-                  "text": "swap over the gui to the new rennline plate using the old toe plate as a template. install with ribbon cable. ready for marshall to creat my screen mount"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "05a6aff5e00485c19922dfc1cd383465396b97f94e435d62649fd36a71164aa6"
+              "content_hash": "519879917ffe918d0309316e6dbe4fc29527e23820a78f078baf0f365079af8d"
             },
             {
               "id": "868man63y",
@@ -916,15 +803,9 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868ma6wy3",
-              "comments": [
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-28 21:41",
-                  "text": "build a bracket and test install of washer bottle. remove bracket and send to pc. when it returns i can extend the wiring."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "7d88d59c42899464acafcd706eca89ffb826effc65a60f0bf08ec6565a0f322b"
+              "content_hash": "d4ae44cadf90810e01615e46fcbd16af2c2f922759587d2f20f078b1caac34aa"
             },
             {
               "id": "868j7krpv",
@@ -932,45 +813,9 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868j7krpv",
-              "comments": [
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-06-17 22:34",
-                  "text": "trying to install dash panel aluminum and wood trims during hvac and radio controls installation due to it needing to go in order.\nfound issues with the parts that we had, AND the parts the we ordered, because the car was previously modified and backdated in weird ways to accommodate their stupid vehicle control system. will need to figure out which way we want to head."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-06-19 01:54",
-                  "text": "find the trim and order. I ended up ordering the right hand drive version for 1/3 of the price as the right hand drive wood, but because I only need the center piece im pretty sure theyre the same and I can use it. if not, well send it back."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-07-22 22:59",
-                  "text": "begin assembling and trying to test fit dash parts and radio but got pulled off for pressing manufacturing tasks for cooling/ component mounting solutions."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-24 22:11",
-                  "text": "new foot panels arrived"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-25 22:26",
-                  "text": "attempted installations of dash components. not starting off well. may run into some issues with thickness of wood vs the backspacing of the hvac unit, not making contact so it doesnt sit flush. i may have to notch out the dash or file down the hardware on the hvac unit a little bit."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-23 23:12",
-                  "text": "toe panel modifications, kick panel shenanigans. will elaborate.\n\nI've run into an issue with the interior installation on LB. When I disassembled the interior, everything was nicely carpeted all the way up to the front, even the areas where the footwell blowers typically reside. At the time I took no notice, but there are supposed to be kick panels installed there in later cars to cover up the footwell blowers and their ducting. This car didn't have them, so they weren't necessary at the time.\nAlong the way, we decided to place the blowers and heat bricks in that area like we normally do, but I didn't recognize the downstream effect that would have. Today I went to install the interior panels and thought I'd misplaced them... turns out they never existed for this car.\nThe biggest issue is there are no reproductions I can find, and finding them used is nearly impossible too. Not sure why that is \u2014 I can't even find the part in the OEM catalog. I did find one used one on eBay and went ahead and ordered it, but I think I may end up trying to fit 964 versions instead. Spent a good chunk of the day combing through catalogs, websites, and eBay trying to track these down.\nI'm unsure what to do beyond that unless we have David Gonzalez make us something, or we scan and print them. For now, I think the cheapest route is ordering some used 964 parts and seeing what I can do with them. This puts a decent delay on the interior installation and may stall it for a while if we can't find replacement parts.\nHere are some pics of what I need."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-09-30 22:12",
-                  "text": "cleanup of used kick panel and test fit. i think we will end up having david g build us custom versinos based on this due to VE modifying the hood pull location and heater brick fitment."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "e715372807c1d4eeba6efdedb4901433fec22dc69e8124c69faf65bd4620fa1b"
+              "content_hash": "6c635489f5108a474d6987dff0bf83ba69168c64e3b82e6951a52696ea9b9e9c"
             },
             {
               "id": "868j7kytx",
@@ -1003,20 +848,9 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868knrzp8",
-              "comments": [
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-11 15:57",
-                  "text": "PMU1 SN : 201-2608-00284\nPMU2 SN : 201-2610-00485"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-09-25 16:47",
-                  "text": "Be sure to change speed threshold on all of the cooling and AC fans for on this vehicle."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "657e588852ae36adbd0b2dca26bf8a922ccaf585bec646c07739ef3e4bb67a5f"
+              "content_hash": "d78440966f91a7753aee616d683570b500075d7cad9fdedb5aa9cde2367c2fb5"
             }
           ]
         },
@@ -1074,55 +908,9 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868jg5vhj",
-              "comments": [
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-05-08 19:34",
-                  "text": "Talk to Angel at Colvin"
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-05-15 17:37",
-                  "text": "Will discuss with Angel when Connolly is picked up."
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-05-21 19:36",
-                  "text": "Angel has the LB Upholstery Spec PDF. He'll review and get us an estimate. He will also look to source the Recaros."
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-05-29 18:09",
-                  "text": "Waiting on Angel's estimate."
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-06-04 23:18",
-                  "text": "Angel has estimate ready. Need to confirm seat pattern. He seems to prefer the vendor Relicate. NO luck on Recaros yet, both Angel and I are searching."
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-06-12 13:15",
-                  "text": "Need yardage numbers for material. Angel should have numbers for us today, 6/12."
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-06-17 16:20",
-                  "text": "Sent accent material measurements to Angel to confirm."
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-06-24 17:23",
-                  "text": "Estimate numbers shared"
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-08-14 16:36",
-                  "text": "Need to track down leather samples."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "3f41d74eb0ac2db5177ca5dc4a12805a0d098654630a6b04a3776e2242acbed3"
+              "content_hash": "d683478c375b9364201bf8445859244c6d1d769a118725c3da3bac25c2358198"
             }
           ]
         }
@@ -1842,5 +1630,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-03T04:52:40Z"
+  "generated_at": "2026-10-03T05:12:24Z"
 }
