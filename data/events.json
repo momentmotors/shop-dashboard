@@ -95,12 +95,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Justin L Out",
+              "summary": "Jordan J Long Lunch",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Jordan J Long Lunch",
+              "summary": "Justin L Out",
               "type": "pto",
               "all_day": true
             }
@@ -259,5 +259,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-03T08:16:40Z"
+  "generated_at": "2026-10-03T08:44:37Z"
 }
