@@ -42,14 +42,14 @@
         {
           "date": "2026-10-02",
           "day_name": "Friday",
-          "is_today": true,
+          "is_today": false,
           "is_weekend": false,
           "events": []
         },
         {
           "date": "2026-10-03",
           "day_name": "Saturday",
-          "is_today": false,
+          "is_today": true,
           "is_weekend": true,
           "events": []
         },
@@ -95,12 +95,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Justin L Out",
+              "summary": "Jordan J Long Lunch",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Jordan J Long Lunch",
+              "summary": "Justin L Out",
               "type": "pto",
               "all_day": true
             }
@@ -259,5 +259,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-02T23:48:38Z"
+  "generated_at": "2026-10-03T00:34:30Z"
 }
