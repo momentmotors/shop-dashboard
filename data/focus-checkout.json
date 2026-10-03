@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T05:13:44.075218Z",
+  "updated_at": "2026-10-03T05:38:44.369691Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -723,9 +723,50 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868knrzc6",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-18 22:21",
+                  "text": "parts searching, discussing solutions. correspondence with vendors."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-19 21:47",
+                  "text": "attempted correspondence"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-21 21:15",
+                  "text": "The company we purchased the wood trim pieces from says that their photos on their site are wrong and they do not have the correct part. I will now attempt to cut the panels for hvac using the least visible methods possible and install with the small slits under hvac."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-25 22:22",
+                  "text": "trimming dash panel. i used the old aluminum pieces as a template. i chose to undersize the hole and slowly work it out to fit our hvac piece since its such an expensive piece of wood and i didnt want to make it too large and have to scrap it."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-26 22:25",
+                  "text": "This wood trim conversion has once again snowballed, but we're nearing the tail end.\nEnded up needing to modify the Rennline HVAC panel since it didn't fit between the dashboard, which is how everything is centered. Had to cut back the beauty ring and drill and tap the billet face in 4 different spots to create new mounting tabs. It now fits and everything aligns well. Moved on to the rest of the wood trim.\nI've cut every piece that needed modification except the key switch panel, which is almost done. Some of these were supposed to be templated off the dash or the Voiture Extravert parts, but they were all done by hand and done poorly, so I had to go my own route. Should be able to get visual approval and mount everything permanently tomorrow."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-09-09 21:57",
+                  "text": "reaching out to local cnc shopts"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-09-24 22:03",
+                  "text": "remove dash trim and box up for ryan to take."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-09-25 21:41",
+                  "text": "meeting with the people we're working with, discussing the final product and drilling holes in there test piece to see how close it is and what changes need to be made."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "ff65ffa6e3b870f14631f54ce5b0e4903067f8d847c23a2586c0bbbcbc44100a"
+              "content_hash": "b81b5ecc3642ffa69719722c75163933f7078b2ea9515ff4b8fadd5b4eefe1df"
             },
             {
               "id": "868g811de",
@@ -733,9 +774,15 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868g811de",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-06-17 22:26",
+                  "text": "attempt to pull vacuum, chase down some leaks and realize that the \"mock up\" drier was still installed. the fittings left loose on purpose so that I didn't end up running it if I had forgotten.\npull vacuum again and check. all is good. left in vacuum for future charge"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "3047aff25ed9ada9726d733f6e694f9ca7be9cc80910b77feb785931c769526f"
+              "content_hash": "9a0c226a3c8f737966bd9246aeb0e275a511ac285afc31173aa711249b4cad19"
             },
             {
               "id": "868k84q9v",
@@ -743,9 +790,55 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868k84q9v",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-07-03 01:31",
+                  "text": "mock up, check cad. mark frame and drill for rivnut installations. keep in car while checking rear batt box fitment to make sure we're good and so that I can visualize cooling lines"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-07-08 19:28",
+                  "text": "checking/measuring cad/ making temp mounting plates and get junction box mocked up into car for HV measurement."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-07-08 19:30",
+                  "text": "IMG_2142.jpeg"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-07-14 14:44",
+                  "text": "7/3 .5 hr added for mocking up of vcu adapter mounting plate that goes on box itself to hold the vcu mounting plate."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-01 16:07",
+                  "text": "install water pump mounting plates and water pump, battery heater,"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-11 23:11",
+                  "text": "remove and reinstall mounting plates for water pump and battery heater with the correct cooling hoses and fittings. install motor pump and cooling hoses/ fittings. install coolant reservoirs."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-11 23:13",
+                  "text": "IMG_2491.jpeg\nIMG_2492.jpeg\nIMG_2493.jpeg"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-09-11 21:12",
+                  "text": "had to remove motor water pump for harness installation. reinstall after harness has been situated. assembly and installation of vcu stack. i had to tap the pre installed threads due to powdercoat"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-09-25 21:43",
+                  "text": "change connectors, and secure wiring for condensors and pressure switch."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "a1dad4553ec4a5c6b34f2cb329dbf17e06855b6cce8d68227166f352a288c03c"
+              "content_hash": "cfdf71842c03979cc8015c38329e7272e1778ad83a4865a136cd9eec324ed7c4"
             },
             {
               "id": "868j7kkze",
@@ -753,9 +846,35 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868j7kkze",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-07-27 23:16",
+                  "text": "chat with marshall about general plan."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-18 22:22",
+                  "text": "parts searching, discussions. the client now wants car play and this may be a scope change for the radio/stereo subsystem. we are looking into alternative stereo/ amplifier options."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-19 21:49",
+                  "text": "gui discussions. order new toe plate to mount gui behind since the old board was waterlogged and gross. begin making mounting plates."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-20 22:49",
+                  "text": "installation of GUI and re-do of amplifier and stereo wiring. made brackets and mounted to toe board. will transfer holes to new toe board when it arrives and swap them out."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-25 22:19",
+                  "text": "swap over the gui to the new rennline plate using the old toe plate as a template. install with ribbon cable. ready for marshall to creat my screen mount"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "519879917ffe918d0309316e6dbe4fc29527e23820a78f078baf0f365079af8d"
+              "content_hash": "05a6aff5e00485c19922dfc1cd383465396b97f94e435d62649fd36a71164aa6"
             },
             {
               "id": "868man63y",
@@ -803,9 +922,15 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868ma6wy3",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-09-28 21:41",
+                  "text": "build a bracket and test install of washer bottle. remove bracket and send to pc. when it returns i can extend the wiring."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "d4ae44cadf90810e01615e46fcbd16af2c2f922759587d2f20f078b1caac34aa"
+              "content_hash": "7d88d59c42899464acafcd706eca89ffb826effc65a60f0bf08ec6565a0f322b"
             },
             {
               "id": "868j7krpv",
@@ -813,9 +938,45 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868j7krpv",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-06-17 22:34",
+                  "text": "trying to install dash panel aluminum and wood trims during hvac and radio controls installation due to it needing to go in order.\nfound issues with the parts that we had, AND the parts the we ordered, because the car was previously modified and backdated in weird ways to accommodate their stupid vehicle control system. will need to figure out which way we want to head."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-06-19 01:54",
+                  "text": "find the trim and order. I ended up ordering the right hand drive version for 1/3 of the price as the right hand drive wood, but because I only need the center piece im pretty sure theyre the same and I can use it. if not, well send it back."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-07-22 22:59",
+                  "text": "begin assembling and trying to test fit dash parts and radio but got pulled off for pressing manufacturing tasks for cooling/ component mounting solutions."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-24 22:11",
+                  "text": "new foot panels arrived"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-25 22:26",
+                  "text": "attempted installations of dash components. not starting off well. may run into some issues with thickness of wood vs the backspacing of the hvac unit, not making contact so it doesnt sit flush. i may have to notch out the dash or file down the hardware on the hvac unit a little bit."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-09-23 23:12",
+                  "text": "toe panel modifications, kick panel shenanigans. will elaborate.\n\nI've run into an issue with the interior installation on LB. When I disassembled the interior, everything was nicely carpeted all the way up to the front, even the areas where the footwell blowers typically reside. At the time I took no notice, but there are supposed to be kick panels installed there in later cars to cover up the footwell blowers and their ducting. This car didn't have them, so they weren't necessary at the time.\nAlong the way, we decided to place the blowers and heat bricks in that area like we normally do, but I didn't recognize the downstream effect that would have. Today I went to install the interior panels and thought I'd misplaced them... turns out they never existed for this car.\nThe biggest issue is there are no reproductions I can find, and finding them used is nearly impossible too. Not sure why that is \u2014 I can't even find the part in the OEM catalog. I did find one used one on eBay and went ahead and ordered it, but I think I may end up trying to fit 964 versions instead. Spent a good chunk of the day combing through catalogs, websites, and eBay trying to track these down.\nI'm unsure what to do beyond that unless we have David Gonzalez make us something, or we scan and print them. For now, I think the cheapest route is ordering some used 964 parts and seeing what I can do with them. This puts a decent delay on the interior installation and may stall it for a while if we can't find replacement parts.\nHere are some pics of what I need."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-09-30 22:12",
+                  "text": "cleanup of used kick panel and test fit. i think we will end up having david g build us custom versinos based on this due to VE modifying the hood pull location and heater brick fitment."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "6c635489f5108a474d6987dff0bf83ba69168c64e3b82e6951a52696ea9b9e9c"
+              "content_hash": "e715372807c1d4eeba6efdedb4901433fec22dc69e8124c69faf65bd4620fa1b"
             },
             {
               "id": "868j7kytx",
@@ -848,9 +1009,20 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868knrzp8",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-11 15:57",
+                  "text": "PMU1 SN : 201-2608-00284\nPMU2 SN : 201-2610-00485"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-25 16:47",
+                  "text": "Be sure to change speed threshold on all of the cooling and AC fans for on this vehicle."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "d78440966f91a7753aee616d683570b500075d7cad9fdedb5aa9cde2367c2fb5"
+              "content_hash": "657e588852ae36adbd0b2dca26bf8a922ccaf585bec646c07739ef3e4bb67a5f"
             }
           ]
         },
@@ -893,9 +1065,45 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868g3pt4u",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Marshall Carter",
+                  "date": "2026-07-18 02:02",
+                  "text": "-took photos and measurements\n-found some friction hinges that could be used for a flip screen that could stay hidden\n-decided where it would mount under the dash and started design"
+                },
+                {
+                  "author": "Marshall Carter",
+                  "date": "2026-07-28 01:58",
+                  "text": "-Met with Aharon to come up with game plan for exactly where the hinge would mount so that we could place the screen under the radio\nimage.png"
+                },
+                {
+                  "author": "Marshall Carter",
+                  "date": "2026-08-26 10:57",
+                  "text": "image.png\nimage.png\nimage.png\n-Scanned interior around radio so that I could see where I have clearance for a tucked away screen\n-Positioned hinge and screen so that when open, it matches the same plane that the the radio faces\n-Designed sheet metal bracket to mount the screen to the hinge\n-Printing out bracket so that it can be fit tested in car.... then will determine if a bracket is needed to mount the hinge to the dash (most likely will)\n-Because apple car play is going to be used, we might need to design a bezel around screen.. will get feedback for this today"
+                },
+                {
+                  "author": "Marshall Carter",
+                  "date": "2026-08-26 10:59",
+                  "text": "image.png"
+                },
+                {
+                  "author": "Marshall Carter",
+                  "date": "2026-08-29 02:54",
+                  "text": "-Fit tested bracket and mounted to a test bench\n-Because the screen will be more of a focus with the need to control audio, it needs to feel solid when being used as a touch screen. Feedback was that the friction hinge was not quite enough solid so I was asked to look into alternative options that would feel more solid"
+                },
+                {
+                  "author": "Marshall Carter",
+                  "date": "2026-09-23 19:07",
+                  "text": "-Updated design to have a magnet stopper to hold open\n-Also added bezel to the screen mount\nimage.png\nimage.png"
+                },
+                {
+                  "author": "Marshall Carter",
+                  "date": "2026-10-02 22:15",
+                  "text": "-Assembled mockup to test/get feedback on Monday."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "df7c11733df84fd67801142bd3aa45a78a05c5a8888d5a0f06b179cafeb5b586"
+              "content_hash": "7c4c8fe8b65ea1120634405ec12c776a9d48f97044dc18d38f20ff70deda08d3"
             }
           ]
         },
@@ -908,9 +1116,55 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868jg5vhj",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-05-08 19:34",
+                  "text": "Talk to Angel at Colvin"
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-05-15 17:37",
+                  "text": "Will discuss with Angel when Connolly is picked up."
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-05-21 19:36",
+                  "text": "Angel has the LB Upholstery Spec PDF. He'll review and get us an estimate. He will also look to source the Recaros."
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-05-29 18:09",
+                  "text": "Waiting on Angel's estimate."
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-06-04 23:18",
+                  "text": "Angel has estimate ready. Need to confirm seat pattern. He seems to prefer the vendor Relicate. NO luck on Recaros yet, both Angel and I are searching."
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-06-12 13:15",
+                  "text": "Need yardage numbers for material. Angel should have numbers for us today, 6/12."
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-06-17 16:20",
+                  "text": "Sent accent material measurements to Angel to confirm."
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-06-24 17:23",
+                  "text": "Estimate numbers shared"
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-08-14 16:36",
+                  "text": "Need to track down leather samples."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "d683478c375b9364201bf8445859244c6d1d769a118725c3da3bac25c2358198"
+              "content_hash": "3f41d74eb0ac2db5177ca5dc4a12805a0d098654630a6b04a3776e2242acbed3"
             }
           ]
         }
@@ -940,9 +1194,15 @@
               "status": "Open",
               "list": "Lee 68 Mustang",
               "url": "https://app.clickup.com/t/868ma13ge",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-10-01 13:48",
+                  "text": "Waiting on Andrew's Response looking into DCDC re enable feature. Or possibly a DCDC Enable Retry function if the enable failed once prior on startup."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "26f8822760d18edb4fc4a7cb4f99e992a49bc45eebee7351cd5c20fc681e9505"
+              "content_hash": "8a153a62985da2fdb21d2c5c4889c4c4a072ed17d5dc761e289743f31746cbcf"
             },
             {
               "id": "868kar0ru",
@@ -950,9 +1210,80 @@
               "status": "Open",
               "list": "Lee 68 Mustang",
               "url": "https://app.clickup.com/t/868kar0ru",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-07-13 20:26",
+                  "text": "Started NVH inspection to determine where the extra noise was coming from and or how to solve it.\nFound that we did not have any sound deadening in stock.\nOrdered up both a set of butyl sound deadening and adhesive backed foam layer to help with vibrations and other low frequencies being transmitted through the tunnel.\nWhile waiting for these items to be shipped I inspected the motor cradle and clearances around the motor.\nFound a couple small pieces of hardware sitting between the motor and cradle which could potentially been transmitting a bit of sound through the frame of the car.\nCleaned out the cradle. This took a decent amount of effort and time due to the hardware being lodged in between the motor and cradle.\nThis was definitely transmitting something into the car likely not much but might be just enough to notice.\nContinue with cover the under side of the tunnel once the material arrives."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-07-16 23:36",
+                  "text": "Installed sound deadening in the trans tunnel area to help with NVH.\nWill test to verify noise reduction once the new driveshaft gets installed."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-07 00:43",
+                  "text": "Gear box noise issue was still bad enough that we need to continue addressing the issue.\nQuick Meeting with Marc and geoff on possible solutions.\nSetup chassis ears on the vehicle.\nTest drove the vehicle and reported findings from the chassis ears.\n\n\nRed - Subframe right behind the sled / trans mounting area.\nWhite - Motor Cradle\nGreen - Rear most part of the subframe assembly to verify if its truly transmitting through the tubular structure.\nYellow - Sheet metal at the front of the vehicle.\n\nThis is from Slack:\nAfter a quick test drive.\n\nWhite showed to be the loudest. Very much dependent on speed. The faster you went the louder it got but was louder on decel than it was on acceleration. It was also more a screeching sound than a gear sound but that would just be the way gears sound in a mono analog input.\n\nRed required almost double if not triple the volume to hear the sounds we were hoping to. So I dont think the sound is transmitting through just the subframe.\n\nGreen verifys that the sound is not being directly transmitted through the sub frame structure that the cradle is mounted to. With the volume at max its still very hard to hear any of the noises we are chasing. But I did notice a clicking sound coming from the rear end area of the vheicle using this one.\n\nYellow showed basically no noise I could hear the power steering pump over everything else.\n\nOverall I feel like its possible that SEV is loud and that loudness is being transmitted through the entire vehicle just enough to where the entire vehicle is basically becoming a speaker for these noises.\n\nI can run more tests if we would like and maybe have another set of ears listen to it to verify the same findings. This however was what I noticed.\nOk so I moved red even closer to the cradle. Moved on to the vertical uprights that box in the cradle at the transmission mount.\n\nAs well as Added Blue.\n\nBlue is attached to the drain plug hole for the motor.\n\nBasically the same results as before.\n\nRed had no smoking gun noises present even being as close as it is. With the chassis ears at max volume you can slightly hear the gear box but Im pretty sure thats from surrounding vibrations in the air since the gain is up so high.\n\nBlue basically the same story as red. You can hear the gear box slightly with the chassis ears at max volume but not at all representative of what we are hearing in the cabin of the vehicle.\n\nNext plan was to swap the SEV and attempt to add luxury liner to the underside of the tunnel.\nPulled motor and gearbox.\nSwapped gear box.\nPrepped for install.\nStill need to install luxury liner and motor into the vehicle."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-07 23:30",
+                  "text": "Finished installing the motor and all other changes we wanted to make while changing out the SEV.\nAdded luxury line under to the tunnel to help with noise.\nInstalled new new new driveshaft.\nTested vehicle during driveshaft balancing.\nGearbox sounds very similar to how it did.\nWill need to road test and verify if there are any more changes necessary."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-17 22:06",
+                  "text": "Waiting on New sled from OSH.\nparts added to order OA226"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-02 23:55",
+                  "text": "New sled Arrived\nJustin Welded up the metal.\nI handed metal off to Ryan to drop off at Powder Coat ASAP.\nRemoved the motor from the vehicle today while the battery box was removed from the vehicle.\nIn preparation for the new sled to return.\nCleaned up bay from motor removal."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-08 20:59",
+                  "text": "Started transferring components over to the new sled.\nfound that a couple of the hole in the new mounting plate were actually sized for M8s when the bolts are m10. Will update Geoff on this to make the correction.\nModified mounting plate.\nContinued transferring parts over.\nFound that the bushing shim definitely will not fit as is unless we do some major hammering and or forcing of the part to fit.\nWaiting for confirmation of if we want to wait until the parts on order show up. Current ETA is the 11th.\nFound that the oil temp sensor does collide with the slide when installed.\nRemoved motor from sled and swapped for a plug.\nReinstalled motor into the sled.\nOnce we decide on the bushing shim we can move forward appropriately with this."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-10 21:57",
+                  "text": "Finished swapping the motor over to the new cradle.\nChecked fluids.\nInstalled motor and new cradle into the vehicle.\nContinue with installing all remaining pieces to finish motor install and move on to the battery box."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-11 20:24",
+                  "text": "Finished installing the driveshaft and all of the motors connecting components."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-15 22:28",
+                  "text": "Continued testing on this vehicle to determine if the NVH issue is still present on this vehicle.\nUsing Chassis ear tested a handful of different spots on the car and didnt find any substantial evidence for a very clear source of the sound.\nWorked with Marc and spun the vehicle driveline up while the vehicle was on the lift inspecting different areas and listening for the most apparent sounds.\nMarc and I both come to the conclusion that it seems like most of the sound is being transmitted through the driveshaft of the vehicle.\nCombined with how stiff the chassis is reverberations and loudness are all amplified compared to Vargas.\nBack to back comparison to Vargas shows both mustang making the exact same sounds joust at different amplitudes. Lees mustang being the louder of the 2.\nDetermined that the next best step is to add sound deadening to the interior of the vehicle to try and help cut back on all of the NVH as much as possible.\nAt this point we have to to shift from getting rid of the sound entirely to just making the sound bearable. There are no apparent  solutions for this vehicle due to the way the vehicle is manufactured and equipped. Its almost too good for how quite our systems are.\nWill continue the sound deadening install on it own specific task."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-16 18:41",
+                  "text": "Aharon finished balancing the driveshaft.\nTest drove the vehicle after to get a feel for the balance.\nCar felt great. No crazy vibrations felt up to 60-65 mph. Still need to do highway testing.\nThe weird thing I noticed though was that with the center console out of the car the Gear groan / Noise was bearable. It wasnt obnoxious or crazy. Still present but drivable. The center console must be acting as amplifier as well especially the center console cubby box thing. We should also add sound treatment to the underside of this as well.\nWill add this to the list of things to address when it comes to NVH and or sound deadening."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-10-01 15:09",
+                  "text": "Waiting on next step decision. If we are swapping motor mounts or modifying the drive shaft in some way.\nTalks about potential softer motor bushings."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-10-01 17:33",
+                  "text": "NVH and Chassis ear inspection with Marc the interesting thing we found is the 3rd link / power brace in the vehicle is vibrating in the same way that the sound is being transmitted.\nHowever when disconnecting this piece from the from mount isolating the power brace. It is still vibrating in the same way so this problem is being transmitted in weird ways that may not have a great or elegant solution to isolate.\nStill brainstorming ideas to determine what the next best move is."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-10-01 20:54",
+                  "text": "More testing and diag.\nAdded rubber sheet back to the trans mount area.\nPossible that this noise is coming from the rear end which I have mentioned as a possibility in the past.\nWill continue to look at possibilities and make changes / test as appropriate."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "81f39ba736af763f83f49b6fedf30a2fdf335687e9151342ce85d6b418b9ab2a"
+              "content_hash": "8bfd2cad3c03ea6993a91b2c7aba5fae0e995c8200c01f4f691d4769d03e0cce"
             },
             {
               "id": "868kvft7k",
@@ -960,9 +1291,60 @@
               "status": "Open",
               "list": "Lee 68 Mustang",
               "url": "https://app.clickup.com/t/868kvft7k",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-28 20:51",
+                  "text": "Gathered some data to start the Diag of possible DCDC timing fault and or VCU programming errors on our Dilong chargers.\nDCDC errors show up when the key is cycled off to on in quick succession."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-14 21:05",
+                  "text": "image.png\nimage.png\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-14 21:58",
+                  "text": "2026-08-11 Lee Mustang Inverter Config defsyms_20250513_09142026.txtAdjusted Torque Rate Limit from 50 to 70"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-14 22:08",
+                  "text": "Updated VCU.\nQuickly went through the settings and config to make sure things didnt change.\nThis vehicle has not had a lot of time or tuning done to it so this was not difficult nor were there a bunch of settings that would have been changed yet.\nVCU updated to the latest firmware.\nAdjusted Launch gain to 70, Test drive, adjusted to 100, Test drive.\nDidn't have any noticeable difference at this time.\nWill need to charge the vehicle before further testing.\nUpdated Torque Rate limit from 50 to 70 on the EEPROM settings since 70 is stock. Not entirely sure how it was reduced down to 50 but this should also help the acceleration."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-22 15:45",
+                  "text": "image.png\nimage.png\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-22 15:47",
+                  "text": "Reverted Firmware from GEN5_CC_CM_20250514_6533 \u2192 GEN5_CC_CM_20240829_6531.\nVerified EEPROM settings remained persistent through the firmware revert.\nThe only four that disappear are the Active Short Circuit trio and the DC-link flux-weakening flag, and all four were reading zero on 6533, so no live configuration was lost.\nAttached below is the report from comparing before and after EEPROM settings.\n\nLee_Mustang_Firmware_Revert_Verification.pdf"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-22 16:26",
+                  "text": "Test drove vehicle.\nFound that the vehicle makes much more torque now. Enough to finally chirp the tires a little bit.\nHowever when the tires break traction the inverter has faulted out both times.\nTwo events, both a complete loss of drive\n\n\nDuring both, inverter current sits at 0.2\u20130.4 A and delivered torque at zero. The car is making nothing for forty seconds at a stretch.\nIn event 2 the driver clearly tried to get it back \u2014 at t = 355.6 to 356.4 the pedal goes 68%, 81%, 97%, command rises to 350 Nm, and the inverter still puts out 0.2 A.\n\nBoth trip at the same place\n\nBoth faults set on the very next sample after peak torque, during a hard launch from low speed.\nIt isn't torque on its own. Pull 2 made 591 Nm at 4,746 rpm and pull 3 made 589 Nm at 3,148 rpm, and neither tripped. Both trips were below 1,750 rpm. The envelope that kills it is high torque below about 2,000 rpm \u2014 which is exactly where phase current peaks and back-EMF is lowest, even though DC current is only ~200 A. With IQ_Limit_EEPROM at 1272 A, that corner is where the phase-current limit would bite first.\nNot thermal: inverter was at 42\u201344 \u00b0C and the motor at 24\u201340 \u00b0C at both trips. Stone cold.\n\nNeither clears on its own\nBoth events end only when HV is cycled. Bus goes 590 \u2192 260 \u2192 33 \u2192 0 V, validity flags drop for 8 s (event 1) and 3.8 s (event 2), HV comes back, fault clears. Nothing in the log suggests it would have recovered otherwise.\n\nNothing else flags it\nDrvInvtrDsblReason reads No Fault on all 11,582 samples. So do APPLimReason, LimpInModeReason and both HVSysDsblLevel codes. DrvMtrTrqVld and DrvInvtrCurVld stay at 1 throughout the fault \u2014 they only drop during the HV-off window. The raw DrvInvtrFault bit is the only thing that catches this, which is worth knowing for the tab spec and for anyone reading these logs."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-30 21:37",
+                  "text": "VCM_517_Motoring Claude_2026_09_22_11_58_54_10msTest_Inverter Fault.csv"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-30 21:47",
+                  "text": "Updating BMS Firmware to latest to fix slow contactor.\n\nInitial Settings.\nimage.png\nimage.png\nimage.png\nFlashing Process to AmpereBMS_V26_40_2_4_Beta\nimage.png\nimage.png\nimage.png\n\nPost Flash Screenshots\nimage.png\nimage.png\nimage.png\n\nVerification Report\nEvery setting carried over unchanged. The only intended change is the firmware version, and the rest of the differences are normal live-reading drift.\nWhat changed\n\n\nThe voltage and temperature changes are 10\u201320 mV and a few hundredths of a degree, which is just the pack sitting idle.\nWhat matched exactly\nEEPROM (all 44 fields): version 7, checksum 0, battery ID 1, CAN 500k, log level 0b100, lifetime counters all 0, contactor cycles 107, DUL 0, print_details 0, HW rev 2, 2 host nodes, 144S2P, 8 modules. All thermistor settings match: counts, beta and R0 values, OT/UT thresholds, ADC max/min, config, filter settings, tsref type 2, and M1\u2013M8 enables all 11111111. Debounce raw values are still 100 / 10 / 5 / 5.\nSystem config: HW version 2, serial 79, vehicle DBC 20, internal DBC 10, EEPROM v7, 12 series cells per module node. All logger messages are still disabled.\nInput settings: wake debounce 500 / 50 ms, contactor feedback 25 / 25 ms.\nLive status: cell min/max/average and OCV, highest/lowest cell IDs (38 / 57), temperature sensor IDs (57 / 25), contactors commanded and actual both 0, HVIL 1/1/0, isolation 0 k\u03a9, current 0 A.\nContactor cycles are still 107, so the contactors weren't closed during the flash. The checksum still reads 0 and HVIL_3 is still 0, same as before the update, so nothing new there. The DBC versions didn't change either, so the VCU side shouldn't need a new CAN database for this firmware.\n\n\nMaster Box Successfully Updated"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-30 22:00",
+                  "text": "Updating BMS Firmware To the latest to correct the Slow Contactor.\n\n\nInitial Settings\nimage.png\nimage.png\nimage.png\n\n\nFlashing to AmpereBMS_V26_40_2_4_Beta\nimage.png\nimage.png\n\nPost Flash Screenshots\nimage.png\nimage.png\nimage.png\n\n\nVerification Report\nThe rear box matches too. Every setting carried over, and the only intended change is the firmware version.\nWhat changed\n\n\nThe temperature changes are hundredths of a degree. The lowest-cell ID moving from 1 to 2 doesn't mean anything either: the lowest reading is still 3.992 V, so two cells are just trading places for the lowest spot.\nWhat matched exactly\nEEPROM (all 44 fields): Battery ID 2, 144S2P, 4 modules, 8 cell thermistors plus 1 coolant, and all beta, R0, OT/UT, ADC and filter settings. Debounce raw values are still 100 / 10 / 5 / 5, enables M1\u2013M8 are still all 11111111, and contactor cycles are still 405.\nSystem config: HW version 2, serial 53, vehicle DBC 20, internal DBC 10, EEPROM v7. All logger messages are still disabled.\nLive status: pack voltage is still 191.680 V, cells are still 3.992\u20133.996 V, HVIL is still 0/1/1, contactors are still open, and isolation still reads 0 k\u03a9.\nBoth boxes together: the front (ID 1, SN 79) and rear (ID 2, SN 53) are now both on 26.40.2.4. No configuration changed on either one, and the DBC versions are the same as before on both, so nothing should need to change on the VCU side.\n\n\nSat Box BMS Firmware Updated Successfully."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
+              "content_hash": "7fcdaa4db2e08760a7cf2eff928dc7fb788558851b0662ea817834e25e0b943e"
             },
             {
               "id": "868m8fhnh",
@@ -970,9 +1352,60 @@
               "status": "Open",
               "list": "Lee 68 Mustang",
               "url": "https://app.clickup.com/t/868m8fhnh",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-23 15:06",
+                  "text": "Further diag / analysis on Lee for the inverter fault.\nShows that the inverter is faulting due to an over current. However it does also seem like there might be a potential phase irregularity. coming through when the torque is peaked and or when the tire break traction.\nWill need to reach out to cascadia on this one as per Marcs request.\nWe did get the full torque back though now so there is definitely an issue with the newest 6533 firmware thats knocking 100+Nm off of our max usable torque.\nAttached is a sort report based on the EEPROM, Inverter Diag Data and a Raptor log. This report however is not a concrete problem nor a solution but a general report based on the diag data we I collected. Using my claude.\n\n\nDate: Tuesday, September 22, 2026\nVehicle/System: Lee 68 Mustang \u2014 Cascadia inverter, Ampere EV VCU (New Eagle VCM_517)\nInverter firmware: GEN5_CC_CM_20250514_6533 (defsyms_20250513) \u2192 GEN5_CC_CM_20240829_6531 (defsyms_20240829)\nClickUp: Checkout vehicle \u2014 Monthly Goal, Lee 68 Mustang \u00b7 Open \u00b7 Urgent \u00b7 due Sep 30 \u00b7 2.5 h of 8 h logged (5.5 h remaining)\nObjective\nBack-rev the Cascadia inverter to 6531 to recover the missing peak torque, verify no EEPROM configuration was lost in the revert, and road-test to confirm the vehicle now makes full requested torque.\nWhat we did\nConfirmed the target build with Marc and Devin before flashing. Reverted the inverter from 6533 to 6531, then ran a before/after EEPROM comparison to prove nothing live was lost. Road-tested with full-throttle pulls, captured Raptor logs, and analyzed the two inverter faults that came out of it. Added signals to the 10 ms log list, set shudder compensation back to stock per Marc, and pulled inverter diag data and the full EEPROM for Cascadia.\nKey findings\nThe back-rev worked \u2014 torque is back. The car now makes 100% of requested torque, and arguably 102%. It makes enough torque to chirp the tires, which it could not do on 6533.\nThe revert cost nothing live. All EEPROM settings stayed persistent through the flash. Only four parameters disappear on 6531 \u2014 the Active Short Circuit trio and the DC-link flux-weakening flag \u2014 and all four were reading zero on 6533, so no live configuration was lost. Documented in Lee_Mustang_Firmware_Revert_Verification.pdf.\nNew problem: the inverter faults when the tires break traction. Two events on the first drive, both a complete loss of drive. During both, inverter current sits at 0.2\u20130.4 A with delivered torque at zero \u2014 the car makes nothing for forty seconds at a stretch. In event 2 the driver clearly tried to get it back: at t = 355.6\u2013356.4 s the pedal goes 68% \u2192 81% \u2192 97% and command rises to 350 Nm, and the inverter still puts out 0.2 A.\nBoth trip in the same envelope, and it isn't torque alone. Both faults set on the very next sample after peak torque, during a hard launch from low speed, both below 1,750 rpm. Pull 2 made 591 Nm at 4,746 rpm and pull 3 made 589 Nm at 3,148 rpm \u2014 neither tripped. The envelope that kills it is high torque below about 2,000 rpm, exactly where phase current peaks and back-EMF is lowest, even though DC current is only ~200 A. With IQ_Limit_EEPROM at 1272 A, that corner is where the phase-current limit would bite first.\nNot thermal. Inverter at 42\u201344 \u00b0C and motor at 24\u201340 \u00b0C at both trips. Stone cold.\nNeither clears on its own. Both events end only when HV is cycled: bus goes 590 \u2192 260 \u2192 33 \u2192 0 V, validity flags drop for 8 s (event 1) and 3.8 s (event 2), HV comes back, fault clears. Nothing in the log suggests it would have recovered otherwise.\nNothing but the raw bit catches it. DrvInvtrDsblReason reads No Fault on all 11,582 samples \u2014 as do APPLimReason, LimpInModeReason and both HVSysDsblLevel codes. DrvMtrTrqVld and DrvInvtrCurVld stay at 1 throughout the fault and only drop during the HV-off window. The raw DrvInvtrFault bit is the only signal that catches this \u2014 worth knowing for the tab spec and for anyone else reading these logs.\nFault decoded as hardware over-current. Marc read it out as INV_Run_Fault_Lo = 0x0200 (Post faults both 0x0000) \u2014 Hardware Over-current Fault, 0x00000200. Raptor surfaces it as InvtrReportsOverCurrentFault. Devin's read on the trace was that CAN1 may have dropped.\nOn the version question: Marc flagged a possible 6532 between the two builds; Devin confirmed 6532 was skipped \u2014 6531 is the right target. Devin also noted some inverters have arrived from the factory on that firmware, and he had to fabricate a symbols file to pull an EEPROM backup before flashing; that extracted firmware is overwritten now.\nArtifacts produced\nLee_Mustang_Firmware_Revert_Verification.pdf \u2014 before/after EEPROM comparison\nVCM_517_Motoring Claude_2026_09_22_10_52_43_Lee_6531_Initial.csv \u2014 first log after revert: 2 inverter faults on wheelspin, 2 full-throttle pulls, 2 key cycles\nVCM_517_Motoring Claude_2026_09_22_11_58_54_10msTest_Inverter Fault.csv \u2014 with added 10 ms signals\nLee Diag 09.22.26 1200pm \u2014 inverter diag data\n2026-09-22 Lee Mustang EEPROM Rev.1 defsyms_20240829 \u2014 full EEPROM for Cascadia\nLee_Mustang_Cascadia_Issue_Report_1.pdf \u2014 issue write-up for Cascadia"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-23 15:10",
+                  "text": "Reverted Torque_Rate_Limit_EEPROM_(Nm)_x_10 to 50 (5 Nm)"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-23 15:13",
+                  "text": "Visual inspection shows that the inverter resolver cable is not damaged or installed improperly.\nEverything is still secured as it was before.\nThe only thing that may changed would have been routing of the cable.\nFirst will be the Torque rate test and then Self sense. If neither of those work I will re route the cable.\nFurther testing to still be done and a resolution to be found.\nAlso spent a little bit of time to wipe down the car since it was looking unacceptably dirty."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-23 16:58",
+                  "text": "VCM_517_Motoring Claude_2026_09_23_11_33_26_TorqueRateSetto50.csv"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-23 16:58",
+                  "text": "This is with the Torque rate set back to 50. No real change there.\n\nWasn't able to get diag data. RMS GUI wouldn't open. Diving into that next. Could be indicator to a damaged harness if I cant get this setup to work on another vehicle.\n\nHere a couple claude responses.\n\nQ: Could this be drivetrain?\nDrivetrain momentum is probably what sets it off, but it can't be what the resolver is reading. The logs show both effects, and they differ by a factor of about 40.\nReal driveline motion is slow. In the 10 ms log, the motor speed rings after the trip as the driveline unwinds:\nIt drops from 1,632 to 1,516 rpm, back up to 1,709 rpm, and keeps ringing about every 140 ms.\nThat's a swing of about \u00b1100 rpm at roughly 7 Hz, the driveline winding up and springing back once the torque disappears.\nThe current loop copes easily with a speed change that slow and small.\nThe resolver disturbance is far faster and far bigger:\nIt swings at about 300 Hz.\nIn a fraction of a millisecond, the resolver reports the speed dropping to about a quarter of 1,650 rpm, then doubling, then briefly reversing.\nFor the rotor to really do that, it would need well over 10,000 Nm acting on it. The motor makes 580 Nm. Even a hard shock from the tires hooking back up can't come close to that at the rotor without breaking something. So the rotor isn't moving the way the resolver says.\n\n\nQ: Could this be Torque Rate Limit?\nProbably not. The rate limit only slows down how fast the torque command can change. At the trip the command wasn't changing, and the ramps in the logs never reached either limit.\nWhat the setting means. Cascadia's software manual defines Torque_Rate_Limit_EEPROM as torque increase per 3 ms:\nSettingPer 3 msPer secondOld: 505 Nmabout 1,670 Nm/sNow: 707 Nmabout 2,330 Nm/s\nCascadia only warns about stability above 70 Nm per 3 ms (a setting of 700, about 23,000 Nm/s). Lee's 7 Nm is a tenth of that.\nWhy it isn't causing the trip:\nThe command was flat when it tripped. In the diag file the current commands (Iq_cmd / Id_cmd) held steady for the whole 26.7 ms before the trip. A rate limiter only acts while the command is rising or falling, so it had nothing to do. The current ran away while the command sat still, the same point that rules out shudder compensation.\nThe trips didn't ramp as fast as the limit allows. The steepest actual torque rise in each pull, from the logs:\nPullSteepest torque riseTrip 1~1,700 Nm/sTrip 2~1,500 Nm/sTrip 3~700 Nm/sClean rolling pull~2,280 Nm/s\nThe pedal and the VCU's own ramp set these rates, not the inverter setting. Even at the old 5 Nm limit, trips 2 and 3 would have ramped the same way.\nThe fastest ramp didn't trip. The clean rolling pull came right up against the 7 Nm limit and ran fine. All three trips ramped slower.\n\n\nQ: Could the Gamma be affected with a new cable?\nNot if the new cable is wired pin for pin the same. Gamma adjust corrects for where the resolver sits on the shaft relative to the rotor magnets. Cascadia's software manual describes it as compensating for the resolver's position on the shaft. A cable swap doesn't move anything mechanically, so the offset shouldn't change.\nVerify after the swap:\nDirection: with the motor stopped, turn the shaft slowly by hand in the forward direction.\nGamma_Resolver should count up and wrap from 360\u00b0 to 0.\nSin_corr and Cos_corr should trace a circle.\nIf the angle counts down or doesn't move, a pair is swapped or reversed. That shows up as a 90\u00b0 or 180\u00b0 error, or the motor won't run at all, not a small drift.\nOffset check: coast the motor down with the inverter disabled and read Delta_Resolver_In_Fil. It should read +90\u00b0 forward (or \u221290\u00b0 in reverse), within \u00b10.7\u00b0.\nIf it's within that, leave Gamma_Adjust at 34.7\u00b0.\nIf it's outside that, redo the calibration per section 4.1.3 of the manual.\nSpinning the motor generates HV even with the inverter off, so follow the manual's precautions.\nIf the new cable is a different length or type: it can delay the resolver signals relative to the excitation. That doesn't shift the angle, because sin and cos are delayed equally. It does lower the signal amplitude the inverter reads, which makes it more sensitive to noise. Cascadia has a Resolver PWM Delay setting that tunes when the inverter samples the resolver signal (default 1100). Look at the sin/cos amplitude after the swap, and ask Cascadia before changing that setting."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-23 22:20",
+                  "text": "2026-09-23 Lee Mustang EEPROM Rev.3 defsyms_20240829"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-23 22:22",
+                  "text": "Enabled self sense on this vehicle for further testing.\nMade 2 new sets of Inverter programming cables since the last one was causing issues. Turns out one of the wires was broke inside the connector."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-24 22:24",
+                  "text": "Date: Thursday, September 24, 2026\nVehicle/System: Lee 68 Mustang \u2014 Cascadia inverter on GEN5_CC_CM_20240829_6531\nClickUp: Checkout vehicle\nWhat we did\nTwo morning test drives, both chasing the over-current fault from Tuesday.\nTest 1 \u2014 Self-sense assist enabled (Self_Sense_Assist_Enabled_EEPROM, set yesterday afternoon). Hard acceleration, no inverter fault. Log: VCM_517_Motoring Claude_2026_09_24_08_30_44_Lee_SelfSenseEnabled.csv\nTest 2 \u2014 Torque rate limit back to 70 (Torque_Rate_Limit_EEPROM_(Nm)_x_10). Same result, no faults. Upper limit on that setting is 700, so we're nowhere near it. Log: VCM_517_Motoring Claude_2026_09_24_08_41_39_Lee_Rev4EEPROM.csv\nKey findings\nThe fault is gone. Two hard-acceleration runs, neither tripped the inverter. Self-sense assist looks like the fix.\nBut the car still won't spin the tires \u2014 and a 600 V Mustang feels like it really should.\n\n\nWill need to build a new  motor sub harness for this car that uses different routing path to try and fix the resolver issues."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-26 00:18",
+                  "text": "Date: Friday, September 25, 2026\nVehicle/System: Lee 68 Mustang \u2014 Cascadia inverter on GEN5_CC_CM_20240829_6531\nClickUp: Checkout vehicle\nObjective\nRule out resolver noise as the cause of the hardware over-current trips by installing a new motor sub-harness with all-new resolver wiring on a different routing path, then retest.\nWhat we did\nInstalled the new motor sub-harness \u2014 fresh resolver wiring, rerouted along a different path \u2014 and road-tested it. Ran the test twice: once as configured, and again with Torque_Rate_Limit back at 50. Pulled diag data from both runs, ran a comparison against the prior trip data, and separately verified the resolver gamma adjust.\nKey findings\nThe reroute did not fix it. The inverter still trips, and it feels the same in the car. Comparison against the prior diag data confirms it \u2014 same type of fault, same signature. Resolver wiring noise is effectively ruled out as the cause.\nTorque rate limit isn't it either. Retested at 50 and it still tripped, same as it does at 70.\nGamma adjust is clean. Spun the motor up to ~2,500 rpm and dropped into neutral three times: \u2212902, \u2212901, \u2212900. Dead nuts. That closes out resolver alignment as a suspect alongside the wiring.\nSelf-sense assist remains the only thing that has stopped the trips. Still the lone intervention with a clean record against this fault.\nArtifacts produced\n09-25-2026 Lee New Motor Sub Diag Data \u2014 inverter diag, as-configured run\n09-25-2026 Lee New Motor Sub Diag Data TorqueRate50 \u2014 inverter diag, torque rate limit at 50\nLee_Mustang_Inverter_OC_Trip_Analysis_1.pdf \u2014 trip analysis\nLee_Mustang_Inverter_OC_Trip_Analysis_RevB_1.pdf \u2014 revised analysis\nWhat's been eliminated so far\n\nundefined\nNext steps\nDecide whether self-sense assist is the answer or a mask. It's the only thing that stops the trips, but we haven't established why \u2014 worth understanding before shipping on it.\nTake the RevB analysis to Cascadia with the two diag sets, given how much has now been eliminated on our side.\nCharacterize the trip envelope more tightly \u2014 it's high torque at low rpm, and it happens without the tires breaking traction, so the earlier traction theory is out.\nStatus\nResolver wiring and resolver alignment are both cleared. The fault is unchanged and reproducible. With firmware, torque rate limit, thermal, harness and alignment all eliminated, this is pointing at the inverter itself or its current-limit configuration \u2014 a Cascadia conversation. Self-sense assist is the only working workaround.\n\nBuilt a new motor sub harness.\nInstalled new sub harness in a different routing position than the old one was.\nCouple test drives and got more diag data for analysis.\nHad Claude run some analysis.\nDouble checked gamma adjust and rpm / motor pole.\nHave not found anything super conclusive yet."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-10-01 15:08",
+                  "text": "Small testing here and there. Waiting on decision from Cascadia for any major movement forward."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "3ef609addaf0057936618acba3af357d19280540b63ae1e7d0f068966b6b0807"
+              "content_hash": "3b5d497256971362bbe79b7b6dda9178f57891359dd45e944e5514dfe63f1d27"
             }
           ]
         },
@@ -1249,9 +1682,25 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868kzam8k",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-03 21:58",
+                  "text": "paste_974c81e0-ff91-4758-bb8e-10d253ac00a5.jpgpaste_bbdfce5e-2ccf-4dc2-a04b-d839e8802a80.jpgpaste_763da3d3-9291-47d1-9507-d3fa43d489d5.jpgpaste_25dfa998-b3c5-496f-8b9e-3c81d51a63c6.jpgpaste_8a672560-9e37-4845-ac86-98dd9c971c3e.jpgpaste_96272a5b-7f32-4449-95c4-9504b6e3eb05.jpgpaste_c56484bf-9b6b-4453-b01b-1b8a49f2b253.jpgpaste_7f80c285-4055-4017-a9cc-64883c96f4c4.jpgpaste_2220e04f-e616-48bb-a34f-45477992f161.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-03 21:58",
+                  "text": "Rear hatch hinges arrived\nHinges inpected\nHatch struts removed\nRear hatch removed (1 bolt seized)\nOld hinges removed from hatch\nRemoved broken hardware from inside hatch frame\nDocument cracking and damage to rear hatch structure\nInstall hinges in frame\nMockup hatch back on truck\nMake adjustments to fitment and torque hardware\nReinstall hatch struts\nCheck fitment and func check"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-30 01:07",
+                  "text": "wrapped the latch with felt material\npuled the rods out and covered them with felt\ntested much quieter\nwill test tomorrow"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "b755cfe02acc08a4ecfb7fc3579fcb021855eb7a01e782ba5bacd09779b8e5ca"
+              "content_hash": "57b8b97905b69425e64cc472c3d6d78d6d56fd25a284a9989034aa5af0ad301f"
             },
             {
               "id": "868mbagxr",
@@ -1259,9 +1708,30 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868mbagxr",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-30 01:17",
+                  "text": "IMG_2213.jpeg\nIMG_2212.jpeg\nIMG_2208.jpeg\nIMG_2207.jpeg"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-30 01:17",
+                  "text": "cleaned the door seal area\nsanded the doors\ntaped the area off\npainted the area\nglued the new seals on\nsecured the seals\npulled the tape off"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-30 16:04",
+                  "text": "seal check\nthe top has the wrong gasket on it raising the top up 3/8 of an inch"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-30 16:05",
+                  "text": "IMG_2212.jpeg"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "422a71349e7a1ad92f60c58387956d76dbd2c1bcaa3ff13a2f870ee687bdd3fb"
+              "content_hash": "a5f44c179b075aae8c6b7e21138614b5f7f4a03bdc11eaa6f000fade87aada3d"
             }
           ]
         },
@@ -1274,9 +1744,100 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868krfacg",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-27 22:42",
+                  "text": "Had to gather LDU EEPROM settings to move to Ritchie.\nEnabled AC Condensor Fan in vcu.\nVerified operations with billy.\nCondenser fan and motor currently set to always stay on when AC is enabled."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-16 15:09",
+                  "text": "Meeting about what needs to be done and when checkout needs to be finished.\nVerified CAN logger data uploaded to the vehicle and wifi credentials added.\nUploaded screenshots for verifications and future reference."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-18 22:11",
+                  "text": "New RDIS set up for new firmware. Prep for checkout once vehicle is on the road again.\nCurrently waiting for repairs to be finished."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-21 16:48",
+                  "text": "image.png\nOriginal vehicle parameter settings. This is wildly incorrect. Will need to adjust this appropriately based off of the GUI information since this truck has been working as intended."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-21 16:50",
+                  "text": "image.png\nAdjusted based on GUI settings"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-21 16:54",
+                  "text": "Pre Flash Screenshots\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-21 16:58",
+                  "text": "Flashing to VCM_519_RC010903_Persist\nimage.png\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-21 17:03",
+                  "text": "Post Flash Screenshots\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-21 17:08",
+                  "text": "Adjustments\nimage.png\nimage.png\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-21 17:54",
+                  "text": "Adjustments\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-21 17:56",
+                  "text": "Based on the diff screenshots there are no other major changes we need to make at this time. Most of these will remain as they are in the new flash and will need to be tested before saying this is the final.\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-21 18:00",
+                  "text": "image.png\nimage.png\nAdjusted Inverter temp from 80c to 95c"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-21 18:23",
+                  "text": "Adjustments\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-21 19:53",
+                  "text": "image.png\nimage.png\nUploaded PMU project Files and EEPROM settings on the drive for future reference and store backups for potential field repairs."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-21 20:06",
+                  "text": "VCU flash and settings update.\nVerified settings and made adjustments as necessary.\nWaiting for Marc to test drive the vehicle to verify the feel of everything.\nUploaded all necessary documents to the drive for future reference and or field repairs.\nTest drove the vehicle with Dave since he needed to inspect for sounds and NVH.\nVCU is updated to latest firmware as of 09.21.26. VCM_519_RC010903_Persist"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-21 20:11",
+                  "text": "Date: Monday, September 21, 2026\nVehicle/System: Preheim 72 Blazer \u2014 Ampere EV VCU (New Eagle VCM_519), AWD, serial 2903741625\nFirmware: DiagCANSW 1.8.13 / build 516 \u2192 1.9.3 / build 519 (VCM_519_RC010903_Persist)\nClickUp: Checkout vehicle \u2014 Monthly Goal, Preheim 72 Blazer \u00b7 Open \u00b7 High \u00b7 due Sep 30 \u00b7 2.75 h logged (2.75 h over)\nObjective\nComplete VCU checkout on Preheim: correct the vehicle parameter set, flash to 1.9.3, identify and restore anything the flash reset, road-verify feel and NVH, and secure delivery backups.\nWhat we did\nReviewed the existing vehicle parameters and corrected them against the GUI values, since the truck has been driving as intended. Captured a pre-flash screenshot set, flashed to 1.9.3 / build 519, captured a post-flash set, and ran a field-by-field comparison to separate real changes from resets. Applied the live corrections, adjusted inverter thermal limits, and road-tested with Dave for sounds and NVH. Uploaded EEPROM and PMU project files to the Drive as delivery backups.\nKey findings\nThe AWD tab is the live one \u2014 most of the reset list is moot. Preheim runs AWD, and every table with an AWD variant kept its pre-flash values: the pedal map and axis, the high-regen brake table and speed axis, and the torque and regen rate limits. The flash reset those calibrations on tables this truck doesn't use. That's why regen felt unchanged on the road test, and it's the key difference from Ritchie.\nNegative torque limit left at \u2212400. Pre-flash showed \u2212200, post-flash \u2212400; Ritchie also runs \u2212400. Marc's call: \u2212400 is fine \u2014 other limiters mean we never actually reach it.\nOriginal vehicle parameters were wildly incorrect. Corrected against the GUI values rather than the stored set, on the basis that the truck has been working as intended.\nThe gearing numbers don't match the hardware. Preheim's settings back-calculate to a 4.28 ring and pinion with 33-inch tires. The truck is definitely on 31-inch tires, and the ring and pinion is unconfirmed. Left as-is for now because the truck's speedo is reportedly correct \u2014 but the stored parameters describe a vehicle this isn't. Related: Billy noted someone swapped axles, which would explain why the lash on Ritchie is far less than Preheim's.\nInverter thermal limit raised 80 \u00b0C \u2192 95 \u00b0C.\nRegen feels appropriate on the road test, consistent with the AWD-tab finding above.\nThirteen tabs are unverified \u2014 no screenshot on either side of the flash, so nothing was compared on them.\nPrior work on this checkout\nAug 27 \u2014 Pulled LDU EEPROM settings to move to Ritchie. Enabled the A/C condenser fan in the VCU; verified operation with Billy. Condenser fan and motor currently set to stay on whenever A/C is enabled.\nSep 16 \u2014 Scope and timing meeting. Verified CAN logger data loaded to the vehicle and wifi credentials added.\nSep 18 \u2014 New RDIS built for the new firmware, staged for checkout. Held pending completion of repairs.\nArtifacts produced\nPre-flash (6) and post-flash (7) screenshot sets, plus adjustment captures \u2014 31 attachments on the ClickUp goal\nField-by-field pre/post comparison\nEEPROM and PMU project files uploaded to the Drive \u2014 flagged to the channel as the only backups that exist for these two, since neither is reported in the VCU log. Any change to them has to be documented and the Drive files updated.\nStatus\nFlash complete; live changes identified and mostly addressed. Road-tested with Dave for sounds and NVH \u2014 regen feel is appropriate. Delivery backups secured on the Drive. Not final \u2014 awaiting Marc's test drive, and per the diff review the remaining post-flash values stay as they are until tested. VCU is on VCM_519_RC010903_Persist as of 09.21.26."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-22 20:07",
+                  "text": "Used some time for checkout documentation.\nVehicle_Checkout_Completion_Form_1.pdf"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-10-01 13:38",
+                  "text": "Once we have the new final AWD VCU firmware this truck can be updated and checkout should be complete."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
+              "content_hash": "6d493f2f22f3466c7d3e104c7f030d9b5e3d58aa0b91157ed07d64ad20cfd718"
             }
           ]
         },
@@ -1348,9 +1909,45 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868m7k11q",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-21 20:33",
+                  "text": "talked with Ryan Marc and Cory about paint\nsettled on full paint\nI had Chris come and look at it spent some time going over the truck\nwe will bust our butts to get it done on time"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-21 23:31",
+                  "text": "dropped of the Blazer\nhelped with disassembly\ngot it all taken apart\nready for taping interior off and sanding"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-23 02:58",
+                  "text": "ordering parts\nmade a list\nRyan has ordered what we need"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-25 02:17",
+                  "text": "ran the door parts to painter"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-30 01:18",
+                  "text": "installed new seals in the vent windows\nhad to remove 6 rivets per side\nreinstalled the gaskets"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-10-01 01:45",
+                  "text": "assembling the truck"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-10-02 16:38",
+                  "text": "went to painters\nhelped assemble the truck\ntrailered it back to the shop\ngoing over on budget estimate due to getting it back early\nIMG_2227.jpeg"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "e01310bf6f1428a8b46b1682455c530a2bbc8ce83a33cec215985dd2d098a2de"
+              "content_hash": "7ac719c957f0049a6f04a57b0b43cf450e5fe73c3b8b98745e89176d6a1d6821"
             },
             {
               "id": "868kpg6th",
@@ -1358,9 +1955,65 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kpg6th",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-11 00:43",
+                  "text": "Bed cap cover options sourced and relayed to Blazer group. Decision to be made"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-11 16:29",
+                  "text": "Game plan made for Blazer bed caps.\nCovers ordered"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 00:13",
+                  "text": "Blazer caps arrived\nCaps mocked up\nTrimming in process\nPassenger side trimming roughed in"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 00:18",
+                  "text": "1000014711.jpg1000014710.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 22:24",
+                  "text": "Driver and Passenger side caps have been trimmed and modifications have been finalized.\nCovers will be attached after interior side panels have been installed as the caps overlap the interior panels"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 22:26",
+                  "text": "1000014734.jpg1000014735.jpg1000014736.jpg1000014737.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-14 23:35",
+                  "text": "Mark all areas for paint touch up"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-10-01 01:46",
+                  "text": "looking at the rails to add hardware to install\nwe don't want to use the VHB"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-10-01 01:47",
+                  "text": "IMG_2150.jpeg"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-10-02 19:55",
+                  "text": "Marc changed his mind and wanted them easily removable\nhad to prep and cover the inside of the rails\nadde felt to the rails\nmarked holes in the top evenly spaced\ndrilled pilot holes\ntransferred  the pilot holes to the truck\ndrilled pout the holes\nadded nutserts\ninstalled the rails\ntook longer due to design change"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-10-02 19:56",
+                  "text": "IMG_2236.jpeg\nIMG_2235.jpeg\nIMG_2234.jpeg\nIMG_2233.jpeg\nIMG_2232.jpeg\nIMG_2228.jpeg\nIMG_2229.jpeg\nIMG_2230.jpeg\nIMG_2231.jpeg"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "5f784fc4355ea24b3d7ab5fac0fd2f9fdb3c6da70b26b29130030605b994b98a"
+              "content_hash": "3bd175a12255bc559c705a88fe611bdcfaa1769c25caa4dd9df424930c718f33"
             },
             {
               "id": "868kmp9tm",
@@ -1403,9 +2056,120 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868m40fu8",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-10 23:46",
+                  "text": "Found that the logger in this vehicle was not configured for our bucket nor were the wifi credentials setup to start logging as we test drove the truck.\nWent through and configured the Logger to our bucket and Added Billy's wifi credentials to the logger.\nTest and Verified with Marc that the truck was now uploading logs.\nTruck Now uploading logs and should be good to for Logging.\nOnce we have the Clients wifi credentials I can upload these ASAP."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-11 20:16",
+                  "text": "Adjusted Tire diameter according to Billys Measurements from 0.838 to 0.800\nWill need to test drive vehicle and verify."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-16 15:52",
+                  "text": "Verified CAN logger information is updated and applied to the truck.\nUploaded screenshots for verification and future use if necessary."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-16 15:52",
+                  "text": "Meeting Covering checkout necessities and when the vehicle needs to be done."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-18 15:55",
+                  "text": "Pre Flash\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-18 15:59",
+                  "text": "Flashing to VCM_519_RC010903_Persist\nimage.png\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-18 16:04",
+                  "text": "Post Flash Pre Corrections\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-18 16:41",
+                  "text": "Settings To Adjust\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-18 16:58",
+                  "text": "Corrections\nimage.png\nimage.png\nimage.png\n\n\nRDIS Additions\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-18 17:13",
+                  "text": "Inverter Corrections\nFrom\nimage.png\nTo\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-18 17:28",
+                  "text": "image.png\nimage.png\nInverter and PMU Backups Uploaded to the drive under the Vehicle Folder."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-18 21:42",
+                  "text": "image.png\nAdjusted Increase Rate Rate"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-18 22:08",
+                  "text": "Date: Friday, September 18, 2026\nVehicle/System: Ritchie 71 Blazer \u2014 Ampere EV VCU (New Eagle VCM_519)\nFirmware: DiagCANSW 1.8.13 / build 516 \u2192 1.9.3 / build 519 (VCM_519_RC010903_Persist)\nStatus: VCU adjustments finalized\nObjective\nFlash Ritchie to the new 1.9.3 VCU firmware, identify every calibration the flash reset to factory defaults, restore the shop's drivability settings, and validate regen behavior on road.\nWhat we did\nCaptured a full pre-flash screenshot set across all tabs, flashed to 1.9.3 / build 519, and captured a matching post-flash set. Ran a field-by-field pre/post comparison to find what did not carry over. Restored the affected calibrations with Marc's direction, then ran three instrumented test drives \u2014 a regen baseline, a BrkTrqReqTblHigh validation run, and a final AWD-enabled run \u2014 logging each to CSV. Backed up the inverter and PMU configurations to the Drive. Cross-referenced Ritchie's tables against Preheim's for a known-good reference. Closed out the remaining rate adjustment at end of day; VCU calibration is now final.\nKey findings\nTen calibrations did not survive the flash. Everything else on the eight comparable tabs was identical. The losses cluster in two places \u2014 pedal/torque and high-regen braking:\nPedal and torque\nAPPTrqReqMapEco \u2014 full pedal was 50% torque, reset to 100%\nAPPTrqReqMap (Normal) \u2014 full pedal was 75% torque, reset to 100%\nAPPTrqReqMapSport \u2014 still 100% at top, but sharper off idle (20% pedal was 20% torque, now 30%)\nPedal axes (APP11IdxArr, \u2026Eco, \u2026Sport) \u2014 were even 10% steps, now 0/4/10/20/30/40/50/62.5/75/87.5/100\nDrvTrqReqFiltTC 0.005 \u2192 0.050 s\nDrvTrqReqRateLimIncTbl 300 \u2192 500 Nm/s at 0 kph; 2500 \u2192 3000 Nm/s at 100 kph (~62 mph)\nDrvTrqReqRateRateLimInc 25000 \u2192 1500 Nm/s/s\nBrake regen \u2014 Driver_RegenLevel reads High on this truck, so all four are live:\nBrkTrqReqTblHigh was a flat \u22121.25 / \u22121.40 / \u22121.50 m/s\u00b2 at every vehicle weight; now weight-tiered \u22120.30 to \u22121.10. Materially less braking regen.\nVehSpd07IdxArrHigh first two breakpoints 0 / 2 kph \u2192 5 / 12.5 kph (0 / 1.2 mph \u2192 3.1 / 7.8 mph)\nRegenTrqReqRateHighLimInc \u2212100 \u2192 \u221250\nRegenRateLimHighIncTbl \u2212100 / \u2212100 / \u2212300 / \u2212400 / \u2212400 \u2192 flat \u221250\nDrivability is now scaled, not per-table. 1.9.3 replaces the three separate pedal maps with a single table plus an Eco/Normal/Sport percentage. Per Marc, set back to 50 / 75 / 100.\nA hidden torque limit was masking the regen fix. DrvMtrTrqLimMn_AEM_LDU_Sport sat at \u2212400 pre-flash; we adjusted it to \u2212300 before test driving. Marc confirmed the previously-fixed \"800s\" had a limit underneath that wasn't accounted for. Table re-adjusted.\nThe \u221250 rate was a red herring. On review, the RegenRateLimHighIncTbl \u221250 is a rate, not the cap \u2014 reset to \u221250 and moved on.\nRestoring BrkTrqReqTblHigh changed feel, not magnitude. With the table set back to pre-flash values for the truck's current weight category (all other fields untouched), regen braking became noticeably more responsive but not any stronger. Logged as VCM_519_Motoring Diag_2026_09_18_01_56_27.csv.\nA/C pressure protection carried over clean \u2014 including the bug. All fifteen fields identical pre to post: static and running high/low thresholds, all four time thresholds, sensor gain, offset and filter. ACPress_RunLow_Thr still reads \u2212500 / \u2212475 kPa. Since this flash overwrote ten other calibrations and left this one alone, \u2212500 is Ampere's own default, not a shop entry \u2014 the same negative threshold seen on Lee's Mustang and on Preheim.\nAWD tab restructured. BrkTrqReqTblAWD is new in 1.9.3 \u2014 Preheim doesn't have it (old firmware), so the \u22122.2 reference point it was compared against isn't real; Preheim's table reads \u22121.5, matching how Ritchie is set now. Andrew dropped the weight dimension entirely on the new AWD table; it's speed-based only, which is the same table we changed last time that moved DrvTrqReqRaw from \u221249 to \u221293.\nPark brake / E-Stop: closed, no action. Wilwood actuator timings carried over unchanged. E-Stop entries are hardware this truck doesn't have.\nFinal calibration state\nVCU adjustments on Ritchie are finalized as of end of day. The last change was the increase rate-rate setting (DrvTrqReqRateRateLimInc), adjusted and screenshotted at 4:42 PM after Marc's review of the AWD-enabled log. No further table changes are outstanding on this truck.\nTest drives and logs\n\nundefined\nTruck is back on and uploading the AWD-enabled log.\nArtifacts produced\nFull pre-flash and post-flash screenshot sets, all tabs \u2014 attached to the ClickUp monthly goal\nField-by-field pre/post comparison table\nInverter and PMU backups uploaded to the Drive under the Vehicle Folder\nPreheim RDIS comparison (old vs. new) for reference\nThree instrumented drive logs (above)\nStatus\nFlash complete and stable. All ten reset calibrations identified and addressed; drivability, torque-limit, and regen rate settings restored and validated on road. VCU adjustments finalized \u2014 no open changes on this truck. Backups secured. Remaining work is display/logging additions and the Ampere threshold item, none of which block the vehicle.\n\n\n\nSpent quite a bit of time today pretty much all day getting through checkout on this vehicle.\nMost of the time spent today was testing and tuning the new VCU AWD firmware with Marc.\nThe EOD report above has a good summary of all the details.\nBilly is taking the vehicle home this weekend to test everything.\nAny issues needing to be resolved will be relayed to me ASAP."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-21 16:00",
+                  "text": "VCU Changes Update\n\nRitchie Blazer speedo corrected. The notes below are using the 0.838 meter tall tires (33 inches)\n\nLDU with the Fellten Re Gear has a ratio of 4.1.\nOriginally we had the ratio for the Ring and Pinion set to 3.73\nThis gave us a Final Drive Ratio (FDR) of 15.293\n\nThis had approx. a 10-15mph error where actual speed was slower than indicated.\n\nAfter some calculations we did some research and found that the Ring and Pinion ratio of 3.23 was first off possible for these axles to have. Second that the ratio of 3.23 would make the corrections we needed.\n\nTest Drive showed good at this time. With the GPS speed and Indicated speed being approx 1-2mph off now at 60mph.\n\nWith the LDU at 4.1\nRing and Pinion at 3.23\nThat puts FDR at 13.243\n\nThis is where the truck has been set to and is currently. Let me know if we need to make any final adjustments. (Based on calculations 13.7 FDR would correct the 2mph ish error at 60mph if we really want to try and fine tune this thing."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-29 22:35",
+                  "text": "Meeting with the team working on this vehicle ot outline remaining items.\nFor me this is\nVCU Update to latest and Full Release of the AWD firmware.\nVerify / Update EEPROM to have temp threshold set to 90 Celsius cut off.\nAs well as go through the Dakota Digital settings to verify all of the settings are appropriately set for that vehicle."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-30 16:22",
+                  "text": "Dakota_Digital_Gauge_Setup_400V_450V_600V_1.pdfStarting to gather a list of parameters we need to verify and or update for the vehicle with Dakota Digital gauges.\nWill need to verify these settings in this vehicle once it returns from the body shop."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-10-01 13:51",
+                  "text": "Waiting on vehicle to return from body shop."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-10-02 16:24",
+                  "text": "PreFlash Screenshot:\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-10-02 16:30",
+                  "text": "Flashing to VCM_521_RC011001_Persist\nimage.png\nimage.png\nimage.png\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-10-02 16:39",
+                  "text": "Post Flash Screenshots:\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-10-02 18:24",
+                  "text": "Diff Report\nRitchie_VCU_Flash_Comparison_1.10.1_Summary.pdf"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-10-02 21:58",
+                  "text": "Date: Friday, October 2, 2026\nVehicle/System: Ritchie 71 Blazer \u2014 Ampere EV VCU (New Eagle VCM), AWD, LDU\nFirmware: 1.9.3 / build 519 \u2192 VCM_521_RC011001_Persist (1.10.1 / build 521)\nClickUp: Checkout Vehicle \u2014 Monthly Goal \u00b7 Open \u00b7 Urgent \u00b7 due Oct 31\nWhat we did\nTruck came back from the body shop, which unblocked all three checkout items from Tuesday's meeting. Captured pre-flash screenshots, flashed to 1.10.1, captured post-flash, and ran the full pre/post comparison. Verified the EEPROM temperature threshold, set the Dakota Digital gauge parameters, confirmed the vehicle drives fore and aft, and got the AEM torque table question answered by Andrew.\nOutcome\nThe flash was clean. Every shop calibration carried over across all 17 tabs \u2014 no restores required. First time that's been true on this truck; the 1.9.3 flash in September reset ten. Only intended changes and one inactive parameter split showed up.\nDetails are in Ritchie_VCU_Flash_Comparison_1.10.1_Summary.pdf, attached to the ClickUp goal and posted to the channel.\nAll three meeting items are closed:\nVCU updated to latest and the full AWD release\nEEPROM temperature threshold \u2014 already set, no change needed\nDakota Digital gauge settings \u2014 all set\nAEM torque table question answered. Per Andrew: each motor has its own enable for its own torque table, and the SDU's is enabled by default while the other motors' are not. The LDU doesn't use the torque table at all \u2014 only the max torque value \u2014 so nothing needed changing on this truck. If we ever want the torque table on an LDU car, we enable it for the LDU and fill out that motor's own table.\nOpen items\nRoad test. Fore and aft is not the same as feeling right. Three first-drive watch items are listed in the comparison doc.\nDecide on the enable cell. I set AEM_SDUDrvMtrTrqTbl_Enbl from 1 to 0 before Andrew's answer came back. His read is that it didn't need changing \u2014 the SDU table is inert on an LDU car either way. Worth deciding whether to put it back at the 1.00 default so Ritchie matches the other trucks, or leave it at 0. No functional difference on this vehicle.\nStatus\nAll assigned checkout work complete and documented, and the SDU question is resolved. Remaining is a proper road test. Glass install is tomorrow morning, so plan drive time around it."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "83bb4f939a841271259612353f26a6babb67e422ab4f557b85b2019d3d381794"
+              "content_hash": "e765003ad92040e041a1f8de7495032c6f2154a0bf93ad44f785e5f2180ca6d3"
             }
           ]
         },
@@ -1630,5 +2394,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-03T05:12:24Z"
+  "generated_at": "2026-10-03T05:37:09Z"
 }
