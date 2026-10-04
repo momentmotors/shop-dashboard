@@ -77,6 +77,20 @@ def compare_months(harvest_monthly, momentops_monthly, tolerance, include_post_c
     if not include_post_cutover:
         months = [m for m in months if m <= cutover_month]
 
+    # Each source keeps only its own last 12 months, and they don't cover the
+    # same span: Harvest stops at the cutover while MomentOps runs to today, so
+    # MomentOps' trim drops an extra month off the front. Compare only where
+    # both sources actually have coverage -- an edge month missing for that
+    # reason is an artifact of the windows, not a discrepancy.
+    if h_by_month and m_by_month:
+        low = max(min(h_by_month), min(m_by_month))
+        high = min(max(h_by_month), max(m_by_month))
+        excluded = [m for m in months if not (low <= m <= high)]
+        months = [m for m in months if low <= m <= high]
+        if excluded:
+            print(f"\n  (outside the common window, not compared: "
+                  f"{', '.join(excluded)})")
+
     print("\n=== Productivity % by month ===")
     print(f"{'month':<9} {'harvest':>8} {'momentops':>10} {'delta':>7}   "
           f"{'billable Δ':>11} {'total Δ':>9} {'pto Δ':>8}")
