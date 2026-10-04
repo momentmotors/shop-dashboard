@@ -465,7 +465,7 @@ async function loadData() {
 
     if (PROJECTS.length === 0) {
         document.getElementById('buildGrid').innerHTML =
-            '<div class="loading-msg">No priority builds configured. Add owners to <code>data/focus-projects.json</code>.</div>';
+            '<div class="loading-msg">No priority builds. Flag builds as priority in MomentOps.</div>';
         document.getElementById('summaryStrip').innerHTML = '';
         return;
     }

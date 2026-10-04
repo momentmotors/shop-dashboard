@@ -15,7 +15,12 @@ from pathlib import Path
 # Add pipeline dir to path for imports
 sys.path.insert(0, os.path.dirname(__file__))
 
-from fetch_momentops import get_tech_users, get_time_entries, get_all_task_assignments
+from fetch_momentops import (
+    get_all_task_assignments,
+    get_projects,
+    get_tech_users,
+    get_time_entries,
+)
 from compute_productivity import compute_productivity
 from compute_helpers_hurters import compute_helpers_hurters
 from fetch_calendar import fetch_events
@@ -64,6 +69,45 @@ def write_json(filename, data):
     with open(filepath, "w") as f:
         json.dump(data, f, indent=2)
     print(f"  Wrote {filepath} ({os.path.getsize(filepath)} bytes)")
+
+
+def fetch_priority_entries():
+    """Priority builds from MomentOps, as focus entries the ClickUp matcher takes.
+
+    A project's `name` is the ClickUp list name verbatim ("Ritchie 71 Blazer"),
+    so it pins the list directly and the first token is the owner the checkout
+    sheet and the card header use. Pinning by name rather than deriving from
+    `key` matters twice over: keys are not always a faithful slug of the name,
+    and an owner with two cars would otherwise match both lists.
+
+    Returns [] on any failure, which leaves the previous focus-checkout.json in
+    place rather than blanking the board -- the page is on a wall, and last
+    known good beats empty.
+    """
+    try:
+        projects = get_projects()
+    except Exception as e:
+        print(f"  WARNING: could not read priority flags ({e}); "
+              f"keeping the last published board")
+        return []
+
+    entries = []
+    for p in projects:
+        if not p.get("is_priority"):
+            continue
+        name = (p.get("name") or "").strip()
+        if not name:
+            continue
+        entries.append({"owner": name.split()[0], "list": name})
+
+    if not entries:
+        print(f"  WARNING: no projects flagged is_priority out of {len(projects)}; "
+              f"keeping the last published board")
+        return []
+
+    print(f"  {len(entries)} priority build(s) of {len(projects)} projects: "
+          f"{', '.join(e['owner'] for e in entries)}")
+    return entries
 
 
 def main():
@@ -143,19 +187,14 @@ def main():
         checkout_data = None
 
     # --- Focus Project ClickUp Data ---
-    print("\n[7/7] Fetching focus project ClickUp data...")
-    focus_config_path = DATA_DIR / "focus-projects.json"
+    print("\n[7/7] Fetching priority builds...")
     focus_data = None
-    if checkout_data and focus_config_path.exists():
-        focus_owners = json.loads(focus_config_path.read_text()).get("focus", [])
-        if focus_owners:
-            focus_data = fetch_focus_data(checkout_data, focus_owners)
-        else:
-            print("  focus-projects.json has no 'focus' owners listed; skipping")
-    elif not checkout_data:
-        print("  Skipping (no checkout data)")
+    if checkout_data:
+        focus_entries = fetch_priority_entries()
+        if focus_entries:
+            focus_data = fetch_focus_data(checkout_data, focus_entries)
     else:
-        print("  Skipping (no data/focus-projects.json)")
+        print("  Skipping (no checkout data)")
 
     # --- Write JSON Files ---
     print("\nWriting JSON files...")

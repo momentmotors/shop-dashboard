@@ -29,7 +29,10 @@ def show_projects():
 
     checkout = json.load(open("data/checkout.json"))
     owners = {(v.get("owner") or "").lower() for v in checkout.get("vehicles", [])}
-    focus = json.load(open("data/focus-projects.json"))["focus"]
+    try:
+        focus = json.load(open("data/focus-projects.json"))["focus"]
+    except FileNotFoundError:
+        focus = []  # retired once MomentOps became the source of truth
     current = {(f if isinstance(f, str) else f["owner"]).lower() for f in focus}
 
     print(f"  {'name':<28} {'key':<24} {'status':<12} {'build_status':<14} "
