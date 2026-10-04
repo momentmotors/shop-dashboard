@@ -208,8 +208,16 @@
     "working_days": 2,
     "breakdown": [
       {
-        "label": "Other",
-        "hours": 15.8
+        "label": "EOD Time Entry/Cleanup",
+        "hours": 7.8
+      },
+      {
+        "label": "Shop Meetings",
+        "hours": 6.2
+      },
+      {
+        "label": "Personal Meetings",
+        "hours": 1.8
       }
     ]
   },
@@ -232,5 +240,5 @@
     "pto_hours": 8.0,
     "total_hours": 126.2
   },
-  "generated_at": "2026-10-04T18:09:56Z"
+  "generated_at": "2026-10-04T18:11:02Z"
 }
