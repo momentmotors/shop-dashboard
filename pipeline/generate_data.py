@@ -2,7 +2,7 @@
 """
 Main orchestrator for the ShopDashboard data pipeline.
 
-Fetches data from Harvest and Google Calendar iCal feeds,
+Fetches data from MomentOps and Google Calendar iCal feeds,
 computes metrics, and writes JSON files to data/.
 """
 
@@ -15,7 +15,7 @@ from pathlib import Path
 # Add pipeline dir to path for imports
 sys.path.insert(0, os.path.dirname(__file__))
 
-from fetch_harvest import get_tech_users, get_time_entries, get_all_task_assignments
+from fetch_momentops import get_tech_users, get_time_entries, get_all_task_assignments
 from compute_productivity import compute_productivity
 from compute_helpers_hurters import compute_helpers_hurters
 from fetch_calendar import fetch_events
@@ -78,8 +78,8 @@ def main():
 
     print(f"Fetching data from {history_start} to {today}")
 
-    # --- Harvest Data ---
-    print("\n[1/7] Fetching Tech users from Harvest...")
+    # --- Hours Data (MomentOps) ---
+    print("\n[1/7] Fetching Tech users from MomentOps...")
     tech_users = get_tech_users(CONFIG["tech_role_filter"])
     print(f"  Found {len(tech_users)} Tech users: {', '.join(tech_users.values())}")
 
@@ -89,7 +89,7 @@ def main():
 
     tech_user_ids = set(tech_users.keys())
 
-    print("\n[2/7] Fetching time entries from Harvest...")
+    print("\n[2/7] Fetching time entries from MomentOps...")
     all_entries = get_time_entries(history_start, today)
     print(f"  Fetched {len(all_entries)} total time entries")
 
@@ -100,7 +100,7 @@ def main():
     ]
     print(f"  Current month ({today.strftime('%Y-%m')}): {len(current_month_entries)} entries")
 
-    print("\n[3/7] Fetching task assignments from Harvest...")
+    print("\n[3/7] Fetching project budgets from MomentOps...")
     task_assignments = get_all_task_assignments()
     print(f"  Fetched assignments for {len(task_assignments)} projects")
 

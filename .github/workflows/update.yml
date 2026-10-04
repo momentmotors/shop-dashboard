@@ -41,8 +41,8 @@ jobs:
 
       - name: Run data pipeline
         env:
-          HARVEST_ACCOUNT_ID: ${{ secrets.HARVEST_ACCOUNT_ID }}
-          HARVEST_TOKEN: ${{ secrets.HARVEST_TOKEN }}
+          MOMENTOPS_BASE_URL: ${{ vars.MOMENTOPS_BASE_URL }}
+          MOMENTOPS_EXPORT_TOKEN: ${{ secrets.MOMENTOPS_EXPORT_TOKEN }}
           CLICKUP_API_TOKEN: ${{ secrets.CLICKUP_API_TOKEN }}
           PTO_CALENDAR_URL: ${{ secrets.PTO_CALENDAR_URL }}
           SHOP_CALENDAR_URL: ${{ secrets.SHOP_CALENDAR_URL }}
