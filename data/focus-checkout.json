@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04T18:48:12.547157Z",
+  "updated_at": "2026-10-04T18:53:27.085856Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -81,6 +81,73 @@
           "Chuter 62 Healey"
         ],
         "open_tasks": 1
+      },
+      "assignees": []
+    },
+    {
+      "owner": "Connolly",
+      "vehicle": {
+        "owner": "Connolly",
+        "year": 1958,
+        "color": "Black",
+        "make": "Mercedes",
+        "model": "220S",
+        "status": "Acceptance",
+        "checkout": 100,
+        "sub_metrics": [
+          {
+            "label": "BMS",
+            "value": 95.4
+          },
+          {
+            "label": "Inverter",
+            "value": 98.1
+          },
+          {
+            "label": "PMU",
+            "value": 40.6
+          },
+          {
+            "label": "Raptor",
+            "value": 92.7
+          },
+          {
+            "label": "Functional",
+            "value": 33.3
+          }
+        ],
+        "system": "Ampere",
+        "punchlist": {
+          "items": [
+            {
+              "text": "2026-08-07: The customer credentials need to be put into the wifi logger.",
+              "done": false
+            },
+            {
+              "text": "2026-09-07: Parking brake current feedback should be enabled and tuned.",
+              "done": false
+            },
+            {
+              "text": "2026-08-07: Temperature Gauge Might Not Be Working.\n2026-08-10: Resolved. Noah fixed the temperature gauge back in January.",
+              "done": true
+            },
+            {
+              "text": "2026-07-xx: Flash Connolly with 1.7.9\n2026-08-07: Flashed VCU firmware version 1.8.14.\n2026-09-07: The VCU should be brought up to the latest firmware version.",
+              "done": false
+            },
+            {
+              "text": "2026-07-xx: DisplayDashGUI_SettingsMsgTimeout seems to appear often.",
+              "done": false
+            }
+          ],
+          "total": 5,
+          "done": 1,
+          "open": 4
+        }
+      },
+      "clickup_match": {
+        "found": false,
+        "error": "no_match"
       },
       "assignees": []
     },
@@ -367,172 +434,6 @@
               "status": "Open",
               "list": "Kelly 63 Corvette",
               "url": "https://app.clickup.com/t/868m2v63x"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "owner": "LB",
-      "vehicle": {
-        "owner": "LB",
-        "checkout": 0,
-        "placeholder": true
-      },
-      "clickup_match": {
-        "found": true,
-        "matched_lists": [
-          "LB 82 911"
-        ],
-        "open_tasks": 30
-      },
-      "assignees": [
-        {
-          "name": "Aharon Adams",
-          "tasks": [
-            {
-              "id": "868knrzc6",
-              "name": "Address dash panel fitment issue",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868knrzc6"
-            },
-            {
-              "id": "868g811de",
-              "name": "Charge and test system",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868g811de"
-            },
-            {
-              "id": "868k84q9v",
-              "name": "Final install components",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868k84q9v"
-            },
-            {
-              "id": "868j7kkze",
-              "name": "Install GUI",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868j7kkze"
-            },
-            {
-              "id": "868man63y",
-              "name": "Install front battery lid",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868man63y"
-            },
-            {
-              "id": "868man6bk",
-              "name": "Install rear battery lid",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868man6bk"
-            },
-            {
-              "id": "868g3ptbv",
-              "name": "Manufacture Core - Front Battery Pack Lid",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868g3ptbv"
-            },
-            {
-              "id": "868man7z6",
-              "name": "Manufacture Core - Rear Battery Pack Lid",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868man7z6"
-            },
-            {
-              "id": "868ma6wy3",
-              "name": "Mount washer bottle",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868ma6wy3"
-            },
-            {
-              "id": "868j7krpv",
-              "name": "Reinstall interior",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868j7krpv"
-            },
-            {
-              "id": "868j7kytx",
-              "name": "Set preliminary alignment",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868j7kytx"
-            },
-            {
-              "id": "868jg4cba",
-              "name": "Start up vehicle",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868jg4cba"
-            }
-          ]
-        },
-        {
-          "name": "Brandon Beaman",
-          "tasks": [
-            {
-              "id": "868knrzp8",
-              "name": "Start up vehicle",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868knrzp8"
-            }
-          ]
-        },
-        {
-          "name": "Devin DuMont",
-          "tasks": [
-            {
-              "id": "868mcpttt",
-              "name": "Update thermistor data",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868mcpttt"
-            }
-          ]
-        },
-        {
-          "name": "Geoff Raynak",
-          "tasks": [
-            {
-              "id": "868g3ptbt",
-              "name": "Engineer Core - Rear Battery Pack Lid",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868g3ptbt"
-            }
-          ]
-        },
-        {
-          "name": "Marshall Carter",
-          "tasks": [
-            {
-              "id": "868g3pt4u",
-              "name": "Engineer Core - GUI Mount",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868g3pt4u"
-            }
-          ]
-        },
-        {
-          "name": "Ryan Laurel",
-          "tasks": [
-            {
-              "id": "868jg5vhj",
-              "name": "Have seats and doors reupholstered",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868jg5vhj"
             }
           ]
         }
@@ -1180,5 +1081,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-04T18:47:53Z"
+  "generated_at": "2026-10-04T18:52:11Z"
 }
