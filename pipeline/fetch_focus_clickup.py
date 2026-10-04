@@ -92,12 +92,13 @@ def _list_matches_owner(list_name, owner):
 
 
 def _normalize_focus(focus_owners):
-    """Normalize focus-projects entries into {owner, match} dicts.
+    """Normalize focus entries into {owner, match} dicts.
 
-    An entry may be a plain owner string ("Preheim") or an object that pins the
-    ClickUp list prefix to use when an owner has more than one car:
-      {"owner": "Avalos", "list": "Avalos 72 Blazer"}
-    `owner` drives the vehicle lookup + display; `match` drives list matching.
+    Entries come from MomentOps' is_priority projects as
+    {"owner": "Avalos", "list": "Avalos 72 Blazer"} -- `owner` drives the
+    vehicle lookup and card header, `list` pins which ClickUp list to match so
+    an owner with two cars doesn't collect both. A plain owner string still
+    works and matches on prefix.
     """
     norm = []
     for entry in focus_owners:

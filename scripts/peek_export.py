@@ -29,14 +29,8 @@ def show_projects():
 
     checkout = json.load(open("data/checkout.json"))
     owners = {(v.get("owner") or "").lower() for v in checkout.get("vehicles", [])}
-    try:
-        focus = json.load(open("data/focus-projects.json"))["focus"]
-    except FileNotFoundError:
-        focus = []  # retired once MomentOps became the source of truth
-    current = {(f if isinstance(f, str) else f["owner"]).lower() for f in focus}
-
     print(f"  {'name':<28} {'key':<24} {'status':<12} {'build_status':<14} "
-          f"owner-token in checkout? / in focus list?")
+          f"owner-token in checkout?")
     for p in sorted(projects, key=lambda p: (not p.get("is_priority"), p.get("name") or "")):
         if not p.get("is_priority"):
             continue
@@ -44,14 +38,7 @@ def show_projects():
         token = name.split()[0] if name else ""
         print(f"  {name[:27]:<28} {str(p.get('key'))[:23]:<24} "
               f"{str(p.get('status'))[:11]:<12} {str(p.get('build_status'))[:13]:<14} "
-              f"{'yes' if token.lower() in owners else 'NO':<4} "
-              f"{'yes' if token.lower() in current else 'no'}")
-
-    flagged = {(p.get('name') or '').split()[0].lower() for p in projects if p.get('is_priority')}
-    print(f"\n  on the manual list but not is_priority: "
-          f"{sorted(current - flagged) or 'none'}")
-    print(f"  is_priority but not on the manual list: "
-          f"{sorted(flagged - current) or 'none'}")
+              f"{'yes' if token.lower() in owners else 'NO'}")
     return 0
 
 
