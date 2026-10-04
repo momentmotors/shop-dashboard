@@ -383,7 +383,7 @@ function renderSummary() {
 
     document.getElementById('summaryStrip').innerHTML =
         '<div class="summary-stat"><div class="stat-value">' + PROJECTS.length + '</div><div class="stat-label">Priority Builds</div></div>' +
-        '<div class="summary-stat"><div class="stat-value">' + totalTasks + '</div><div class="stat-label">Open Tasks</div></div>' +
+        '<div class="summary-stat"><div class="stat-value">' + totalTasks + '</div><div class="stat-label">Open Tasks (All Builds)</div></div>' +
         '<div class="summary-stat"><div class="stat-value">' + Object.keys(people).length + '</div><div class="stat-label">People Assigned</div></div>' +
         '<div class="summary-stat"><div class="stat-value">' + avg + '<span class="pct-unit">%</span></div><div class="stat-label">Avg. Checkout</div></div>';
 }

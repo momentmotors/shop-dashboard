@@ -13,6 +13,7 @@ import hashlib
 import json
 import os
 import re
+import time
 from collections import defaultdict
 from datetime import datetime
 
@@ -20,8 +21,37 @@ import requests
 
 
 CLICKUP_BASE = "https://api.clickup.com/api/v2"
+
+# ClickUp rate-limits per token, and enrichment fires two calls per task, so a
+# busy run bunches requests tightly enough to get 429'd. Back off and retry
+# rather than failing the step -- an unretried 429 drops a whole build's tasks.
+MAX_RETRIES = 5
+RETRY_STATUSES = {429, 500, 502, 503, 504}
 DEFAULT_TEAM_ID = "9011243300"  # momentmotors workspace
 MONTHLY_GOAL_CUSTOM_ITEM_ID = 1003
+
+
+def _get(url, headers, params=None, timeout=30):
+    """GET with exponential backoff, honoring Retry-After when ClickUp sends it."""
+    for attempt in range(MAX_RETRIES):
+        try:
+            resp = requests.get(url, headers=headers, params=params, timeout=timeout)
+            if resp.status_code in RETRY_STATUSES and attempt < MAX_RETRIES - 1:
+                wait = float(resp.headers.get("Retry-After") or 2 ** attempt)
+                print(f"    ClickUp {resp.status_code}; retrying in {wait:g}s "
+                      f"(attempt {attempt + 1}/{MAX_RETRIES})...")
+                time.sleep(wait)
+                continue
+            resp.raise_for_status()
+            return resp
+        except (requests.exceptions.ConnectionError,
+                requests.exceptions.Timeout) as e:
+            if attempt >= MAX_RETRIES - 1:
+                raise
+            wait = 2 ** attempt
+            print(f"    ClickUp request failed ({e}); retrying in {wait}s "
+                  f"(attempt {attempt + 1}/{MAX_RETRIES})...")
+            time.sleep(wait)
 
 
 def _fetch_all_open_mgs(token, team_id):
@@ -30,18 +60,16 @@ def _fetch_all_open_mgs(token, team_id):
     all_tasks = []
     page = 0
     while True:
-        resp = requests.get(
+        resp = _get(
             f"{CLICKUP_BASE}/team/{team_id}/task",
-            headers=headers,
+            headers,
             params={
                 "custom_items[]": MONTHLY_GOAL_CUSTOM_ITEM_ID,
                 "include_closed": "false",
                 "subtasks": "true",
                 "page": page,
             },
-            timeout=30,
         )
-        resp.raise_for_status()
         tasks = resp.json().get("tasks", [])
         if not tasks:
             break
@@ -89,16 +117,13 @@ def _ms_to_iso(ms_str):
 def _fetch_task_detail(token, task_id):
     """Get task detail including checklists."""
     headers = {"Authorization": token}
-    resp = requests.get(f"{CLICKUP_BASE}/task/{task_id}", headers=headers, timeout=15)
-    resp.raise_for_status()
-    return resp.json()
+    return _get(f"{CLICKUP_BASE}/task/{task_id}", headers, timeout=15).json()
 
 
 def _fetch_task_comments(token, task_id):
     """Get comments for a task. Returns chronological list of {author, date, text}."""
     headers = {"Authorization": token}
-    resp = requests.get(f"{CLICKUP_BASE}/task/{task_id}/comment", headers=headers, timeout=15)
-    resp.raise_for_status()
+    resp = _get(f"{CLICKUP_BASE}/task/{task_id}/comment", headers, timeout=15)
     raw = resp.json().get("comments", [])
     parsed = []
     for c in raw:
