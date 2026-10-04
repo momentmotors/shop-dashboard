@@ -147,10 +147,27 @@ def get_time_entries(from_date, to_date, user_id=None):
             continue
         if user_id is not None and (e.get("user") or {}).get("id") != user_id:
             continue
-        filtered.append(e)
+        filtered.append(_merge_productive(e))
 
     _warn_if_suspicious(entries, filtered, months, start, end)
     return filtered
+
+
+def _merge_productive(entry):
+    """Fold `productive` hours back into `billable`.
+
+    MomentOps splits Harvest's billable flag in two: `billable` for work with a
+    rate attached, `productive` for billable work without one -- in-house
+    manufacturing, kitting and Engineering-Product. The dashboard's metric is
+    the share of worked time spent on productive work, so it wants both; using
+    `billable` alone understated every month by 9-25 points.
+
+    Defaults to False if the key is absent, which degrades to the old behaviour
+    rather than raising.
+    """
+    if entry.get("productive"):
+        entry["billable"] = True
+    return entry
 
 
 def _warn_if_suspicious(all_entries, filtered, months, start, end):
