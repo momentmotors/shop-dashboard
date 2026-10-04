@@ -25,7 +25,10 @@ from fetch_focus_clickup import fetch_focus_data
 # Configuration
 CONFIG = {
     "productivity_target_pct": 75,
-    "pto_task_names": ["PTO", "Paid Time Off"],
+    # The export API normalizes PTO to "Paid Time Off", but match the raw
+    # era names too: if that normalization ever misses, vacation hours land
+    # in the productivity denominator and the number silently drops.
+    "pto_task_names": ["PTO", "Paid Time Off", "Vacation"],
     "tech_role_filter": "Tech",
     "helpers_hurters_top_n": 10,
     "calendar_weeks_ahead": 4,

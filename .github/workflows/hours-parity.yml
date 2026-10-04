@@ -1,0 +1,58 @@
+# Gate for the Harvest -> MomentOps hours migration.
+#
+# Pulls the same window from both sources, runs each through the real
+# compute_productivity(), and diffs the monthly productivity percentages. Runs
+# only on demand: it reads hours, writes nothing, and deploys nothing.
+#
+# A red run means the sources disagree beyond tolerance — that is the signal,
+# not a broken workflow. Failure alerting is scoped to update.yml, so this
+# staying red does not page anyone.
+#
+# Deliberately NOT in the shop-dashboard-data-commit concurrency group: it
+# commits no data, and joining that group would let a queued run here block the
+# 15-minute pipeline.
+name: Hours parity check
+
+on:
+  workflow_dispatch:
+    inputs:
+      months:
+        description: 'Months of history to compare'
+        required: false
+        default: '12'
+      tolerance:
+        description: 'Allowed drift in percentage points'
+        required: false
+        default: '0.1'
+      all_months:
+        description: 'Also compare months after the 2026-09-30 cutover'
+        type: boolean
+        required: false
+        default: false
+
+jobs:
+  parity:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r pipeline/requirements.txt
+
+      - name: Compare Harvest vs MomentOps
+        env:
+          HARVEST_ACCOUNT_ID: ${{ secrets.HARVEST_ACCOUNT_ID }}
+          HARVEST_TOKEN: ${{ secrets.HARVEST_TOKEN }}
+          MOMENTOPS_BASE_URL: ${{ vars.MOMENTOPS_BASE_URL }}
+          MOMENTOPS_EXPORT_TOKEN: ${{ secrets.MOMENTOPS_EXPORT_TOKEN }}
+        run: |
+          python3 scripts/compare_hours_sources.py \
+            --months "${{ inputs.months }}" \
+            --tolerance "${{ inputs.tolerance }}" \
+            ${{ inputs.all_months && '--all-months' || '' }}
