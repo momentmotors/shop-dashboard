@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04T19:39:02.995222Z",
+  "updated_at": "2026-10-04T20:33:08.560274Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1003,12 +1003,7 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868m40fu8"
-            }
-          ]
-        },
-        {
-          "name": "Justin Landry",
-          "tasks": [
+            },
             {
               "id": "868m4x24h",
               "name": "Perform PDI",
@@ -1200,5 +1195,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-04T19:38:39Z"
+  "generated_at": "2026-10-04T20:32:40Z"
 }
