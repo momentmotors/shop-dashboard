@@ -221,24 +221,17 @@
       }
     ]
   },
-  "project_hurters": [
-    {
-      "project": "Bently 65 356",
-      "total_hours": 0.5,
-      "pct_of_total": 0.4,
-      "tasks": [
-        {
-          "task": "Clean up and finalize OEM wiring",
-          "hours": 0.5
-        }
-      ]
-    }
-  ],
+  "project_hurters": [],
+  "hurters_below_floor": {
+    "count": 1,
+    "hours": 0.5,
+    "min_hours": 1.0
+  },
   "totals": {
     "billable_hours": 110.0,
     "non_billable_hours": 16.2,
     "pto_hours": 8.0,
     "total_hours": 126.2
   },
-  "generated_at": "2026-10-04T18:16:26Z"
+  "generated_at": "2026-10-04T18:23:31Z"
 }
