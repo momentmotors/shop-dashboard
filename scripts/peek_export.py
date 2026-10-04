@@ -16,20 +16,57 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent / "pipeline"))
 
-from fetch_momentops import get_tech_users, get_time_entries
+from fetch_momentops import get_projects, get_tech_users, get_time_entries
 from generate_data import CONFIG
+
+
+def show_projects():
+    """Dump the projects feed and check it against the dashboard's own keys."""
+    import json
+    projects = get_projects()
+    print(f"\n{len(projects)} projects; "
+          f"{sum(1 for p in projects if p.get('is_priority'))} flagged is_priority\n")
+
+    checkout = json.load(open("data/checkout.json"))
+    owners = {(v.get("owner") or "").lower() for v in checkout.get("vehicles", [])}
+    focus = json.load(open("data/focus-projects.json"))["focus"]
+    current = {(f if isinstance(f, str) else f["owner"]).lower() for f in focus}
+
+    print(f"  {'name':<28} {'key':<24} {'status':<12} {'build_status':<14} "
+          f"owner-token in checkout? / in focus list?")
+    for p in sorted(projects, key=lambda p: (not p.get("is_priority"), p.get("name") or "")):
+        if not p.get("is_priority"):
+            continue
+        name = p.get("name") or ""
+        token = name.split()[0] if name else ""
+        print(f"  {name[:27]:<28} {str(p.get('key'))[:23]:<24} "
+              f"{str(p.get('status'))[:11]:<12} {str(p.get('build_status'))[:13]:<14} "
+              f"{'yes' if token.lower() in owners else 'NO':<4} "
+              f"{'yes' if token.lower() in current else 'no'}")
+
+    flagged = {(p.get('name') or '').split()[0].lower() for p in projects if p.get('is_priority')}
+    print(f"\n  on the manual list but not is_priority: "
+          f"{sorted(current - flagged) or 'none'}")
+    print(f"  is_priority but not on the manual list: "
+          f"{sorted(flagged - current) or 'none'}")
+    return 0
 
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--months", type=int, default=1)
     ap.add_argument("--project", default="Shop Work")
+    ap.add_argument("--projects", action="store_true",
+                    help="dump /api/export/projects and cross-check the identifiers")
     args = ap.parse_args()
 
     today = date.today()
     start = today.replace(day=1)
     for _ in range(args.months - 1):
         start = (start - __import__("datetime").timedelta(days=1)).replace(day=1)
+
+    if args.projects:
+        return show_projects()
 
     users = get_tech_users(CONFIG["tech_role_filter"])
     entries = [e for e in get_time_entries(start, today)

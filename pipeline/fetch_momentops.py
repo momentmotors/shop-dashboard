@@ -209,3 +209,12 @@ def get_all_task_assignments():
             "assignments": [],
         }
     return result
+
+
+def get_projects():
+    """All projects with their priority/status flags.
+
+    Returns list of {key, name, is_priority, status, build_status}. `name`
+    matches the ClickUp list name, which is what the focus pipeline matches on.
+    """
+    return _as_list(_get("/api/export/projects"), "projects")
