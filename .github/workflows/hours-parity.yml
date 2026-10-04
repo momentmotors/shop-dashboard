@@ -16,6 +16,11 @@ name: Hours parity check
 on:
   workflow_dispatch:
     inputs:
+      peek:
+        description: 'Instead of comparing: print what the export returns this month'
+        type: boolean
+        required: false
+        default: false
       months:
         description: 'Months of history to compare'
         required: false
@@ -45,7 +50,15 @@ jobs:
       - name: Install dependencies
         run: pip install -r pipeline/requirements.txt
 
+      - name: Peek at the export
+        if: inputs.peek
+        env:
+          MOMENTOPS_BASE_URL: ${{ vars.MOMENTOPS_BASE_URL }}
+          MOMENTOPS_EXPORT_TOKEN: ${{ secrets.MOMENTOPS_EXPORT_TOKEN }}
+        run: python3 scripts/peek_export.py
+
       - name: Compare Harvest vs MomentOps
+        if: ${{ !inputs.peek }}
         env:
           HARVEST_ACCOUNT_ID: ${{ secrets.HARVEST_ACCOUNT_ID }}
           HARVEST_TOKEN: ${{ secrets.HARVEST_TOKEN }}
