@@ -204,6 +204,12 @@
             border-left: 4px solid #e8e8ee;
         }
 
+        .floor-note {
+            font-size: 13px;
+            color: #8a8aa0;
+            padding: 2px 0 4px;
+        }
+
         .section-label {
             font-size: 12px;
             font-weight: 600;
@@ -323,9 +329,18 @@ function render(data) {
     html += renderShopWork(shopWork);
 
     // Project hurters
-    if (projectHurters.length > 0) {
+    var belowFloor = data.hurters_below_floor || { count: 0 };
+    if (projectHurters.length > 0 || belowFloor.count > 0) {
         html += '<div class="section-label">Non-Billable on Car Projects</div>';
+    }
+    if (projectHurters.length > 0) {
         html += renderProjectHurters(projectHurters, maxHours);
+    }
+    if (belowFloor.count > 0) {
+        // Their hours are still in the total below; they just don't each get a card.
+        html += '<div class="floor-note">' + belowFloor.count + ' more car' +
+            (belowFloor.count === 1 ? '' : 's') + ' under ' + fmtHours(belowFloor.min_hours) +
+            ' hr (' + fmtHours(belowFloor.hours) + ' hrs total)</div>';
     }
 
     html += '</div>';

@@ -31,6 +31,10 @@ CONFIG = {
     "pto_task_names": ["PTO", "Paid Time Off", "Vacation"],
     "tech_role_filter": "Tech",
     "helpers_hurters_top_n": 10,
+    # Cars with less non-billable time than this are summarized in one
+    # line instead of getting a card. Early in a month a single 30-minute
+    # entry would otherwise be most of the hurters column.
+    "project_hurter_min_hours": 1.0,
     "calendar_weeks_ahead": 4,
     "history_months": 12,
 }

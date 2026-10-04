@@ -112,6 +112,7 @@ def compute_helpers_hurters(time_entries, tech_user_ids, task_assignments, confi
     pto_names = set(config["pto_task_names"])
     top_n = config["helpers_hurters_top_n"]
     shop_project_name = config.get("shop_project_name", "Shop Work")
+    hurter_floor = config.get("project_hurter_min_hours", 0)
 
     # Filter to Tech users
     entries = [e for e in time_entries if e["user"]["id"] in tech_user_ids]
@@ -264,10 +265,18 @@ def compute_helpers_hurters(time_entries, tech_user_ids, task_assignments, confi
         "breakdown": shop_breakdown,
     }
 
-    # Build grouped project hurters, sorted by total hours desc
+    # Build grouped project hurters, sorted by total hours desc. Cars under the
+    # floor are summarized rather than listed -- their hours stay in the totals,
+    # they just don't each take a card.
     project_hurters = []
+    below_floor_count = 0
+    below_floor_hours = 0.0
     for proj_name in sorted(project_hurter_groups, key=lambda p: project_hurter_groups[p]["total_hours"], reverse=True):
         pdata = project_hurter_groups[proj_name]
+        if pdata["total_hours"] < hurter_floor:
+            below_floor_count += 1
+            below_floor_hours += pdata["total_hours"]
+            continue
         tasks = sorted(pdata["tasks"], key=lambda t: t["hours"], reverse=True)
         project_hurters.append({
             "project": proj_name,
@@ -280,6 +289,11 @@ def compute_helpers_hurters(time_entries, tech_user_ids, task_assignments, confi
         "helpers": helpers_grouped[:top_n],
         "shop_work": shop_work_summary,
         "project_hurters": project_hurters[:top_n],
+        "hurters_below_floor": {
+            "count": below_floor_count,
+            "hours": round(below_floor_hours, 1),
+            "min_hours": hurter_floor,
+        },
         "totals": {
             "billable_hours": round(total_billable, 1),
             "non_billable_hours": round(total_non_billable, 1),
