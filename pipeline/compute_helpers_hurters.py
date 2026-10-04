@@ -197,11 +197,19 @@ def compute_helpers_hurters(time_entries, tech_user_ids, task_assignments, confi
         "Errands": ["errands"],
     }
 
-    def categorize_shop_note(notes):
-        lower = notes.lower()
-        for category, keywords in shop_categories.items():
-            if any(kw in lower for kw in keywords):
-                return category
+    def categorize_shop_entry(*fields):
+        """Bucket a Shop Work entry, checking each field in turn.
+
+        Under Harvest the activity was typed into the note ("EOD time entry");
+        under ClickUp it is the task name ("EOD Time Entry/Clean Up") and notes
+        come back empty. Check the task name first, then the note, so both eras
+        categorize and neither needs its own keyword list.
+        """
+        for text in fields:
+            lower = (text or "").lower()
+            for category, keywords in shop_categories.items():
+                if any(kw in lower for kw in keywords):
+                    return category
         return "Other"
 
     for e in entries:
@@ -213,7 +221,7 @@ def compute_helpers_hurters(time_entries, tech_user_ids, task_assignments, confi
             continue
         hours = e.get("hours", 0)
         notes = (e.get("notes") or "").strip()
-        category = categorize_shop_note(notes)
+        category = categorize_shop_entry(task_name, notes)
         shop_work_hours += hours
         shop_notes_hours[category] += hours
 
