@@ -58,7 +58,9 @@ def resolve_clickup_contexts(entries, shop_project_name):
         ref = e.get("external_reference")
         if not ref:
             continue
-        permalink = ref.get("permalink", "")
+        # Harvest returned an object with a permalink; the MomentOps export
+        # returns the URL as a plain string. Accept either shape.
+        permalink = ref.get("permalink", "") if isinstance(ref, dict) else str(ref)
         match = re.search(r"clickup\.com/t/([a-z0-9]+)", permalink)
         if match:
             entries_to_resolve.append((proj_name, e.get("task", {}).get("name", "Unknown"), match.group(1)))
