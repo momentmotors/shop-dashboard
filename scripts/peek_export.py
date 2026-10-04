@@ -50,6 +50,17 @@ def main():
         print("  none — check the project name above")
         return 0
 
+    print(f"\n=== '{args.project}' raw entries ===")
+    print(f"  {'date':<11} {'hours':>5} {'billable':>9} {'productive':>11} "
+          f"{'attribution':<22} task / notes")
+    for e in sorted(target, key=lambda x: x["spent_date"]):
+        notes = (e.get("notes") or "").strip()
+        print(f"  {e['spent_date']:<11} {e['hours']:>5.1f} "
+              f"{str(e.get('billable')):>9} {str(e.get('productive')):>11} "
+              f"{str(e.get('attribution_category')):<22} "
+              f"{(e.get('task') or {}).get('name', '?')}"
+              f"{' | ' + notes[:40] if notes else ''}")
+
     by_task = defaultdict(lambda: {"hours": 0.0, "n": 0, "with_notes": 0,
                                    "sample_note": "", "categories": set()})
     for e in target:
