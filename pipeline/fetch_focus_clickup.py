@@ -6,11 +6,15 @@ Each car has a dedicated ClickUp list named "{Owner} {Year} {Model}"
 (custom_item_id=1003) and is the only task type that gets assigned to
 people, so the open MGs for a list ARE the "who owes what" picture.
 
+Only the fields the Priority Builds grid renders are fetched: name, status,
+assignee and list. Task comments and checklists were enriched per task (two
+extra API calls each) to feed AI summaries; those were removed with the grid
+rework, so the enrichment went too -- it was ~96% of the run's ClickUp calls
+and regularly rate-limited the step.
+
 Public entry point: fetch_focus_data(checkout_data, focus_owners)
 """
 
-import hashlib
-import json
 import os
 import re
 import time
@@ -105,85 +109,6 @@ def _normalize_focus(focus_owners):
         elif entry:
             norm.append({"owner": entry, "match": entry})
     return norm
-
-
-def _ms_to_iso(ms_str):
-    try:
-        return datetime.utcfromtimestamp(int(ms_str) / 1000).strftime("%Y-%m-%d %H:%M")
-    except Exception:
-        return None
-
-
-def _fetch_task_detail(token, task_id):
-    """Get task detail including checklists."""
-    headers = {"Authorization": token}
-    return _get(f"{CLICKUP_BASE}/task/{task_id}", headers, timeout=15).json()
-
-
-def _fetch_task_comments(token, task_id):
-    """Get comments for a task. Returns chronological list of {author, date, text}."""
-    headers = {"Authorization": token}
-    resp = _get(f"{CLICKUP_BASE}/task/{task_id}/comment", headers, timeout=15)
-    raw = resp.json().get("comments", [])
-    parsed = []
-    for c in raw:
-        text = (c.get("comment_text") or "").strip()
-        if not text:
-            continue
-        parsed.append({
-            "author": (c.get("user") or {}).get("username", "?"),
-            "date": _ms_to_iso(c.get("date")),
-            "text": text,
-        })
-    parsed.sort(key=lambda c: c["date"] or "")
-    return parsed
-
-
-def _flatten_checklists(checklists):
-    items = []
-    for cl in checklists or []:
-        cl_name = cl.get("name") or ""
-        for it in cl.get("items") or []:
-            items.append({
-                "checklist": cl_name,
-                "name": it.get("name") or "",
-                "resolved": bool(it.get("resolved")),
-            })
-    return items
-
-
-def _hash_task_content(task):
-    """Stable hash over the inputs that drive a Claude summary.
-
-    Touching anything in comments or checklists invalidates the cache; touching
-    the assignee or task name does not, since those are slide chrome.
-    """
-    payload = {
-        "name": task.get("name"),
-        "comments": task.get("comments", []),
-        "checklist_items": task.get("checklist_items", []),
-    }
-    blob = json.dumps(payload, sort_keys=True, ensure_ascii=False)
-    return hashlib.sha256(blob.encode("utf-8")).hexdigest()
-
-
-def _enrich_task(token, task):
-    """Attach comments, checklist_items, and content_hash onto a task dict."""
-    tid = task["id"]
-    try:
-        detail = _fetch_task_detail(token, tid)
-    except Exception as e:
-        print(f"    enrich {tid}: detail fetch failed: {e}")
-        detail = {}
-    try:
-        comments = _fetch_task_comments(token, tid)
-    except Exception as e:
-        print(f"    enrich {tid}: comments fetch failed: {e}")
-        comments = []
-    task["comments"] = comments
-    task["checklist_items"] = _flatten_checklists(detail.get("checklists"))
-    task["content_hash"] = _hash_task_content(task)
-    return task
 
 
 def _placeholder_projects(focus_entries, vehicles_by_owner, error):
@@ -285,7 +210,6 @@ def fetch_focus_data(checkout_data, focus_owners):
                 "list": (m.get("list") or {}).get("name", ""),
                 "url": m.get("url") or f"https://app.clickup.com/t/{m['id']}",
             }
-            _enrich_task(token, task)
             for a in assignees:
                 name = a.get("username") or a.get("email") or "Unassigned"
                 by_assignee[name].append(task)
