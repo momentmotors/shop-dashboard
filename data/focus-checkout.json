@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-04T19:00:47.350405Z",
+  "updated_at": "2026-10-04T19:05:38.252993Z",
   "team_id": "9011243300",
   "projects": [
     {
-      "owner": "Chuter",
+      "owner": "Barton",
       "vehicle": {
-        "owner": "Chuter",
-        "year": 1962,
-        "color": "Red + White",
-        "make": "Austin",
-        "model": "Healey",
-        "status": "Testing",
-        "checkout": 100,
+        "owner": "Barton",
+        "year": 1959,
+        "color": "White",
+        "make": "Chevrolet",
+        "model": "Impala",
+        "status": "Testing & Tuning",
+        "checkout": 91.4,
         "sub_metrics": [
           {
             "label": "BMS",
@@ -19,7 +19,7 @@
           },
           {
             "label": "Inverter",
-            "value": 99.1
+            "value": 94.4
           },
           {
             "label": "PMU",
@@ -27,129 +27,188 @@
           },
           {
             "label": "Raptor",
-            "value": 100
+            "value": 98.2
           },
           {
             "label": "Functional",
-            "value": 41.7
+            "value": 58.3
           }
         ],
         "system": "Ampere",
         "punchlist": {
           "items": [
             {
-              "text": "2026-05-14: CAN3 termination is incorrect.\n2026-08-10: Resolved. Measured 60.8 Ohms today.",
+              "text": "Label plug above brights kick switch. Label inverter connection plug.",
               "done": true
             },
             {
-              "text": "2026-08-xx: The GUI is commanded on and drawing 30mA but the screen is still dark. Check wiring at the GUI connector and ribbon cable.\n2026-08-10: Resolved. Noah found and fixed the issue.",
+              "text": "Verify HV acessories after polarity swap.",
               "done": true
             },
             {
-              "text": "2026-07-xx: Need to charge pack up to 390 volts with a charge lasting 6-7 hours to test if the DCDC fails.",
-              "done": false
-            },
-            {
-              "text": "2026-07-xx: Vehicle has charge errors.\n2026-08-10: Resolved. Noah found and fixed the issue.",
+              "text": "Verify inverter after HV polarity swap.",
               "done": true
             },
             {
-              "text": "2026-08-10: Vehicle weight may be incorrect in the GUI. Gear ratio is incorrect.",
+              "text": "Charge AC system & verify.",
+              "done": true
+            },
+            {
+              "text": "Install Heater Contactor Controller & commission.",
+              "done": true
+            },
+            {
+              "text": "Tune Wilwood brakes.",
+              "done": true
+            },
+            {
+              "text": "Weigh vehicle.",
+              "done": true
+            },
+            {
+              "text": "2026-03-xx: Pack burn. Evaluate Cell Delta.\n2026-03-20: Put in request to get BMS report ran after full charge 7PM to 7AM 2026-03-18.",
               "done": false
             },
             {
-              "text": "2026-08-10: The customer credentials need to be put into the wifi logger.\n2026-08-24: Entered into the CANCloud, just waiitng for the config to sync.",
+              "text": "Re-test BMS boxes / verify contactor orientation.",
               "done": false
             },
             {
-              "text": "2026-08-10: A full 'overnight' charge needs to be completed and then the Ampere BMS diagnostic report ran + analyzed.",
+              "text": "Add BMS images to drive.",
               "done": false
             },
             {
-              "text": "no heater hv lockout on blower speed",
+              "text": "Transfer fuse notes to power distribution sheet. Finish power distribution checkout.",
+              "done": true
+            },
+            {
+              "text": "Configure logger with Wi-Fi credentials and verify connectivity.",
+              "done": false
+            },
+            {
+              "text": "Update GUI and input gear ratio.",
+              "done": true
+            },
+            {
+              "text": "Update VCU Firmware. Verify with Ampere _BR is an okay FW to use.",
+              "done": true
+            },
+            {
+              "text": "CAN1 measures the wrong termination",
+              "done": true
+            },
+            {
+              "text": "GUI crashes when adjusting vehicle weight.",
+              "done": true
+            },
+            {
+              "text": "Suspension is very squeaky.",
+              "done": false
+            },
+            {
+              "text": "Small jingle when driving slow.",
+              "done": false
+            },
+            {
+              "text": "Motor temp gauge doesn't respond to gauges program.\n2026-03-18: Resolved, step and direction leads to the motor had backed out and needed to be pushed back in.",
+              "done": true
+            },
+            {
+              "text": "BRAKE indicator on the gauges never illuminates.",
+              "done": false
+            },
+            {
+              "text": "2026-03-18: New Issue, Vehicle weight not getting pulled from the GUI.",
+              "done": false
+            },
+            {
+              "text": "2026-03-31: Blower speed drops when power steering is used. Check DCDC settings.\n2026-06-04: fixed with larger wire and that solvved most of the problem.",
               "done": false
             }
           ],
-          "total": 8,
-          "done": 3,
-          "open": 5
+          "total": 22,
+          "done": 13,
+          "open": 9
         }
       },
       "clickup_match": {
         "found": true,
         "matched_lists": [
-          "Chuter 62 Healey"
+          "Barton 59 Impala"
         ],
-        "open_tasks": 1
+        "open_tasks": 8
       },
-      "assignees": []
-    },
-    {
-      "owner": "Connolly",
-      "vehicle": {
-        "owner": "Connolly",
-        "year": 1958,
-        "color": "Black",
-        "make": "Mercedes",
-        "model": "220S",
-        "status": "Acceptance",
-        "checkout": 100,
-        "sub_metrics": [
-          {
-            "label": "BMS",
-            "value": 95.4
-          },
-          {
-            "label": "Inverter",
-            "value": 98.1
-          },
-          {
-            "label": "PMU",
-            "value": 40.6
-          },
-          {
-            "label": "Raptor",
-            "value": 92.7
-          },
-          {
-            "label": "Functional",
-            "value": 33.3
-          }
-        ],
-        "system": "Ampere",
-        "punchlist": {
-          "items": [
+      "assignees": [
+        {
+          "name": "Brandon Beaman",
+          "tasks": [
             {
-              "text": "2026-08-07: The customer credentials need to be put into the wifi logger.",
-              "done": false
+              "id": "868jxv7zn",
+              "name": "Checkout vehicle",
+              "status": "Open",
+              "list": "Barton 59 Impala",
+              "url": "https://app.clickup.com/t/868jxv7zn"
             },
             {
-              "text": "2026-09-07: Parking brake current feedback should be enabled and tuned.",
-              "done": false
-            },
-            {
-              "text": "2026-08-07: Temperature Gauge Might Not Be Working.\n2026-08-10: Resolved. Noah fixed the temperature gauge back in January.",
-              "done": true
-            },
-            {
-              "text": "2026-07-xx: Flash Connolly with 1.7.9\n2026-08-07: Flashed VCU firmware version 1.8.14.\n2026-09-07: The VCU should be brought up to the latest firmware version.",
-              "done": false
-            },
-            {
-              "text": "2026-07-xx: DisplayDashGUI_SettingsMsgTimeout seems to appear often.",
-              "done": false
+              "id": "868jx2q4a",
+              "name": "Troubleshoot Instrumentation",
+              "status": "Open",
+              "list": "Barton 59 Impala",
+              "url": "https://app.clickup.com/t/868jx2q4a"
             }
-          ],
-          "total": 5,
-          "done": 1,
-          "open": 4
+          ]
+        },
+        {
+          "name": "Noah Sharif",
+          "tasks": [
+            {
+              "id": "868jxmvy7",
+              "name": "Replace exterior parts",
+              "status": "Open",
+              "list": "Barton 59 Impala",
+              "url": "https://app.clickup.com/t/868jxmvy7"
+            },
+            {
+              "id": "868jxmvwy",
+              "name": "Replace interior parts",
+              "status": "Open",
+              "list": "Barton 59 Impala",
+              "url": "https://app.clickup.com/t/868jxmvwy"
+            }
+          ]
+        },
+        {
+          "name": "Ryan Laurel",
+          "tasks": [
+            {
+              "id": "868jxmw03",
+              "name": "Exterior refresh",
+              "status": "Open",
+              "list": "Barton 59 Impala",
+              "url": "https://app.clickup.com/t/868jxmw03"
+            },
+            {
+              "id": "868jxmvpn",
+              "name": "Interior refresh",
+              "status": "Open",
+              "list": "Barton 59 Impala",
+              "url": "https://app.clickup.com/t/868jxmvpn"
+            }
+          ]
+        },
+        {
+          "name": "Ben Drinkard",
+          "tasks": [
+            {
+              "id": "868jxmvy7",
+              "name": "Replace exterior parts",
+              "status": "Open",
+              "list": "Barton 59 Impala",
+              "url": "https://app.clickup.com/t/868jxmvy7"
+            }
+          ]
         }
-      },
-      "clickup_match": {
-        "found": false,
-        "error": "no_match"
-      },
-      "assignees": []
+      ]
     },
     {
       "owner": "Ferdman",
@@ -440,6 +499,172 @@
       ]
     },
     {
+      "owner": "LB",
+      "vehicle": {
+        "owner": "LB",
+        "checkout": 0,
+        "placeholder": true
+      },
+      "clickup_match": {
+        "found": true,
+        "matched_lists": [
+          "LB 82 911"
+        ],
+        "open_tasks": 30
+      },
+      "assignees": [
+        {
+          "name": "Aharon Adams",
+          "tasks": [
+            {
+              "id": "868knrzc6",
+              "name": "Address dash panel fitment issue",
+              "status": "Open",
+              "list": "LB 82 911",
+              "url": "https://app.clickup.com/t/868knrzc6"
+            },
+            {
+              "id": "868g811de",
+              "name": "Charge and test system",
+              "status": "Open",
+              "list": "LB 82 911",
+              "url": "https://app.clickup.com/t/868g811de"
+            },
+            {
+              "id": "868k84q9v",
+              "name": "Final install components",
+              "status": "Open",
+              "list": "LB 82 911",
+              "url": "https://app.clickup.com/t/868k84q9v"
+            },
+            {
+              "id": "868j7kkze",
+              "name": "Install GUI",
+              "status": "Open",
+              "list": "LB 82 911",
+              "url": "https://app.clickup.com/t/868j7kkze"
+            },
+            {
+              "id": "868man63y",
+              "name": "Install front battery lid",
+              "status": "Open",
+              "list": "LB 82 911",
+              "url": "https://app.clickup.com/t/868man63y"
+            },
+            {
+              "id": "868man6bk",
+              "name": "Install rear battery lid",
+              "status": "Open",
+              "list": "LB 82 911",
+              "url": "https://app.clickup.com/t/868man6bk"
+            },
+            {
+              "id": "868g3ptbv",
+              "name": "Manufacture Core - Front Battery Pack Lid",
+              "status": "Open",
+              "list": "LB 82 911",
+              "url": "https://app.clickup.com/t/868g3ptbv"
+            },
+            {
+              "id": "868man7z6",
+              "name": "Manufacture Core - Rear Battery Pack Lid",
+              "status": "Open",
+              "list": "LB 82 911",
+              "url": "https://app.clickup.com/t/868man7z6"
+            },
+            {
+              "id": "868ma6wy3",
+              "name": "Mount washer bottle",
+              "status": "Open",
+              "list": "LB 82 911",
+              "url": "https://app.clickup.com/t/868ma6wy3"
+            },
+            {
+              "id": "868j7krpv",
+              "name": "Reinstall interior",
+              "status": "Open",
+              "list": "LB 82 911",
+              "url": "https://app.clickup.com/t/868j7krpv"
+            },
+            {
+              "id": "868j7kytx",
+              "name": "Set preliminary alignment",
+              "status": "Open",
+              "list": "LB 82 911",
+              "url": "https://app.clickup.com/t/868j7kytx"
+            },
+            {
+              "id": "868jg4cba",
+              "name": "Start up vehicle",
+              "status": "Open",
+              "list": "LB 82 911",
+              "url": "https://app.clickup.com/t/868jg4cba"
+            }
+          ]
+        },
+        {
+          "name": "Brandon Beaman",
+          "tasks": [
+            {
+              "id": "868knrzp8",
+              "name": "Start up vehicle",
+              "status": "Open",
+              "list": "LB 82 911",
+              "url": "https://app.clickup.com/t/868knrzp8"
+            }
+          ]
+        },
+        {
+          "name": "Devin DuMont",
+          "tasks": [
+            {
+              "id": "868mcpttt",
+              "name": "Update thermistor data",
+              "status": "Open",
+              "list": "LB 82 911",
+              "url": "https://app.clickup.com/t/868mcpttt"
+            }
+          ]
+        },
+        {
+          "name": "Geoff Raynak",
+          "tasks": [
+            {
+              "id": "868g3ptbt",
+              "name": "Engineer Core - Rear Battery Pack Lid",
+              "status": "Open",
+              "list": "LB 82 911",
+              "url": "https://app.clickup.com/t/868g3ptbt"
+            }
+          ]
+        },
+        {
+          "name": "Marshall Carter",
+          "tasks": [
+            {
+              "id": "868g3pt4u",
+              "name": "Engineer Core - GUI Mount",
+              "status": "Open",
+              "list": "LB 82 911",
+              "url": "https://app.clickup.com/t/868g3pt4u"
+            }
+          ]
+        },
+        {
+          "name": "Ryan Laurel",
+          "tasks": [
+            {
+              "id": "868jg5vhj",
+              "name": "Have seats and doors reupholstered",
+              "status": "Open",
+              "list": "LB 82 911",
+              "url": "https://app.clickup.com/t/868jg5vhj"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "owner": "Lee",
       "vehicle": {
         "owner": "Lee",
@@ -500,112 +725,6 @@
           ]
         }
       ]
-    },
-    {
-      "owner": "McDonough",
-      "vehicle": {
-        "owner": "McDonough",
-        "year": 1977,
-        "color": "Red",
-        "make": "Lotus",
-        "model": "Esprit",
-        "status": "Testing",
-        "checkout": 100,
-        "sub_metrics": [
-          {
-            "label": "BMS",
-            "value": 97.2
-          },
-          {
-            "label": "Inverter",
-            "value": 99.1
-          },
-          {
-            "label": "PMU",
-            "value": 50.0
-          },
-          {
-            "label": "Raptor",
-            "value": 89.1
-          },
-          {
-            "label": "Functional",
-            "value": 25.0
-          }
-        ],
-        "system": "Ampere",
-        "punchlist": {
-          "items": [
-            {
-              "text": "2026-05-13: Trying 3380 for the BMS beta thermistor calibration, need to further review the data collected during freezer testing.",
-              "done": true
-            },
-            {
-              "text": "2026-05-13: Brake switch wiring / physical switch adjustment is off. Dave to look at in the morning.\n2026-08-07: This seems to be fixed.",
-              "done": true
-            },
-            {
-              "text": "2026-05-13: HVIL missing from IMD box. Measured from BMS Host 2 CAN - HVIL2\nResolved: HVIL wire backed out of HV connector on IMD Box",
-              "done": true
-            },
-            {
-              "text": "2026-05-13: CAN3 Termination is 110 and missing a termination resistor, temporary one added when OBD cord is plugged in.",
-              "done": false
-            },
-            {
-              "text": "2026-05-12: PMU CAN1 high and low suspeccted swapped at both PMU's.\n2026-05-13: Brandon swapped them again and now the programming laptop can connect to the PMU's.",
-              "done": true
-            },
-            {
-              "text": "2026-06-xx: DCDC seems to be dead.\n2026-08-xx: The was resolved by replacing the unit.",
-              "done": true
-            },
-            {
-              "text": "2026-08-07: The customer credentials need to be put into the wifi logger.",
-              "done": false
-            },
-            {
-              "text": "2026-08-07: The vehicle needs to be weighed and then entered into the GUI.",
-              "done": false
-            },
-            {
-              "text": "2026-08-07: The GUI needs to be updated to the latest.",
-              "done": false
-            },
-            {
-              "text": "2026-08-07: The gauges need to return from Peterson, get installed, and verified.",
-              "done": false
-            },
-            {
-              "text": "2026-08-07: Fast charging needs to be tested.",
-              "done": false
-            },
-            {
-              "text": "2026-08-07: A full 'overnight' charge needs to be completed and then the Ampere BMS diagnostic report ran + analyzed.",
-              "done": false
-            },
-            {
-              "text": "2026-08-07: The passenger window was going up automatically when it shouldn't. Opened the concern that the motor is constantly stalled when on. This turned into some OEM wiring diag which then turned into headlights dimming. I believe it still needs work.",
-              "done": false
-            },
-            {
-              "text": "2026-08-07: Need to verify break speed in the inverter.",
-              "done": false
-            }
-          ],
-          "total": 14,
-          "done": 5,
-          "open": 9
-        }
-      },
-      "clickup_match": {
-        "found": true,
-        "matched_lists": [
-          "McDonough 77 Esprit"
-        ],
-        "open_tasks": 2
-      },
-      "assignees": []
     },
     {
       "owner": "Preheim",
@@ -1081,5 +1200,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-04T18:59:23Z"
+  "generated_at": "2026-10-04T19:05:17Z"
 }
