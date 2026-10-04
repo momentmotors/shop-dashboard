@@ -21,6 +21,10 @@ on:
         type: boolean
         required: false
         default: false
+      project:
+        description: 'Project to inspect when peeking'
+        required: false
+        default: 'Shop Work'
       months:
         description: 'Months of history to compare'
         required: false
@@ -55,7 +59,7 @@ jobs:
         env:
           MOMENTOPS_BASE_URL: ${{ vars.MOMENTOPS_BASE_URL }}
           MOMENTOPS_EXPORT_TOKEN: ${{ secrets.MOMENTOPS_EXPORT_TOKEN }}
-        run: python3 scripts/peek_export.py
+        run: python3 scripts/peek_export.py --project "${{ inputs.project }}"
 
       - name: Compare Harvest vs MomentOps
         if: ${{ !inputs.peek }}
