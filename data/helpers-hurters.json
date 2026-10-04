@@ -3,7 +3,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 34.8,
-      "pct_of_total": 27.5,
+      "pct_of_total": 27.6,
       "tasks": [
         {
           "task": "Facilitate paint work",
@@ -49,11 +49,11 @@
           "hours": 1.5
         },
         {
-          "task": "Terminate all cooling lines",
+          "task": "Install front boxes",
           "hours": 1.2
         },
         {
-          "task": "Install front boxes",
+          "task": "Terminate all cooling lines",
           "hours": 1.2
         },
         {
@@ -84,7 +84,7 @@
           "hours": 2.0
         },
         {
-          "task": "Install brake lines",
+          "task": "Wire OEM Interface",
           "hours": 0.5
         },
         {
@@ -92,7 +92,7 @@
           "hours": 0.5
         },
         {
-          "task": "Wire OEM Interface",
+          "task": "Install brake lines",
           "hours": 0.5
         }
       ]
@@ -100,14 +100,14 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 8.0,
-      "pct_of_total": 6.3,
+      "pct_of_total": 6.4,
       "tasks": [
         {
-          "task": "Clean up OEM wiring",
+          "task": "Clean up engine bay",
           "hours": 4.0
         },
         {
-          "task": "Clean up engine bay",
+          "task": "Clean up OEM wiring",
           "hours": 4.0
         }
       ]
@@ -115,7 +115,7 @@
     {
       "project": "Bently 65 356",
       "total_hours": 7.5,
-      "pct_of_total": 5.9,
+      "pct_of_total": 6.0,
       "tasks": [
         {
           "task": "Wire and install gauges",
@@ -138,7 +138,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 6.8,
-      "pct_of_total": 5.3,
+      "pct_of_total": 5.4,
       "tasks": [
         {
           "task": "Install rear battery box",
@@ -147,6 +147,17 @@
         {
           "task": "Spec and order gauges",
           "hours": 0.2
+        }
+      ]
+    },
+    {
+      "project": "Preheim 72 Blazer",
+      "total_hours": 6.0,
+      "pct_of_total": 4.8,
+      "tasks": [
+        {
+          "task": "Replace seal for top",
+          "hours": 6.0
         }
       ]
     },
@@ -162,17 +173,6 @@
         {
           "task": "Manufacture Product - AIO Junction Box",
           "hours": 1.5
-        }
-      ]
-    },
-    {
-      "project": "Preheim 72 Blazer",
-      "total_hours": 6.0,
-      "pct_of_total": 4.8,
-      "tasks": [
-        {
-          "task": "Replace seal for top",
-          "hours": 6.0
         }
       ]
     },
@@ -223,15 +223,15 @@
   },
   "project_hurters": [],
   "hurters_below_floor": {
-    "count": 1,
-    "hours": 0.5,
+    "count": 0,
+    "hours": 0.0,
     "min_hours": 1.0
   },
   "totals": {
     "billable_hours": 110.0,
-    "non_billable_hours": 16.2,
+    "non_billable_hours": 15.8,
     "pto_hours": 8.0,
-    "total_hours": 126.2
+    "total_hours": 125.8
   },
-  "generated_at": "2026-10-04T20:32:40Z"
+  "generated_at": "2026-10-04T21:18:09Z"
 }
