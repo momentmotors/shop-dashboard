@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05T14:44:10.109936Z",
+  "updated_at": "2026-10-05T14:56:13.144465Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -951,12 +951,19 @@
         "matched_lists": [
           "Ritchie 71 Blazer"
         ],
-        "open_tasks": 24
+        "open_tasks": 25
       },
       "assignees": [
         {
           "name": "Billy Arrasmith",
           "tasks": [
+            {
+              "id": "868mdgfp3",
+              "name": "Address all drivetrain PDI issues",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868mdgfp3"
+            },
             {
               "id": "868m7k11q",
               "name": "Facilitate paint work",
@@ -1195,5 +1202,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-05T14:43:50Z"
+  "generated_at": "2026-10-05T14:55:54Z"
 }
