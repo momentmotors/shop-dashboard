@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05T16:53:57.655072Z",
+  "updated_at": "2026-10-05T17:11:57.639461Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -864,7 +864,7 @@
         "matched_lists": [
           "Preheim 72 Blazer"
         ],
-        "open_tasks": 4
+        "open_tasks": 3
       },
       "assignees": [
         {
@@ -876,13 +876,6 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868kzam8k"
-            },
-            {
-              "id": "868mbagxr",
-              "name": "Replace upper door seals",
-              "status": "Open",
-              "list": "Preheim 72 Blazer",
-              "url": "https://app.clickup.com/t/868mbagxr"
             }
           ]
         },
@@ -951,7 +944,7 @@
         "matched_lists": [
           "Ritchie 71 Blazer"
         ],
-        "open_tasks": 24
+        "open_tasks": 25
       },
       "assignees": [
         {
@@ -984,6 +977,13 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868mdgkc8"
+            },
+            {
+              "id": "868mdk0qu",
+              "name": "Present vehicle to customer",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868mdk0qu"
             },
             {
               "id": "868mdgpw5",
@@ -1207,5 +1207,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-05T16:53:40Z"
+  "generated_at": "2026-10-05T17:11:37Z"
 }
