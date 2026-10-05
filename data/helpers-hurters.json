@@ -61,11 +61,11 @@
           "hours": 0.8
         },
         {
-          "task": "Install power brake assembly",
+          "task": "Final install components",
           "hours": 0.5
         },
         {
-          "task": "Final install components",
+          "task": "Install power brake assembly",
           "hours": 0.5
         }
       ]
@@ -151,17 +151,6 @@
       ]
     },
     {
-      "project": "Preheim 72 Blazer",
-      "total_hours": 6.0,
-      "pct_of_total": 4.8,
-      "tasks": [
-        {
-          "task": "Replace seal for top",
-          "hours": 6.0
-        }
-      ]
-    },
-    {
       "project": "Krafcik 02 Caterham",
       "total_hours": 6.0,
       "pct_of_total": 4.8,
@@ -173,6 +162,17 @@
         {
           "task": "Manufacture Product - AIO Junction Box",
           "hours": 1.5
+        }
+      ]
+    },
+    {
+      "project": "Preheim 72 Blazer",
+      "total_hours": 6.0,
+      "pct_of_total": 4.8,
+      "tasks": [
+        {
+          "task": "Replace seal for top",
+          "hours": 6.0
         }
       ]
     },
@@ -202,10 +202,10 @@
   "shop_work": {
     "total_hours": 15.8,
     "pct_of_total": 12.5,
-    "avg_per_person_per_day": 0.98,
+    "avg_per_person_per_day": 0.66,
     "flagged": false,
     "tech_count": 8,
-    "working_days": 2,
+    "working_days": 3,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
@@ -233,5 +233,5 @@
     "pto_hours": 8.0,
     "total_hours": 125.8
   },
-  "generated_at": "2026-10-04T23:48:41Z"
+  "generated_at": "2026-10-05T00:40:37Z"
 }
