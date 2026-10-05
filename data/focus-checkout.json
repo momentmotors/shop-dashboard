@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05T14:56:13.144465Z",
+  "updated_at": "2026-10-05T15:17:21.801477Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -951,7 +951,7 @@
         "matched_lists": [
           "Ritchie 71 Blazer"
         ],
-        "open_tasks": 25
+        "open_tasks": 24
       },
       "assignees": [
         {
@@ -965,39 +965,51 @@
               "url": "https://app.clickup.com/t/868mdgfp3"
             },
             {
-              "id": "868m7k11q",
-              "name": "Facilitate paint work",
+              "id": "868mdgg4n",
+              "name": "Address all interior PDI issues",
               "status": "Open",
               "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868m7k11q"
+              "url": "https://app.clickup.com/t/868mdgg4n"
             },
             {
-              "id": "868kpg6th",
-              "name": "Install bed rail caps",
+              "id": "868mdgh5f",
+              "name": "Address antena issue",
               "status": "Open",
               "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868kpg6th"
+              "url": "https://app.clickup.com/t/868mdgh5f"
             },
             {
-              "id": "868kmp9tm",
-              "name": "Install front battery lid",
+              "id": "868mdgkc8",
+              "name": "Install new front grille",
               "status": "Open",
               "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868kmp9tm"
+              "url": "https://app.clickup.com/t/868mdgkc8"
             },
             {
-              "id": "868ka4d5e",
-              "name": "Install interior",
+              "id": "868mdgpw5",
+              "name": "Re-bleed cooling system",
               "status": "Open",
               "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868ka4d5e"
+              "url": "https://app.clickup.com/t/868mdgpw5"
+            }
+          ]
+        },
+        {
+          "name": "Ben Drinkard",
+          "tasks": [
+            {
+              "id": "868mdgn3z",
+              "name": "Clean engine bay",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868mdgn3z"
             },
             {
-              "id": "868mb6aab",
-              "name": "Swap charge controller",
+              "id": "868mdgpd6",
+              "name": "Resecure wiring",
               "status": "Open",
               "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868mb6aab"
+              "url": "https://app.clickup.com/t/868mdgpd6"
             }
           ]
         },
@@ -1010,13 +1022,6 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868m40fu8"
-            },
-            {
-              "id": "868m4x24h",
-              "name": "Perform PDI",
-              "status": "Open",
-              "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868m4x24h"
             }
           ]
         }
@@ -1202,5 +1207,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-05T14:55:54Z"
+  "generated_at": "2026-10-05T15:16:59Z"
 }
