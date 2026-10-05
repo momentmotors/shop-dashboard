@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05T19:29:19.417331Z",
+  "updated_at": "2026-10-05T21:12:48.973724Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -338,7 +338,7 @@
         "matched_lists": [
           "Hastert 60 F250"
         ],
-        "open_tasks": 1
+        "open_tasks": 2
       },
       "assignees": [
         {
@@ -350,6 +350,18 @@
               "status": "Open",
               "list": "Hastert 60 F250",
               "url": "https://app.clickup.com/t/868kg03hx"
+            }
+          ]
+        },
+        {
+          "name": "Justin Landry",
+          "tasks": [
+            {
+              "id": "868mdq0bt",
+              "name": "Perform brief PDI",
+              "status": "Open",
+              "list": "Hastert 60 F250",
+              "url": "https://app.clickup.com/t/868mdq0bt"
             }
           ]
         }
@@ -510,7 +522,7 @@
         "matched_lists": [
           "LB 82 911"
         ],
-        "open_tasks": 30
+        "open_tasks": 31
       },
       "assignees": [
         {
@@ -603,6 +615,25 @@
           ]
         },
         {
+          "name": "Marshall Carter",
+          "tasks": [
+            {
+              "id": "868g3pt4u",
+              "name": "Engineer Core - GUI Mount",
+              "status": "Open",
+              "list": "LB 82 911",
+              "url": "https://app.clickup.com/t/868g3pt4u"
+            },
+            {
+              "id": "868mdqr4g",
+              "name": "Scan under dash area",
+              "status": "Open",
+              "list": "LB 82 911",
+              "url": "https://app.clickup.com/t/868mdqr4g"
+            }
+          ]
+        },
+        {
           "name": "Brandon Beaman",
           "tasks": [
             {
@@ -635,18 +666,6 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868g3ptbt"
-            }
-          ]
-        },
-        {
-          "name": "Marshall Carter",
-          "tasks": [
-            {
-              "id": "868g3pt4u",
-              "name": "Engineer Core - GUI Mount",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868g3pt4u"
             }
           ]
         },
@@ -944,7 +963,7 @@
         "matched_lists": [
           "Ritchie 71 Blazer"
         ],
-        "open_tasks": 25
+        "open_tasks": 23
       },
       "assignees": [
         {
@@ -991,25 +1010,6 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868mdgpw5"
-            }
-          ]
-        },
-        {
-          "name": "Ben Drinkard",
-          "tasks": [
-            {
-              "id": "868mdgn3z",
-              "name": "Clean engine bay",
-              "status": "Open",
-              "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868mdgn3z"
-            },
-            {
-              "id": "868mdgpd6",
-              "name": "Resecure wiring",
-              "status": "Open",
-              "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868mdgpd6"
             }
           ]
         },
@@ -1207,5 +1207,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-05T19:29:01Z"
+  "generated_at": "2026-10-05T21:12:31Z"
 }
