@@ -133,7 +133,7 @@ def main():
 
     if not tech_users:
         print("  WARNING: No Tech users found. Check tech_role_filter config.")
-        print("  Continuing anyway to generate empty data files...")
+        print("  Hours files will be left at their last published values.")
 
     tech_user_ids = set(tech_users.keys())
 
@@ -198,8 +198,17 @@ def main():
 
     # --- Write JSON Files ---
     print("\nWriting JSON files...")
-    write_json("productivity.json", productivity_data)
-    write_json("helpers-hurters.json", hh_data)
+    # An empty tech roster filters every entry out, so productivity computes a
+    # perfectly well-formed 0%. Publishing that overwrites real numbers on a
+    # screen people read for bonus tiers. Hold the last good files instead and
+    # let the page's own staleness indicator do the complaining.
+    if tech_users:
+        write_json("productivity.json", productivity_data)
+        write_json("helpers-hurters.json", hh_data)
+    else:
+        print("  SKIPPING productivity.json and helpers-hurters.json: no Tech "
+              "users came back, so every hour filtered out to 0%. Keeping the "
+              "last published figures; check /api/export/tech-users.")
     write_json("events.json", events_data)
     if checkout_data:
         write_json("checkout.json", checkout_data)
