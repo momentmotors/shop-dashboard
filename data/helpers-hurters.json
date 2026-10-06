@@ -10,11 +10,11 @@
           "hours": 21.0
         },
         {
-          "task": "Address all drivetrain PDI issues",
+          "task": "Address all interior PDI issues",
           "hours": 6.0
         },
         {
-          "task": "Address all interior PDI issues",
+          "task": "Address all drivetrain PDI issues",
           "hours": 6.0
         },
         {
@@ -42,15 +42,15 @@
           "hours": 1.5
         },
         {
-          "task": "Clean engine bay",
-          "hours": 1.0
-        },
-        {
           "task": "Re-bleed cooling system",
           "hours": 1.0
         },
         {
           "task": "Address antena issue",
+          "hours": 1.0
+        },
+        {
+          "task": "Clean engine bay",
           "hours": 1.0
         },
         {
@@ -89,11 +89,11 @@
           "hours": 1.5
         },
         {
-          "task": "Install front boxes",
+          "task": "Terminate all cooling lines",
           "hours": 1.2
         },
         {
-          "task": "Terminate all cooling lines",
+          "task": "Install front boxes",
           "hours": 1.2
         },
         {
@@ -105,15 +105,15 @@
           "hours": 0.5
         },
         {
-          "task": "Manufacture Product - Batt Box 1",
-          "hours": 0.5
-        },
-        {
           "task": "Manufacture Product - Batt Box 3",
           "hours": 0.5
         },
         {
           "task": "Manufacture Product - Batt Box 2",
+          "hours": 0.5
+        },
+        {
+          "task": "Manufacture Product - Batt Box 1",
           "hours": 0.5
         }
       ]
@@ -136,11 +136,11 @@
           "hours": 2.0
         },
         {
-          "task": "Install brake lines",
+          "task": "Install HVAC ducting",
           "hours": 0.5
         },
         {
-          "task": "Install HVAC ducting",
+          "task": "Install brake lines",
           "hours": 0.5
         }
       ]
@@ -313,5 +313,5 @@
     "pto_hours": 8.0,
     "total_hours": 204.8
   },
-  "generated_at": "2026-10-06T11:27:50Z"
+  "generated_at": "2026-10-06T11:42:30Z"
 }
