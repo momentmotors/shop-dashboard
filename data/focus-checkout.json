@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06T19:15:22.672891Z",
+  "updated_at": "2026-10-06T19:29:10.351496Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -522,7 +522,7 @@
         "matched_lists": [
           "LB 82 911"
         ],
-        "open_tasks": 31
+        "open_tasks": 34
       },
       "assignees": [
         {
@@ -557,6 +557,13 @@
               "url": "https://app.clickup.com/t/868j7kkze"
             },
             {
+              "id": "868me9maj",
+              "name": "Install carpet",
+              "status": "Open",
+              "list": "LB 82 911",
+              "url": "https://app.clickup.com/t/868me9maj"
+            },
+            {
               "id": "868man63y",
               "name": "Install front battery lid",
               "status": "Open",
@@ -569,6 +576,13 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868man6bk"
+            },
+            {
+              "id": "868me9mfk",
+              "name": "Install sway bar",
+              "status": "Open",
+              "list": "LB 82 911",
+              "url": "https://app.clickup.com/t/868me9mfk"
             },
             {
               "id": "868g3ptbv",
@@ -615,6 +629,25 @@
           ]
         },
         {
+          "name": "Brandon Beaman",
+          "tasks": [
+            {
+              "id": "868me9n2e",
+              "name": "Checkout vehicle",
+              "status": "Open",
+              "list": "LB 82 911",
+              "url": "https://app.clickup.com/t/868me9n2e"
+            },
+            {
+              "id": "868knrzp8",
+              "name": "Start up vehicle",
+              "status": "Open",
+              "list": "LB 82 911",
+              "url": "https://app.clickup.com/t/868knrzp8"
+            }
+          ]
+        },
+        {
           "name": "Marshall Carter",
           "tasks": [
             {
@@ -630,18 +663,6 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868mdqr4g"
-            }
-          ]
-        },
-        {
-          "name": "Brandon Beaman",
-          "tasks": [
-            {
-              "id": "868knrzp8",
-              "name": "Start up vehicle",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868knrzp8"
             }
           ]
         },
@@ -1214,5 +1235,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-06T19:14:43Z"
+  "generated_at": "2026-10-06T19:28:47Z"
 }
