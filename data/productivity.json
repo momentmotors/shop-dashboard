@@ -2,31 +2,31 @@
   "target_pct": 75,
   "current_month": {
     "month": "2026-10",
-    "productivity_pct": 87.8,
-    "billable_hours": 113.5,
-    "total_hours": 137.2,
+    "productivity_pct": 88.2,
+    "billable_hours": 180.5,
+    "total_hours": 212.8,
     "pto_hours": 8.0
   },
   "comparisons": {
     "vs_last_month": {
       "label": "vs Last Month",
       "value": 77.0,
-      "delta": 10.8
+      "delta": 11.2
     },
     "vs_last_quarter": {
       "label": "vs Last Quarter Avg",
       "value": 72.3,
-      "delta": 15.5
+      "delta": 15.9
     },
     "vs_last_week": {
       "label": "vs Last Week",
-      "value": 86.1,
-      "delta": 1.7
+      "value": 86.2,
+      "delta": 2.0
     },
     "vs_target": {
       "label": "vs Target",
       "value": 75,
-      "delta": 12.8
+      "delta": 13.2
     }
   },
   "monthly": [
@@ -109,18 +109,24 @@
     },
     {
       "month": "2026-10",
-      "productivity_pct": 87.8,
-      "billable_hours": 113.5,
-      "total_hours": 137.2,
+      "productivity_pct": 88.2,
+      "billable_hours": 180.5,
+      "total_hours": 212.8,
       "pto_hours": 8.0
     }
   ],
   "current_month_weeks": [
     {
       "week": "2026-W40",
-      "productivity_pct": 87.8,
-      "billable_hours": 113.5,
-      "total_hours": 137.2
+      "productivity_pct": 88.1,
+      "billable_hours": 116.5,
+      "total_hours": 140.2
+    },
+    {
+      "week": "2026-W41",
+      "productivity_pct": 88.3,
+      "billable_hours": 64.0,
+      "total_hours": 72.5
     }
   ],
   "current_month_days": [
@@ -145,9 +151,21 @@
     {
       "date": "2026-10-04",
       "productivity_pct": 100.0,
-      "billable_hours": 3.5,
-      "total_hours": 3.5
+      "billable_hours": 6.5,
+      "total_hours": 6.5
+    },
+    {
+      "date": "2026-10-05",
+      "productivity_pct": 91.6,
+      "billable_hours": 62.5,
+      "total_hours": 68.2
+    },
+    {
+      "date": "2026-10-06",
+      "productivity_pct": 35.3,
+      "billable_hours": 1.5,
+      "total_hours": 4.2
     }
   ],
-  "generated_at": "2026-10-06T05:41:07Z"
+  "generated_at": "2026-10-06T05:52:34Z"
 }
