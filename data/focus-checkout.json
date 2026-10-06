@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06T21:12:11.530983Z",
+  "updated_at": "2026-10-06T21:27:44.203304Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -284,7 +284,7 @@
         "matched_lists": [
           "Ferdman 66 Bus"
         ],
-        "open_tasks": 4
+        "open_tasks": 6
       },
       "assignees": [
         {
@@ -303,6 +303,20 @@
               "status": "Open",
               "list": "Ferdman 66 Bus",
               "url": "https://app.clickup.com/t/868m2y1ap"
+            },
+            {
+              "id": "868mebewh",
+              "name": "Research spare tire solution",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868mebewh"
+            },
+            {
+              "id": "868mebeft",
+              "name": "Troubleshoot speaker issue",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868mebeft"
             }
           ]
         },
@@ -1242,5 +1256,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-06T21:11:51Z"
+  "generated_at": "2026-10-06T21:27:27Z"
 }
