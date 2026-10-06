@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06T21:49:21.048450Z",
+  "updated_at": "2026-10-06T22:13:48.854367Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -925,19 +925,12 @@
         "matched_lists": [
           "Preheim 72 Blazer"
         ],
-        "open_tasks": 4
+        "open_tasks": 3
       },
       "assignees": [
         {
           "name": "Billy Arrasmith",
           "tasks": [
-            {
-              "id": "868kzam8k",
-              "name": "Address rear hatch issues",
-              "status": "Open",
-              "list": "Preheim 72 Blazer",
-              "url": "https://app.clickup.com/t/868kzam8k"
-            },
             {
               "id": "868mea4jy",
               "name": "Raise ride height",
@@ -1012,33 +1005,12 @@
         "matched_lists": [
           "Ritchie 71 Blazer"
         ],
-        "open_tasks": 23
+        "open_tasks": 19
       },
       "assignees": [
         {
           "name": "Billy Arrasmith",
           "tasks": [
-            {
-              "id": "868mdgfp3",
-              "name": "Address all drivetrain PDI issues",
-              "status": "Open",
-              "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868mdgfp3"
-            },
-            {
-              "id": "868mdgg4n",
-              "name": "Address all interior PDI issues",
-              "status": "Open",
-              "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868mdgg4n"
-            },
-            {
-              "id": "868mdgh5f",
-              "name": "Address antena issue",
-              "status": "Open",
-              "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868mdgh5f"
-            },
             {
               "id": "868mdgkc8",
               "name": "Install new front grille",
@@ -1052,13 +1024,6 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868mdk0qu"
-            },
-            {
-              "id": "868mdgpw5",
-              "name": "Re-bleed cooling system",
-              "status": "Open",
-              "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868mdgpw5"
             }
           ]
         },
@@ -1256,5 +1221,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-06T21:48:59Z"
+  "generated_at": "2026-10-06T22:13:25Z"
 }
