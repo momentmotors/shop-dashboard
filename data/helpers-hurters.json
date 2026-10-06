@@ -10,11 +10,11 @@
           "hours": 21.0
         },
         {
-          "task": "Address all interior PDI issues",
+          "task": "Address all drivetrain PDI issues",
           "hours": 6.0
         },
         {
-          "task": "Address all drivetrain PDI issues",
+          "task": "Address all interior PDI issues",
           "hours": 6.0
         },
         {
@@ -89,11 +89,11 @@
           "hours": 1.5
         },
         {
-          "task": "Terminate all cooling lines",
+          "task": "Install front boxes",
           "hours": 1.2
         },
         {
-          "task": "Install front boxes",
+          "task": "Terminate all cooling lines",
           "hours": 1.2
         },
         {
@@ -105,11 +105,11 @@
           "hours": 0.5
         },
         {
-          "task": "Manufacture Product - Batt Box 3",
+          "task": "Manufacture Product - Batt Box 2",
           "hours": 0.5
         },
         {
-          "task": "Manufacture Product - Batt Box 2",
+          "task": "Manufacture Product - Batt Box 3",
           "hours": 0.5
         },
         {
@@ -265,11 +265,11 @@
       "pct_of_total": 2.7,
       "tasks": [
         {
-          "task": "Manufacture Product - Batt Box 2",
+          "task": "Manufacture Product - Batt Box 1",
           "hours": 2.8
         },
         {
-          "task": "Manufacture Product - Batt Box 1",
+          "task": "Manufacture Product - Batt Box 2",
           "hours": 2.8
         }
       ]
@@ -313,5 +313,5 @@
     "pto_hours": 8.0,
     "total_hours": 204.8
   },
-  "generated_at": "2026-10-06T13:14:36Z"
+  "generated_at": "2026-10-06T13:33:31Z"
 }
