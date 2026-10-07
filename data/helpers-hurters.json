@@ -3,7 +3,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 59.5,
-      "pct_of_total": 29.1,
+      "pct_of_total": 22.5,
       "tasks": [
         {
           "task": "Facilitate paint work",
@@ -65,9 +65,13 @@
     },
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 22.8,
-      "pct_of_total": 11.1,
+      "total_hours": 32.8,
+      "pct_of_total": 12.4,
       "tasks": [
+        {
+          "task": "Install AC lines and condenser",
+          "hours": 7.2
+        },
         {
           "task": "Install radiator assembly",
           "hours": 6.8
@@ -89,43 +93,43 @@
           "hours": 1.5
         },
         {
-          "task": "Install front boxes",
-          "hours": 1.2
+          "task": "Manufacture Product - Batt Box 3",
+          "hours": 1.5
+        },
+        {
+          "task": "Manufacture Product - Batt Box 1",
+          "hours": 1.5
+        },
+        {
+          "task": "Manufacture Product - Batt Box 2",
+          "hours": 1.5
         },
         {
           "task": "Terminate all cooling lines",
           "hours": 1.2
         },
         {
-          "task": "Install AC lines and condenser",
-          "hours": 0.8
+          "task": "Install front boxes",
+          "hours": 1.2
         },
         {
           "task": "Final install components",
           "hours": 0.5
         },
         {
-          "task": "Manufacture Product - Batt Box 2",
-          "hours": 0.5
-        },
-        {
-          "task": "Manufacture Product - Batt Box 3",
-          "hours": 0.5
-        },
-        {
-          "task": "Manufacture Product - Batt Box 1",
+          "task": "Manufacture Product - VC Harness",
           "hours": 0.5
         }
       ]
     },
     {
       "project": "Richardson 72 240Z",
-      "total_hours": 20.5,
-      "pct_of_total": 10.0,
+      "total_hours": 27.0,
+      "pct_of_total": 10.2,
       "tasks": [
         {
           "task": "Modify and clean up OEM harness",
-          "hours": 12.5
+          "hours": 19.0
         },
         {
           "task": "Wire OEM Interface",
@@ -136,19 +140,38 @@
           "hours": 2.0
         },
         {
-          "task": "Install HVAC ducting",
+          "task": "Install brake lines",
           "hours": 0.5
         },
         {
-          "task": "Install brake lines",
+          "task": "Install HVAC ducting",
           "hours": 0.5
         }
       ]
     },
     {
+      "project": "Hopkins 65 Silver Cloud",
+      "total_hours": 22.0,
+      "pct_of_total": 8.3,
+      "tasks": [
+        {
+          "task": "Clean up engine bay",
+          "hours": 13.0
+        },
+        {
+          "task": "Wire OEM Interface",
+          "hours": 5.0
+        },
+        {
+          "task": "Clean up OEM wiring",
+          "hours": 4.0
+        }
+      ]
+    },
+    {
       "project": "Jaffe 86 190E",
-      "total_hours": 16.0,
-      "pct_of_total": 7.8,
+      "total_hours": 19.5,
+      "pct_of_total": 7.4,
       "tasks": [
         {
           "task": "Install rear battery box",
@@ -156,7 +179,7 @@
         },
         {
           "task": "Manufacture Product - Flying Lead Harness",
-          "hours": 3.8
+          "hours": 7.2
         },
         {
           "task": "Terminate all main 12V power cables",
@@ -169,25 +192,14 @@
       ]
     },
     {
-      "project": "Hopkins 65 Silver Cloud",
-      "total_hours": 15.0,
-      "pct_of_total": 7.3,
-      "tasks": [
-        {
-          "task": "Clean up engine bay",
-          "hours": 11.0
-        },
-        {
-          "task": "Clean up OEM wiring",
-          "hours": 4.0
-        }
-      ]
-    },
-    {
       "project": "Nolan 70 Challenger",
-      "total_hours": 9.5,
-      "pct_of_total": 4.6,
+      "total_hours": 17.8,
+      "pct_of_total": 6.7,
       "tasks": [
+        {
+          "task": "Finalize OEM wiring",
+          "hours": 8.0
+        },
         {
           "task": "Wire and install gauges",
           "hours": 5.0
@@ -199,21 +211,29 @@
         {
           "task": "Install interior",
           "hours": 0.5
+        },
+        {
+          "task": "Install HVAC controls",
+          "hours": 0.2
         }
       ]
     },
     {
       "project": "Krafcik 02 Caterham",
-      "total_hours": 8.0,
-      "pct_of_total": 3.9,
+      "total_hours": 11.8,
+      "pct_of_total": 4.4,
       "tasks": [
         {
           "task": "Manufacture Product - Pos Con Box",
           "hours": 4.5
         },
         {
+          "task": "Install charger assembly",
+          "hours": 3.0
+        },
+        {
           "task": "Install Pos Con Box",
-          "hours": 2.0
+          "hours": 2.8
         },
         {
           "task": "Manufacture Product - AIO Junction Box",
@@ -223,12 +243,16 @@
     },
     {
       "project": "Preheim 72 Blazer",
-      "total_hours": 7.5,
-      "pct_of_total": 3.7,
+      "total_hours": 9.5,
+      "pct_of_total": 3.6,
       "tasks": [
         {
           "task": "Replace seal for top",
           "hours": 6.0
+        },
+        {
+          "task": "Perform PDI",
+          "hours": 2.0
         },
         {
           "task": "Checkout vehicle",
@@ -237,9 +261,20 @@
       ]
     },
     {
+      "project": "Lee 68 Mustang",
+      "total_hours": 8.8,
+      "pct_of_total": 3.3,
+      "tasks": [
+        {
+          "task": "Address NVH issue",
+          "hours": 8.8
+        }
+      ]
+    },
+    {
       "project": "Bently 65 356",
-      "total_hours": 7.5,
-      "pct_of_total": 3.7,
+      "total_hours": 8.5,
+      "pct_of_total": 3.2,
       "tasks": [
         {
           "task": "Wire and install gauges",
@@ -254,49 +289,42 @@
           "hours": 1.0
         },
         {
-          "task": "Clean up and finalize OEM wiring",
-          "hours": 0.5
-        }
-      ]
-    },
-    {
-      "project": "Thacker 46 Woody",
-      "total_hours": 5.5,
-      "pct_of_total": 2.7,
-      "tasks": [
-        {
-          "task": "Manufacture Product - Batt Box 1",
-          "hours": 2.8
+          "task": "Conduct Vehicle Requirements meeting",
+          "hours": 1.0
         },
         {
-          "task": "Manufacture Product - Batt Box 2",
-          "hours": 2.8
+          "task": "Clean up and finalize OEM wiring",
+          "hours": 0.5
         }
       ]
     }
   ],
   "shop_work": {
-    "total_hours": 24.2,
-    "pct_of_total": 11.8,
-    "avg_per_person_per_day": 0.61,
+    "total_hours": 32.2,
+    "pct_of_total": 12.2,
+    "avg_per_person_per_day": 0.81,
     "flagged": false,
     "tech_count": 8,
     "working_days": 5,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 12.2
+        "hours": 15.8
       },
       {
         "label": "Shop Meetings",
-        "hours": 9.2
+        "hours": 12.8
       },
       {
         "label": "Personal Meetings",
-        "hours": 2.5
+        "hours": 3.2
       },
       {
         "label": "Organization",
+        "hours": 0.2
+      },
+      {
+        "label": "Other",
         "hours": 0.2
       }
     ]
@@ -308,10 +336,10 @@
     "min_hours": 1.0
   },
   "totals": {
-    "billable_hours": 180.5,
-    "non_billable_hours": 24.2,
+    "billable_hours": 232.8,
+    "non_billable_hours": 32.2,
     "pto_hours": 8.0,
-    "total_hours": 204.8
+    "total_hours": 265.0
   },
-  "generated_at": "2026-10-07T05:41:46Z"
+  "generated_at": "2026-10-07T05:53:36Z"
 }
