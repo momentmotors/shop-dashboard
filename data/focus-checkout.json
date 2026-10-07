@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07T16:36:26.546074Z",
+  "updated_at": "2026-10-07T17:19:29.585265Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -136,9 +136,35 @@
         "matched_lists": [
           "Barton 59 Impala"
         ],
-        "open_tasks": 8
+        "open_tasks": 9
       },
       "assignees": [
+        {
+          "name": "Noah Sharif",
+          "tasks": [
+            {
+              "id": "868memgcx",
+              "name": "Address sway bar bushing issue",
+              "status": "Open",
+              "list": "Barton 59 Impala",
+              "url": "https://app.clickup.com/t/868memgcx"
+            },
+            {
+              "id": "868jxmvy7",
+              "name": "Replace exterior parts",
+              "status": "Open",
+              "list": "Barton 59 Impala",
+              "url": "https://app.clickup.com/t/868jxmvy7"
+            },
+            {
+              "id": "868jxmvwy",
+              "name": "Replace interior parts",
+              "status": "Open",
+              "list": "Barton 59 Impala",
+              "url": "https://app.clickup.com/t/868jxmvwy"
+            }
+          ]
+        },
         {
           "name": "Brandon Beaman",
           "tasks": [
@@ -155,25 +181,6 @@
               "status": "Open",
               "list": "Barton 59 Impala",
               "url": "https://app.clickup.com/t/868jx2q4a"
-            }
-          ]
-        },
-        {
-          "name": "Noah Sharif",
-          "tasks": [
-            {
-              "id": "868jxmvy7",
-              "name": "Replace exterior parts",
-              "status": "Open",
-              "list": "Barton 59 Impala",
-              "url": "https://app.clickup.com/t/868jxmvy7"
-            },
-            {
-              "id": "868jxmvwy",
-              "name": "Replace interior parts",
-              "status": "Open",
-              "list": "Barton 59 Impala",
-              "url": "https://app.clickup.com/t/868jxmvwy"
             }
           ]
         },
@@ -1221,5 +1228,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-07T16:36:06Z"
+  "generated_at": "2026-10-07T17:19:06Z"
 }
