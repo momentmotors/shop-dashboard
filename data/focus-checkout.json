@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08T17:16:38.183938Z",
+  "updated_at": "2026-10-08T17:40:26.231232Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -450,7 +450,7 @@
         "matched_lists": [
           "Kelly 63 Corvette"
         ],
-        "open_tasks": 8
+        "open_tasks": 7
       },
       "assignees": [
         {
@@ -469,13 +469,6 @@
               "status": "Open",
               "list": "Kelly 63 Corvette",
               "url": "https://app.clickup.com/t/868krf6f9"
-            },
-            {
-              "id": "868krf65c",
-              "name": "Troubleshoot inverter issue",
-              "status": "Open",
-              "list": "Kelly 63 Corvette",
-              "url": "https://app.clickup.com/t/868krf65c"
             },
             {
               "id": "868m6ucr6",
@@ -737,7 +730,7 @@
         "matched_lists": [
           "Lee 68 Mustang"
         ],
-        "open_tasks": 9
+        "open_tasks": 8
       },
       "assignees": [
         {
@@ -770,13 +763,6 @@
               "status": "Open",
               "list": "Lee 68 Mustang",
               "url": "https://app.clickup.com/t/868me50qb"
-            },
-            {
-              "id": "868m8fhnh",
-              "name": "Troubleshoot inverter issue",
-              "status": "Open",
-              "list": "Lee 68 Mustang",
-              "url": "https://app.clickup.com/t/868m8fhnh"
             }
           ]
         },
@@ -932,7 +918,7 @@
         "matched_lists": [
           "Preheim 72 Blazer"
         ],
-        "open_tasks": 12
+        "open_tasks": 11
       },
       "assignees": [
         {
@@ -1023,18 +1009,6 @@
           ]
         },
         {
-          "name": "Brandon Beaman",
-          "tasks": [
-            {
-              "id": "868krfacg",
-              "name": "Checkout vehicle",
-              "status": "Open",
-              "list": "Preheim 72 Blazer",
-              "url": "https://app.clickup.com/t/868krfacg"
-            }
-          ]
-        },
-        {
           "name": "Justin Landry",
           "tasks": [
             {
@@ -1087,7 +1061,7 @@
         "matched_lists": [
           "Ritchie 71 Blazer"
         ],
-        "open_tasks": 19
+        "open_tasks": 18
       },
       "assignees": [
         {
@@ -1106,18 +1080,6 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868mdk0qu"
-            }
-          ]
-        },
-        {
-          "name": "Brandon Beaman",
-          "tasks": [
-            {
-              "id": "868m40fu8",
-              "name": "Checkout Vehicle",
-              "status": "Open",
-              "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868m40fu8"
             }
           ]
         }
@@ -1303,5 +1265,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-08T17:16:17Z"
+  "generated_at": "2026-10-08T17:40:08Z"
 }
