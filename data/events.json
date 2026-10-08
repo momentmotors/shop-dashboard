@@ -22,14 +22,14 @@
         {
           "date": "2026-10-07",
           "day_name": "Wednesday",
-          "is_today": true,
+          "is_today": false,
           "is_weekend": false,
           "events": []
         },
         {
           "date": "2026-10-08",
           "day_name": "Thursday",
-          "is_today": false,
+          "is_today": true,
           "is_weekend": false,
           "events": [
             {
@@ -275,5 +275,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-07T23:49:52Z"
+  "generated_at": "2026-10-08T00:37:36Z"
 }
