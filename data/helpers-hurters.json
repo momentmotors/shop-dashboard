@@ -14,11 +14,11 @@
           "hours": 8.0
         },
         {
-          "task": "Address all drivetrain PDI issues",
+          "task": "Address all interior PDI issues",
           "hours": 6.0
         },
         {
-          "task": "Address all interior PDI issues",
+          "task": "Address all drivetrain PDI issues",
           "hours": 6.0
         },
         {
@@ -105,15 +105,15 @@
           "hours": 1.5
         },
         {
-          "task": "Manufacture Product - Batt Box 1",
-          "hours": 1.5
-        },
-        {
           "task": "Manufacture Product - Batt Box 2",
           "hours": 1.5
         },
         {
           "task": "Manufacture Product - Batt Box 3",
+          "hours": 1.5
+        },
+        {
+          "task": "Manufacture Product - Batt Box 1",
           "hours": 1.5
         },
         {
@@ -125,11 +125,11 @@
           "hours": 1.2
         },
         {
-          "task": "Install AC Compressor",
+          "task": "Mount steering sensor",
           "hours": 1.0
         },
         {
-          "task": "Mount steering sensor",
+          "task": "Install AC Compressor",
           "hours": 1.0
         },
         {
@@ -323,15 +323,15 @@
           "hours": 0.5
         },
         {
+          "task": "Address Brakes PDI findings",
+          "hours": 0.2
+        },
+        {
           "task": "Address Exterior PDI findings",
           "hours": 0.2
         },
         {
           "task": "Address Cooling PDI findings",
-          "hours": 0.2
-        },
-        {
-          "task": "Address Brakes PDI findings",
           "hours": 0.2
         }
       ]
@@ -378,10 +378,10 @@
   "shop_work": {
     "total_hours": 47.8,
     "pct_of_total": 14.3,
-    "avg_per_person_per_day": 0.99,
+    "avg_per_person_per_day": 0.85,
     "flagged": false,
     "tech_count": 8,
-    "working_days": 6,
+    "working_days": 7,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
@@ -455,5 +455,5 @@
     "pto_hours": 8.0,
     "total_hours": 334.8
   },
-  "generated_at": "2026-10-08T23:51:58Z"
+  "generated_at": "2026-10-09T00:39:24Z"
 }
