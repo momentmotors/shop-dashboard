@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T16:54:40.262489Z",
+  "updated_at": "2026-10-09T17:11:24.494106Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -345,14 +345,8 @@
       "owner": "Hastert",
       "vehicle": {
         "owner": "Hastert",
-        "year": 1960,
-        "color": "Green",
-        "make": "Ford",
-        "model": "F-250",
-        "status": "Shipped",
-        "checkout": 98.9,
-        "sub_metrics": [],
-        "system": "AEM"
+        "checkout": 0,
+        "placeholder": true
       },
       "clickup_match": {
         "found": true,
@@ -1265,5 +1259,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-09T16:54:18Z"
+  "generated_at": "2026-10-09T17:10:57Z"
 }
