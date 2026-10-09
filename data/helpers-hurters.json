@@ -2,8 +2,8 @@
   "helpers": [
     {
       "project": "Ritchie 71 Blazer",
-      "total_hours": 65.5,
-      "pct_of_total": 17.3,
+      "total_hours": 58.0,
+      "pct_of_total": 15.3,
       "tasks": [
         {
           "task": "Facilitate paint work",
@@ -18,10 +18,6 @@
           "hours": 6.0
         },
         {
-          "task": "Address all interior PDI issues",
-          "hours": 6.0
-        },
-        {
           "task": "Install bed rail caps",
           "hours": 5.0
         },
@@ -30,15 +26,19 @@
           "hours": 5.0
         },
         {
-          "task": "Polish chrome surfaces",
-          "hours": 4.2
+          "task": "Address all interior PDI issues",
+          "hours": 2.8
         },
         {
           "task": "Checkout Vehicle",
-          "hours": 3.5
+          "hours": 2.0
         },
         {
           "task": "Install interior",
+          "hours": 1.5
+        },
+        {
+          "task": "Polish chrome surfaces",
           "hours": 1.5
         },
         {
@@ -172,11 +172,11 @@
           "hours": 2.0
         },
         {
-          "task": "Install audio system",
+          "task": "Remove OEM gauges",
           "hours": 2.0
         },
         {
-          "task": "Remove OEM gauges",
+          "task": "Install audio system",
           "hours": 2.0
         },
         {
@@ -466,6 +466,25 @@
       ]
     },
     {
+      "project": "Ritchie 71 Blazer",
+      "total_hours": 7.5,
+      "pct_of_total": 2.0,
+      "tasks": [
+        {
+          "task": "Address all interior PDI issues",
+          "hours": 3.2
+        },
+        {
+          "task": "Polish chrome surfaces",
+          "hours": 2.8
+        },
+        {
+          "task": "Checkout Vehicle",
+          "hours": 1.5
+        }
+      ]
+    },
+    {
       "project": "Hastert 60 F250",
       "total_hours": 2.0,
       "pct_of_total": 0.5,
@@ -494,10 +513,10 @@
     "min_hours": 1.0
   },
   "totals": {
-    "billable_hours": 312.5,
-    "non_billable_hours": 66.8,
+    "billable_hours": 305.0,
+    "non_billable_hours": 74.2,
     "pto_hours": 16.0,
     "total_hours": 379.2
   },
-  "generated_at": "2026-10-09T12:19:11Z"
+  "generated_at": "2026-10-09T12:50:20Z"
 }
