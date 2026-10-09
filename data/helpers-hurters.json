@@ -2,8 +2,8 @@
   "helpers": [
     {
       "project": "Ritchie 71 Blazer",
-      "total_hours": 58.0,
-      "pct_of_total": 15.3,
+      "total_hours": 53.0,
+      "pct_of_total": 14.0,
       "tasks": [
         {
           "task": "Facilitate paint work",
@@ -22,10 +22,6 @@
           "hours": 5.0
         },
         {
-          "task": "Perform PDI",
-          "hours": 5.0
-        },
-        {
           "task": "Address all interior PDI issues",
           "hours": 2.8
         },
@@ -34,11 +30,11 @@
           "hours": 2.0
         },
         {
-          "task": "Install interior",
+          "task": "Polish chrome surfaces",
           "hours": 1.5
         },
         {
-          "task": "Polish chrome surfaces",
+          "task": "Install interior",
           "hours": 1.5
         },
         {
@@ -109,15 +105,15 @@
           "hours": 1.5
         },
         {
+          "task": "Manufacture Product - Batt Box 1",
+          "hours": 1.5
+        },
+        {
           "task": "Manufacture Product - Batt Box 2",
           "hours": 1.5
         },
         {
           "task": "Manufacture Product - Batt Box 3",
-          "hours": 1.5
-        },
-        {
-          "task": "Manufacture Product - Batt Box 1",
           "hours": 1.5
         },
         {
@@ -427,6 +423,29 @@
   },
   "project_hurters": [
     {
+      "project": "Ritchie 71 Blazer",
+      "total_hours": 12.5,
+      "pct_of_total": 3.3,
+      "tasks": [
+        {
+          "task": "Perform PDI",
+          "hours": 5.0
+        },
+        {
+          "task": "Address all interior PDI issues",
+          "hours": 3.2
+        },
+        {
+          "task": "Polish chrome surfaces",
+          "hours": 2.8
+        },
+        {
+          "task": "Checkout Vehicle",
+          "hours": 1.5
+        }
+      ]
+    },
+    {
       "project": "Preheim 72 Blazer",
       "total_hours": 8.5,
       "pct_of_total": 2.2,
@@ -466,25 +485,6 @@
       ]
     },
     {
-      "project": "Ritchie 71 Blazer",
-      "total_hours": 7.5,
-      "pct_of_total": 2.0,
-      "tasks": [
-        {
-          "task": "Address all interior PDI issues",
-          "hours": 3.2
-        },
-        {
-          "task": "Polish chrome surfaces",
-          "hours": 2.8
-        },
-        {
-          "task": "Checkout Vehicle",
-          "hours": 1.5
-        }
-      ]
-    },
-    {
       "project": "Hastert 60 F250",
       "total_hours": 2.0,
       "pct_of_total": 0.5,
@@ -513,10 +513,10 @@
     "min_hours": 1.0
   },
   "totals": {
-    "billable_hours": 305.0,
-    "non_billable_hours": 74.2,
+    "billable_hours": 300.0,
+    "non_billable_hours": 79.2,
     "pto_hours": 16.0,
     "total_hours": 379.2
   },
-  "generated_at": "2026-10-09T13:16:21Z"
+  "generated_at": "2026-10-09T13:42:33Z"
 }
