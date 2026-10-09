@@ -3,7 +3,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 65.5,
-      "pct_of_total": 19.6,
+      "pct_of_total": 17.3,
       "tasks": [
         {
           "task": "Facilitate paint work",
@@ -14,11 +14,11 @@
           "hours": 8.0
         },
         {
-          "task": "Address all interior PDI issues",
+          "task": "Address all drivetrain PDI issues",
           "hours": 6.0
         },
         {
-          "task": "Address all drivetrain PDI issues",
+          "task": "Address all interior PDI issues",
           "hours": 6.0
         },
         {
@@ -69,19 +69,19 @@
     },
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 43.0,
-      "pct_of_total": 12.8,
+      "total_hours": 48.0,
+      "pct_of_total": 12.7,
       "tasks": [
         {
           "task": "Install AC lines and condenser",
-          "hours": 7.2
-        },
-        {
-          "task": "Install radiator assembly",
-          "hours": 6.8
+          "hours": 9.2
         },
         {
           "task": "Install PS pump assembly",
+          "hours": 8.2
+        },
+        {
+          "task": "Install radiator assembly",
           "hours": 6.8
         },
         {
@@ -94,6 +94,10 @@
         },
         {
           "task": "Install power brake assembly",
+          "hours": 2.2
+        },
+        {
+          "task": "Install AC Compressor",
           "hours": 2.2
         },
         {
@@ -129,42 +133,42 @@
           "hours": 1.0
         },
         {
-          "task": "Install AC Compressor",
-          "hours": 1.0
-        },
-        {
           "task": "Final install components",
           "hours": 0.5
         },
         {
           "task": "Manufacture Product - VC Harness",
           "hours": 0.5
+        },
+        {
+          "task": "Build and install PS lines",
+          "hours": 0.2
         }
       ]
     },
     {
       "project": "Richardson 72 240Z",
-      "total_hours": 35.5,
-      "pct_of_total": 10.6,
+      "total_hours": 41.0,
+      "pct_of_total": 10.8,
       "tasks": [
         {
           "task": "Modify and clean up OEM harness",
           "hours": 19.0
         },
         {
+          "task": "Install HVAC controls",
+          "hours": 6.5
+        },
+        {
           "task": "Wire OEM Interface",
           "hours": 5.0
         },
         {
-          "task": "Install HVAC controls",
-          "hours": 2.5
-        },
-        {
-          "task": "Take initial scans",
+          "task": "Install HVAC ducting",
           "hours": 2.0
         },
         {
-          "task": "Remove OEM gauges",
+          "task": "Take initial scans",
           "hours": 2.0
         },
         {
@@ -172,42 +176,50 @@
           "hours": 2.0
         },
         {
+          "task": "Remove OEM gauges",
+          "hours": 2.0
+        },
+        {
           "task": "Scan fuel filler area",
           "hours": 1.5
         },
         {
-          "task": "Install HVAC ducting",
-          "hours": 1.0
+          "task": "Install brake lines",
+          "hours": 0.5
         },
         {
-          "task": "Install brake lines",
+          "task": "Wire HVAC sub",
           "hours": 0.5
         }
       ]
     },
     {
       "project": "Hopkins 65 Silver Cloud",
-      "total_hours": 29.0,
-      "pct_of_total": 8.7,
+      "total_hours": 36.5,
+      "pct_of_total": 9.6,
       "tasks": [
         {
           "task": "Clean up engine bay",
-          "hours": 20.0
+          "hours": 23.0
+        },
+        {
+          "task": "Clean up OEM wiring",
+          "hours": 6.0
         },
         {
           "task": "Wire OEM Interface",
           "hours": 5.0
         },
         {
-          "task": "Clean up OEM wiring",
-          "hours": 4.0
+          "task": "Make a game plan for HVAC",
+          "hours": 2.5
         }
       ]
     },
     {
       "project": "Jaffe 86 190E",
       "total_hours": 25.5,
-      "pct_of_total": 7.6,
+      "pct_of_total": 6.7,
       "tasks": [
         {
           "task": "Install rear battery box",
@@ -236,9 +248,24 @@
       ]
     },
     {
+      "project": "Lee 68 Mustang",
+      "total_hours": 18.0,
+      "pct_of_total": 4.7,
+      "tasks": [
+        {
+          "task": "Re-gear diff",
+          "hours": 9.2
+        },
+        {
+          "task": "Address NVH issue",
+          "hours": 8.8
+        }
+      ]
+    },
+    {
       "project": "Nolan 70 Challenger",
       "total_hours": 17.8,
-      "pct_of_total": 5.3,
+      "pct_of_total": 4.7,
       "tasks": [
         {
           "task": "Finalize OEM wiring",
@@ -263,21 +290,60 @@
       ]
     },
     {
-      "project": "Bently 65 356",
-      "total_hours": 13.2,
-      "pct_of_total": 4.0,
+      "project": "Thacker 46 Woody",
+      "total_hours": 17.8,
+      "pct_of_total": 4.7,
       "tasks": [
+        {
+          "task": "Remove vinyl top",
+          "hours": 7.2
+        },
+        {
+          "task": "Manufacture Product - Batt Box 1",
+          "hours": 2.8
+        },
+        {
+          "task": "Manufacture Product - Batt Box 2",
+          "hours": 2.8
+        },
+        {
+          "task": "Build and install new brake lines",
+          "hours": 1.8
+        },
+        {
+          "task": "Install power brake assembly",
+          "hours": 1.2
+        },
+        {
+          "task": "Prep and seal floor",
+          "hours": 1.0
+        },
+        {
+          "task": "Facilitate wood repair",
+          "hours": 0.8
+        },
+        {
+          "task": "Run main HV cables",
+          "hours": 0.2
+        }
+      ]
+    },
+    {
+      "project": "Bently 65 356",
+      "total_hours": 17.2,
+      "pct_of_total": 4.5,
+      "tasks": [
+        {
+          "task": "Run main cooling lines",
+          "hours": 5.0
+        },
         {
           "task": "Wire and install gauges",
           "hours": 4.5
         },
         {
-          "task": "Run main cooling lines",
-          "hours": 3.0
-        },
-        {
           "task": "Run main HV cables",
-          "hours": 1.8
+          "hours": 3.8
         },
         {
           "task": "Address play in steering",
@@ -298,63 +364,9 @@
       ]
     },
     {
-      "project": "Preheim 72 Blazer",
-      "total_hours": 13.0,
-      "pct_of_total": 3.9,
-      "tasks": [
-        {
-          "task": "Replace seal for top",
-          "hours": 6.0
-        },
-        {
-          "task": "Address Suspension PDI findings",
-          "hours": 3.0
-        },
-        {
-          "task": "Perform PDI",
-          "hours": 2.0
-        },
-        {
-          "task": "Address Steering PDI findings",
-          "hours": 0.8
-        },
-        {
-          "task": "Address vehicle control PDI findings",
-          "hours": 0.5
-        },
-        {
-          "task": "Address Brakes PDI findings",
-          "hours": 0.2
-        },
-        {
-          "task": "Address Exterior PDI findings",
-          "hours": 0.2
-        },
-        {
-          "task": "Address Cooling PDI findings",
-          "hours": 0.2
-        }
-      ]
-    },
-    {
-      "project": "Lee 68 Mustang",
-      "total_hours": 12.5,
-      "pct_of_total": 3.7,
-      "tasks": [
-        {
-          "task": "Address NVH issue",
-          "hours": 8.8
-        },
-        {
-          "task": "Re-gear diff",
-          "hours": 3.8
-        }
-      ]
-    },
-    {
       "project": "Krafcik 02 Caterham",
-      "total_hours": 11.8,
-      "pct_of_total": 3.5,
+      "total_hours": 12.2,
+      "pct_of_total": 3.2,
       "tasks": [
         {
           "task": "Manufacture Product - Pos Con Box",
@@ -371,29 +383,33 @@
         {
           "task": "Manufacture Product - AIO Junction Box",
           "hours": 1.5
+        },
+        {
+          "task": "Engineer Support - HV Cable Tunnel",
+          "hours": 0.5
         }
       ]
     }
   ],
   "shop_work": {
-    "total_hours": 47.8,
-    "pct_of_total": 14.3,
-    "avg_per_person_per_day": 0.85,
+    "total_hours": 54.5,
+    "pct_of_total": 14.4,
+    "avg_per_person_per_day": 0.97,
     "flagged": false,
     "tech_count": 8,
     "working_days": 7,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 19.5
+        "hours": 22.2
       },
       {
         "label": "Shop Meetings",
-        "hours": 16.5
+        "hours": 19.5
       },
       {
         "label": "Personal Meetings",
-        "hours": 7.0
+        "hours": 8.0
       },
       {
         "label": "Errands",
@@ -411,9 +427,48 @@
   },
   "project_hurters": [
     {
+      "project": "Preheim 72 Blazer",
+      "total_hours": 8.5,
+      "pct_of_total": 2.2,
+      "tasks": [
+        {
+          "task": "Address Suspension PDI findings",
+          "hours": 3.0
+        },
+        {
+          "task": "Perform PDI",
+          "hours": 2.0
+        },
+        {
+          "task": "Checkout vehicle",
+          "hours": 1.5
+        },
+        {
+          "task": "Address Steering PDI findings",
+          "hours": 0.8
+        },
+        {
+          "task": "Address vehicle control PDI findings",
+          "hours": 0.5
+        },
+        {
+          "task": "Address Cooling PDI findings",
+          "hours": 0.2
+        },
+        {
+          "task": "Address Brakes PDI findings",
+          "hours": 0.2
+        },
+        {
+          "task": "Address Exterior PDI findings",
+          "hours": 0.2
+        }
+      ]
+    },
+    {
       "project": "Hastert 60 F250",
       "total_hours": 2.0,
-      "pct_of_total": 0.6,
+      "pct_of_total": 0.5,
       "tasks": [
         {
           "task": "Perform brief PDI",
@@ -431,17 +486,6 @@
           "hours": 1.8
         }
       ]
-    },
-    {
-      "project": "Preheim 72 Blazer",
-      "total_hours": 1.5,
-      "pct_of_total": 0.4,
-      "tasks": [
-        {
-          "task": "Checkout vehicle",
-          "hours": 1.5
-        }
-      ]
     }
   ],
   "hurters_below_floor": {
@@ -450,10 +494,10 @@
     "min_hours": 1.0
   },
   "totals": {
-    "billable_hours": 281.8,
-    "non_billable_hours": 53.0,
-    "pto_hours": 8.0,
-    "total_hours": 334.8
+    "billable_hours": 312.5,
+    "non_billable_hours": 66.8,
+    "pto_hours": 16.0,
+    "total_hours": 379.2
   },
-  "generated_at": "2026-10-09T05:35:05Z"
+  "generated_at": "2026-10-09T05:54:05Z"
 }
