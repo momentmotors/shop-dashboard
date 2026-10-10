@@ -30,11 +30,11 @@
           "hours": 2.0
         },
         {
-          "task": "Polish chrome surfaces",
+          "task": "Install interior",
           "hours": 1.5
         },
         {
-          "task": "Install interior",
+          "task": "Polish chrome surfaces",
           "hours": 1.5
         },
         {
@@ -471,7 +471,7 @@
           "hours": 0.5
         },
         {
-          "task": "Address Cooling PDI findings",
+          "task": "Address Exterior PDI findings",
           "hours": 0.2
         },
         {
@@ -479,7 +479,7 @@
           "hours": 0.2
         },
         {
-          "task": "Address Exterior PDI findings",
+          "task": "Address Cooling PDI findings",
           "hours": 0.2
         }
       ]
@@ -518,5 +518,5 @@
     "pto_hours": 16.0,
     "total_hours": 379.2
   },
-  "generated_at": "2026-10-09T23:51:38Z"
+  "generated_at": "2026-10-10T00:38:40Z"
 }
