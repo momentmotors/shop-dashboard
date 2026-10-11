@@ -34,11 +34,11 @@
           "hours": 2.0
         },
         {
-          "task": "Install interior",
+          "task": "Polish chrome surfaces",
           "hours": 1.5
         },
         {
-          "task": "Polish chrome surfaces",
+          "task": "Install interior",
           "hours": 1.5
         },
         {
@@ -46,11 +46,11 @@
           "hours": 1.0
         },
         {
-          "task": "Clean engine bay",
+          "task": "Address antena issue",
           "hours": 1.0
         },
         {
-          "task": "Address antena issue",
+          "task": "Clean engine bay",
           "hours": 1.0
         },
         {
@@ -109,6 +109,10 @@
           "hours": 1.5
         },
         {
+          "task": "Manufacture Product - Batt Box 1",
+          "hours": 1.5
+        },
+        {
           "task": "Manufacture Product - Batt Box 2",
           "hours": 1.5
         },
@@ -117,19 +121,15 @@
           "hours": 1.5
         },
         {
-          "task": "Manufacture Product - Batt Box 1",
-          "hours": 1.5
-        },
-        {
           "task": "Reinstall interior",
           "hours": 1.5
         },
         {
-          "task": "Terminate all cooling lines",
+          "task": "Install front boxes",
           "hours": 1.2
         },
         {
-          "task": "Install front boxes",
+          "task": "Terminate all cooling lines",
           "hours": 1.2
         },
         {
@@ -304,11 +304,11 @@
           "hours": 4.2
         },
         {
-          "task": "Manufacture Product - Batt Box 1",
+          "task": "Manufacture Product - Batt Box 2",
           "hours": 2.8
         },
         {
-          "task": "Manufacture Product - Batt Box 2",
+          "task": "Manufacture Product - Batt Box 1",
           "hours": 2.8
         },
         {
@@ -527,8 +527,8 @@
   "totals": {
     "billable_hours": 349.8,
     "non_billable_hours": 86.2,
-    "pto_hours": 16.0,
+    "pto_hours": 24.0,
     "total_hours": 436.0
   },
-  "generated_at": "2026-10-11T05:31:15Z"
+  "generated_at": "2026-10-11T05:52:08Z"
 }
