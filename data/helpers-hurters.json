@@ -109,10 +109,6 @@
           "hours": 1.5
         },
         {
-          "task": "Manufacture Product - Batt Box 1",
-          "hours": 1.5
-        },
-        {
           "task": "Manufacture Product - Batt Box 2",
           "hours": 1.5
         },
@@ -121,15 +117,19 @@
           "hours": 1.5
         },
         {
+          "task": "Manufacture Product - Batt Box 1",
+          "hours": 1.5
+        },
+        {
           "task": "Reinstall interior",
           "hours": 1.5
         },
         {
-          "task": "Install front boxes",
+          "task": "Terminate all cooling lines",
           "hours": 1.2
         },
         {
-          "task": "Terminate all cooling lines",
+          "task": "Install front boxes",
           "hours": 1.2
         },
         {
@@ -530,5 +530,5 @@
     "pto_hours": 16.0,
     "total_hours": 436.0
   },
-  "generated_at": "2026-10-10T23:49:54Z"
+  "generated_at": "2026-10-11T00:41:58Z"
 }

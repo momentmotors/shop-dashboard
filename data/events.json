@@ -33,12 +33,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Justin L Out",
+              "summary": "Jordan J Long Lunch",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Jordan J Long Lunch",
+              "summary": "Justin L Out",
               "type": "pto",
               "all_day": true
             }
@@ -60,14 +60,14 @@
         {
           "date": "2026-10-10",
           "day_name": "Saturday",
-          "is_today": true,
+          "is_today": false,
           "is_weekend": true,
           "events": []
         },
         {
           "date": "2026-10-11",
           "day_name": "Sunday",
-          "is_today": false,
+          "is_today": true,
           "is_weekend": true,
           "events": []
         }
@@ -113,12 +113,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Ryan in late, Court Appt.",
+              "summary": "Brandon B Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Brandon B Out",
+              "summary": "Ryan in late, Court Appt.",
               "type": "pto",
               "all_day": true
             }
@@ -229,12 +229,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Devin D Out",
+              "summary": "Jordan J Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Jordan J Out",
+              "summary": "Devin D Out",
               "type": "pto",
               "all_day": true
             }
@@ -247,12 +247,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Devin D Out",
+              "summary": "Jordan J Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Jordan J Out",
+              "summary": "Devin D Out",
               "type": "pto",
               "all_day": true
             }
@@ -275,5 +275,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-10T23:49:54Z"
+  "generated_at": "2026-10-11T00:41:58Z"
 }
