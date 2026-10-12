@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T19:25:30.274488Z",
+  "updated_at": "2026-10-12T19:40:03.485220Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -200,18 +200,6 @@
               "status": "Open",
               "list": "Barton 59 Impala",
               "url": "https://app.clickup.com/t/868jxmvpn"
-            }
-          ]
-        },
-        {
-          "name": "Ben Drinkard",
-          "tasks": [
-            {
-              "id": "868jxmvy7",
-              "name": "Replace exterior parts",
-              "status": "Open",
-              "list": "Barton 59 Impala",
-              "url": "https://app.clickup.com/t/868jxmvy7"
             }
           ]
         }
@@ -956,5 +944,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-12T19:25:09Z"
+  "generated_at": "2026-10-12T19:39:44Z"
 }
