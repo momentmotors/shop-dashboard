@@ -125,11 +125,11 @@
           "hours": 1.5
         },
         {
-          "task": "Install front boxes",
+          "task": "Terminate all cooling lines",
           "hours": 1.2
         },
         {
-          "task": "Terminate all cooling lines",
+          "task": "Install front boxes",
           "hours": 1.2
         },
         {
@@ -203,11 +203,11 @@
           "hours": 2.0
         },
         {
-          "task": "Install audio system",
+          "task": "Remove OEM gauges",
           "hours": 2.0
         },
         {
-          "task": "Remove OEM gauges",
+          "task": "Install audio system",
           "hours": 2.0
         },
         {
@@ -304,11 +304,11 @@
           "hours": 4.2
         },
         {
-          "task": "Manufacture Product - Batt Box 2",
+          "task": "Manufacture Product - Batt Box 1",
           "hours": 2.8
         },
         {
-          "task": "Manufacture Product - Batt Box 1",
+          "task": "Manufacture Product - Batt Box 2",
           "hours": 2.8
         },
         {
@@ -402,10 +402,10 @@
   "shop_work": {
     "total_hours": 61.5,
     "pct_of_total": 14.1,
-    "avg_per_person_per_day": 1.1,
-    "flagged": true,
+    "avg_per_person_per_day": 0.96,
+    "flagged": false,
     "tech_count": 8,
-    "working_days": 7,
+    "working_days": 8,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
@@ -530,5 +530,5 @@
     "pto_hours": 24.0,
     "total_hours": 436.0
   },
-  "generated_at": "2026-10-11T23:51:39Z"
+  "generated_at": "2026-10-12T00:43:03Z"
 }
