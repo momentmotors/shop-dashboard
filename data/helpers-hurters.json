@@ -1,69 +1,6 @@
 {
   "helpers": [
     {
-      "project": "Ritchie 71 Blazer",
-      "total_hours": 61.0,
-      "pct_of_total": 14.0,
-      "tasks": [
-        {
-          "task": "Facilitate paint work",
-          "hours": 21.0
-        },
-        {
-          "task": "Present vehicle to customer",
-          "hours": 9.0
-        },
-        {
-          "task": "Install new front grille",
-          "hours": 8.0
-        },
-        {
-          "task": "Address all drivetrain PDI issues",
-          "hours": 6.0
-        },
-        {
-          "task": "Install bed rail caps",
-          "hours": 5.0
-        },
-        {
-          "task": "Address all interior PDI issues",
-          "hours": 2.8
-        },
-        {
-          "task": "Checkout Vehicle",
-          "hours": 2.0
-        },
-        {
-          "task": "Polish chrome surfaces",
-          "hours": 1.5
-        },
-        {
-          "task": "Install interior",
-          "hours": 1.5
-        },
-        {
-          "task": "Re-bleed cooling system",
-          "hours": 1.0
-        },
-        {
-          "task": "Address antena issue",
-          "hours": 1.0
-        },
-        {
-          "task": "Clean engine bay",
-          "hours": 1.0
-        },
-        {
-          "task": "Resecure wiring",
-          "hours": 0.8
-        },
-        {
-          "task": "Install front battery lid",
-          "hours": 0.5
-        }
-      ]
-    },
-    {
       "project": "Warke 61 Eldorado",
       "total_hours": 58.5,
       "pct_of_total": 13.4,
@@ -151,6 +88,69 @@
         {
           "task": "Build and install PS lines",
           "hours": 0.2
+        }
+      ]
+    },
+    {
+      "project": "Ritchie 71 Blazer",
+      "total_hours": 53.0,
+      "pct_of_total": 12.2,
+      "tasks": [
+        {
+          "task": "Facilitate paint work",
+          "hours": 21.0
+        },
+        {
+          "task": "Install new front grille",
+          "hours": 8.0
+        },
+        {
+          "task": "Address all drivetrain PDI issues",
+          "hours": 6.0
+        },
+        {
+          "task": "Install bed rail caps",
+          "hours": 5.0
+        },
+        {
+          "task": "Address all interior PDI issues",
+          "hours": 2.8
+        },
+        {
+          "task": "Checkout Vehicle",
+          "hours": 2.0
+        },
+        {
+          "task": "Polish chrome surfaces",
+          "hours": 1.5
+        },
+        {
+          "task": "Install interior",
+          "hours": 1.5
+        },
+        {
+          "task": "Re-bleed cooling system",
+          "hours": 1.0
+        },
+        {
+          "task": "Address antena issue",
+          "hours": 1.0
+        },
+        {
+          "task": "Clean engine bay",
+          "hours": 1.0
+        },
+        {
+          "task": "Present vehicle to customer",
+          "hours": 1.0
+        },
+        {
+          "task": "Resecure wiring",
+          "hours": 0.8
+        },
+        {
+          "task": "Install front battery lid",
+          "hours": 0.5
         }
       ]
     },
@@ -436,9 +436,13 @@
   "project_hurters": [
     {
       "project": "Ritchie 71 Blazer",
-      "total_hours": 12.5,
-      "pct_of_total": 2.9,
+      "total_hours": 20.5,
+      "pct_of_total": 4.7,
       "tasks": [
+        {
+          "task": "Present vehicle to customer",
+          "hours": 8.0
+        },
         {
           "task": "Perform PDI",
           "hours": 5.0
@@ -525,10 +529,10 @@
     "min_hours": 1.0
   },
   "totals": {
-    "billable_hours": 349.8,
-    "non_billable_hours": 86.2,
+    "billable_hours": 341.8,
+    "non_billable_hours": 94.2,
     "pto_hours": 24.0,
     "total_hours": 436.0
   },
-  "generated_at": "2026-10-12T15:55:14Z"
+  "generated_at": "2026-10-12T16:14:26Z"
 }
