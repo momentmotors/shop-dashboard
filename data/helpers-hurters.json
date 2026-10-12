@@ -463,12 +463,12 @@
     },
     {
       "project": "Preheim 72 Blazer",
-      "total_hours": 8.5,
-      "pct_of_total": 1.9,
+      "total_hours": 12.8,
+      "pct_of_total": 2.9,
       "tasks": [
         {
           "task": "Address Suspension PDI findings",
-          "hours": 3.0
+          "hours": 6.0
         },
         {
           "task": "Perform PDI",
@@ -480,7 +480,7 @@
         },
         {
           "task": "Address Steering PDI findings",
-          "hours": 0.8
+          "hours": 1.0
         },
         {
           "task": "Address vehicle control PDI findings",
@@ -488,15 +488,38 @@
         },
         {
           "task": "Address Cooling PDI findings",
-          "hours": 0.2
+          "hours": 0.5
         },
         {
           "task": "Address Brakes PDI findings",
-          "hours": 0.2
+          "hours": 0.5
+        },
+        {
+          "task": "Address PDI findings",
+          "hours": 0.5
         },
         {
           "task": "Address Exterior PDI findings",
           "hours": 0.2
+        }
+      ]
+    },
+    {
+      "project": "Ferdman 66 Bus",
+      "total_hours": 3.0,
+      "pct_of_total": 0.7,
+      "tasks": [
+        {
+          "task": "Replace damaged motor cradle",
+          "hours": 1.8
+        },
+        {
+          "task": "Checkout vehicle",
+          "hours": 0.8
+        },
+        {
+          "task": "Perform PDI",
+          "hours": 0.5
         }
       ]
     },
@@ -510,17 +533,6 @@
           "hours": 2.0
         }
       ]
-    },
-    {
-      "project": "Ferdman 66 Bus",
-      "total_hours": 1.8,
-      "pct_of_total": 0.4,
-      "tasks": [
-        {
-          "task": "Replace damaged motor cradle",
-          "hours": 1.8
-        }
-      ]
     }
   ],
   "hurters_below_floor": {
@@ -529,10 +541,10 @@
     "min_hours": 1.0
   },
   "totals": {
-    "billable_hours": 341.8,
-    "non_billable_hours": 94.2,
+    "billable_hours": 336.2,
+    "non_billable_hours": 99.8,
     "pto_hours": 24.0,
     "total_hours": 436.0
   },
-  "generated_at": "2026-10-12T18:16:05Z"
+  "generated_at": "2026-10-12T18:46:41Z"
 }
