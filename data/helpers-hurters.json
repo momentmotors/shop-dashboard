@@ -3,7 +3,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 58.5,
-      "pct_of_total": 13.4,
+      "pct_of_total": 13.2,
       "tasks": [
         {
           "task": "Install AC lines and condenser",
@@ -94,7 +94,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 53.0,
-      "pct_of_total": 12.2,
+      "pct_of_total": 11.9,
       "tasks": [
         {
           "task": "Facilitate paint work",
@@ -157,7 +157,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 43.5,
-      "pct_of_total": 10.0,
+      "pct_of_total": 9.8,
       "tasks": [
         {
           "task": "Clean up engine bay",
@@ -180,7 +180,7 @@
     {
       "project": "Richardson 72 240Z",
       "total_hours": 41.0,
-      "pct_of_total": 9.4,
+      "pct_of_total": 9.2,
       "tasks": [
         {
           "task": "Modify and clean up OEM harness",
@@ -203,11 +203,11 @@
           "hours": 2.0
         },
         {
-          "task": "Remove OEM gauges",
+          "task": "Install audio system",
           "hours": 2.0
         },
         {
-          "task": "Install audio system",
+          "task": "Remove OEM gauges",
           "hours": 2.0
         },
         {
@@ -225,9 +225,52 @@
       ]
     },
     {
+      "project": "Thacker 46 Woody",
+      "total_hours": 26.2,
+      "pct_of_total": 5.9,
+      "tasks": [
+        {
+          "task": "Remove vinyl top",
+          "hours": 7.2
+        },
+        {
+          "task": "Install sound deadening",
+          "hours": 5.0
+        },
+        {
+          "task": "Facilitate wood repair",
+          "hours": 4.2
+        },
+        {
+          "task": "Manufacture Product - Batt Box 1",
+          "hours": 2.8
+        },
+        {
+          "task": "Manufacture Product - Batt Box 2",
+          "hours": 2.8
+        },
+        {
+          "task": "Build and install new brake lines",
+          "hours": 1.8
+        },
+        {
+          "task": "Install power brake assembly",
+          "hours": 1.2
+        },
+        {
+          "task": "Prep and seal floor",
+          "hours": 1.0
+        },
+        {
+          "task": "Run main HV cables",
+          "hours": 0.2
+        }
+      ]
+    },
+    {
       "project": "Jaffe 86 190E",
       "total_hours": 25.5,
-      "pct_of_total": 5.8,
+      "pct_of_total": 5.7,
       "tasks": [
         {
           "task": "Install rear battery box",
@@ -291,48 +334,9 @@
       ]
     },
     {
-      "project": "Thacker 46 Woody",
-      "total_hours": 21.2,
-      "pct_of_total": 4.9,
-      "tasks": [
-        {
-          "task": "Remove vinyl top",
-          "hours": 7.2
-        },
-        {
-          "task": "Facilitate wood repair",
-          "hours": 4.2
-        },
-        {
-          "task": "Manufacture Product - Batt Box 1",
-          "hours": 2.8
-        },
-        {
-          "task": "Manufacture Product - Batt Box 2",
-          "hours": 2.8
-        },
-        {
-          "task": "Build and install new brake lines",
-          "hours": 1.8
-        },
-        {
-          "task": "Install power brake assembly",
-          "hours": 1.2
-        },
-        {
-          "task": "Prep and seal floor",
-          "hours": 1.0
-        },
-        {
-          "task": "Run main HV cables",
-          "hours": 0.2
-        }
-      ]
-    },
-    {
       "project": "Lee 68 Mustang",
       "total_hours": 21.0,
-      "pct_of_total": 4.8,
+      "pct_of_total": 4.7,
       "tasks": [
         {
           "task": "Re-gear diff",
@@ -346,8 +350,8 @@
     },
     {
       "project": "Nolan 70 Challenger",
-      "total_hours": 17.8,
-      "pct_of_total": 4.1,
+      "total_hours": 20.2,
+      "pct_of_total": 4.6,
       "tasks": [
         {
           "task": "Finalize OEM wiring",
@@ -360,6 +364,10 @@
         {
           "task": "Install sound generators",
           "hours": 4.0
+        },
+        {
+          "task": "Install second charge port",
+          "hours": 2.5
         },
         {
           "task": "Install interior",
@@ -400,8 +408,8 @@
     }
   ],
   "shop_work": {
-    "total_hours": 61.5,
-    "pct_of_total": 14.1,
+    "total_hours": 61.8,
+    "pct_of_total": 13.9,
     "avg_per_person_per_day": 0.96,
     "flagged": false,
     "tech_count": 8,
@@ -413,7 +421,7 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 22.0
+        "hours": 22.2
       },
       {
         "label": "Personal Meetings",
@@ -437,7 +445,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 20.5,
-      "pct_of_total": 4.7,
+      "pct_of_total": 4.6,
       "tasks": [
         {
           "task": "Present vehicle to customer",
@@ -541,10 +549,10 @@
     "min_hours": 1.0
   },
   "totals": {
-    "billable_hours": 336.2,
-    "non_billable_hours": 99.8,
+    "billable_hours": 343.8,
+    "non_billable_hours": 100.0,
     "pto_hours": 24.0,
-    "total_hours": 436.0
+    "total_hours": 443.8
   },
-  "generated_at": "2026-10-12T19:10:41Z"
+  "generated_at": "2026-10-12T19:25:09Z"
 }
