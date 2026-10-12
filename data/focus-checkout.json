@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T18:47:05.884242Z",
+  "updated_at": "2026-10-12T19:10:59.495937Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -747,77 +747,9 @@
         "matched_lists": [
           "Preheim 72 Blazer"
         ],
-        "open_tasks": 11
+        "open_tasks": 2
       },
       "assignees": [
-        {
-          "name": "Ben Drinkard",
-          "tasks": [
-            {
-              "id": "868mervtm",
-              "name": "Address Brakes PDI findings",
-              "status": "Open",
-              "list": "Preheim 72 Blazer",
-              "url": "https://app.clickup.com/t/868mervtm"
-            },
-            {
-              "id": "868merwa1",
-              "name": "Address Cooling PDI findings",
-              "status": "Open",
-              "list": "Preheim 72 Blazer",
-              "url": "https://app.clickup.com/t/868merwa1"
-            },
-            {
-              "id": "868merycv",
-              "name": "Address Exterior PDI findings",
-              "status": "Open",
-              "list": "Preheim 72 Blazer",
-              "url": "https://app.clickup.com/t/868merycv"
-            },
-            {
-              "id": "868merwvz",
-              "name": "Address HVAC PDI findings",
-              "status": "Open",
-              "list": "Preheim 72 Blazer",
-              "url": "https://app.clickup.com/t/868merwvz"
-            },
-            {
-              "id": "868met081",
-              "name": "Address PDI findings",
-              "status": "Open",
-              "list": "Preheim 72 Blazer",
-              "url": "https://app.clickup.com/t/868met081"
-            },
-            {
-              "id": "868meryzj",
-              "name": "Address Steering PDI findings",
-              "status": "Open",
-              "list": "Preheim 72 Blazer",
-              "url": "https://app.clickup.com/t/868meryzj"
-            },
-            {
-              "id": "868merznk",
-              "name": "Address Suspension PDI findings",
-              "status": "Open",
-              "list": "Preheim 72 Blazer",
-              "url": "https://app.clickup.com/t/868merznk"
-            },
-            {
-              "id": "868merxj9",
-              "name": "Address vehicle control PDI findings",
-              "status": "Open",
-              "list": "Preheim 72 Blazer",
-              "url": "https://app.clickup.com/t/868merxj9"
-            },
-            {
-              "id": "868mery2x",
-              "name": "Replace body mounts",
-              "status": "Open",
-              "list": "Preheim 72 Blazer",
-              "url": "https://app.clickup.com/t/868mery2x"
-            }
-          ]
-        },
         {
           "name": "Billy Arrasmith",
           "tasks": [
@@ -827,13 +759,6 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868mea4jy"
-            },
-            {
-              "id": "868mery2x",
-              "name": "Replace body mounts",
-              "status": "Open",
-              "list": "Preheim 72 Blazer",
-              "url": "https://app.clickup.com/t/868mery2x"
             }
           ]
         },
@@ -1031,5 +956,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-12T18:46:41Z"
+  "generated_at": "2026-10-12T19:10:41Z"
 }
