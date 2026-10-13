@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T15:42:27.139335Z",
+  "updated_at": "2026-10-13T15:54:52.987850Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -735,12 +735,19 @@
         "matched_lists": [
           "Preheim 72 Blazer"
         ],
-        "open_tasks": 2
+        "open_tasks": 3
       },
       "assignees": [
         {
           "name": "Billy Arrasmith",
           "tasks": [
+            {
+              "id": "868mgu9qy",
+              "name": "Adjust pedal position",
+              "status": "Open",
+              "list": "Preheim 72 Blazer",
+              "url": "https://app.clickup.com/t/868mgu9qy"
+            },
             {
               "id": "868mea4jy",
               "name": "Raise ride height",
@@ -944,5 +951,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-13T15:42:03Z"
+  "generated_at": "2026-10-13T15:54:34Z"
 }
