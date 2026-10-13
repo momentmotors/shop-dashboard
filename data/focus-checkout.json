@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T19:10:24.500299Z",
+  "updated_at": "2026-10-13T19:24:19.009831Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -353,7 +353,7 @@
         "matched_lists": [
           "LB 82 911"
         ],
-        "open_tasks": 34
+        "open_tasks": 33
       },
       "assignees": [
         {
@@ -479,25 +479,6 @@
           ]
         },
         {
-          "name": "Marshall Carter",
-          "tasks": [
-            {
-              "id": "868g3pt4u",
-              "name": "Engineer Core - GUI Mount",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868g3pt4u"
-            },
-            {
-              "id": "868mdqr4g",
-              "name": "Scan under dash area",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868mdqr4g"
-            }
-          ]
-        },
-        {
           "name": "Devin DuMont",
           "tasks": [
             {
@@ -518,6 +499,18 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868g3ptbt"
+            }
+          ]
+        },
+        {
+          "name": "Marshall Carter",
+          "tasks": [
+            {
+              "id": "868g3pt4u",
+              "name": "Engineer Core - GUI Mount",
+              "status": "Open",
+              "list": "LB 82 911",
+              "url": "https://app.clickup.com/t/868g3pt4u"
             }
           ]
         },
@@ -951,5 +944,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-13T19:10:03Z"
+  "generated_at": "2026-10-13T19:23:59Z"
 }
