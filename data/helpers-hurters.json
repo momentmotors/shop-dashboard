@@ -3,7 +3,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 63.2,
-      "pct_of_total": 12.5,
+      "pct_of_total": 12.4,
       "tasks": [
         {
           "task": "Install AC lines and condenser",
@@ -62,11 +62,11 @@
           "hours": 1.5
         },
         {
-          "task": "Install front boxes",
+          "task": "Terminate all cooling lines",
           "hours": 1.2
         },
         {
-          "task": "Terminate all cooling lines",
+          "task": "Install front boxes",
           "hours": 1.2
         },
         {
@@ -156,8 +156,8 @@
     },
     {
       "project": "Hopkins 65 Silver Cloud",
-      "total_hours": 50.5,
-      "pct_of_total": 9.9,
+      "total_hours": 51.0,
+      "pct_of_total": 10.0,
       "tasks": [
         {
           "task": "Clean up engine bay",
@@ -165,7 +165,7 @@
         },
         {
           "task": "Clean up OEM wiring",
-          "hours": 15.0
+          "hours": 15.5
         },
         {
           "task": "Wire OEM Interface",
@@ -180,7 +180,7 @@
     {
       "project": "Richardson 72 240Z",
       "total_hours": 42.5,
-      "pct_of_total": 8.4,
+      "pct_of_total": 8.3,
       "tasks": [
         {
           "task": "Modify and clean up OEM harness",
@@ -203,11 +203,11 @@
           "hours": 2.0
         },
         {
-          "task": "Install audio system",
+          "task": "Remove OEM gauges",
           "hours": 2.0
         },
         {
-          "task": "Remove OEM gauges",
+          "task": "Install audio system",
           "hours": 2.0
         },
         {
@@ -273,11 +273,11 @@
           "hours": 1.0
         },
         {
-          "task": "Engineer Core - Rear Batt Pack Mounts",
+          "task": "Engineer Core - Front Batt Pack Mounts",
           "hours": 1.0
         },
         {
-          "task": "Engineer Core - Front Batt Pack Mounts",
+          "task": "Engineer Core - Rear Batt Pack Mounts",
           "hours": 1.0
         },
         {
@@ -293,7 +293,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 26.2,
-      "pct_of_total": 5.2,
+      "pct_of_total": 5.1,
       "tasks": [
         {
           "task": "Remove vinyl top",
@@ -397,8 +397,8 @@
     },
     {
       "project": "LB 82 911",
-      "total_hours": 16.5,
-      "pct_of_total": 3.2,
+      "total_hours": 18.2,
+      "pct_of_total": 3.6,
       "tasks": [
         {
           "task": "Final install components",
@@ -413,6 +413,14 @@
           "hours": 1.5
         },
         {
+          "task": "Charge and test system",
+          "hours": 1.0
+        },
+        {
+          "task": "Install sway bar",
+          "hours": 0.8
+        },
+        {
           "task": "Reinstall interior",
           "hours": 0.5
         }
@@ -420,16 +428,16 @@
     }
   ],
   "shop_work": {
-    "total_hours": 75.8,
-    "pct_of_total": 14.9,
-    "avg_per_person_per_day": 1.05,
+    "total_hours": 76.5,
+    "pct_of_total": 15.0,
+    "avg_per_person_per_day": 1.06,
     "flagged": true,
     "tech_count": 8,
     "working_days": 9,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 28.8
+        "hours": 29.5
       },
       {
         "label": "Shop Meetings",
@@ -511,11 +519,11 @@
           "hours": 1.0
         },
         {
-          "task": "Address Brakes PDI findings",
+          "task": "Address Cooling PDI findings",
           "hours": 0.5
         },
         {
-          "task": "Address Cooling PDI findings",
+          "task": "Address Brakes PDI findings",
           "hours": 0.5
         },
         {
@@ -565,10 +573,10 @@
     "min_hours": 1.0
   },
   "totals": {
-    "billable_hours": 389.8,
-    "non_billable_hours": 118.0,
+    "billable_hours": 392.0,
+    "non_billable_hours": 118.8,
     "pto_hours": 24.0,
-    "total_hours": 507.8
+    "total_hours": 510.8
   },
-  "generated_at": "2026-10-13T21:48:47Z"
+  "generated_at": "2026-10-13T22:10:28Z"
 }

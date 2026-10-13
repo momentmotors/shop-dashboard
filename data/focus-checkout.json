@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T21:49:01.923455Z",
+  "updated_at": "2026-10-13T22:10:43.836592Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -267,7 +267,7 @@
         "matched_lists": [
           "Kelly 63 Corvette"
         ],
-        "open_tasks": 7
+        "open_tasks": 6
       },
       "assignees": [
         {
@@ -316,18 +316,6 @@
           ]
         },
         {
-          "name": "Aharon Adams",
-          "tasks": [
-            {
-              "id": "868kqcuv8",
-              "name": "Test drive vehicle",
-              "status": "Open",
-              "list": "Kelly 63 Corvette",
-              "url": "https://app.clickup.com/t/868kqcuv8"
-            }
-          ]
-        },
-        {
           "name": "Ryan Laurel",
           "tasks": [
             {
@@ -353,7 +341,7 @@
         "matched_lists": [
           "LB 82 911"
         ],
-        "open_tasks": 33
+        "open_tasks": 31
       },
       "assignees": [
         {
@@ -372,13 +360,6 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868g811de"
-            },
-            {
-              "id": "868k84q9v",
-              "name": "Final install components",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868k84q9v"
             },
             {
               "id": "868j7kkze",
@@ -407,13 +388,6 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868man6bk"
-            },
-            {
-              "id": "868me9mfk",
-              "name": "Install sway bar",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868me9mfk"
             },
             {
               "id": "868g3ptbv",
@@ -937,5 +911,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-13T21:48:47Z"
+  "generated_at": "2026-10-13T22:10:28Z"
 }
