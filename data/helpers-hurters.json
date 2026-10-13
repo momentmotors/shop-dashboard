@@ -273,11 +273,11 @@
           "hours": 1.0
         },
         {
-          "task": "Engineer Core - Front Batt Pack Mounts",
+          "task": "Engineer Core - Rear Batt Pack Mounts",
           "hours": 1.0
         },
         {
-          "task": "Engineer Core - Rear Batt Pack Mounts",
+          "task": "Engineer Core - Front Batt Pack Mounts",
           "hours": 1.0
         },
         {
@@ -483,8 +483,8 @@
     },
     {
       "project": "Preheim 72 Blazer",
-      "total_hours": 12.8,
-      "pct_of_total": 2.5,
+      "total_hours": 16.8,
+      "pct_of_total": 3.3,
       "tasks": [
         {
           "task": "Address Suspension PDI findings",
@@ -492,10 +492,14 @@
         },
         {
           "task": "Perform PDI",
-          "hours": 2.0
+          "hours": 4.0
         },
         {
           "task": "Checkout vehicle",
+          "hours": 1.5
+        },
+        {
+          "task": "Address vehicle control PDI findings",
           "hours": 1.5
         },
         {
@@ -503,8 +507,8 @@
           "hours": 1.0
         },
         {
-          "task": "Address vehicle control PDI findings",
-          "hours": 0.5
+          "task": "Raise ride height",
+          "hours": 1.0
         },
         {
           "task": "Address Brakes PDI findings",
@@ -561,10 +565,10 @@
     "min_hours": 1.0
   },
   "totals": {
-    "billable_hours": 393.8,
-    "non_billable_hours": 114.0,
+    "billable_hours": 389.8,
+    "non_billable_hours": 118.0,
     "pto_hours": 24.0,
     "total_hours": 507.8
   },
-  "generated_at": "2026-10-13T15:22:40Z"
+  "generated_at": "2026-10-13T15:42:03Z"
 }
