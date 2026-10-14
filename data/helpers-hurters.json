@@ -211,11 +211,11 @@
           "hours": 2.0
         },
         {
-          "task": "Install audio system",
+          "task": "Remove OEM gauges",
           "hours": 2.0
         },
         {
-          "task": "Remove OEM gauges",
+          "task": "Install audio system",
           "hours": 2.0
         },
         {
@@ -594,5 +594,5 @@
     "pto_hours": 24.0,
     "total_hours": 572.0
   },
-  "generated_at": "2026-10-14T18:54:59Z"
+  "generated_at": "2026-10-14T19:10:52Z"
 }
