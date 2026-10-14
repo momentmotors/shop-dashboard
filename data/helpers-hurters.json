@@ -66,11 +66,11 @@
           "hours": 1.5
         },
         {
-          "task": "Install front boxes",
+          "task": "Terminate all cooling lines",
           "hours": 1.2
         },
         {
-          "task": "Terminate all cooling lines",
+          "task": "Install front boxes",
           "hours": 1.2
         },
         {
@@ -152,11 +152,11 @@
           "hours": 2.0
         },
         {
-          "task": "Install interior",
+          "task": "Polish chrome surfaces",
           "hours": 1.5
         },
         {
-          "task": "Polish chrome surfaces",
+          "task": "Install interior",
           "hours": 1.5
         },
         {
@@ -164,11 +164,11 @@
           "hours": 1.0
         },
         {
-          "task": "Address antena issue",
+          "task": "Clean engine bay",
           "hours": 1.0
         },
         {
-          "task": "Clean engine bay",
+          "task": "Address antena issue",
           "hours": 1.0
         },
         {
@@ -535,11 +535,11 @@
           "hours": 1.0
         },
         {
-          "task": "Address Brakes PDI findings",
+          "task": "Address Cooling PDI findings",
           "hours": 0.5
         },
         {
-          "task": "Address Cooling PDI findings",
+          "task": "Address Brakes PDI findings",
           "hours": 0.5
         },
         {
@@ -594,5 +594,5 @@
     "pto_hours": 24.0,
     "total_hours": 572.0
   },
-  "generated_at": "2026-10-14T18:15:36Z"
+  "generated_at": "2026-10-14T18:44:12Z"
 }
