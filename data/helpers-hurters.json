@@ -3,7 +3,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 79.2,
-      "pct_of_total": 12.6,
+      "pct_of_total": 12.5,
       "tasks": [
         {
           "task": "Install AC lines and condenser",
@@ -101,8 +101,8 @@
     },
     {
       "project": "Hopkins 65 Silver Cloud",
-      "total_hours": 67.0,
-      "pct_of_total": 10.6,
+      "total_hours": 70.0,
+      "pct_of_total": 11.0,
       "tasks": [
         {
           "task": "Clean up engine bay",
@@ -110,19 +110,19 @@
         },
         {
           "task": "Clean up OEM wiring",
-          "hours": 25.5
+          "hours": 26.5
         },
         {
           "task": "Wire OEM Interface",
-          "hours": 5.0
+          "hours": 6.0
+        },
+        {
+          "task": "De-ICE vehicle",
+          "hours": 3.0
         },
         {
           "task": "Make a game plan for HVAC",
           "hours": 2.5
-        },
-        {
-          "task": "De-ICE vehicle",
-          "hours": 2.0
         },
         {
           "task": "Remove interior",
@@ -200,7 +200,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 44.5,
-      "pct_of_total": 7.1,
+      "pct_of_total": 7.0,
       "tasks": [
         {
           "task": "Start up vehicle",
@@ -298,7 +298,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 33.2,
-      "pct_of_total": 5.3,
+      "pct_of_total": 5.2,
       "tasks": [
         {
           "task": "Remove vinyl top",
@@ -349,7 +349,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 32.5,
-      "pct_of_total": 5.2,
+      "pct_of_total": 5.1,
       "tasks": [
         {
           "task": "Finalize OEM wiring",
@@ -473,7 +473,7 @@
   ],
   "shop_work": {
     "total_hours": 94.5,
-    "pct_of_total": 15.0,
+    "pct_of_total": 14.9,
     "avg_per_person_per_day": 1.07,
     "flagged": true,
     "tech_count": 8,
@@ -536,7 +536,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 16.8,
-      "pct_of_total": 2.7,
+      "pct_of_total": 2.6,
       "tasks": [
         {
           "task": "Address Suspension PDI findings",
@@ -617,10 +617,10 @@
     "min_hours": 1.0
   },
   "totals": {
-    "billable_hours": 494.2,
+    "billable_hours": 497.2,
     "non_billable_hours": 136.8,
     "pto_hours": 24.0,
-    "total_hours": 631.0
+    "total_hours": 634.0
   },
-  "generated_at": "2026-10-15T17:10:48Z"
+  "generated_at": "2026-10-15T17:24:15Z"
 }
