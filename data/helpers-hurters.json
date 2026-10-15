@@ -2,12 +2,16 @@
   "helpers": [
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 71.2,
-      "pct_of_total": 12.5,
+      "total_hours": 79.2,
+      "pct_of_total": 12.6,
       "tasks": [
         {
           "task": "Install AC lines and condenser",
           "hours": 9.2
+        },
+        {
+          "task": "Manufacture Support - Rear axle mounts",
+          "hours": 9.0
         },
         {
           "task": "Manufacture Product - Flying Lead Harness",
@@ -34,16 +38,12 @@
           "hours": 4.0
         },
         {
-          "task": "Manufacture Support - Rear axle mounts",
-          "hours": 4.0
+          "task": "Retest OEM wiring",
+          "hours": 3.8
         },
         {
           "task": "Reinstall wheel well extensions",
           "hours": 3.2
-        },
-        {
-          "task": "Retest OEM wiring",
-          "hours": 2.8
         },
         {
           "task": "Install power brake assembly",
@@ -58,6 +58,10 @@
           "hours": 2.0
         },
         {
+          "task": "Install rear coil overs",
+          "hours": 2.0
+        },
+        {
           "task": "Manufacture Product - AIO Junction Box",
           "hours": 1.5
         },
@@ -66,11 +70,11 @@
           "hours": 1.5
         },
         {
-          "task": "Terminate all cooling lines",
+          "task": "Install front boxes",
           "hours": 1.2
         },
         {
-          "task": "Install front boxes",
+          "task": "Terminate all cooling lines",
           "hours": 1.2
         },
         {
@@ -97,16 +101,16 @@
     },
     {
       "project": "Hopkins 65 Silver Cloud",
-      "total_hours": 59.0,
-      "pct_of_total": 10.3,
+      "total_hours": 67.0,
+      "pct_of_total": 10.6,
       "tasks": [
         {
           "task": "Clean up engine bay",
-          "hours": 28.0
+          "hours": 30.0
         },
         {
           "task": "Clean up OEM wiring",
-          "hours": 21.5
+          "hours": 25.5
         },
         {
           "task": "Wire OEM Interface",
@@ -119,13 +123,21 @@
         {
           "task": "De-ICE vehicle",
           "hours": 2.0
+        },
+        {
+          "task": "Remove interior",
+          "hours": 1.0
+        },
+        {
+          "task": "Terminate all main 12V power cables",
+          "hours": 1.0
         }
       ]
     },
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 53.0,
-      "pct_of_total": 9.3,
+      "pct_of_total": 8.4,
       "tasks": [
         {
           "task": "Facilitate paint work",
@@ -152,11 +164,11 @@
           "hours": 2.0
         },
         {
-          "task": "Polish chrome surfaces",
+          "task": "Install interior",
           "hours": 1.5
         },
         {
-          "task": "Install interior",
+          "task": "Polish chrome surfaces",
           "hours": 1.5
         },
         {
@@ -186,9 +198,56 @@
       ]
     },
     {
+      "project": "LB 82 911",
+      "total_hours": 44.5,
+      "pct_of_total": 7.1,
+      "tasks": [
+        {
+          "task": "Start up vehicle",
+          "hours": 13.5
+        },
+        {
+          "task": "Final install components",
+          "hours": 12.5
+        },
+        {
+          "task": "Configure HVAC settings",
+          "hours": 8.2
+        },
+        {
+          "task": "Reinstall interior",
+          "hours": 3.0
+        },
+        {
+          "task": "Install GUI",
+          "hours": 2.0
+        },
+        {
+          "task": "Manufacture - AIO Junction Box",
+          "hours": 1.5
+        },
+        {
+          "task": "Set preliminary alignment",
+          "hours": 1.2
+        },
+        {
+          "task": "Charge and test system",
+          "hours": 1.0
+        },
+        {
+          "task": "Install sway bar",
+          "hours": 0.8
+        },
+        {
+          "task": "Mount washer bottle",
+          "hours": 0.8
+        }
+      ]
+    },
+    {
       "project": "Richardson 72 240Z",
       "total_hours": 42.5,
-      "pct_of_total": 7.4,
+      "pct_of_total": 6.7,
       "tasks": [
         {
           "task": "Modify and clean up OEM harness",
@@ -237,59 +296,9 @@
       ]
     },
     {
-      "project": "LB 82 911",
-      "total_hours": 30.0,
-      "pct_of_total": 5.2,
-      "tasks": [
-        {
-          "task": "Final install components",
-          "hours": 12.5
-        },
-        {
-          "task": "Start up vehicle",
-          "hours": 11.8
-        },
-        {
-          "task": "Install GUI",
-          "hours": 2.0
-        },
-        {
-          "task": "Manufacture - AIO Junction Box",
-          "hours": 1.5
-        },
-        {
-          "task": "Charge and test system",
-          "hours": 1.0
-        },
-        {
-          "task": "Install sway bar",
-          "hours": 0.8
-        },
-        {
-          "task": "Reinstall interior",
-          "hours": 0.5
-        }
-      ]
-    },
-    {
-      "project": "Lee 68 Mustang",
-      "total_hours": 29.5,
-      "pct_of_total": 5.2,
-      "tasks": [
-        {
-          "task": "Re-gear diff",
-          "hours": 20.2
-        },
-        {
-          "task": "Address NVH issue",
-          "hours": 9.2
-        }
-      ]
-    },
-    {
       "project": "Thacker 46 Woody",
-      "total_hours": 29.2,
-      "pct_of_total": 5.1,
+      "total_hours": 33.2,
+      "pct_of_total": 5.3,
       "tasks": [
         {
           "task": "Remove vinyl top",
@@ -305,6 +314,10 @@
         },
         {
           "task": "Manufacture Core -Drivetrain Mounts",
+          "hours": 4.0
+        },
+        {
+          "task": "Manufacture Core - Front Batt Pack Mounts",
           "hours": 3.0
         },
         {
@@ -335,16 +348,16 @@
     },
     {
       "project": "Nolan 70 Challenger",
-      "total_hours": 28.0,
-      "pct_of_total": 4.9,
+      "total_hours": 32.5,
+      "pct_of_total": 5.2,
       "tasks": [
         {
           "task": "Finalize OEM wiring",
-          "hours": 14.5
+          "hours": 18.0
         },
         {
           "task": "Wire and install gauges",
-          "hours": 6.2
+          "hours": 7.2
         },
         {
           "task": "Install sound generators",
@@ -365,9 +378,24 @@
       ]
     },
     {
+      "project": "Lee 68 Mustang",
+      "total_hours": 29.5,
+      "pct_of_total": 4.7,
+      "tasks": [
+        {
+          "task": "Re-gear diff",
+          "hours": 20.2
+        },
+        {
+          "task": "Address NVH issue",
+          "hours": 9.2
+        }
+      ]
+    },
+    {
       "project": "Bently 65 356",
-      "total_hours": 26.5,
-      "pct_of_total": 4.6,
+      "total_hours": 28.5,
+      "pct_of_total": 4.5,
       "tasks": [
         {
           "task": "Run main HV cables",
@@ -375,11 +403,15 @@
         },
         {
           "task": "Run main cooling lines",
-          "hours": 6.0
+          "hours": 7.0
         },
         {
           "task": "Wire and install gauges",
           "hours": 4.5
+        },
+        {
+          "task": "Engineer Core - Rear Batt Pack Mounts",
+          "hours": 2.0
         },
         {
           "task": "Address play in steering",
@@ -398,10 +430,6 @@
           "hours": 1.0
         },
         {
-          "task": "Engineer Core - Rear Batt Pack Mounts",
-          "hours": 1.0
-        },
-        {
           "task": "Engineer Core - Drivetrain Mounts",
           "hours": 0.8
         },
@@ -414,7 +442,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 25.5,
-      "pct_of_total": 4.5,
+      "pct_of_total": 4.0,
       "tasks": [
         {
           "task": "Install rear battery box",
@@ -444,28 +472,28 @@
     }
   ],
   "shop_work": {
-    "total_hours": 83.2,
-    "pct_of_total": 14.6,
-    "avg_per_person_per_day": 0.95,
-    "flagged": false,
+    "total_hours": 94.5,
+    "pct_of_total": 15.0,
+    "avg_per_person_per_day": 1.07,
+    "flagged": true,
     "tech_count": 8,
     "working_days": 11,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 32.0
+        "hours": 37.2
       },
       {
         "label": "Shop Meetings",
-        "hours": 28.5
+        "hours": 32.5
       },
       {
         "label": "Personal Meetings",
-        "hours": 11.0
+        "hours": 12.2
       },
       {
         "label": "Errands",
-        "hours": 8.0
+        "hours": 8.8
       },
       {
         "label": "Organization",
@@ -481,7 +509,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 20.5,
-      "pct_of_total": 3.6,
+      "pct_of_total": 3.2,
       "tasks": [
         {
           "task": "Present vehicle to customer",
@@ -508,7 +536,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 16.8,
-      "pct_of_total": 2.9,
+      "pct_of_total": 2.7,
       "tasks": [
         {
           "task": "Address Suspension PDI findings",
@@ -589,10 +617,10 @@
     "min_hours": 1.0
   },
   "totals": {
-    "billable_hours": 446.5,
-    "non_billable_hours": 125.5,
+    "billable_hours": 494.2,
+    "non_billable_hours": 136.8,
     "pto_hours": 24.0,
-    "total_hours": 572.0
+    "total_hours": 631.0
   },
-  "generated_at": "2026-10-15T05:29:10Z"
+  "generated_at": "2026-10-15T05:42:58Z"
 }
