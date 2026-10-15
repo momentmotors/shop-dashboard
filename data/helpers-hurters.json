@@ -2,9 +2,13 @@
   "helpers": [
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 79.2,
-      "pct_of_total": 12.5,
+      "total_hours": 86.0,
+      "pct_of_total": 13.0,
       "tasks": [
+        {
+          "task": "Retest OEM wiring",
+          "hours": 10.2
+        },
         {
           "task": "Install AC lines and condenser",
           "hours": 9.2
@@ -38,10 +42,6 @@
           "hours": 4.0
         },
         {
-          "task": "Retest OEM wiring",
-          "hours": 3.8
-        },
-        {
           "task": "Reinstall wheel well extensions",
           "hours": 3.2
         },
@@ -70,11 +70,11 @@
           "hours": 1.5
         },
         {
-          "task": "Install front boxes",
+          "task": "Terminate all cooling lines",
           "hours": 1.2
         },
         {
-          "task": "Terminate all cooling lines",
+          "task": "Install front boxes",
           "hours": 1.2
         },
         {
@@ -96,13 +96,17 @@
         {
           "task": "Build and install PS lines",
           "hours": 0.2
+        },
+        {
+          "task": "Checkout vehicle",
+          "hours": 0.2
         }
       ]
     },
     {
       "project": "Hopkins 65 Silver Cloud",
-      "total_hours": 70.0,
-      "pct_of_total": 11.0,
+      "total_hours": 74.2,
+      "pct_of_total": 11.2,
       "tasks": [
         {
           "task": "Clean up engine bay",
@@ -117,12 +121,16 @@
           "hours": 6.0
         },
         {
+          "task": "Make a game plan for HVAC",
+          "hours": 3.5
+        },
+        {
           "task": "De-ICE vehicle",
           "hours": 3.0
         },
         {
-          "task": "Make a game plan for HVAC",
-          "hours": 2.5
+          "task": "Run main HV cables",
+          "hours": 2.0
         },
         {
           "task": "Remove interior",
@@ -131,13 +139,21 @@
         {
           "task": "Terminate all main 12V power cables",
           "hours": 1.0
+        },
+        {
+          "task": "Run main cooling lines",
+          "hours": 1.0
+        },
+        {
+          "task": "Checkout vehicle",
+          "hours": 0.2
         }
       ]
     },
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 53.0,
-      "pct_of_total": 8.4,
+      "pct_of_total": 8.0,
       "tasks": [
         {
           "task": "Facilitate paint work",
@@ -199,12 +215,12 @@
     },
     {
       "project": "LB 82 911",
-      "total_hours": 44.5,
+      "total_hours": 46.5,
       "pct_of_total": 7.0,
       "tasks": [
         {
           "task": "Start up vehicle",
-          "hours": 13.5
+          "hours": 15.0
         },
         {
           "task": "Final install components",
@@ -241,13 +257,17 @@
         {
           "task": "Mount washer bottle",
           "hours": 0.8
+        },
+        {
+          "task": "Checkout vehicle",
+          "hours": 0.5
         }
       ]
     },
     {
       "project": "Richardson 72 240Z",
       "total_hours": 42.5,
-      "pct_of_total": 6.7,
+      "pct_of_total": 6.4,
       "tasks": [
         {
           "task": "Modify and clean up OEM harness",
@@ -297,12 +317,20 @@
     },
     {
       "project": "Thacker 46 Woody",
-      "total_hours": 33.2,
-      "pct_of_total": 5.2,
+      "total_hours": 39.0,
+      "pct_of_total": 5.9,
       "tasks": [
         {
           "task": "Remove vinyl top",
           "hours": 7.2
+        },
+        {
+          "task": "Manufacture Core -Drivetrain Mounts",
+          "hours": 6.5
+        },
+        {
+          "task": "Manufacture Core - Front Batt Pack Mounts",
+          "hours": 6.0
         },
         {
           "task": "Install sound deadening",
@@ -311,14 +339,6 @@
         {
           "task": "Facilitate wood repair",
           "hours": 4.2
-        },
-        {
-          "task": "Manufacture Core -Drivetrain Mounts",
-          "hours": 4.0
-        },
-        {
-          "task": "Manufacture Core - Front Batt Pack Mounts",
-          "hours": 3.0
         },
         {
           "task": "Manufacture Product - Batt Box 1",
@@ -343,13 +363,17 @@
         {
           "task": "Run main HV cables",
           "hours": 0.2
+        },
+        {
+          "task": "Checkout vehicle",
+          "hours": 0.2
         }
       ]
     },
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 32.5,
-      "pct_of_total": 5.1,
+      "pct_of_total": 4.9,
       "tasks": [
         {
           "task": "Finalize OEM wiring",
@@ -380,7 +404,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 29.5,
-      "pct_of_total": 4.7,
+      "pct_of_total": 4.5,
       "tasks": [
         {
           "task": "Re-gear diff",
@@ -395,7 +419,7 @@
     {
       "project": "Bently 65 356",
       "total_hours": 28.5,
-      "pct_of_total": 4.5,
+      "pct_of_total": 4.3,
       "tasks": [
         {
           "task": "Run main HV cables",
@@ -442,7 +466,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 25.5,
-      "pct_of_total": 4.0,
+      "pct_of_total": 3.9,
       "tasks": [
         {
           "task": "Install rear battery box",
@@ -472,24 +496,24 @@
     }
   ],
   "shop_work": {
-    "total_hours": 94.5,
-    "pct_of_total": 14.9,
-    "avg_per_person_per_day": 1.07,
+    "total_hours": 98.8,
+    "pct_of_total": 15.0,
+    "avg_per_person_per_day": 1.12,
     "flagged": true,
     "tech_count": 8,
     "working_days": 11,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 37.2
+        "hours": 38.8
       },
       {
         "label": "Shop Meetings",
-        "hours": 32.5
+        "hours": 34.5
       },
       {
         "label": "Personal Meetings",
-        "hours": 12.2
+        "hours": 13.0
       },
       {
         "label": "Errands",
@@ -509,7 +533,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 20.5,
-      "pct_of_total": 3.2,
+      "pct_of_total": 3.1,
       "tasks": [
         {
           "task": "Present vehicle to customer",
@@ -536,7 +560,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 16.8,
-      "pct_of_total": 2.6,
+      "pct_of_total": 2.5,
       "tasks": [
         {
           "task": "Address Suspension PDI findings",
@@ -617,10 +641,10 @@
     "min_hours": 1.0
   },
   "totals": {
-    "billable_hours": 497.2,
-    "non_billable_hours": 136.8,
+    "billable_hours": 519.2,
+    "non_billable_hours": 141.0,
     "pto_hours": 24.0,
-    "total_hours": 634.0
+    "total_hours": 660.2
   },
-  "generated_at": "2026-10-15T21:39:51Z"
+  "generated_at": "2026-10-15T21:48:29Z"
 }
