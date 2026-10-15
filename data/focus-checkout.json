@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T19:35:56.779269Z",
+  "updated_at": "2026-10-15T19:49:30.497766Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -267,7 +267,7 @@
         "matched_lists": [
           "Kelly 63 Corvette"
         ],
-        "open_tasks": 6
+        "open_tasks": 3
       },
       "assignees": [
         {
@@ -286,32 +286,6 @@
               "status": "Open",
               "list": "Kelly 63 Corvette",
               "url": "https://app.clickup.com/t/868krf6f9"
-            },
-            {
-              "id": "868m6ucr6",
-              "name": "Troubleshoot speedo issue",
-              "status": "Open",
-              "list": "Kelly 63 Corvette",
-              "url": "https://app.clickup.com/t/868m6ucr6"
-            }
-          ]
-        },
-        {
-          "name": "Noah Sharif",
-          "tasks": [
-            {
-              "id": "868ku38p2",
-              "name": "Troubleshoot parking brake issue",
-              "status": "Open",
-              "list": "Kelly 63 Corvette",
-              "url": "https://app.clickup.com/t/868ku38p2"
-            },
-            {
-              "id": "868m6jhbu",
-              "name": "Troubleshoot speedo issue",
-              "status": "Open",
-              "list": "Kelly 63 Corvette",
-              "url": "https://app.clickup.com/t/868m6jhbu"
             }
           ]
         },
@@ -341,7 +315,7 @@
         "matched_lists": [
           "LB 82 911"
         ],
-        "open_tasks": 32
+        "open_tasks": 31
       },
       "assignees": [
         {
@@ -460,18 +434,6 @@
           ]
         },
         {
-          "name": "Devin DuMont",
-          "tasks": [
-            {
-              "id": "868mcpttt",
-              "name": "Update thermistor data",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868mcpttt"
-            }
-          ]
-        },
-        {
           "name": "Geoff Raynak",
           "tasks": [
             {
@@ -521,7 +483,7 @@
         "matched_lists": [
           "Lee 68 Mustang"
         ],
-        "open_tasks": 7
+        "open_tasks": 8
       },
       "assignees": [
         {
@@ -547,6 +509,13 @@
               "status": "Open",
               "list": "Lee 68 Mustang",
               "url": "https://app.clickup.com/t/868kvft7k"
+            },
+            {
+              "id": "868j7ju1n",
+              "name": "Install hood",
+              "status": "Open",
+              "list": "Lee 68 Mustang",
+              "url": "https://app.clickup.com/t/868j7ju1n"
             }
           ]
         },
@@ -930,5 +899,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-15T19:35:30Z"
+  "generated_at": "2026-10-15T19:49:11Z"
 }
