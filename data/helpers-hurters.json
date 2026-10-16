@@ -3,7 +3,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 86.0,
-      "pct_of_total": 13.0,
+      "pct_of_total": 12.5,
       "tasks": [
         {
           "task": "Retest OEM wiring",
@@ -70,11 +70,11 @@
           "hours": 1.5
         },
         {
-          "task": "Install front boxes",
+          "task": "Terminate all cooling lines",
           "hours": 1.2
         },
         {
-          "task": "Terminate all cooling lines",
+          "task": "Install front boxes",
           "hours": 1.2
         },
         {
@@ -106,7 +106,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 74.2,
-      "pct_of_total": 11.2,
+      "pct_of_total": 10.8,
       "tasks": [
         {
           "task": "Clean up engine bay",
@@ -151,76 +151,13 @@
       ]
     },
     {
-      "project": "Ritchie 71 Blazer",
-      "total_hours": 53.0,
+      "project": "LB 82 911",
+      "total_hours": 55.2,
       "pct_of_total": 8.0,
       "tasks": [
         {
-          "task": "Facilitate paint work",
-          "hours": 21.0
-        },
-        {
-          "task": "Install new front grille",
-          "hours": 8.0
-        },
-        {
-          "task": "Address all drivetrain PDI issues",
-          "hours": 6.0
-        },
-        {
-          "task": "Install bed rail caps",
-          "hours": 5.0
-        },
-        {
-          "task": "Address all interior PDI issues",
-          "hours": 2.8
-        },
-        {
-          "task": "Checkout Vehicle",
-          "hours": 2.0
-        },
-        {
-          "task": "Polish chrome surfaces",
-          "hours": 1.5
-        },
-        {
-          "task": "Install interior",
-          "hours": 1.5
-        },
-        {
-          "task": "Re-bleed cooling system",
-          "hours": 1.0
-        },
-        {
-          "task": "Address antena issue",
-          "hours": 1.0
-        },
-        {
-          "task": "Clean engine bay",
-          "hours": 1.0
-        },
-        {
-          "task": "Present vehicle to customer",
-          "hours": 1.0
-        },
-        {
-          "task": "Resecure wiring",
-          "hours": 0.8
-        },
-        {
-          "task": "Install front battery lid",
-          "hours": 0.5
-        }
-      ]
-    },
-    {
-      "project": "LB 82 911",
-      "total_hours": 46.5,
-      "pct_of_total": 7.0,
-      "tasks": [
-        {
           "task": "Start up vehicle",
-          "hours": 15.0
+          "hours": 20.5
         },
         {
           "task": "Final install components",
@@ -228,11 +165,11 @@
         },
         {
           "task": "Configure HVAC settings",
-          "hours": 8.2
+          "hours": 10.0
         },
         {
           "task": "Reinstall interior",
-          "hours": 3.0
+          "hours": 4.5
         },
         {
           "task": "Install GUI",
@@ -265,9 +202,72 @@
       ]
     },
     {
+      "project": "Ritchie 71 Blazer",
+      "total_hours": 53.0,
+      "pct_of_total": 7.7,
+      "tasks": [
+        {
+          "task": "Facilitate paint work",
+          "hours": 21.0
+        },
+        {
+          "task": "Install new front grille",
+          "hours": 8.0
+        },
+        {
+          "task": "Address all drivetrain PDI issues",
+          "hours": 6.0
+        },
+        {
+          "task": "Install bed rail caps",
+          "hours": 5.0
+        },
+        {
+          "task": "Address all interior PDI issues",
+          "hours": 2.8
+        },
+        {
+          "task": "Checkout Vehicle",
+          "hours": 2.0
+        },
+        {
+          "task": "Install interior",
+          "hours": 1.5
+        },
+        {
+          "task": "Polish chrome surfaces",
+          "hours": 1.5
+        },
+        {
+          "task": "Re-bleed cooling system",
+          "hours": 1.0
+        },
+        {
+          "task": "Clean engine bay",
+          "hours": 1.0
+        },
+        {
+          "task": "Address antena issue",
+          "hours": 1.0
+        },
+        {
+          "task": "Present vehicle to customer",
+          "hours": 1.0
+        },
+        {
+          "task": "Resecure wiring",
+          "hours": 0.8
+        },
+        {
+          "task": "Install front battery lid",
+          "hours": 0.5
+        }
+      ]
+    },
+    {
       "project": "Richardson 72 240Z",
       "total_hours": 42.5,
-      "pct_of_total": 6.4,
+      "pct_of_total": 6.2,
       "tasks": [
         {
           "task": "Modify and clean up OEM harness",
@@ -316,9 +316,48 @@
       ]
     },
     {
+      "project": "Nolan 70 Challenger",
+      "total_hours": 42.5,
+      "pct_of_total": 6.2,
+      "tasks": [
+        {
+          "task": "Finalize OEM wiring",
+          "hours": 18.0
+        },
+        {
+          "task": "Install second charge port",
+          "hours": 11.0
+        },
+        {
+          "task": "Wire and install gauges",
+          "hours": 7.2
+        },
+        {
+          "task": "Install sound generators",
+          "hours": 4.0
+        },
+        {
+          "task": "Checkout vehicle",
+          "hours": 0.8
+        },
+        {
+          "task": "Swap CAN logger",
+          "hours": 0.8
+        },
+        {
+          "task": "Install interior",
+          "hours": 0.5
+        },
+        {
+          "task": "Install HVAC controls",
+          "hours": 0.2
+        }
+      ]
+    },
+    {
       "project": "Thacker 46 Woody",
-      "total_hours": 39.0,
-      "pct_of_total": 5.9,
+      "total_hours": 39.5,
+      "pct_of_total": 5.7,
       "tasks": [
         {
           "task": "Remove vinyl top",
@@ -361,6 +400,10 @@
           "hours": 1.0
         },
         {
+          "task": "Install motor assembly",
+          "hours": 0.5
+        },
+        {
           "task": "Run main HV cables",
           "hours": 0.2
         },
@@ -371,44 +414,9 @@
       ]
     },
     {
-      "project": "Nolan 70 Challenger",
-      "total_hours": 33.2,
-      "pct_of_total": 5.0,
-      "tasks": [
-        {
-          "task": "Finalize OEM wiring",
-          "hours": 18.0
-        },
-        {
-          "task": "Wire and install gauges",
-          "hours": 7.2
-        },
-        {
-          "task": "Install sound generators",
-          "hours": 4.0
-        },
-        {
-          "task": "Install second charge port",
-          "hours": 2.5
-        },
-        {
-          "task": "Checkout vehicle",
-          "hours": 0.8
-        },
-        {
-          "task": "Install interior",
-          "hours": 0.5
-        },
-        {
-          "task": "Install HVAC controls",
-          "hours": 0.2
-        }
-      ]
-    },
-    {
       "project": "Lee 68 Mustang",
       "total_hours": 29.5,
-      "pct_of_total": 4.5,
+      "pct_of_total": 4.3,
       "tasks": [
         {
           "task": "Re-gear diff",
@@ -423,7 +431,7 @@
     {
       "project": "Bently 65 356",
       "total_hours": 28.5,
-      "pct_of_total": 4.3,
+      "pct_of_total": 4.1,
       "tasks": [
         {
           "task": "Run main HV cables",
@@ -470,7 +478,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 26.2,
-      "pct_of_total": 4.0,
+      "pct_of_total": 3.8,
       "tasks": [
         {
           "task": "Install rear battery box",
@@ -504,20 +512,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 98.8,
-    "pct_of_total": 14.9,
-    "avg_per_person_per_day": 1.03,
+    "total_hours": 104.0,
+    "pct_of_total": 15.1,
+    "avg_per_person_per_day": 1.08,
     "flagged": true,
     "tech_count": 8,
     "working_days": 12,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 38.8
+        "hours": 40.5
       },
       {
         "label": "Shop Meetings",
-        "hours": 34.5
+        "hours": 36.0
       },
       {
         "label": "Personal Meetings",
@@ -529,7 +537,7 @@
       },
       {
         "label": "Organization",
-        "hours": 2.2
+        "hours": 4.2
       },
       {
         "label": "Other",
@@ -541,7 +549,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 20.5,
-      "pct_of_total": 3.1,
+      "pct_of_total": 3.0,
       "tasks": [
         {
           "task": "Present vehicle to customer",
@@ -568,7 +576,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 16.8,
-      "pct_of_total": 2.5,
+      "pct_of_total": 2.4,
       "tasks": [
         {
           "task": "Address Suspension PDI findings",
@@ -615,7 +623,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 3.0,
-      "pct_of_total": 0.5,
+      "pct_of_total": 0.4,
       "tasks": [
         {
           "task": "Replace damaged motor cradle",
@@ -649,10 +657,10 @@
     "min_hours": 1.0
   },
   "totals": {
-    "billable_hours": 520.8,
-    "non_billable_hours": 141.0,
+    "billable_hours": 542.2,
+    "non_billable_hours": 146.2,
     "pto_hours": 24.0,
-    "total_hours": 661.8
+    "total_hours": 688.5
   },
-  "generated_at": "2026-10-16T05:28:36Z"
+  "generated_at": "2026-10-16T05:42:59Z"
 }
