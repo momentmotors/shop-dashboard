@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T21:36:12.131213Z",
+  "updated_at": "2026-10-16T21:49:00.196884Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -315,7 +315,7 @@
         "matched_lists": [
           "LB 82 911"
         ],
-        "open_tasks": 28
+        "open_tasks": 29
       },
       "assignees": [
         {
@@ -397,6 +397,13 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868mj9mgy"
+            },
+            {
+              "id": "868mjbqn0",
+              "name": "Troubleshoot Headlights",
+              "status": "Open",
+              "list": "LB 82 911",
+              "url": "https://app.clickup.com/t/868mjbqn0"
             }
           ]
         },
@@ -873,5 +880,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-16T21:35:52Z"
+  "generated_at": "2026-10-16T21:48:40Z"
 }
