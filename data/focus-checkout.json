@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T16:13:55.684352Z",
+  "updated_at": "2026-10-16T16:30:44.728422Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -678,7 +678,7 @@
         "matched_lists": [
           "Preheim 72 Blazer"
         ],
-        "open_tasks": 4
+        "open_tasks": 3
       },
       "assignees": [
         {
@@ -697,18 +697,6 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868mea4jy"
-            }
-          ]
-        },
-        {
-          "name": "Geoff Raynak",
-          "tasks": [
-            {
-              "id": "868mhd2w5",
-              "name": "Engineer Core - Battery Pack Mounts",
-              "status": "Open",
-              "list": "Preheim 72 Blazer",
-              "url": "https://app.clickup.com/t/868mhd2w5"
             }
           ]
         },
@@ -906,5 +894,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-16T16:13:35Z"
+  "generated_at": "2026-10-16T16:30:20Z"
 }
