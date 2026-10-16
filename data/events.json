@@ -40,12 +40,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Ryan in late, Court Appt.",
+              "summary": "Brandon B Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Brandon B Out",
+              "summary": "Ryan in late, Court Appt.",
               "type": "pto",
               "all_day": true
             }
@@ -156,12 +156,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Devin D Out",
+              "summary": "Jordan J Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Jordan J Out",
+              "summary": "Devin D Out",
               "type": "pto",
               "all_day": true
             }
@@ -174,12 +174,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Devin D Out",
+              "summary": "Jordan J Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Jordan J Out",
+              "summary": "Devin D Out",
               "type": "pto",
               "all_day": true
             }
@@ -270,5 +270,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-16T16:30:20Z"
+  "generated_at": "2026-10-16T16:43:11Z"
 }
