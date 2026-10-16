@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T19:36:46.401400Z",
+  "updated_at": "2026-10-16T19:49:12.096238Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -315,7 +315,7 @@
         "matched_lists": [
           "LB 82 911"
         ],
-        "open_tasks": 31
+        "open_tasks": 28
       },
       "assignees": [
         {
@@ -327,13 +327,6 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868knrzc6"
-            },
-            {
-              "id": "868g811de",
-              "name": "Charge and test system",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868g811de"
             },
             {
               "id": "868j7kkze",
@@ -399,13 +392,6 @@
               "url": "https://app.clickup.com/t/868j7kytx"
             },
             {
-              "id": "868jg4cba",
-              "name": "Start up vehicle",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868jg4cba"
-            },
-            {
               "id": "868mj9mgy",
               "name": "Swap heater blower motors",
               "status": "Open",
@@ -423,13 +409,6 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868me9n2e"
-            },
-            {
-              "id": "868knrzp8",
-              "name": "Start up vehicle",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868knrzp8"
             }
           ]
         },
@@ -894,5 +873,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-16T19:36:23Z"
+  "generated_at": "2026-10-16T19:48:35Z"
 }
