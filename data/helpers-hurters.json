@@ -70,11 +70,11 @@
           "hours": 1.5
         },
         {
-          "task": "Terminate all cooling lines",
+          "task": "Install front boxes",
           "hours": 1.2
         },
         {
-          "task": "Install front boxes",
+          "task": "Terminate all cooling lines",
           "hours": 1.2
         },
         {
@@ -180,11 +180,11 @@
           "hours": 2.0
         },
         {
-          "task": "Install interior",
+          "task": "Polish chrome surfaces",
           "hours": 1.5
         },
         {
-          "task": "Polish chrome surfaces",
+          "task": "Install interior",
           "hours": 1.5
         },
         {
@@ -192,11 +192,11 @@
           "hours": 1.0
         },
         {
-          "task": "Clean engine bay",
+          "task": "Address antena issue",
           "hours": 1.0
         },
         {
-          "task": "Address antena issue",
+          "task": "Clean engine bay",
           "hours": 1.0
         },
         {
@@ -341,11 +341,11 @@
           "hours": 4.2
         },
         {
-          "task": "Manufacture Product - Batt Box 2",
+          "task": "Manufacture Product - Batt Box 1",
           "hours": 2.8
         },
         {
-          "task": "Manufacture Product - Batt Box 1",
+          "task": "Manufacture Product - Batt Box 2",
           "hours": 2.8
         },
         {
@@ -506,10 +506,10 @@
   "shop_work": {
     "total_hours": 98.8,
     "pct_of_total": 14.9,
-    "avg_per_person_per_day": 1.12,
+    "avg_per_person_per_day": 1.03,
     "flagged": true,
     "tech_count": 8,
-    "working_days": 11,
+    "working_days": 12,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
@@ -654,5 +654,5 @@
     "pto_hours": 24.0,
     "total_hours": 661.8
   },
-  "generated_at": "2026-10-15T23:48:47Z"
+  "generated_at": "2026-10-16T00:31:48Z"
 }
