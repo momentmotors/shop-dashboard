@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T19:22:42.353841Z",
+  "updated_at": "2026-10-16T19:36:46.401400Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -404,6 +404,13 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868jg4cba"
+            },
+            {
+              "id": "868mj9mgy",
+              "name": "Swap heater blower motors",
+              "status": "Open",
+              "list": "LB 82 911",
+              "url": "https://app.clickup.com/t/868mj9mgy"
             }
           ]
         },
@@ -416,13 +423,6 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868me9n2e"
-            },
-            {
-              "id": "868mhb2kc",
-              "name": "Configure HVAC settings",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868mhb2kc"
             },
             {
               "id": "868knrzp8",
@@ -894,5 +894,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-16T19:22:24Z"
+  "generated_at": "2026-10-16T19:36:23Z"
 }
