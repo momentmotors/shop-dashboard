@@ -654,12 +654,16 @@
     },
     {
       "project": "Ferdman 66 Bus",
-      "total_hours": 3.0,
-      "pct_of_total": 0.4,
+      "total_hours": 4.2,
+      "pct_of_total": 0.6,
       "tasks": [
         {
           "task": "Replace damaged motor cradle",
           "hours": 1.8
+        },
+        {
+          "task": "Research spare tire solution",
+          "hours": 1.2
         },
         {
           "task": "Checkout vehicle",
@@ -700,10 +704,10 @@
     "min_hours": 1.0
   },
   "totals": {
-    "billable_hours": 585.8,
-    "non_billable_hours": 160.2,
+    "billable_hours": 584.5,
+    "non_billable_hours": 161.5,
     "pto_hours": 24.0,
     "total_hours": 746.0
   },
-  "generated_at": "2026-10-17T17:09:23Z"
+  "generated_at": "2026-10-17T17:21:14Z"
 }
