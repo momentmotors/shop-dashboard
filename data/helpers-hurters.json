@@ -243,11 +243,11 @@
           "hours": 2.0
         },
         {
-          "task": "Install interior",
+          "task": "Polish chrome surfaces",
           "hours": 1.5
         },
         {
-          "task": "Polish chrome surfaces",
+          "task": "Install interior",
           "hours": 1.5
         },
         {
@@ -591,6 +591,41 @@
   },
   "project_hurters": [
     {
+      "project": "Preheim 72 Blazer",
+      "total_hours": 20.5,
+      "pct_of_total": 2.7,
+      "tasks": [
+        {
+          "task": "Replace seal for top",
+          "hours": 6.0
+        },
+        {
+          "task": "Address Suspension PDI findings",
+          "hours": 6.0
+        },
+        {
+          "task": "Perform PDI",
+          "hours": 4.0
+        },
+        {
+          "task": "Assess interior squeaks and rattles",
+          "hours": 2.0
+        },
+        {
+          "task": "Address Steering PDI findings",
+          "hours": 1.0
+        },
+        {
+          "task": "Raise ride height",
+          "hours": 1.0
+        },
+        {
+          "task": "Address Cooling PDI findings",
+          "hours": 0.5
+        }
+      ]
+    },
+    {
       "project": "Ritchie 71 Blazer",
       "total_hours": 20.5,
       "pct_of_total": 2.7,
@@ -614,53 +649,6 @@
         {
           "task": "Checkout Vehicle",
           "hours": 1.5
-        }
-      ]
-    },
-    {
-      "project": "Preheim 72 Blazer",
-      "total_hours": 16.8,
-      "pct_of_total": 2.2,
-      "tasks": [
-        {
-          "task": "Address Suspension PDI findings",
-          "hours": 6.0
-        },
-        {
-          "task": "Perform PDI",
-          "hours": 4.0
-        },
-        {
-          "task": "Checkout vehicle",
-          "hours": 1.5
-        },
-        {
-          "task": "Address vehicle control PDI findings",
-          "hours": 1.5
-        },
-        {
-          "task": "Address Steering PDI findings",
-          "hours": 1.0
-        },
-        {
-          "task": "Raise ride height",
-          "hours": 1.0
-        },
-        {
-          "task": "Address Cooling PDI findings",
-          "hours": 0.5
-        },
-        {
-          "task": "Address Brakes PDI findings",
-          "hours": 0.5
-        },
-        {
-          "task": "Address PDI findings",
-          "hours": 0.5
-        },
-        {
-          "task": "Address Exterior PDI findings",
-          "hours": 0.2
         }
       ]
     },
@@ -693,6 +681,17 @@
           "hours": 2.0
         }
       ]
+    },
+    {
+      "project": "Avalos 72 Blazer",
+      "total_hours": 2.0,
+      "pct_of_total": 0.3,
+      "tasks": [
+        {
+          "task": "Prep vehicle for sale",
+          "hours": 2.0
+        }
+      ]
     }
   ],
   "hurters_below_floor": {
@@ -701,10 +700,10 @@
     "min_hours": 1.0
   },
   "totals": {
-    "billable_hours": 591.5,
-    "non_billable_hours": 154.5,
+    "billable_hours": 585.8,
+    "non_billable_hours": 160.2,
     "pto_hours": 24.0,
     "total_hours": 746.0
   },
-  "generated_at": "2026-10-17T16:48:24Z"
+  "generated_at": "2026-10-17T17:09:23Z"
 }
