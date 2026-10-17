@@ -40,12 +40,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Brandon B Out",
+              "summary": "Ryan in late, Court Appt.",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Ryan in late, Court Appt.",
+              "summary": "Brandon B Out",
               "type": "pto",
               "all_day": true
             }
@@ -270,5 +270,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-17T22:22:24Z"
+  "generated_at": "2026-10-17T22:34:38Z"
 }
