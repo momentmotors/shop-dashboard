@@ -36,16 +36,16 @@
         {
           "date": "2026-10-16",
           "day_name": "Friday",
-          "is_today": true,
+          "is_today": false,
           "is_weekend": false,
           "events": [
             {
-              "summary": "Brandon B Out",
+              "summary": "Ryan in late, Court Appt.",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Ryan in late, Court Appt.",
+              "summary": "Brandon B Out",
               "type": "pto",
               "all_day": true
             }
@@ -54,7 +54,7 @@
         {
           "date": "2026-10-17",
           "day_name": "Saturday",
-          "is_today": false,
+          "is_today": true,
           "is_weekend": true,
           "events": []
         },
@@ -270,5 +270,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-16T23:48:50Z"
+  "generated_at": "2026-10-17T00:32:17Z"
 }
