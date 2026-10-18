@@ -255,11 +255,11 @@
           "hours": 1.0
         },
         {
-          "task": "Clean engine bay",
+          "task": "Address antena issue",
           "hours": 1.0
         },
         {
-          "task": "Address antena issue",
+          "task": "Clean engine bay",
           "hours": 1.0
         },
         {
@@ -345,11 +345,11 @@
           "hours": 2.0
         },
         {
-          "task": "Remove OEM gauges",
+          "task": "Install audio system",
           "hours": 2.0
         },
         {
-          "task": "Install audio system",
+          "task": "Remove OEM gauges",
           "hours": 2.0
         },
         {
@@ -709,5 +709,5 @@
     "pto_hours": 24.0,
     "total_hours": 746.0
   },
-  "generated_at": "2026-10-17T23:49:28Z"
+  "generated_at": "2026-10-18T00:35:52Z"
 }
