@@ -74,11 +74,11 @@
           "hours": 1.5
         },
         {
-          "task": "Terminate all cooling lines",
+          "task": "Install front boxes",
           "hours": 1.2
         },
         {
-          "task": "Install front boxes",
+          "task": "Terminate all cooling lines",
           "hours": 1.2
         },
         {
@@ -298,11 +298,11 @@
           "hours": 4.0
         },
         {
-          "task": "Swap CAN logger",
+          "task": "Checkout vehicle",
           "hours": 0.8
         },
         {
-          "task": "Checkout vehicle",
+          "task": "Swap CAN logger",
           "hours": 0.8
         },
         {
@@ -709,5 +709,5 @@
     "pto_hours": 24.0,
     "total_hours": 746.0
   },
-  "generated_at": "2026-10-18T05:48:35Z"
+  "generated_at": "2026-10-18T06:19:01Z"
 }
