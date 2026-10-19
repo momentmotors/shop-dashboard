@@ -243,11 +243,11 @@
           "hours": 2.0
         },
         {
-          "task": "Polish chrome surfaces",
+          "task": "Install interior",
           "hours": 1.5
         },
         {
-          "task": "Install interior",
+          "task": "Polish chrome surfaces",
           "hours": 1.5
         },
         {
@@ -255,11 +255,11 @@
           "hours": 1.0
         },
         {
-          "task": "Clean engine bay",
+          "task": "Address antena issue",
           "hours": 1.0
         },
         {
-          "task": "Address antena issue",
+          "task": "Clean engine bay",
           "hours": 1.0
         },
         {
@@ -709,5 +709,5 @@
     "pto_hours": 24.0,
     "total_hours": 746.0
   },
-  "generated_at": "2026-10-19T03:45:52Z"
+  "generated_at": "2026-10-19T04:15:20Z"
 }
