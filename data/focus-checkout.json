@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T18:57:11.556993Z",
+  "updated_at": "2026-10-19T19:14:20.307929Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -469,7 +469,7 @@
         "matched_lists": [
           "Lee 68 Mustang"
         ],
-        "open_tasks": 9
+        "open_tasks": 8
       },
       "assignees": [
         {
@@ -508,13 +508,6 @@
         {
           "name": "Justin Landry",
           "tasks": [
-            {
-              "id": "868mhvaba",
-              "name": "Aid in NVH troubleshoot",
-              "status": "Open",
-              "list": "Lee 68 Mustang",
-              "url": "https://app.clickup.com/t/868mhvaba"
-            },
             {
               "id": "868m4x2m4",
               "name": "Perform PDI",
@@ -664,7 +657,7 @@
         "matched_lists": [
           "Preheim 72 Blazer"
         ],
-        "open_tasks": 3
+        "open_tasks": 2
       },
       "assignees": [
         {
@@ -683,18 +676,6 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868mea4jy"
-            }
-          ]
-        },
-        {
-          "name": "Justin Landry",
-          "tasks": [
-            {
-              "id": "868m4x2dz",
-              "name": "Perform PDI",
-              "status": "Open",
-              "list": "Preheim 72 Blazer",
-              "url": "https://app.clickup.com/t/868m4x2dz"
             }
           ]
         }
@@ -880,5 +861,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-19T18:56:53Z"
+  "generated_at": "2026-10-19T19:13:57Z"
 }
