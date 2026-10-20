@@ -2,31 +2,31 @@
   "target_pct": 75,
   "current_month": {
     "month": "2026-10",
-    "productivity_pct": 78.4,
-    "billable_hours": 586.8,
-    "total_hours": 772.2,
-    "pto_hours": 24.0
+    "productivity_pct": 79.1,
+    "billable_hours": 639.0,
+    "total_hours": 839.5,
+    "pto_hours": 32.0
   },
   "comparisons": {
     "vs_last_month": {
       "label": "vs Last Month",
       "value": 77.0,
-      "delta": 1.4
+      "delta": 2.1
     },
     "vs_last_quarter": {
       "label": "vs Last Quarter Avg",
       "value": 72.3,
-      "delta": 6.1
+      "delta": 6.8
     },
     "vs_last_week": {
       "label": "vs Last Week",
       "value": 83.3,
-      "delta": -4.9
+      "delta": -4.2
     },
     "vs_target": {
       "label": "vs Target",
       "value": 75,
-      "delta": 3.4
+      "delta": 4.1
     }
   },
   "monthly": [
@@ -109,10 +109,10 @@
     },
     {
       "month": "2026-10",
-      "productivity_pct": 78.4,
-      "billable_hours": 586.8,
-      "total_hours": 772.2,
-      "pto_hours": 24.0
+      "productivity_pct": 79.1,
+      "billable_hours": 639.0,
+      "total_hours": 839.5,
+      "pto_hours": 32.0
     }
   ],
   "current_month_weeks": [
@@ -132,7 +132,13 @@
       "week": "2026-W42",
       "productivity_pct": 83.3,
       "billable_hours": 254.2,
-      "total_hours": 305.2
+      "total_hours": 313.2
+    },
+    {
+      "week": "2026-W43",
+      "productivity_pct": 88.2,
+      "billable_hours": 52.2,
+      "total_hours": 59.2
     }
   ],
   "current_month_days": [
@@ -218,14 +224,20 @@
       "date": "2026-10-16",
       "productivity_pct": 83.8,
       "billable_hours": 44.0,
-      "total_hours": 52.5
+      "total_hours": 60.5
     },
     {
       "date": "2026-10-18",
       "productivity_pct": 100.0,
       "billable_hours": 2.2,
       "total_hours": 2.2
+    },
+    {
+      "date": "2026-10-19",
+      "productivity_pct": 88.2,
+      "billable_hours": 52.2,
+      "total_hours": 59.2
     }
   ],
-  "generated_at": "2026-10-20T05:53:53Z"
+  "generated_at": "2026-10-20T06:20:57Z"
 }
