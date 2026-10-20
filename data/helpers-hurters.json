@@ -624,8 +624,8 @@
   "project_hurters": [
     {
       "project": "Preheim 72 Blazer",
-      "total_hours": 20.5,
-      "pct_of_total": 2.5,
+      "total_hours": 21.0,
+      "pct_of_total": 2.6,
       "tasks": [
         {
           "task": "Replace seal for top",
@@ -653,6 +653,10 @@
         },
         {
           "task": "Address Cooling PDI findings",
+          "hours": 0.5
+        },
+        {
+          "task": "Checkout vehicle",
           "hours": 0.5
         }
       ]
@@ -708,23 +712,23 @@
       ]
     },
     {
+      "project": "Avalos 72 Blazer",
+      "total_hours": 3.5,
+      "pct_of_total": 0.4,
+      "tasks": [
+        {
+          "task": "Prep vehicle for sale",
+          "hours": 3.5
+        }
+      ]
+    },
+    {
       "project": "Hastert 60 F250",
       "total_hours": 2.0,
       "pct_of_total": 0.2,
       "tasks": [
         {
           "task": "Perform brief PDI",
-          "hours": 2.0
-        }
-      ]
-    },
-    {
-      "project": "Avalos 72 Blazer",
-      "total_hours": 2.0,
-      "pct_of_total": 0.2,
-      "tasks": [
-        {
-          "task": "Prep vehicle for sale",
           "hours": 2.0
         }
       ]
@@ -736,10 +740,10 @@
     "min_hours": 1.0
   },
   "totals": {
-    "billable_hours": 639.0,
-    "non_billable_hours": 168.5,
+    "billable_hours": 637.0,
+    "non_billable_hours": 170.5,
     "pto_hours": 32.0,
     "total_hours": 807.5
   },
-  "generated_at": "2026-10-20T17:50:13Z"
+  "generated_at": "2026-10-20T18:15:54Z"
 }
