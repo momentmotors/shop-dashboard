@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T21:12:25.608201Z",
+  "updated_at": "2026-10-20T21:27:32.556449Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -315,7 +315,7 @@
         "matched_lists": [
           "LB 82 911"
         ],
-        "open_tasks": 29
+        "open_tasks": 24
       },
       "assignees": [
         {
@@ -334,13 +334,6 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868j7kkze"
-            },
-            {
-              "id": "868me9maj",
-              "name": "Install carpet",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868me9maj"
             },
             {
               "id": "868man63y",
@@ -371,39 +364,11 @@
               "url": "https://app.clickup.com/t/868man7z6"
             },
             {
-              "id": "868ma6wy3",
-              "name": "Mount washer bottle",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868ma6wy3"
-            },
-            {
               "id": "868j7krpv",
               "name": "Reinstall interior",
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868j7krpv"
-            },
-            {
-              "id": "868j7kytx",
-              "name": "Set preliminary alignment",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868j7kytx"
-            },
-            {
-              "id": "868mj9mgy",
-              "name": "Swap heater blower motors",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868mj9mgy"
-            },
-            {
-              "id": "868mjbqn0",
-              "name": "Troubleshoot Headlights",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868mjbqn0"
             }
           ]
         },
@@ -838,5 +803,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-20T21:12:04Z"
+  "generated_at": "2026-10-20T21:27:14Z"
 }
