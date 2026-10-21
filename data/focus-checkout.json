@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T19:49:43.844785Z",
+  "updated_at": "2026-10-21T20:12:48.869021Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -308,7 +308,7 @@
         "matched_lists": [
           "LB 82 911"
         ],
-        "open_tasks": 24
+        "open_tasks": 25
       },
       "assignees": [
         {
@@ -374,6 +374,18 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868me9n2e"
+            }
+          ]
+        },
+        {
+          "name": "Devin DuMont",
+          "tasks": [
+            {
+              "id": "868mkx91x",
+              "name": "Aid in blower motor setup",
+              "status": "Open",
+              "list": "LB 82 911",
+              "url": "https://app.clickup.com/t/868mkx91x"
             }
           ]
         },
@@ -808,5 +820,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-21T19:49:11Z"
+  "generated_at": "2026-10-21T20:12:22Z"
 }
