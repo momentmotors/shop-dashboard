@@ -2,8 +2,8 @@
   "helpers": [
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 113.5,
-      "pct_of_total": 13.0,
+      "total_hours": 116.8,
+      "pct_of_total": 13.3,
       "tasks": [
         {
           "task": "Manufacture Product - Flying Lead Harness",
@@ -31,11 +31,19 @@
         },
         {
           "task": "Install radiator assembly",
-          "hours": 6.8
+          "hours": 7.2
+        },
+        {
+          "task": "Mount steering sensor",
+          "hours": 6.0
         },
         {
           "task": "Manufacture Product - Batt Box 1",
           "hours": 5.2
+        },
+        {
+          "task": "Install front sway bar",
+          "hours": 5.0
         },
         {
           "task": "Manufacture Product - Batt Box 2",
@@ -48,14 +56,6 @@
         {
           "task": "Manufacture Product - Batt Box 3",
           "hours": 4.5
-        },
-        {
-          "task": "Mount steering sensor",
-          "hours": 4.5
-        },
-        {
-          "task": "Install front sway bar",
-          "hours": 4.0
         },
         {
           "task": "Reinstall wheel well extensions",
@@ -107,7 +107,7 @@
         },
         {
           "task": "Build and install PS lines",
-          "hours": 0.2
+          "hours": 0.5
         },
         {
           "task": "Checkout vehicle",
@@ -118,7 +118,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 98.2,
-      "pct_of_total": 11.3,
+      "pct_of_total": 11.2,
       "tasks": [
         {
           "task": "Clean up engine bay",
@@ -492,7 +492,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 41.5,
-      "pct_of_total": 4.8,
+      "pct_of_total": 4.7,
       "tasks": [
         {
           "task": "Re-gear diff",
@@ -616,9 +616,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 127.5,
+    "total_hours": 128.0,
     "pct_of_total": 14.6,
-    "avg_per_person_per_day": 1.06,
+    "avg_per_person_per_day": 1.07,
     "flagged": true,
     "tech_count": 8,
     "working_days": 15,
@@ -629,7 +629,7 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 46.5
+        "hours": 47.0
       },
       {
         "label": "Personal Meetings",
@@ -692,7 +692,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 20.5,
-      "pct_of_total": 2.4,
+      "pct_of_total": 2.3,
       "tasks": [
         {
           "task": "Present vehicle to customer",
@@ -768,10 +768,10 @@
     "min_hours": 1.0
   },
   "totals": {
-    "billable_hours": 693.2,
-    "non_billable_hours": 178.8,
+    "billable_hours": 696.5,
+    "non_billable_hours": 179.2,
     "pto_hours": 32.0,
-    "total_hours": 872.0
+    "total_hours": 875.8
   },
-  "generated_at": "2026-10-21T17:10:36Z"
+  "generated_at": "2026-10-21T17:24:12Z"
 }
