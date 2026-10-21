@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T16:52:52.968778Z",
+  "updated_at": "2026-10-21T17:11:00.818710Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -434,7 +434,7 @@
         "matched_lists": [
           "Lee 68 Mustang"
         ],
-        "open_tasks": 8
+        "open_tasks": 9
       },
       "assignees": [
         {
@@ -467,6 +467,18 @@
               "status": "Open",
               "list": "Lee 68 Mustang",
               "url": "https://app.clickup.com/t/868j7ju1n"
+            }
+          ]
+        },
+        {
+          "name": "David Webber",
+          "tasks": [
+            {
+              "id": "868mktkwp",
+              "name": "AID in NVH troubleshoot",
+              "status": "Open",
+              "list": "Lee 68 Mustang",
+              "url": "https://app.clickup.com/t/868mktkwp"
             }
           ]
         },
@@ -803,5 +815,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-21T16:52:31Z"
+  "generated_at": "2026-10-21T17:10:36Z"
 }
