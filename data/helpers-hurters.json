@@ -2,12 +2,12 @@
   "helpers": [
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 116.8,
-      "pct_of_total": 13.3,
+      "total_hours": 129.0,
+      "pct_of_total": 13.6,
       "tasks": [
         {
           "task": "Manufacture Product - Flying Lead Harness",
-          "hours": 12.0
+          "hours": 13.5
         },
         {
           "task": "Install AC lines and condenser",
@@ -34,19 +34,23 @@
           "hours": 7.2
         },
         {
+          "task": "Manufacture Product - Batt Box 1",
+          "hours": 6.2
+        },
+        {
+          "task": "Manufacture Product - Batt Box 2",
+          "hours": 6.0
+        },
+        {
           "task": "Mount steering sensor",
           "hours": 6.0
         },
         {
-          "task": "Manufacture Product - Batt Box 1",
-          "hours": 5.2
+          "task": "Manufacture Product - Batt Box 3",
+          "hours": 5.5
         },
         {
           "task": "Install front sway bar",
-          "hours": 5.0
-        },
-        {
-          "task": "Manufacture Product - Batt Box 2",
           "hours": 5.0
         },
         {
@@ -54,7 +58,7 @@
           "hours": 5.0
         },
         {
-          "task": "Manufacture Product - Batt Box 3",
+          "task": "Manufacture Product - VC Harness",
           "hours": 4.5
         },
         {
@@ -74,19 +78,27 @@
           "hours": 2.2
         },
         {
+          "task": "Install rear brake assembly",
+          "hours": 2.0
+        },
+        {
           "task": "Manufacture Product - AIO Junction Box",
           "hours": 1.5
         },
         {
-          "task": "Terminate all cooling lines",
-          "hours": 1.2
+          "task": "Final install components",
+          "hours": 1.5
+        },
+        {
+          "task": "Add VC harness mounting provisions",
+          "hours": 1.5
         },
         {
           "task": "Install front boxes",
           "hours": 1.2
         },
         {
-          "task": "Manufacture Product - VC Harness",
+          "task": "Terminate all cooling lines",
           "hours": 1.2
         },
         {
@@ -102,10 +114,6 @@
           "hours": 1.0
         },
         {
-          "task": "Final install components",
-          "hours": 0.5
-        },
-        {
           "task": "Build and install PS lines",
           "hours": 0.5
         },
@@ -117,8 +125,8 @@
     },
     {
       "project": "Hopkins 65 Silver Cloud",
-      "total_hours": 98.2,
-      "pct_of_total": 11.2,
+      "total_hours": 103.8,
+      "pct_of_total": 10.9,
       "tasks": [
         {
           "task": "Clean up engine bay",
@@ -137,35 +145,39 @@
           "hours": 6.0
         },
         {
-          "task": "Run main cooling lines",
+          "task": "Make a game plan for HVAC",
           "hours": 6.0
         },
         {
-          "task": "Make a game plan for HVAC",
-          "hours": 4.0
+          "task": "Run main cooling lines",
+          "hours": 6.0
         },
         {
           "task": "De-ICE vehicle",
           "hours": 3.0
         },
         {
-          "task": "Make a game plan for Audio",
-          "hours": 1.5
+          "task": "Modify brake pedal assembly",
+          "hours": 2.5
         },
         {
-          "task": "Modify brake pedal assembly",
-          "hours": 1.5
+          "task": "Make a game plan for Audio",
+          "hours": 2.5
         },
         {
           "task": "Determine charge port location",
           "hours": 1.5
         },
         {
-          "task": "Remove interior",
-          "hours": 1.0
+          "task": "Re-scan furl filler port",
+          "hours": 1.5
         },
         {
           "task": "Terminate all main 12V power cables",
+          "hours": 1.0
+        },
+        {
+          "task": "Remove interior",
           "hours": 1.0
         },
         {
@@ -180,8 +192,8 @@
     },
     {
       "project": "LB 82 911",
-      "total_hours": 68.2,
-      "pct_of_total": 7.8,
+      "total_hours": 70.8,
+      "pct_of_total": 7.4,
       "tasks": [
         {
           "task": "Start up vehicle",
@@ -197,7 +209,7 @@
         },
         {
           "task": "Reinstall interior",
-          "hours": 4.5
+          "hours": 5.5
         },
         {
           "task": "Manufacture Core - Front Battery Pack Lid",
@@ -205,14 +217,10 @@
         },
         {
           "task": "Address dash panel fitment issue",
-          "hours": 2.5
+          "hours": 3.2
         },
         {
           "task": "Install GUI",
-          "hours": 2.0
-        },
-        {
-          "task": "Troubleshoot Headlights",
           "hours": 2.0
         },
         {
@@ -220,11 +228,15 @@
           "hours": 2.0
         },
         {
-          "task": "Manufacture - AIO Junction Box",
-          "hours": 1.5
+          "task": "Troubleshoot Headlights",
+          "hours": 2.0
         },
         {
           "task": "Checkout vehicle",
+          "hours": 1.8
+        },
+        {
+          "task": "Manufacture - AIO Junction Box",
           "hours": 1.5
         },
         {
@@ -246,13 +258,107 @@
         {
           "task": "Mount washer bottle",
           "hours": 0.8
+        },
+        {
+          "task": "Aid in blower motor setup",
+          "hours": 0.5
+        }
+      ]
+    },
+    {
+      "project": "Lee 68 Mustang",
+      "total_hours": 60.5,
+      "pct_of_total": 6.4,
+      "tasks": [
+        {
+          "task": "Address NVH issue",
+          "hours": 24.0
+        },
+        {
+          "task": "Re-gear diff",
+          "hours": 23.0
+        },
+        {
+          "task": "AID in NVH troubleshoot",
+          "hours": 9.0
+        },
+        {
+          "task": "Aid in NVH troubleshoot",
+          "hours": 4.5
+        }
+      ]
+    },
+    {
+      "project": "Richardson 72 240Z",
+      "total_hours": 60.5,
+      "pct_of_total": 6.4,
+      "tasks": [
+        {
+          "task": "Modify and clean up OEM harness",
+          "hours": 19.0
+        },
+        {
+          "task": "Install audio system",
+          "hours": 8.2
+        },
+        {
+          "task": "Install HVAC controls",
+          "hours": 6.5
+        },
+        {
+          "task": "Take initial scans",
+          "hours": 6.0
+        },
+        {
+          "task": "Wire OEM Interface",
+          "hours": 5.0
+        },
+        {
+          "task": "Install rear end & axles",
+          "hours": 4.5
+        },
+        {
+          "task": "Install HVAC ducting",
+          "hours": 2.0
+        },
+        {
+          "task": "Remove OEM gauges",
+          "hours": 2.0
+        },
+        {
+          "task": "Scan fuel filler area",
+          "hours": 1.5
+        },
+        {
+          "task": "Manufacture Product - Front Batt Box",
+          "hours": 1.2
+        },
+        {
+          "task": "Wire HVAC sub",
+          "hours": 1.0
+        },
+        {
+          "task": "Run main HV cables",
+          "hours": 1.0
+        },
+        {
+          "task": "Run main cooling lines",
+          "hours": 1.0
+        },
+        {
+          "task": "Test Product - Battery Boxes",
+          "hours": 1.0
+        },
+        {
+          "task": "Install brake lines",
+          "hours": 0.5
         }
       ]
     },
     {
       "project": "Nolan 70 Challenger",
-      "total_hours": 57.8,
-      "pct_of_total": 6.6,
+      "total_hours": 58.5,
+      "pct_of_total": 6.1,
       "tasks": [
         {
           "task": "Finalize OEM wiring",
@@ -279,6 +385,10 @@
           "hours": 0.8
         },
         {
+          "task": "Start up vehicle",
+          "hours": 0.8
+        },
+        {
           "task": "Install interior",
           "hours": 0.5
         },
@@ -293,76 +403,9 @@
       ]
     },
     {
-      "project": "Richardson 72 240Z",
-      "total_hours": 55.8,
-      "pct_of_total": 6.4,
-      "tasks": [
-        {
-          "task": "Modify and clean up OEM harness",
-          "hours": 19.0
-        },
-        {
-          "task": "Install HVAC controls",
-          "hours": 6.5
-        },
-        {
-          "task": "Take initial scans",
-          "hours": 6.0
-        },
-        {
-          "task": "Wire OEM Interface",
-          "hours": 5.0
-        },
-        {
-          "task": "Install rear end & axles",
-          "hours": 4.5
-        },
-        {
-          "task": "Install audio system",
-          "hours": 4.0
-        },
-        {
-          "task": "Install HVAC ducting",
-          "hours": 2.0
-        },
-        {
-          "task": "Remove OEM gauges",
-          "hours": 2.0
-        },
-        {
-          "task": "Scan fuel filler area",
-          "hours": 1.5
-        },
-        {
-          "task": "Manufacture Product - Front Batt Box",
-          "hours": 1.2
-        },
-        {
-          "task": "Run main HV cables",
-          "hours": 1.0
-        },
-        {
-          "task": "Run main cooling lines",
-          "hours": 1.0
-        },
-        {
-          "task": "Test Product - Battery Boxes",
-          "hours": 1.0
-        },
-        {
-          "task": "Install brake lines",
-          "hours": 0.5
-        },
-        {
-          "task": "Wire HVAC sub",
-          "hours": 0.5
-        }
-      ]
-    },
-    {
       "project": "Ritchie 71 Blazer",
       "total_hours": 53.0,
-      "pct_of_total": 6.1,
+      "pct_of_total": 5.6,
       "tasks": [
         {
           "task": "Facilitate paint work",
@@ -401,11 +444,11 @@
           "hours": 1.0
         },
         {
-          "task": "Address antena issue",
+          "task": "Clean engine bay",
           "hours": 1.0
         },
         {
-          "task": "Clean engine bay",
+          "task": "Address antena issue",
           "hours": 1.0
         },
         {
@@ -424,8 +467,8 @@
     },
     {
       "project": "Thacker 46 Woody",
-      "total_hours": 45.5,
-      "pct_of_total": 5.2,
+      "total_hours": 50.0,
+      "pct_of_total": 5.3,
       "tasks": [
         {
           "task": "Remove vinyl top",
@@ -452,16 +495,20 @@
           "hours": 3.5
         },
         {
-          "task": "Manufacture Product - Batt Box 1",
-          "hours": 2.8
+          "task": "Install front box",
+          "hours": 3.5
+        },
+        {
+          "task": "Install radiator assembly",
+          "hours": 3.0
         },
         {
           "task": "Manufacture Product - Batt Box 2",
           "hours": 2.8
         },
         {
-          "task": "Install front box",
-          "hours": 2.0
+          "task": "Manufacture Product - Batt Box 1",
+          "hours": 2.8
         },
         {
           "task": "Build and install new brake lines",
@@ -490,36 +537,21 @@
       ]
     },
     {
-      "project": "Lee 68 Mustang",
-      "total_hours": 41.5,
-      "pct_of_total": 4.7,
-      "tasks": [
-        {
-          "task": "Re-gear diff",
-          "hours": 23.0
-        },
-        {
-          "task": "Address NVH issue",
-          "hours": 14.0
-        },
-        {
-          "task": "Aid in NVH troubleshoot",
-          "hours": 4.5
-        }
-      ]
-    },
-    {
       "project": "Krafcik 02 Caterham",
-      "total_hours": 37.0,
-      "pct_of_total": 4.2,
+      "total_hours": 46.8,
+      "pct_of_total": 4.9,
       "tasks": [
         {
           "task": "Install rear box",
-          "hours": 11.8
+          "hours": 15.2
         },
         {
           "task": "Manufacture Product - Pos Con Box",
           "hours": 4.5
+        },
+        {
+          "task": "Weld in rear battery pack mounts",
+          "hours": 4.0
         },
         {
           "task": "Install charger assembly",
@@ -538,6 +570,10 @@
           "hours": 2.5
         },
         {
+          "task": "Install 12V battery",
+          "hours": 2.5
+        },
+        {
           "task": "R&R rear end",
           "hours": 2.0
         },
@@ -550,20 +586,16 @@
           "hours": 1.5
         },
         {
+          "task": "Engineer Support - HV Cable Tunnel",
+          "hours": 1.2
+        },
+        {
           "task": "Install motor",
           "hours": 1.2
         },
         {
           "task": "Terminate all cooling lines",
           "hours": 1.0
-        },
-        {
-          "task": "Install 12V battery",
-          "hours": 1.0
-        },
-        {
-          "task": "Engineer Support - HV Cable Tunnel",
-          "hours": 0.5
         },
         {
           "task": "Engineer Support - AIO Junction Box Mount",
@@ -578,7 +610,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 30.2,
-      "pct_of_total": 3.5,
+      "pct_of_total": 3.2,
       "tasks": [
         {
           "task": "Install rear battery box",
@@ -616,24 +648,24 @@
     }
   ],
   "shop_work": {
-    "total_hours": 128.0,
-    "pct_of_total": 14.6,
-    "avg_per_person_per_day": 1.07,
+    "total_hours": 140.0,
+    "pct_of_total": 14.7,
+    "avg_per_person_per_day": 1.09,
     "flagged": true,
     "tech_count": 8,
-    "working_days": 15,
+    "working_days": 16,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 51.5
+        "hours": 56.2
       },
       {
         "label": "Shop Meetings",
-        "hours": 47.0
+        "hours": 51.0
       },
       {
         "label": "Personal Meetings",
-        "hours": 13.5
+        "hours": 16.8
       },
       {
         "label": "Errands",
@@ -653,7 +685,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 21.0,
-      "pct_of_total": 2.4,
+      "pct_of_total": 2.2,
       "tasks": [
         {
           "task": "Replace seal for top",
@@ -692,7 +724,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 20.5,
-      "pct_of_total": 2.3,
+      "pct_of_total": 2.2,
       "tasks": [
         {
           "task": "Present vehicle to customer",
@@ -719,7 +751,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 4.2,
-      "pct_of_total": 0.5,
+      "pct_of_total": 0.4,
       "tasks": [
         {
           "task": "Replace damaged motor cradle",
@@ -768,10 +800,10 @@
     "min_hours": 1.0
   },
   "totals": {
-    "billable_hours": 696.5,
-    "non_billable_hours": 179.2,
+    "billable_hours": 760.0,
+    "non_billable_hours": 191.2,
     "pto_hours": 32.0,
-    "total_hours": 875.8
+    "total_hours": 951.2
   },
-  "generated_at": "2026-10-21T22:11:28Z"
+  "generated_at": "2026-10-22T16:59:11Z"
 }

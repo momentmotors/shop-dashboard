@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T22:11:49.095230Z",
+  "updated_at": "2026-10-22T16:59:33.555105Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -308,7 +308,7 @@
         "matched_lists": [
           "LB 82 911"
         ],
-        "open_tasks": 25
+        "open_tasks": 26
       },
       "assignees": [
         {
@@ -374,6 +374,13 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868me9n2e"
+            },
+            {
+              "id": "868mhb2kc",
+              "name": "Configure HVAC settings",
+              "status": "Open",
+              "list": "LB 82 911",
+              "url": "https://app.clickup.com/t/868mhb2kc"
             }
           ]
         },
@@ -439,7 +446,7 @@
         "matched_lists": [
           "Lee 68 Mustang"
         ],
-        "open_tasks": 9
+        "open_tasks": 10
       },
       "assignees": [
         {
@@ -472,6 +479,18 @@
               "status": "Open",
               "list": "Lee 68 Mustang",
               "url": "https://app.clickup.com/t/868j7ju1n"
+            }
+          ]
+        },
+        {
+          "name": "Billy Arrasmith",
+          "tasks": [
+            {
+              "id": "868mm6xth",
+              "name": "Aid in NVH troubleshoot",
+              "status": "Open",
+              "list": "Lee 68 Mustang",
+              "url": "https://app.clickup.com/t/868mm6xth"
             }
           ]
         },
@@ -820,5 +839,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-21T22:11:28Z"
+  "generated_at": "2026-10-22T16:59:11Z"
 }
