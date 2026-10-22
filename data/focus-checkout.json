@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T17:35:52.869545Z",
+  "updated_at": "2026-10-22T17:47:47.952816Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -308,7 +308,7 @@
         "matched_lists": [
           "LB 82 911"
         ],
-        "open_tasks": 26
+        "open_tasks": 27
       },
       "assignees": [
         {
@@ -362,6 +362,13 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868j7krpv"
+            },
+            {
+              "id": "868mm7ua4",
+              "name": "Replace torsion bar bushings",
+              "status": "Open",
+              "list": "LB 82 911",
+              "url": "https://app.clickup.com/t/868mm7ua4"
             }
           ]
         },
@@ -839,5 +846,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-22T17:35:27Z"
+  "generated_at": "2026-10-22T17:47:24Z"
 }
