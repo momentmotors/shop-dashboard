@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T18:30:42.456835Z",
+  "updated_at": "2026-10-23T18:52:24.851519Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -301,7 +301,7 @@
         "matched_lists": [
           "LB 82 911"
         ],
-        "open_tasks": 28
+        "open_tasks": 29
       },
       "assignees": [
         {
@@ -369,6 +369,13 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868mm7ua4"
+            },
+            {
+              "id": "868mmq93y",
+              "name": "Test fit new seats",
+              "status": "Open",
+              "list": "LB 82 911",
+              "url": "https://app.clickup.com/t/868mmq93y"
             }
           ]
         },
@@ -846,5 +853,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-23T18:30:21Z"
+  "generated_at": "2026-10-23T18:52:04Z"
 }
