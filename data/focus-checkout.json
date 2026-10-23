@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T18:04:56.568478Z",
+  "updated_at": "2026-10-23T18:30:42.456835Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -136,7 +136,7 @@
         "matched_lists": [
           "Barton 59 Impala"
         ],
-        "open_tasks": 8
+        "open_tasks": 7
       },
       "assignees": [
         {
@@ -186,13 +186,6 @@
               "status": "Open",
               "list": "Barton 59 Impala",
               "url": "https://app.clickup.com/t/868jxmw03"
-            },
-            {
-              "id": "868jxmvpn",
-              "name": "Interior refresh",
-              "status": "Open",
-              "list": "Barton 59 Impala",
-              "url": "https://app.clickup.com/t/868jxmvpn"
             }
           ]
         }
@@ -853,5 +846,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-23T18:04:35Z"
+  "generated_at": "2026-10-23T18:30:21Z"
 }
