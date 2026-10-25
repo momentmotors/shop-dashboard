@@ -452,11 +452,11 @@
           "hours": 4.8
         },
         {
-          "task": "Manufacture Product - Batt Box 1",
+          "task": "Manufacture Product - Batt Box 2",
           "hours": 3.5
         },
         {
-          "task": "Manufacture Product - Batt Box 2",
+          "task": "Manufacture Product - Batt Box 1",
           "hours": 3.5
         },
         {
@@ -543,11 +543,11 @@
           "hours": 1.0
         },
         {
-          "task": "Clean engine bay",
+          "task": "Address antena issue",
           "hours": 1.0
         },
         {
-          "task": "Address antena issue",
+          "task": "Clean engine bay",
           "hours": 1.0
         },
         {
@@ -837,5 +837,5 @@
     "pto_hours": 32.0,
     "total_hours": 1071.8
   },
-  "generated_at": "2026-10-24T23:47:01Z"
+  "generated_at": "2026-10-25T00:08:52Z"
 }
