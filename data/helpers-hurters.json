@@ -98,11 +98,11 @@
           "hours": 1.5
         },
         {
-          "task": "Terminate all cooling lines",
+          "task": "Install front boxes",
           "hours": 1.2
         },
         {
-          "task": "Install front boxes",
+          "task": "Terminate all cooling lines",
           "hours": 1.2
         },
         {
@@ -173,11 +173,11 @@
           "hours": 3.0
         },
         {
-          "task": "Modify brake pedal assembly",
+          "task": "Make a game plan for Audio",
           "hours": 2.5
         },
         {
-          "task": "Make a game plan for Audio",
+          "task": "Modify brake pedal assembly",
           "hours": 2.5
         },
         {
@@ -401,11 +401,11 @@
           "hours": 1.5
         },
         {
-          "task": "Run main HV cables",
+          "task": "Run main cooling lines",
           "hours": 1.5
         },
         {
-          "task": "Run main cooling lines",
+          "task": "Run main HV cables",
           "hours": 1.5
         },
         {
@@ -452,11 +452,11 @@
           "hours": 4.8
         },
         {
-          "task": "Manufacture Product - Batt Box 2",
+          "task": "Manufacture Product - Batt Box 1",
           "hours": 3.5
         },
         {
-          "task": "Manufacture Product - Batt Box 1",
+          "task": "Manufacture Product - Batt Box 2",
           "hours": 3.5
         },
         {
@@ -837,5 +837,5 @@
     "pto_hours": 32.0,
     "total_hours": 1071.8
   },
-  "generated_at": "2026-10-25T05:23:28Z"
+  "generated_at": "2026-10-25T05:36:00Z"
 }
