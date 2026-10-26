@@ -173,11 +173,11 @@
           "hours": 3.0
         },
         {
-          "task": "Make a game plan for Audio",
+          "task": "Modify brake pedal assembly",
           "hours": 2.5
         },
         {
-          "task": "Modify brake pedal assembly",
+          "task": "Make a game plan for Audio",
           "hours": 2.5
         },
         {
@@ -401,11 +401,11 @@
           "hours": 1.5
         },
         {
-          "task": "Run main cooling lines",
+          "task": "Run main HV cables",
           "hours": 1.5
         },
         {
-          "task": "Run main HV cables",
+          "task": "Run main cooling lines",
           "hours": 1.5
         },
         {
@@ -543,11 +543,11 @@
           "hours": 1.0
         },
         {
-          "task": "Address antena issue",
+          "task": "Clean engine bay",
           "hours": 1.0
         },
         {
-          "task": "Clean engine bay",
+          "task": "Address antena issue",
           "hours": 1.0
         },
         {
@@ -682,10 +682,10 @@
   "shop_work": {
     "total_hours": 158.0,
     "pct_of_total": 14.7,
-    "avg_per_person_per_day": 1.16,
+    "avg_per_person_per_day": 1.1,
     "flagged": true,
     "tech_count": 8,
-    "working_days": 17,
+    "working_days": 18,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
@@ -837,5 +837,5 @@
     "pto_hours": 32.0,
     "total_hours": 1071.8
   },
-  "generated_at": "2026-10-25T23:46:55Z"
+  "generated_at": "2026-10-26T00:08:44Z"
 }
