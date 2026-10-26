@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T14:48:55.022275Z",
+  "updated_at": "2026-10-26T15:28:02.703030Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -301,7 +301,7 @@
         "matched_lists": [
           "LB 82 911"
         ],
-        "open_tasks": 29
+        "open_tasks": 28
       },
       "assignees": [
         {
@@ -395,18 +395,6 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868mhb2kc"
-            }
-          ]
-        },
-        {
-          "name": "Devin DuMont",
-          "tasks": [
-            {
-              "id": "868mkx91x",
-              "name": "Aid in blower motor setup",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868mkx91x"
             }
           ]
         },
@@ -771,7 +759,7 @@
         "matched_lists": [
           "Teague 62 Jaguar"
         ],
-        "open_tasks": 19
+        "open_tasks": 18
       },
       "assignees": [
         {
@@ -823,13 +811,6 @@
           "name": "Devin DuMont",
           "tasks": [
             {
-              "id": "868kzdw3t",
-              "name": "Troubleshoot AC issue",
-              "status": "Open",
-              "list": "Teague 62 Jaguar",
-              "url": "https://app.clickup.com/t/868kzdw3t"
-            },
-            {
               "id": "868mcptq4",
               "name": "Update thermistor data",
               "status": "Open",
@@ -853,5 +834,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-26T14:48:24Z"
+  "generated_at": "2026-10-26T15:27:31Z"
 }
