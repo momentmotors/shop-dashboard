@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T17:25:12.951737Z",
+  "updated_at": "2026-10-26T17:36:34.018652Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -759,7 +759,7 @@
         "matched_lists": [
           "Teague 62 Jaguar"
         ],
-        "open_tasks": 18
+        "open_tasks": 19
       },
       "assignees": [
         {
@@ -799,6 +799,13 @@
               "url": "https://app.clickup.com/t/868m3t9eq"
             },
             {
+              "id": "868mnan74",
+              "name": "Repair under hood pad",
+              "status": "Open",
+              "list": "Teague 62 Jaguar",
+              "url": "https://app.clickup.com/t/868mnan74"
+            },
+            {
               "id": "868mmb2p1",
               "name": "Road test",
               "status": "Open",
@@ -834,5 +841,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-26T17:24:52Z"
+  "generated_at": "2026-10-26T17:36:14Z"
 }
