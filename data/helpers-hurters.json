@@ -98,11 +98,11 @@
           "hours": 1.5
         },
         {
-          "task": "Install front boxes",
+          "task": "Terminate all cooling lines",
           "hours": 1.2
         },
         {
-          "task": "Terminate all cooling lines",
+          "task": "Install front boxes",
           "hours": 1.2
         },
         {
@@ -682,10 +682,10 @@
   "shop_work": {
     "total_hours": 158.0,
     "pct_of_total": 14.7,
-    "avg_per_person_per_day": 1.1,
+    "avg_per_person_per_day": 1.04,
     "flagged": true,
     "tech_count": 8,
-    "working_days": 18,
+    "working_days": 19,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
@@ -837,5 +837,5 @@
     "pto_hours": 32.0,
     "total_hours": 1071.8
   },
-  "generated_at": "2026-10-26T23:47:29Z"
+  "generated_at": "2026-10-27T00:07:38Z"
 }
