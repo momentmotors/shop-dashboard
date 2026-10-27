@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T17:18:59.303024Z",
+  "updated_at": "2026-10-27T17:32:51.788458Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -308,7 +308,7 @@
         "matched_lists": [
           "LB 82 911"
         ],
-        "open_tasks": 28
+        "open_tasks": 29
       },
       "assignees": [
         {
@@ -414,6 +414,18 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868g3ptbt"
+            }
+          ]
+        },
+        {
+          "name": "Jordan Jones",
+          "tasks": [
+            {
+              "id": "868mnww8b",
+              "name": "Scan seats",
+              "status": "Open",
+              "list": "LB 82 911",
+              "url": "https://app.clickup.com/t/868mnww8b"
             }
           ]
         },
@@ -848,5 +860,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-27T17:18:38Z"
+  "generated_at": "2026-10-27T17:32:31Z"
 }
