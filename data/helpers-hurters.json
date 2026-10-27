@@ -3,7 +3,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 147.0,
-      "pct_of_total": 13.0,
+      "pct_of_total": 12.8,
       "tasks": [
         {
           "task": "Manufacture Product - Flying Lead Harness",
@@ -129,8 +129,8 @@
     },
     {
       "project": "Hopkins 65 Silver Cloud",
-      "total_hours": 116.2,
-      "pct_of_total": 10.3,
+      "total_hours": 124.2,
+      "pct_of_total": 10.8,
       "tasks": [
         {
           "task": "Clean up engine bay",
@@ -145,6 +145,10 @@
           "hours": 15.0
         },
         {
+          "task": "Build and install brake lines",
+          "hours": 10.5
+        },
+        {
           "task": "Wire OEM Interface",
           "hours": 6.0
         },
@@ -153,16 +157,12 @@
           "hours": 6.0
         },
         {
-          "task": "Run main cooling lines",
+          "task": "Terminate all main 12V power cables",
           "hours": 6.0
         },
         {
-          "task": "Build and install brake lines",
-          "hours": 4.5
-        },
-        {
-          "task": "Terminate all main 12V power cables",
-          "hours": 4.0
+          "task": "Run main cooling lines",
+          "hours": 6.0
         },
         {
           "task": "Clean and prep trunk",
@@ -177,11 +177,11 @@
           "hours": 3.0
         },
         {
-          "task": "Modify brake pedal assembly",
+          "task": "Make a game plan for Audio",
           "hours": 2.5
         },
         {
-          "task": "Make a game plan for Audio",
+          "task": "Modify brake pedal assembly",
           "hours": 2.5
         },
         {
@@ -201,7 +201,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 85.5,
-      "pct_of_total": 7.6,
+      "pct_of_total": 7.4,
       "tasks": [
         {
           "task": "Start up vehicle",
@@ -280,7 +280,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 78.8,
-      "pct_of_total": 7.0,
+      "pct_of_total": 6.8,
       "tasks": [
         {
           "task": "Finalize OEM wiring",
@@ -342,7 +342,7 @@
     },
     {
       "project": "Lee 68 Mustang",
-      "total_hours": 74.0,
+      "total_hours": 75.8,
       "pct_of_total": 6.6,
       "tasks": [
         {
@@ -363,18 +363,22 @@
         },
         {
           "task": "Checkout vehicle",
-          "hours": 2.0
+          "hours": 3.5
         },
         {
           "task": "Install hood",
           "hours": 1.5
+        },
+        {
+          "task": "Address DCDC issue",
+          "hours": 0.2
         }
       ]
     },
     {
       "project": "Richardson 72 240Z",
       "total_hours": 73.0,
-      "pct_of_total": 6.5,
+      "pct_of_total": 6.3,
       "tasks": [
         {
           "task": "Modify and clean up OEM harness",
@@ -444,9 +448,13 @@
     },
     {
       "project": "Thacker 46 Woody",
-      "total_hours": 61.5,
-      "pct_of_total": 5.5,
+      "total_hours": 64.0,
+      "pct_of_total": 5.6,
       "tasks": [
+        {
+          "task": "Manufacture Core - Front Batt Pack Mounts",
+          "hours": 9.5
+        },
         {
           "task": "Manufacture Core -Drivetrain Mounts",
           "hours": 8.0
@@ -454,10 +462,6 @@
         {
           "task": "Remove vinyl top",
           "hours": 7.2
-        },
-        {
-          "task": "Manufacture Core - Front Batt Pack Mounts",
-          "hours": 7.0
         },
         {
           "task": "Install sound deadening",
@@ -524,7 +528,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 53.0,
-      "pct_of_total": 4.7,
+      "pct_of_total": 4.6,
       "tasks": [
         {
           "task": "Facilitate paint work",
@@ -587,7 +591,7 @@
     {
       "project": "Krafcik 02 Caterham",
       "total_hours": 49.2,
-      "pct_of_total": 4.4,
+      "pct_of_total": 4.3,
       "tasks": [
         {
           "task": "Install rear box",
@@ -662,7 +666,7 @@
     {
       "project": "Bently 65 356",
       "total_hours": 34.8,
-      "pct_of_total": 3.1,
+      "pct_of_total": 3.0,
       "tasks": [
         {
           "task": "Run main HV cables",
@@ -708,20 +712,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 166.0,
-    "pct_of_total": 14.7,
-    "avg_per_person_per_day": 1.09,
+    "total_hours": 168.0,
+    "pct_of_total": 14.6,
+    "avg_per_person_per_day": 1.11,
     "flagged": true,
     "tech_count": 8,
     "working_days": 19,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 69.0
+        "hours": 70.0
       },
       {
         "label": "Shop Meetings",
-        "hours": 61.5
+        "hours": 62.5
       },
       {
         "label": "Personal Meetings",
@@ -745,7 +749,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 21.0,
-      "pct_of_total": 1.9,
+      "pct_of_total": 1.8,
       "tasks": [
         {
           "task": "Replace seal for top",
@@ -871,10 +875,10 @@
     "min_hours": 1.0
   },
   "totals": {
-    "billable_hours": 908.0,
-    "non_billable_hours": 219.8,
+    "billable_hours": 928.2,
+    "non_billable_hours": 221.8,
     "pto_hours": 32.0,
-    "total_hours": 1127.8
+    "total_hours": 1150.0
   },
-  "generated_at": "2026-10-27T18:47:19Z"
+  "generated_at": "2026-10-27T19:03:04Z"
 }
