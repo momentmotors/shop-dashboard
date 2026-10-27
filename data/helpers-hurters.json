@@ -311,11 +311,11 @@
           "hours": 1.0
         },
         {
-          "task": "Install new seat rails",
+          "task": "Charge and test system",
           "hours": 1.0
         },
         {
-          "task": "Charge and test system",
+          "task": "Install new seat rails",
           "hours": 1.0
         },
         {
@@ -472,11 +472,11 @@
           "hours": 3.8
         },
         {
-          "task": "Manufacture Product - Batt Box 2",
+          "task": "Manufacture Product - Batt Box 1",
           "hours": 3.5
         },
         {
-          "task": "Manufacture Product - Batt Box 1",
+          "task": "Manufacture Product - Batt Box 2",
           "hours": 3.5
         },
         {
@@ -852,18 +852,29 @@
           "hours": 2.0
         }
       ]
+    },
+    {
+      "project": "Feldman 69 280SE",
+      "total_hours": 2.0,
+      "pct_of_total": 0.2,
+      "tasks": [
+        {
+          "task": "Update firmware",
+          "hours": 2.0
+        }
+      ]
     }
   ],
   "hurters_below_floor": {
-    "count": 0,
-    "hours": 0.0,
+    "count": 1,
+    "hours": 0.5,
     "min_hours": 1.0
   },
   "totals": {
-    "billable_hours": 910.5,
-    "non_billable_hours": 217.2,
+    "billable_hours": 908.0,
+    "non_billable_hours": 219.8,
     "pto_hours": 32.0,
     "total_hours": 1127.8
   },
-  "generated_at": "2026-10-27T18:32:42Z"
+  "generated_at": "2026-10-27T18:47:19Z"
 }
