@@ -177,11 +177,11 @@
           "hours": 3.0
         },
         {
-          "task": "Make a game plan for Audio",
+          "task": "Modify brake pedal assembly",
           "hours": 2.5
         },
         {
-          "task": "Modify brake pedal assembly",
+          "task": "Make a game plan for Audio",
           "hours": 2.5
         },
         {
@@ -311,11 +311,11 @@
           "hours": 1.0
         },
         {
-          "task": "Charge and test system",
+          "task": "Install new seat rails",
           "hours": 1.0
         },
         {
-          "task": "Install new seat rails",
+          "task": "Charge and test system",
           "hours": 1.0
         },
         {
@@ -405,11 +405,11 @@
           "hours": 5.0
         },
         {
-          "task": "Run main HV cables",
+          "task": "Run main cooling lines",
           "hours": 2.5
         },
         {
-          "task": "Run main cooling lines",
+          "task": "Run main HV cables",
           "hours": 2.5
         },
         {
@@ -555,11 +555,11 @@
           "hours": 2.0
         },
         {
-          "task": "Polish chrome surfaces",
+          "task": "Install interior",
           "hours": 1.5
         },
         {
-          "task": "Install interior",
+          "task": "Polish chrome surfaces",
           "hours": 1.5
         },
         {
@@ -567,11 +567,11 @@
           "hours": 1.0
         },
         {
-          "task": "Clean engine bay",
+          "task": "Address antena issue",
           "hours": 1.0
         },
         {
-          "task": "Address antena issue",
+          "task": "Clean engine bay",
           "hours": 1.0
         },
         {
@@ -875,10 +875,10 @@
     "min_hours": 1.0
   },
   "totals": {
-    "billable_hours": 928.2,
+    "billable_hours": 929.2,
     "non_billable_hours": 221.8,
     "pto_hours": 32.0,
-    "total_hours": 1150.0
+    "total_hours": 1151.0
   },
-  "generated_at": "2026-10-27T19:17:39Z"
+  "generated_at": "2026-10-27T19:32:21Z"
 }
