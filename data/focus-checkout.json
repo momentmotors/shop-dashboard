@@ -1,135 +1,13 @@
 {
-  "updated_at": "2026-10-27T22:47:26.991343Z",
+  "updated_at": "2026-10-27T23:02:58.949718Z",
   "team_id": "9011243300",
   "projects": [
     {
       "owner": "Barton",
       "vehicle": {
         "owner": "Barton",
-        "year": 1959,
-        "color": "White",
-        "make": "Chevrolet",
-        "model": "Impala",
-        "status": "Testing & Tuning",
-        "checkout": 91.4,
-        "sub_metrics": [
-          {
-            "label": "BMS",
-            "value": 97.2
-          },
-          {
-            "label": "Inverter",
-            "value": 94.4
-          },
-          {
-            "label": "PMU",
-            "value": 100
-          },
-          {
-            "label": "Raptor",
-            "value": 98.2
-          },
-          {
-            "label": "Functional",
-            "value": 58.3
-          }
-        ],
-        "system": "Ampere",
-        "punchlist": {
-          "items": [
-            {
-              "text": "Label plug above brights kick switch. Label inverter connection plug.",
-              "done": true
-            },
-            {
-              "text": "Verify HV acessories after polarity swap.",
-              "done": true
-            },
-            {
-              "text": "Verify inverter after HV polarity swap.",
-              "done": true
-            },
-            {
-              "text": "Charge AC system & verify.",
-              "done": true
-            },
-            {
-              "text": "Install Heater Contactor Controller & commission.",
-              "done": true
-            },
-            {
-              "text": "Tune Wilwood brakes.",
-              "done": true
-            },
-            {
-              "text": "Weigh vehicle.",
-              "done": true
-            },
-            {
-              "text": "2026-03-xx: Pack burn. Evaluate Cell Delta.\n2026-03-20: Put in request to get BMS report ran after full charge 7PM to 7AM 2026-03-18.",
-              "done": false
-            },
-            {
-              "text": "Re-test BMS boxes / verify contactor orientation.",
-              "done": false
-            },
-            {
-              "text": "Add BMS images to drive.",
-              "done": false
-            },
-            {
-              "text": "Transfer fuse notes to power distribution sheet. Finish power distribution checkout.",
-              "done": true
-            },
-            {
-              "text": "Configure logger with Wi-Fi credentials and verify connectivity.",
-              "done": false
-            },
-            {
-              "text": "Update GUI and input gear ratio.",
-              "done": true
-            },
-            {
-              "text": "Update VCU Firmware. Verify with Ampere _BR is an okay FW to use.",
-              "done": true
-            },
-            {
-              "text": "CAN1 measures the wrong termination",
-              "done": true
-            },
-            {
-              "text": "GUI crashes when adjusting vehicle weight.",
-              "done": true
-            },
-            {
-              "text": "Suspension is very squeaky.",
-              "done": false
-            },
-            {
-              "text": "Small jingle when driving slow.",
-              "done": false
-            },
-            {
-              "text": "Motor temp gauge doesn't respond to gauges program.\n2026-03-18: Resolved, step and direction leads to the motor had backed out and needed to be pushed back in.",
-              "done": true
-            },
-            {
-              "text": "BRAKE indicator on the gauges never illuminates.",
-              "done": false
-            },
-            {
-              "text": "2026-03-18: New Issue, Vehicle weight not getting pulled from the GUI.",
-              "done": false
-            },
-            {
-              "text": "2026-03-31: Blower speed drops when power steering is used. Check DCDC settings.\n2026-06-04: fixed with larger wire and that solvved most of the problem.",
-              "done": false
-            }
-          ],
-          "total": 22,
-          "done": 13,
-          "open": 9
-        }
+        "checkout": 0,
+        "placeholder": true
       },
       "clickup_match": {
         "found": true,
@@ -202,58 +80,8 @@
       "owner": "Kelly",
       "vehicle": {
         "owner": "Kelly",
-        "year": 1963,
-        "color": "Blue",
-        "make": "Chevrolet",
-        "model": "Corvette",
-        "status": "Startup",
-        "checkout": 100.0,
-        "sub_metrics": [
-          {
-            "label": "BMS",
-            "value": 66.7
-          },
-          {
-            "label": "Inverter",
-            "value": 97.2
-          },
-          {
-            "label": "PMU",
-            "value": 0
-          },
-          {
-            "label": "Raptor",
-            "value": 7.3
-          },
-          {
-            "label": "Functional",
-            "value": 0
-          }
-        ],
-        "system": "Ampere",
-        "punchlist": {
-          "items": [
-            {
-              "text": "cutback under high acceleration, probably in inverter, review settings.",
-              "done": false
-            },
-            {
-              "text": "look at torque request vs feedback in CM350. send to cascadia a log to show it's nots following right.",
-              "done": false
-            },
-            {
-              "text": "The parking brake settings can reset under certain firmware flash settings, this one may have changed and needs the tune reviewed.\r\nFrom the PMU software I saw PMU CAN2 (VCU CAN1) flash red, this means there are error frames while simply sitting at idle.\r\nNot on the latest VCU firmware, did notice some options wrong. (cooling plate, not sure what that actually changes. Perhaps others are wrong though)",
-              "done": false
-            },
-            {
-              "text": "590 12s PCB+ivt",
-              "done": false
-            }
-          ],
-          "total": 4,
-          "done": 0,
-          "open": 4
-        }
+        "checkout": 0,
+        "placeholder": true
       },
       "clickup_match": {
         "found": true,
@@ -543,140 +371,10 @@
     },
     {
       "owner": "Preheim",
-      "vehicle": {
-        "owner": "Preheim",
-        "year": 1972,
-        "color": "Blue",
-        "make": "Chevrolet",
-        "model": "Blazer",
-        "status": "Checkout",
-        "checkout": 75.9,
-        "sub_metrics": [
-          {
-            "label": "BMS",
-            "value": 97.2
-          },
-          {
-            "label": "Inverter",
-            "value": 77.8
-          },
-          {
-            "label": "PMU",
-            "value": 87.5
-          },
-          {
-            "label": "Raptor",
-            "value": 96.4
-          },
-          {
-            "label": "Functional",
-            "value": 8.3
-          }
-        ],
-        "system": "Ampere",
-        "punchlist": {
-          "items": [
-            {
-              "text": "2026-02-xx: Need to check ampacity of PMU feed wire, it looks undersized.\n2026-02-12: Resolved, The main feed cable to the PMU was missing. The small wire I was looking at is a feed from the PMU to the whole harness.",
-              "done": true
-            },
-            {
-              "text": "2026-03-xx: Brakes don't fully return to off position.\n2026-04-01: Resolved after much work from Billy.",
-              "done": true
-            },
-            {
-              "text": "2026-03-xx: The GUI doesn't fully boot, the screen flickers on and off continuously.\n2026-02-20: Resolved, the ribbon cable to the screen wasn't fully seated.",
-              "done": true
-            },
-            {
-              "text": "2026-03-xx: HVIL is missing on the IMD box HV input / output.\n2026-02-20: Resolved, Billy added in the right jumper.",
-              "done": true
-            },
-            {
-              "text": "2026-03-xx: The power steering is very noisy and doesn't idle when not in use.\n2026-03-23: Update, The power from the PMU to the steering sensor is wired wrong.\n2026-03-23: The steering angle sensor is not wired to PMU2 Output 11. Both \"ON\" and \"OFF\" have no effect on the pump noise.\n2026-04-02: Resolved, Billy fixed wiring.",
-              "done": true
-            },
-            {
-              "text": "The APP only reaches 30%. Check wiring.\n2026-03-xx: Resolved, Channel A and Channel B were swapped.",
-              "done": true
-            },
-            {
-              "text": "Almost none of the outputs seem to turn on. Pumps not running.\n2026-02-17: Resolved, PMU1 and PMU2 calibrations were switched.",
-              "done": true
-            },
-            {
-              "text": "Vehicle gets CAN errors and the battery system doesn't wake.\n2026-02-16: Resolved, The rear harness extension was pinned with the wrong gender connector but still plugged in. Brandon re-pinned one side to the correct connector.",
-              "done": true
-            },
-            {
-              "text": "Vehicle doesn't PreCharge and get's negative contactor cross-check faults.\n2026-02-17: Resolved, The HVJB and CCS LV Connectors were swapped.",
-              "done": true
-            },
-            {
-              "text": "12V was browing out. May have just been a super low 12V battery.\n2026-03-23: Resolved, Verified DCDC and hasn't happened since.",
-              "done": true
-            },
-            {
-              "text": "At normal ignition standby you get a DCDCVoltXChk fault.\n2026-03-23: Resolved, Fault no longer showing up.",
-              "done": true
-            },
-            {
-              "text": "2026-03-xx: When trying to charge you get a ChgPortContFlt.\n2026-04-15: Possibly fixed in new frimware expected by tomorrow.\n2026-04-17: Upgraded ChargeByte firmware and re-tested. Problem persists. The OBC isn't detecting pack voltage, need to check wiring and fuses to the OBC.\n2026-04-20: Resolved, Billy replaced the OBC fuse and charging now works as expected.",
-              "done": true
-            },
-            {
-              "text": "2026-03-xx: Gear changes take pretty long.",
-              "done": false
-            },
-            {
-              "text": "Ambient air temp sensor not reading correctly.\n2026-02-25: Resolved, Brandon found a pin with a bad crimp at the temp sensor.",
-              "done": true
-            },
-            {
-              "text": "2026-03-xx: Vehicle makes a shooshooshoo sound while driving. Doesn't seem to be related to brakes.\n2026-04-15: Might need a parking brake tune again, waiting on answer from Ampere about settings not allowed by VCU.",
-              "done": false
-            },
-            {
-              "text": "2026-03-23: Cabin heat system needs commissioning.\n2026-04-01: Need to commission the heat system and remove the temp PMU logic.\n2026-04-15: Have new PMU program with logic ready, will need a few hours to install then verify.\n2026-04-20: The CAN based heater need's to be enabled in the VCU. Need to schedule a meeting to unlock this option which is currently behind a paywall structure.\n2026-04-21: Corrected VCU option to enable the heater. Need to make full climate controls schematic to answer questions needed to move on.",
-              "done": false
-            },
-            {
-              "text": "2026-03-23: AC system needs commissioning.\n2026-03-31: AC works but condensate leaks onto the passenger's feet.\n2026-04-15: Resolved, Billy fixed the hose which had fallen off.",
-              "done": true
-            },
-            {
-              "text": "2026-04-01: Reverse lights don't seem to be working, it's likely wiring.\n2026-04-02: Resolved, Billy fixed wiring.\n2026-04-15: Driver side light burned out.",
-              "done": false
-            },
-            {
-              "text": "2026-04-01: Getting a negative contactor welded fault in the VCU.\n2026-04-02: Resolved, negative contactor was welded and Billy replaced it.",
-              "done": true
-            },
-            {
-              "text": "Fix the gear ratio",
-              "done": false
-            },
-            {
-              "text": "Battery type in preheim",
-              "done": false
-            },
-            {
-              "text": "2026-07-28: Dakota Digital gauges need the limits modified / disabled to hide some nuisance alarms.",
-              "done": false
-            },
-            {
-              "text": "2026-07-28: The LDU has a cap on regen that needs to be removed.",
-              "done": false
-            }
-          ],
-          "total": 23,
-          "done": 15,
-          "open": 8
-        }
-      },
+      "vehicle": null,
       "clickup_match": {
         "found": false,
-        "error": "no_match"
+        "error": "no_vehicle"
       },
       "assignees": []
     },
@@ -684,94 +382,8 @@
       "owner": "Teague",
       "vehicle": {
         "owner": "Teague",
-        "year": 1962,
-        "color": "Black",
-        "make": "Jaguar",
-        "model": "Jaguar",
-        "status": "Testing",
-        "checkout": 100,
-        "sub_metrics": [
-          {
-            "label": "BMS",
-            "value": 97.2
-          },
-          {
-            "label": "Inverter",
-            "value": 93.5
-          },
-          {
-            "label": "PMU",
-            "value": 0
-          },
-          {
-            "label": "Raptor",
-            "value": 83.6
-          },
-          {
-            "label": "Functional",
-            "value": 25.0
-          }
-        ],
-        "system": "Ampere",
-        "punchlist": {
-          "items": [
-            {
-              "text": "Missing Build Photos",
-              "done": false
-            },
-            {
-              "text": "Missing Polarity Label",
-              "done": true
-            },
-            {
-              "text": "Test Box Fail - There's something making the test box \"PWR/CAN\" fail, moved on but will circle back to troubleshoot.",
-              "done": true
-            },
-            {
-              "text": "Missing Build Photos",
-              "done": false
-            },
-            {
-              "text": "Missing Polarity Label",
-              "done": true
-            },
-            {
-              "text": "Incorrect Contactor Orientation",
-              "done": true
-            },
-            {
-              "text": "2026-08-07: The customer credentials need to be put into the wifi logger.",
-              "done": false
-            },
-            {
-              "text": "2026-08-07: Fast charging needs to be tested.",
-              "done": false
-            },
-            {
-              "text": "2026-08-07: A full 'overnight' charge needs to be completed and then the Ampere BMS diagnostic report ran + analyzed.\n2026-08-13: There was a long charge earlier today, should be safe to pull the logs.",
-              "done": false
-            },
-            {
-              "text": "2026-07-29: Figure out the correct VCU settings for a 450V vehicle. OBC, DCDC, precharge resistor, etc.",
-              "done": false
-            },
-            {
-              "text": "2026-08-11: There's a flashing \"CHARGE\" light on the analog gauges wihile nothing shows on the digital dash.\n2026-08-13: Dave says SOC was ~9% so the pack was low. Indication between Ampere and Peterson simply do not match. This is resolved.",
-              "done": true
-            },
-            {
-              "text": "2026-08-xx: The compressor makes a clicking sound every ~30 seconds when HV is powered up but the LV is turnes off.\n2026-08-13: Resolved. The problem just went away. Probably something about a refrigerant bubble.",
-              "done": true
-            },
-            {
-              "text": "2026-08-10: The battery type is set incorrectly in the vehicle.\n2026-08-11: Resolved. Corrected to ID4 to match the vehicle.",
-              "done": true
-            }
-          ],
-          "total": 13,
-          "done": 7,
-          "open": 6
-        }
+        "checkout": 0,
+        "placeholder": true
       },
       "clickup_match": {
         "found": true,
@@ -860,5 +472,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-27T22:47:02Z"
+  "generated_at": "2026-10-27T23:02:29Z"
 }
