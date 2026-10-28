@@ -2,12 +2,16 @@
   "helpers": [
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 147.0,
-      "pct_of_total": 12.8,
+      "total_hours": 154.0,
+      "pct_of_total": 13.0,
       "tasks": [
         {
           "task": "Manufacture Product - Flying Lead Harness",
           "hours": 13.5
+        },
+        {
+          "task": "Install front boxes",
+          "hours": 12.2
         },
         {
           "task": "Install AC lines and condenser",
@@ -48,10 +52,6 @@
         {
           "task": "Install radiator assembly",
           "hours": 7.2
-        },
-        {
-          "task": "Install front boxes",
-          "hours": 6.2
         },
         {
           "task": "Mount steering sensor",
@@ -118,6 +118,10 @@
           "hours": 1.0
         },
         {
+          "task": "Scan radio bezel",
+          "hours": 1.0
+        },
+        {
           "task": "Bleed and test system",
           "hours": 0.5
         },
@@ -130,7 +134,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 124.2,
-      "pct_of_total": 10.8,
+      "pct_of_total": 10.5,
       "tasks": [
         {
           "task": "Clean up engine bay",
@@ -200,8 +204,8 @@
     },
     {
       "project": "LB 82 911",
-      "total_hours": 85.5,
-      "pct_of_total": 7.4,
+      "total_hours": 95.5,
+      "pct_of_total": 8.1,
       "tasks": [
         {
           "task": "Start up vehicle",
@@ -228,12 +232,24 @@
           "hours": 5.5
         },
         {
+          "task": "Replace torsion bar bushings",
+          "hours": 5.0
+        },
+        {
           "task": "Manufacture Core - Front Battery Pack Lid",
           "hours": 4.5
         },
         {
           "task": "Address dash panel fitment issue",
           "hours": 3.2
+        },
+        {
+          "task": "Scan seats",
+          "hours": 3.0
+        },
+        {
+          "task": "Modify and install seats",
+          "hours": 3.0
         },
         {
           "task": "Install GUI",
@@ -260,10 +276,6 @@
           "hours": 1.0
         },
         {
-          "task": "Replace torsion bar bushings",
-          "hours": 1.0
-        },
-        {
           "task": "Install sway bar",
           "hours": 0.8
         },
@@ -280,7 +292,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 78.8,
-      "pct_of_total": 6.8,
+      "pct_of_total": 6.7,
       "tasks": [
         {
           "task": "Finalize OEM wiring",
@@ -343,7 +355,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 75.8,
-      "pct_of_total": 6.6,
+      "pct_of_total": 6.4,
       "tasks": [
         {
           "task": "Address NVH issue",
@@ -378,7 +390,7 @@
     {
       "project": "Richardson 72 240Z",
       "total_hours": 73.0,
-      "pct_of_total": 6.3,
+      "pct_of_total": 6.2,
       "tasks": [
         {
           "task": "Modify and clean up OEM harness",
@@ -405,11 +417,11 @@
           "hours": 5.0
         },
         {
-          "task": "Run main cooling lines",
+          "task": "Run main HV cables",
           "hours": 2.5
         },
         {
-          "task": "Run main HV cables",
+          "task": "Run main cooling lines",
           "hours": 2.5
         },
         {
@@ -449,7 +461,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 64.0,
-      "pct_of_total": 5.6,
+      "pct_of_total": 5.4,
       "tasks": [
         {
           "task": "Manufacture Core - Front Batt Pack Mounts",
@@ -528,7 +540,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 53.0,
-      "pct_of_total": 4.6,
+      "pct_of_total": 4.5,
       "tasks": [
         {
           "task": "Facilitate paint work",
@@ -591,7 +603,7 @@
     {
       "project": "Krafcik 02 Caterham",
       "total_hours": 49.2,
-      "pct_of_total": 4.3,
+      "pct_of_total": 4.2,
       "tasks": [
         {
           "task": "Install rear box",
@@ -665,28 +677,32 @@
     },
     {
       "project": "Bently 65 356",
-      "total_hours": 34.8,
-      "pct_of_total": 3.0,
+      "total_hours": 38.0,
+      "pct_of_total": 3.2,
       "tasks": [
         {
           "task": "Run main HV cables",
           "hours": 9.2
         },
         {
+          "task": "Clean up and finalize OEM wiring",
+          "hours": 7.0
+        },
+        {
           "task": "Run main cooling lines",
           "hours": 7.0
         },
         {
-          "task": "Clean up and finalize OEM wiring",
-          "hours": 6.2
-        },
-        {
           "task": "Wire and install gauges",
-          "hours": 4.5
+          "hours": 5.2
         },
         {
           "task": "Engineer Core - Rear Batt Pack Mounts",
           "hours": 2.5
+        },
+        {
+          "task": "Wire OEM Interface",
+          "hours": 1.8
         },
         {
           "task": "Address play in steering",
@@ -712,20 +728,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 168.0,
-    "pct_of_total": 14.6,
-    "avg_per_person_per_day": 1.05,
+    "total_hours": 171.8,
+    "pct_of_total": 14.5,
+    "avg_per_person_per_day": 1.07,
     "flagged": true,
     "tech_count": 8,
     "working_days": 20,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 70.0
+        "hours": 72.0
       },
       {
         "label": "Shop Meetings",
-        "hours": 62.5
+        "hours": 64.2
       },
       {
         "label": "Personal Meetings",
@@ -788,7 +804,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 20.5,
-      "pct_of_total": 1.8,
+      "pct_of_total": 1.7,
       "tasks": [
         {
           "task": "Present vehicle to customer",
@@ -875,10 +891,10 @@
     "min_hours": 1.0
   },
   "totals": {
-    "billable_hours": 929.2,
-    "non_billable_hours": 221.8,
+    "billable_hours": 955.2,
+    "non_billable_hours": 225.5,
     "pto_hours": 32.0,
-    "total_hours": 1151.0
+    "total_hours": 1180.8
   },
-  "generated_at": "2026-10-28T05:47:00Z"
+  "generated_at": "2026-10-28T06:04:27Z"
 }
