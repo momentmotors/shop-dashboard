@@ -244,11 +244,11 @@
           "hours": 3.2
         },
         {
-          "task": "Modify and install seats",
+          "task": "Scan seats",
           "hours": 3.0
         },
         {
-          "task": "Scan seats",
+          "task": "Modify and install seats",
           "hours": 3.0
         },
         {
@@ -488,11 +488,11 @@
           "hours": 3.8
         },
         {
-          "task": "Manufacture Product - Batt Box 1",
+          "task": "Manufacture Product - Batt Box 2",
           "hours": 3.5
         },
         {
-          "task": "Manufacture Product - Batt Box 2",
+          "task": "Manufacture Product - Batt Box 1",
           "hours": 3.5
         },
         {
@@ -579,11 +579,11 @@
           "hours": 1.0
         },
         {
-          "task": "Clean engine bay",
+          "task": "Address antena issue",
           "hours": 1.0
         },
         {
-          "task": "Address antena issue",
+          "task": "Clean engine bay",
           "hours": 1.0
         },
         {
@@ -896,5 +896,5 @@
     "pto_hours": 32.0,
     "total_hours": 1180.8
   },
-  "generated_at": "2026-10-28T18:47:08Z"
+  "generated_at": "2026-10-28T19:02:34Z"
 }
