@@ -181,11 +181,11 @@
           "hours": 3.0
         },
         {
-          "task": "Modify brake pedal assembly",
+          "task": "Make a game plan for Audio",
           "hours": 2.5
         },
         {
-          "task": "Make a game plan for Audio",
+          "task": "Modify brake pedal assembly",
           "hours": 2.5
         },
         {
@@ -417,11 +417,11 @@
           "hours": 5.0
         },
         {
-          "task": "Run main HV cables",
+          "task": "Run main cooling lines",
           "hours": 2.5
         },
         {
-          "task": "Run main cooling lines",
+          "task": "Run main HV cables",
           "hours": 2.5
         },
         {
@@ -896,5 +896,5 @@
     "pto_hours": 32.0,
     "total_hours": 1180.8
   },
-  "generated_at": "2026-10-28T19:32:10Z"
+  "generated_at": "2026-10-28T19:47:28Z"
 }
