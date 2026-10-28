@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T19:47:48.081166Z",
+  "updated_at": "2026-10-28T20:04:12.139233Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -771,18 +771,32 @@
         "matched_lists": [
           "Teague 62 Jaguar"
         ],
-        "open_tasks": 20
+        "open_tasks": 22
       },
       "assignees": [
         {
           "name": "David Webber",
           "tasks": [
             {
+              "id": "868mpeggz",
+              "name": "Center steering wheel",
+              "status": "Open",
+              "list": "Teague 62 Jaguar",
+              "url": "https://app.clickup.com/t/868mpeggz"
+            },
+            {
               "id": "868m3t9eq",
               "name": "Remove OEM shifter assembly",
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868m3t9eq"
+            },
+            {
+              "id": "868mpeg1p",
+              "name": "Repair steering linkage",
+              "status": "Open",
+              "list": "Teague 62 Jaguar",
+              "url": "https://app.clickup.com/t/868mpeg1p"
             },
             {
               "id": "868mnan74",
@@ -860,5 +874,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-28T19:47:28Z"
+  "generated_at": "2026-10-28T20:03:47Z"
 }
