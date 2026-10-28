@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T15:47:41.158202Z",
+  "updated_at": "2026-10-28T16:04:03.081046Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -778,9 +778,42 @@
         "matched_lists": [
           "Teague 62 Jaguar"
         ],
-        "open_tasks": 19
+        "open_tasks": 20
       },
       "assignees": [
+        {
+          "name": "David Webber",
+          "tasks": [
+            {
+              "id": "868m3t9eq",
+              "name": "Remove OEM shifter assembly",
+              "status": "Open",
+              "list": "Teague 62 Jaguar",
+              "url": "https://app.clickup.com/t/868m3t9eq"
+            },
+            {
+              "id": "868mnan74",
+              "name": "Repair under hood pad",
+              "status": "Open",
+              "list": "Teague 62 Jaguar",
+              "url": "https://app.clickup.com/t/868mnan74"
+            },
+            {
+              "id": "868mpakw2",
+              "name": "Replace map lamp switch",
+              "status": "Open",
+              "list": "Teague 62 Jaguar",
+              "url": "https://app.clickup.com/t/868mpakw2"
+            },
+            {
+              "id": "868mmb2p1",
+              "name": "Road test",
+              "status": "Open",
+              "list": "Teague 62 Jaguar",
+              "url": "https://app.clickup.com/t/868mmb2p1"
+            }
+          ]
+        },
         {
           "name": "Brandon Beaman",
           "tasks": [
@@ -804,32 +837,6 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868khu6f8"
-            }
-          ]
-        },
-        {
-          "name": "David Webber",
-          "tasks": [
-            {
-              "id": "868m3t9eq",
-              "name": "Remove OEM shifter assembly",
-              "status": "Open",
-              "list": "Teague 62 Jaguar",
-              "url": "https://app.clickup.com/t/868m3t9eq"
-            },
-            {
-              "id": "868mnan74",
-              "name": "Repair under hood pad",
-              "status": "Open",
-              "list": "Teague 62 Jaguar",
-              "url": "https://app.clickup.com/t/868mnan74"
-            },
-            {
-              "id": "868mmb2p1",
-              "name": "Road test",
-              "status": "Open",
-              "list": "Teague 62 Jaguar",
-              "url": "https://app.clickup.com/t/868mmb2p1"
             }
           ]
         },
@@ -860,5 +867,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-28T15:47:09Z"
+  "generated_at": "2026-10-28T16:03:39Z"
 }
