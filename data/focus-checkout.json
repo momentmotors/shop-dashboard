@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T17:03:59.100132Z",
+  "updated_at": "2026-10-28T17:18:54.829426Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -136,35 +136,9 @@
         "matched_lists": [
           "Barton 59 Impala"
         ],
-        "open_tasks": 8
+        "open_tasks": 7
       },
       "assignees": [
-        {
-          "name": "Noah Sharif",
-          "tasks": [
-            {
-              "id": "868jxmvy7",
-              "name": "Replace exterior parts",
-              "status": "Open",
-              "list": "Barton 59 Impala",
-              "url": "https://app.clickup.com/t/868jxmvy7"
-            },
-            {
-              "id": "868jxmvwy",
-              "name": "Replace interior parts",
-              "status": "Open",
-              "list": "Barton 59 Impala",
-              "url": "https://app.clickup.com/t/868jxmvwy"
-            },
-            {
-              "id": "868mng7z1",
-              "name": "Troubleshoot GUI issue",
-              "status": "Open",
-              "list": "Barton 59 Impala",
-              "url": "https://app.clickup.com/t/868mng7z1"
-            }
-          ]
-        },
         {
           "name": "Brandon Beaman",
           "tasks": [
@@ -181,6 +155,25 @@
               "status": "Open",
               "list": "Barton 59 Impala",
               "url": "https://app.clickup.com/t/868jx2q4a"
+            }
+          ]
+        },
+        {
+          "name": "Noah Sharif",
+          "tasks": [
+            {
+              "id": "868mpbrfk",
+              "name": "Aid in Instrumentation troubleshoot",
+              "status": "Open",
+              "list": "Barton 59 Impala",
+              "url": "https://app.clickup.com/t/868mpbrfk"
+            },
+            {
+              "id": "868mng7z1",
+              "name": "Troubleshoot GUI issue",
+              "status": "Open",
+              "list": "Barton 59 Impala",
+              "url": "https://app.clickup.com/t/868mng7z1"
             }
           ]
         },
@@ -867,5 +860,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-28T17:03:28Z"
+  "generated_at": "2026-10-28T17:18:31Z"
 }
