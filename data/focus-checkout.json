@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T17:47:31.168615Z",
+  "updated_at": "2026-10-28T18:04:26.210609Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -315,13 +315,6 @@
               "url": "https://app.clickup.com/t/868knrzc6"
             },
             {
-              "id": "868mmavm5",
-              "name": "Inspect parking brake mechanism",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868mmavm5"
-            },
-            {
               "id": "868j7kkze",
               "name": "Install GUI",
               "status": "Open",
@@ -376,6 +369,13 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868mm7ua4"
+            },
+            {
+              "id": "868mmavm5",
+              "name": "Troubleshoot parking brake mechanism",
+              "status": "Open",
+              "list": "LB 82 911",
+              "url": "https://app.clickup.com/t/868mmavm5"
             }
           ]
         },
@@ -860,5 +860,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-28T17:47:10Z"
+  "generated_at": "2026-10-28T18:04:05Z"
 }
