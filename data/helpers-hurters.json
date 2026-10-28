@@ -244,11 +244,11 @@
           "hours": 3.2
         },
         {
-          "task": "Scan seats",
+          "task": "Modify and install seats",
           "hours": 3.0
         },
         {
-          "task": "Modify and install seats",
+          "task": "Scan seats",
           "hours": 3.0
         },
         {
@@ -323,11 +323,11 @@
           "hours": 1.0
         },
         {
-          "task": "Install new seat rails",
+          "task": "Charge and test system",
           "hours": 1.0
         },
         {
-          "task": "Charge and test system",
+          "task": "Install new seat rails",
           "hours": 1.0
         },
         {
@@ -579,11 +579,11 @@
           "hours": 1.0
         },
         {
-          "task": "Address antena issue",
+          "task": "Clean engine bay",
           "hours": 1.0
         },
         {
-          "task": "Clean engine bay",
+          "task": "Address antena issue",
           "hours": 1.0
         },
         {
@@ -896,5 +896,5 @@
     "pto_hours": 32.0,
     "total_hours": 1180.8
   },
-  "generated_at": "2026-10-28T14:47:27Z"
+  "generated_at": "2026-10-28T15:03:29Z"
 }
