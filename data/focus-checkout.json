@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T00:59:52.243424Z",
+  "updated_at": "2026-10-29T01:16:19.292520Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -301,7 +301,7 @@
         "matched_lists": [
           "LB 82 911"
         ],
-        "open_tasks": 29
+        "open_tasks": 28
       },
       "assignees": [
         {
@@ -395,18 +395,6 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868mhb2kc"
-            }
-          ]
-        },
-        {
-          "name": "Geoff Raynak",
-          "tasks": [
-            {
-              "id": "868g3ptbt",
-              "name": "Engineer Core - Rear Battery Pack Lid",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868g3ptbt"
             }
           ]
         },
@@ -874,5 +862,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-29T00:59:25Z"
+  "generated_at": "2026-10-29T01:15:45Z"
 }
