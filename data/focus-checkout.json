@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T22:03:42.003349Z",
+  "updated_at": "2026-10-29T22:19:12.410651Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -726,12 +726,26 @@
         "matched_lists": [
           "Teague 62 Jaguar"
         ],
-        "open_tasks": 20
+        "open_tasks": 25
       },
       "assignees": [
         {
           "name": "David Webber",
           "tasks": [
+            {
+              "id": "868mpz8vk",
+              "name": "Address PDI findings",
+              "status": "Open",
+              "list": "Teague 62 Jaguar",
+              "url": "https://app.clickup.com/t/868mpz8vk"
+            },
+            {
+              "id": "868mpz8e3",
+              "name": "Address PDI findings",
+              "status": "Open",
+              "list": "Teague 62 Jaguar",
+              "url": "https://app.clickup.com/t/868mpz8e3"
+            },
             {
               "id": "868mptbd5",
               "name": "Address brake fluid leak",
@@ -745,6 +759,13 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868mpeggz"
+            },
+            {
+              "id": "868mpza3e",
+              "name": "Re-secure hood trim",
+              "status": "Open",
+              "list": "Teague 62 Jaguar",
+              "url": "https://app.clickup.com/t/868mpza3e"
             },
             {
               "id": "868m3t9eq",
@@ -773,6 +794,18 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868mptbr6"
+            }
+          ]
+        },
+        {
+          "name": "Billy Arrasmith",
+          "tasks": [
+            {
+              "id": "868mpzahn",
+              "name": "Address DS hardware issue",
+              "status": "Open",
+              "list": "Teague 62 Jaguar",
+              "url": "https://app.clickup.com/t/868mpzahn"
             }
           ]
         },
@@ -811,9 +844,21 @@
               "url": "https://app.clickup.com/t/868m4x320"
             }
           ]
+        },
+        {
+          "name": "Ryan Laurel",
+          "tasks": [
+            {
+              "id": "868mpz8zx",
+              "name": "Get windshield chip repaired",
+              "status": "Open",
+              "list": "Teague 62 Jaguar",
+              "url": "https://app.clickup.com/t/868mpz8zx"
+            }
+          ]
         }
       ]
     }
   ],
-  "generated_at": "2026-10-29T22:03:21Z"
+  "generated_at": "2026-10-29T22:18:49Z"
 }
