@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T19:32:40.991247Z",
+  "updated_at": "2026-10-29T19:47:26.049581Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -448,7 +448,7 @@
         "matched_lists": [
           "Lee 68 Mustang"
         ],
-        "open_tasks": 10
+        "open_tasks": 9
       },
       "assignees": [
         {
@@ -493,18 +493,6 @@
               "status": "Open",
               "list": "Lee 68 Mustang",
               "url": "https://app.clickup.com/t/868mm6xth"
-            }
-          ]
-        },
-        {
-          "name": "David Webber",
-          "tasks": [
-            {
-              "id": "868mktkwp",
-              "name": "AID in NVH troubleshoot",
-              "status": "Open",
-              "list": "Lee 68 Mustang",
-              "url": "https://app.clickup.com/t/868mktkwp"
             }
           ]
         },
@@ -759,7 +747,7 @@
         "matched_lists": [
           "Teague 62 Jaguar"
         ],
-        "open_tasks": 24
+        "open_tasks": 22
       },
       "assignees": [
         {
@@ -794,13 +782,6 @@
               "url": "https://app.clickup.com/t/868mpeg1p"
             },
             {
-              "id": "868mnan74",
-              "name": "Repair under hood pad",
-              "status": "Open",
-              "list": "Teague 62 Jaguar",
-              "url": "https://app.clickup.com/t/868mnan74"
-            },
-            {
               "id": "868mpakw2",
               "name": "Replace map lamp switch",
               "status": "Open",
@@ -813,13 +794,6 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868mptbr6"
-            },
-            {
-              "id": "868mmb2p1",
-              "name": "Road test",
-              "status": "Open",
-              "list": "Teague 62 Jaguar",
-              "url": "https://app.clickup.com/t/868mmb2p1"
             }
           ]
         },
@@ -876,5 +850,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-29T19:32:22Z"
+  "generated_at": "2026-10-29T19:47:03Z"
 }
