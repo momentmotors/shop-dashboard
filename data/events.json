@@ -33,17 +33,17 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Jordan J Out",
-              "type": "pto",
-              "all_day": true
-            },
-            {
               "summary": "Devin D Out",
               "type": "pto",
               "all_day": true
             },
             {
               "summary": "Justin L Out",
+              "type": "pto",
+              "all_day": true
+            },
+            {
+              "summary": "Jordan J Out",
               "type": "pto",
               "all_day": true
             }
@@ -56,17 +56,17 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Jordan J Out",
-              "type": "pto",
-              "all_day": true
-            },
-            {
               "summary": "Devin D Out",
               "type": "pto",
               "all_day": true
             },
             {
               "summary": "Justin L Out",
+              "type": "pto",
+              "all_day": true
+            },
+            {
+              "summary": "Jordan J Out",
               "type": "pto",
               "all_day": true
             }
@@ -275,5 +275,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-29T20:19:53Z"
+  "generated_at": "2026-10-29T20:32:04Z"
 }
