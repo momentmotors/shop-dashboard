@@ -2,16 +2,16 @@
   "helpers": [
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 154.0,
-      "pct_of_total": 13.0,
+      "total_hours": 159.8,
+      "pct_of_total": 12.7,
       "tasks": [
+        {
+          "task": "Install front boxes",
+          "hours": 17.2
+        },
         {
           "task": "Manufacture Product - Flying Lead Harness",
           "hours": 13.5
-        },
-        {
-          "task": "Install front boxes",
-          "hours": 12.2
         },
         {
           "task": "Install AC lines and condenser",
@@ -42,16 +42,16 @@
           "hours": 8.2
         },
         {
+          "task": "Install radiator assembly",
+          "hours": 8.0
+        },
+        {
           "task": "Manufacture Product - Batt Box 2",
           "hours": 8.0
         },
         {
           "task": "Manufacture Product - Batt Box 3",
           "hours": 7.5
-        },
-        {
-          "task": "Install radiator assembly",
-          "hours": 7.2
         },
         {
           "task": "Mount steering sensor",
@@ -133,7 +133,7 @@
     },
     {
       "project": "Hopkins 65 Silver Cloud",
-      "total_hours": 124.2,
+      "total_hours": 132.2,
       "pct_of_total": 10.5,
       "tasks": [
         {
@@ -145,12 +145,12 @@
           "hours": 26.5
         },
         {
-          "task": "Run main HV cables",
-          "hours": 15.0
+          "task": "Build and install brake lines",
+          "hours": 16.5
         },
         {
-          "task": "Build and install brake lines",
-          "hours": 10.5
+          "task": "Run main HV cables",
+          "hours": 15.0
         },
         {
           "task": "Wire OEM Interface",
@@ -173,6 +173,10 @@
           "hours": 4.0
         },
         {
+          "task": "Modify brake pedal assembly",
+          "hours": 3.5
+        },
+        {
           "task": "De-ICE vehicle",
           "hours": 3.0
         },
@@ -185,16 +189,16 @@
           "hours": 2.5
         },
         {
-          "task": "Modify brake pedal assembly",
-          "hours": 2.5
-        },
-        {
           "task": "Determine charge port location",
           "hours": 1.5
         },
         {
           "task": "Re-scan fuel filler port",
           "hours": 1.5
+        },
+        {
+          "task": "Install audio system",
+          "hours": 1.0
         },
         {
           "task": "Checkout vehicle",
@@ -204,7 +208,7 @@
     },
     {
       "project": "LB 82 911",
-      "total_hours": 95.5,
+      "total_hours": 102.5,
       "pct_of_total": 8.1,
       "tasks": [
         {
@@ -228,12 +232,12 @@
           "hours": 6.5
         },
         {
-          "task": "Reinstall interior",
-          "hours": 5.5
+          "task": "Replace torsion bar bushings",
+          "hours": 6.0
         },
         {
-          "task": "Replace torsion bar bushings",
-          "hours": 5.0
+          "task": "Reinstall interior",
+          "hours": 5.5
         },
         {
           "task": "Manufacture Core - Front Battery Pack Lid",
@@ -249,6 +253,14 @@
         },
         {
           "task": "Modify and install seats",
+          "hours": 3.0
+        },
+        {
+          "task": "Set ride height",
+          "hours": 3.0
+        },
+        {
+          "task": "Troubleshoot parking brake mechanism",
           "hours": 3.0
         },
         {
@@ -292,7 +304,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 78.8,
-      "pct_of_total": 6.7,
+      "pct_of_total": 6.2,
       "tasks": [
         {
           "task": "Finalize OEM wiring",
@@ -354,8 +366,8 @@
     },
     {
       "project": "Lee 68 Mustang",
-      "total_hours": 75.8,
-      "pct_of_total": 6.4,
+      "total_hours": 76.2,
+      "pct_of_total": 6.1,
       "tasks": [
         {
           "task": "Address NVH issue",
@@ -375,7 +387,7 @@
         },
         {
           "task": "Checkout vehicle",
-          "hours": 3.5
+          "hours": 4.0
         },
         {
           "task": "Install hood",
@@ -389,8 +401,8 @@
     },
     {
       "project": "Richardson 72 240Z",
-      "total_hours": 73.0,
-      "pct_of_total": 6.2,
+      "total_hours": 75.0,
+      "pct_of_total": 6.0,
       "tasks": [
         {
           "task": "Modify and clean up OEM harness",
@@ -417,11 +429,15 @@
           "hours": 5.0
         },
         {
-          "task": "Run main cooling lines",
-          "hours": 2.5
+          "task": "Manufacture Product - Front Batt Box",
+          "hours": 3.0
         },
         {
           "task": "Run main HV cables",
+          "hours": 2.5
+        },
+        {
+          "task": "Run main cooling lines",
           "hours": 2.5
         },
         {
@@ -433,8 +449,8 @@
           "hours": 2.0
         },
         {
-          "task": "Manufacture Product - Front Batt Box",
-          "hours": 2.0
+          "task": "Manufacture Product - Rear Batt Box",
+          "hours": 1.8
         },
         {
           "task": "Scan fuel filler area",
@@ -449,10 +465,6 @@
           "hours": 1.0
         },
         {
-          "task": "Manufacture Product - Rear Batt Box",
-          "hours": 0.8
-        },
-        {
           "task": "Install brake lines",
           "hours": 0.5
         }
@@ -460,12 +472,12 @@
     },
     {
       "project": "Thacker 46 Woody",
-      "total_hours": 64.0,
-      "pct_of_total": 5.4,
+      "total_hours": 70.2,
+      "pct_of_total": 5.6,
       "tasks": [
         {
           "task": "Manufacture Core - Front Batt Pack Mounts",
-          "hours": 9.5
+          "hours": 10.2
         },
         {
           "task": "Manufacture Core -Drivetrain Mounts",
@@ -476,6 +488,14 @@
           "hours": 7.2
         },
         {
+          "task": "Build and install new brake lines",
+          "hours": 6.5
+        },
+        {
+          "task": "Manufacture Product - Batt Box 1",
+          "hours": 5.8
+        },
+        {
           "task": "Install sound deadening",
           "hours": 5.0
         },
@@ -484,16 +504,8 @@
           "hours": 4.8
         },
         {
-          "task": "Build and install new brake lines",
-          "hours": 3.8
-        },
-        {
           "task": "Manufacture Product - Batt Box 2",
-          "hours": 3.5
-        },
-        {
-          "task": "Manufacture Product - Batt Box 1",
-          "hours": 3.5
+          "hours": 4.0
         },
         {
           "task": "Install motor assembly",
@@ -540,7 +552,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 53.0,
-      "pct_of_total": 4.5,
+      "pct_of_total": 4.2,
       "tasks": [
         {
           "task": "Facilitate paint work",
@@ -567,11 +579,11 @@
           "hours": 2.0
         },
         {
-          "task": "Install interior",
+          "task": "Polish chrome surfaces",
           "hours": 1.5
         },
         {
-          "task": "Polish chrome surfaces",
+          "task": "Install interior",
           "hours": 1.5
         },
         {
@@ -603,7 +615,7 @@
     {
       "project": "Krafcik 02 Caterham",
       "total_hours": 49.2,
-      "pct_of_total": 4.2,
+      "pct_of_total": 3.9,
       "tasks": [
         {
           "task": "Install rear box",
@@ -678,7 +690,7 @@
     {
       "project": "Bently 65 356",
       "total_hours": 38.0,
-      "pct_of_total": 3.2,
+      "pct_of_total": 3.0,
       "tasks": [
         {
           "task": "Run main HV cables",
@@ -728,24 +740,24 @@
     }
   ],
   "shop_work": {
-    "total_hours": 171.8,
-    "pct_of_total": 14.5,
-    "avg_per_person_per_day": 1.02,
+    "total_hours": 180.8,
+    "pct_of_total": 14.3,
+    "avg_per_person_per_day": 1.08,
     "flagged": true,
     "tech_count": 8,
     "working_days": 21,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 72.0
+        "hours": 75.2
       },
       {
         "label": "Shop Meetings",
-        "hours": 64.2
+        "hours": 67.8
       },
       {
         "label": "Personal Meetings",
-        "hours": 18.8
+        "hours": 21.0
       },
       {
         "label": "Errands",
@@ -765,7 +777,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 21.0,
-      "pct_of_total": 1.8,
+      "pct_of_total": 1.7,
       "tasks": [
         {
           "task": "Replace seal for top",
@@ -804,7 +816,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 20.5,
-      "pct_of_total": 1.7,
+      "pct_of_total": 1.6,
       "tasks": [
         {
           "task": "Present vehicle to customer",
@@ -831,7 +843,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 4.2,
-      "pct_of_total": 0.4,
+      "pct_of_total": 0.3,
       "tasks": [
         {
           "task": "Replace damaged motor cradle",
@@ -891,10 +903,10 @@
     "min_hours": 1.0
   },
   "totals": {
-    "billable_hours": 955.2,
-    "non_billable_hours": 225.5,
-    "pto_hours": 32.0,
-    "total_hours": 1180.8
+    "billable_hours": 1025.5,
+    "non_billable_hours": 234.5,
+    "pto_hours": 37.0,
+    "total_hours": 1260.0
   },
-  "generated_at": "2026-10-29T05:46:58Z"
+  "generated_at": "2026-10-29T06:04:43Z"
 }
