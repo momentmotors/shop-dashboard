@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T20:32:20.915559Z",
+  "updated_at": "2026-10-29T20:47:40.111022Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -253,19 +253,12 @@
         "matched_lists": [
           "Kelly 63 Corvette"
         ],
-        "open_tasks": 3
+        "open_tasks": 2
       },
       "assignees": [
         {
           "name": "Brandon Beaman",
           "tasks": [
-            {
-              "id": "868ma130w",
-              "name": "Address DCDC issue",
-              "status": "Open",
-              "list": "Kelly 63 Corvette",
-              "url": "https://app.clickup.com/t/868ma130w"
-            },
             {
               "id": "868krf6f9",
               "name": "Checkout vehicle",
@@ -448,19 +441,12 @@
         "matched_lists": [
           "Lee 68 Mustang"
         ],
-        "open_tasks": 9
+        "open_tasks": 7
       },
       "assignees": [
         {
           "name": "Brandon Beaman",
           "tasks": [
-            {
-              "id": "868ma13ge",
-              "name": "Address DCDC issue",
-              "status": "Open",
-              "list": "Lee 68 Mustang",
-              "url": "https://app.clickup.com/t/868ma13ge"
-            },
             {
               "id": "868kar0ru",
               "name": "Address NVH issue",
@@ -474,13 +460,6 @@
               "status": "Open",
               "list": "Lee 68 Mustang",
               "url": "https://app.clickup.com/t/868kvft7k"
-            },
-            {
-              "id": "868j7ju1n",
-              "name": "Install hood",
-              "status": "Open",
-              "list": "Lee 68 Mustang",
-              "url": "https://app.clickup.com/t/868j7ju1n"
             }
           ]
         },
@@ -747,7 +726,7 @@
         "matched_lists": [
           "Teague 62 Jaguar"
         ],
-        "open_tasks": 22
+        "open_tasks": 20
       },
       "assignees": [
         {
@@ -801,20 +780,6 @@
           "name": "Brandon Beaman",
           "tasks": [
             {
-              "id": "868ma1279",
-              "name": "Address AC comp control issue",
-              "status": "Open",
-              "list": "Teague 62 Jaguar",
-              "url": "https://app.clickup.com/t/868ma1279"
-            },
-            {
-              "id": "868ma11ef",
-              "name": "Address DCDC issue",
-              "status": "Open",
-              "list": "Teague 62 Jaguar",
-              "url": "https://app.clickup.com/t/868ma11ef"
-            },
-            {
               "id": "868khu6f8",
               "name": "Checkout vehicle",
               "status": "Open",
@@ -850,5 +815,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-29T20:32:04Z"
+  "generated_at": "2026-10-29T20:47:16Z"
 }
