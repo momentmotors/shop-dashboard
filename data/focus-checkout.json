@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T16:33:08.073497Z",
+  "updated_at": "2026-10-29T16:47:40.926630Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -759,12 +759,19 @@
         "matched_lists": [
           "Teague 62 Jaguar"
         ],
-        "open_tasks": 22
+        "open_tasks": 24
       },
       "assignees": [
         {
           "name": "David Webber",
           "tasks": [
+            {
+              "id": "868mptbd5",
+              "name": "Address brake fluid leak",
+              "status": "Open",
+              "list": "Teague 62 Jaguar",
+              "url": "https://app.clickup.com/t/868mptbd5"
+            },
             {
               "id": "868mpeggz",
               "name": "Center steering wheel",
@@ -799,6 +806,13 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868mpakw2"
+            },
+            {
+              "id": "868mptbr6",
+              "name": "Reseal brake master",
+              "status": "Open",
+              "list": "Teague 62 Jaguar",
+              "url": "https://app.clickup.com/t/868mptbr6"
             },
             {
               "id": "868mmb2p1",
@@ -862,5 +876,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-29T16:32:42Z"
+  "generated_at": "2026-10-29T16:47:15Z"
 }
