@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T22:19:12.410651Z",
+  "updated_at": "2026-10-29T22:32:33.446117Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -726,7 +726,7 @@
         "matched_lists": [
           "Teague 62 Jaguar"
         ],
-        "open_tasks": 25
+        "open_tasks": 26
       },
       "assignees": [
         {
@@ -759,6 +759,13 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868mpeggz"
+            },
+            {
+              "id": "868mpzb0e",
+              "name": "Clearance front box mount",
+              "status": "Open",
+              "list": "Teague 62 Jaguar",
+              "url": "https://app.clickup.com/t/868mpzb0e"
             },
             {
               "id": "868mpza3e",
@@ -860,5 +867,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-29T22:18:49Z"
+  "generated_at": "2026-10-29T22:32:11Z"
 }
