@@ -841,6 +841,43 @@
       ]
     },
     {
+      "project": "ICON Bronco Prototype",
+      "total_hours": 14.5,
+      "pct_of_total": 1.2,
+      "tasks": [
+        {
+          "task": "Service LDU",
+          "hours": 14.5
+        }
+      ]
+    },
+    {
+      "project": "Feldman 69 280SE",
+      "total_hours": 14.0,
+      "pct_of_total": 1.1,
+      "tasks": [
+        {
+          "task": "Perform general inspection",
+          "hours": 12.0
+        },
+        {
+          "task": "Update firmware",
+          "hours": 2.0
+        }
+      ]
+    },
+    {
+      "project": "Avalos 72 Blazer",
+      "total_hours": 9.5,
+      "pct_of_total": 0.8,
+      "tasks": [
+        {
+          "task": "Prep vehicle for sale",
+          "hours": 9.5
+        }
+      ]
+    },
+    {
       "project": "Ferdman 66 Bus",
       "total_hours": 4.2,
       "pct_of_total": 0.3,
@@ -864,17 +901,6 @@
       ]
     },
     {
-      "project": "Avalos 72 Blazer",
-      "total_hours": 3.5,
-      "pct_of_total": 0.3,
-      "tasks": [
-        {
-          "task": "Prep vehicle for sale",
-          "hours": 3.5
-        }
-      ]
-    },
-    {
       "project": "Hastert 60 F250",
       "total_hours": 2.0,
       "pct_of_total": 0.2,
@@ -884,29 +910,18 @@
           "hours": 2.0
         }
       ]
-    },
-    {
-      "project": "Feldman 69 280SE",
-      "total_hours": 2.0,
-      "pct_of_total": 0.2,
-      "tasks": [
-        {
-          "task": "Update firmware",
-          "hours": 2.0
-        }
-      ]
     }
   ],
   "hurters_below_floor": {
-    "count": 1,
-    "hours": 0.5,
+    "count": 0,
+    "hours": 0.0,
     "min_hours": 1.0
   },
   "totals": {
-    "billable_hours": 1025.5,
-    "non_billable_hours": 234.5,
+    "billable_hours": 993.5,
+    "non_billable_hours": 266.5,
     "pto_hours": 37.0,
     "total_hours": 1260.0
   },
-  "generated_at": "2026-10-29T14:32:38Z"
+  "generated_at": "2026-10-29T14:46:33Z"
 }

@@ -2,8 +2,8 @@
   "target_pct": 75,
   "current_month": {
     "month": "2026-10",
-    "productivity_pct": 81.4,
-    "billable_hours": 1025.5,
+    "productivity_pct": 78.8,
+    "billable_hours": 993.5,
     "total_hours": 1297.0,
     "pto_hours": 37.0
   },
@@ -11,22 +11,22 @@
     "vs_last_month": {
       "label": "vs Last Month",
       "value": 77.0,
-      "delta": 4.4
+      "delta": 1.8
     },
     "vs_last_quarter": {
       "label": "vs Last Quarter Avg",
       "value": 72.3,
-      "delta": 9.1
+      "delta": 6.5
     },
     "vs_last_week": {
       "label": "vs Last Week",
-      "value": 85.2,
-      "delta": -3.8
+      "value": 84.6,
+      "delta": -5.8
     },
     "vs_target": {
       "label": "vs Target",
       "value": 75,
-      "delta": 6.4
+      "delta": 3.8
     }
   },
   "monthly": [
@@ -109,8 +109,8 @@
     },
     {
       "month": "2026-10",
-      "productivity_pct": 81.4,
-      "billable_hours": 1025.5,
+      "productivity_pct": 78.8,
+      "billable_hours": 993.5,
       "total_hours": 1297.0,
       "pto_hours": 37.0
     }
@@ -136,14 +136,14 @@
     },
     {
       "week": "2026-W43",
-      "productivity_pct": 85.2,
-      "billable_hours": 277.2,
+      "productivity_pct": 84.6,
+      "billable_hours": 275.2,
       "total_hours": 325.5
     },
     {
       "week": "2026-W44",
-      "productivity_pct": 86.7,
-      "billable_hours": 161.5,
+      "productivity_pct": 70.6,
+      "billable_hours": 131.5,
       "total_hours": 191.2
     }
   ],
@@ -270,20 +270,20 @@
     },
     {
       "date": "2026-10-25",
-      "productivity_pct": 100.0,
-      "billable_hours": 2.0,
+      "productivity_pct": 0.0,
+      "billable_hours": 0.0,
       "total_hours": 2.0
     },
     {
       "date": "2026-10-26",
-      "productivity_pct": 85.3,
-      "billable_hours": 58.0,
+      "productivity_pct": 67.6,
+      "billable_hours": 46.0,
       "total_hours": 68.0
     },
     {
       "date": "2026-10-27",
-      "productivity_pct": 90.9,
-      "billable_hours": 62.8,
+      "productivity_pct": 64.9,
+      "billable_hours": 44.8,
       "total_hours": 69.0
     },
     {
@@ -293,5 +293,5 @@
       "total_hours": 54.2
     }
   ],
-  "generated_at": "2026-10-29T14:32:38Z"
+  "generated_at": "2026-10-29T14:46:33Z"
 }
