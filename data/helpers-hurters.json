@@ -871,6 +871,25 @@
       ]
     },
     {
+      "project": "Barton 59 Impala",
+      "total_hours": 11.0,
+      "pct_of_total": 0.9,
+      "tasks": [
+        {
+          "task": "Troubleshoot Instrumentation",
+          "hours": 9.0
+        },
+        {
+          "task": "Troubleshoot GUI issue",
+          "hours": 1.8
+        },
+        {
+          "task": "Aid in Instrumentation troubleshoot",
+          "hours": 0.2
+        }
+      ]
+    },
+    {
       "project": "Avalos 72 Blazer",
       "total_hours": 9.5,
       "pct_of_total": 0.7,
@@ -878,6 +897,25 @@
         {
           "task": "Prep vehicle for sale",
           "hours": 9.5
+        }
+      ]
+    },
+    {
+      "project": "Teague 62 Jaguar",
+      "total_hours": 8.5,
+      "pct_of_total": 0.7,
+      "tasks": [
+        {
+          "task": "Checkout vehicle",
+          "hours": 4.0
+        },
+        {
+          "task": "Repair steering linkage",
+          "hours": 3.0
+        },
+        {
+          "task": "Address brake fluid leak",
+          "hours": 1.5
         }
       ]
     },
@@ -922,10 +960,10 @@
     "min_hours": 1.0
   },
   "totals": {
-    "billable_hours": 1020.5,
-    "non_billable_hours": 271.5,
+    "billable_hours": 1001.0,
+    "non_billable_hours": 291.0,
     "pto_hours": 37.0,
     "total_hours": 1292.0
   },
-  "generated_at": "2026-10-30T11:32:10Z"
+  "generated_at": "2026-10-30T11:47:04Z"
 }
