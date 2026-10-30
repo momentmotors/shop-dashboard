@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T17:58:23.306832Z",
+  "updated_at": "2026-10-30T18:07:43.509949Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -136,7 +136,7 @@
         "matched_lists": [
           "Barton 59 Impala"
         ],
-        "open_tasks": 7
+        "open_tasks": 8
       },
       "assignees": [
         {
@@ -186,6 +186,13 @@
               "status": "Open",
               "list": "Barton 59 Impala",
               "url": "https://app.clickup.com/t/868jxmw03"
+            },
+            {
+              "id": "868jxmvpn",
+              "name": "Interior refresh",
+              "status": "Open",
+              "list": "Barton 59 Impala",
+              "url": "https://app.clickup.com/t/868jxmvpn"
             }
           ]
         }
@@ -253,7 +260,7 @@
         "matched_lists": [
           "Kelly 63 Corvette"
         ],
-        "open_tasks": 2
+        "open_tasks": 1
       },
       "assignees": [
         {
@@ -265,18 +272,6 @@
               "status": "Open",
               "list": "Kelly 63 Corvette",
               "url": "https://app.clickup.com/t/868krf6f9"
-            }
-          ]
-        },
-        {
-          "name": "Ryan Laurel",
-          "tasks": [
-            {
-              "id": "868m2v63x",
-              "name": "Keep tabs on Chris at KW",
-              "status": "Open",
-              "list": "Kelly 63 Corvette",
-              "url": "https://app.clickup.com/t/868m2v63x"
             }
           ]
         }
@@ -862,5 +857,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-30T17:57:59Z"
+  "generated_at": "2026-10-30T18:07:19Z"
 }
