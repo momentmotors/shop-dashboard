@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T15:32:44.479928Z",
+  "updated_at": "2026-10-30T15:47:30.179332Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -294,7 +294,7 @@
         "matched_lists": [
           "LB 82 911"
         ],
-        "open_tasks": 28
+        "open_tasks": 29
       },
       "assignees": [
         {
@@ -392,18 +392,6 @@
           ]
         },
         {
-          "name": "Jordan Jones",
-          "tasks": [
-            {
-              "id": "868mnww8b",
-              "name": "Scan seats",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868mnww8b"
-            }
-          ]
-        },
-        {
           "name": "Marshall Carter",
           "tasks": [
             {
@@ -412,6 +400,25 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868g3pt4u"
+            },
+            {
+              "id": "868mq5vub",
+              "name": "Engineer Support - Seat Mounts",
+              "status": "Open",
+              "list": "LB 82 911",
+              "url": "https://app.clickup.com/t/868mq5vub"
+            }
+          ]
+        },
+        {
+          "name": "Jordan Jones",
+          "tasks": [
+            {
+              "id": "868mnww8b",
+              "name": "Scan seats",
+              "status": "Open",
+              "list": "LB 82 911",
+              "url": "https://app.clickup.com/t/868mnww8b"
             }
           ]
         },
@@ -867,5 +874,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-30T15:32:25Z"
+  "generated_at": "2026-10-30T15:47:03Z"
 }
