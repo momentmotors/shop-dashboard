@@ -3,7 +3,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 176.0,
-      "pct_of_total": 13.4,
+      "pct_of_total": 13.3,
       "tasks": [
         {
           "task": "Install front boxes",
@@ -134,7 +134,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 132.2,
-      "pct_of_total": 10.1,
+      "pct_of_total": 10.0,
       "tasks": [
         {
           "task": "Clean up engine bay",
@@ -208,12 +208,12 @@
     },
     {
       "project": "LB 82 911",
-      "total_hours": 105.5,
-      "pct_of_total": 8.1,
+      "total_hours": 111.0,
+      "pct_of_total": 8.4,
       "tasks": [
         {
           "task": "Start up vehicle",
-          "hours": 24.0
+          "hours": 26.2
         },
         {
           "task": "Final install components",
@@ -222,6 +222,10 @@
         {
           "task": "Configure HVAC settings",
           "hours": 10.5
+        },
+        {
+          "task": "Reinstall interior",
+          "hours": 8.8
         },
         {
           "task": "Checkout vehicle",
@@ -234,10 +238,6 @@
         {
           "task": "Replace torsion bar bushings",
           "hours": 6.0
-        },
-        {
-          "task": "Reinstall interior",
-          "hours": 5.5
         },
         {
           "task": "Manufacture Core - Front Battery Pack Lid",
@@ -256,11 +256,11 @@
           "hours": 3.2
         },
         {
-          "task": "Modify and install seats",
+          "task": "Scan seats",
           "hours": 3.0
         },
         {
-          "task": "Scan seats",
+          "task": "Modify and install seats",
           "hours": 3.0
         },
         {
@@ -367,7 +367,7 @@
     {
       "project": "Richardson 72 240Z",
       "total_hours": 78.0,
-      "pct_of_total": 6.0,
+      "pct_of_total": 5.9,
       "tasks": [
         {
           "task": "Modify and clean up OEM harness",
@@ -477,7 +477,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 70.2,
-      "pct_of_total": 5.4,
+      "pct_of_total": 5.3,
       "tasks": [
         {
           "task": "Manufacture Core - Front Batt Pack Mounts",
@@ -595,11 +595,11 @@
           "hours": 1.0
         },
         {
-          "task": "Address antena issue",
+          "task": "Clean engine bay",
           "hours": 1.0
         },
         {
-          "task": "Clean engine bay",
+          "task": "Address antena issue",
           "hours": 1.0
         },
         {
@@ -619,7 +619,7 @@
     {
       "project": "Krafcik 02 Caterham",
       "total_hours": 49.2,
-      "pct_of_total": 3.8,
+      "pct_of_total": 3.7,
       "tasks": [
         {
           "task": "Install rear box",
@@ -744,24 +744,24 @@
     }
   ],
   "shop_work": {
-    "total_hours": 187.8,
-    "pct_of_total": 14.3,
-    "avg_per_person_per_day": 1.07,
+    "total_hours": 192.2,
+    "pct_of_total": 14.5,
+    "avg_per_person_per_day": 1.09,
     "flagged": true,
     "tech_count": 8,
     "working_days": 22,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 77.8
+        "hours": 78.8
       },
       {
         "label": "Shop Meetings",
-        "hours": 71.2
+        "hours": 72.2
       },
       {
         "label": "Personal Meetings",
-        "hours": 22.0
+        "hours": 24.5
       },
       {
         "label": "Errands",
@@ -820,7 +820,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 20.5,
-      "pct_of_total": 1.6,
+      "pct_of_total": 1.5,
       "tasks": [
         {
           "task": "Present vehicle to customer",
@@ -841,6 +841,41 @@
         {
           "task": "Checkout Vehicle",
           "hours": 1.5
+        }
+      ]
+    },
+    {
+      "project": "Teague 62 Jaguar",
+      "total_hours": 15.5,
+      "pct_of_total": 1.2,
+      "tasks": [
+        {
+          "task": "Repair steering linkage",
+          "hours": 4.5
+        },
+        {
+          "task": "Checkout vehicle",
+          "hours": 4.0
+        },
+        {
+          "task": "Clearance front box mount",
+          "hours": 3.0
+        },
+        {
+          "task": "Address DS hardware issue",
+          "hours": 2.0
+        },
+        {
+          "task": "Address brake fluid leak",
+          "hours": 1.5
+        },
+        {
+          "task": "Address DCDC issue",
+          "hours": 0.2
+        },
+        {
+          "task": "Address AC comp control issue",
+          "hours": 0.2
         }
       ]
     },
@@ -867,37 +902,6 @@
         {
           "task": "Update firmware",
           "hours": 2.0
-        }
-      ]
-    },
-    {
-      "project": "Teague 62 Jaguar",
-      "total_hours": 13.5,
-      "pct_of_total": 1.0,
-      "tasks": [
-        {
-          "task": "Repair steering linkage",
-          "hours": 4.5
-        },
-        {
-          "task": "Checkout vehicle",
-          "hours": 4.0
-        },
-        {
-          "task": "Clearance front box mount",
-          "hours": 3.0
-        },
-        {
-          "task": "Address brake fluid leak",
-          "hours": 1.5
-        },
-        {
-          "task": "Address DCDC issue",
-          "hours": 0.2
-        },
-        {
-          "task": "Address AC comp control issue",
-          "hours": 0.2
         }
       ]
     },
@@ -972,10 +976,10 @@
     "min_hours": 1.0
   },
   "totals": {
-    "billable_hours": 1010.8,
-    "non_billable_hours": 298.0,
+    "billable_hours": 1018.8,
+    "non_billable_hours": 304.5,
     "pto_hours": 37.0,
-    "total_hours": 1308.8
+    "total_hours": 1323.2
   },
-  "generated_at": "2026-10-30T20:46:32Z"
+  "generated_at": "2026-10-30T21:02:13Z"
 }
