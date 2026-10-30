@@ -579,11 +579,11 @@
           "hours": 2.0
         },
         {
-          "task": "Polish chrome surfaces",
+          "task": "Install interior",
           "hours": 1.5
         },
         {
-          "task": "Install interior",
+          "task": "Polish chrome surfaces",
           "hours": 1.5
         },
         {
@@ -591,11 +591,11 @@
           "hours": 1.0
         },
         {
-          "task": "Address antena issue",
+          "task": "Clean engine bay",
           "hours": 1.0
         },
         {
-          "task": "Clean engine bay",
+          "task": "Address antena issue",
           "hours": 1.0
         },
         {
@@ -742,10 +742,10 @@
   "shop_work": {
     "total_hours": 180.8,
     "pct_of_total": 14.3,
-    "avg_per_person_per_day": 1.08,
+    "avg_per_person_per_day": 1.03,
     "flagged": true,
     "tech_count": 8,
-    "working_days": 21,
+    "working_days": 22,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
@@ -923,5 +923,5 @@
     "pto_hours": 37.0,
     "total_hours": 1260.0
   },
-  "generated_at": "2026-10-29T23:47:18Z"
+  "generated_at": "2026-10-30T00:06:54Z"
 }
