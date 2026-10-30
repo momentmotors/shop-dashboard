@@ -2,8 +2,8 @@
   "helpers": [
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 169.2,
-      "pct_of_total": 13.1,
+      "total_hours": 176.0,
+      "pct_of_total": 13.4,
       "tasks": [
         {
           "task": "Install front boxes",
@@ -14,16 +14,16 @@
           "hours": 17.5
         },
         {
+          "task": "Retest OEM wiring",
+          "hours": 17.0
+        },
+        {
           "task": "Install radiator assembly",
           "hours": 10.5
         },
         {
           "task": "Install AC lines and condenser",
           "hours": 10.5
-        },
-        {
-          "task": "Retest OEM wiring",
-          "hours": 10.2
         },
         {
           "task": "Manufacture Product - VC Harness",
@@ -134,7 +134,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 132.2,
-      "pct_of_total": 10.2,
+      "pct_of_total": 10.1,
       "tasks": [
         {
           "task": "Clean up engine bay",
@@ -304,7 +304,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 78.8,
-      "pct_of_total": 6.1,
+      "pct_of_total": 6.0,
       "tasks": [
         {
           "task": "Finalize OEM wiring",
@@ -402,11 +402,11 @@
           "hours": 3.0
         },
         {
-          "task": "Run main HV cables",
+          "task": "Run main cooling lines",
           "hours": 2.5
         },
         {
-          "task": "Run main cooling lines",
+          "task": "Run main HV cables",
           "hours": 2.5
         },
         {
@@ -442,7 +442,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 76.2,
-      "pct_of_total": 5.9,
+      "pct_of_total": 5.8,
       "tasks": [
         {
           "task": "Address NVH issue",
@@ -556,7 +556,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 53.0,
-      "pct_of_total": 4.1,
+      "pct_of_total": 4.0,
       "tasks": [
         {
           "task": "Facilitate paint work",
@@ -583,11 +583,11 @@
           "hours": 2.0
         },
         {
-          "task": "Polish chrome surfaces",
+          "task": "Install interior",
           "hours": 1.5
         },
         {
-          "task": "Install interior",
+          "task": "Polish chrome surfaces",
           "hours": 1.5
         },
         {
@@ -595,11 +595,11 @@
           "hours": 1.0
         },
         {
-          "task": "Clean engine bay",
+          "task": "Address antena issue",
           "hours": 1.0
         },
         {
-          "task": "Address antena issue",
+          "task": "Clean engine bay",
           "hours": 1.0
         },
         {
@@ -744,20 +744,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 186.5,
-    "pct_of_total": 14.4,
-    "avg_per_person_per_day": 1.06,
+    "total_hours": 187.8,
+    "pct_of_total": 14.3,
+    "avg_per_person_per_day": 1.07,
     "flagged": true,
     "tech_count": 8,
     "working_days": 22,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 77.2
+        "hours": 77.8
       },
       {
         "label": "Shop Meetings",
-        "hours": 70.5
+        "hours": 71.2
       },
       {
         "label": "Personal Meetings",
@@ -871,6 +871,37 @@
       ]
     },
     {
+      "project": "Teague 62 Jaguar",
+      "total_hours": 13.5,
+      "pct_of_total": 1.0,
+      "tasks": [
+        {
+          "task": "Repair steering linkage",
+          "hours": 4.5
+        },
+        {
+          "task": "Checkout vehicle",
+          "hours": 4.0
+        },
+        {
+          "task": "Clearance front box mount",
+          "hours": 3.0
+        },
+        {
+          "task": "Address brake fluid leak",
+          "hours": 1.5
+        },
+        {
+          "task": "Address DCDC issue",
+          "hours": 0.2
+        },
+        {
+          "task": "Address AC comp control issue",
+          "hours": 0.2
+        }
+      ]
+    },
+    {
       "project": "Barton 59 Impala",
       "total_hours": 11.0,
       "pct_of_total": 0.8,
@@ -897,33 +928,6 @@
         {
           "task": "Prep vehicle for sale",
           "hours": 9.5
-        }
-      ]
-    },
-    {
-      "project": "Teague 62 Jaguar",
-      "total_hours": 9.0,
-      "pct_of_total": 0.7,
-      "tasks": [
-        {
-          "task": "Checkout vehicle",
-          "hours": 4.0
-        },
-        {
-          "task": "Repair steering linkage",
-          "hours": 3.0
-        },
-        {
-          "task": "Address brake fluid leak",
-          "hours": 1.5
-        },
-        {
-          "task": "Address DCDC issue",
-          "hours": 0.2
-        },
-        {
-          "task": "Address AC comp control issue",
-          "hours": 0.2
         }
       ]
     },
@@ -968,10 +972,10 @@
     "min_hours": 1.0
   },
   "totals": {
-    "billable_hours": 1004.5,
-    "non_billable_hours": 292.2,
+    "billable_hours": 1010.8,
+    "non_billable_hours": 298.0,
     "pto_hours": 37.0,
-    "total_hours": 1296.8
+    "total_hours": 1308.8
   },
-  "generated_at": "2026-10-30T20:02:40Z"
+  "generated_at": "2026-10-30T20:22:09Z"
 }
