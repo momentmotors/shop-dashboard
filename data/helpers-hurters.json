@@ -2,7 +2,7 @@
   "helpers": [
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 180.5,
+      "total_hours": 182.5,
       "pct_of_total": 13.5,
       "tasks": [
         {
@@ -54,15 +54,15 @@
           "hours": 7.5
         },
         {
+          "task": "Install rear coil overs",
+          "hours": 7.0
+        },
+        {
           "task": "Mount steering sensor",
           "hours": 6.0
         },
         {
           "task": "Install front sway bar",
-          "hours": 5.0
-        },
-        {
-          "task": "Install rear coil overs",
           "hours": 5.0
         },
         {
@@ -134,7 +134,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 132.2,
-      "pct_of_total": 9.9,
+      "pct_of_total": 9.8,
       "tasks": [
         {
           "task": "Clean up engine bay",
@@ -339,11 +339,11 @@
           "hours": 1.0
         },
         {
-          "task": "Install new seat rails",
+          "task": "Charge and test system",
           "hours": 1.0
         },
         {
-          "task": "Charge and test system",
+          "task": "Install new seat rails",
           "hours": 1.0
         },
         {
@@ -481,7 +481,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 74.8,
-      "pct_of_total": 5.6,
+      "pct_of_total": 5.5,
       "tasks": [
         {
           "task": "Build and install new brake lines",
@@ -560,7 +560,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 53.0,
-      "pct_of_total": 4.0,
+      "pct_of_total": 3.9,
       "tasks": [
         {
           "task": "Facilitate paint work",
@@ -587,11 +587,11 @@
           "hours": 2.0
         },
         {
-          "task": "Install interior",
+          "task": "Polish chrome surfaces",
           "hours": 1.5
         },
         {
-          "task": "Polish chrome surfaces",
+          "task": "Install interior",
           "hours": 1.5
         },
         {
@@ -599,11 +599,11 @@
           "hours": 1.0
         },
         {
-          "task": "Clean engine bay",
+          "task": "Address antena issue",
           "hours": 1.0
         },
         {
-          "task": "Address antena issue",
+          "task": "Clean engine bay",
           "hours": 1.0
         },
         {
@@ -748,20 +748,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 193.2,
-    "pct_of_total": 14.4,
-    "avg_per_person_per_day": 1.1,
+    "total_hours": 195.5,
+    "pct_of_total": 14.5,
+    "avg_per_person_per_day": 1.11,
     "flagged": true,
     "tech_count": 8,
     "working_days": 22,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 79.2
+        "hours": 81.0
       },
       {
         "label": "Shop Meetings",
-        "hours": 72.8
+        "hours": 73.2
       },
       {
         "label": "Personal Meetings",
@@ -850,8 +850,8 @@
     },
     {
       "project": "Teague 62 Jaguar",
-      "total_hours": 15.5,
-      "pct_of_total": 1.2,
+      "total_hours": 17.5,
+      "pct_of_total": 1.3,
       "tasks": [
         {
           "task": "Repair steering linkage",
@@ -862,12 +862,12 @@
           "hours": 4.0
         },
         {
-          "task": "Clearance front box mount",
-          "hours": 3.0
+          "task": "Address DS hardware issue",
+          "hours": 4.0
         },
         {
-          "task": "Address DS hardware issue",
-          "hours": 2.0
+          "task": "Clearance front box mount",
+          "hours": 3.0
         },
         {
           "task": "Address brake fluid leak",
@@ -885,12 +885,12 @@
     },
     {
       "project": "ICON Bronco Prototype",
-      "total_hours": 14.5,
-      "pct_of_total": 1.1,
+      "total_hours": 15.5,
+      "pct_of_total": 1.2,
       "tasks": [
         {
           "task": "Service LDU",
-          "hours": 14.5
+          "hours": 15.5
         }
       ]
     },
@@ -980,10 +980,10 @@
     "min_hours": 1.0
   },
   "totals": {
-    "billable_hours": 1034.2,
-    "non_billable_hours": 305.5,
+    "billable_hours": 1036.2,
+    "non_billable_hours": 310.8,
     "pto_hours": 37.0,
-    "total_hours": 1339.8
+    "total_hours": 1347.0
   },
-  "generated_at": "2026-10-31T05:32:01Z"
+  "generated_at": "2026-10-31T05:46:58Z"
 }
