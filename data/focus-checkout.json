@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T17:33:05.185442Z",
+  "updated_at": "2026-11-02T17:47:05.196040Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -136,7 +136,7 @@
         "matched_lists": [
           "Barton 59 Impala"
         ],
-        "open_tasks": 7
+        "open_tasks": 8
       },
       "assignees": [
         {
@@ -186,6 +186,18 @@
               "status": "Open",
               "list": "Barton 59 Impala",
               "url": "https://app.clickup.com/t/868jxv7zn"
+            }
+          ]
+        },
+        {
+          "name": "Justin Landry",
+          "tasks": [
+            {
+              "id": "868mqx4d7",
+              "name": "Perform PDI",
+              "status": "Open",
+              "list": "Barton 59 Impala",
+              "url": "https://app.clickup.com/t/868mqx4d7"
             }
           ]
         }
@@ -779,5 +791,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-02T17:32:46Z"
+  "generated_at": "2026-11-02T17:46:44Z"
 }
