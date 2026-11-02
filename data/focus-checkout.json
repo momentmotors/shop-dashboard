@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T17:47:05.196040Z",
+  "updated_at": "2026-11-02T18:03:48.944858Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -294,7 +294,7 @@
         "matched_lists": [
           "LB 82 911"
         ],
-        "open_tasks": 28
+        "open_tasks": 29
       },
       "assignees": [
         {
@@ -411,6 +411,18 @@
           ]
         },
         {
+          "name": "Justin Landry",
+          "tasks": [
+            {
+              "id": "868mqx52t",
+              "name": "Perform Safety Inspection",
+              "status": "Open",
+              "list": "LB 82 911",
+              "url": "https://app.clickup.com/t/868mqx52t"
+            }
+          ]
+        },
+        {
           "name": "Ryan Laurel",
           "tasks": [
             {
@@ -436,7 +448,7 @@
         "matched_lists": [
           "Lee 68 Mustang"
         ],
-        "open_tasks": 6
+        "open_tasks": 7
       },
       "assignees": [
         {
@@ -455,6 +467,13 @@
               "status": "Open",
               "list": "Lee 68 Mustang",
               "url": "https://app.clickup.com/t/868kvft7k"
+            },
+            {
+              "id": "868mqx5zq",
+              "name": "Troubleshoot instrumentation issue",
+              "status": "Open",
+              "list": "Lee 68 Mustang",
+              "url": "https://app.clickup.com/t/868mqx5zq"
             }
           ]
         },
@@ -709,7 +728,7 @@
         "matched_lists": [
           "Teague 62 Jaguar"
         ],
-        "open_tasks": 19
+        "open_tasks": 18
       },
       "assignees": [
         {
@@ -765,18 +784,6 @@
           ]
         },
         {
-          "name": "Devin DuMont",
-          "tasks": [
-            {
-              "id": "868mcptq4",
-              "name": "Update thermistor data",
-              "status": "Open",
-              "list": "Teague 62 Jaguar",
-              "url": "https://app.clickup.com/t/868mcptq4"
-            }
-          ]
-        },
-        {
           "name": "Justin Landry",
           "tasks": [
             {
@@ -791,5 +798,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-02T17:46:44Z"
+  "generated_at": "2026-11-02T18:03:29Z"
 }
