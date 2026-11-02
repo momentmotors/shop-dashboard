@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T14:32:44.961966Z",
+  "updated_at": "2026-11-02T14:47:43.333086Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -424,7 +424,7 @@
         "matched_lists": [
           "Lee 68 Mustang"
         ],
-        "open_tasks": 7
+        "open_tasks": 6
       },
       "assignees": [
         {
@@ -443,18 +443,6 @@
               "status": "Open",
               "list": "Lee 68 Mustang",
               "url": "https://app.clickup.com/t/868kvft7k"
-            }
-          ]
-        },
-        {
-          "name": "Billy Arrasmith",
-          "tasks": [
-            {
-              "id": "868mm6xth",
-              "name": "Aid in NVH troubleshoot",
-              "status": "Open",
-              "list": "Lee 68 Mustang",
-              "url": "https://app.clickup.com/t/868mm6xth"
             }
           ]
         },
@@ -709,7 +697,7 @@
         "matched_lists": [
           "Teague 62 Jaguar"
         ],
-        "open_tasks": 20
+        "open_tasks": 19
       },
       "assignees": [
         {
@@ -735,13 +723,6 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868mpeggz"
-            },
-            {
-              "id": "868m3t9eq",
-              "name": "Remove OEM shifter assembly",
-              "status": "Open",
-              "list": "Teague 62 Jaguar",
-              "url": "https://app.clickup.com/t/868m3t9eq"
             },
             {
               "id": "868mpeg1p",
@@ -798,5 +779,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-02T14:32:27Z"
+  "generated_at": "2026-11-02T14:47:25Z"
 }
