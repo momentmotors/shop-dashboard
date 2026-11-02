@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T14:20:07.346770Z",
+  "updated_at": "2026-11-02T14:32:44.961966Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -136,28 +136,9 @@
         "matched_lists": [
           "Barton 59 Impala"
         ],
-        "open_tasks": 8
+        "open_tasks": 7
       },
       "assignees": [
-        {
-          "name": "Brandon Beaman",
-          "tasks": [
-            {
-              "id": "868jxv7zn",
-              "name": "Checkout vehicle",
-              "status": "Open",
-              "list": "Barton 59 Impala",
-              "url": "https://app.clickup.com/t/868jxv7zn"
-            },
-            {
-              "id": "868jx2q4a",
-              "name": "Troubleshoot Instrumentation",
-              "status": "Open",
-              "list": "Barton 59 Impala",
-              "url": "https://app.clickup.com/t/868jx2q4a"
-            }
-          ]
-        },
         {
           "name": "Noah Sharif",
           "tasks": [
@@ -193,6 +174,18 @@
               "status": "Open",
               "list": "Barton 59 Impala",
               "url": "https://app.clickup.com/t/868jxmvpn"
+            }
+          ]
+        },
+        {
+          "name": "Brandon Beaman",
+          "tasks": [
+            {
+              "id": "868jxv7zn",
+              "name": "Checkout vehicle",
+              "status": "Open",
+              "list": "Barton 59 Impala",
+              "url": "https://app.clickup.com/t/868jxv7zn"
             }
           ]
         }
@@ -289,7 +282,7 @@
         "matched_lists": [
           "LB 82 911"
         ],
-        "open_tasks": 29
+        "open_tasks": 28
       },
       "assignees": [
         {
@@ -402,18 +395,6 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868mq5vub"
-            }
-          ]
-        },
-        {
-          "name": "Jordan Jones",
-          "tasks": [
-            {
-              "id": "868mnww8b",
-              "name": "Scan seats",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868mnww8b"
             }
           ]
         },
@@ -728,7 +709,7 @@
         "matched_lists": [
           "Teague 62 Jaguar"
         ],
-        "open_tasks": 25
+        "open_tasks": 20
       },
       "assignees": [
         {
@@ -749,32 +730,11 @@
               "url": "https://app.clickup.com/t/868mpz8e3"
             },
             {
-              "id": "868mptbd5",
-              "name": "Address brake fluid leak",
-              "status": "Open",
-              "list": "Teague 62 Jaguar",
-              "url": "https://app.clickup.com/t/868mptbd5"
-            },
-            {
               "id": "868mpeggz",
               "name": "Center steering wheel",
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868mpeggz"
-            },
-            {
-              "id": "868mpzb0e",
-              "name": "Clearance front box mount",
-              "status": "Open",
-              "list": "Teague 62 Jaguar",
-              "url": "https://app.clickup.com/t/868mpzb0e"
-            },
-            {
-              "id": "868mpza3e",
-              "name": "Re-secure hood trim",
-              "status": "Open",
-              "list": "Teague 62 Jaguar",
-              "url": "https://app.clickup.com/t/868mpza3e"
             },
             {
               "id": "868m3t9eq",
@@ -791,30 +751,11 @@
               "url": "https://app.clickup.com/t/868mpeg1p"
             },
             {
-              "id": "868mpakw2",
-              "name": "Replace map lamp switch",
-              "status": "Open",
-              "list": "Teague 62 Jaguar",
-              "url": "https://app.clickup.com/t/868mpakw2"
-            },
-            {
               "id": "868mptbr6",
               "name": "Reseal brake master",
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868mptbr6"
-            }
-          ]
-        },
-        {
-          "name": "Billy Arrasmith",
-          "tasks": [
-            {
-              "id": "868mpzahn",
-              "name": "Address DS hardware issue",
-              "status": "Open",
-              "list": "Teague 62 Jaguar",
-              "url": "https://app.clickup.com/t/868mpzahn"
             }
           ]
         },
@@ -857,5 +798,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-02T14:19:49Z"
+  "generated_at": "2026-11-02T14:32:27Z"
 }
