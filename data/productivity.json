@@ -20,8 +20,8 @@
     },
     "vs_last_week": {
       "label": "vs Last Week",
-      "value": 84.4,
-      "delta": -84.4
+      "value": 64.0,
+      "delta": -64.0
     },
     "vs_target": {
       "label": "vs Target",
@@ -117,5 +117,5 @@
   ],
   "current_month_weeks": [],
   "current_month_days": [],
-  "generated_at": "2026-11-01T23:46:58Z"
+  "generated_at": "2026-11-02T00:06:46Z"
 }
