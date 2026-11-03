@@ -1,13 +1,183 @@
 {
-  "helpers": [],
+  "helpers": [
+    {
+      "project": "Warke 61 Eldorado",
+      "total_hours": 15.5,
+      "pct_of_total": 27.3,
+      "tasks": [
+        {
+          "task": "Retest OEM wiring",
+          "hours": 6.2
+        },
+        {
+          "task": "Manufacture Product - Flying Lead Harness",
+          "hours": 4.0
+        },
+        {
+          "task": "Install radiator assembly",
+          "hours": 2.2
+        },
+        {
+          "task": "Spec and order DS",
+          "hours": 1.5
+        },
+        {
+          "task": "Machine DS adapters",
+          "hours": 1.5
+        }
+      ]
+    },
+    {
+      "project": "LB 82 911",
+      "total_hours": 7.0,
+      "pct_of_total": 12.3,
+      "tasks": [
+        {
+          "task": "Install GUI",
+          "hours": 3.0
+        },
+        {
+          "task": "Reinstall interior",
+          "hours": 2.0
+        },
+        {
+          "task": "Manufacture Core - Front Battery Pack Lid",
+          "hours": 1.5
+        },
+        {
+          "task": "Install front battery lid",
+          "hours": 0.5
+        }
+      ]
+    },
+    {
+      "project": "Hopkins 65 Silver Cloud",
+      "total_hours": 7.0,
+      "pct_of_total": 12.3,
+      "tasks": [
+        {
+          "task": "Install audio system",
+          "hours": 3.0
+        },
+        {
+          "task": "Remove interior",
+          "hours": 2.0
+        },
+        {
+          "task": "Install throttle pedal",
+          "hours": 1.0
+        },
+        {
+          "task": "Modify brake pedal assembly",
+          "hours": 1.0
+        }
+      ]
+    },
+    {
+      "project": "Nolan 70 Challenger",
+      "total_hours": 6.2,
+      "pct_of_total": 11.0,
+      "tasks": [
+        {
+          "task": "Bleed and test clutch assembly",
+          "hours": 6.0
+        },
+        {
+          "task": "Bleed and test system",
+          "hours": 0.2
+        }
+      ]
+    },
+    {
+      "project": "Lee 68 Mustang",
+      "total_hours": 4.0,
+      "pct_of_total": 7.0,
+      "tasks": [
+        {
+          "task": "Troubleshoot instrumentation issue",
+          "hours": 3.5
+        },
+        {
+          "task": "Checkout vehicle",
+          "hours": 0.5
+        }
+      ]
+    },
+    {
+      "project": "Jaffe 86 190E",
+      "total_hours": 4.0,
+      "pct_of_total": 7.0,
+      "tasks": [
+        {
+          "task": "Terminate all cooling lines",
+          "hours": 2.0
+        },
+        {
+          "task": "Remove and assess OEM gauges",
+          "hours": 1.0
+        },
+        {
+          "task": "Install steering rack assembly",
+          "hours": 0.5
+        },
+        {
+          "task": "Terminate all main 12V power cables",
+          "hours": 0.5
+        }
+      ]
+    },
+    {
+      "project": "Avalos 72 Blazer",
+      "total_hours": 2.5,
+      "pct_of_total": 4.4,
+      "tasks": [
+        {
+          "task": "Prep vehicle for sale",
+          "hours": 2.5
+        }
+      ]
+    },
+    {
+      "project": "Loh 82 Hilux",
+      "total_hours": 2.0,
+      "pct_of_total": 3.5,
+      "tasks": [
+        {
+          "task": "Run main cooling lines",
+          "hours": 1.0
+        },
+        {
+          "task": "Run main HV cables",
+          "hours": 1.0
+        }
+      ]
+    }
+  ],
   "shop_work": {
-    "total_hours": 0.0,
-    "pct_of_total": 0,
-    "avg_per_person_per_day": 0.0,
+    "total_hours": 8.5,
+    "pct_of_total": 15.0,
+    "avg_per_person_per_day": 0.53,
     "flagged": false,
     "tech_count": 8,
     "working_days": 2,
-    "breakdown": []
+    "breakdown": [
+      {
+        "label": "Shop Meetings",
+        "hours": 3.5
+      },
+      {
+        "label": "EOD Time Entry/Cleanup",
+        "hours": 3.5
+      },
+      {
+        "label": "Errands",
+        "hours": 1.0
+      },
+      {
+        "label": "Personal Meetings",
+        "hours": 0.5
+      }
+    ]
   },
   "project_hurters": [],
   "hurters_below_floor": {
@@ -16,10 +186,10 @@
     "min_hours": 1.0
   },
   "totals": {
-    "billable_hours": 0.0,
-    "non_billable_hours": 0.0,
+    "billable_hours": 48.2,
+    "non_billable_hours": 8.5,
     "pto_hours": 0.0,
-    "total_hours": 0.0
+    "total_hours": 56.8
   },
-  "generated_at": "2026-11-03T05:17:36Z"
+  "generated_at": "2026-11-03T05:32:26Z"
 }
