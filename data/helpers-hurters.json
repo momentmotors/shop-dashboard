@@ -89,21 +89,6 @@
       ]
     },
     {
-      "project": "Lee 68 Mustang",
-      "total_hours": 4.0,
-      "pct_of_total": 7.0,
-      "tasks": [
-        {
-          "task": "Troubleshoot instrumentation issue",
-          "hours": 3.5
-        },
-        {
-          "task": "Checkout vehicle",
-          "hours": 0.5
-        }
-      ]
-    },
-    {
       "project": "Jaffe 86 190E",
       "total_hours": 4.0,
       "pct_of_total": 7.0,
@@ -127,13 +112,17 @@
       ]
     },
     {
-      "project": "Avalos 72 Blazer",
-      "total_hours": 2.5,
-      "pct_of_total": 4.4,
+      "project": "Lee 68 Mustang",
+      "total_hours": 4.0,
+      "pct_of_total": 7.0,
       "tasks": [
         {
-          "task": "Prep vehicle for sale",
-          "hours": 2.5
+          "task": "Troubleshoot instrumentation issue",
+          "hours": 3.5
+        },
+        {
+          "task": "Checkout vehicle",
+          "hours": 0.5
         }
       ]
     },
@@ -162,11 +151,11 @@
     "working_days": 2,
     "breakdown": [
       {
-        "label": "Shop Meetings",
+        "label": "EOD Time Entry/Cleanup",
         "hours": 3.5
       },
       {
-        "label": "EOD Time Entry/Cleanup",
+        "label": "Shop Meetings",
         "hours": 3.5
       },
       {
@@ -179,17 +168,29 @@
       }
     ]
   },
-  "project_hurters": [],
+  "project_hurters": [
+    {
+      "project": "Avalos 72 Blazer",
+      "total_hours": 2.5,
+      "pct_of_total": 4.4,
+      "tasks": [
+        {
+          "task": "Prep vehicle for sale",
+          "hours": 2.5
+        }
+      ]
+    }
+  ],
   "hurters_below_floor": {
     "count": 0,
     "hours": 0.0,
     "min_hours": 1.0
   },
   "totals": {
-    "billable_hours": 48.2,
-    "non_billable_hours": 8.5,
+    "billable_hours": 45.8,
+    "non_billable_hours": 11.0,
     "pto_hours": 0.0,
     "total_hours": 56.8
   },
-  "generated_at": "2026-11-03T19:32:34Z"
+  "generated_at": "2026-11-03T19:46:26Z"
 }
