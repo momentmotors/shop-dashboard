@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T21:32:15.071037Z",
+  "updated_at": "2026-11-03T21:47:42.845956Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -306,12 +306,19 @@
         "matched_lists": [
           "LB 82 911"
         ],
-        "open_tasks": 25
+        "open_tasks": 29
       },
       "assignees": [
         {
           "name": "Aharon Adams",
           "tasks": [
+            {
+              "id": "868mrkdtq",
+              "name": "Add defrost fuse/holder",
+              "status": "Open",
+              "list": "LB 82 911",
+              "url": "https://app.clickup.com/t/868mrkdtq"
+            },
             {
               "id": "868knrzc6",
               "name": "Address dash panel fitment issue",
@@ -320,11 +327,32 @@
               "url": "https://app.clickup.com/t/868knrzc6"
             },
             {
+              "id": "868mrkd59",
+              "name": "Finalize gauge illumination",
+              "status": "Open",
+              "list": "LB 82 911",
+              "url": "https://app.clickup.com/t/868mrkd59"
+            },
+            {
               "id": "868j7kkze",
               "name": "Install GUI",
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868j7kkze"
+            },
+            {
+              "id": "868mrkdh1",
+              "name": "Install frunk light",
+              "status": "Open",
+              "list": "LB 82 911",
+              "url": "https://app.clickup.com/t/868mrkdh1"
+            },
+            {
+              "id": "868mrke3g",
+              "name": "Install new wiper arms",
+              "status": "Open",
+              "list": "LB 82 911",
+              "url": "https://app.clickup.com/t/868mrke3g"
             },
             {
               "id": "868man6bk",
@@ -782,5 +810,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-03T21:31:57Z"
+  "generated_at": "2026-11-03T21:47:21Z"
 }
