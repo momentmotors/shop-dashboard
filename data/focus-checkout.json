@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T21:17:19.622589Z",
+  "updated_at": "2026-11-03T21:32:15.071037Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -306,7 +306,7 @@
         "matched_lists": [
           "LB 82 911"
         ],
-        "open_tasks": 29
+        "open_tasks": 25
       },
       "assignees": [
         {
@@ -327,25 +327,11 @@
               "url": "https://app.clickup.com/t/868j7kkze"
             },
             {
-              "id": "868man63y",
-              "name": "Install front battery lid",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868man63y"
-            },
-            {
               "id": "868man6bk",
               "name": "Install rear battery lid",
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868man6bk"
-            },
-            {
-              "id": "868g3ptbv",
-              "name": "Manufacture Core - Front Battery Pack Lid",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868g3ptbv"
             },
             {
               "id": "868man7z6",
@@ -367,20 +353,6 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868j7krpv"
-            },
-            {
-              "id": "868mm7ua4",
-              "name": "Replace torsion bar bushings",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868mm7ua4"
-            },
-            {
-              "id": "868mmavm5",
-              "name": "Troubleshoot parking brake mechanism",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868mmavm5"
             }
           ]
         },
@@ -810,5 +782,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-03T21:17:01Z"
+  "generated_at": "2026-11-03T21:31:57Z"
 }
