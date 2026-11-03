@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T20:32:27.784899Z",
+  "updated_at": "2026-11-03T20:47:45.558132Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -265,9 +265,21 @@
         "matched_lists": [
           "Kelly 63 Corvette"
         ],
-        "open_tasks": 1
+        "open_tasks": 2
       },
       "assignees": [
+        {
+          "name": "Billy Arrasmith",
+          "tasks": [
+            {
+              "id": "868mrjg83",
+              "name": "Machine shock mounts",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868mrjg83"
+            }
+          ]
+        },
         {
           "name": "Brandon Beaman",
           "tasks": [
@@ -798,5 +810,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-03T20:32:07Z"
+  "generated_at": "2026-11-03T20:47:26Z"
 }
