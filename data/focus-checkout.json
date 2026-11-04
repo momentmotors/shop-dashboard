@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T21:32:49.997385Z",
+  "updated_at": "2026-11-04T21:46:49.402594Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -589,7 +589,7 @@
         "matched_lists": [
           "Nolan 70 Challenger"
         ],
-        "open_tasks": 29
+        "open_tasks": 31
       },
       "assignees": [
         {
@@ -699,6 +699,32 @@
               "status": "Open",
               "list": "Nolan 70 Challenger",
               "url": "https://app.clickup.com/t/868kbvb1c"
+            },
+            {
+              "id": "868mt1xz8",
+              "name": "Troubleshoot gauge issue",
+              "status": "Open",
+              "list": "Nolan 70 Challenger",
+              "url": "https://app.clickup.com/t/868mt1xz8"
+            }
+          ]
+        },
+        {
+          "name": "Brandon Beaman",
+          "tasks": [
+            {
+              "id": "868me7h90",
+              "name": "Checkout vehicle",
+              "status": "Open",
+              "list": "Nolan 70 Challenger",
+              "url": "https://app.clickup.com/t/868me7h90"
+            },
+            {
+              "id": "868mt1xt4",
+              "name": "Troubleshoot gauge issue",
+              "status": "Open",
+              "list": "Nolan 70 Challenger",
+              "url": "https://app.clickup.com/t/868mt1xt4"
             }
           ]
         },
@@ -730,18 +756,6 @@
               "status": "Open",
               "list": "Nolan 70 Challenger",
               "url": "https://app.clickup.com/t/868j86tw6"
-            }
-          ]
-        },
-        {
-          "name": "Brandon Beaman",
-          "tasks": [
-            {
-              "id": "868me7h90",
-              "name": "Checkout vehicle",
-              "status": "Open",
-              "list": "Nolan 70 Challenger",
-              "url": "https://app.clickup.com/t/868me7h90"
             }
           ]
         },
@@ -927,5 +941,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-04T21:32:22Z"
+  "generated_at": "2026-11-04T21:46:28Z"
 }
