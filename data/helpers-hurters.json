@@ -18,11 +18,11 @@
           "hours": 2.2
         },
         {
-          "task": "Spec and order DS",
+          "task": "Machine DS adapters",
           "hours": 1.5
         },
         {
-          "task": "Machine DS adapters",
+          "task": "Spec and order DS",
           "hours": 1.5
         }
       ]
@@ -64,11 +64,11 @@
           "hours": 2.0
         },
         {
-          "task": "Install throttle pedal",
+          "task": "Modify brake pedal assembly",
           "hours": 1.0
         },
         {
-          "task": "Modify brake pedal assembly",
+          "task": "Install throttle pedal",
           "hours": 1.0
         }
       ]
@@ -132,11 +132,11 @@
       "pct_of_total": 3.5,
       "tasks": [
         {
-          "task": "Run main cooling lines",
+          "task": "Run main HV cables",
           "hours": 1.0
         },
         {
-          "task": "Run main HV cables",
+          "task": "Run main cooling lines",
           "hours": 1.0
         }
       ]
@@ -145,10 +145,10 @@
   "shop_work": {
     "total_hours": 8.5,
     "pct_of_total": 15.0,
-    "avg_per_person_per_day": 0.53,
+    "avg_per_person_per_day": 0.35,
     "flagged": false,
     "tech_count": 8,
-    "working_days": 2,
+    "working_days": 3,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
@@ -192,5 +192,5 @@
     "pto_hours": 0.0,
     "total_hours": 56.8
   },
-  "generated_at": "2026-11-03T23:46:44Z"
+  "generated_at": "2026-11-04T00:06:39Z"
 }
