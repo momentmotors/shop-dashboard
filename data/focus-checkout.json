@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T18:33:10.871278Z",
+  "updated_at": "2026-11-04T18:47:46.005515Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -171,28 +171,9 @@
         "matched_lists": [
           "Barton 59 Impala"
         ],
-        "open_tasks": 8
+        "open_tasks": 7
       },
       "assignees": [
-        {
-          "name": "Noah Sharif",
-          "tasks": [
-            {
-              "id": "868mpbrfk",
-              "name": "Aid in Instrumentation troubleshoot",
-              "status": "Open",
-              "list": "Barton 59 Impala",
-              "url": "https://app.clickup.com/t/868mpbrfk"
-            },
-            {
-              "id": "868mng7z1",
-              "name": "Troubleshoot GUI issue",
-              "status": "Open",
-              "list": "Barton 59 Impala",
-              "url": "https://app.clickup.com/t/868mng7z1"
-            }
-          ]
-        },
         {
           "name": "Ryan Laurel",
           "tasks": [
@@ -233,6 +214,18 @@
               "status": "Open",
               "list": "Barton 59 Impala",
               "url": "https://app.clickup.com/t/868mqx4d7"
+            }
+          ]
+        },
+        {
+          "name": "Noah Sharif",
+          "tasks": [
+            {
+              "id": "868mpbrfk",
+              "name": "Aid in Instrumentation troubleshoot",
+              "status": "Open",
+              "list": "Barton 59 Impala",
+              "url": "https://app.clickup.com/t/868mpbrfk"
             }
           ]
         }
@@ -922,5 +915,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-04T18:32:51Z"
+  "generated_at": "2026-11-04T18:47:27Z"
 }
