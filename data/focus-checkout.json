@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T22:32:37.144522Z",
+  "updated_at": "2026-11-04T22:47:44.472058Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -346,7 +346,7 @@
         "matched_lists": [
           "LB 82 911"
         ],
-        "open_tasks": 30
+        "open_tasks": 31
       },
       "assignees": [
         {
@@ -421,6 +421,13 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868mrud8v"
+            },
+            {
+              "id": "868mt2rtd",
+              "name": "Plug hole in smugglers box",
+              "status": "Open",
+              "list": "LB 82 911",
+              "url": "https://app.clickup.com/t/868mt2rtd"
             },
             {
               "id": "868j7krpv",
@@ -948,5 +955,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-04T22:32:09Z"
+  "generated_at": "2026-11-04T22:47:24Z"
 }
