@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T18:47:46.005515Z",
+  "updated_at": "2026-11-04T19:02:57.095837Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -293,7 +293,7 @@
         "matched_lists": [
           "Kelly 63 Corvette"
         ],
-        "open_tasks": 2
+        "open_tasks": 3
       },
       "assignees": [
         {
@@ -317,6 +317,18 @@
               "status": "Open",
               "list": "Kelly 63 Corvette",
               "url": "https://app.clickup.com/t/868krf6f9"
+            }
+          ]
+        },
+        {
+          "name": "Justin Landry",
+          "tasks": [
+            {
+              "id": "868mrz1c0",
+              "name": "Perform PDI",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868mrz1c0"
             }
           ]
         }
@@ -915,5 +927,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-04T18:47:27Z"
+  "generated_at": "2026-11-04T19:02:35Z"
 }
