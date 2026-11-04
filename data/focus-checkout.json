@@ -1,7 +1,42 @@
 {
-  "updated_at": "2026-11-04T15:47:56.380156Z",
+  "updated_at": "2026-11-04T16:22:46.414256Z",
   "team_id": "9011243300",
   "projects": [
+    {
+      "owner": "Avalos",
+      "vehicle": {
+        "owner": "Avalos",
+        "year": 1972,
+        "color": "Orange",
+        "make": "Chevrolet",
+        "model": "Blazer",
+        "status": "Shipped",
+        "checkout": 1.1,
+        "sub_metrics": [],
+        "system": "AEM"
+      },
+      "clickup_match": {
+        "found": true,
+        "matched_lists": [
+          "Avalos 72 Blazer"
+        ],
+        "open_tasks": 1
+      },
+      "assignees": [
+        {
+          "name": "Justin Landry",
+          "tasks": [
+            {
+              "id": "868mamm46",
+              "name": "Prep vehicle for sale",
+              "status": "Open",
+              "list": "Avalos 72 Blazer",
+              "url": "https://app.clickup.com/t/868mamm46"
+            }
+          ]
+        }
+      ]
+    },
     {
       "owner": "Barton",
       "vehicle": {
@@ -511,15 +546,15 @@
       ]
     },
     {
-      "owner": "Preheim",
+      "owner": "Nolan",
       "vehicle": {
-        "owner": "Preheim",
-        "year": 1972,
-        "color": "Blue",
-        "make": "Chevrolet",
-        "model": "Blazer",
-        "status": "Checkout",
-        "checkout": 75.9,
+        "owner": "Nolan",
+        "year": 1970,
+        "color": "",
+        "make": "",
+        "model": "Challenger",
+        "status": "Fabrication",
+        "checkout": 16.2,
         "sub_metrics": [
           {
             "label": "BMS",
@@ -527,127 +562,197 @@
           },
           {
             "label": "Inverter",
-            "value": 77.8
+            "value": 0
           },
           {
             "label": "PMU",
-            "value": 87.5
+            "value": 0
           },
           {
             "label": "Raptor",
-            "value": 96.4
+            "value": 0
           },
           {
             "label": "Functional",
-            "value": 8.3
+            "value": 0
           }
         ],
-        "system": "Ampere",
-        "punchlist": {
-          "items": [
-            {
-              "text": "2026-02-xx: Need to check ampacity of PMU feed wire, it looks undersized.\n2026-02-12: Resolved, The main feed cable to the PMU was missing. The small wire I was looking at is a feed from the PMU to the whole harness.",
-              "done": true
-            },
-            {
-              "text": "2026-03-xx: Brakes don't fully return to off position.\n2026-04-01: Resolved after much work from Billy.",
-              "done": true
-            },
-            {
-              "text": "2026-03-xx: The GUI doesn't fully boot, the screen flickers on and off continuously.\n2026-02-20: Resolved, the ribbon cable to the screen wasn't fully seated.",
-              "done": true
-            },
-            {
-              "text": "2026-03-xx: HVIL is missing on the IMD box HV input / output.\n2026-02-20: Resolved, Billy added in the right jumper.",
-              "done": true
-            },
-            {
-              "text": "2026-03-xx: The power steering is very noisy and doesn't idle when not in use.\n2026-03-23: Update, The power from the PMU to the steering sensor is wired wrong.\n2026-03-23: The steering angle sensor is not wired to PMU2 Output 11. Both \"ON\" and \"OFF\" have no effect on the pump noise.\n2026-04-02: Resolved, Billy fixed wiring.",
-              "done": true
-            },
-            {
-              "text": "The APP only reaches 30%. Check wiring.\n2026-03-xx: Resolved, Channel A and Channel B were swapped.",
-              "done": true
-            },
-            {
-              "text": "Almost none of the outputs seem to turn on. Pumps not running.\n2026-02-17: Resolved, PMU1 and PMU2 calibrations were switched.",
-              "done": true
-            },
-            {
-              "text": "Vehicle gets CAN errors and the battery system doesn't wake.\n2026-02-16: Resolved, The rear harness extension was pinned with the wrong gender connector but still plugged in. Brandon re-pinned one side to the correct connector.",
-              "done": true
-            },
-            {
-              "text": "Vehicle doesn't PreCharge and get's negative contactor cross-check faults.\n2026-02-17: Resolved, The HVJB and CCS LV Connectors were swapped.",
-              "done": true
-            },
-            {
-              "text": "12V was browing out. May have just been a super low 12V battery.\n2026-03-23: Resolved, Verified DCDC and hasn't happened since.",
-              "done": true
-            },
-            {
-              "text": "At normal ignition standby you get a DCDCVoltXChk fault.\n2026-03-23: Resolved, Fault no longer showing up.",
-              "done": true
-            },
-            {
-              "text": "2026-03-xx: When trying to charge you get a ChgPortContFlt.\n2026-04-15: Possibly fixed in new frimware expected by tomorrow.\n2026-04-17: Upgraded ChargeByte firmware and re-tested. Problem persists. The OBC isn't detecting pack voltage, need to check wiring and fuses to the OBC.\n2026-04-20: Resolved, Billy replaced the OBC fuse and charging now works as expected.",
-              "done": true
-            },
-            {
-              "text": "2026-03-xx: Gear changes take pretty long.",
-              "done": false
-            },
-            {
-              "text": "Ambient air temp sensor not reading correctly.\n2026-02-25: Resolved, Brandon found a pin with a bad crimp at the temp sensor.",
-              "done": true
-            },
-            {
-              "text": "2026-03-xx: Vehicle makes a shooshooshoo sound while driving. Doesn't seem to be related to brakes.\n2026-04-15: Might need a parking brake tune again, waiting on answer from Ampere about settings not allowed by VCU.",
-              "done": false
-            },
-            {
-              "text": "2026-03-23: Cabin heat system needs commissioning.\n2026-04-01: Need to commission the heat system and remove the temp PMU logic.\n2026-04-15: Have new PMU program with logic ready, will need a few hours to install then verify.\n2026-04-20: The CAN based heater need's to be enabled in the VCU. Need to schedule a meeting to unlock this option which is currently behind a paywall structure.\n2026-04-21: Corrected VCU option to enable the heater. Need to make full climate controls schematic to answer questions needed to move on.",
-              "done": false
-            },
-            {
-              "text": "2026-03-23: AC system needs commissioning.\n2026-03-31: AC works but condensate leaks onto the passenger's feet.\n2026-04-15: Resolved, Billy fixed the hose which had fallen off.",
-              "done": true
-            },
-            {
-              "text": "2026-04-01: Reverse lights don't seem to be working, it's likely wiring.\n2026-04-02: Resolved, Billy fixed wiring.\n2026-04-15: Driver side light burned out.",
-              "done": false
-            },
-            {
-              "text": "2026-04-01: Getting a negative contactor welded fault in the VCU.\n2026-04-02: Resolved, negative contactor was welded and Billy replaced it.",
-              "done": true
-            },
-            {
-              "text": "Fix the gear ratio",
-              "done": false
-            },
-            {
-              "text": "Battery type in preheim",
-              "done": false
-            },
-            {
-              "text": "2026-07-28: Dakota Digital gauges need the limits modified / disabled to hide some nuisance alarms.",
-              "done": false
-            },
-            {
-              "text": "2026-07-28: The LDU has a cap on regen that needs to be removed.",
-              "done": false
-            }
-          ],
-          "total": 23,
-          "done": 15,
-          "open": 8
-        }
+        "system": "Ampere"
       },
       "clickup_match": {
-        "found": false,
-        "error": "no_match"
+        "found": true,
+        "matched_lists": [
+          "Nolan 70 Challenger"
+        ],
+        "open_tasks": 29
       },
-      "assignees": []
+      "assignees": [
+        {
+          "name": "Ben Drinkard",
+          "tasks": [
+            {
+              "id": "868k6ebwe",
+              "name": "Bleed and test clutch assembly",
+              "status": "Open",
+              "list": "Nolan 70 Challenger",
+              "url": "https://app.clickup.com/t/868k6ebwe"
+            },
+            {
+              "id": "868gvzk8g",
+              "name": "Charge and test system",
+              "status": "Open",
+              "list": "Nolan 70 Challenger",
+              "url": "https://app.clickup.com/t/868gvzk8g"
+            },
+            {
+              "id": "868mr3a1n",
+              "name": "Clearance trans tunnel",
+              "status": "Open",
+              "list": "Nolan 70 Challenger",
+              "url": "https://app.clickup.com/t/868mr3a1n"
+            },
+            {
+              "id": "868mnchy6",
+              "name": "Engineer Support - Shifter Gasket",
+              "status": "Open",
+              "list": "Nolan 70 Challenger",
+              "url": "https://app.clickup.com/t/868mnchy6"
+            },
+            {
+              "id": "868j86ryx",
+              "name": "Install DS",
+              "status": "Open",
+              "list": "Nolan 70 Challenger",
+              "url": "https://app.clickup.com/t/868j86ryx"
+            },
+            {
+              "id": "868hpj5n4",
+              "name": "Install GUI",
+              "status": "Open",
+              "list": "Nolan 70 Challenger",
+              "url": "https://app.clickup.com/t/868hpj5n4"
+            },
+            {
+              "id": "868hphhm2",
+              "name": "Install HVAC controls",
+              "status": "Open",
+              "list": "Nolan 70 Challenger",
+              "url": "https://app.clickup.com/t/868hphhm2"
+            },
+            {
+              "id": "868hphrf5",
+              "name": "Install audio system",
+              "status": "Open",
+              "list": "Nolan 70 Challenger",
+              "url": "https://app.clickup.com/t/868hphrf5"
+            },
+            {
+              "id": "868hb23qx",
+              "name": "Install ducting",
+              "status": "Open",
+              "list": "Nolan 70 Challenger",
+              "url": "https://app.clickup.com/t/868hb23qx"
+            },
+            {
+              "id": "868g9tweb",
+              "name": "Install interior",
+              "status": "Open",
+              "list": "Nolan 70 Challenger",
+              "url": "https://app.clickup.com/t/868g9tweb"
+            },
+            {
+              "id": "868kmc1k3",
+              "name": "Install new door handles and locks",
+              "status": "Open",
+              "list": "Nolan 70 Challenger",
+              "url": "https://app.clickup.com/t/868kmc1k3"
+            },
+            {
+              "id": "868hepdqp",
+              "name": "Install shifter",
+              "status": "Open",
+              "list": "Nolan 70 Challenger",
+              "url": "https://app.clickup.com/t/868hepdqp"
+            },
+            {
+              "id": "868krmv4p",
+              "name": "Modify and install center console",
+              "status": "Open",
+              "list": "Nolan 70 Challenger",
+              "url": "https://app.clickup.com/t/868krmv4p"
+            },
+            {
+              "id": "868g3nhe1",
+              "name": "Set preliminary alignment",
+              "status": "Open",
+              "list": "Nolan 70 Challenger",
+              "url": "https://app.clickup.com/t/868g3nhe1"
+            },
+            {
+              "id": "868kbvb1c",
+              "name": "Start up vehicle",
+              "status": "Open",
+              "list": "Nolan 70 Challenger",
+              "url": "https://app.clickup.com/t/868kbvb1c"
+            }
+          ]
+        },
+        {
+          "name": "Marshall Carter",
+          "tasks": [
+            {
+              "id": "868fk7w4j",
+              "name": "Engineer Core - GUI Mount",
+              "status": "Open",
+              "list": "Nolan 70 Challenger",
+              "url": "https://app.clickup.com/t/868fk7w4j"
+            },
+            {
+              "id": "868g3my3w",
+              "name": "Engineer Support - Shifter Gasket",
+              "status": "Open",
+              "list": "Nolan 70 Challenger",
+              "url": "https://app.clickup.com/t/868g3my3w"
+            }
+          ]
+        },
+        {
+          "name": "Billy Arrasmith",
+          "tasks": [
+            {
+              "id": "868j86tw6",
+              "name": "Balance DS",
+              "status": "Open",
+              "list": "Nolan 70 Challenger",
+              "url": "https://app.clickup.com/t/868j86tw6"
+            }
+          ]
+        },
+        {
+          "name": "Brandon Beaman",
+          "tasks": [
+            {
+              "id": "868me7h90",
+              "name": "Checkout vehicle",
+              "status": "Open",
+              "list": "Nolan 70 Challenger",
+              "url": "https://app.clickup.com/t/868me7h90"
+            }
+          ]
+        },
+        {
+          "name": "Justin Landry",
+          "tasks": [
+            {
+              "id": "868mqx4m5",
+              "name": "Perform Safety Inspection",
+              "status": "Open",
+              "list": "Nolan 70 Challenger",
+              "url": "https://app.clickup.com/t/868mqx4m5"
+            }
+          ]
+        }
+      ]
     },
     {
       "owner": "Teague",
@@ -817,5 +922,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-04T15:47:22Z"
+  "generated_at": "2026-11-04T16:22:25Z"
 }
