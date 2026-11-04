@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T14:32:29.859654Z",
+  "updated_at": "2026-11-04T14:46:50.443076Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -306,7 +306,7 @@
         "matched_lists": [
           "LB 82 911"
         ],
-        "open_tasks": 29
+        "open_tasks": 30
       },
       "assignees": [
         {
@@ -374,6 +374,13 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868mnygkc"
+            },
+            {
+              "id": "868mrud8v",
+              "name": "Perform Safety Inspection",
+              "status": "Open",
+              "list": "LB 82 911",
+              "url": "https://app.clickup.com/t/868mrud8v"
             },
             {
               "id": "868j7krpv",
@@ -810,5 +817,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-04T14:32:08Z"
+  "generated_at": "2026-11-04T14:46:29Z"
 }
