@@ -1,9 +1,36 @@
 {
   "helpers": [
     {
+      "project": "Warke 61 Eldorado",
+      "total_hours": 28.0,
+      "pct_of_total": 15.3,
+      "tasks": [
+        {
+          "task": "Retest OEM wiring",
+          "hours": 16.2
+        },
+        {
+          "task": "Manufacture Product - Flying Lead Harness",
+          "hours": 6.5
+        },
+        {
+          "task": "Install radiator assembly",
+          "hours": 2.2
+        },
+        {
+          "task": "Spec and order DS",
+          "hours": 1.5
+        },
+        {
+          "task": "Machine DS adapters",
+          "hours": 1.5
+        }
+      ]
+    },
+    {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 23.0,
-      "pct_of_total": 16.1,
+      "pct_of_total": 12.6,
       "tasks": [
         {
           "task": "Install audio system",
@@ -44,47 +71,55 @@
       ]
     },
     {
-      "project": "Warke 61 Eldorado",
-      "total_hours": 21.0,
-      "pct_of_total": 14.7,
+      "project": "Nolan 70 Challenger",
+      "total_hours": 21.8,
+      "pct_of_total": 11.9,
       "tasks": [
         {
-          "task": "Retest OEM wiring",
-          "hours": 9.2
+          "task": "Bleed and test clutch assembly",
+          "hours": 9.0
         },
         {
-          "task": "Manufacture Product - Flying Lead Harness",
-          "hours": 6.5
+          "task": "Clearance trans tunnel",
+          "hours": 6.0
         },
         {
-          "task": "Install radiator assembly",
-          "hours": 2.2
+          "task": "Checkout vehicle",
+          "hours": 2.5
         },
         {
-          "task": "Spec and order DS",
-          "hours": 1.5
+          "task": "Install interior",
+          "hours": 2.0
         },
         {
-          "task": "Machine DS adapters",
-          "hours": 1.5
+          "task": "Start up vehicle",
+          "hours": 1.0
+        },
+        {
+          "task": "Troubleshoot gauge issue",
+          "hours": 1.0
+        },
+        {
+          "task": "Bleed and test system",
+          "hours": 0.2
         }
       ]
     },
     {
       "project": "LB 82 911",
-      "total_hours": 16.2,
-      "pct_of_total": 11.4,
+      "total_hours": 19.2,
+      "pct_of_total": 10.5,
       "tasks": [
         {
           "task": "Install GUI",
           "hours": 3.0
         },
         {
-          "task": "Reinstall interior",
-          "hours": 2.0
+          "task": "Modify and install seats",
+          "hours": 2.8
         },
         {
-          "task": "Modify and install seats",
+          "task": "Reinstall interior",
           "hours": 2.0
         },
         {
@@ -100,11 +135,19 @@
           "hours": 1.5
         },
         {
+          "task": "Start up vehicle",
+          "hours": 1.2
+        },
+        {
+          "task": "Configure HVAC settings",
+          "hours": 1.0
+        },
+        {
           "task": "Install frunk light",
           "hours": 1.0
         },
         {
-          "task": "Configure HVAC settings",
+          "task": "Perform Safety Inspection",
           "hours": 1.0
         },
         {
@@ -124,7 +167,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 14.8,
-      "pct_of_total": 10.4,
+      "pct_of_total": 8.0,
       "tasks": [
         {
           "task": "Add VC Harness mounting provisions",
@@ -161,47 +204,62 @@
       ]
     },
     {
-      "project": "Nolan 70 Challenger",
-      "total_hours": 11.2,
-      "pct_of_total": 7.9,
+      "project": "Loh 82 Hilux",
+      "total_hours": 14.0,
+      "pct_of_total": 7.6,
       "tasks": [
         {
-          "task": "Bleed and test clutch assembly",
-          "hours": 8.0
+          "task": "Run main cooling lines",
+          "hours": 6.5
         },
         {
-          "task": "Install interior",
-          "hours": 2.0
+          "task": "Run main HV cables",
+          "hours": 4.5
         },
         {
-          "task": "Start up vehicle",
-          "hours": 1.0
-        },
-        {
-          "task": "Bleed and test system",
-          "hours": 0.2
+          "task": "Build and install new brake lines",
+          "hours": 3.0
         }
       ]
     },
     {
-      "project": "Loh 82 Hilux",
-      "total_hours": 7.0,
-      "pct_of_total": 4.9,
+      "project": "Krafcik 02 Caterham",
+      "total_hours": 5.0,
+      "pct_of_total": 2.7,
       "tasks": [
         {
-          "task": "Run main cooling lines",
-          "hours": 3.5
+          "task": "Manufacture Core - Battery Pack Lids",
+          "hours": 2.0
         },
         {
-          "task": "Run main HV cables",
-          "hours": 3.5
+          "task": "Manufacture Core - Component Mounting Plates",
+          "hours": 1.5
+        },
+        {
+          "task": "Engineer Support - AIO Junction Box Mount",
+          "hours": 1.5
+        }
+      ]
+    },
+    {
+      "project": "Barton 59 Impala",
+      "total_hours": 4.8,
+      "pct_of_total": 2.6,
+      "tasks": [
+        {
+          "task": "Troubleshoot GUI issue",
+          "hours": 3.2
+        },
+        {
+          "task": "Checkout vehicle",
+          "hours": 1.5
         }
       ]
     },
     {
       "project": "Lee 68 Mustang",
       "total_hours": 4.5,
-      "pct_of_total": 3.2,
+      "pct_of_total": 2.5,
       "tasks": [
         {
           "task": "Troubleshoot instrumentation issue",
@@ -216,14 +274,14 @@
     {
       "project": "ICON Philbrick 41838",
       "total_hours": 4.5,
-      "pct_of_total": 3.2,
+      "pct_of_total": 2.5,
       "tasks": [
         {
-          "task": "Manufacture Product - Battery Box 2",
+          "task": "Manufacture Product - Battery Box 1",
           "hours": 1.5
         },
         {
-          "task": "Manufacture Product - Battery Box 1",
+          "task": "Manufacture Product - Battery Box 2",
           "hours": 1.5
         },
         {
@@ -231,53 +289,27 @@
           "hours": 1.5
         }
       ]
-    },
-    {
-      "project": "Barton 59 Impala",
-      "total_hours": 3.8,
-      "pct_of_total": 2.6,
-      "tasks": [
-        {
-          "task": "Troubleshoot GUI issue",
-          "hours": 3.2
-        },
-        {
-          "task": "Checkout vehicle",
-          "hours": 0.5
-        }
-      ]
-    },
-    {
-      "project": "Kelly 63 Corvette",
-      "total_hours": 3.0,
-      "pct_of_total": 2.1,
-      "tasks": [
-        {
-          "task": "Machine shock mounts",
-          "hours": 3.0
-        }
-      ]
     }
   ],
   "shop_work": {
-    "total_hours": 27.2,
-    "pct_of_total": 19.1,
-    "avg_per_person_per_day": 0.85,
+    "total_hours": 31.0,
+    "pct_of_total": 16.9,
+    "avg_per_person_per_day": 0.97,
     "flagged": false,
     "tech_count": 8,
     "working_days": 4,
     "breakdown": [
       {
-        "label": "Shop Meetings",
-        "hours": 9.2
+        "label": "EOD Time Entry/Cleanup",
+        "hours": 11.8
       },
       {
-        "label": "EOD Time Entry/Cleanup",
-        "hours": 9.0
+        "label": "Shop Meetings",
+        "hours": 11.2
       },
       {
         "label": "Organization",
-        "hours": 5.8
+        "hours": 4.8
       },
       {
         "label": "Personal Meetings",
@@ -293,7 +325,7 @@
     {
       "project": "Avalos 72 Blazer",
       "total_hours": 2.5,
-      "pct_of_total": 1.8,
+      "pct_of_total": 1.4,
       "tasks": [
         {
           "task": "Prep vehicle for sale",
@@ -308,10 +340,10 @@
     "min_hours": 1.0
   },
   "totals": {
-    "billable_hours": 112.8,
-    "non_billable_hours": 29.8,
+    "billable_hours": 149.8,
+    "non_billable_hours": 33.5,
     "pto_hours": 0.0,
-    "total_hours": 142.5
+    "total_hours": 183.2
   },
-  "generated_at": "2026-11-05T05:17:48Z"
+  "generated_at": "2026-11-05T05:32:41Z"
 }
