@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T17:02:47.056707Z",
+  "updated_at": "2026-11-05T17:17:55.335606Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -507,18 +507,18 @@
         "matched_lists": [
           "Lee 68 Mustang"
         ],
-        "open_tasks": 7
+        "open_tasks": 10
       },
       "assignees": [
         {
           "name": "Brandon Beaman",
           "tasks": [
             {
-              "id": "868kar0ru",
-              "name": "Address NVH issue",
+              "id": "868mtfmbz",
+              "name": "Break in differential",
               "status": "Open",
               "list": "Lee 68 Mustang",
-              "url": "https://app.clickup.com/t/868kar0ru"
+              "url": "https://app.clickup.com/t/868mtfmbz"
             },
             {
               "id": "868kvft7k",
@@ -528,11 +528,25 @@
               "url": "https://app.clickup.com/t/868kvft7k"
             },
             {
-              "id": "868mqx5zq",
-              "name": "Troubleshoot instrumentation issue",
+              "id": "868mtfp8t",
+              "name": "Install under-hood sound generator",
               "status": "Open",
               "list": "Lee 68 Mustang",
-              "url": "https://app.clickup.com/t/868mqx5zq"
+              "url": "https://app.clickup.com/t/868mtfp8t"
+            },
+            {
+              "id": "868mtfk2m",
+              "name": "Replace drive shaft hardware",
+              "status": "Open",
+              "list": "Lee 68 Mustang",
+              "url": "https://app.clickup.com/t/868mtfk2m"
+            },
+            {
+              "id": "868mtfhyt",
+              "name": "Troubleshoot steering noise",
+              "status": "Open",
+              "list": "Lee 68 Mustang",
+              "url": "https://app.clickup.com/t/868mtfhyt"
             }
           ]
         },
@@ -545,6 +559,18 @@
               "status": "Open",
               "list": "Lee 68 Mustang",
               "url": "https://app.clickup.com/t/868m4x2m4"
+            }
+          ]
+        },
+        {
+          "name": "Ryan Laurel",
+          "tasks": [
+            {
+              "id": "868mtfjnu",
+              "name": "Coordinate suspension alignment",
+              "status": "Open",
+              "list": "Lee 68 Mustang",
+              "url": "https://app.clickup.com/t/868mtfjnu"
             }
           ]
         }
@@ -941,5 +967,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-05T17:02:26Z"
+  "generated_at": "2026-11-05T17:17:32Z"
 }
