@@ -3,7 +3,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 28.0,
-      "pct_of_total": 15.3,
+      "pct_of_total": 15.1,
       "tasks": [
         {
           "task": "Retest OEM wiring",
@@ -30,7 +30,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 23.0,
-      "pct_of_total": 12.6,
+      "pct_of_total": 12.4,
       "tasks": [
         {
           "task": "Install audio system",
@@ -61,11 +61,11 @@
           "hours": 1.0
         },
         {
-          "task": "Terminate phase leads",
+          "task": "Engineer Core - Component Mounting Plates",
           "hours": 1.0
         },
         {
-          "task": "Engineer Core - Component Mounting Plates",
+          "task": "Terminate phase leads",
           "hours": 1.0
         }
       ]
@@ -73,7 +73,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 21.8,
-      "pct_of_total": 11.9,
+      "pct_of_total": 11.8,
       "tasks": [
         {
           "task": "Bleed and test clutch assembly",
@@ -108,7 +108,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 19.2,
-      "pct_of_total": 10.5,
+      "pct_of_total": 10.4,
       "tasks": [
         {
           "task": "Install GUI",
@@ -232,11 +232,11 @@
           "hours": 2.0
         },
         {
-          "task": "Manufacture Core - Component Mounting Plates",
+          "task": "Engineer Support - AIO Junction Box Mount",
           "hours": 1.5
         },
         {
-          "task": "Engineer Support - AIO Junction Box Mount",
+          "task": "Manufacture Core - Component Mounting Plates",
           "hours": 1.5
         }
       ]
@@ -259,7 +259,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 4.5,
-      "pct_of_total": 2.5,
+      "pct_of_total": 2.4,
       "tasks": [
         {
           "task": "Troubleshoot instrumentation issue",
@@ -274,12 +274,8 @@
     {
       "project": "ICON Philbrick 41838",
       "total_hours": 4.5,
-      "pct_of_total": 2.5,
+      "pct_of_total": 2.4,
       "tasks": [
-        {
-          "task": "Manufacture Product - Battery Box 1",
-          "hours": 1.5
-        },
         {
           "task": "Manufacture Product - Battery Box 2",
           "hours": 1.5
@@ -287,25 +283,29 @@
         {
           "task": "Manufacture Product - Battery Box 3",
           "hours": 1.5
+        },
+        {
+          "task": "Manufacture Product - Battery Box 1",
+          "hours": 1.5
         }
       ]
     }
   ],
   "shop_work": {
-    "total_hours": 31.0,
-    "pct_of_total": 16.9,
-    "avg_per_person_per_day": 0.97,
+    "total_hours": 32.0,
+    "pct_of_total": 17.3,
+    "avg_per_person_per_day": 1.0,
     "flagged": false,
     "tech_count": 8,
     "working_days": 4,
     "breakdown": [
       {
-        "label": "EOD Time Entry/Cleanup",
-        "hours": 11.8
+        "label": "Shop Meetings",
+        "hours": 12.2
       },
       {
-        "label": "Shop Meetings",
-        "hours": 11.2
+        "label": "EOD Time Entry/Cleanup",
+        "hours": 11.8
       },
       {
         "label": "Organization",
@@ -340,10 +340,10 @@
     "min_hours": 1.0
   },
   "totals": {
-    "billable_hours": 149.8,
-    "non_billable_hours": 33.5,
+    "billable_hours": 150.5,
+    "non_billable_hours": 34.5,
     "pto_hours": 0.0,
-    "total_hours": 183.2
+    "total_hours": 185.0
   },
-  "generated_at": "2026-11-05T16:46:54Z"
+  "generated_at": "2026-11-05T17:02:26Z"
 }
