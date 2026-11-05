@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T21:17:27.988890Z",
+  "updated_at": "2026-11-05T21:32:57.075653Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -293,9 +293,21 @@
         "matched_lists": [
           "Kelly 63 Corvette"
         ],
-        "open_tasks": 3
+        "open_tasks": 5
       },
       "assignees": [
+        {
+          "name": "Aharon Adams",
+          "tasks": [
+            {
+              "id": "868mtmt92",
+              "name": "Troubleshoot steering column issue",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868mtmt92"
+            }
+          ]
+        },
         {
           "name": "Billy Arrasmith",
           "tasks": [
@@ -329,6 +341,18 @@
               "status": "Open",
               "list": "Kelly 63 Corvette",
               "url": "https://app.clickup.com/t/868mrz1c0"
+            }
+          ]
+        },
+        {
+          "name": "Noah Sharif",
+          "tasks": [
+            {
+              "id": "868kwnwyc",
+              "name": "Troubleshoot steering column issue",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868kwnwyc"
             }
           ]
         }
@@ -897,7 +921,7 @@
         "matched_lists": [
           "Teague 62 Jaguar"
         ],
-        "open_tasks": 18
+        "open_tasks": 17
       },
       "assignees": [
         {
@@ -923,13 +947,6 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868mpeggz"
-            },
-            {
-              "id": "868mpeg1p",
-              "name": "Repair steering linkage",
-              "status": "Open",
-              "list": "Teague 62 Jaguar",
-              "url": "https://app.clickup.com/t/868mpeg1p"
             },
             {
               "id": "868mptbr6",
@@ -967,5 +984,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-05T21:17:01Z"
+  "generated_at": "2026-11-05T21:32:37Z"
 }
