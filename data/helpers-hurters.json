@@ -2,16 +2,16 @@
   "helpers": [
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 28.0,
-      "pct_of_total": 15.1,
+      "total_hours": 38.0,
+      "pct_of_total": 15.4,
       "tasks": [
         {
           "task": "Retest OEM wiring",
-          "hours": 16.2
+          "hours": 21.2
         },
         {
           "task": "Manufacture Product - Flying Lead Harness",
-          "hours": 6.5
+          "hours": 11.0
         },
         {
           "task": "Install radiator assembly",
@@ -24,13 +24,17 @@
         {
           "task": "Machine DS adapters",
           "hours": 1.5
+        },
+        {
+          "task": "Reinstall interior",
+          "hours": 0.5
         }
       ]
     },
     {
       "project": "Hopkins 65 Silver Cloud",
-      "total_hours": 23.0,
-      "pct_of_total": 12.4,
+      "total_hours": 31.0,
+      "pct_of_total": 12.5,
       "tasks": [
         {
           "task": "Install audio system",
@@ -38,7 +42,11 @@
         },
         {
           "task": "Install charge port",
-          "hours": 3.0
+          "hours": 6.5
+        },
+        {
+          "task": "Modify brake pedal assembly",
+          "hours": 4.5
         },
         {
           "task": "Install rear box",
@@ -57,7 +65,7 @@
           "hours": 1.0
         },
         {
-          "task": "Modify brake pedal assembly",
+          "task": "Terminate phase leads",
           "hours": 1.0
         },
         {
@@ -65,15 +73,15 @@
           "hours": 1.0
         },
         {
-          "task": "Terminate phase leads",
+          "task": "Manufacture Core -Drivetrain Mounts",
           "hours": 1.0
         }
       ]
     },
     {
       "project": "Nolan 70 Challenger",
-      "total_hours": 21.8,
-      "pct_of_total": 11.8,
+      "total_hours": 30.2,
+      "pct_of_total": 12.2,
       "tasks": [
         {
           "task": "Bleed and test clutch assembly",
@@ -84,7 +92,15 @@
           "hours": 6.0
         },
         {
+          "task": "Start up vehicle",
+          "hours": 5.0
+        },
+        {
           "task": "Checkout vehicle",
+          "hours": 2.5
+        },
+        {
+          "task": "Perform Safety Inspection",
           "hours": 2.5
         },
         {
@@ -92,12 +108,12 @@
           "hours": 2.0
         },
         {
-          "task": "Start up vehicle",
-          "hours": 1.0
+          "task": "Troubleshoot gauge issue",
+          "hours": 1.5
         },
         {
-          "task": "Troubleshoot gauge issue",
-          "hours": 1.0
+          "task": "Install DS",
+          "hours": 1.5
         },
         {
           "task": "Bleed and test system",
@@ -106,9 +122,36 @@
       ]
     },
     {
+      "project": "Loh 82 Hilux",
+      "total_hours": 19.5,
+      "pct_of_total": 7.9,
+      "tasks": [
+        {
+          "task": "Run main cooling lines",
+          "hours": 6.5
+        },
+        {
+          "task": "Run main HV cables",
+          "hours": 6.5
+        },
+        {
+          "task": "Build and install new brake lines",
+          "hours": 3.0
+        },
+        {
+          "task": "Rebuild front axle",
+          "hours": 2.0
+        },
+        {
+          "task": "Rebuild rear axle",
+          "hours": 1.5
+        }
+      ]
+    },
+    {
       "project": "LB 82 911",
-      "total_hours": 19.2,
-      "pct_of_total": 10.4,
+      "total_hours": 19.5,
+      "pct_of_total": 7.9,
       "tasks": [
         {
           "task": "Install GUI",
@@ -119,11 +162,11 @@
           "hours": 2.8
         },
         {
-          "task": "Reinstall interior",
-          "hours": 2.0
+          "task": "Checkout vehicle",
+          "hours": 2.2
         },
         {
-          "task": "Checkout vehicle",
+          "task": "Reinstall interior",
           "hours": 2.0
         },
         {
@@ -167,7 +210,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 14.8,
-      "pct_of_total": 8.0,
+      "pct_of_total": 6.0,
       "tasks": [
         {
           "task": "Add VC Harness mounting provisions",
@@ -204,29 +247,14 @@
       ]
     },
     {
-      "project": "Loh 82 Hilux",
-      "total_hours": 14.0,
-      "pct_of_total": 7.6,
-      "tasks": [
-        {
-          "task": "Run main cooling lines",
-          "hours": 6.5
-        },
-        {
-          "task": "Run main HV cables",
-          "hours": 4.5
-        },
-        {
-          "task": "Build and install new brake lines",
-          "hours": 3.0
-        }
-      ]
-    },
-    {
       "project": "Krafcik 02 Caterham",
-      "total_hours": 5.0,
-      "pct_of_total": 2.7,
+      "total_hours": 11.2,
+      "pct_of_total": 4.6,
       "tasks": [
+        {
+          "task": "Terminate all cooling lines",
+          "hours": 6.0
+        },
         {
           "task": "Manufacture Core - Battery Pack Lids",
           "hours": 2.0
@@ -238,13 +266,55 @@
         {
           "task": "Manufacture Core - Component Mounting Plates",
           "hours": 1.5
+        },
+        {
+          "task": "Install rear box",
+          "hours": 0.2
+        }
+      ]
+    },
+    {
+      "project": "Richardson 72 240Z",
+      "total_hours": 7.2,
+      "pct_of_total": 2.9,
+      "tasks": [
+        {
+          "task": "Install rear end & axles",
+          "hours": 4.0
+        },
+        {
+          "task": "Install audio system",
+          "hours": 2.0
+        },
+        {
+          "task": "Manufacture Product - Front Batt Box",
+          "hours": 1.2
+        }
+      ]
+    },
+    {
+      "project": "ICON Philbrick 41838",
+      "total_hours": 7.0,
+      "pct_of_total": 2.8,
+      "tasks": [
+        {
+          "task": "Manufacture Product - Battery Box 1",
+          "hours": 2.5
+        },
+        {
+          "task": "Manufacture Product - Battery Box 3",
+          "hours": 2.2
+        },
+        {
+          "task": "Manufacture Product - Battery Box 2",
+          "hours": 2.2
         }
       ]
     },
     {
       "project": "Barton 59 Impala",
-      "total_hours": 4.8,
-      "pct_of_total": 2.6,
+      "total_hours": 5.0,
+      "pct_of_total": 2.0,
       "tasks": [
         {
           "task": "Troubleshoot GUI issue",
@@ -252,60 +322,26 @@
         },
         {
           "task": "Checkout vehicle",
-          "hours": 1.5
-        }
-      ]
-    },
-    {
-      "project": "Lee 68 Mustang",
-      "total_hours": 4.5,
-      "pct_of_total": 2.4,
-      "tasks": [
-        {
-          "task": "Troubleshoot instrumentation issue",
-          "hours": 3.5
-        },
-        {
-          "task": "Checkout vehicle",
-          "hours": 1.0
-        }
-      ]
-    },
-    {
-      "project": "ICON Philbrick 41838",
-      "total_hours": 4.5,
-      "pct_of_total": 2.4,
-      "tasks": [
-        {
-          "task": "Manufacture Product - Battery Box 2",
-          "hours": 1.5
-        },
-        {
-          "task": "Manufacture Product - Battery Box 3",
-          "hours": 1.5
-        },
-        {
-          "task": "Manufacture Product - Battery Box 1",
-          "hours": 1.5
+          "hours": 1.8
         }
       ]
     }
   ],
   "shop_work": {
-    "total_hours": 32.0,
-    "pct_of_total": 17.3,
-    "avg_per_person_per_day": 0.8,
-    "flagged": false,
+    "total_hours": 41.5,
+    "pct_of_total": 16.8,
+    "avg_per_person_per_day": 1.04,
+    "flagged": true,
     "tech_count": 8,
     "working_days": 5,
     "breakdown": [
       {
-        "label": "Shop Meetings",
-        "hours": 12.2
+        "label": "EOD Time Entry/Cleanup",
+        "hours": 16.8
       },
       {
-        "label": "EOD Time Entry/Cleanup",
-        "hours": 11.8
+        "label": "Shop Meetings",
+        "hours": 15.2
       },
       {
         "label": "Organization",
@@ -313,7 +349,7 @@
       },
       {
         "label": "Personal Meetings",
-        "hours": 2.2
+        "hours": 3.8
       },
       {
         "label": "Errands",
@@ -325,7 +361,7 @@
     {
       "project": "Avalos 72 Blazer",
       "total_hours": 2.5,
-      "pct_of_total": 1.4,
+      "pct_of_total": 1.0,
       "tasks": [
         {
           "task": "Prep vehicle for sale",
@@ -340,10 +376,10 @@
     "min_hours": 1.0
   },
   "totals": {
-    "billable_hours": 150.5,
-    "non_billable_hours": 34.5,
+    "billable_hours": 203.2,
+    "non_billable_hours": 44.0,
     "pto_hours": 0.0,
-    "total_hours": 185.0
+    "total_hours": 247.2
   },
-  "generated_at": "2026-11-06T05:46:30Z"
+  "generated_at": "2026-11-06T06:04:34Z"
 }
