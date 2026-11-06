@@ -41,14 +41,14 @@
         {
           "date": "2026-11-05",
           "day_name": "Thursday",
-          "is_today": true,
+          "is_today": false,
           "is_weekend": false,
           "events": []
         },
         {
           "date": "2026-11-06",
           "day_name": "Friday",
-          "is_today": false,
+          "is_today": true,
           "is_weekend": false,
           "events": []
         },
@@ -243,5 +243,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-05T23:46:54Z"
+  "generated_at": "2026-11-06T00:06:06Z"
 }

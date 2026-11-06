@@ -294,10 +294,10 @@
   "shop_work": {
     "total_hours": 32.0,
     "pct_of_total": 17.3,
-    "avg_per_person_per_day": 1.0,
+    "avg_per_person_per_day": 0.8,
     "flagged": false,
     "tech_count": 8,
-    "working_days": 4,
+    "working_days": 5,
     "breakdown": [
       {
         "label": "Shop Meetings",
@@ -345,5 +345,5 @@
     "pto_hours": 0.0,
     "total_hours": 185.0
   },
-  "generated_at": "2026-11-05T23:46:54Z"
+  "generated_at": "2026-11-06T00:06:06Z"
 }
