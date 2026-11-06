@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T20:46:55.327859Z",
+  "updated_at": "2026-11-06T21:02:53.740973Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -639,19 +639,12 @@
         "matched_lists": [
           "Nolan 70 Challenger"
         ],
-        "open_tasks": 31
+        "open_tasks": 26
       },
       "assignees": [
         {
           "name": "Ben Drinkard",
           "tasks": [
-            {
-              "id": "868k6ebwe",
-              "name": "Bleed and test clutch assembly",
-              "status": "Open",
-              "list": "Nolan 70 Challenger",
-              "url": "https://app.clickup.com/t/868k6ebwe"
-            },
             {
               "id": "868gvzk8g",
               "name": "Charge and test system",
@@ -660,25 +653,11 @@
               "url": "https://app.clickup.com/t/868gvzk8g"
             },
             {
-              "id": "868mr3a1n",
-              "name": "Clearance trans tunnel",
-              "status": "Open",
-              "list": "Nolan 70 Challenger",
-              "url": "https://app.clickup.com/t/868mr3a1n"
-            },
-            {
               "id": "868mnchy6",
               "name": "Engineer Support - Shifter Gasket",
               "status": "Open",
               "list": "Nolan 70 Challenger",
               "url": "https://app.clickup.com/t/868mnchy6"
-            },
-            {
-              "id": "868j86ryx",
-              "name": "Install DS",
-              "status": "Open",
-              "list": "Nolan 70 Challenger",
-              "url": "https://app.clickup.com/t/868j86ryx"
             },
             {
               "id": "868hpj5n4",
@@ -749,20 +728,6 @@
               "status": "Open",
               "list": "Nolan 70 Challenger",
               "url": "https://app.clickup.com/t/868g3nhe1"
-            },
-            {
-              "id": "868kbvb1c",
-              "name": "Start up vehicle",
-              "status": "Open",
-              "list": "Nolan 70 Challenger",
-              "url": "https://app.clickup.com/t/868kbvb1c"
-            },
-            {
-              "id": "868mt1xz8",
-              "name": "Troubleshoot gauge issue",
-              "status": "Open",
-              "list": "Nolan 70 Challenger",
-              "url": "https://app.clickup.com/t/868mt1xz8"
             }
           ]
         },
@@ -984,5 +949,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-06T20:46:32Z"
+  "generated_at": "2026-11-06T21:02:26Z"
 }
