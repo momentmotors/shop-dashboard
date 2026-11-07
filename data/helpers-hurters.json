@@ -182,15 +182,15 @@
           "hours": 1.2
         },
         {
-          "task": "Configure HVAC settings",
-          "hours": 1.0
-        },
-        {
           "task": "Install frunk light",
           "hours": 1.0
         },
         {
           "task": "Perform Safety Inspection",
+          "hours": 1.0
+        },
+        {
+          "task": "Configure HVAC settings",
           "hours": 1.0
         },
         {
@@ -260,11 +260,11 @@
           "hours": 2.0
         },
         {
-          "task": "Engineer Support - AIO Junction Box Mount",
+          "task": "Manufacture Core - Component Mounting Plates",
           "hours": 1.5
         },
         {
-          "task": "Manufacture Core - Component Mounting Plates",
+          "task": "Engineer Support - AIO Junction Box Mount",
           "hours": 1.5
         },
         {
@@ -381,5 +381,5 @@
     "pto_hours": 0.0,
     "total_hours": 247.2
   },
-  "generated_at": "2026-11-06T23:47:20Z"
+  "generated_at": "2026-11-07T00:05:42Z"
 }
