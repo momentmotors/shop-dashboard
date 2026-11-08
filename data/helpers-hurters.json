@@ -306,11 +306,11 @@
       "pct_of_total": 3.6,
       "tasks": [
         {
-          "task": "Seal frame",
+          "task": "Install power brake assembly",
           "hours": 3.0
         },
         {
-          "task": "Install power brake assembly",
+          "task": "Seal frame",
           "hours": 3.0
         },
         {
@@ -401,5 +401,5 @@
     "pto_hours": 0.0,
     "total_hours": 302.8
   },
-  "generated_at": "2026-11-07T23:46:45Z"
+  "generated_at": "2026-11-08T00:06:28Z"
 }
