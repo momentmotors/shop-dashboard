@@ -388,12 +388,16 @@
   "project_hurters": [
     {
       "project": "Teague 62 Jaguar",
-      "total_hours": 7.0,
-      "pct_of_total": 2.3,
+      "total_hours": 8.2,
+      "pct_of_total": 2.7,
       "tasks": [
         {
           "task": "Address PDI findings",
           "hours": 7.0
+        },
+        {
+          "task": "Checkout vehicle",
+          "hours": 1.2
         }
       ]
     },
@@ -415,10 +419,10 @@
     "min_hours": 1.0
   },
   "totals": {
-    "billable_hours": 248.8,
-    "non_billable_hours": 62.0,
+    "billable_hours": 247.5,
+    "non_billable_hours": 63.2,
     "pto_hours": 0.0,
     "total_hours": 310.8
   },
-  "generated_at": "2026-11-08T16:46:42Z"
+  "generated_at": "2026-11-08T17:02:07Z"
 }
