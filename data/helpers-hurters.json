@@ -3,7 +3,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 52.8,
-      "pct_of_total": 17.4,
+      "pct_of_total": 17.0,
       "tasks": [
         {
           "task": "Retest OEM wiring",
@@ -38,7 +38,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 36.0,
-      "pct_of_total": 11.9,
+      "pct_of_total": 11.6,
       "tasks": [
         {
           "task": "Install charge port",
@@ -69,11 +69,11 @@
           "hours": 1.0
         },
         {
-          "task": "Terminate phase leads",
+          "task": "Engineer Core - Component Mounting Plates",
           "hours": 1.0
         },
         {
-          "task": "Engineer Core - Component Mounting Plates",
+          "task": "Terminate phase leads",
           "hours": 1.0
         },
         {
@@ -85,7 +85,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 30.2,
-      "pct_of_total": 10.0,
+      "pct_of_total": 9.7,
       "tasks": [
         {
           "task": "Bleed and test clutch assembly",
@@ -126,9 +126,44 @@
       ]
     },
     {
+      "project": "Loh 82 Hilux",
+      "total_hours": 21.5,
+      "pct_of_total": 6.9,
+      "tasks": [
+        {
+          "task": "Run main cooling lines",
+          "hours": 6.5
+        },
+        {
+          "task": "Run main HV cables",
+          "hours": 6.5
+        },
+        {
+          "task": "Build and install new brake lines",
+          "hours": 3.0
+        },
+        {
+          "task": "Rebuild front axle",
+          "hours": 2.0
+        },
+        {
+          "task": "Rebuild rear axle",
+          "hours": 1.5
+        },
+        {
+          "task": "Install cross steer setup",
+          "hours": 1.0
+        },
+        {
+          "task": "R&R front brake assembly",
+          "hours": 1.0
+        }
+      ]
+    },
+    {
       "project": "LB 82 911",
       "total_hours": 19.5,
-      "pct_of_total": 6.4,
+      "pct_of_total": 6.3,
       "tasks": [
         {
           "task": "Install GUI",
@@ -159,15 +194,15 @@
           "hours": 1.2
         },
         {
+          "task": "Perform Safety Inspection",
+          "hours": 1.0
+        },
+        {
           "task": "Configure HVAC settings",
           "hours": 1.0
         },
         {
           "task": "Install frunk light",
-          "hours": 1.0
-        },
-        {
-          "task": "Perform Safety Inspection",
           "hours": 1.0
         },
         {
@@ -185,36 +220,9 @@
       ]
     },
     {
-      "project": "Loh 82 Hilux",
-      "total_hours": 19.5,
-      "pct_of_total": 6.4,
-      "tasks": [
-        {
-          "task": "Run main cooling lines",
-          "hours": 6.5
-        },
-        {
-          "task": "Run main HV cables",
-          "hours": 6.5
-        },
-        {
-          "task": "Build and install new brake lines",
-          "hours": 3.0
-        },
-        {
-          "task": "Rebuild front axle",
-          "hours": 2.0
-        },
-        {
-          "task": "Rebuild rear axle",
-          "hours": 1.5
-        }
-      ]
-    },
-    {
       "project": "Krafcik 02 Caterham",
       "total_hours": 16.8,
-      "pct_of_total": 5.5,
+      "pct_of_total": 5.4,
       "tasks": [
         {
           "task": "Terminate all cooling lines",
@@ -245,7 +253,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 14.8,
-      "pct_of_total": 4.9,
+      "pct_of_total": 4.7,
       "tasks": [
         {
           "task": "Add VC Harness mounting provisions",
@@ -284,7 +292,7 @@
     {
       "project": "Richardson 72 240Z",
       "total_hours": 13.8,
-      "pct_of_total": 4.5,
+      "pct_of_total": 4.4,
       "tasks": [
         {
           "task": "Install rear end & axles",
@@ -303,7 +311,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 11.0,
-      "pct_of_total": 3.6,
+      "pct_of_total": 3.5,
       "tasks": [
         {
           "task": "Install power brake assembly",
@@ -348,24 +356,24 @@
     }
   ],
   "shop_work": {
-    "total_hours": 50.5,
-    "pct_of_total": 16.7,
-    "avg_per_person_per_day": 1.26,
+    "total_hours": 52.5,
+    "pct_of_total": 16.9,
+    "avg_per_person_per_day": 1.31,
     "flagged": true,
     "tech_count": 8,
     "working_days": 5,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 20.2
+        "hours": 20.8
       },
       {
         "label": "Shop Meetings",
-        "hours": 18.8
+        "hours": 19.2
       },
       {
         "label": "Personal Meetings",
-        "hours": 5.5
+        "hours": 6.5
       },
       {
         "label": "Organization",
@@ -396,10 +404,10 @@
     "min_hours": 1.0
   },
   "totals": {
-    "billable_hours": 249.8,
-    "non_billable_hours": 53.0,
+    "billable_hours": 255.8,
+    "non_billable_hours": 55.0,
     "pto_hours": 0.0,
-    "total_hours": 302.8
+    "total_hours": 310.8
   },
-  "generated_at": "2026-11-08T05:31:57Z"
+  "generated_at": "2026-11-08T05:46:55Z"
 }
