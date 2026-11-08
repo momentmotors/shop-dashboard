@@ -151,11 +151,11 @@
           "hours": 1.5
         },
         {
-          "task": "Install cross steer setup",
+          "task": "R&R front brake assembly",
           "hours": 1.0
         },
         {
-          "task": "R&R front brake assembly",
+          "task": "Install cross steer setup",
           "hours": 1.0
         }
       ]
@@ -387,6 +387,17 @@
   },
   "project_hurters": [
     {
+      "project": "Teague 62 Jaguar",
+      "total_hours": 7.0,
+      "pct_of_total": 2.3,
+      "tasks": [
+        {
+          "task": "Address PDI findings",
+          "hours": 7.0
+        }
+      ]
+    },
+    {
       "project": "Avalos 72 Blazer",
       "total_hours": 2.5,
       "pct_of_total": 0.8,
@@ -404,10 +415,10 @@
     "min_hours": 1.0
   },
   "totals": {
-    "billable_hours": 255.8,
-    "non_billable_hours": 55.0,
+    "billable_hours": 248.8,
+    "non_billable_hours": 62.0,
     "pto_hours": 0.0,
     "total_hours": 310.8
   },
-  "generated_at": "2026-11-08T16:32:00Z"
+  "generated_at": "2026-11-08T16:46:42Z"
 }
