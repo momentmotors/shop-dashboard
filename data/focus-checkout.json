@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T15:32:32.258368Z",
+  "updated_at": "2026-11-09T15:46:52.868893Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -886,7 +886,7 @@
         "matched_lists": [
           "Teague 62 Jaguar"
         ],
-        "open_tasks": 17
+        "open_tasks": 18
       },
       "assignees": [
         {
@@ -923,6 +923,18 @@
           ]
         },
         {
+          "name": "Billy Arrasmith",
+          "tasks": [
+            {
+              "id": "868muha03",
+              "name": "Aid in troubleshoot",
+              "status": "Open",
+              "list": "Teague 62 Jaguar",
+              "url": "https://app.clickup.com/t/868muha03"
+            }
+          ]
+        },
+        {
           "name": "Brandon Beaman",
           "tasks": [
             {
@@ -949,5 +961,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-09T15:32:05Z"
+  "generated_at": "2026-11-09T15:46:32Z"
 }
