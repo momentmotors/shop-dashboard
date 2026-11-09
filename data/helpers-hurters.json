@@ -151,11 +151,11 @@
           "hours": 1.5
         },
         {
-          "task": "R&R front brake assembly",
+          "task": "Install cross steer setup",
           "hours": 1.0
         },
         {
-          "task": "Install cross steer setup",
+          "task": "R&R front brake assembly",
           "hours": 1.0
         }
       ]
@@ -424,5 +424,5 @@
     "pto_hours": 0.0,
     "total_hours": 310.8
   },
-  "generated_at": "2026-11-09T05:46:42Z"
+  "generated_at": "2026-11-09T06:05:01Z"
 }
