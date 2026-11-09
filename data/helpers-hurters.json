@@ -3,7 +3,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 52.8,
-      "pct_of_total": 17.0,
+      "pct_of_total": 16.8,
       "tasks": [
         {
           "task": "Retest OEM wiring",
@@ -22,11 +22,11 @@
           "hours": 2.2
         },
         {
-          "task": "Machine DS adapters",
+          "task": "Spec and order DS",
           "hours": 1.5
         },
         {
-          "task": "Spec and order DS",
+          "task": "Machine DS adapters",
           "hours": 1.5
         },
         {
@@ -38,7 +38,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 36.0,
-      "pct_of_total": 11.6,
+      "pct_of_total": 11.4,
       "tasks": [
         {
           "task": "Install charge port",
@@ -69,11 +69,11 @@
           "hours": 1.0
         },
         {
-          "task": "Engineer Core - Component Mounting Plates",
+          "task": "Terminate phase leads",
           "hours": 1.0
         },
         {
-          "task": "Terminate phase leads",
+          "task": "Engineer Core - Component Mounting Plates",
           "hours": 1.0
         },
         {
@@ -84,8 +84,8 @@
     },
     {
       "project": "Nolan 70 Challenger",
-      "total_hours": 30.2,
-      "pct_of_total": 9.7,
+      "total_hours": 31.0,
+      "pct_of_total": 9.9,
       "tasks": [
         {
           "task": "Bleed and test clutch assembly",
@@ -120,6 +120,10 @@
           "hours": 1.5
         },
         {
+          "task": "Modify and install center console",
+          "hours": 0.8
+        },
+        {
           "task": "Bleed and test system",
           "hours": 0.2
         }
@@ -128,7 +132,7 @@
     {
       "project": "Loh 82 Hilux",
       "total_hours": 21.5,
-      "pct_of_total": 6.9,
+      "pct_of_total": 6.8,
       "tasks": [
         {
           "task": "Run main cooling lines",
@@ -163,7 +167,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 19.5,
-      "pct_of_total": 6.3,
+      "pct_of_total": 6.2,
       "tasks": [
         {
           "task": "Install GUI",
@@ -222,7 +226,7 @@
     {
       "project": "Krafcik 02 Caterham",
       "total_hours": 16.8,
-      "pct_of_total": 5.4,
+      "pct_of_total": 5.3,
       "tasks": [
         {
           "task": "Terminate all cooling lines",
@@ -314,11 +318,11 @@
       "pct_of_total": 3.5,
       "tasks": [
         {
-          "task": "Install power brake assembly",
+          "task": "Seal frame",
           "hours": 3.0
         },
         {
-          "task": "Seal frame",
+          "task": "Install power brake assembly",
           "hours": 3.0
         },
         {
@@ -338,7 +342,7 @@
     {
       "project": "Barton 59 Impala",
       "total_hours": 8.2,
-      "pct_of_total": 2.7,
+      "pct_of_total": 2.6,
       "tasks": [
         {
           "task": "Troubleshoot GUI issue",
@@ -356,9 +360,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 52.5,
-    "pct_of_total": 16.9,
-    "avg_per_person_per_day": 1.09,
+    "total_hours": 53.8,
+    "pct_of_total": 17.1,
+    "avg_per_person_per_day": 1.12,
     "flagged": true,
     "tech_count": 8,
     "working_days": 6,
@@ -369,7 +373,7 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 19.2
+        "hours": 19.8
       },
       {
         "label": "Personal Meetings",
@@ -377,7 +381,7 @@
       },
       {
         "label": "Organization",
-        "hours": 5.0
+        "hours": 5.8
       },
       {
         "label": "Errands",
@@ -389,7 +393,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 8.2,
-      "pct_of_total": 2.7,
+      "pct_of_total": 2.6,
       "tasks": [
         {
           "task": "Address PDI findings",
@@ -419,10 +423,10 @@
     "min_hours": 1.0
   },
   "totals": {
-    "billable_hours": 247.5,
-    "non_billable_hours": 63.2,
+    "billable_hours": 250.0,
+    "non_billable_hours": 64.5,
     "pto_hours": 0.0,
-    "total_hours": 310.8
+    "total_hours": 314.5
   },
-  "generated_at": "2026-11-09T18:04:39Z"
+  "generated_at": "2026-11-09T18:32:20Z"
 }
