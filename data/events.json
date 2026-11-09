@@ -1,82 +1,14 @@
 {
   "weeks": [
     {
-      "week_start": "2026-11-02",
-      "week_label": "Week of Nov 02",
-      "is_current_week": true,
-      "days": [
-        {
-          "date": "2026-11-02",
-          "day_name": "Monday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": [
-            {
-              "summary": "Jordan J Out",
-              "type": "pto",
-              "all_day": true
-            }
-          ]
-        },
-        {
-          "date": "2026-11-03",
-          "day_name": "Tuesday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": [
-            {
-              "summary": "Jordan J Out",
-              "type": "pto",
-              "all_day": true
-            }
-          ]
-        },
-        {
-          "date": "2026-11-04",
-          "day_name": "Wednesday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": []
-        },
-        {
-          "date": "2026-11-05",
-          "day_name": "Thursday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": []
-        },
-        {
-          "date": "2026-11-06",
-          "day_name": "Friday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": []
-        },
-        {
-          "date": "2026-11-07",
-          "day_name": "Saturday",
-          "is_today": false,
-          "is_weekend": true,
-          "events": []
-        },
-        {
-          "date": "2026-11-08",
-          "day_name": "Sunday",
-          "is_today": true,
-          "is_weekend": true,
-          "events": []
-        }
-      ]
-    },
-    {
       "week_start": "2026-11-09",
       "week_label": "Week of Nov 09",
-      "is_current_week": false,
+      "is_current_week": true,
       "days": [
         {
           "date": "2026-11-09",
           "day_name": "Monday",
-          "is_today": false,
+          "is_today": true,
           "is_weekend": false,
           "events": []
         },
@@ -241,7 +173,63 @@
           "events": []
         }
       ]
+    },
+    {
+      "week_start": "2026-11-30",
+      "week_label": "Week of Nov 30",
+      "is_current_week": false,
+      "days": [
+        {
+          "date": "2026-11-30",
+          "day_name": "Monday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": []
+        },
+        {
+          "date": "2026-12-01",
+          "day_name": "Tuesday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": []
+        },
+        {
+          "date": "2026-12-02",
+          "day_name": "Wednesday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": []
+        },
+        {
+          "date": "2026-12-03",
+          "day_name": "Thursday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": []
+        },
+        {
+          "date": "2026-12-04",
+          "day_name": "Friday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": []
+        },
+        {
+          "date": "2026-12-05",
+          "day_name": "Saturday",
+          "is_today": false,
+          "is_weekend": true,
+          "events": []
+        },
+        {
+          "date": "2026-12-06",
+          "day_name": "Sunday",
+          "is_today": false,
+          "is_weekend": true,
+          "events": []
+        }
+      ]
     }
   ],
-  "generated_at": "2026-11-08T23:46:53Z"
+  "generated_at": "2026-11-09T00:06:30Z"
 }
