@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T19:47:19.144700Z",
+  "updated_at": "2026-11-09T20:03:03.793886Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -171,9 +171,28 @@
         "matched_lists": [
           "Barton 59 Impala"
         ],
-        "open_tasks": 7
+        "open_tasks": 8
       },
       "assignees": [
+        {
+          "name": "Noah Sharif",
+          "tasks": [
+            {
+              "id": "868mun4pp",
+              "name": "Address PDI findings",
+              "status": "Open",
+              "list": "Barton 59 Impala",
+              "url": "https://app.clickup.com/t/868mun4pp"
+            },
+            {
+              "id": "868mpbrfk",
+              "name": "Aid in Instrumentation troubleshoot",
+              "status": "Open",
+              "list": "Barton 59 Impala",
+              "url": "https://app.clickup.com/t/868mpbrfk"
+            }
+          ]
+        },
         {
           "name": "Ryan Laurel",
           "tasks": [
@@ -214,18 +233,6 @@
               "status": "Open",
               "list": "Barton 59 Impala",
               "url": "https://app.clickup.com/t/868mqx4d7"
-            }
-          ]
-        },
-        {
-          "name": "Noah Sharif",
-          "tasks": [
-            {
-              "id": "868mpbrfk",
-              "name": "Aid in Instrumentation troubleshoot",
-              "status": "Open",
-              "list": "Barton 59 Impala",
-              "url": "https://app.clickup.com/t/868mpbrfk"
             }
           ]
         }
@@ -968,5 +975,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-09T19:46:59Z"
+  "generated_at": "2026-11-09T20:02:44Z"
 }
