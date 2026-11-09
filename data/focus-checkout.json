@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T22:17:10.788071Z",
+  "updated_at": "2026-11-09T22:32:33.465395Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -171,12 +171,26 @@
         "matched_lists": [
           "Barton 59 Impala"
         ],
-        "open_tasks": 8
+        "open_tasks": 10
       },
       "assignees": [
         {
           "name": "Noah Sharif",
           "tasks": [
+            {
+              "id": "868muq3ak",
+              "name": "Address PDI findings",
+              "status": "Open",
+              "list": "Barton 59 Impala",
+              "url": "https://app.clickup.com/t/868muq3ak"
+            },
+            {
+              "id": "868muq351",
+              "name": "Address PDI findings",
+              "status": "Open",
+              "list": "Barton 59 Impala",
+              "url": "https://app.clickup.com/t/868muq351"
+            },
             {
               "id": "868mun4pp",
               "name": "Address PDI findings",
@@ -975,5 +989,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-09T22:16:52Z"
+  "generated_at": "2026-11-09T22:32:11Z"
 }
