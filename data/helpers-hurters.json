@@ -2,16 +2,16 @@
   "helpers": [
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 52.8,
-      "pct_of_total": 16.8,
+      "total_hours": 59.2,
+      "pct_of_total": 15.7,
       "tasks": [
+        {
+          "task": "Manufacture Product - Flying Lead Harness",
+          "hours": 26.5
+        },
         {
           "task": "Retest OEM wiring",
           "hours": 21.2
-        },
-        {
-          "task": "Manufacture Product - Flying Lead Harness",
-          "hours": 20.0
         },
         {
           "task": "Install rear box",
@@ -37,9 +37,13 @@
     },
     {
       "project": "Hopkins 65 Silver Cloud",
-      "total_hours": 36.0,
-      "pct_of_total": 11.4,
+      "total_hours": 45.8,
+      "pct_of_total": 12.1,
       "tasks": [
+        {
+          "task": "Install evap assembly",
+          "hours": 11.0
+        },
         {
           "task": "Install charge port",
           "hours": 9.5
@@ -53,16 +57,16 @@
           "hours": 4.5
         },
         {
-          "task": "Install evap assembly",
-          "hours": 4.0
-        },
-        {
           "task": "Install rear box",
           "hours": 3.0
         },
         {
           "task": "Remove interior",
           "hours": 2.0
+        },
+        {
+          "task": "Make a game plan for gauges",
+          "hours": 1.8
         },
         {
           "task": "Install throttle pedal",
@@ -79,13 +83,17 @@
         {
           "task": "Manufacture Core -Drivetrain Mounts",
           "hours": 1.0
+        },
+        {
+          "task": "Install radiator assembly",
+          "hours": 1.0
         }
       ]
     },
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 31.0,
-      "pct_of_total": 9.9,
+      "pct_of_total": 8.2,
       "tasks": [
         {
           "task": "Bleed and test clutch assembly",
@@ -130,9 +138,48 @@
       ]
     },
     {
+      "project": "Jaffe 86 190E",
+      "total_hours": 22.0,
+      "pct_of_total": 5.8,
+      "tasks": [
+        {
+          "task": "Install front suspension components",
+          "hours": 8.5
+        },
+        {
+          "task": "Add VC Harness mounting provisions",
+          "hours": 3.5
+        },
+        {
+          "task": "Spec and order gauges",
+          "hours": 2.8
+        },
+        {
+          "task": "Terminate all main 12V power cables",
+          "hours": 2.5
+        },
+        {
+          "task": "Terminate all cooling lines",
+          "hours": 2.0
+        },
+        {
+          "task": "Remove and assess OEM gauges",
+          "hours": 1.2
+        },
+        {
+          "task": "Wire OEM interface",
+          "hours": 1.0
+        },
+        {
+          "task": "Install steering rack assembly",
+          "hours": 0.5
+        }
+      ]
+    },
+    {
       "project": "Loh 82 Hilux",
       "total_hours": 21.5,
-      "pct_of_total": 6.8,
+      "pct_of_total": 5.7,
       "tasks": [
         {
           "task": "Run main cooling lines",
@@ -155,19 +202,19 @@
           "hours": 1.5
         },
         {
-          "task": "Install cross steer setup",
+          "task": "R&R front brake assembly",
           "hours": 1.0
         },
         {
-          "task": "R&R front brake assembly",
+          "task": "Install cross steer setup",
           "hours": 1.0
         }
       ]
     },
     {
       "project": "LB 82 911",
-      "total_hours": 19.5,
-      "pct_of_total": 6.2,
+      "total_hours": 21.5,
+      "pct_of_total": 5.7,
       "tasks": [
         {
           "task": "Install GUI",
@@ -190,6 +237,10 @@
           "hours": 2.0
         },
         {
+          "task": "Address dash panel fitment issue",
+          "hours": 2.0
+        },
+        {
           "task": "Manufacture Core - Front Battery Pack Lid",
           "hours": 1.5
         },
@@ -198,15 +249,15 @@
           "hours": 1.2
         },
         {
+          "task": "Perform Safety Inspection",
+          "hours": 1.0
+        },
+        {
           "task": "Configure HVAC settings",
           "hours": 1.0
         },
         {
           "task": "Install frunk light",
-          "hours": 1.0
-        },
-        {
-          "task": "Perform Safety Inspection",
           "hours": 1.0
         },
         {
@@ -224,9 +275,32 @@
       ]
     },
     {
+      "project": "Richardson 72 240Z",
+      "total_hours": 20.8,
+      "pct_of_total": 5.5,
+      "tasks": [
+        {
+          "task": "Install rear end & axles",
+          "hours": 14.5
+        },
+        {
+          "task": "Manufacture Product - Front Batt Box",
+          "hours": 3.2
+        },
+        {
+          "task": "Install audio system",
+          "hours": 2.0
+        },
+        {
+          "task": "Manufacture Product - Rear Batt Box",
+          "hours": 1.0
+        }
+      ]
+    },
+    {
       "project": "Krafcik 02 Caterham",
       "total_hours": 16.8,
-      "pct_of_total": 5.3,
+      "pct_of_total": 4.4,
       "tasks": [
         {
           "task": "Terminate all cooling lines",
@@ -255,71 +329,13 @@
       ]
     },
     {
-      "project": "Jaffe 86 190E",
-      "total_hours": 14.8,
-      "pct_of_total": 4.7,
-      "tasks": [
-        {
-          "task": "Add VC Harness mounting provisions",
-          "hours": 3.5
-        },
-        {
-          "task": "Install front suspension components",
-          "hours": 3.0
-        },
-        {
-          "task": "Terminate all main 12V power cables",
-          "hours": 2.5
-        },
-        {
-          "task": "Terminate all cooling lines",
-          "hours": 2.0
-        },
-        {
-          "task": "Spec and order gauges",
-          "hours": 1.2
-        },
-        {
-          "task": "Remove and assess OEM gauges",
-          "hours": 1.0
-        },
-        {
-          "task": "Wire OEM interface",
-          "hours": 1.0
-        },
-        {
-          "task": "Install steering rack assembly",
-          "hours": 0.5
-        }
-      ]
-    },
-    {
-      "project": "Richardson 72 240Z",
-      "total_hours": 13.8,
-      "pct_of_total": 4.4,
-      "tasks": [
-        {
-          "task": "Install rear end & axles",
-          "hours": 10.5
-        },
-        {
-          "task": "Install audio system",
-          "hours": 2.0
-        },
-        {
-          "task": "Manufacture Product - Front Batt Box",
-          "hours": 1.2
-        }
-      ]
-    },
-    {
       "project": "Thacker 46 Woody",
-      "total_hours": 11.0,
-      "pct_of_total": 3.5,
+      "total_hours": 15.8,
+      "pct_of_total": 4.2,
       "tasks": [
         {
           "task": "Install power brake assembly",
-          "hours": 3.0
+          "hours": 5.5
         },
         {
           "task": "Seal frame",
@@ -334,16 +350,28 @@
           "hours": 1.5
         },
         {
+          "task": "Install throttle pedal",
+          "hours": 1.5
+        },
+        {
           "task": "Manufacture Product - Batt Box 1",
           "hours": 1.2
+        },
+        {
+          "task": "Scan brake booster mount",
+          "hours": 0.8
         }
       ]
     },
     {
       "project": "Barton 59 Impala",
-      "total_hours": 8.2,
-      "pct_of_total": 2.6,
+      "total_hours": 13.8,
+      "pct_of_total": 3.6,
       "tasks": [
+        {
+          "task": "Address Suspension PDI findings",
+          "hours": 5.5
+        },
         {
           "task": "Troubleshoot GUI issue",
           "hours": 3.2
@@ -360,28 +388,28 @@
     }
   ],
   "shop_work": {
-    "total_hours": 53.8,
-    "pct_of_total": 17.1,
-    "avg_per_person_per_day": 0.96,
-    "flagged": false,
+    "total_hours": 67.2,
+    "pct_of_total": 17.8,
+    "avg_per_person_per_day": 1.2,
+    "flagged": true,
     "tech_count": 8,
     "working_days": 7,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 20.8
+        "hours": 24.8
       },
       {
         "label": "Shop Meetings",
-        "hours": 19.8
-      },
-      {
-        "label": "Personal Meetings",
-        "hours": 6.5
+        "hours": 23.2
       },
       {
         "label": "Organization",
-        "hours": 5.8
+        "hours": 10.5
+      },
+      {
+        "label": "Personal Meetings",
+        "hours": 7.8
       },
       {
         "label": "Errands",
@@ -393,7 +421,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 8.2,
-      "pct_of_total": 2.6,
+      "pct_of_total": 2.2,
       "tasks": [
         {
           "task": "Address PDI findings",
@@ -408,7 +436,7 @@
     {
       "project": "Avalos 72 Blazer",
       "total_hours": 2.5,
-      "pct_of_total": 0.8,
+      "pct_of_total": 0.7,
       "tasks": [
         {
           "task": "Prep vehicle for sale",
@@ -423,10 +451,10 @@
     "min_hours": 1.0
   },
   "totals": {
-    "billable_hours": 250.0,
-    "non_billable_hours": 64.5,
+    "billable_hours": 299.2,
+    "non_billable_hours": 78.0,
     "pto_hours": 0.0,
-    "total_hours": 314.5
+    "total_hours": 377.2
   },
-  "generated_at": "2026-11-10T05:18:06Z"
+  "generated_at": "2026-11-10T05:32:17Z"
 }
