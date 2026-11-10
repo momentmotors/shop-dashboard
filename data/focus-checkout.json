@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T17:46:55.199063Z",
+  "updated_at": "2026-11-10T18:03:12.732163Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -669,7 +669,7 @@
         "matched_lists": [
           "Nolan 70 Challenger"
         ],
-        "open_tasks": 26
+        "open_tasks": 27
       },
       "assignees": [
         {
@@ -762,6 +762,25 @@
           ]
         },
         {
+          "name": "Brandon Beaman",
+          "tasks": [
+            {
+              "id": "868me7h90",
+              "name": "Checkout vehicle",
+              "status": "Open",
+              "list": "Nolan 70 Challenger",
+              "url": "https://app.clickup.com/t/868me7h90"
+            },
+            {
+              "id": "868mv1x7f",
+              "name": "Troubleshoot over current issue",
+              "status": "Open",
+              "list": "Nolan 70 Challenger",
+              "url": "https://app.clickup.com/t/868mv1x7f"
+            }
+          ]
+        },
+        {
           "name": "Marshall Carter",
           "tasks": [
             {
@@ -789,18 +808,6 @@
               "status": "Open",
               "list": "Nolan 70 Challenger",
               "url": "https://app.clickup.com/t/868j86tw6"
-            }
-          ]
-        },
-        {
-          "name": "Brandon Beaman",
-          "tasks": [
-            {
-              "id": "868me7h90",
-              "name": "Checkout vehicle",
-              "status": "Open",
-              "list": "Nolan 70 Challenger",
-              "url": "https://app.clickup.com/t/868me7h90"
             }
           ]
         },
@@ -991,5 +998,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-10T17:46:37Z"
+  "generated_at": "2026-11-10T18:02:53Z"
 }
