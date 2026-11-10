@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T21:46:53.180829Z",
+  "updated_at": "2026-11-10T22:03:24.282494Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -577,6 +577,18 @@
           ]
         },
         {
+          "name": "David Webber",
+          "tasks": [
+            {
+              "id": "868mtfhyt",
+              "name": "Troubleshoot steering noise",
+              "status": "Open",
+              "list": "Lee 68 Mustang",
+              "url": "https://app.clickup.com/t/868mtfhyt"
+            }
+          ]
+        },
+        {
           "name": "Justin Landry",
           "tasks": [
             {
@@ -970,5 +982,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-10T21:46:30Z"
+  "generated_at": "2026-11-10T22:02:48Z"
 }
