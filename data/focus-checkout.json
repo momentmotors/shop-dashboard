@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T21:17:47.340548Z",
+  "updated_at": "2026-11-10T21:32:23.874732Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -400,19 +400,12 @@
         "matched_lists": [
           "LB 82 911"
         ],
-        "open_tasks": 30
+        "open_tasks": 26
       },
       "assignees": [
         {
           "name": "Aharon Adams",
           "tasks": [
-            {
-              "id": "868mrkdtq",
-              "name": "Add defrost fuse/holder",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868mrkdtq"
-            },
             {
               "id": "868knrzc6",
               "name": "Address dash panel fitment issue",
@@ -421,25 +414,11 @@
               "url": "https://app.clickup.com/t/868knrzc6"
             },
             {
-              "id": "868mrkd59",
-              "name": "Finalize gauge illumination",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868mrkd59"
-            },
-            {
               "id": "868j7kkze",
               "name": "Install GUI",
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868j7kkze"
-            },
-            {
-              "id": "868mrkdh1",
-              "name": "Install frunk light",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868mrkdh1"
             },
             {
               "id": "868mrke3g",
@@ -468,13 +447,6 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868mnygkc"
-            },
-            {
-              "id": "868mrud8v",
-              "name": "Perform Safety Inspection",
-              "status": "Open",
-              "list": "LB 82 911",
-              "url": "https://app.clickup.com/t/868mrud8v"
             },
             {
               "id": "868mt2rtd",
@@ -998,5 +970,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-10T21:17:13Z"
+  "generated_at": "2026-11-10T21:32:04Z"
 }
