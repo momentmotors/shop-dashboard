@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T17:32:25.753993Z",
+  "updated_at": "2026-11-10T17:46:55.199063Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -335,28 +335,9 @@
         "matched_lists": [
           "Kelly 63 Corvette"
         ],
-        "open_tasks": 6
+        "open_tasks": 4
       },
       "assignees": [
-        {
-          "name": "Billy Arrasmith",
-          "tasks": [
-            {
-              "id": "868mrjg83",
-              "name": "Machine shock mounts",
-              "status": "Open",
-              "list": "Kelly 63 Corvette",
-              "url": "https://app.clickup.com/t/868mrjg83"
-            },
-            {
-              "id": "868j27kw5",
-              "name": "Troubleshoot PRND issue",
-              "status": "Open",
-              "list": "Kelly 63 Corvette",
-              "url": "https://app.clickup.com/t/868j27kw5"
-            }
-          ]
-        },
         {
           "name": "Aharon Adams",
           "tasks": [
@@ -1010,5 +991,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-10T17:32:03Z"
+  "generated_at": "2026-11-10T17:46:37Z"
 }
