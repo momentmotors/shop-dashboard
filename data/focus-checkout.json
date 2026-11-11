@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T16:47:33.987695Z",
+  "updated_at": "2026-11-11T17:02:45.259910Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -907,7 +907,7 @@
         "matched_lists": [
           "Teague 62 Jaguar"
         ],
-        "open_tasks": 19
+        "open_tasks": 20
       },
       "assignees": [
         {
@@ -933,6 +933,13 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868mpeggz"
+            },
+            {
+              "id": "868mvckfe",
+              "name": "Re-bleed motor cooling circuit",
+              "status": "Open",
+              "list": "Teague 62 Jaguar",
+              "url": "https://app.clickup.com/t/868mvckfe"
             },
             {
               "id": "868mptbr6",
@@ -989,5 +996,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-11T16:47:10Z"
+  "generated_at": "2026-11-11T17:02:28Z"
 }
