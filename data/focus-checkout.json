@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T17:32:37.713537Z",
+  "updated_at": "2026-11-11T17:47:25.202039Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -171,7 +171,7 @@
         "matched_lists": [
           "Barton 59 Impala"
         ],
-        "open_tasks": 13
+        "open_tasks": 14
       },
       "assignees": [
         {
@@ -190,6 +190,13 @@
               "status": "Open",
               "list": "Barton 59 Impala",
               "url": "https://app.clickup.com/t/868muq5g9"
+            },
+            {
+              "id": "868mvd4jq",
+              "name": "Address HVAC PDI findings",
+              "status": "Open",
+              "list": "Barton 59 Impala",
+              "url": "https://app.clickup.com/t/868mvd4jq"
             },
             {
               "id": "868muq5b6",
@@ -996,5 +1003,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-11T17:32:06Z"
+  "generated_at": "2026-11-11T17:47:06Z"
 }
