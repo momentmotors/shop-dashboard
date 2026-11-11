@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T14:47:20.139760Z",
+  "updated_at": "2026-11-11T15:03:01.348261Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -907,7 +907,7 @@
         "matched_lists": [
           "Teague 62 Jaguar"
         ],
-        "open_tasks": 18
+        "open_tasks": 19
       },
       "assignees": [
         {
@@ -940,6 +940,13 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868mptbr6"
+            },
+            {
+              "id": "868mvb43x",
+              "name": "Test fast charging",
+              "status": "Open",
+              "list": "Teague 62 Jaguar",
+              "url": "https://app.clickup.com/t/868mvb43x"
             }
           ]
         },
@@ -982,5 +989,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-11T14:47:01Z"
+  "generated_at": "2026-11-11T15:02:38Z"
 }
