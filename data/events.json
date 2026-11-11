@@ -156,7 +156,13 @@
           "day_name": "Friday",
           "is_today": false,
           "is_weekend": false,
-          "events": []
+          "events": [
+            {
+              "summary": "Dave W Out",
+              "type": "pto",
+              "all_day": true
+            }
+          ]
         },
         {
           "date": "2026-11-28",
@@ -212,7 +218,13 @@
           "day_name": "Friday",
           "is_today": false,
           "is_weekend": false,
-          "events": []
+          "events": [
+            {
+              "summary": "Dave W Out",
+              "type": "pto",
+              "all_day": true
+            }
+          ]
         },
         {
           "date": "2026-12-05",
@@ -231,5 +243,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-11T16:33:12Z"
+  "generated_at": "2026-11-11T16:47:10Z"
 }
