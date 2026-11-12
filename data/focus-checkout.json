@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T16:32:31.228200Z",
+  "updated_at": "2026-11-12T16:46:58.460014Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -660,12 +660,19 @@
         "matched_lists": [
           "Nolan 70 Challenger"
         ],
-        "open_tasks": 27
+        "open_tasks": 33
       },
       "assignees": [
         {
           "name": "Ben Drinkard",
           "tasks": [
+            {
+              "id": "868mvpgb9",
+              "name": "Blance clutch assebly",
+              "status": "Open",
+              "list": "Nolan 70 Challenger",
+              "url": "https://app.clickup.com/t/868mvpgb9"
+            },
             {
               "id": "868gvzk8g",
               "name": "Charge and test system",
@@ -702,6 +709,13 @@
               "url": "https://app.clickup.com/t/868hphrf5"
             },
             {
+              "id": "868mvpfmg",
+              "name": "Install clutch switch",
+              "status": "Open",
+              "list": "Nolan 70 Challenger",
+              "url": "https://app.clickup.com/t/868mvpfmg"
+            },
+            {
               "id": "868hb23qx",
               "name": "Install ducting",
               "status": "Open",
@@ -730,6 +744,13 @@
               "url": "https://app.clickup.com/t/868hepdqp"
             },
             {
+              "id": "868mvpgwg",
+              "name": "Install steering sensor on column",
+              "status": "Open",
+              "list": "Nolan 70 Challenger",
+              "url": "https://app.clickup.com/t/868mvpgwg"
+            },
+            {
               "id": "868krmv4p",
               "name": "Modify and install center console",
               "status": "Open",
@@ -742,6 +763,20 @@
               "status": "Open",
               "list": "Nolan 70 Challenger",
               "url": "https://app.clickup.com/t/868mt2n3z"
+            },
+            {
+              "id": "868mvpfd3",
+              "name": "Plug radiator overflow ports",
+              "status": "Open",
+              "list": "Nolan 70 Challenger",
+              "url": "https://app.clickup.com/t/868mvpfd3"
+            },
+            {
+              "id": "868mvpg5k",
+              "name": "Re-gear differential",
+              "status": "Open",
+              "list": "Nolan 70 Challenger",
+              "url": "https://app.clickup.com/t/868mvpg5k"
             },
             {
               "id": "868g3nhe1",
@@ -811,6 +846,18 @@
               "status": "Open",
               "list": "Nolan 70 Challenger",
               "url": "https://app.clickup.com/t/868mqx4m5"
+            }
+          ]
+        },
+        {
+          "name": "Ryan Laurel",
+          "tasks": [
+            {
+              "id": "868mvpfzm",
+              "name": "Make a game plan for windshield install",
+              "status": "Open",
+              "list": "Nolan 70 Challenger",
+              "url": "https://app.clickup.com/t/868mvpfzm"
             }
           ]
         }
@@ -1003,5 +1050,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-12T16:32:11Z"
+  "generated_at": "2026-11-12T16:46:35Z"
 }
