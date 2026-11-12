@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T17:47:20.884736Z",
+  "updated_at": "2026-11-12T18:03:55.121991Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -342,9 +342,28 @@
         "matched_lists": [
           "Kelly 63 Corvette"
         ],
-        "open_tasks": 4
+        "open_tasks": 6
       },
       "assignees": [
+        {
+          "name": "Noah Sharif",
+          "tasks": [
+            {
+              "id": "868kwnwyc",
+              "name": "Troubleshoot steering column issue",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868kwnwyc"
+            },
+            {
+              "id": "868mvqc5c",
+              "name": "Wash vehicle",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868mvqc5c"
+            }
+          ]
+        },
         {
           "name": "Aharon Adams",
           "tasks": [
@@ -354,6 +373,18 @@
               "status": "Open",
               "list": "Kelly 63 Corvette",
               "url": "https://app.clickup.com/t/868mtmt92"
+            }
+          ]
+        },
+        {
+          "name": "Billy Arrasmith",
+          "tasks": [
+            {
+              "id": "868mvqbq2",
+              "name": "Install AC vent",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868mvqbq2"
             }
           ]
         },
@@ -378,18 +409,6 @@
               "status": "Open",
               "list": "Kelly 63 Corvette",
               "url": "https://app.clickup.com/t/868mrz1c0"
-            }
-          ]
-        },
-        {
-          "name": "Noah Sharif",
-          "tasks": [
-            {
-              "id": "868kwnwyc",
-              "name": "Troubleshoot steering column issue",
-              "status": "Open",
-              "list": "Kelly 63 Corvette",
-              "url": "https://app.clickup.com/t/868kwnwyc"
             }
           ]
         }
@@ -668,7 +687,7 @@
           "tasks": [
             {
               "id": "868mvpgb9",
-              "name": "Blance clutch assebly",
+              "name": "Balance clutch assembly",
               "status": "Open",
               "list": "Nolan 70 Challenger",
               "url": "https://app.clickup.com/t/868mvpgb9"
@@ -1050,5 +1069,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-12T17:47:00Z"
+  "generated_at": "2026-11-12T18:03:31Z"
 }
