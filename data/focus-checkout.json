@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T19:02:51.234213Z",
+  "updated_at": "2026-11-12T19:17:26.423313Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -559,7 +559,7 @@
         "matched_lists": [
           "Lee 68 Mustang"
         ],
-        "open_tasks": 10
+        "open_tasks": 9
       },
       "assignees": [
         {
@@ -585,13 +585,6 @@
               "status": "Open",
               "list": "Lee 68 Mustang",
               "url": "https://app.clickup.com/t/868mtfp8t"
-            },
-            {
-              "id": "868mtfk2m",
-              "name": "Replace drive shaft hardware",
-              "status": "Open",
-              "list": "Lee 68 Mustang",
-              "url": "https://app.clickup.com/t/868mtfk2m"
             },
             {
               "id": "868mtfhyt",
@@ -980,7 +973,7 @@
         "matched_lists": [
           "Teague 62 Jaguar"
         ],
-        "open_tasks": 20
+        "open_tasks": 17
       },
       "assignees": [
         {
@@ -1001,32 +994,11 @@
               "url": "https://app.clickup.com/t/868mpz8e3"
             },
             {
-              "id": "868mpeggz",
-              "name": "Center steering wheel",
-              "status": "Open",
-              "list": "Teague 62 Jaguar",
-              "url": "https://app.clickup.com/t/868mpeggz"
-            },
-            {
-              "id": "868mvckfe",
-              "name": "Re-bleed motor cooling circuit",
-              "status": "Open",
-              "list": "Teague 62 Jaguar",
-              "url": "https://app.clickup.com/t/868mvckfe"
-            },
-            {
               "id": "868mptbr6",
               "name": "Reseal brake master",
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868mptbr6"
-            },
-            {
-              "id": "868mvb43x",
-              "name": "Test fast charging",
-              "status": "Open",
-              "list": "Teague 62 Jaguar",
-              "url": "https://app.clickup.com/t/868mvb43x"
             }
           ]
         },
@@ -1069,5 +1041,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-12T19:02:28Z"
+  "generated_at": "2026-11-12T19:17:08Z"
 }
