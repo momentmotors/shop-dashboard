@@ -496,12 +496,20 @@
   "project_hurters": [
     {
       "project": "Teague 62 Jaguar",
-      "total_hours": 4.2,
-      "pct_of_total": 0.8,
+      "total_hours": 10.2,
+      "pct_of_total": 2.0,
       "tasks": [
+        {
+          "task": "Aid in troubleshoot",
+          "hours": 4.0
+        },
         {
           "task": "Address PDI findings",
           "hours": 3.0
+        },
+        {
+          "task": "Re-bleed motor cooling circuit",
+          "hours": 2.0
         },
         {
           "task": "Checkout vehicle",
@@ -531,10 +539,10 @@
     "min_hours": 1.0
   },
   "totals": {
-    "billable_hours": 414.5,
-    "non_billable_hours": 98.2,
+    "billable_hours": 408.5,
+    "non_billable_hours": 104.2,
     "pto_hours": 2.0,
     "total_hours": 512.8
   },
-  "generated_at": "2026-11-12T15:47:15Z"
+  "generated_at": "2026-11-12T16:02:42Z"
 }
