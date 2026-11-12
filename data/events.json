@@ -22,14 +22,14 @@
         {
           "date": "2026-11-11",
           "day_name": "Wednesday",
-          "is_today": true,
+          "is_today": false,
           "is_weekend": false,
           "events": []
         },
         {
           "date": "2026-11-12",
           "day_name": "Thursday",
-          "is_today": false,
+          "is_today": true,
           "is_weekend": false,
           "events": []
         },
@@ -243,5 +243,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-11T23:46:36Z"
+  "generated_at": "2026-11-12T00:06:33Z"
 }
