@@ -275,53 +275,6 @@
       ]
     },
     {
-      "project": "Barton 59 Impala",
-      "total_hours": 26.2,
-      "pct_of_total": 5.1,
-      "tasks": [
-        {
-          "task": "Address Suspension PDI findings",
-          "hours": 5.5
-        },
-        {
-          "task": "Troubleshoot GUI issue",
-          "hours": 3.2
-        },
-        {
-          "task": "Perform PDI",
-          "hours": 3.2
-        },
-        {
-          "task": "Address HVAC PDI findings",
-          "hours": 3.0
-        },
-        {
-          "task": "Checkout vehicle",
-          "hours": 2.2
-        },
-        {
-          "task": "Address Steering PDI findings",
-          "hours": 2.2
-        },
-        {
-          "task": "Address Exterior PDI findings",
-          "hours": 2.2
-        },
-        {
-          "task": "Address Interior PDI findings",
-          "hours": 2.2
-        },
-        {
-          "task": "Address Motor&Trans PDI findings",
-          "hours": 2.0
-        },
-        {
-          "task": "Address Wiring OEM PDI findings",
-          "hours": 0.2
-        }
-      ]
-    },
-    {
       "project": "Richardson 72 240Z",
       "total_hours": 26.2,
       "pct_of_total": 5.1,
@@ -457,6 +410,33 @@
           "hours": 0.5
         }
       ]
+    },
+    {
+      "project": "Kelly 63 Corvette",
+      "total_hours": 18.8,
+      "pct_of_total": 3.7,
+      "tasks": [
+        {
+          "task": "Troubleshoot steering column issue",
+          "hours": 11.5
+        },
+        {
+          "task": "Machine shock mounts",
+          "hours": 3.0
+        },
+        {
+          "task": "Troubleshoot PRND issue",
+          "hours": 3.0
+        },
+        {
+          "task": "Test drive vehicle",
+          "hours": 1.0
+        },
+        {
+          "task": "Checkout vehicle",
+          "hours": 0.2
+        }
+      ]
     }
   ],
   "shop_work": {
@@ -494,6 +474,41 @@
     ]
   },
   "project_hurters": [
+    {
+      "project": "Barton 59 Impala",
+      "total_hours": 18.5,
+      "pct_of_total": 3.6,
+      "tasks": [
+        {
+          "task": "Address Suspension PDI findings",
+          "hours": 5.5
+        },
+        {
+          "task": "Troubleshoot GUI issue",
+          "hours": 3.2
+        },
+        {
+          "task": "Address HVAC PDI findings",
+          "hours": 3.0
+        },
+        {
+          "task": "Checkout vehicle",
+          "hours": 2.2
+        },
+        {
+          "task": "Address Steering PDI findings",
+          "hours": 2.2
+        },
+        {
+          "task": "Address Motor&Trans PDI findings",
+          "hours": 2.0
+        },
+        {
+          "task": "Address Wiring OEM PDI findings",
+          "hours": 0.2
+        }
+      ]
+    },
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 10.2,
@@ -539,10 +554,10 @@
     "min_hours": 1.0
   },
   "totals": {
-    "billable_hours": 408.5,
-    "non_billable_hours": 104.2,
+    "billable_hours": 390.0,
+    "non_billable_hours": 122.8,
     "pto_hours": 2.0,
     "total_hours": 512.8
   },
-  "generated_at": "2026-11-12T16:02:42Z"
+  "generated_at": "2026-11-12T16:19:46Z"
 }
