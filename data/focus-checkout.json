@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T20:18:13.863853Z",
+  "updated_at": "2026-11-13T20:32:25.909713Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -171,7 +171,7 @@
         "matched_lists": [
           "Barton 59 Impala"
         ],
-        "open_tasks": 13
+        "open_tasks": 12
       },
       "assignees": [
         {
@@ -232,18 +232,6 @@
               "status": "Open",
               "list": "Barton 59 Impala",
               "url": "https://app.clickup.com/t/868muq5k2"
-            }
-          ]
-        },
-        {
-          "name": "Brandon Beaman",
-          "tasks": [
-            {
-              "id": "868jxv7zn",
-              "name": "Checkout vehicle",
-              "status": "Open",
-              "list": "Barton 59 Impala",
-              "url": "https://app.clickup.com/t/868jxv7zn"
             }
           ]
         },
@@ -1048,5 +1036,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-13T20:17:57Z"
+  "generated_at": "2026-11-13T20:32:08Z"
 }
