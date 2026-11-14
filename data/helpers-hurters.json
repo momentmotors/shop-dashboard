@@ -281,12 +281,12 @@
     },
     {
       "project": "Kelly 63 Corvette",
-      "total_hours": 30.8,
-      "pct_of_total": 4.9,
+      "total_hours": 30.2,
+      "pct_of_total": 4.8,
       "tasks": [
         {
           "task": "Troubleshoot steering column issue",
-          "hours": 20.5
+          "hours": 20.0
         },
         {
           "task": "Machine shock mounts",
@@ -523,6 +523,41 @@
   },
   "project_hurters": [
     {
+      "project": "Teague 62 Jaguar",
+      "total_hours": 20.2,
+      "pct_of_total": 3.2,
+      "tasks": [
+        {
+          "task": "Address PDI findings",
+          "hours": 7.0
+        },
+        {
+          "task": "Aid in troubleshoot",
+          "hours": 6.0
+        },
+        {
+          "task": "Checkout vehicle",
+          "hours": 2.2
+        },
+        {
+          "task": "Re-bleed motor cooling circuit",
+          "hours": 2.0
+        },
+        {
+          "task": "Test fast charging",
+          "hours": 1.0
+        },
+        {
+          "task": "Re-glue carpet",
+          "hours": 1.0
+        },
+        {
+          "task": "Address door squeak",
+          "hours": 1.0
+        }
+      ]
+    },
+    {
       "project": "Barton 59 Impala",
       "total_hours": 18.5,
       "pct_of_total": 2.9,
@@ -558,29 +593,6 @@
       ]
     },
     {
-      "project": "Teague 62 Jaguar",
-      "total_hours": 10.2,
-      "pct_of_total": 1.6,
-      "tasks": [
-        {
-          "task": "Aid in troubleshoot",
-          "hours": 4.0
-        },
-        {
-          "task": "Address PDI findings",
-          "hours": 3.0
-        },
-        {
-          "task": "Re-bleed motor cooling circuit",
-          "hours": 2.0
-        },
-        {
-          "task": "Checkout vehicle",
-          "hours": 1.2
-        }
-      ]
-    },
-    {
       "project": "Avalos 72 Blazer",
       "total_hours": 4.0,
       "pct_of_total": 0.6,
@@ -597,15 +609,15 @@
     }
   ],
   "hurters_below_floor": {
-    "count": 0,
-    "hours": 0.0,
+    "count": 1,
+    "hours": 0.5,
     "min_hours": 1.0
   },
   "totals": {
-    "billable_hours": 488.0,
-    "non_billable_hours": 140.5,
+    "billable_hours": 477.5,
+    "non_billable_hours": 151.0,
     "pto_hours": 2.0,
     "total_hours": 628.5
   },
-  "generated_at": "2026-11-14T19:46:32Z"
+  "generated_at": "2026-11-14T20:02:07Z"
 }
