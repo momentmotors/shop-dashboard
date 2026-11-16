@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T23:02:40.215809Z",
+  "updated_at": "2026-11-16T23:17:06.088262Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -442,7 +442,7 @@
         "matched_lists": [
           "LB 82 911"
         ],
-        "open_tasks": 26
+        "open_tasks": 27
       },
       "assignees": [
         {
@@ -496,6 +496,13 @@
               "status": "Open",
               "list": "LB 82 911",
               "url": "https://app.clickup.com/t/868mt2rtd"
+            },
+            {
+              "id": "1gacn4pq2f6",
+              "name": "R&R rear valance",
+              "status": "Open",
+              "list": "LB 82 911",
+              "url": "https://app.clickup.com/t/1gacn4pq2f6"
             },
             {
               "id": "868j7krpv",
@@ -695,7 +702,7 @@
         "matched_lists": [
           "Nolan 70 Challenger"
         ],
-        "open_tasks": 32
+        "open_tasks": 29
       },
       "assignees": [
         {
@@ -744,13 +751,6 @@
               "url": "https://app.clickup.com/t/868hphrf5"
             },
             {
-              "id": "868mvpfmg",
-              "name": "Install clutch switch",
-              "status": "Open",
-              "list": "Nolan 70 Challenger",
-              "url": "https://app.clickup.com/t/868mvpfmg"
-            },
-            {
               "id": "868hb23qx",
               "name": "Install ducting",
               "status": "Open",
@@ -779,13 +779,6 @@
               "url": "https://app.clickup.com/t/868hepdqp"
             },
             {
-              "id": "868mvpgwg",
-              "name": "Install steering sensor on column",
-              "status": "Open",
-              "list": "Nolan 70 Challenger",
-              "url": "https://app.clickup.com/t/868mvpgwg"
-            },
-            {
               "id": "868krmv4p",
               "name": "Modify and install center console",
               "status": "Open",
@@ -798,13 +791,6 @@
               "status": "Open",
               "list": "Nolan 70 Challenger",
               "url": "https://app.clickup.com/t/868mt2n3z"
-            },
-            {
-              "id": "868mvpfd3",
-              "name": "Plug radiator overflow ports",
-              "status": "Open",
-              "list": "Nolan 70 Challenger",
-              "url": "https://app.clickup.com/t/868mvpfd3"
             },
             {
               "id": "868g3nhe1",
@@ -1078,5 +1064,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-16T23:02:15Z"
+  "generated_at": "2026-11-16T23:16:29Z"
 }
