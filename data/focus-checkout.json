@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T20:47:24.273007Z",
+  "updated_at": "2026-11-16T21:02:33.909774Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -323,12 +323,33 @@
         "matched_lists": [
           "Kelly 63 Corvette"
         ],
-        "open_tasks": 6
+        "open_tasks": 10
       },
       "assignees": [
         {
           "name": "Noah Sharif",
           "tasks": [
+            {
+              "id": "1gacn4pq1e6",
+              "name": "Address Brakes PDI findings",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/1gacn4pq1e6"
+            },
+            {
+              "id": "1gacn4pq1f2",
+              "name": "Address HV Wiring PDI findings",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/1gacn4pq1f2"
+            },
+            {
+              "id": "1gacn4pq1eb",
+              "name": "Address Suspension PDI findings",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/1gacn4pq1eb"
+            },
             {
               "id": "868kwnwyc",
               "name": "Troubleshoot steering column issue",
@@ -346,6 +367,25 @@
           ]
         },
         {
+          "name": "Billy Arrasmith",
+          "tasks": [
+            {
+              "id": "1gacn4pq1eh",
+              "name": "Address driveshaft hardware issue",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/1gacn4pq1eh"
+            },
+            {
+              "id": "868mvqbq2",
+              "name": "Install AC vent",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868mvqbq2"
+            }
+          ]
+        },
+        {
           "name": "Aharon Adams",
           "tasks": [
             {
@@ -354,18 +394,6 @@
               "status": "Open",
               "list": "Kelly 63 Corvette",
               "url": "https://app.clickup.com/t/868mtmt92"
-            }
-          ]
-        },
-        {
-          "name": "Billy Arrasmith",
-          "tasks": [
-            {
-              "id": "868mvqbq2",
-              "name": "Install AC vent",
-              "status": "Open",
-              "list": "Kelly 63 Corvette",
-              "url": "https://app.clickup.com/t/868mvqbq2"
             }
           ]
         },
@@ -1043,5 +1071,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-16T20:46:46Z"
+  "generated_at": "2026-11-16T21:02:11Z"
 }
