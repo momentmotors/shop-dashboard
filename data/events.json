@@ -80,7 +80,13 @@
           "day_name": "Wednesday",
           "is_today": false,
           "is_weekend": false,
-          "events": []
+          "events": [
+            {
+              "summary": "Marc Out",
+              "type": "pto",
+              "all_day": true
+            }
+          ]
         },
         {
           "date": "2026-11-26",
@@ -88,6 +94,11 @@
           "is_today": false,
           "is_weekend": false,
           "events": [
+            {
+              "summary": "Marc Out",
+              "type": "pto",
+              "all_day": true
+            },
             {
               "summary": "Moment Holiday (Thanksgiving)",
               "type": "shop",
@@ -102,12 +113,17 @@
           "is_weekend": false,
           "events": [
             {
+              "summary": "Dave W Out",
+              "type": "pto",
+              "all_day": true
+            },
+            {
               "summary": "Ryan L Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Dave W Out",
+              "summary": "Marc Out",
               "type": "pto",
               "all_day": true
             }
@@ -248,5 +264,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-16T21:46:47Z"
+  "generated_at": "2026-11-16T22:02:21Z"
 }
