@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T21:17:20.945140Z",
+  "updated_at": "2026-11-16T21:32:58.627156Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -171,7 +171,7 @@
         "matched_lists": [
           "Barton 59 Impala"
         ],
-        "open_tasks": 12
+        "open_tasks": 13
       },
       "assignees": [
         {
@@ -232,6 +232,13 @@
               "status": "Open",
               "list": "Barton 59 Impala",
               "url": "https://app.clickup.com/t/868muq5k2"
+            },
+            {
+              "id": "1gacn4pq1jt",
+              "name": "Relocate dash box",
+              "status": "Open",
+              "list": "Barton 59 Impala",
+              "url": "https://app.clickup.com/t/1gacn4pq1jt"
             }
           ]
         },
@@ -1071,5 +1078,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-16T21:16:50Z"
+  "generated_at": "2026-11-16T21:32:36Z"
 }
