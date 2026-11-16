@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T22:17:22.748525Z",
+  "updated_at": "2026-11-16T22:32:18.205282Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -807,18 +807,30 @@
               "url": "https://app.clickup.com/t/868mvpfd3"
             },
             {
-              "id": "868mvpg5k",
-              "name": "Re-gear differential",
-              "status": "Open",
-              "list": "Nolan 70 Challenger",
-              "url": "https://app.clickup.com/t/868mvpg5k"
-            },
-            {
               "id": "868g3nhe1",
               "name": "Set preliminary alignment",
               "status": "Open",
               "list": "Nolan 70 Challenger",
               "url": "https://app.clickup.com/t/868g3nhe1"
+            }
+          ]
+        },
+        {
+          "name": "Billy Arrasmith",
+          "tasks": [
+            {
+              "id": "868j86tw6",
+              "name": "Balance DS",
+              "status": "Open",
+              "list": "Nolan 70 Challenger",
+              "url": "https://app.clickup.com/t/868j86tw6"
+            },
+            {
+              "id": "868mvpg5k",
+              "name": "Re-gear differential",
+              "status": "Open",
+              "list": "Nolan 70 Challenger",
+              "url": "https://app.clickup.com/t/868mvpg5k"
             }
           ]
         },
@@ -838,18 +850,6 @@
               "status": "Open",
               "list": "Nolan 70 Challenger",
               "url": "https://app.clickup.com/t/868g3my3w"
-            }
-          ]
-        },
-        {
-          "name": "Billy Arrasmith",
-          "tasks": [
-            {
-              "id": "868j86tw6",
-              "name": "Balance DS",
-              "status": "Open",
-              "list": "Nolan 70 Challenger",
-              "url": "https://app.clickup.com/t/868j86tw6"
             }
           ]
         },
@@ -1078,5 +1078,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-16T22:16:59Z"
+  "generated_at": "2026-11-16T22:31:54Z"
 }
