@@ -20,8 +20,8 @@
     },
     "vs_last_week": {
       "label": "vs Last Week",
-      "value": 77.9,
-      "delta": -1.9
+      "value": 74.1,
+      "delta": 1.9
     },
     "vs_target": {
       "label": "vs Target",
@@ -191,5 +191,5 @@
       "total_hours": 54.8
     }
   ],
-  "generated_at": "2026-11-15T23:46:49Z"
+  "generated_at": "2026-11-16T00:07:03Z"
 }

@@ -414,15 +414,15 @@
           "hours": 1.2
         },
         {
-          "task": "Configure HVAC settings",
-          "hours": 1.0
-        },
-        {
           "task": "Install frunk light",
           "hours": 1.0
         },
         {
           "task": "Perform Safety Inspection",
+          "hours": 1.0
+        },
+        {
+          "task": "Configure HVAC settings",
           "hours": 1.0
         },
         {
@@ -490,10 +490,10 @@
   "shop_work": {
     "total_hours": 107.8,
     "pct_of_total": 17.1,
-    "avg_per_person_per_day": 1.35,
+    "avg_per_person_per_day": 1.22,
     "flagged": true,
     "tech_count": 8,
-    "working_days": 10,
+    "working_days": 11,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
@@ -548,11 +548,11 @@
           "hours": 1.0
         },
         {
-          "task": "Re-glue carpet",
+          "task": "Address door squeak",
           "hours": 1.0
         },
         {
-          "task": "Address door squeak",
+          "task": "Re-glue carpet",
           "hours": 1.0
         }
       ]
@@ -619,5 +619,5 @@
     "pto_hours": 2.0,
     "total_hours": 628.5
   },
-  "generated_at": "2026-11-15T23:46:49Z"
+  "generated_at": "2026-11-16T00:07:03Z"
 }
