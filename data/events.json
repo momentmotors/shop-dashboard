@@ -105,6 +105,11 @@
               "summary": "Dave W Out",
               "type": "pto",
               "all_day": true
+            },
+            {
+              "summary": "Ryan L Out",
+              "type": "pto",
+              "all_day": true
             }
           ]
         },
@@ -243,5 +248,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-16T16:19:19Z"
+  "generated_at": "2026-11-16T16:32:08Z"
 }
