@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T23:17:06.088262Z",
+  "updated_at": "2026-11-16T23:32:43.880632Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -16,26 +16,10 @@
         "system": "AEM"
       },
       "clickup_match": {
-        "found": true,
-        "matched_lists": [
-          "Avalos 72 Blazer"
-        ],
-        "open_tasks": 1
+        "found": false,
+        "error": "no_match"
       },
-      "assignees": [
-        {
-          "name": "Justin Landry",
-          "tasks": [
-            {
-              "id": "868mamm46",
-              "name": "Prep vehicle for sale",
-              "status": "Open",
-              "list": "Avalos 72 Blazer",
-              "url": "https://app.clickup.com/t/868mamm46"
-            }
-          ]
-        }
-      ]
+      "assignees": []
     },
     {
       "owner": "Barton",
@@ -171,7 +155,7 @@
         "matched_lists": [
           "Barton 59 Impala"
         ],
-        "open_tasks": 13
+        "open_tasks": 12
       },
       "assignees": [
         {
@@ -239,18 +223,6 @@
               "status": "Open",
               "list": "Barton 59 Impala",
               "url": "https://app.clickup.com/t/1gacn4pq1jt"
-            }
-          ]
-        },
-        {
-          "name": "Justin Landry",
-          "tasks": [
-            {
-              "id": "868mqx4d7",
-              "name": "Perform PDI",
-              "status": "Open",
-              "list": "Barton 59 Impala",
-              "url": "https://app.clickup.com/t/868mqx4d7"
             }
           ]
         },
@@ -975,7 +947,7 @@
         "matched_lists": [
           "Teague 62 Jaguar"
         ],
-        "open_tasks": 20
+        "open_tasks": 19
       },
       "assignees": [
         {
@@ -1048,21 +1020,9 @@
               "url": "https://app.clickup.com/t/868khu6f8"
             }
           ]
-        },
-        {
-          "name": "Justin Landry",
-          "tasks": [
-            {
-              "id": "868m4x320",
-              "name": "Perform PDI",
-              "status": "Open",
-              "list": "Teague 62 Jaguar",
-              "url": "https://app.clickup.com/t/868m4x320"
-            }
-          ]
         }
       ]
     }
   ],
-  "generated_at": "2026-11-16T23:16:29Z"
+  "generated_at": "2026-11-16T23:32:07Z"
 }
