@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T23:32:35.549687Z",
+  "updated_at": "2026-11-17T23:46:49.531449Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -674,7 +674,7 @@
         "matched_lists": [
           "Nolan 70 Challenger"
         ],
-        "open_tasks": 30
+        "open_tasks": 32
       },
       "assignees": [
         {
@@ -770,6 +770,20 @@
               "status": "Open",
               "list": "Nolan 70 Challenger",
               "url": "https://app.clickup.com/t/868g3nhe1"
+            },
+            {
+              "id": "1gacn4pq79q",
+              "name": "Troubleshoot drivetrain noise",
+              "status": "Open",
+              "list": "Nolan 70 Challenger",
+              "url": "https://app.clickup.com/t/1gacn4pq79q"
+            },
+            {
+              "id": "1gacn4pq7dt",
+              "name": "Wire in service port for EPAS testing",
+              "status": "Open",
+              "list": "Nolan 70 Challenger",
+              "url": "https://app.clickup.com/t/1gacn4pq7dt"
             }
           ]
         },
@@ -1024,5 +1038,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-17T23:32:13Z"
+  "generated_at": "2026-11-17T23:46:17Z"
 }
