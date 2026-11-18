@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T18:19:11.098165Z",
+  "updated_at": "2026-11-18T18:32:36.287258Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -155,7 +155,7 @@
         "matched_lists": [
           "Barton 59 Impala"
         ],
-        "open_tasks": 12
+        "open_tasks": 5
       },
       "assignees": [
         {
@@ -167,55 +167,6 @@
               "status": "Open",
               "list": "Barton 59 Impala",
               "url": "https://app.clickup.com/t/868muq68d"
-            },
-            {
-              "id": "868muq5g9",
-              "name": "Address Exterior PDI findings",
-              "status": "Open",
-              "list": "Barton 59 Impala",
-              "url": "https://app.clickup.com/t/868muq5g9"
-            },
-            {
-              "id": "868mvd4jq",
-              "name": "Address HVAC PDI findings",
-              "status": "Open",
-              "list": "Barton 59 Impala",
-              "url": "https://app.clickup.com/t/868mvd4jq"
-            },
-            {
-              "id": "868muq5b6",
-              "name": "Address Interior PDI findings",
-              "status": "Open",
-              "list": "Barton 59 Impala",
-              "url": "https://app.clickup.com/t/868muq5b6"
-            },
-            {
-              "id": "868muq351",
-              "name": "Address Motor&Trans PDI findings",
-              "status": "Open",
-              "list": "Barton 59 Impala",
-              "url": "https://app.clickup.com/t/868muq351"
-            },
-            {
-              "id": "868muq3ak",
-              "name": "Address Steering PDI findings",
-              "status": "Open",
-              "list": "Barton 59 Impala",
-              "url": "https://app.clickup.com/t/868muq3ak"
-            },
-            {
-              "id": "868mun4pp",
-              "name": "Address Suspension PDI findings",
-              "status": "Open",
-              "list": "Barton 59 Impala",
-              "url": "https://app.clickup.com/t/868mun4pp"
-            },
-            {
-              "id": "868muq5k2",
-              "name": "Address Wiring OEM PDI findings",
-              "status": "Open",
-              "list": "Barton 59 Impala",
-              "url": "https://app.clickup.com/t/868muq5k2"
             },
             {
               "id": "1gacn4pq1jt",
@@ -1038,5 +989,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-18T18:18:47Z"
+  "generated_at": "2026-11-18T18:32:11Z"
 }
