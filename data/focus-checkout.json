@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T21:02:57.677791Z",
+  "updated_at": "2026-11-18T21:17:38.672123Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -253,7 +253,7 @@
         "matched_lists": [
           "Kelly 63 Corvette"
         ],
-        "open_tasks": 9
+        "open_tasks": 8
       },
       "assignees": [
         {
@@ -305,18 +305,6 @@
               "status": "Open",
               "list": "Kelly 63 Corvette",
               "url": "https://app.clickup.com/t/868mtmt92"
-            }
-          ]
-        },
-        {
-          "name": "Billy Arrasmith",
-          "tasks": [
-            {
-              "id": "868mvqbq2",
-              "name": "Install AC vent",
-              "status": "Open",
-              "list": "Kelly 63 Corvette",
-              "url": "https://app.clickup.com/t/868mvqbq2"
             }
           ]
         },
@@ -982,5 +970,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-18T21:02:26Z"
+  "generated_at": "2026-11-18T21:17:06Z"
 }
