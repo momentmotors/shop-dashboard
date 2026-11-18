@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T23:46:49.531449Z",
+  "updated_at": "2026-11-18T00:06:47.930018Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -302,7 +302,7 @@
         "matched_lists": [
           "Kelly 63 Corvette"
         ],
-        "open_tasks": 10
+        "open_tasks": 9
       },
       "assignees": [
         {
@@ -346,25 +346,6 @@
           ]
         },
         {
-          "name": "Billy Arrasmith",
-          "tasks": [
-            {
-              "id": "1gacn4pq1eh",
-              "name": "Address driveshaft hardware issue",
-              "status": "Open",
-              "list": "Kelly 63 Corvette",
-              "url": "https://app.clickup.com/t/1gacn4pq1eh"
-            },
-            {
-              "id": "868mvqbq2",
-              "name": "Install AC vent",
-              "status": "Open",
-              "list": "Kelly 63 Corvette",
-              "url": "https://app.clickup.com/t/868mvqbq2"
-            }
-          ]
-        },
-        {
           "name": "Aharon Adams",
           "tasks": [
             {
@@ -373,6 +354,18 @@
               "status": "Open",
               "list": "Kelly 63 Corvette",
               "url": "https://app.clickup.com/t/868mtmt92"
+            }
+          ]
+        },
+        {
+          "name": "Billy Arrasmith",
+          "tasks": [
+            {
+              "id": "868mvqbq2",
+              "name": "Install AC vent",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868mvqbq2"
             }
           ]
         },
@@ -1038,5 +1031,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-17T23:46:17Z"
+  "generated_at": "2026-11-18T00:06:27Z"
 }
