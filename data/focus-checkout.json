@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T16:47:16.811183Z",
+  "updated_at": "2026-11-19T17:02:47.859260Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -486,7 +486,7 @@
         "matched_lists": [
           "Lee 68 Mustang"
         ],
-        "open_tasks": 10
+        "open_tasks": 11
       },
       "assignees": [
         {
@@ -526,6 +526,18 @@
               "status": "Open",
               "list": "Lee 68 Mustang",
               "url": "https://app.clickup.com/t/868mtfhyt"
+            }
+          ]
+        },
+        {
+          "name": "Billy Arrasmith",
+          "tasks": [
+            {
+              "id": "868hygk5k",
+              "name": "Balance DS",
+              "status": "Open",
+              "list": "Lee 68 Mustang",
+              "url": "https://app.clickup.com/t/868hygk5k"
             }
           ]
         },
@@ -720,6 +732,25 @@
           ]
         },
         {
+          "name": "Aharon Adams",
+          "tasks": [
+            {
+              "id": "1gacn4pq799",
+              "name": "Aid in drivetrain noise troublshoot",
+              "status": "Open",
+              "list": "Nolan 70 Challenger",
+              "url": "https://app.clickup.com/t/1gacn4pq799"
+            },
+            {
+              "id": "868g3nhe1",
+              "name": "Set preliminary alignment",
+              "status": "Open",
+              "list": "Nolan 70 Challenger",
+              "url": "https://app.clickup.com/t/868g3nhe1"
+            }
+          ]
+        },
+        {
           "name": "Billy Arrasmith",
           "tasks": [
             {
@@ -754,18 +785,6 @@
               "status": "Open",
               "list": "Nolan 70 Challenger",
               "url": "https://app.clickup.com/t/868g3my3w"
-            }
-          ]
-        },
-        {
-          "name": "Aharon Adams",
-          "tasks": [
-            {
-              "id": "1gacn4pq799",
-              "name": "Aid in drivetrain noise troublshoot",
-              "status": "Open",
-              "list": "Nolan 70 Challenger",
-              "url": "https://app.clickup.com/t/1gacn4pq799"
             }
           ]
         },
@@ -970,5 +989,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-19T16:46:49Z"
+  "generated_at": "2026-11-19T17:02:15Z"
 }
