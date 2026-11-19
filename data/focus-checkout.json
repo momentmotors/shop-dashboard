@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T20:18:45.280904Z",
+  "updated_at": "2026-11-19T20:32:32.608080Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -486,7 +486,7 @@
         "matched_lists": [
           "Lee 68 Mustang"
         ],
-        "open_tasks": 11
+        "open_tasks": 10
       },
       "assignees": [
         {
@@ -519,13 +519,6 @@
               "status": "Open",
               "list": "Lee 68 Mustang",
               "url": "https://app.clickup.com/t/1gacn4pq1c1"
-            },
-            {
-              "id": "868mtfhyt",
-              "name": "Troubleshoot steering noise",
-              "status": "Open",
-              "list": "Lee 68 Mustang",
-              "url": "https://app.clickup.com/t/868mtfhyt"
             }
           ]
         },
@@ -538,18 +531,6 @@
               "status": "Open",
               "list": "Lee 68 Mustang",
               "url": "https://app.clickup.com/t/868hygk5k"
-            }
-          ]
-        },
-        {
-          "name": "David Webber",
-          "tasks": [
-            {
-              "id": "868mtfhyt",
-              "name": "Troubleshoot steering noise",
-              "status": "Open",
-              "list": "Lee 68 Mustang",
-              "url": "https://app.clickup.com/t/868mtfhyt"
             }
           ]
         },
@@ -924,56 +905,9 @@
         "matched_lists": [
           "Teague 62 Jaguar"
         ],
-        "open_tasks": 18
+        "open_tasks": 12
       },
       "assignees": [
-        {
-          "name": "David Webber",
-          "tasks": [
-            {
-              "id": "868mpz8vk",
-              "name": "Address PDI findings",
-              "status": "Open",
-              "list": "Teague 62 Jaguar",
-              "url": "https://app.clickup.com/t/868mpz8vk"
-            },
-            {
-              "id": "868mpz8e3",
-              "name": "Address PDI findings",
-              "status": "Open",
-              "list": "Teague 62 Jaguar",
-              "url": "https://app.clickup.com/t/868mpz8e3"
-            },
-            {
-              "id": "868mw11p6",
-              "name": "Address door squeak",
-              "status": "Open",
-              "list": "Teague 62 Jaguar",
-              "url": "https://app.clickup.com/t/868mw11p6"
-            },
-            {
-              "id": "868mw11tc",
-              "name": "Re-glue carpet",
-              "status": "Open",
-              "list": "Teague 62 Jaguar",
-              "url": "https://app.clickup.com/t/868mw11tc"
-            },
-            {
-              "id": "1gacn4pq1cq",
-              "name": "Repair A-pillar wood trim",
-              "status": "Open",
-              "list": "Teague 62 Jaguar",
-              "url": "https://app.clickup.com/t/1gacn4pq1cq"
-            },
-            {
-              "id": "868mptbr6",
-              "name": "Reseal brake master",
-              "status": "Open",
-              "list": "Teague 62 Jaguar",
-              "url": "https://app.clickup.com/t/868mptbr6"
-            }
-          ]
-        },
         {
           "name": "Brandon Beaman",
           "tasks": [
@@ -989,5 +923,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-19T20:18:20Z"
+  "generated_at": "2026-11-19T20:32:06Z"
 }
