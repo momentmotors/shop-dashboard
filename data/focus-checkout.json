@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T22:17:21.318889Z",
+  "updated_at": "2026-11-19T22:31:55.133529Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -886,23 +886,10 @@
         "matched_lists": [
           "Teague 62 Jaguar"
         ],
-        "open_tasks": 12
+        "open_tasks": 11
       },
-      "assignees": [
-        {
-          "name": "Brandon Beaman",
-          "tasks": [
-            {
-              "id": "868khu6f8",
-              "name": "Checkout vehicle",
-              "status": "Open",
-              "list": "Teague 62 Jaguar",
-              "url": "https://app.clickup.com/t/868khu6f8"
-            }
-          ]
-        }
-      ]
+      "assignees": []
     }
   ],
-  "generated_at": "2026-11-19T22:16:54Z"
+  "generated_at": "2026-11-19T22:31:33Z"
 }
