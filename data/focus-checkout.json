@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T22:02:57.378466Z",
+  "updated_at": "2026-11-19T22:17:21.318889Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -253,7 +253,7 @@
         "matched_lists": [
           "Kelly 63 Corvette"
         ],
-        "open_tasks": 8
+        "open_tasks": 7
       },
       "assignees": [
         {
@@ -305,18 +305,6 @@
               "status": "Open",
               "list": "Kelly 63 Corvette",
               "url": "https://app.clickup.com/t/868mtmt92"
-            }
-          ]
-        },
-        {
-          "name": "Brandon Beaman",
-          "tasks": [
-            {
-              "id": "868krf6f9",
-              "name": "Checkout vehicle",
-              "status": "Open",
-              "list": "Kelly 63 Corvette",
-              "url": "https://app.clickup.com/t/868krf6f9"
             }
           ]
         },
@@ -486,7 +474,7 @@
         "matched_lists": [
           "Lee 68 Mustang"
         ],
-        "open_tasks": 10
+        "open_tasks": 9
       },
       "assignees": [
         {
@@ -512,13 +500,6 @@
               "status": "Open",
               "list": "Lee 68 Mustang",
               "url": "https://app.clickup.com/t/868mtfp8t"
-            },
-            {
-              "id": "1gacn4pq1c1",
-              "name": "Replace luxury liner",
-              "status": "Open",
-              "list": "Lee 68 Mustang",
-              "url": "https://app.clickup.com/t/1gacn4pq1c1"
             }
           ]
         },
@@ -923,5 +904,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-19T22:02:20Z"
+  "generated_at": "2026-11-19T22:16:54Z"
 }
