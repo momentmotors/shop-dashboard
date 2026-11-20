@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T18:20:51.573022Z",
+  "updated_at": "2026-11-20T18:33:10.185631Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -474,7 +474,7 @@
         "matched_lists": [
           "Lee 68 Mustang"
         ],
-        "open_tasks": 9
+        "open_tasks": 8
       },
       "assignees": [
         {
@@ -526,18 +526,6 @@
               "url": "https://app.clickup.com/t/868m4x2m4"
             }
           ]
-        },
-        {
-          "name": "Ryan Laurel",
-          "tasks": [
-            {
-              "id": "868mtfjnu",
-              "name": "Coordinate suspension alignment",
-              "status": "Open",
-              "list": "Lee 68 Mustang",
-              "url": "https://app.clickup.com/t/868mtfjnu"
-            }
-          ]
         }
       ]
     },
@@ -580,7 +568,7 @@
         "matched_lists": [
           "Nolan 70 Challenger"
         ],
-        "open_tasks": 30
+        "open_tasks": 29
       },
       "assignees": [
         {
@@ -773,18 +761,6 @@
               "url": "https://app.clickup.com/t/868mqx4m5"
             }
           ]
-        },
-        {
-          "name": "Ryan Laurel",
-          "tasks": [
-            {
-              "id": "868mvpfzm",
-              "name": "Make a game plan for windshield install",
-              "status": "Open",
-              "list": "Nolan 70 Challenger",
-              "url": "https://app.clickup.com/t/868mvpfzm"
-            }
-          ]
         }
       ]
     },
@@ -891,5 +867,5 @@
       "assignees": []
     }
   ],
-  "generated_at": "2026-11-20T18:20:22Z"
+  "generated_at": "2026-11-20T18:32:47Z"
 }
