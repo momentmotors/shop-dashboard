@@ -3,7 +3,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 102.2,
-      "pct_of_total": 12.3,
+      "pct_of_total": 11.6,
       "tasks": [
         {
           "task": "Manufacture Core -Drivetrain Mounts",
@@ -81,8 +81,8 @@
     },
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 90.8,
-      "pct_of_total": 10.9,
+      "total_hours": 94.5,
+      "pct_of_total": 10.7,
       "tasks": [
         {
           "task": "Manufacture Product - Flying Lead Harness",
@@ -90,7 +90,7 @@
         },
         {
           "task": "Manufacture Product - VC Harness",
-          "hours": 23.2
+          "hours": 27.0
         },
         {
           "task": "Retest OEM wiring",
@@ -120,8 +120,8 @@
     },
     {
       "project": "Nolan 70 Challenger",
-      "total_hours": 67.8,
-      "pct_of_total": 8.2,
+      "total_hours": 68.2,
+      "pct_of_total": 7.8,
       "tasks": [
         {
           "task": "Re-gear differential",
@@ -133,7 +133,7 @@
         },
         {
           "task": "Checkout vehicle",
-          "hours": 7.8
+          "hours": 8.2
         },
         {
           "task": "Clearance trans tunnel",
@@ -202,9 +202,119 @@
       ]
     },
     {
+      "project": "Jaffe 86 190E",
+      "total_hours": 59.0,
+      "pct_of_total": 6.7,
+      "tasks": [
+        {
+          "task": "Manufacture Product - VC Harness",
+          "hours": 15.0
+        },
+        {
+          "task": "Install front suspension components",
+          "hours": 8.5
+        },
+        {
+          "task": "Manufacturing Support - Knuckle Steering Arms",
+          "hours": 7.5
+        },
+        {
+          "task": "Make a game plan for calipers",
+          "hours": 5.2
+        },
+        {
+          "task": "Add VC Harness mounting provisions",
+          "hours": 4.0
+        },
+        {
+          "task": "Spec and order gauges",
+          "hours": 3.5
+        },
+        {
+          "task": "Install tie-rod bracket",
+          "hours": 3.5
+        },
+        {
+          "task": "Terminate all main 12V power cables",
+          "hours": 2.5
+        },
+        {
+          "task": "Find alternative wheels",
+          "hours": 2.5
+        },
+        {
+          "task": "Remove and assess OEM gauges",
+          "hours": 2.2
+        },
+        {
+          "task": "Terminate all cooling lines",
+          "hours": 2.0
+        },
+        {
+          "task": "Wire OEM interface",
+          "hours": 1.0
+        },
+        {
+          "task": "Manufacture Product - Flying Lead Harness",
+          "hours": 1.0
+        },
+        {
+          "task": "Install steering rack assembly",
+          "hours": 0.5
+        }
+      ]
+    },
+    {
+      "project": "Kelly 63 Corvette",
+      "total_hours": 49.2,
+      "pct_of_total": 5.6,
+      "tasks": [
+        {
+          "task": "Troubleshoot steering column issue",
+          "hours": 22.2
+        },
+        {
+          "task": "Address Suspension PDI findings",
+          "hours": 7.8
+        },
+        {
+          "task": "Perform PDI",
+          "hours": 4.5
+        },
+        {
+          "task": "Machine shock mounts",
+          "hours": 3.0
+        },
+        {
+          "task": "Troubleshoot PRND issue",
+          "hours": 3.0
+        },
+        {
+          "task": "Address Brakes PDI findings",
+          "hours": 2.2
+        },
+        {
+          "task": "Wash vehicle",
+          "hours": 2.0
+        },
+        {
+          "task": "Test drive vehicle",
+          "hours": 1.8
+        },
+        {
+          "task": "Checkout vehicle",
+          "hours": 1.8
+        },
+        {
+          "task": "Install AC vent",
+          "hours": 1.0
+        }
+      ]
+    },
+    {
       "project": "Thacker 46 Woody",
       "total_hours": 48.5,
-      "pct_of_total": 5.8,
+      "pct_of_total": 5.5,
       "tasks": [
         {
           "task": "Facilitate paint work",
@@ -269,115 +379,9 @@
       ]
     },
     {
-      "project": "Jaffe 86 190E",
-      "total_hours": 46.2,
-      "pct_of_total": 5.6,
-      "tasks": [
-        {
-          "task": "Manufacture Product - VC Harness",
-          "hours": 9.2
-        },
-        {
-          "task": "Install front suspension components",
-          "hours": 8.5
-        },
-        {
-          "task": "Manufacturing Support - Knuckle Steering Arms",
-          "hours": 7.5
-        },
-        {
-          "task": "Add VC Harness mounting provisions",
-          "hours": 4.0
-        },
-        {
-          "task": "Spec and order gauges",
-          "hours": 3.5
-        },
-        {
-          "task": "Install tie-rod bracket",
-          "hours": 3.5
-        },
-        {
-          "task": "Terminate all main 12V power cables",
-          "hours": 2.5
-        },
-        {
-          "task": "Remove and assess OEM gauges",
-          "hours": 2.2
-        },
-        {
-          "task": "Terminate all cooling lines",
-          "hours": 2.0
-        },
-        {
-          "task": "Wire OEM interface",
-          "hours": 1.0
-        },
-        {
-          "task": "Manufacture Product - Flying Lead Harness",
-          "hours": 1.0
-        },
-        {
-          "task": "Make a game plan for calipers",
-          "hours": 0.8
-        },
-        {
-          "task": "Install steering rack assembly",
-          "hours": 0.5
-        }
-      ]
-    },
-    {
-      "project": "Kelly 63 Corvette",
-      "total_hours": 46.2,
-      "pct_of_total": 5.6,
-      "tasks": [
-        {
-          "task": "Troubleshoot steering column issue",
-          "hours": 22.2
-        },
-        {
-          "task": "Address Suspension PDI findings",
-          "hours": 4.8
-        },
-        {
-          "task": "Perform PDI",
-          "hours": 4.5
-        },
-        {
-          "task": "Machine shock mounts",
-          "hours": 3.0
-        },
-        {
-          "task": "Troubleshoot PRND issue",
-          "hours": 3.0
-        },
-        {
-          "task": "Address Brakes PDI findings",
-          "hours": 2.2
-        },
-        {
-          "task": "Wash vehicle",
-          "hours": 2.0
-        },
-        {
-          "task": "Test drive vehicle",
-          "hours": 1.8
-        },
-        {
-          "task": "Checkout vehicle",
-          "hours": 1.8
-        },
-        {
-          "task": "Install AC vent",
-          "hours": 1.0
-        }
-      ]
-    },
-    {
       "project": "Richardson 72 240Z",
-      "total_hours": 37.8,
-      "pct_of_total": 4.5,
+      "total_hours": 40.8,
+      "pct_of_total": 4.6,
       "tasks": [
         {
           "task": "Install rear end & axles",
@@ -386,6 +390,10 @@
         {
           "task": "Manufacture Product - Front Batt Box",
           "hours": 5.2
+        },
+        {
+          "task": "Run main cooling lines",
+          "hours": 3.5
         },
         {
           "task": "Manufacture Product - Rear Batt Box",
@@ -406,17 +414,13 @@
         {
           "task": "Install phone mount",
           "hours": 0.5
-        },
-        {
-          "task": "Run main cooling lines",
-          "hours": 0.5
         }
       ]
     },
     {
       "project": "ICON Philbrick 41838",
-      "total_hours": 30.5,
-      "pct_of_total": 3.7,
+      "total_hours": 35.8,
+      "pct_of_total": 4.1,
       "tasks": [
         {
           "task": "Manufacture Product - Battery Box 1",
@@ -431,11 +435,23 @@
           "hours": 7.2
         },
         {
+          "task": "Manufacture Support - Brake Pedal",
+          "hours": 2.0
+        },
+        {
+          "task": "Manufacture Core - Front Batt Pack Mounts",
+          "hours": 2.0
+        },
+        {
           "task": "Manufacture Product - Battery Boxes",
           "hours": 1.8
         },
         {
           "task": "Conduct Vehicle Requirements meeting",
+          "hours": 1.5
+        },
+        {
+          "task": "Manufacture Core -Drivetrain Mounts",
           "hours": 1.5
         },
         {
@@ -457,17 +473,13 @@
         {
           "task": "Manufacture Core - AC Compressor Mount",
           "hours": 0.2
-        },
-        {
-          "task": "Manufacture Core -Drivetrain Mounts",
-          "hours": 0.2
         }
       ]
     },
     {
       "project": "Loh 82 Hilux",
       "total_hours": 30.0,
-      "pct_of_total": 3.6,
+      "pct_of_total": 3.4,
       "tasks": [
         {
           "task": "Run main cooling lines",
@@ -502,7 +514,7 @@
     {
       "project": "Krafcik 02 Caterham",
       "total_hours": 29.5,
-      "pct_of_total": 3.5,
+      "pct_of_total": 3.4,
       "tasks": [
         {
           "task": "Terminate all cooling lines",
@@ -537,7 +549,7 @@
           "hours": 1.5
         },
         {
-          "task": "Run main HV cables",
+          "task": "Terminate charge port wiring",
           "hours": 1.2
         },
         {
@@ -545,7 +557,7 @@
           "hours": 1.2
         },
         {
-          "task": "Terminate charge port wiring",
+          "task": "Run main HV cables",
           "hours": 1.2
         },
         {
@@ -560,36 +572,36 @@
     }
   ],
   "shop_work": {
-    "total_hours": 141.5,
-    "pct_of_total": 17.0,
-    "avg_per_person_per_day": 1.18,
+    "total_hours": 155.2,
+    "pct_of_total": 17.6,
+    "avg_per_person_per_day": 1.29,
     "flagged": true,
     "tech_count": 8,
     "working_days": 15,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 57.5
+        "hours": 60.8
       },
       {
         "label": "Shop Meetings",
-        "hours": 49.0
+        "hours": 52.2
       },
       {
         "label": "Organization",
-        "hours": 17.0
+        "hours": 17.2
       },
       {
         "label": "Personal Meetings",
-        "hours": 13.0
+        "hours": 13.5
+      },
+      {
+        "label": "Other",
+        "hours": 8.0
       },
       {
         "label": "Errands",
         "hours": 3.5
-      },
-      {
-        "label": "Other",
-        "hours": 1.5
       }
     ]
   },
@@ -597,7 +609,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 22.2,
-      "pct_of_total": 2.7,
+      "pct_of_total": 2.5,
       "tasks": [
         {
           "task": "Address PDI findings",
@@ -636,7 +648,7 @@
     {
       "project": "Barton 59 Impala",
       "total_hours": 18.5,
-      "pct_of_total": 2.2,
+      "pct_of_total": 2.1,
       "tasks": [
         {
           "task": "Address Suspension PDI findings",
@@ -690,10 +702,10 @@
     "min_hours": 1.0
   },
   "totals": {
-    "billable_hours": 644.2,
-    "non_billable_hours": 186.8,
+    "billable_hours": 679.5,
+    "non_billable_hours": 200.5,
     "pto_hours": 2.0,
-    "total_hours": 831.0
+    "total_hours": 880.0
   },
-  "generated_at": "2026-11-20T05:46:55Z"
+  "generated_at": "2026-11-20T06:04:11Z"
 }
