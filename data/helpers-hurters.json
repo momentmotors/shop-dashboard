@@ -562,10 +562,10 @@
   "shop_work": {
     "total_hours": 141.5,
     "pct_of_total": 17.0,
-    "avg_per_person_per_day": 1.26,
+    "avg_per_person_per_day": 1.18,
     "flagged": true,
     "tech_count": 8,
-    "working_days": 14,
+    "working_days": 15,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
@@ -695,5 +695,5 @@
     "pto_hours": 2.0,
     "total_hours": 831.0
   },
-  "generated_at": "2026-11-19T23:47:05Z"
+  "generated_at": "2026-11-20T00:05:30Z"
 }
