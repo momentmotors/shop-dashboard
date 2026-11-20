@@ -265,53 +265,6 @@
       ]
     },
     {
-      "project": "Kelly 63 Corvette",
-      "total_hours": 49.2,
-      "pct_of_total": 5.6,
-      "tasks": [
-        {
-          "task": "Troubleshoot steering column issue",
-          "hours": 22.2
-        },
-        {
-          "task": "Address Suspension PDI findings",
-          "hours": 7.8
-        },
-        {
-          "task": "Perform PDI",
-          "hours": 4.5
-        },
-        {
-          "task": "Machine shock mounts",
-          "hours": 3.0
-        },
-        {
-          "task": "Troubleshoot PRND issue",
-          "hours": 3.0
-        },
-        {
-          "task": "Address Brakes PDI findings",
-          "hours": 2.2
-        },
-        {
-          "task": "Wash vehicle",
-          "hours": 2.0
-        },
-        {
-          "task": "Test drive vehicle",
-          "hours": 1.8
-        },
-        {
-          "task": "Checkout vehicle",
-          "hours": 1.8
-        },
-        {
-          "task": "Install AC vent",
-          "hours": 1.0
-        }
-      ]
-    },
-    {
       "project": "Thacker 46 Woody",
       "total_hours": 48.5,
       "pct_of_total": 5.5,
@@ -414,6 +367,41 @@
         {
           "task": "Install phone mount",
           "hours": 0.5
+        }
+      ]
+    },
+    {
+      "project": "Kelly 63 Corvette",
+      "total_hours": 38.0,
+      "pct_of_total": 4.3,
+      "tasks": [
+        {
+          "task": "Troubleshoot steering column issue",
+          "hours": 19.8
+        },
+        {
+          "task": "Address Suspension PDI findings",
+          "hours": 7.8
+        },
+        {
+          "task": "Machine shock mounts",
+          "hours": 3.0
+        },
+        {
+          "task": "Troubleshoot PRND issue",
+          "hours": 3.0
+        },
+        {
+          "task": "Test drive vehicle",
+          "hours": 1.8
+        },
+        {
+          "task": "Checkout vehicle",
+          "hours": 1.8
+        },
+        {
+          "task": "Install AC vent",
+          "hours": 1.0
         }
       ]
     },
@@ -681,6 +669,29 @@
       ]
     },
     {
+      "project": "Kelly 63 Corvette",
+      "total_hours": 11.8,
+      "pct_of_total": 1.3,
+      "tasks": [
+        {
+          "task": "Perform PDI",
+          "hours": 4.5
+        },
+        {
+          "task": "Troubleshoot steering column issue",
+          "hours": 3.0
+        },
+        {
+          "task": "Address Brakes PDI findings",
+          "hours": 2.2
+        },
+        {
+          "task": "Wash vehicle",
+          "hours": 2.0
+        }
+      ]
+    },
+    {
       "project": "Avalos 72 Blazer",
       "total_hours": 4.0,
       "pct_of_total": 0.5,
@@ -697,15 +708,15 @@
     }
   ],
   "hurters_below_floor": {
-    "count": 1,
-    "hours": 0.5,
+    "count": 0,
+    "hours": 0.0,
     "min_hours": 1.0
   },
   "totals": {
-    "billable_hours": 679.5,
-    "non_billable_hours": 200.5,
+    "billable_hours": 668.2,
+    "non_billable_hours": 211.8,
     "pto_hours": 2.0,
     "total_hours": 880.0
   },
-  "generated_at": "2026-11-20T21:46:39Z"
+  "generated_at": "2026-11-20T22:02:32Z"
 }
