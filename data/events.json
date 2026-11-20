@@ -113,6 +113,11 @@
           "is_weekend": false,
           "events": [
             {
+              "summary": "Ryan L Out",
+              "type": "pto",
+              "all_day": true
+            },
+            {
               "summary": "Marc Out",
               "type": "pto",
               "all_day": true
@@ -124,11 +129,6 @@
             },
             {
               "summary": "Dave W Out",
-              "type": "pto",
-              "all_day": true
-            },
-            {
-              "summary": "Ryan L Out",
               "type": "pto",
               "all_day": true
             }
@@ -269,5 +269,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-20T19:31:44Z"
+  "generated_at": "2026-11-20T19:46:54Z"
 }
