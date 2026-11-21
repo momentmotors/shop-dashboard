@@ -36,14 +36,14 @@
         {
           "date": "2026-11-20",
           "day_name": "Friday",
-          "is_today": true,
+          "is_today": false,
           "is_weekend": false,
           "events": []
         },
         {
           "date": "2026-11-21",
           "day_name": "Saturday",
-          "is_today": false,
+          "is_today": true,
           "is_weekend": true,
           "events": []
         },
@@ -113,6 +113,11 @@
           "is_weekend": false,
           "events": [
             {
+              "summary": "Marc Out",
+              "type": "pto",
+              "all_day": true
+            },
+            {
               "summary": "Ryan L Out",
               "type": "pto",
               "all_day": true
@@ -124,11 +129,6 @@
             },
             {
               "summary": "Dave W Out",
-              "type": "pto",
-              "all_day": true
-            },
-            {
-              "summary": "Marc Out",
               "type": "pto",
               "all_day": true
             }
@@ -269,5 +269,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-20T23:47:09Z"
+  "generated_at": "2026-11-21T00:05:46Z"
 }

@@ -443,11 +443,11 @@
           "hours": 1.5
         },
         {
-          "task": "Manufacture Support - Control Module Assembly",
+          "task": "Manufacture Core - Radiator Mounts",
           "hours": 1.0
         },
         {
-          "task": "Manufacture Core - Radiator Mounts",
+          "task": "Manufacture Support - Control Module Assembly",
           "hours": 1.0
         },
         {
@@ -718,5 +718,5 @@
     "pto_hours": 2.0,
     "total_hours": 880.0
   },
-  "generated_at": "2026-11-20T23:47:09Z"
+  "generated_at": "2026-11-21T00:05:46Z"
 }
