@@ -1,23 +1,13 @@
 {
-  "updated_at": "2026-11-21T19:02:48.328727Z",
+  "updated_at": "2026-11-21T19:18:16.448500Z",
   "team_id": "9011243300",
   "projects": [
     {
       "owner": "Avalos",
-      "vehicle": {
-        "owner": "Avalos",
-        "year": 1972,
-        "color": "Orange",
-        "make": "Chevrolet",
-        "model": "Blazer",
-        "status": "Shipped",
-        "checkout": 1.1,
-        "sub_metrics": [],
-        "system": "AEM"
-      },
+      "vehicle": null,
       "clickup_match": {
         "found": false,
-        "error": "no_match"
+        "error": "no_vehicle"
       },
       "assignees": []
     },
@@ -867,5 +857,5 @@
       "assignees": []
     }
   ],
-  "generated_at": "2026-11-21T19:02:12Z"
+  "generated_at": "2026-11-21T19:16:52Z"
 }
