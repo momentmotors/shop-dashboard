@@ -2,8 +2,8 @@
   "helpers": [
     {
       "project": "Hopkins 65 Silver Cloud",
-      "total_hours": 102.2,
-      "pct_of_total": 11.6,
+      "total_hours": 110.2,
+      "pct_of_total": 11.9,
       "tasks": [
         {
           "task": "Manufacture Core -Drivetrain Mounts",
@@ -26,16 +26,20 @@
           "hours": 9.0
         },
         {
+          "task": "Repair soft top functionality",
+          "hours": 9.0
+        },
+        {
           "task": "Manufacture Core - Front Batt Pack Mounts",
           "hours": 6.8
         },
         {
-          "task": "Repair soft top functionality",
-          "hours": 6.0
-        },
-        {
           "task": "Modify brake pedal assembly",
           "hours": 5.5
+        },
+        {
+          "task": "Remove interior",
+          "hours": 5.0
         },
         {
           "task": "Make a game plan for gauges",
@@ -54,15 +58,15 @@
           "hours": 2.0
         },
         {
-          "task": "Remove interior",
-          "hours": 2.0
-        },
-        {
           "task": "Build and install brake lines",
           "hours": 2.0
         },
         {
           "task": "Install motor assembly",
+          "hours": 2.0
+        },
+        {
+          "task": "Install HVAC ducting",
           "hours": 2.0
         },
         {
@@ -81,16 +85,16 @@
     },
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 94.5,
-      "pct_of_total": 10.7,
+      "total_hours": 101.5,
+      "pct_of_total": 10.9,
       "tasks": [
+        {
+          "task": "Manufacture Product - VC Harness",
+          "hours": 34.0
+        },
         {
           "task": "Manufacture Product - Flying Lead Harness",
           "hours": 29.0
-        },
-        {
-          "task": "Manufacture Product - VC Harness",
-          "hours": 27.0
         },
         {
           "task": "Retest OEM wiring",
@@ -121,7 +125,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 68.2,
-      "pct_of_total": 7.8,
+      "pct_of_total": 7.4,
       "tasks": [
         {
           "task": "Re-gear differential",
@@ -203,8 +207,8 @@
     },
     {
       "project": "Jaffe 86 190E",
-      "total_hours": 59.0,
-      "pct_of_total": 6.7,
+      "total_hours": 64.5,
+      "pct_of_total": 6.9,
       "tasks": [
         {
           "task": "Manufacture Product - VC Harness",
@@ -215,15 +219,19 @@
           "hours": 8.5
         },
         {
+          "task": "Make a game plan for calipers",
+          "hours": 7.8
+        },
+        {
           "task": "Manufacturing Support - Knuckle Steering Arms",
           "hours": 7.5
         },
         {
-          "task": "Make a game plan for calipers",
-          "hours": 5.2
+          "task": "Add VC Harness mounting provisions",
+          "hours": 4.0
         },
         {
-          "task": "Add VC Harness mounting provisions",
+          "task": "Wire OEM interface",
           "hours": 4.0
         },
         {
@@ -251,10 +259,6 @@
           "hours": 2.0
         },
         {
-          "task": "Wire OEM interface",
-          "hours": 1.0
-        },
-        {
           "task": "Manufacture Product - Flying Lead Harness",
           "hours": 1.0
         },
@@ -266,8 +270,8 @@
     },
     {
       "project": "Thacker 46 Woody",
-      "total_hours": 48.5,
-      "pct_of_total": 5.5,
+      "total_hours": 48.8,
+      "pct_of_total": 5.3,
       "tasks": [
         {
           "task": "Facilitate paint work",
@@ -283,7 +287,7 @@
         },
         {
           "task": "Manufacture Product - Batt Box 1",
-          "hours": 5.0
+          "hours": 5.2
         },
         {
           "task": "Manufacture Core - Rear Batt Pack Mounts",
@@ -333,7 +337,7 @@
     },
     {
       "project": "Richardson 72 240Z",
-      "total_hours": 40.8,
+      "total_hours": 42.5,
       "pct_of_total": 4.6,
       "tasks": [
         {
@@ -342,11 +346,11 @@
         },
         {
           "task": "Manufacture Product - Front Batt Box",
-          "hours": 5.2
+          "hours": 5.5
         },
         {
           "task": "Run main cooling lines",
-          "hours": 3.5
+          "hours": 4.2
         },
         {
           "task": "Manufacture Product - Rear Batt Box",
@@ -362,7 +366,7 @@
         },
         {
           "task": "Run main HV cables",
-          "hours": 1.2
+          "hours": 2.0
         },
         {
           "task": "Install phone mount",
@@ -373,7 +377,7 @@
     {
       "project": "Kelly 63 Corvette",
       "total_hours": 38.0,
-      "pct_of_total": 4.3,
+      "pct_of_total": 4.1,
       "tasks": [
         {
           "task": "Troubleshoot steering column issue",
@@ -408,7 +412,7 @@
     {
       "project": "ICON Philbrick 41838",
       "total_hours": 35.8,
-      "pct_of_total": 4.1,
+      "pct_of_total": 3.9,
       "tasks": [
         {
           "task": "Manufacture Product - Battery Box 1",
@@ -423,11 +427,11 @@
           "hours": 7.2
         },
         {
-          "task": "Manufacture Support - Brake Pedal",
+          "task": "Manufacture Core - Front Batt Pack Mounts",
           "hours": 2.0
         },
         {
-          "task": "Manufacture Core - Front Batt Pack Mounts",
+          "task": "Manufacture Support - Brake Pedal",
           "hours": 2.0
         },
         {
@@ -443,11 +447,11 @@
           "hours": 1.5
         },
         {
-          "task": "Manufacture Core - Radiator Mounts",
+          "task": "Manufacture Support - Control Module Assembly",
           "hours": 1.0
         },
         {
-          "task": "Manufacture Support - Control Module Assembly",
+          "task": "Manufacture Core - Radiator Mounts",
           "hours": 1.0
         },
         {
@@ -465,115 +469,131 @@
       ]
     },
     {
-      "project": "Loh 82 Hilux",
-      "total_hours": 30.0,
-      "pct_of_total": 3.4,
+      "project": "LB 82 911",
+      "total_hours": 34.2,
+      "pct_of_total": 3.7,
       "tasks": [
         {
-          "task": "Run main cooling lines",
-          "hours": 6.5
+          "task": "Modify and install seats",
+          "hours": 8.8
         },
         {
-          "task": "Run main HV cables",
-          "hours": 6.5
-        },
-        {
-          "task": "Rebuild front axle",
-          "hours": 5.0
-        },
-        {
-          "task": "Rebuild rear axle",
+          "task": "Install GUI",
           "hours": 4.0
         },
         {
-          "task": "Build and install new brake lines",
-          "hours": 3.0
+          "task": "R&R rear valance",
+          "hours": 3.5
         },
         {
-          "task": "Install cross steer setup",
-          "hours": 3.0
+          "task": "Checkout vehicle",
+          "hours": 2.8
         },
         {
-          "task": "R&R front brake assembly",
+          "task": "Address dash panel fitment issue",
+          "hours": 2.8
+        },
+        {
+          "task": "Reinstall interior",
           "hours": 2.0
+        },
+        {
+          "task": "Finalize gauge illumination",
+          "hours": 2.0
+        },
+        {
+          "task": "Manufacture Core - Front Battery Pack Lid",
+          "hours": 1.5
+        },
+        {
+          "task": "Start up vehicle",
+          "hours": 1.2
+        },
+        {
+          "task": "Perform Safety Inspection",
+          "hours": 1.0
+        },
+        {
+          "task": "Configure HVAC settings",
+          "hours": 1.0
+        },
+        {
+          "task": "Install frunk light",
+          "hours": 1.0
+        },
+        {
+          "task": "Add defrost fuse/holder",
+          "hours": 1.0
+        },
+        {
+          "task": "Manufacture Core - Rear Battery Pack Lid",
+          "hours": 1.0
+        },
+        {
+          "task": "Install front battery lid",
+          "hours": 0.5
+        },
+        {
+          "task": "Install new wiper arms",
+          "hours": 0.2
         }
       ]
     },
     {
-      "project": "Krafcik 02 Caterham",
-      "total_hours": 29.5,
-      "pct_of_total": 3.4,
+      "project": "Lee 68 Mustang",
+      "total_hours": 33.8,
+      "pct_of_total": 3.6,
       "tasks": [
         {
-          "task": "Terminate all cooling lines",
-          "hours": 6.0
+          "task": "Checkout vehicle",
+          "hours": 10.8
         },
         {
-          "task": "Run main cooling lines",
-          "hours": 4.0
+          "task": "Install under-hood sound generator",
+          "hours": 8.5
         },
         {
-          "task": "Manufacture Support - HV Cable Tunnel",
+          "task": "Troubleshoot instrumentation issue",
+          "hours": 3.5
+        },
+        {
+          "task": "Troubleshoot steering noise",
+          "hours": 3.5
+        },
+        {
+          "task": "Replace luxury liner",
           "hours": 3.0
         },
         {
-          "task": "Manufacture Product - Batt Box 1",
-          "hours": 3.0
-        },
-        {
-          "task": "Manufacture Product - Batt Box 2",
-          "hours": 2.5
-        },
-        {
-          "task": "Manufacture Core - Component Mounting Plates",
-          "hours": 2.2
-        },
-        {
-          "task": "Manufacture Core - Battery Pack Lids",
+          "task": "Replace drive shaft hardware",
           "hours": 2.0
         },
         {
-          "task": "Engineer Support - AIO Junction Box Mount",
-          "hours": 1.5
+          "task": "Break in differential",
+          "hours": 2.0
         },
         {
-          "task": "Terminate charge port wiring",
-          "hours": 1.2
-        },
-        {
-          "task": "Engineer Support - HV Cable Tunnel",
-          "hours": 1.2
-        },
-        {
-          "task": "Run main HV cables",
-          "hours": 1.2
-        },
-        {
-          "task": "Install rear box",
-          "hours": 1.0
-        },
-        {
-          "task": "Upgrade front brakes",
+          "task": "Balance DS",
           "hours": 0.5
         }
       ]
     }
   ],
   "shop_work": {
-    "total_hours": 155.2,
-    "pct_of_total": 17.6,
-    "avg_per_person_per_day": 1.29,
+    "total_hours": 161.5,
+    "pct_of_total": 17.4,
+    "avg_per_person_per_day": 1.35,
     "flagged": true,
     "tech_count": 8,
     "working_days": 15,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 60.8
+        "hours": 63.2
       },
       {
         "label": "Shop Meetings",
-        "hours": 52.2
+        "hours": 55.2
       },
       {
         "label": "Organization",
@@ -581,11 +601,11 @@
       },
       {
         "label": "Personal Meetings",
-        "hours": 13.5
+        "hours": 13.8
       },
       {
         "label": "Other",
-        "hours": 8.0
+        "hours": 8.5
       },
       {
         "label": "Errands",
@@ -597,7 +617,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 22.2,
-      "pct_of_total": 2.5,
+      "pct_of_total": 2.4,
       "tasks": [
         {
           "task": "Address PDI findings",
@@ -636,7 +656,7 @@
     {
       "project": "Barton 59 Impala",
       "total_hours": 18.5,
-      "pct_of_total": 2.1,
+      "pct_of_total": 2.0,
       "tasks": [
         {
           "task": "Address Suspension PDI findings",
@@ -694,7 +714,7 @@
     {
       "project": "Avalos 72 Blazer",
       "total_hours": 4.0,
-      "pct_of_total": 0.5,
+      "pct_of_total": 0.4,
       "tasks": [
         {
           "task": "Prep vehicle for sale",
@@ -713,10 +733,10 @@
     "min_hours": 1.0
   },
   "totals": {
-    "billable_hours": 668.2,
-    "non_billable_hours": 211.8,
+    "billable_hours": 710.2,
+    "non_billable_hours": 218.0,
     "pto_hours": 2.0,
-    "total_hours": 880.0
+    "total_hours": 928.2
   },
-  "generated_at": "2026-11-21T05:32:21Z"
+  "generated_at": "2026-11-21T05:47:01Z"
 }
