@@ -510,15 +510,15 @@
           "hours": 1.2
         },
         {
-          "task": "Perform Safety Inspection",
-          "hours": 1.0
-        },
-        {
           "task": "Configure HVAC settings",
           "hours": 1.0
         },
         {
           "task": "Install frunk light",
+          "hours": 1.0
+        },
+        {
+          "task": "Perform Safety Inspection",
           "hours": 1.0
         },
         {
@@ -582,10 +582,10 @@
   "shop_work": {
     "total_hours": 161.5,
     "pct_of_total": 17.4,
-    "avg_per_person_per_day": 1.35,
+    "avg_per_person_per_day": 1.26,
     "flagged": true,
     "tech_count": 8,
-    "working_days": 15,
+    "working_days": 16,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
@@ -738,5 +738,5 @@
     "pto_hours": 2.0,
     "total_hours": 928.2
   },
-  "generated_at": "2026-11-22T23:46:26Z"
+  "generated_at": "2026-11-23T00:06:24Z"
 }
