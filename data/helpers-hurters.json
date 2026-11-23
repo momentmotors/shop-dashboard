@@ -712,6 +712,33 @@
       ]
     },
     {
+      "project": "Ferdman 66 Bus",
+      "total_hours": 10.5,
+      "pct_of_total": 1.1,
+      "tasks": [
+        {
+          "task": "Replace damaged motor cradle",
+          "hours": 7.0
+        },
+        {
+          "task": "Test fast charging",
+          "hours": 1.5
+        },
+        {
+          "task": "Checkout vehicle",
+          "hours": 1.2
+        },
+        {
+          "task": "Perform PDI",
+          "hours": 0.5
+        },
+        {
+          "task": "Facilitate head liner repair",
+          "hours": 0.2
+        }
+      ]
+    },
+    {
       "project": "Avalos 72 Blazer",
       "total_hours": 4.0,
       "pct_of_total": 0.4,
@@ -733,10 +760,10 @@
     "min_hours": 1.0
   },
   "totals": {
-    "billable_hours": 710.2,
-    "non_billable_hours": 218.0,
+    "billable_hours": 699.8,
+    "non_billable_hours": 228.5,
     "pto_hours": 2.0,
     "total_hours": 928.2
   },
-  "generated_at": "2026-11-23T16:47:16Z"
+  "generated_at": "2026-11-23T17:02:21Z"
 }
