@@ -57,17 +57,17 @@
           "is_weekend": false,
           "events": [
             {
+              "summary": "Marc Out",
+              "type": "pto",
+              "all_day": true
+            },
+            {
               "summary": "Dave W Out",
               "type": "pto",
               "all_day": true
             },
             {
               "summary": "Aharon A Out",
-              "type": "pto",
-              "all_day": true
-            },
-            {
-              "summary": "Marc Out",
               "type": "pto",
               "all_day": true
             },
@@ -279,5 +279,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-24T15:47:17Z"
+  "generated_at": "2026-11-24T16:02:53Z"
 }
