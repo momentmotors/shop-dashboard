@@ -57,6 +57,11 @@
           "is_weekend": false,
           "events": [
             {
+              "summary": "Aharon A Out",
+              "type": "pto",
+              "all_day": true
+            },
+            {
               "summary": "Ryan L Out",
               "type": "pto",
               "all_day": true
@@ -67,17 +72,17 @@
               "all_day": true
             },
             {
+              "summary": "Dave W Out",
+              "type": "pto",
+              "all_day": true
+            },
+            {
               "summary": "Marc Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Aharon A Out",
-              "type": "pto",
-              "all_day": true
-            },
-            {
-              "summary": "Dave W Out",
+              "summary": "Devin D Out",
               "type": "pto",
               "all_day": true
             }
@@ -139,12 +144,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Dave W Out",
+              "summary": "Brandon B Half Day",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Brandon B Half Day",
+              "summary": "Dave W Out",
               "type": "pto",
               "all_day": true
             }
@@ -197,14 +202,26 @@
           "day_name": "Thursday",
           "is_today": false,
           "is_weekend": false,
-          "events": []
+          "events": [
+            {
+              "summary": "Devin D Out",
+              "type": "pto",
+              "all_day": true
+            }
+          ]
         },
         {
           "date": "2026-12-11",
           "day_name": "Friday",
           "is_today": false,
           "is_weekend": false,
-          "events": []
+          "events": [
+            {
+              "summary": "Devin D Out",
+              "type": "pto",
+              "all_day": true
+            }
+          ]
         },
         {
           "date": "2026-12-12",
@@ -279,5 +296,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-24T21:17:10Z"
+  "generated_at": "2026-11-24T21:31:54Z"
 }
