@@ -2,8 +2,8 @@
   "helpers": [
     {
       "project": "Hopkins 65 Silver Cloud",
-      "total_hours": 110.2,
-      "pct_of_total": 11.9,
+      "total_hours": 118.2,
+      "pct_of_total": 11.8,
       "tasks": [
         {
           "task": "Manufacture Core -Drivetrain Mounts",
@@ -30,16 +30,16 @@
           "hours": 9.0
         },
         {
+          "task": "Remove interior",
+          "hours": 7.0
+        },
+        {
           "task": "Manufacture Core - Front Batt Pack Mounts",
           "hours": 6.8
         },
         {
           "task": "Modify brake pedal assembly",
           "hours": 5.5
-        },
-        {
-          "task": "Remove interior",
-          "hours": 5.0
         },
         {
           "task": "Make a game plan for gauges",
@@ -51,6 +51,10 @@
         },
         {
           "task": "Engineer Support - Derale Cooler Mount",
+          "hours": 3.0
+        },
+        {
+          "task": "Build and install PS lines",
           "hours": 3.0
         },
         {
@@ -70,6 +74,14 @@
           "hours": 2.0
         },
         {
+          "task": "Install front box",
+          "hours": 1.5
+        },
+        {
+          "task": "Terminate all cooling lines",
+          "hours": 1.5
+        },
+        {
           "task": "Terminate phase leads",
           "hours": 1.0
         },
@@ -85,12 +97,12 @@
     },
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 101.5,
+      "total_hours": 108.5,
       "pct_of_total": 10.9,
       "tasks": [
         {
           "task": "Manufacture Product - VC Harness",
-          "hours": 34.0
+          "hours": 41.0
         },
         {
           "task": "Manufacture Product - Flying Lead Harness",
@@ -123,9 +135,88 @@
       ]
     },
     {
+      "project": "Jaffe 86 190E",
+      "total_hours": 79.5,
+      "pct_of_total": 8.0,
+      "tasks": [
+        {
+          "task": "Manufacture Product - VC Harness",
+          "hours": 23.0
+        },
+        {
+          "task": "Install front suspension components",
+          "hours": 8.5
+        },
+        {
+          "task": "Make a game plan for calipers",
+          "hours": 7.8
+        },
+        {
+          "task": "Wire OEM interface",
+          "hours": 7.5
+        },
+        {
+          "task": "Manufacturing Support - Knuckle Steering Arms",
+          "hours": 7.5
+        },
+        {
+          "task": "Add VC Harness mounting provisions",
+          "hours": 4.0
+        },
+        {
+          "task": "Spec and order gauges",
+          "hours": 3.5
+        },
+        {
+          "task": "Install tie-rod bracket",
+          "hours": 3.5
+        },
+        {
+          "task": "Terminate all main 12V power cables",
+          "hours": 2.5
+        },
+        {
+          "task": "Find alternative wheels",
+          "hours": 2.5
+        },
+        {
+          "task": "Remove and assess OEM gauges",
+          "hours": 2.2
+        },
+        {
+          "task": "Terminate all cooling lines",
+          "hours": 2.0
+        },
+        {
+          "task": "Manufacture Product - Flying Lead Harness",
+          "hours": 1.0
+        },
+        {
+          "task": "Bleed heater system",
+          "hours": 1.0
+        },
+        {
+          "task": "Wire HVAC sub",
+          "hours": 1.0
+        },
+        {
+          "task": "Remove interior",
+          "hours": 1.0
+        },
+        {
+          "task": "Install steering rack assembly",
+          "hours": 0.5
+        },
+        {
+          "task": "Engineer Support - Sway Bar Mount",
+          "hours": 0.5
+        }
+      ]
+    },
+    {
       "project": "Nolan 70 Challenger",
-      "total_hours": 68.2,
-      "pct_of_total": 7.4,
+      "total_hours": 69.0,
+      "pct_of_total": 6.9,
       "tasks": [
         {
           "task": "Re-gear differential",
@@ -156,15 +247,15 @@
           "hours": 4.0
         },
         {
+          "task": "Aid in drivetrain noise troublshoot",
+          "hours": 3.8
+        },
+        {
           "task": "Install steering sensor on column",
           "hours": 3.5
         },
         {
           "task": "Install clutch switch",
-          "hours": 3.0
-        },
-        {
-          "task": "Aid in drivetrain noise troublshoot",
           "hours": 3.0
         },
         {
@@ -206,76 +297,17 @@
       ]
     },
     {
-      "project": "Jaffe 86 190E",
-      "total_hours": 64.5,
-      "pct_of_total": 6.9,
-      "tasks": [
-        {
-          "task": "Manufacture Product - VC Harness",
-          "hours": 15.0
-        },
-        {
-          "task": "Install front suspension components",
-          "hours": 8.5
-        },
-        {
-          "task": "Make a game plan for calipers",
-          "hours": 7.8
-        },
-        {
-          "task": "Manufacturing Support - Knuckle Steering Arms",
-          "hours": 7.5
-        },
-        {
-          "task": "Add VC Harness mounting provisions",
-          "hours": 4.0
-        },
-        {
-          "task": "Wire OEM interface",
-          "hours": 4.0
-        },
-        {
-          "task": "Spec and order gauges",
-          "hours": 3.5
-        },
-        {
-          "task": "Install tie-rod bracket",
-          "hours": 3.5
-        },
-        {
-          "task": "Terminate all main 12V power cables",
-          "hours": 2.5
-        },
-        {
-          "task": "Find alternative wheels",
-          "hours": 2.5
-        },
-        {
-          "task": "Remove and assess OEM gauges",
-          "hours": 2.2
-        },
-        {
-          "task": "Terminate all cooling lines",
-          "hours": 2.0
-        },
-        {
-          "task": "Manufacture Product - Flying Lead Harness",
-          "hours": 1.0
-        },
-        {
-          "task": "Install steering rack assembly",
-          "hours": 0.5
-        }
-      ]
-    },
-    {
       "project": "Thacker 46 Woody",
-      "total_hours": 48.8,
-      "pct_of_total": 5.3,
+      "total_hours": 58.5,
+      "pct_of_total": 5.9,
       "tasks": [
         {
           "task": "Facilitate paint work",
           "hours": 8.0
+        },
+        {
+          "task": "Manufacture Product - Batt Box 1",
+          "hours": 7.2
         },
         {
           "task": "Seal frame",
@@ -286,8 +318,8 @@
           "hours": 5.5
         },
         {
-          "task": "Manufacture Product - Batt Box 1",
-          "hours": 5.2
+          "task": "Install front box",
+          "hours": 4.2
         },
         {
           "task": "Manufacture Core - Rear Batt Pack Mounts",
@@ -303,6 +335,10 @@
         },
         {
           "task": "Manufacture Product - Batt Box 2",
+          "hours": 3.5
+        },
+        {
+          "task": "Install radiator assembly",
           "hours": 2.5
         },
         {
@@ -310,15 +346,15 @@
           "hours": 2.0
         },
         {
-          "task": "Install front box",
+          "task": "Terminate all cooling lines",
           "hours": 1.8
         },
         {
-          "task": "Install radiator assembly",
+          "task": "Terminat all HV cables",
           "hours": 1.5
         },
         {
-          "task": "Terminat all HV cables",
+          "task": "Install condenser",
           "hours": 1.5
         },
         {
@@ -330,42 +366,42 @@
           "hours": 0.8
         },
         {
-          "task": "Terminate all cooling lines",
+          "task": "Run main HV cables",
           "hours": 0.8
         }
       ]
     },
     {
       "project": "Richardson 72 240Z",
-      "total_hours": 42.5,
-      "pct_of_total": 4.6,
+      "total_hours": 50.8,
+      "pct_of_total": 5.1,
       "tasks": [
         {
           "task": "Install rear end & axles",
           "hours": 22.0
         },
         {
-          "task": "Manufacture Product - Front Batt Box",
-          "hours": 5.5
+          "task": "Run main cooling lines",
+          "hours": 9.0
         },
         {
-          "task": "Run main cooling lines",
-          "hours": 4.2
+          "task": "Manufacture Product - Front Batt Box",
+          "hours": 7.0
         },
         {
           "task": "Manufacture Product - Rear Batt Box",
-          "hours": 3.2
+          "hours": 4.2
         },
         {
           "task": "Nut and bolt suspension",
           "hours": 3.0
         },
         {
-          "task": "Install audio system",
-          "hours": 2.0
+          "task": "Run main HV cables",
+          "hours": 3.0
         },
         {
-          "task": "Run main HV cables",
+          "task": "Install audio system",
           "hours": 2.0
         },
         {
@@ -375,9 +411,88 @@
       ]
     },
     {
+      "project": "ICON Philbrick 41838",
+      "total_hours": 45.8,
+      "pct_of_total": 4.6,
+      "tasks": [
+        {
+          "task": "Manufacture Product - Battery Box 1",
+          "hours": 8.0
+        },
+        {
+          "task": "Manufacture Product - Battery Box 3",
+          "hours": 8.0
+        },
+        {
+          "task": "Manufacture Product - Battery Box 2",
+          "hours": 7.2
+        },
+        {
+          "task": "Manufacture Core - Front Batt Pack Mounts",
+          "hours": 3.5
+        },
+        {
+          "task": "Manufacture Core - Charger Mounting Plate",
+          "hours": 3.0
+        },
+        {
+          "task": "Manufacture Support - Brake Pedal",
+          "hours": 2.0
+        },
+        {
+          "task": "Manufacture Core - Rear Batt Pack Mounts",
+          "hours": 2.0
+        },
+        {
+          "task": "Manufacture Product - Battery Boxes",
+          "hours": 1.8
+        },
+        {
+          "task": "Conduct Vehicle Requirements meeting",
+          "hours": 1.5
+        },
+        {
+          "task": "Manufacture Core -Drivetrain Mounts",
+          "hours": 1.5
+        },
+        {
+          "task": "Install Drive Unit",
+          "hours": 1.5
+        },
+        {
+          "task": "Manufacture Support - Control Module Assembly",
+          "hours": 1.0
+        },
+        {
+          "task": "Manufacture Core - Radiator Mounts",
+          "hours": 1.0
+        },
+        {
+          "task": "Build Radiator Assembly",
+          "hours": 1.0
+        },
+        {
+          "task": "Manufacture Core - AC Compressor Mount",
+          "hours": 0.8
+        },
+        {
+          "task": "Manufacture Product - IMD Box",
+          "hours": 0.8
+        },
+        {
+          "task": "Manufacture Product - CCS Disconnect Box",
+          "hours": 0.8
+        },
+        {
+          "task": "Manufacture Core - Parking Brake Mounts",
+          "hours": 0.5
+        }
+      ]
+    },
+    {
       "project": "Kelly 63 Corvette",
       "total_hours": 38.0,
-      "pct_of_total": 4.1,
+      "pct_of_total": 3.8,
       "tasks": [
         {
           "task": "Troubleshoot steering column issue",
@@ -410,68 +525,9 @@
       ]
     },
     {
-      "project": "ICON Philbrick 41838",
-      "total_hours": 35.8,
-      "pct_of_total": 3.9,
-      "tasks": [
-        {
-          "task": "Manufacture Product - Battery Box 1",
-          "hours": 8.0
-        },
-        {
-          "task": "Manufacture Product - Battery Box 3",
-          "hours": 8.0
-        },
-        {
-          "task": "Manufacture Product - Battery Box 2",
-          "hours": 7.2
-        },
-        {
-          "task": "Manufacture Core - Front Batt Pack Mounts",
-          "hours": 2.0
-        },
-        {
-          "task": "Manufacture Support - Brake Pedal",
-          "hours": 2.0
-        },
-        {
-          "task": "Manufacture Product - Battery Boxes",
-          "hours": 1.8
-        },
-        {
-          "task": "Conduct Vehicle Requirements meeting",
-          "hours": 1.5
-        },
-        {
-          "task": "Manufacture Core -Drivetrain Mounts",
-          "hours": 1.5
-        },
-        {
-          "task": "Manufacture Core - Radiator Mounts",
-          "hours": 1.0
-        },
-        {
-          "task": "Manufacture Support - Control Module Assembly",
-          "hours": 1.0
-        },
-        {
-          "task": "Manufacture Product - IMD Box",
-          "hours": 0.8
-        },
-        {
-          "task": "Manufacture Product - CCS Disconnect Box",
-          "hours": 0.8
-        },
-        {
-          "task": "Manufacture Core - AC Compressor Mount",
-          "hours": 0.2
-        }
-      ]
-    },
-    {
       "project": "LB 82 911",
-      "total_hours": 34.2,
-      "pct_of_total": 3.7,
+      "total_hours": 34.8,
+      "pct_of_total": 3.5,
       "tasks": [
         {
           "task": "Modify and install seats",
@@ -479,18 +535,18 @@
         },
         {
           "task": "Install GUI",
-          "hours": 4.0
+          "hours": 4.2
         },
         {
           "task": "R&R rear valance",
           "hours": 3.5
         },
         {
-          "task": "Checkout vehicle",
-          "hours": 2.8
+          "task": "Address dash panel fitment issue",
+          "hours": 3.0
         },
         {
-          "task": "Address dash panel fitment issue",
+          "task": "Checkout vehicle",
           "hours": 2.8
         },
         {
@@ -510,11 +566,11 @@
           "hours": 1.2
         },
         {
-          "task": "Configure HVAC settings",
+          "task": "Install frunk light",
           "hours": 1.0
         },
         {
-          "task": "Install frunk light",
+          "task": "Configure HVAC settings",
           "hours": 1.0
         },
         {
@@ -542,7 +598,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 33.8,
-      "pct_of_total": 3.6,
+      "pct_of_total": 3.4,
       "tasks": [
         {
           "task": "Checkout vehicle",
@@ -580,20 +636,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 161.5,
-    "pct_of_total": 17.4,
-    "avg_per_person_per_day": 1.19,
+    "total_hours": 170.8,
+    "pct_of_total": 17.1,
+    "avg_per_person_per_day": 1.26,
     "flagged": true,
     "tech_count": 8,
     "working_days": 17,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 63.2
+        "hours": 67.8
       },
       {
         "label": "Shop Meetings",
-        "hours": 55.2
+        "hours": 59.5
       },
       {
         "label": "Organization",
@@ -601,7 +657,7 @@
       },
       {
         "label": "Personal Meetings",
-        "hours": 13.8
+        "hours": 14.2
       },
       {
         "label": "Other",
@@ -617,7 +673,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 22.2,
-      "pct_of_total": 2.4,
+      "pct_of_total": 2.2,
       "tasks": [
         {
           "task": "Address PDI findings",
@@ -656,7 +712,7 @@
     {
       "project": "Barton 59 Impala",
       "total_hours": 18.5,
-      "pct_of_total": 2.0,
+      "pct_of_total": 1.9,
       "tasks": [
         {
           "task": "Address Suspension PDI findings",
@@ -691,7 +747,7 @@
     {
       "project": "Kelly 63 Corvette",
       "total_hours": 11.8,
-      "pct_of_total": 1.3,
+      "pct_of_total": 1.2,
       "tasks": [
         {
           "task": "Perform PDI",
@@ -760,10 +816,10 @@
     "min_hours": 1.0
   },
   "totals": {
-    "billable_hours": 699.8,
-    "non_billable_hours": 228.5,
+    "billable_hours": 761.0,
+    "non_billable_hours": 237.8,
     "pto_hours": 2.0,
-    "total_hours": 928.2
+    "total_hours": 998.8
   },
-  "generated_at": "2026-11-24T05:46:46Z"
+  "generated_at": "2026-11-24T06:04:11Z"
 }
