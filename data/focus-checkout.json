@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T23:02:41.079909Z",
+  "updated_at": "2026-11-24T23:17:30.464255Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -253,7 +253,7 @@
         "matched_lists": [
           "Kelly 63 Corvette"
         ],
-        "open_tasks": 6
+        "open_tasks": 5
       },
       "assignees": [
         {
@@ -293,18 +293,6 @@
               "status": "Open",
               "list": "Kelly 63 Corvette",
               "url": "https://app.clickup.com/t/868mvqc5c"
-            }
-          ]
-        },
-        {
-          "name": "Aharon Adams",
-          "tasks": [
-            {
-              "id": "868mtmt92",
-              "name": "Troubleshoot steering column issue",
-              "status": "Open",
-              "list": "Kelly 63 Corvette",
-              "url": "https://app.clickup.com/t/868mtmt92"
             }
           ]
         }
@@ -855,5 +843,5 @@
       "assignees": []
     }
   ],
-  "generated_at": "2026-11-24T23:02:23Z"
+  "generated_at": "2026-11-24T23:17:07Z"
 }
