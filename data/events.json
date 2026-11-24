@@ -134,12 +134,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Brandon B Half Day",
+              "summary": "Dave W Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Dave W Out",
+              "summary": "Brandon B Half Day",
               "type": "pto",
               "all_day": true
             }
@@ -274,5 +274,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-24T03:03:19Z"
+  "generated_at": "2026-11-24T03:20:28Z"
 }
