@@ -62,17 +62,17 @@
               "all_day": true
             },
             {
-              "summary": "Dave W Out",
-              "type": "pto",
-              "all_day": true
-            },
-            {
               "summary": "Billy A Out",
               "type": "pto",
               "all_day": true
             },
             {
               "summary": "Ryan L Out",
+              "type": "pto",
+              "all_day": true
+            },
+            {
+              "summary": "Dave W Out",
               "type": "pto",
               "all_day": true
             },
@@ -296,5 +296,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-26T22:46:42Z"
+  "generated_at": "2026-11-26T23:02:23Z"
 }
