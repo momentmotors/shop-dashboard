@@ -57,17 +57,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Billy A Out",
-              "type": "pto",
-              "all_day": true
-            },
-            {
-              "summary": "Marc Out",
-              "type": "pto",
-              "all_day": true
-            },
-            {
               "summary": "Devin D Out",
+              "type": "pto",
+              "all_day": true
+            },
+            {
+              "summary": "Ryan L Out",
               "type": "pto",
               "all_day": true
             },
@@ -82,7 +77,12 @@
               "all_day": true
             },
             {
-              "summary": "Ryan L Out",
+              "summary": "Marc Out",
+              "type": "pto",
+              "all_day": true
+            },
+            {
+              "summary": "Billy A Out",
               "type": "pto",
               "all_day": true
             }
@@ -296,5 +296,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-26T12:24:06Z"
+  "generated_at": "2026-11-26T12:36:46Z"
 }
