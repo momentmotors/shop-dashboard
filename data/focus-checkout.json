@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T11:02:59.393932Z",
+  "updated_at": "2026-11-26T11:17:44.449528Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -25,130 +25,8 @@
       "owner": "Barton",
       "vehicle": {
         "owner": "Barton",
-        "year": 1959,
-        "color": "White",
-        "make": "Chevrolet",
-        "model": "Impala",
-        "status": "Testing & Tuning",
-        "checkout": 91.4,
-        "sub_metrics": [
-          {
-            "label": "BMS",
-            "value": 97.2
-          },
-          {
-            "label": "Inverter",
-            "value": 94.4
-          },
-          {
-            "label": "PMU",
-            "value": 100
-          },
-          {
-            "label": "Raptor",
-            "value": 98.2
-          },
-          {
-            "label": "Functional",
-            "value": 58.3
-          }
-        ],
-        "system": "Ampere",
-        "punchlist": {
-          "items": [
-            {
-              "text": "Label plug above brights kick switch. Label inverter connection plug.",
-              "done": true
-            },
-            {
-              "text": "Verify HV acessories after polarity swap.",
-              "done": true
-            },
-            {
-              "text": "Verify inverter after HV polarity swap.",
-              "done": true
-            },
-            {
-              "text": "Charge AC system & verify.",
-              "done": true
-            },
-            {
-              "text": "Install Heater Contactor Controller & commission.",
-              "done": true
-            },
-            {
-              "text": "Tune Wilwood brakes.",
-              "done": true
-            },
-            {
-              "text": "Weigh vehicle.",
-              "done": true
-            },
-            {
-              "text": "2026-03-xx: Pack burn. Evaluate Cell Delta.\n2026-03-20: Put in request to get BMS report ran after full charge 7PM to 7AM 2026-03-18.",
-              "done": false
-            },
-            {
-              "text": "Re-test BMS boxes / verify contactor orientation.",
-              "done": false
-            },
-            {
-              "text": "Add BMS images to drive.",
-              "done": false
-            },
-            {
-              "text": "Transfer fuse notes to power distribution sheet. Finish power distribution checkout.",
-              "done": true
-            },
-            {
-              "text": "Configure logger with Wi-Fi credentials and verify connectivity.",
-              "done": false
-            },
-            {
-              "text": "Update GUI and input gear ratio.",
-              "done": true
-            },
-            {
-              "text": "Update VCU Firmware. Verify with Ampere _BR is an okay FW to use.",
-              "done": true
-            },
-            {
-              "text": "CAN1 measures the wrong termination",
-              "done": true
-            },
-            {
-              "text": "GUI crashes when adjusting vehicle weight.",
-              "done": true
-            },
-            {
-              "text": "Suspension is very squeaky.",
-              "done": false
-            },
-            {
-              "text": "Small jingle when driving slow.",
-              "done": false
-            },
-            {
-              "text": "Motor temp gauge doesn't respond to gauges program.\n2026-03-18: Resolved, step and direction leads to the motor had backed out and needed to be pushed back in.",
-              "done": true
-            },
-            {
-              "text": "BRAKE indicator on the gauges never illuminates.",
-              "done": false
-            },
-            {
-              "text": "2026-03-18: New Issue, Vehicle weight not getting pulled from the GUI.",
-              "done": false
-            },
-            {
-              "text": "2026-03-31: Blower speed drops when power steering is used. Check DCDC settings.\n2026-06-04: fixed with larger wire and that solvved most of the problem.",
-              "done": false
-            }
-          ],
-          "total": 22,
-          "done": 13,
-          "open": 9
-        }
+        "checkout": 0,
+        "placeholder": true
       },
       "clickup_match": {
         "found": true,
@@ -193,64 +71,10 @@
     },
     {
       "owner": "Kelly",
-      "vehicle": {
-        "owner": "Kelly",
-        "year": 1963,
-        "color": "Blue",
-        "make": "Chevrolet",
-        "model": "Corvette",
-        "status": "Startup",
-        "checkout": 100.0,
-        "sub_metrics": [
-          {
-            "label": "BMS",
-            "value": 66.7
-          },
-          {
-            "label": "Inverter",
-            "value": 97.2
-          },
-          {
-            "label": "PMU",
-            "value": 0
-          },
-          {
-            "label": "Raptor",
-            "value": 7.3
-          },
-          {
-            "label": "Functional",
-            "value": 0
-          }
-        ],
-        "system": "Ampere",
-        "punchlist": {
-          "items": [
-            {
-              "text": "cutback under high acceleration, probably in inverter, review settings.",
-              "done": false
-            },
-            {
-              "text": "look at torque request vs feedback in CM350. send to cascadia a log to show it's nots following right.",
-              "done": false
-            },
-            {
-              "text": "The parking brake settings can reset under certain firmware flash settings, this one may have changed and needs the tune reviewed.\r\nFrom the PMU software I saw PMU CAN2 (VCU CAN1) flash red, this means there are error frames while simply sitting at idle.\r\nNot on the latest VCU firmware, did notice some options wrong. (cooling plate, not sure what that actually changes. Perhaps others are wrong though)",
-              "done": false
-            },
-            {
-              "text": "590 12s PCB+ivt",
-              "done": false
-            }
-          ],
-          "total": 4,
-          "done": 0,
-          "open": 4
-        }
-      },
+      "vehicle": null,
       "clickup_match": {
         "found": false,
-        "error": "no_match"
+        "error": "no_vehicle"
       },
       "assignees": []
     },
@@ -465,35 +289,8 @@
       "owner": "Nolan",
       "vehicle": {
         "owner": "Nolan",
-        "year": 1970,
-        "color": "",
-        "make": "",
-        "model": "Challenger",
-        "status": "Fabrication",
-        "checkout": 16.2,
-        "sub_metrics": [
-          {
-            "label": "BMS",
-            "value": 97.2
-          },
-          {
-            "label": "Inverter",
-            "value": 0
-          },
-          {
-            "label": "PMU",
-            "value": 0
-          },
-          {
-            "label": "Raptor",
-            "value": 0
-          },
-          {
-            "label": "Functional",
-            "value": 0
-          }
-        ],
-        "system": "Ampere"
+        "checkout": 0,
+        "placeholder": true
       },
       "clickup_match": {
         "found": true,
@@ -700,94 +497,8 @@
       "owner": "Teague",
       "vehicle": {
         "owner": "Teague",
-        "year": 1962,
-        "color": "Black",
-        "make": "Jaguar",
-        "model": "Jaguar",
-        "status": "Testing",
-        "checkout": 100,
-        "sub_metrics": [
-          {
-            "label": "BMS",
-            "value": 97.2
-          },
-          {
-            "label": "Inverter",
-            "value": 93.5
-          },
-          {
-            "label": "PMU",
-            "value": 0
-          },
-          {
-            "label": "Raptor",
-            "value": 83.6
-          },
-          {
-            "label": "Functional",
-            "value": 25.0
-          }
-        ],
-        "system": "Ampere",
-        "punchlist": {
-          "items": [
-            {
-              "text": "Missing Build Photos",
-              "done": false
-            },
-            {
-              "text": "Missing Polarity Label",
-              "done": true
-            },
-            {
-              "text": "Test Box Fail - There's something making the test box \"PWR/CAN\" fail, moved on but will circle back to troubleshoot.",
-              "done": true
-            },
-            {
-              "text": "Missing Build Photos",
-              "done": false
-            },
-            {
-              "text": "Missing Polarity Label",
-              "done": true
-            },
-            {
-              "text": "Incorrect Contactor Orientation",
-              "done": true
-            },
-            {
-              "text": "2026-08-07: The customer credentials need to be put into the wifi logger.",
-              "done": false
-            },
-            {
-              "text": "2026-08-07: Fast charging needs to be tested.",
-              "done": false
-            },
-            {
-              "text": "2026-08-07: A full 'overnight' charge needs to be completed and then the Ampere BMS diagnostic report ran + analyzed.\n2026-08-13: There was a long charge earlier today, should be safe to pull the logs.",
-              "done": false
-            },
-            {
-              "text": "2026-07-29: Figure out the correct VCU settings for a 450V vehicle. OBC, DCDC, precharge resistor, etc.",
-              "done": false
-            },
-            {
-              "text": "2026-08-11: There's a flashing \"CHARGE\" light on the analog gauges wihile nothing shows on the digital dash.\n2026-08-13: Dave says SOC was ~9% so the pack was low. Indication between Ampere and Peterson simply do not match. This is resolved.",
-              "done": true
-            },
-            {
-              "text": "2026-08-xx: The compressor makes a clicking sound every ~30 seconds when HV is powered up but the LV is turnes off.\n2026-08-13: Resolved. The problem just went away. Probably something about a refrigerant bubble.",
-              "done": true
-            },
-            {
-              "text": "2026-08-10: The battery type is set incorrectly in the vehicle.\n2026-08-11: Resolved. Corrected to ID4 to match the vehicle.",
-              "done": true
-            }
-          ],
-          "total": 13,
-          "done": 7,
-          "open": 6
-        }
+        "checkout": 0,
+        "placeholder": true
       },
       "clickup_match": {
         "found": true,
@@ -799,5 +510,5 @@
       "assignees": []
     }
   ],
-  "generated_at": "2026-11-26T11:02:19Z"
+  "generated_at": "2026-11-26T11:17:23Z"
 }
