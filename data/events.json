@@ -35,7 +35,7 @@
         {
           "date": "2026-11-26",
           "day_name": "Thursday",
-          "is_today": true,
+          "is_today": false,
           "is_weekend": false,
           "events": [
             {
@@ -53,11 +53,16 @@
         {
           "date": "2026-11-27",
           "day_name": "Friday",
-          "is_today": false,
+          "is_today": true,
           "is_weekend": false,
           "events": [
             {
-              "summary": "Billy A Out",
+              "summary": "Marc Out",
+              "type": "pto",
+              "all_day": true
+            },
+            {
+              "summary": "Devin D Out",
               "type": "pto",
               "all_day": true
             },
@@ -72,17 +77,12 @@
               "all_day": true
             },
             {
-              "summary": "Marc Out",
-              "type": "pto",
-              "all_day": true
-            },
-            {
               "summary": "Ryan L Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Devin D Out",
+              "summary": "Billy A Out",
               "type": "pto",
               "all_day": true
             }
@@ -296,5 +296,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-26T23:46:51Z"
+  "generated_at": "2026-11-27T00:06:10Z"
 }
