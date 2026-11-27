@@ -62,17 +62,12 @@
               "all_day": true
             },
             {
+              "summary": "Devin D Out",
+              "type": "pto",
+              "all_day": true
+            },
+            {
               "summary": "Marc Out",
-              "type": "pto",
-              "all_day": true
-            },
-            {
-              "summary": "Dave W Out",
-              "type": "pto",
-              "all_day": true
-            },
-            {
-              "summary": "Aharon A Out",
               "type": "pto",
               "all_day": true
             },
@@ -82,7 +77,12 @@
               "all_day": true
             },
             {
-              "summary": "Devin D Out",
+              "summary": "Aharon A Out",
+              "type": "pto",
+              "all_day": true
+            },
+            {
+              "summary": "Dave W Out",
               "type": "pto",
               "all_day": true
             }
@@ -296,5 +296,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-27T02:46:30Z"
+  "generated_at": "2026-11-27T03:03:46Z"
 }
