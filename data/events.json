@@ -57,17 +57,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Dave W Out",
+              "summary": "Aharon A Out",
               "type": "pto",
               "all_day": true
             },
             {
               "summary": "Billy A Out",
-              "type": "pto",
-              "all_day": true
-            },
-            {
-              "summary": "Aharon A Out",
               "type": "pto",
               "all_day": true
             },
@@ -83,6 +78,11 @@
             },
             {
               "summary": "Devin D Out",
+              "type": "pto",
+              "all_day": true
+            },
+            {
+              "summary": "Dave W Out",
               "type": "pto",
               "all_day": true
             }
@@ -296,5 +296,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-27T03:46:52Z"
+  "generated_at": "2026-11-27T04:03:23Z"
 }
