@@ -2,8 +2,8 @@
   "helpers": [
     {
       "project": "Hopkins 65 Silver Cloud",
-      "total_hours": 134.2,
-      "pct_of_total": 12.1,
+      "total_hours": 135.2,
+      "pct_of_total": 12.0,
       "tasks": [
         {
           "task": "Manufacture Core -Drivetrain Mounts",
@@ -82,15 +82,19 @@
           "hours": 1.5
         },
         {
-          "task": "Engineer Core - Component Mounting Plates",
-          "hours": 1.0
-        },
-        {
           "task": "Terminate phase leads",
           "hours": 1.0
         },
         {
+          "task": "Engineer Core - Component Mounting Plates",
+          "hours": 1.0
+        },
+        {
           "task": "Install radiator assembly",
+          "hours": 1.0
+        },
+        {
+          "task": "Scan hydraulic ran mounts",
           "hours": 1.0
         }
       ]
@@ -98,7 +102,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 121.8,
-      "pct_of_total": 10.9,
+      "pct_of_total": 10.8,
       "tasks": [
         {
           "task": "Manufacture Product - VC Harness",
@@ -141,7 +145,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 96.0,
-      "pct_of_total": 8.6,
+      "pct_of_total": 8.5,
       "tasks": [
         {
           "task": "Manufacture Product - VC Harness",
@@ -196,11 +200,11 @@
           "hours": 2.0
         },
         {
-          "task": "Fill transmission & diff",
+          "task": "Final install components",
           "hours": 2.0
         },
         {
-          "task": "Final install components",
+          "task": "Fill transmission & diff",
           "hours": 2.0
         },
         {
@@ -227,7 +231,7 @@
     },
     {
       "project": "Nolan 70 Challenger",
-      "total_hours": 70.2,
+      "total_hours": 71.0,
       "pct_of_total": 6.3,
       "tasks": [
         {
@@ -247,12 +251,12 @@
           "hours": 6.0
         },
         {
-          "task": "Start up vehicle",
-          "hours": 5.0
+          "task": "Perform Safety Inspection",
+          "hours": 5.5
         },
         {
-          "task": "Perform Safety Inspection",
-          "hours": 4.8
+          "task": "Start up vehicle",
+          "hours": 5.0
         },
         {
           "task": "Install interior",
@@ -310,7 +314,7 @@
     },
     {
       "project": "ICON Philbrick 41838",
-      "total_hours": 62.2,
+      "total_hours": 63.0,
       "pct_of_total": 5.6,
       "tasks": [
         {
@@ -398,6 +402,10 @@
           "hours": 1.0
         },
         {
+          "task": "Manufacture Core - AC Compressor Mount",
+          "hours": 0.8
+        },
+        {
           "task": "Manufacture Product - IMD Box",
           "hours": 0.8
         },
@@ -406,7 +414,7 @@
           "hours": 0.8
         },
         {
-          "task": "Manufacture Core - AC Compressor Mount",
+          "task": "Manufacture Product - HV Junction Box",
           "hours": 0.8
         },
         {
@@ -425,8 +433,8 @@
     },
     {
       "project": "Richardson 72 240Z",
-      "total_hours": 61.0,
-      "pct_of_total": 5.5,
+      "total_hours": 61.2,
+      "pct_of_total": 5.4,
       "tasks": [
         {
           "task": "Install rear end & axles",
@@ -442,7 +450,7 @@
         },
         {
           "task": "Manufacture Product - Front Batt Box",
-          "hours": 7.0
+          "hours": 7.2
         },
         {
           "task": "Manufacture Product - Rear Batt Box",
@@ -473,7 +481,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 58.5,
-      "pct_of_total": 5.3,
+      "pct_of_total": 5.2,
       "tasks": [
         {
           "task": "Facilitate paint work",
@@ -547,7 +555,7 @@
     },
     {
       "project": "LB 82 911",
-      "total_hours": 38.5,
+      "total_hours": 39.0,
       "pct_of_total": 3.5,
       "tasks": [
         {
@@ -583,19 +591,19 @@
           "hours": 1.5
         },
         {
-          "task": "Start up vehicle",
-          "hours": 1.2
+          "task": "Perform Safety Inspection",
+          "hours": 1.5
         },
         {
-          "task": "Install frunk light",
-          "hours": 1.0
+          "task": "Start up vehicle",
+          "hours": 1.2
         },
         {
           "task": "Configure HVAC settings",
           "hours": 1.0
         },
         {
-          "task": "Perform Safety Inspection",
+          "task": "Install frunk light",
           "hours": 1.0
         },
         {
@@ -658,7 +666,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 36.5,
-      "pct_of_total": 3.3,
+      "pct_of_total": 3.2,
       "tasks": [
         {
           "task": "Checkout vehicle",
@@ -696,20 +704,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 190.0,
-    "pct_of_total": 17.1,
-    "avg_per_person_per_day": 1.19,
+    "total_hours": 192.0,
+    "pct_of_total": 17.0,
+    "avg_per_person_per_day": 1.2,
     "flagged": true,
     "tech_count": 8,
     "working_days": 20,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 75.5
+        "hours": 76.5
       },
       {
         "label": "Shop Meetings",
-        "hours": 65.2
+        "hours": 66.0
       },
       {
         "label": "Organization",
@@ -721,7 +729,7 @@
       },
       {
         "label": "Other",
-        "hours": 10.0
+        "hours": 10.2
       },
       {
         "label": "Errands",
@@ -772,7 +780,7 @@
     {
       "project": "Barton 59 Impala",
       "total_hours": 18.5,
-      "pct_of_total": 1.7,
+      "pct_of_total": 1.6,
       "tasks": [
         {
           "task": "Address Suspension PDI findings",
@@ -807,7 +815,7 @@
     {
       "project": "Kelly 63 Corvette",
       "total_hours": 11.8,
-      "pct_of_total": 1.1,
+      "pct_of_total": 1.0,
       "tasks": [
         {
           "task": "Perform PDI",
@@ -876,10 +884,10 @@
     "min_hours": 1.0
   },
   "totals": {
-    "billable_hours": 855.5,
-    "non_billable_hours": 257.0,
-    "pto_hours": 2.0,
-    "total_hours": 1112.5
+    "billable_hours": 869.5,
+    "non_billable_hours": 259.0,
+    "pto_hours": 10.0,
+    "total_hours": 1128.5
   },
-  "generated_at": "2026-11-28T05:46:54Z"
+  "generated_at": "2026-11-28T06:04:00Z"
 }
