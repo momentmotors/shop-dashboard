@@ -57,7 +57,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Marc Out",
+              "summary": "Billy A Out",
+              "type": "pto",
+              "all_day": true
+            },
+            {
+              "summary": "Aharon A Out",
               "type": "pto",
               "all_day": true
             },
@@ -67,22 +72,17 @@
               "all_day": true
             },
             {
-              "summary": "Dave W Out",
-              "type": "pto",
-              "all_day": true
-            },
-            {
-              "summary": "Billy A Out",
-              "type": "pto",
-              "all_day": true
-            },
-            {
               "summary": "Ryan L Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Aharon A Out",
+              "summary": "Marc Out",
+              "type": "pto",
+              "all_day": true
+            },
+            {
+              "summary": "Dave W Out",
               "type": "pto",
               "all_day": true
             }
@@ -144,12 +144,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Dave W Out",
+              "summary": "Brandon B Half Day",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Brandon B Half Day",
+              "summary": "Dave W Out",
               "type": "pto",
               "all_day": true
             }
@@ -296,5 +296,5 @@
       ]
     }
   ],
-  "generated_at": "2026-11-28T12:46:56Z"
+  "generated_at": "2026-11-28T13:02:12Z"
 }
