@@ -196,11 +196,11 @@
           "hours": 2.0
         },
         {
-          "task": "Final install components",
+          "task": "Fill transmission & diff",
           "hours": 2.0
         },
         {
-          "task": "Fill transmission & diff",
+          "task": "Final install components",
           "hours": 2.0
         },
         {
@@ -378,11 +378,11 @@
           "hours": 1.5
         },
         {
-          "task": "Manufacture Core - Radiator Mounts",
+          "task": "Manufacture Support - Control Module Assembly",
           "hours": 1.0
         },
         {
-          "task": "Manufacture Support - Control Module Assembly",
+          "task": "Manufacture Core - Radiator Mounts",
           "hours": 1.0
         },
         {
@@ -398,15 +398,15 @@
           "hours": 1.0
         },
         {
-          "task": "Manufacture Core - AC Compressor Mount",
-          "hours": 0.8
-        },
-        {
           "task": "Manufacture Product - IMD Box",
           "hours": 0.8
         },
         {
           "task": "Manufacture Product - CCS Disconnect Box",
+          "hours": 0.8
+        },
+        {
+          "task": "Manufacture Core - AC Compressor Mount",
           "hours": 0.8
         },
         {
@@ -881,5 +881,5 @@
     "pto_hours": 2.0,
     "total_hours": 1112.5
   },
-  "generated_at": "2026-11-27T23:46:57Z"
+  "generated_at": "2026-11-28T00:05:38Z"
 }
